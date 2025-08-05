@@ -1,0 +1,101 @@
+# HRV Research Search Keywords Configuration
+# 
+# This file defines search terms and strategies for automated HRV research
+# paper discovery. It demonstrates configuration-driven functionality that
+# allows researchers to customize search behavior without code changes.
+#
+# Educational Notes:
+# - YAML format for human-readable configuration
+# - Hierarchical organization of search terms
+# - Multiple search strategies for different research focuses
+# - Extensible structure for adding new keyword categories
+
+# Primary HRV research terms - core concepts and measurements
+hrv_core_terms:
+  - "heart rate variability"
+  - "HRV"
+  - "R-R interval"
+  - "RR interval" 
+  - "RMSSD"
+  - "pNN50"
+  - "SDNN"
+  - "frequency domain analysis"
+  - "time domain analysis"
+  - "Poincaré plot"
+
+# Medical conditions and populations of interest
+medical_conditions:
+  - "traumatic brain injury"
+  - "TBI"
+  - "concussion"
+  - "cardiovascular disease"
+  - "diabetes"
+  - "hypertension"
+  - "anxiety"
+  - "depression"
+  - "PTSD"
+  - "sleep disorders"
+
+# Research methodologies and technologies
+methodologies:
+  - "ECG"
+  - "electrocardiogram"
+  - "photoplethysmography"
+  - "PPG"
+  - "Apple Watch"
+  - "wearable devices"
+  - "continuous monitoring"
+  - "biomarker"
+  - "machine learning"
+  - "artificial intelligence"
+
+# Clinical applications and outcomes
+clinical_applications:
+  - "risk stratification"
+  - "prognosis"
+  - "treatment monitoring"
+  - "rehabilitation"
+  - "stress assessment"
+  - "autonomic function"
+  - "cardiac autonomic neuropathy"
+  - "sudden cardiac death"
+
+# Search strategies - different approaches for different research goals
+search_strategies:
+  broad_hrv_research:
+    description: "Comprehensive HRV research across all domains"
+    required_terms: ["heart rate variability"]
+    optional_terms: ["HRV", "R-R interval", "RMSSD", "SDNN"]
+    max_results: 50
+    
+  tbi_focused:
+    description: "HRV research specifically related to traumatic brain injury"
+    required_terms: ["heart rate variability", "TBI"]
+    alternative_terms: ["traumatic brain injury", "concussion"]
+    max_results: 30
+    
+  wearable_technology:
+    description: "HRV research using wearable devices and continuous monitoring"
+    required_terms: ["heart rate variability"]
+    technology_terms: ["Apple Watch", "wearable", "continuous monitoring", "PPG"]
+    max_results: 40
+    
+  clinical_applications:
+    description: "HRV research focused on clinical outcomes and applications"
+    required_terms: ["heart rate variability"]
+    clinical_terms: ["prognosis", "risk stratification", "treatment", "biomarker"]
+    max_results: 35
+
+# Configuration for search behavior
+search_configuration:
+  default_strategy: "broad_hrv_research"
+  citation_threshold: 5  # Minimum citations for inclusion
+  publication_date_range:
+    start_year: 2015
+    end_year: 2025
+  exclude_terms:
+    - "animal study"
+    - "rat model"
+    - "mouse model"
+  include_preprints: true
+  max_concurrent_searches: 3
