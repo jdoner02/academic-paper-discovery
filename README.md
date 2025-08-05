@@ -55,6 +55,31 @@ pytest
 pytest --cov=src --cov-report=html
 ```
 
+### Quick Start
+
+The system includes a command-line interface for immediate use:
+
+```bash
+# List available search strategies
+python3 search_hrv.py --list-strategies
+
+# Search using a predefined strategy with sample data
+python3 search_hrv.py --source sample --strategy broad_hrv_research --limit 5
+
+# Search real arXiv papers
+python3 search_hrv.py --source arxiv --strategy tbi_focused --limit 10
+
+# Custom search with keywords
+python3 search_hrv.py --custom "heart rate variability" "Apple Watch" --limit 5
+
+# Download papers (arXiv source only)
+python3 search_hrv.py --source arxiv --custom HRV ECG --download --limit 3
+```
+
+### Configuration
+
+Search strategies are defined in `config/search_keywords.yaml` and can be customized for your research needs.
+
 ### Development Setup
 
 ```bash
