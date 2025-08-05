@@ -65,7 +65,7 @@ class TestResearchPaperCreation:
             publication_date=sample_publication_date,
             doi=doi,
             arxiv_id=arxiv_id,
-            url=url
+            url=url,
         )
 
         # Assert - Verify the paper was created correctly
@@ -80,7 +80,7 @@ class TestResearchPaperCreation:
     def test_create_paper_with_minimal_required_fields(self, sample_publication_date):
         """
         Test creating a ResearchPaper with only required fields.
-        
+
         This test helps us identify what fields are truly required
         versus optional for our domain model.
         """
@@ -88,15 +88,15 @@ class TestResearchPaperCreation:
         title = "Minimal HRV Study"
         authors = ["Dr. Test Author"]
         doi = "10.1000/minimal.2024"
-        
+
         # Act - Create paper with minimal fields
         paper = ResearchPaper(
             title=title,
             authors=authors,
             publication_date=sample_publication_date,
-            doi=doi
+            doi=doi,
         )
-        
+
         # Assert - Verify required fields are set and optional fields have defaults
         assert paper.title == title
         assert paper.authors == authors
@@ -106,30 +106,32 @@ class TestResearchPaperCreation:
         assert paper.arxiv_id is None  # Default value
         assert paper.citation_count == 0  # Default value
 
-    def test_reject_paper_with_empty_title(self, sample_authors, sample_publication_date):
+    def test_reject_paper_with_empty_title(
+        self, sample_authors, sample_publication_date
+    ):
         """
         Test that papers with empty titles are rejected.
-        
+
         Business Rule: Every research paper must have a meaningful title.
         This is a domain invariant that should always be enforced.
         """
         # Arrange - empty title
         empty_title = ""
         doi = "10.1000/empty.title"
-        
+
         # Act & Assert - Should raise ValueError
         with pytest.raises(ValueError, match="non-empty title"):
             ResearchPaper(
                 title=empty_title,
                 authors=sample_authors,
                 publication_date=sample_publication_date,
-                doi=doi
+                doi=doi,
             )
 
     def test_reject_paper_with_no_authors(self, sample_publication_date):
         """
         Test that papers without authors are rejected.
-        
+
         Business Rule: Every research paper must have at least one author.
         Anonymous papers are not valid in academic contexts.
         """
@@ -137,20 +139,20 @@ class TestResearchPaperCreation:
         title = "A Paper With No Authors"
         empty_authors = []
         doi = "10.1000/no.authors"
-        
+
         # Act & Assert - Should raise ValueError
         with pytest.raises(ValueError, match="at least one author"):
             ResearchPaper(
                 title=title,
                 authors=empty_authors,
                 publication_date=sample_publication_date,
-                doi=doi
+                doi=doi,
             )
 
     def test_reject_paper_with_future_publication_date(self, sample_authors):
         """
         Test that papers with future publication dates are rejected.
-        
+
         Business Rule: Papers cannot be published in the future.
         This prevents data entry errors and ensures data integrity.
         """
@@ -158,14 +160,14 @@ class TestResearchPaperCreation:
         title = "Paper From The Future"
         future_date = datetime(2030, 1, 1, tzinfo=timezone.utc)
         doi = "10.1000/future.paper"
-        
+
         # Act & Assert - Should raise ValueError
         with pytest.raises(ValueError, match="cannot be in the future"):
             ResearchPaper(
                 title=title,
                 authors=sample_authors,
                 publication_date=future_date,
-                doi=doi
+                doi=doi,
             )
 
 
@@ -178,32 +180,34 @@ class TestResearchPaperBehavior:
     - Behavior tests focus on what the object does, not just what it contains
     """
 
-    def test_paper_equality_based_on_identity(self, sample_authors, sample_publication_date):
+    def test_paper_equality_based_on_identity(
+        self, sample_authors, sample_publication_date
+    ):
         """
         Test that papers are equal if they have the same identity (DOI or ArXiv ID).
-        
+
         Business Rule: Papers with the same DOI or ArXiv ID are the same paper,
         even if other metadata differs (different versions, etc.).
         """
         # Arrange - two papers with same DOI but different metadata
         doi = "10.1000/same.paper"
-        
+
         paper1 = ResearchPaper(
             title="Original Title",
             authors=["Author One"],
             publication_date=sample_publication_date,
             doi=doi,
-            abstract="Original abstract"
+            abstract="Original abstract",
         )
-        
+
         paper2 = ResearchPaper(
             title="Updated Title",
             authors=["Author One", "Author Two"],  # Different authors
             publication_date=sample_publication_date,
             doi=doi,  # Same DOI
-            abstract="Updated abstract"  # Different abstract
+            abstract="Updated abstract",  # Different abstract
         )
-        
+
         # Act & Assert - Papers should be equal based on identity
         assert paper1 == paper2
         assert hash(paper1) == hash(paper2)  # Hash consistency
@@ -211,7 +215,7 @@ class TestResearchPaperBehavior:
     def test_paper_string_representation(self, sample_authors, sample_publication_date):
         """
         Test that papers have a useful string representation.
-        
+
         Educational Note:
         - Good __str__ methods make debugging easier
         - Should include key identifying information
@@ -219,26 +223,28 @@ class TestResearchPaperBehavior:
         # Arrange
         title = "A Study of Heart Rate Variability in Athletes"
         doi = "10.1000/athlete.hrv"
-        
+
         paper = ResearchPaper(
             title=title,
             authors=sample_authors,
             publication_date=sample_publication_date,
-            doi=doi
+            doi=doi,
         )
-        
+
         # Act
         str_repr = str(paper)
-        
+
         # Assert - Should contain key information
         assert "Heart Rate Variability" in str_repr
         assert "Dr. Jane Smith" in str_repr  # First author from fixture
         assert "2024" in str_repr  # Publication year
 
-    def test_paper_is_hrv_relevant(self, sample_authors, sample_publication_date, hrv_keywords):
+    def test_paper_is_hrv_relevant(
+        self, sample_authors, sample_publication_date, hrv_keywords
+    ):
         """
         Test detection of HRV-relevant papers.
-        
+
         Business Rule: Papers are HRV-relevant if they contain specific
         keywords in title or abstract. This is core domain logic.
         """
@@ -246,37 +252,37 @@ class TestResearchPaperBehavior:
         title = "Analysis of Heart Rate Variability in Clinical Settings"
         abstract = "We studied HRV patterns using ECG monitoring in 100 patients."
         doi = "10.1000/hrv.study"
-        
+
         paper = ResearchPaper(
             title=title,
             authors=sample_authors,
             publication_date=sample_publication_date,
             doi=doi,
-            abstract=abstract
+            abstract=abstract,
         )
-        
+
         # Act & Assert
         assert paper.is_hrv_relevant() is True
 
     def test_paper_is_not_hrv_relevant(self, sample_authors, sample_publication_date):
         """
         Test that non-HRV papers are correctly identified.
-        
+
         This ensures our relevance detection doesn't have false positives.
         """
         # Arrange - paper without HRV content
         title = "Machine Learning Applications in Software Engineering"
         abstract = "This paper discusses neural networks for code optimization."
         doi = "10.1000/ml.software"
-        
+
         paper = ResearchPaper(
             title=title,
             authors=sample_authors,
             publication_date=sample_publication_date,
             doi=doi,
-            abstract=abstract
+            abstract=abstract,
         )
-        
+
         # Act & Assert
         assert paper.is_hrv_relevant() is False
 
@@ -293,21 +299,21 @@ class TestResearchPaperEdgeCases:
     def test_paper_with_very_long_title(self, sample_authors, sample_publication_date):
         """
         Test handling of extremely long titles.
-        
+
         Should we truncate? Reject? This test helps us decide.
         """
         # Arrange - very long title
         long_title = "A" * 300  # 300 character title
         doi = "10.1000/long.title"
-        
+
         # Act - Should handle long titles gracefully
         paper = ResearchPaper(
             title=long_title,
             authors=sample_authors,
             publication_date=sample_publication_date,
-            doi=doi
+            doi=doi,
         )
-        
+
         # Assert - Title should be preserved as-is
         assert paper.title == long_title
         assert len(paper.title) == 300
@@ -315,65 +321,67 @@ class TestResearchPaperEdgeCases:
     def test_paper_with_unicode_characters(self, sample_publication_date):
         """
         Test handling of international characters in metadata.
-        
+
         Academic papers often contain special characters, accents, etc.
         """
         # Arrange - paper with unicode characters
         title = "Étude de la variabilité du rythme cardiaque chez les athlètes"
         authors = ["Dr. François Müller", "Prof. José García-López"]
         doi = "10.1000/unicode.test"
-        
+
         # Act
         paper = ResearchPaper(
             title=title,
             authors=authors,
             publication_date=sample_publication_date,
-            doi=doi
+            doi=doi,
         )
-        
+
         # Assert - Should handle unicode correctly
         assert paper.title == title
         assert paper.authors == authors
         assert "François" in paper.authors[0]
         assert "José" in paper.authors[1]
 
-    def test_reject_paper_without_identity_fields(self, sample_authors, sample_publication_date):
+    def test_reject_paper_without_identity_fields(
+        self, sample_authors, sample_publication_date
+    ):
         """
         Test that papers without DOI or ArXiv ID are rejected.
-        
+
         Business Rule: Papers need proper identification for deduplication.
         """
         # Arrange - paper without DOI or ArXiv ID
         title = "Paper Without Identity"
-        
+
         # Act & Assert - Should raise ValueError
         with pytest.raises(ValueError, match="either DOI or ArXiv ID"):
             ResearchPaper(
                 title=title,
                 authors=sample_authors,
-                publication_date=sample_publication_date
+                publication_date=sample_publication_date,
                 # No DOI or ArXiv ID provided
             )
 
     def test_paper_with_missing_abstract(self, sample_authors, sample_publication_date):
         """
         Test handling of papers without abstracts.
-        
+
         Some papers (especially older ones) might not have abstracts.
         """
         # Arrange - paper without abstract (using default empty string)
         title = "A Paper Without Abstract"
         doi = "10.1000/no.abstract"
-        
+
         # Act
         paper = ResearchPaper(
             title=title,
             authors=sample_authors,
             publication_date=sample_publication_date,
-            doi=doi
+            doi=doi,
             # No abstract provided - should use default
         )
-        
+
         # Assert
         assert paper.abstract == ""
         # Should still be able to check HRV relevance (won't match due to empty abstract)
