@@ -27,8 +27,8 @@ Repository Pattern Benefits:
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from domain.entities.research_paper import ResearchPaper
-from domain.value_objects.search_query import SearchQuery
+from src.domain.entities.research_paper import ResearchPaper
+from src.domain.value_objects.search_query import SearchQuery
 
 
 class PaperRepositoryPort(ABC):

@@ -31,7 +31,7 @@ from pathlib import Path
 from typing import List, Optional, Dict, Callable
 from datetime import datetime, timezone
 
-from domain.entities.research_paper import ResearchPaper
+from src.domain.entities.research_paper import ResearchPaper
 
 
 class PaperDownloadService:

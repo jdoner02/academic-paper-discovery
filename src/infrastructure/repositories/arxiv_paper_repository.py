@@ -30,9 +30,9 @@ import feedparser
 from typing import List, Optional, Dict
 from datetime import datetime, timezone
 
-from application.ports.paper_repository_port import PaperRepositoryPort
-from domain.entities.research_paper import ResearchPaper
-from domain.value_objects.search_query import SearchQuery
+from src.application.ports.paper_repository_port import PaperRepositoryPort
+from src.domain.entities.research_paper import ResearchPaper
+from src.domain.value_objects.search_query import SearchQuery
 
 
 class ArxivPaperRepository(PaperRepositoryPort):

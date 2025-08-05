@@ -7,7 +7,7 @@ name = "hrv-research-aggregator"
 version = "0.1.0"
 description = "A clean architecture system for aggregating Heart Rate Variability research papers"
 authors = [
-    {name = "HRV Research Team", email = "research@example.com"}
+    {name = "Jessica Doner", email = "jessica@jessicadoner.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9"
@@ -26,6 +26,8 @@ dependencies = [
     "pydantic>=2.0.0",
     "python-dateutil>=2.8.2",
     "typing-extensions>=4.0.0",
+    "feedparser>=6.0.0",
+    "PyYAML>=6.0.0",
 ]
 
 [project.optional-dependencies]
@@ -46,9 +48,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/hrv-research-aggregator"
-Repository = "https://github.com/yourusername/hrv-research-aggregator"
-Issues = "https://github.com/yourusername/hrv-research-aggregator/issues"
+Homepage = "https://github.com/jessicadoner/hrv-research-aggregator"
+Repository = "https://github.com/jessicadoner/hrv-research-aggregator"
+Issues = "https://github.com/jessicadoner/hrv-research-aggregator/issues"
+Documentation = "https://github.com/jessicadoner/hrv-research-aggregator#readme"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

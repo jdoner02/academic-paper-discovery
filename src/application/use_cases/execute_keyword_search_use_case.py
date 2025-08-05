@@ -2,10 +2,10 @@
 Execute Keyword Searcfrom typing import List, Optional
 from pathlib import Path
 
-from application.ports.paper_repository_port import PaperRepositoryPort
-from domain.entities.research_paper import ResearchPaper
-from domain.value_objects.search_query import SearchQuery
-from domain.value_objects.keyword_config import KeywordConfig, SearchStrategyase - Application layer orchestration for keyword-based searches.
+from src.application.ports.paper_repository_port import PaperRepositoryPort
+from src.domain.entities.research_paper import ResearchPaper
+from src.domain.value_objects.search_query import SearchQuery
+from src.domain.value_objects.keyword_config import KeywordConfig, SearchStrategyase - Application layer orchestration for keyword-based searches.
 
 This use case demonstrates how to orchestrate domain objects and repository operations
 to implement keyword-based search functionality. It shows the Application layer's
@@ -32,10 +32,10 @@ Use Cases:
 from typing import List, Optional
 from pathlib import Path
 
-from application.ports.paper_repository_port import PaperRepositoryPort
-from domain.entities.research_paper import ResearchPaper
-from domain.value_objects.search_query import SearchQuery
-from domain.value_objects.keyword_config import KeywordConfig, SearchStrategy
+from src.application.ports.paper_repository_port import PaperRepositoryPort
+from src.domain.entities.research_paper import ResearchPaper
+from src.domain.value_objects.search_query import SearchQuery
+from src.domain.value_objects.keyword_config import KeywordConfig, SearchStrategy
 
 
 class ExecuteKeywordSearchUseCase:
