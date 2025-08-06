@@ -10,19 +10,20 @@ tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFile
 ### **CURRENT PROJECT LOCATION**
 **Absolute Path**: `/Users/jessicadoner/Projects/research-papers/research-paper-discovery-web/`
 
-### **CURRENT DEVELOPMENT STATUS** ✅ DOMAIN LAYER COMPLETE
+### **CURRENT DEVELOPMENT STATUS** ✅ APPLICATION LAYER STARTED
 ✅ **TDD Cycle 1 COMPLETE**: Paper Entity (8/8 tests passing)
 ✅ **TDD Cycle 2 COMPLETE**: ConceptNode Entity (21/21 tests passing) 
+✅ **TDD Cycle 3 IN PROGRESS**: ExtractConceptsUseCase started (4/4 tests passing)
 ✅ **Infrastructure Setup**: GitHub Actions CI/CD workflow configured
 ✅ **Next.js Foundation**: TypeScript, Jest, D3.js dependencies installed
 ✅ **GitHub Pages**: Ready for deployment with automated workflow
-⏳ **Next Priority**: TDD Cycle 3 - Application Layer Use Cases
-❌ **Not Started**: D3.js visualization, UI components
+⏳ **Next Priority**: Complete ExtractConceptsUseCase, add UI components
+❌ **Not Started**: D3.js visualization, infrastructure implementations
 
 ### **VERIFIED TEST SUITE STATUS** ✅
 ```bash
-Test Suites: 2 passed, 2 total
-Tests:       29 passed, 29 total
+Test Suites: 3 passed, 3 total
+Tests:       33 passed, 33 total
 Snapshots:   0 total
 ```
 
@@ -36,14 +37,17 @@ Snapshots:   0 total
 │       └── ci-cd.yml                            # ✅ CI/CD pipeline
 ├── .ai_development/
 │   ├── project_status.md                        # ✅ Current project status
-│   └── session_2025_08_05/
-│       ├── current_state_and_next_steps.md
-│       └── state_assessment_and_cleanup.md     # ✅ Latest session log
+│   ├── session_2025_08_05/
+│   │   ├── current_state_and_next_steps.md
+│   │   └── state_assessment_and_cleanup.md     # ✅ Previous session log
+│   └── session_2025_08_06/
+│       └── successful_application_layer_development.md  # ✅ Latest session log
 ├── .next/                                       # Next.js build output
-├── tests/                                       # ✅ Jest test files (NOT __tests__)
+├── tests/                                       # ✅ Jest test files
 │   ├── unit/
 │   │   ├── paper.entity.test.ts                # ✅ 8 tests passing
-│   │   └── concept-node.entity.test.ts         # ✅ 21 tests passing
+│   │   ├── concept-node.entity.test.ts         # ✅ 21 tests passing
+│   │   └── extract-concepts-use-case.test.ts   # ✅ 4 tests passing (NEW)
 │   ├── future-integration/                     # Integration tests for future use
 │   │   ├── extract-concepts-use-case.test.ts
 │   │   └── ExtractConceptsUseCase.test.ts
@@ -60,12 +64,13 @@ Snapshots:   0 total
 │   │   └── value_objects/
 │   │       ├── EmbeddingVector.ts              # ✅ Supporting value object
 │   │       └── EvidenceSentence.ts             # ✅ Supporting value object  
-│   ├── application/                            # ⏳ NEXT - Application Layer
+│   ├── application/                            # ⏳ IN PROGRESS - Application Layer
 │   │   ├── ports/                              # ✅ Abstract interfaces
 │   │   │   ├── PaperRepositoryPort.ts
 │   │   │   ├── ConceptRepositoryPort.ts  
 │   │   │   └── EmbeddingServicePort.ts
-│   │   └── use_cases/                          # ❌ EMPTY - TDD Cycle 3 target
+│   │   └── use_cases/                          # ⏳ IN PROGRESS - TDD Cycle 3
+│   │       └── ExtractConceptsUseCase.ts       # ✅ 4 tests passing
 │   ├── infrastructure/                         # ❌ EMPTY - Future implementations
 │   │   ├── adapters/                           # External service integrations
 │   │   └── repositories/                       # Data access implementations
@@ -163,37 +168,37 @@ src/interface/
 
 ## IMMEDIATE NEXT STEPS - CLEAR PRIORITY ORDER
 
-### **Step 1: TDD Cycle 2 - ConceptNode Entity** ⏳ HIGHEST PRIORITY
-**Target File**: `/Users/jessicadoner/Projects/research-papers/research-paper-discovery-web/src/domain/entities/ConceptNode.ts`
-**Test File**: `/Users/jessicadoner/Projects/research-papers/research-paper-discovery-web/__tests__/ConceptNode.test.ts`
+### **Step 1: Fix Build and Deploy** ⏳ IMMEDIATE PRIORITY  
+**Issue**: Next.js production build fails with webpack module resolution errors
+**Status**: Development mode works, production build needs debugging
+**Goal**: Get working demo deployed to GitHub Pages
 
-**Required Tests (RED PHASE)**:
-1. ConceptNode creation with hierarchical properties
-2. Parent/child relationship management
-3. Evidence sentence collection and weighting
-4. Semantic similarity calculations
-5. Identity and equality behavior
-6. Hierarchical position tracking
+**Commands to Debug**:
+```bash
+npm run dev     # ✅ Works - development server
+npm run build   # ❌ Fails - webpack module resolution
+npm test        # ✅ Works - 33/33 tests passing
+```
 
-**Implementation Requirements (GREEN PHASE)**:
-- Unique identifier generation
-- Parent/child bidirectional relationships
-- Evidence sentence aggregation
-- Embedding vector integration
-- Position tracking in hierarchy
+**Next Actions**:
+1. Fix Next.js build configuration issues
+2. Test static export functionality  
+3. Deploy to GitHub Pages via CI/CD pipeline
+4. Verify live demo works end-to-end
 
-### **Step 2: Application Layer Development** 
-**After ConceptNode completion:**
-- ExtractConceptsUseCase: Orchestrate paper processing
-- BuildVisualizationDataUseCase: Prepare D3.js data structures
-- Repository ports for clean architecture compliance
+### **Step 2: Enhanced Concept Extraction**
+**After successful deployment:**
+- Add real concept extraction logic to ExtractConceptsUseCase
+- Implement executeBatch() method with comprehensive tests
+- Create infrastructure layer repository implementations
+- Add integration tests for end-to-end workflows
 
-### **Step 3: D3.js Visualization Implementation**
-**After use cases complete:**
-- Interactive force-directed graph
-- Node sizing and color coding
-- Zoom/pan interactions
-- Evidence sentence tooltips
+### **Step 3: D3.js Visualization** 
+**After enhanced extraction:**
+- Interactive force-directed graph components
+- Concept hierarchy visualization
+- Node interactions and evidence tooltips
+- Advanced UI components and responsive design
 
 ### **Step 4: UI Component Development**
 **After visualization core complete:**
