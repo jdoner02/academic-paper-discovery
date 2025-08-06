@@ -130,15 +130,35 @@ class ResearchPaper:
 
     def _validate_identity_fields(self) -> None:
         """
-        Validate that at least one identity field is present.
+        Validate identity fields when present.
 
-        Business Rule: Papers need either DOI or ArXiv ID for proper identification.
-        This ensures we can deduplicate and reference papers uniquely.
+        Educational Note:
+        Updated validation strategy for multi-source paper aggregation:
+        
+        Previous Business Rule: Papers needed either DOI or ArXiv ID for identification.
+        
+        New Business Rule: Papers can exist without standard identifiers to support
+        sources like Google Scholar that may not provide DOI/ArXiv ID. Our 
+        PaperFingerprint system will create composite identifiers from title+author
+        when standard identifiers are unavailable.
+        
+        This change enables:
+        - Google Scholar integration (often lacks DOI/ArXiv ID)
+        - Conference proceedings (may have ISBN but not DOI)
+        - Historical papers (published before DOI system existed)
+        - Working papers and technical reports
+        
+        The identification burden shifts from the entity to the fingerprinting system,
+        which is better equipped to handle various identification strategies.
         """
-        if not self.doi and not self.arxiv_id:
-            raise ValueError(
-                "Paper must have either DOI or ArXiv ID for identification"
-            )
+        # Validation now focuses on format rather than presence
+        if self.doi and not self.doi.strip():
+            raise ValueError("DOI cannot be empty string")
+        if self.arxiv_id and not self.arxiv_id.strip():
+            raise ValueError("ArXiv ID cannot be empty string")
+        
+        # Note: We no longer require at least one identifier to be present
+        # This enables multi-source aggregation from sources without standard identifiers
 
     def is_relevant_to_keywords(self, keywords: List[str]) -> bool:
         """
