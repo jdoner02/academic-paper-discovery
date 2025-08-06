@@ -1,0 +1,811 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-06T01:48:34.871644+00:00",
+    "strategy_name": "Comprehensive HRV Research",
+    "total_papers": 43,
+    "download_directory": "outputs/2025-08-05_Comprehensive HRV Research"
+  },
+  "papers": [
+    {
+      "title": "Heart Rate and its Variability from Short-term ECG Recordings as   Biomarkers for Detecting Mild Cognitive Impairment in Indian Population",
+      "authors": [
+        "Anjo Xavier",
+        "Sneha Noble",
+        "Justin Joseph",
+        "Thomas Gregor Issac"
+      ],
+      "abstract": "Alterations in Heart Rate (HR) and Heart Rate Variability (HRV) can reflect autonomic dysfunction associated with neurodegeneration. We investigate the influence of Mild Cognitive Impairment (MCI) on HR and its variability measures in the Indian population by designing a complete signal processing pipeline to detect the R-wave peaks and compute HR and HRV features from ECG recordings of 10 seconds, for point-of-care applications. The study cohort involves 297 urban participants, among which 48.48% are male and 51.51% are female. From the Addenbrooke's Cognitive Examination-III (ACE-III), MCI is detected in 19.19% of participants and the rest, 80.8% of them are cognitively healthy. Statistical features like central tendency (mean and root mean square (RMS) of the Normal-to-Normal (NN) intervals) and dispersion (standard deviation (SD) of all NN intervals (SDNN) and root mean square of successive differences of NN intervals (RMSSD)) of beat-to-beat intervals are computed. The Wilcoxon rank sum test reveals that mean of NN intervals (p = 0.0021), the RMS of NN intervals (p = 0.0014), the SDNN (p = 0.0192) and the RMSSD (p = 0.0206) values differ significantly between MCI and non-MCI classes, for a level of significance, 0.05. Machine learning classifiers like, Support Vector Machine (SVM), Discriminant Analysis (DA) and Naive Bayes (NB) driven by mean NN intervals, RMS, SDNN and RMSSD, show a high accuracy of 80.80% on each individual feature input. Individuals with MCI are observed to have comparatively higher HR than healthy subjects. HR and its variability can be considered as potential biomarkers for detecting MCI.",
+      "publication_date": "2024-08-05T08:14:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2408.02296v1"
+    },
+    {
+      "title": "DeStress: Deep Learning for Unsupervised Identification of Mental Stress   in Firefighters from Heart-rate Variability (HRV) Data",
+      "authors": [
+        "Ali Oskooei",
+        "Sophie Mai Chau",
+        "Jonas Weiss",
+        "Arvind Sridhar",
+        "María Rodríguez Martínez",
+        "Bruno Michel"
+      ],
+      "abstract": "In this work we perform a study of various unsupervised methods to identify mental stress in firefighter trainees based on unlabeled heart rate variability data. We collect RR interval time series data from nearly 100 firefighter trainees that participated in a drill. We explore and compare three methods in order to perform unsupervised stress detection: 1) traditional K-Means clustering with engineered time and frequency domain features 2) convolutional autoencoders and 3) long short-term memory (LSTM) autoencoders, both trained on the raw RRI measurements combined with DBSCAN clustering and K-Nearest-Neighbors classification. We demonstrate that K-Means combined with engineered features is unable to capture meaningful structure within the data. On the other hand, convolutional and LSTM autoencoders tend to extract varying structure from the data pointing to different clusters with different sizes of clusters. We attempt at identifying the true stressed and normal clusters using the HRV markers of mental stress reported in the literature. We demonstrate that the clusters produced by the convolutional autoencoders consistently and successfully stratify stressed versus normal samples, as validated by several established physiological stress markers such as RMSSD, Max-HR, Mean-HR and LF-HF ratio.",
+      "publication_date": "2019-11-18T21:59:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "1911.13213v1"
+    },
+    {
+      "title": "When heart beats differently in depression: a review of HRV measures",
+      "authors": [
+        "Milena Čukić",
+        "Danka Savić",
+        "Julia Sidorova"
+      ],
+      "abstract": "Background and Objective: The connection between depression and autonomous nervous system (ANS) is well documented in scientific literature. Heart rate variability (HRV) is a rich source of information for studying the dynamics of this relation. Disturbed heart dynamics in depression seriously increases mortality risk. Technical sciences help improve early detection and monitoring and offer more accurate management of treatment. Based on advances in computational power, information theory, complex systems dynamics, and nonlinear analysis applied to physiological complexity, we can now turn to novel biomarkers extracted from electrophysiological signals. This work is a cross-sectional analysis with methodological commentary of application of nonlinear measures of HRV related to depression. Methods: We systematically searched online for papers exploring the connection of depression and HRV, using both conventional and nonlinear analysis. We scrutinized chosen publications and methodologically analyzed and compared them. Results: Sixty-seven publications on the connection of HRV measures and depression meeting our inclusion criteria are selected. The effectiveness of the applied methods of electrocardiogram (ECG) analysis are compared and discussed in the light of detection and prevention of depression-related cardiac diseases. Conclusions: It is clear that aberrated ANS dynamics can be detected via ECG analysis, where nonlinear measures show to be more sensitive and accurate than standard time and spectral ones. With the portable ECG devices and cloud-based telehealth applications, monitoring of outpatients could be done anytime anywhere. We appeal for early screening for cardiovascular abnormalities in depressive patients to prevent possible deleterious events.",
+      "publication_date": "2021-10-16T17:24:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.NC"
+      ],
+      "arxiv_id": "2110.08621v1"
+    },
+    {
+      "title": "Modulation of Autonomous Nervous System activity by gyrosonic   stimulation",
+      "authors": [
+        "S. K. Ghatak",
+        "B. Roy",
+        "R. Choudhuri",
+        "S. Bandopadhaya"
+      ],
+      "abstract": "A novel audio binaural stimulus that generates rotational perceptions of sound movement in brain at a particular predetermined frequency is referred as gyrosonics. The influence of gyrosonics on autonomic nervous system of healthy subjects has been examined by analyzing heart rate variability (HRV) in time- and frequency- domain. The M-lagged Poincare plot shows that the parameters SD1, SD2 and ratio SD12 (SD1/SD2) increases with lagged number M, and M-dependence is well described by Pade' approximant $\\chi \\frac{1+\\beta M}{1+\\gamma M}$ where values of $\\chi$, $\\beta$ and $ \\gamma$ depend on parameters SD1,SD2 and SD12. The values of these parameters for different M are augmented after gyrosonic stimulation. The slope and magnitude of curvature of SD1 and SD12 vs M plot increase considerably due to stimulation. The DFA analysis exhibits decrease in value of exponent $\\alpha$ due to stimulation. This stimulation results slower Heart rate, higher values of the standard deviation SD and the root-mean squared successive differences (RMSSD) in RR-interval. The spectral power of both low (LF) - and high (HF) - frequency go up due to the stimulation. The results suggest an improvement of the sympatho-vagal balance due to this novel audio stimulus.",
+      "publication_date": "2010-03-10T10:41:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "1003.2075v2"
+    },
+    {
+      "title": "Comparison of HRV Indices of ECG and BCG Signals",
+      "authors": [
+        "Kavya Remesh",
+        "Job Chunkath"
+      ],
+      "abstract": "Electrocardiography (ECG) plays a significant role in diagnosing heart-related issues, it provides, accurate, fast, and dependable insights into crucial parameters like QRS complex duration, the R-R interval, and the occurrence, amplitude, and duration of P, R, and T waves. However, utilizing ECG for prolonged monitoring poses challenges as it necessitates connecting multiple electrodes to the patient's body. This can be discomforting and disruptive, hampering the attainment of uninterrupted recordings. Ballistocardiography (BCG) emerges as a promising substitute for ECG, presenting a non-invasive technique for recording the heart's mechanical activity. BCG signals can be captured using sensors positioned beneath the bed, thereby providing enhanced comfort and convenience for long-term monitoring of the subject. In a recent study, researchers compared the heart rate variability (HRV) indices derived from simultaneously acquired ECG and BCG signals. Encouragingly, the BCG signal yielded satisfactory results similar to those obtained from ECG, implying that BCG holds potential as a viable alternative for prolonged monitoring. The findings of this study carry substantial implications for the advancement of innovative, non-invasive methods in monitoring heart health. BCG showcases the ability to offer a more comfortable and convenient alternative to ECG while retaining its capacity to deliver accurate and reliable cardiac information concerning a patient's condition.",
+      "publication_date": "2023-07-18T04:05:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2307.08960v2"
+    },
+    {
+      "title": "Lagged Poincaré and auto-correlation analysis of Heart rate   variability in diabetes",
+      "authors": [
+        "S. K. Ghatak",
+        "B. Roy"
+      ],
+      "abstract": "The heart rate variability (HRV) in diabetic human subjects, has been analyzed using lagged Poincar\\'{e} plot, auto-correlation and the detrended fluctuation analysis methods. The parameters $SD1$, and $SD12 (= SD1/SD2)$ for Poincar\\'{e} plot for diabetic are lower than that for non-diabetic subjects and reverse is case for $SD2$ for all lagged number (m). The slope and the curvature of the plot SD12 vs m is much reduced for diabetic subject. The scatter plot of two successive interbeat intervals points out smaller variability in diabetic heart. The detrended fluctuation exponent has a higher value for diabetic group. The auto-correlation function of the deviation of interbeat interval in diabetic group shows highly correlated pattern when compared to that of normal one. The study suggests that the curvature of $SD12$ and auto-correlation method appear to be better way to assess the alteration of regulatory system on heart dynamics in diabetic condition.",
+      "publication_date": "2010-05-28T06:20:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "1005.5221v1"
+    },
+    {
+      "title": "HRnV-Calc: A software package for heart rate n-variability and heart   rate variability analysis",
+      "authors": [
+        "Chenglin Niu",
+        "Dagang Guo",
+        "Marcus Eng Hock Ong",
+        "Zhi Xiong Koh",
+        "Andrew Fu Wah Ho",
+        "Zhiping Lin",
+        "Chengyu Liu",
+        "Gari D. Clifford",
+        "Nan Liu"
+      ],
+      "abstract": "Objective: Heart rate variability (HRV) has been proven to be an important indicator of physiological status for numerous applications. Despite the progress and active developments made in HRV metric research over the last few decades, the representation of the heartbeat sequence upon which HRV is based has received relatively little attention. The recently introduced heart rate n-variability (HRnV) offers an alternative to R-to-R peak interval representations which complements conventional HRV analysis by considering HRV behavior on varying scales. Although HRnV has been shown to improve triage in pilot studies, there is currently no open and standard software to support future research of HRnV and its broader clinical applications. We aimed to develop an open, reliable, and easy to use software package implementing HRnV for further research and improvements of HRnV. This package has been designed to facilitate collaborative investigations between clinicians and researchers to study HRnV in various contexts and applications. Approach: We developed an open-source software, HRnV-Calc, based on the PhysioNet Cardiovascular Signal Toolbox (PCST), which features comprehensive graphical user interfaces (GUIs) for HRnV and HRV analysis. Main results: While preserving the core functionalities and performance of PCST, HRnV-Calc enables step-by-step manual inspection and configuration of HRV and HRnV analysis, so that results can be debugged, easily interpreted, and integrated to downstream applications. Significance: The open-source HRnV-Calc software, an accessible and standardized HRV and HRnV analysis platform, enhances the scope of HRV assessment and is designed to assist in future improvements and applications of HRnV and related research.",
+      "publication_date": "2021-11-18T12:02:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CE"
+      ],
+      "arxiv_id": "2111.09649v1"
+    },
+    {
+      "title": "Visualization of short-term heart period variability with network tools   as a method for quantifying autonomic drive",
+      "authors": [
+        "Danuta Makowiec",
+        "Beata Graff",
+        "Agnieszka Kaczkowska",
+        "Grzegorz Graff",
+        "Dorota Wejer",
+        "Joanna Wdowczyk",
+        "Marta Zarczynska-Buchowiecka",
+        "Marcin Gruchala",
+        "Zbigniew R. Struzik"
+      ],
+      "abstract": "Signals from heart transplant recipients can be considered to be a natural source of information for a better understanding of the impact of the autonomic nervous system on the complexity of heart rate variability. Beat-to-beat heart rate variability can be represented as a network of increments between subsequent $RR$-intervals, which makes possible the visualization of short-term heart period fluctuations. A network is constructed of vertices representing increments between subsequent $RR$-intervals, and edges which connect adjacent $RR$-increments. Two modes of visualization of such a network are proposed. The method described is applied to nocturnal Holter signals recorded from healthy young people and from cardiac transplant recipients. Additionally, the analysis is performed on surrogate data: shuffled RR-intervals (to display short-range dependence), and shuffled phases of the Fourier Transform of RR-intervals (to filter out linear dependences). Important nonlinear properties of autonomic nocturnal regulation in short-term variability in healthy young persons are associated with $RR$-increments: accelerations and decelerations of a size greater than about 35 ms. They reveal that large accelerations are more likely antipersistent, while large decelerations are more likely persistent. Changes in $RR$-increments in a heart deprived of autonomic supervision are much lower than in a healthy individual, and appear to be maintained around a homeostatic state, but there are indications that this dynamics is nonlinear. The method is fruitful in the evaluation of the vagal activity - the quantity and quality of the vagal tone - during the nocturnal rest of healthy young people. The method also successfully extracts nonlinear effects related to intrinsic mechanisms of the heart regulation.",
+      "publication_date": "2014-07-18T09:05:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.data-an"
+      ],
+      "arxiv_id": "1407.4921v1"
+    },
+    {
+      "title": "Risk assessment and observation of driver with pedestrian using   instantaneous heart rate and HRV",
+      "authors": [
+        "Riku Kikuta",
+        "Daniel Carruth",
+        "John Ball",
+        "Reuben Burch",
+        "Ichiro Kageyama"
+      ],
+      "abstract": "Currently, human drivers outperform self-driving vehicles in many conditions such as collision avoidance. Therefore, understanding human driver behaviour in these conditions will provide insight for future autonomous vehicles. For understanding driver behaviour, risk assessment is applied so far as one of the approaches by using both subjective and objective measurement. Subjective measurement methods such as questionnaires may provide insight into driver risk assessment but there is often significant variability between drivers.Physiological measurements such as heart rate (HR), electroencephalogram (EEG), and electromyogram (EMG) provide more objective measurements of driver risk assessment. HR is often used for measuring driver risk assessment based on observed correlations between HR and risk perception. Previous work has used HR to measure driver risk assessment in self-driving systems, but pedestrian dynamics is not considered for the research. In this study, we observed driver behaviour in certain scenarios which have pedestrian on driving simulator. The scenarios have safe/unsafe situations (i.e., pedestrian crosses road and vehicle may hit pedestrian in one scenario), HR analysis in time/frequency domain is processed for risk assessment. As a result, HR analysis in frequency domain shows certain reasonability for driver risk assessment when driver has pedestrian in its traffic.",
+      "publication_date": "2024-02-10T20:52:29+00:00",
+      "doi": "10.54941/ahfe1003827",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.RO"
+      ],
+      "arxiv_id": "2402.07041v1"
+    },
+    {
+      "title": "Network representation of cardiac interbeat intervals for monitoring   restitution of autonomic control for heart transplant patients",
+      "authors": [
+        "Danuta Makowiec",
+        "Stanisław Kryszewski",
+        "Beata Graff",
+        "Joanna Danuta Makowiec",
+        "Stanislaw Kryszewski",
+        "Beata Graff",
+        "Joanna Wdowczyk-Szulc",
+        "Marta Zarczynska- Buchnowiecka",
+        "Marcin Gruchala",
+        "Andrzej Rynkiewicz"
+      ],
+      "abstract": "The aim is to present the ability of a network of transitions as a nonlinear tool providing a graphical representation of a time series. This representation is used for cardiac RR-intervals in follow-up observation of changes in heart rhythm of patients recovering after heart transplant.",
+      "publication_date": "2013-01-06T16:48:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.data-an"
+      ],
+      "arxiv_id": "1301.1023v1"
+    },
+    {
+      "title": "Electromechanical Dynamics of the Heart: A Study of Cardiac Hysteresis   During Physical Stress Test",
+      "authors": [
+        "Sajjad Karimi",
+        "Shirin Karimi",
+        "Amit J. Shah",
+        "Gari D. Clifford",
+        "Reza Sameni"
+      ],
+      "abstract": "Cardiovascular diseases are best diagnosed using multiple modalities that assess both the heart's electrical and mechanical functions. While effective, imaging techniques like echocardiography and nuclear imaging are costly and not widely accessible. More affordable technologies, such as simultaneous electrocardiography (ECG) and phonocardiography (PCG), may provide valuable insights into electromechanical coupling and could be useful for prescreening in low-resource settings.   Using physical stress test data from the EPHNOGRAM ECG-PCG dataset, collected from 23 healthy male subjects (age: 25.4+/-1.9 yrs), we investigated electromechanical intervals (RR, QT, systolic, and diastolic) and their interactions during exercise, along with hysteresis between cardiac electrical activity and mechanical responses.   Time delay analysis revealed distinct temporal relationships between QT, systolic, and diastolic intervals, with RR as the primary driver. The diastolic interval showed near-synchrony with RR, while QT responded to RR interval changes with an average delay of 10.5s, and the systolic interval responded more slowly, with an average delay of 28.3s. We examined QT-RR, systolic-RR, and diastolic-RR hysteresis, finding narrower loops for diastolic RR and wider loops for systolic RR. Significant correlations (average:0.75) were found between heart rate changes and hysteresis loop areas, suggesting the equivalent circular area diameter as a promising biomarker for cardiac function under exercise stress.   Deep learning models, including Long Short-Term Memory and Convolutional Neural Networks, estimated the QT, systolic, and diastolic intervals from RR data, confirming the nonlinear relationship between RR and other intervals. Findings highlight a significant cardiac memory effect, linking ECG and PCG morphology and timing to heart rate history.",
+      "publication_date": "2024-10-25T16:23:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "2410.19667v1"
+    },
+    {
+      "title": "Fuzzy C-Means Clustering and Sonification of HRV Features",
+      "authors": [
+        "Debanjan Borthakur",
+        "Victoria Grace",
+        "Paul Batchelor",
+        "Harishchandra Dubey",
+        "Kunal Mankodiya"
+      ],
+      "abstract": "Linear and non-linear measures of heart rate variability (HRV) are widely investigated as non-invasive indicators of health. Stress has a profound impact on heart rate, and different meditation techniques have been found to modulate heartbeat rhythm. This paper aims to explore the process of identifying appropriate metrices from HRV analysis for sonification. Sonification is a type of auditory display involving the process of mapping data to acoustic parameters. This work explores the use of auditory display in aiding the analysis of HRV leveraged by unsupervised machine learning techniques. Unsupervised clustering helps select the appropriate features to improve the sonification interpretability. Vocal synthesis sonification techniques are employed to increase comprehension and learnability of the processed data displayed through sound. These analyses are early steps in building a real-time sound-based biofeedback training system.",
+      "publication_date": "2019-08-19T23:44:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.HC"
+      ],
+      "arxiv_id": "1908.07107v2"
+    },
+    {
+      "title": "Dynamical cross-correlations between RR and QT intervals in long-term   electrocardiogram recordings",
+      "authors": [
+        "Jimi Kokkonen",
+        "Jiyeong Kim-Poikkimäki",
+        "Teemu Pukkila",
+        "Esa Räsänen"
+      ],
+      "abstract": "Understanding the dynamic relationship between RR and QT intervals is crucial for interpreting electrocardiograms (ECGs) and managing cardiac conditions. We investigated cross-correlation between RR and QT intervals in long-term ECG recordings from 202 healthy subjects using time-lagged cross-correlation analysis to explore how QT intervals correlate with both preceding and succeeding RR intervals across various time lags. Data was preprocessed with the smoothness priors method to remove long-term trends while preserving relevant short-term dynamics.   Our results reveal that, as expected, the highest RR-QT cross-correlations occur when the intervals overlap the most. Notably, we also observed a strong cross-correlation between the present QT interval and the preceding RR interval, with the overall correlations skewed toward negative lags. This suggests that past RR intervals exert a stronger influence on current QT intervals. These findings align with previous research on RR-QT transfer entropy.   We found no significant differences in RR-QT cross-correlations between sexes. However, aging was associated with significantly reduced cross-correlations across all lags. This effect is consistent with existing literature on age-related cardiac changes and provides further insight into the impact of aging on RR-QT coupling. Additionally, we observed a slight positive correlation between heart rate and cross-correlation at all lags, with cross-correlation decreasing as the lag increased. These findings enhance our understanding of the dynamic RR-QT relationship and may inform future studies on cardiac electrophysiology and diseases.",
+      "publication_date": "2024-10-03T06:06:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "2410.02233v1"
+    },
+    {
+      "title": "Real-time Webcam Heart-Rate and Variability Estimation with Clean Ground   Truth for Evaluation",
+      "authors": [
+        "Amogh Gudi",
+        "Marian Bittner",
+        "Jan van Gemert"
+      ],
+      "abstract": "Remote photo-plethysmography (rPPG) uses a camera to estimate a person's heart rate (HR). Similar to how heart rate can provide useful information about a person's vital signs, insights about the underlying physio/psychological conditions can be obtained from heart rate variability (HRV). HRV is a measure of the fine fluctuations in the intervals between heart beats. However, this measure requires temporally locating heart beats with a high degree of precision. We introduce a refined and efficient real-time rPPG pipeline with novel filtering and motion suppression that not only estimates heart rates, but also extracts the pulse waveform to time heart beats and measure heart rate variability. This unsupervised method requires no rPPG specific training and is able to operate in real-time. We also introduce a new multi-modal video dataset, VicarPPG 2, specifically designed to evaluate rPPG algorithms on HR and HRV estimation. We validate and study our method under various conditions on a comprehensive range of public and self-recorded datasets, showing state-of-the-art results and providing useful insights into some unique aspects. Lastly, we make available CleanerPPG, a collection of human-verified ground truth peak/heart-beat annotations for existing rPPG datasets. These verified annotations should make future evaluations and benchmarking of rPPG algorithms more accurate, standardized and fair.",
+      "publication_date": "2020-12-31T18:57:05+00:00",
+      "doi": "10.3390/app10238630",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "2012.15846v1"
+    },
+    {
+      "title": "Effect of Meditation on Heart Rate Variability",
+      "authors": [
+        "Sobhendu Kumar Ghatak"
+      ],
+      "abstract": "The dynamics of the autonomic nervous system, a prime factor for variation of heart rate is modulated by lifestyle factors like meditation and breathing exercises. The effect of meditation (dhyana)practiced by disciples of Ramakrishna Mission(RKM) on the heart rate variability is examined. The heart rate (HR)of a group of disciples of RKM is obtained from ECG signal recorded over a short time duration. Lagged Poincare plot of the heart rate(HR), the method of the principal component analysis, and the autocorrelation of HR fluctuations are used to analyze the HR. The variation of Poincare parameters (SD1),(SD2) and their ratio (SD12), with a lagged number, are non-linear and reveal a significant change with meditation. In particular, the magnitude of the slope and the curvature of(SD12) with lagged number increases after meditation. The meditation reduces the heart rate and increases the stroke volume. A strong correlation between slope and curvature of (SD12) is noted from the correlation matrix of multi-dimensional data set resulting from the Poincar\\'e plot. The principal components (PC) of data resulting from pre-and post-meditation are well separated in PC-space. The entropy associated with R-wave fluctuations for all meditators is reduced after meditation. The auto-correlation of HR fluctuations exhibits a highly correlated pattern after meditation. The study suggests that meditation improves the heart rate dynamics and the 'calmness' of mind.",
+      "publication_date": "2021-07-19T06:55:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "2107.08644v1"
+    },
+    {
+      "title": "Deep neural heart rate variability analysis",
+      "authors": [
+        "Tamas Madl"
+      ],
+      "abstract": "Despite of the pain and limited accuracy of blood tests for early recognition of cardiovascular disease, they dominate risk screening and triage. On the other hand, heart rate variability is non-invasive and cheap, but not considered accurate enough for clinical practice. Here, we tackle heart beat interval based classification with deep learning. We introduce an end to end differentiable hybrid architecture, consisting of a layer of biological neuron models of cardiac dynamics (modified FitzHugh Nagumo neurons) and several layers of a standard feed-forward neural network. The proposed model is evaluated on ECGs from 474 stable at-risk (coronary artery disease) patients, and 1172 chest pain patients of an emergency department. We show that it can significantly outperform models based on traditional heart rate variability predictors, as well as approaching or in some cases outperforming clinical blood tests, based only on 60 seconds of inter-beat intervals.",
+      "publication_date": "2016-12-29T17:14:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NE"
+      ],
+      "arxiv_id": "1612.09205v1"
+    },
+    {
+      "title": "Scaling behavior in the heart rate variability characteristics with age",
+      "authors": [
+        "Isabel M. Irurzun",
+        "Magdalena M. Defeo",
+        "L. Garavaglia",
+        "Thomas Mailland",
+        "E. E. Mola"
+      ],
+      "abstract": "In this work we study the characteristics of the heart rate variability (HRV) as a function of age and gender. The analyzed data include previous results reported in the literature. The data obtained in this work expand the range of age studied until now revealing new behaviors not reported before. We analyze some measurements in the time domain,in the frequency domain and nonlinear measurements. We report scaling behaviors and abrupt changes in some measurements. There is also a progressive decrease in the dimensionality of the dynamic system governing the HRV, with the increase in age that is interpreted in terms ofautonomic regulation of cardiac activity.",
+      "publication_date": "2018-09-05T14:00:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.QM"
+      ],
+      "arxiv_id": "1810.04269v1"
+    },
+    {
+      "title": "Dynamical Heart Beat Correlations during Running",
+      "authors": [
+        "Matti Molkkari",
+        "Giorgio Angelotti",
+        "Thorsten Emig",
+        "Esa Räsänen"
+      ],
+      "abstract": "Fluctuations of the human heart beat constitute a complex system that has been studied mostly under resting conditions using conventional time series analysis methods. During physical exercise, the variability of the fluctuations is reduced, and the time series of beat-to-beat RR intervals (RRIs) become highly non-stationary. Here we develop a dynamical approach to analyze the time evolution of RRI correlations in running across various training and racing events under real-world conditions. In particular, we introduce dynamical detrended fluctuation analysis and dynamical partial autocorrelation functions, which are able to detect real-time changes in the scaling and correlations of the RRIs as functions of the scale and the lag. We relate these changes to the exercise intensity quantified by the heart rate (HR). Beyond subject-specific HR thresholds the RRIs show multiscale anticorrelations with both universal and individual scale-dependent structure that is potentially affected by the stride frequency. These preliminary results are encouraging for future applications of the dynamical statistical analysis in exercise physiology and cardiology, and the presented methodology is also applicable across various disciplines.",
+      "publication_date": "2019-11-11T12:51:47+00:00",
+      "doi": "10.1038/s41598-020-70358-7",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.data-an"
+      ],
+      "arxiv_id": "1911.04218v3"
+    },
+    {
+      "title": "A new algorithm for wavelet-based heart rate variability analysis",
+      "authors": [
+        "Constantino A. García",
+        "Abraham Otero",
+        "Xosé Vila",
+        "David G. Márquez"
+      ],
+      "abstract": "One of the most promising non-invasive markers of the activity of the autonomic nervous system is Heart Rate Variability (HRV). HRV analysis toolkits often provide spectral analysis techniques using the Fourier transform, which assumes that the heart rate series is stationary. To overcome this issue, the Short Time Fourier Transform is often used (STFT). However, the wavelet transform is thought to be a more suitable tool for analyzing non-stationary signals than the STFT. Given the lack of support for wavelet-based analysis in HRV toolkits, such analysis must be implemented by the researcher. This has made this technique underutilized. This paper presents a new algorithm to perform HRV power spectrum analysis based on the Maximal Overlap Discrete Wavelet Packet Transform (MODWPT). The algorithm calculates the power in any spectral band with a given tolerance for the band's boundaries. The MODWPT decomposition tree is pruned to avoid calculating unnecessary wavelet coefficients, thereby optimizing execution time. The center of energy shift correction is applied to achieve optimum alignment of the wavelet coefficients. This algorithm has been implemented in RHRV, an open-source package for HRV analysis. To the best of our knowledge, RHRV is the first HRV toolkit with support for wavelet-based spectral analysis.",
+      "publication_date": "2014-11-19T11:11:45+00:00",
+      "doi": "10.1016/j.bspc.2013.05.006",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.QM"
+      ],
+      "arxiv_id": "1411.5179v1"
+    },
+    {
+      "title": "Heart Rate Classification in ECG Signals Using Machine Learning and Deep   Learning",
+      "authors": [
+        "Thien Nhan Vo"
+      ],
+      "abstract": "This study addresses the classification of heartbeats from ECG signals through two distinct approaches: traditional machine learning utilizing hand-crafted features and deep learning via transformed images of ECG beats. The dataset underwent preprocessing steps, including downsampling, filtering, and normalization, to ensure consistency and relevance for subsequent analysis. In the first approach, features such as heart rate variability (HRV), mean, variance, and RR intervals were extracted to train various classifiers, including SVM, Random Forest, AdaBoost, LSTM, Bi-directional LSTM, and LightGBM. The second approach involved transforming ECG signals into images using Gramian Angular Field (GAF), Markov Transition Field (MTF), and Recurrence Plots (RP), with these images subsequently classified using CNN architectures like VGG and Inception.   Experimental results demonstrate that the LightGBM model achieved the highest performance, with an accuracy of 99% and an F1 score of 0.94, outperforming the image-based CNN approach (F1 score of 0.85). Models such as SVM and AdaBoost yielded significantly lower scores, indicating limited suitability for this task. The findings underscore the superior ability of hand-crafted features to capture temporal and morphological variations in ECG signals compared to image-based representations of individual beats. Future investigations may benefit from incorporating multi-lead ECG signals and temporal dependencies across successive beats to enhance classification accuracy further.",
+      "publication_date": "2025-06-02T05:16:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2506.06349v2"
+    },
+    {
+      "title": "Non-Interchangeability between Heart Rate Variability and Pulse Rate   Variability During Supine-to-Stand Tests",
+      "authors": [
+        "Runwei Lin",
+        "Frank Halfwerk",
+        "Gozewijn Dirk Laverman",
+        "Dirk Donker",
+        "Ying Wang"
+      ],
+      "abstract": "Heart rate variability (HRV) is widely recognized as a valuable biomarker for assessing autonomic cardiac regulation. Pulse rate variability (PRV) is a common surrogate of HRV given the wide usability of PPG in commercially available devices. However, there is no clear conclusion on whether PRV can replace HRV given their different physiological mechanisms. This study evaluates the interchangeability of young adults HRV and PRV during supine-to-stand (STS) tests which are known as common posture transitions in daily life monitoring. Fifteen features from time, frequency and nonlinear domains were extracted from both electrocardiography and PPG signals. Paired t-tests and Wilcoxon signed-rank tests examined the difference between the extracted HRV and PRV features during supine, transition and standing phases separately. One feature showed significant difference in the supine phase, and this discrepancy increased to four in the transition and standing phases. These findings suggested that PRV is different from HRV in the STS tests, despite the fact that both metrics can reflect the sympathetic activation triggered by the posture changes.",
+      "publication_date": "2025-02-11T13:21:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2502.07535v1"
+    },
+    {
+      "title": "Bayesian at heart: Towards autonomic outflow estimation via generative   state-space modelling of heart rate dynamics",
+      "authors": [
+        "Fernando E. Rosas",
+        "Diego Candia-Rivera",
+        "Andrea I Luppi",
+        "Yike Guo",
+        "Pedro A. M. Mediano"
+      ],
+      "abstract": "Recent research is revealing how cognitive processes are supported by a complex interplay between the brain and the rest of the body, which can be investigated by the analysis of physiological features such as breathing rhythms, heart rate, and skin conductance. Heart rate dynamics are of particular interest as they provide a way to track the sympathetic and parasympathetic outflow from the autonomic nervous system, which is known to play a key role in modulating attention, memory, decision-making, and emotional processing. However, extracting useful information from heartbeats about the autonomic outflow is still challenging due to the noisy estimates that result from standard signal-processing methods. To advance this state of affairs, we propose a paradigm shift in how we conceptualise and model heart rate: instead of being a mere summary of the observed inter-beat intervals, we introduce a modelling framework that views heart rate as a hidden stochastic process that drives the observed heartbeats. Moreover, by leveraging the rich literature of state-space modelling and Bayesian inference, our proposed framework delivers a description of heart rate dynamics that is not a point estimate but a posterior distribution of a generative model. We illustrate the capabilities of our method by showing that it recapitulates linear properties of conventional heart rate estimators, while exhibiting a better discriminative power for metrics of dynamical complexity compared across different physiological states.",
+      "publication_date": "2023-03-08T20:05:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.QM"
+      ],
+      "arxiv_id": "2303.04863v1"
+    },
+    {
+      "title": "Heart Rate Variability Analysis Using Threshold of Wavelet Package   Coefficients",
+      "authors": [
+        "G. Kheder",
+        "A. Kachouri",
+        "M. Ben Massoued",
+        "M. Samet"
+      ],
+      "abstract": "In this paper, a new efficient feature extraction method based on the adaptive threshold of wavelet package coefficients is presented. This paper especially deals with the assessment of autonomic nervous system using the background variation of the signal Heart Rate Variability HRV extracted from the wavelet package coefficients. The application of a wavelet package transform allows us to obtain a time-frequency representation of the signal, which provides better insight in the frequency distribution of the signal with time. A 6 level decomposition of HRV was achieved with db4 as mother wavelet, and the above two bands LF and HF were combined in 12 specialized frequencies sub-bands obtained in wavelet package transform. Features extracted from these coefficients can efficiently represent the characteristics of the original signal. ANOVA statistical test is used for the evaluation of proposed algorithm.",
+      "publication_date": "2009-12-11T18:53:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "0912.2316v1"
+    },
+    {
+      "title": "Poincaré parameters and principal component analysis of Heart rate   variability of subjects with health disorder",
+      "authors": [
+        "Sobhendu Kumar Ghatak",
+        "Subhra Aditya"
+      ],
+      "abstract": "Heart rate variability,important marker for modulation of autonomic nervous system is studied for diabetic,hypertensive and control group of subjects.Lagged Poincar\\'{e} plot of heart rate(HR),method of principal component analysis and auto-correlation of HR fluctuation are used to analyze HR obtained from ECG signal recorded over short time duration.The parameters $(SD1)$,$(SD2)$ and their ratio $(SD12)$,characterizing the Poincar\\'{e} plot reveal a significant reduction of their values for diabetic and hypertensive subjects compared to the corresponding results of control one.The slope and the curvature of the plot of these parameters with lagged number exhibit similar trend.In particular,the curvature of $(SD12)$ for the control group differs widely from that of other groups.The principal component analysis is used for analysing multi-dimensional data set resulting from the Poincar\\'{e} plot for all subjects.The correlation matrix points out significant correlation between slope and curvature.The analysis demonstrates that three groups are well separated in the domain of two significant principal components.The auto-correlation of HR fluctuation exhibits highly correlated pattern for subjects with health disorder compared to that of control subject.",
+      "publication_date": "2018-02-28T07:01:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "1802.10289v1"
+    },
+    {
+      "title": "Efficient Real-Time Camera Based Estimation of Heart Rate and Its   Variability",
+      "authors": [
+        "Amogh Gudi",
+        "Marian Bittner",
+        "Roelof Lochmans",
+        "Jan van Gemert"
+      ],
+      "abstract": "Remote photo-plethysmography (rPPG) uses a remotely placed camera to estimating a person's heart rate (HR). Similar to how heart rate can provide useful information about a person's vital signs, insights about the underlying physio/psychological conditions can be obtained from heart rate variability (HRV). HRV is a measure of the fine fluctuations in the intervals between heart beats. However, this measure requires temporally locating heart beats with a high degree of precision. We introduce a refined and efficient real-time rPPG pipeline with novel filtering and motion suppression that not only estimates heart rate more accurately, but also extracts the pulse waveform to time heart beats and measure heart rate variability. This method requires no rPPG specific training and is able to operate in real-time. We validate our method on a self-recorded dataset under an idealized lab setting, and show state-of-the-art results on two public dataset with realistic conditions (VicarPPG and PURE).",
+      "publication_date": "2019-09-03T14:21:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "1909.01206v1"
+    },
+    {
+      "title": "Intrinsic dynamics of heart regulatory systems on short time-scales:   from experiment to modelling",
+      "authors": [
+        "I. A. Khovanov",
+        "N. A. Khovanova",
+        "P. V. E. McClintock",
+        "A. Stefanovska"
+      ],
+      "abstract": "We discuss open problems related to the stochastic modeling of cardiac function. The work is based on an experimental investigation of the dynamics of heart rate variability (HRV) in the absence of respiratory perturbations. We consider first the cardiac control system on short time scales via an analysis of HRV within the framework of a random walk approach. Our experiments show that HRV on timescales of less than a minute takes the form of free diffusion, close to Brownian motion, which can be described as a non-stationary process with stationary increments. Secondly, we consider the inverse problem of modeling the state of the control system so as to reproduce the experimentally observed HRV statistics of. We discuss some simple toy models and identify open problems for the modelling of heart dynamics.",
+      "publication_date": "2009-12-11T14:32:30+00:00",
+      "doi": "10.1088/1742-5468/2009/01/P01016",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.bio-ph"
+      ],
+      "arxiv_id": "0912.2237v1"
+    },
+    {
+      "title": "Multi-modal Heart Failure Risk Estimation based on Short ECG and Sampled   Long-Term HRV",
+      "authors": [
+        "Sergio González",
+        "Abel Ko-Chun Yi",
+        "Wan-Ting Hsieh",
+        "Wei-Chao Chen",
+        "Chun-Li Wang",
+        "Victor Chien-Chia Wu",
+        "Shang-Hung Chang"
+      ],
+      "abstract": "Cardiovascular diseases, including Heart Failure (HF), remain a leading global cause of mortality, often evading early detection. In this context, accessible and effective risk assessment is indispensable. Traditional approaches rely on resource-intensive diagnostic tests, typically administered after the onset of symptoms. The widespread availability of electrocardiogram (ECG) technology and the power of Machine Learning are emerging as viable alternatives within smart healthcare. In this paper, we propose several multi-modal approaches that combine 30-second ECG recordings and approximate long-term Heart Rate Variability (HRV) data to estimate the risk of HF hospitalization. We introduce two survival models: an XGBoost model with Accelerated Failure Time (AFT) incorporating comprehensive ECG features and a ResNet model that learns from the raw ECG. We extend these with our novel long-term HRVs extracted from the combination of ultra-short-term beat-to-beat measurements taken over the day. To capture their temporal dynamics, we propose a survival model comprising ResNet and Transformer architectures (TFM-ResNet). Our experiments demonstrate high model performance for HF risk assessment with a concordance index of 0.8537 compared to 14 survival models and competitive discrimination power on various external ECG datasets. After transferability tests with Apple Watch data, our approach implemented in the myHeartScore App offers cost-effective and highly accessible HF risk assessment, contributing to its prevention and management.",
+      "publication_date": "2024-03-01T01:16:27+00:00",
+      "doi": "10.1016/j.inffus.2024.102337",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2403.15408v1"
+    },
+    {
+      "title": "Improved Cardiac Arrhythmia Prediction Based on Heart Rate Variability   Analysis",
+      "authors": [
+        "Ashkan Parsi"
+      ],
+      "abstract": "Many types of ventricular and atrial cardiac arrhythmias have been discovered in clinical practice in the past 100 years, and these arrhythmias are a major contributor to sudden cardiac death. Ventricular tachycardia, ventricular fibrillation, and paroxysmal atrial fibrillation are the most commonly-occurring and dangerous arrhythmias, therefore early detection is crucial to prevent any further complications and reduce fatalities. Implantable devices such as pacemakers are commonly used in patients at high risk of sudden cardiac death. While great advances have been made in medical technology, there remain significant challenges in effective management of common arrhythmias. This thesis proposes novel arrhythmia detection and prediction methods to differentiate cardiac arrhythmias from non-life-threatening cardiac events, to increase the likelihood of detecting events that may lead to mortality, as well as reduce the incidence of unnecessary therapeutic intervention. The methods are based on detailed analysis of Heart Rate Variability (HRV) information. The results of the work show good performance of the proposed methods and support the potential for their deployment in resource-constrained devices for ventricular and atrial arrhythmia prediction, such as implantable pacemakers and defibrillators.",
+      "publication_date": "2022-06-07T12:14:05+00:00",
+      "doi": "10.13140/RG.2.2.15748.40322",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2206.03222v1"
+    },
+    {
+      "title": "Heart2Mind: Human-Centered Contestable Psychiatric Disorder Diagnosis   System using Wearable ECG Monitors",
+      "authors": [
+        "Hung Nguyen",
+        "Alireza Rahimi",
+        "Veronica Whitford",
+        "Hélène Fournier",
+        "Irina Kondratova",
+        "René Richard",
+        "Hung Cao"
+      ],
+      "abstract": "Psychiatric disorders affect millions globally, yet their diagnosis faces significant challenges in clinical practice due to subjective assessments and accessibility concerns, leading to potential delays in treatment. To help address this issue, we present Heart2Mind, a human-centered contestable psychiatric disorder diagnosis system using wearable electrocardiogram (ECG) monitors. Our approach leverages cardiac biomarkers, particularly heart rate variability (HRV) and R-R intervals (RRI) time series, as objective indicators of autonomic dysfunction in psychiatric conditions. The system comprises three key components: (1) a Cardiac Monitoring Interface (CMI) for real-time data acquisition from Polar H9/H10 devices; (2) a Multi-Scale Temporal-Frequency Transformer (MSTFT) that processes RRI time series through integrated time-frequency domain analysis; (3) a Contestable Diagnosis Interface (CDI) combining Self-Adversarial Explanations (SAEs) with contestable Large Language Models (LLMs). Our MSTFT achieves 91.7% accuracy on the HRV-ACC dataset using leave-one-out cross-validation, outperforming state-of-the-art methods. SAEs successfully detect inconsistencies in model predictions by comparing attention-based and gradient-based explanations, while LLMs enable clinicians to validate correct predictions and contest erroneous ones. This work demonstrates the feasibility of combining wearable technology with Explainable Artificial Intelligence (XAI) and contestable LLMs to create a transparent, contestable system for psychiatric diagnosis that maintains clinical oversight while leveraging advanced AI capabilities. Our implementation is publicly available at: https://github.com/Analytics-Everywhere-Lab/heart2mind.",
+      "publication_date": "2025-05-16T18:21:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2505.11612v1"
+    },
+    {
+      "title": "Frequency Structure of Heart Rate Variability",
+      "authors": [
+        "V. Mukhin"
+      ],
+      "abstract": "Factor structure of heart rate periodogram has been detected with factor analysis. The results showed that there are at least four periodical phenomena of HRV. Two of them have not been discovered and physiologically explained yet. Their frequency ranges are 0.21 to 0.31 1/beat with the peak at 0.26 1/beat and 0.25 to 0.5 1/beat with the peak 0.35 1/beat. Despite of differences of the peak frequencies the frequency rages of the factors are overlapped. Therefore, power of spectral density within any frequency range could not be a measure of a modulating physiological mechanism activity.",
+      "publication_date": "2010-05-05T15:21:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.TO"
+      ],
+      "arxiv_id": "1005.0776v2"
+    },
+    {
+      "title": "Heart beat classification from single-lead ECG using the   Synchrosqueezing Transform",
+      "authors": [
+        "Christophe L. Herry",
+        "Martin Frasch",
+        "Andrew JE Seely",
+        "Hau-tieng Wu"
+      ],
+      "abstract": "The processing of ECG signal provides a wealth of information on cardiac function and overall cardiovascular health. While multi-lead ECG recordings are often necessary for a proper assessment of cardiac rhythms, they are not always available or practical, for example in fetal ECG applications. Moreover, a wide range of small non-obtrusive single-lead ECG ambulatory monitoring devices are now available, from which heart rate variability (HRV) and other health-related metrics are derived. Proper beat detection and classification of abnormal rhythms is important for reliable HRV assessment and can be challenging in single-lead ECG monitoring devices. In this manuscript, we modeled the heart rate signal as an adaptive non-harmonic model and used the newly developed synchrosqueezing transform (SST) to characterize ECG patterns. We show how the proposed model can be used to enhance heart beat detection and classification between normal and abnormal rhythms. In particular, using the Massachusetts Institute of Technology-Beth Israel Hospital (MIT-BIH) arrhythmia database and the Association for the Advancement of Medical Instrumentation (AAMI) beat classes, we trained and validated a support vector machine (SVM) classifier on a portion of the annotated beat database using the SST-derived instantaneous phase, the R-peak amplitudes and R-peak to R-peak interval durations, based on a single ECG lead. We obtained sensitivities and positive predictive values comparable to other published algorithms using multiple leads and many more features.",
+      "publication_date": "2015-10-09T01:39:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "1510.02541v4"
+    },
+    {
+      "title": "Characterisation of neonatal cardiac dynamics using ordinal partition   network",
+      "authors": [
+        "Laurita dos Santos",
+        "Débora Corrêa",
+        "David Walker",
+        "Moacir de Godoy",
+        "Elbert Macau",
+        "Michael Small"
+      ],
+      "abstract": "The maturation of the autonomic nervous system (ANS) starts in the gestation period and it is completed after birth in a variable time, reaching its peak in adulthood. However, the development of ANS maturation is not entirely understood in newborns. Clinically, the ANS condition is evaluated with monitoring of gestational age, Apgar score, heart rate, and by quantification of heart rate variability using linear methods. Few researchers have addressed this problem from the perspective nonlinear data analysis. This paper proposes a new data-driven methodology using nonlinear time series analysis, based on complex networks, to classify ANS conditions in newborns. We map $74$ time series given by RR intervals from premature and full-term newborns to ordinal partition networks and use complexity quantifiers to discriminate the dynamical process present in both conditions. We obtain three complexity quantifiers (permutation, conditional and global node entropies) using network mappings from forward and reverse directions, and considering different time lags and embedding dimensions. The results indicate that time asymmetry is present in the data of both groups and the complexity quantifiers can differentiate the groups analysed. We show that the conditional and global node entropies are sensitive for detecting subtle differences between the neonates, particularly for small embedding dimensions ($m < 7$). This study reinforces the assessment of nonlinear techniques for RR intervals time series analysis.",
+      "publication_date": "2021-12-13T07:27:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.DS"
+      ],
+      "arxiv_id": "2112.06458v1"
+    },
+    {
+      "title": "The historical vanishing of the Blazhko effect of RR Lyr from GEOS and   Kepler surveys",
+      "authors": [
+        "J. F. Le Borgne",
+        "E. Poretti",
+        "A. Klotz",
+        "E. Denoux",
+        "H. A. Smith",
+        "K. Kolenberg",
+        "R. Szabó",
+        "S. Bryson",
+        "M. Audejean",
+        "C. Buil",
+        "J. Caron",
+        "E. Conseil",
+        "L. Corp",
+        "C. Drillaud",
+        "T. de France",
+        "K. Graham",
+        "K. Hirosawa",
+        "A. N. Klotz",
+        "F. Kugel",
+        "D. Loughney",
+        "K. Menzies",
+        "M. Rodrí guez",
+        "P. M. Ruscitti"
+      ],
+      "abstract": "RR Lyr is one of the most studied variable stars. Its light curve has been regularly monitored since the discovery of the periodic variability in 1899. Analysis of all observed maxima allows us to identify two primary pulsation states defined as pulsation over a long (P0 longer than 0.56684 d) and a short (P0 shorter than 0.56682 d) primary pulsation period. These states alternate with intervals of 13-16 yr, and are well defined after 1943. The 40.8 d periodical modulations of the amplitude and the period (i.e. Blazhko effect) were noticed in 1916. We provide homogeneous determinations of the Blazhko period in the different primary pulsation states. The Blazhko period does not follow the variations of P0 and suddenly diminished from 40.8 d to around 39.0 d in 1975. The monitoring of these periodicities deserved and deserves a continuous and intensive observational effort. For this purpose we have built dedicated, transportable and autonomous small instruments, Very Tiny Telescopes (VTTs), to observe the times of maximum brightness of RR Lyr. As immediate results the VTTs recorded the last change of P0 state in mid-2009 and extended the time coverage of the Kepler observations, thus recording a maximum O-C amplitude of the Blazhko effect at the end of 2008, followed by the historically smallest O-C amplitude in late 2013. This decrease is still ongoing and VTT instruments are ready to monitor the expected increase in the next few years.",
+      "publication_date": "2014-05-15T13:54:07+00:00",
+      "doi": "10.1093/mnras/stu671",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "astro-ph.SR"
+      ],
+      "arxiv_id": "1405.3854v1"
+    },
+    {
+      "title": "Statistical model for describing heart rate variability in normal rhythm   and atrial fibrillation",
+      "authors": [
+        "Nikita Markov",
+        "Ilya Kotov",
+        "Konstantin Ushenin",
+        "Yakov Bozhko"
+      ],
+      "abstract": "Heart rate variability (HRV) indices describe properties of interbeat intervals in electrocardiogram (ECG). Usually HRV is measured exclusively in normal sinus rhythm (NSR) excluding any form of paroxysmal rhythm. Atrial fibrillation (AF) is the most widespread cardiac arrhythmia in human population. Usually such abnormal rhythm is not analyzed and assumed to be chaotic and unpredictable. Nonetheless, ranges of HRV indices differ between patients with AF, yet physiological characteristics which influence them are poorly understood. In this study, we propose a statistical model that describes relationship between HRV indices in NSR and AF. The model is based on Mahalanobis distance, the k-Nearest neighbour approach and multivariate normal distribution framework. Verification of the method was performed using 10 min intervals of NSR and AF that were extracted from long-term Holter ECGs. For validation we used Bhattacharyya distance and Kolmogorov-Smirnov 2-sample test in a k-fold procedure. The model is able to predict at least 7 HRV indices with high precision.",
+      "publication_date": "2022-07-17T13:06:39+00:00",
+      "doi": "10.1109/CSGB56354.2022.9865298",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2207.08165v1"
+    },
+    {
+      "title": "Different Impact of Heart Rate Variability in the Deep Cerebral and   Central Hemodynamics at Rest: An in silico Investigation",
+      "authors": [
+        "Stefania Scarsoglio",
+        "Luca Ridolfi"
+      ],
+      "abstract": "Heart rate variability (HRV), defined as the variability between consecutive heartbeats, is a surrogate measure of cardiac vagal tone. It is widely accepted that a decreased HRV is associated to several risk factors and cardiovascular diseases. However, a possible association between HRV and altered cerebral hemodynamics is still debated, suffering from HRV short-term measures and the paucity of high-resolution deep cerebral data. We propose a computational approach to evaluate the deep cerebral and central hemodynamics subject to physiological alterations of HRV in an ideal young healthy patient at rest. The cardiovascular-cerebral model was validated and recently exploited to understand the hemodynamic mechanisms between cardiac arrythmia and cognitive deficit. Three configurations (baseline, increased HRV, and decreased HRV) are built based on the standard deviation (SDNN) of RR beats. In the cerebral circulation, our results show that HRV has overall a stronger impact on pressure than flow rate mean values but similarly alters pressure and flow rate in terms of extreme events. By comparing reduced and increased HRV, this latter induces a higher probability of altered mean and extreme values, and is therefore more detrimental at distal cerebral level. On the contrary, at central level a decreased HRV induces a higher cardiac effort without improving the mechano-contractile performance, thus overall reducing the heart efficiency. Present results suggest that: (i) the increase of HRV per se does not seem to be sufficient to trigger a better cerebral hemodynamic response; (ii) by accounting for both central and cerebral circulations, the optimal HRV configuration is found at baseline. Given the relation inversely linking HRV and HR, the presence of this optimal condition can contribute to explain why the mean HR of the general population settles around the baseline value (70 bpm).",
+      "publication_date": "2021-05-19T09:15:59+00:00",
+      "doi": "10.3389/fnins.2021.600574",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "2105.09007v1"
+    },
+    {
+      "title": "Nonlinear trend removal should be carefully performed in heart rate   variability analysis",
+      "authors": [
+        "Binbin Xu",
+        "Rémi Dubois",
+        "Oriol Pont",
+        "Hussein Yahia"
+      ],
+      "abstract": "$\\bullet$ Background : In Heart rate variability analysis, the rate-rate time series suffer often from aperiodic non-stationarity, presence of ectopic beats etc. It would be hard to extract helpful information from the original signals. 10 $\\bullet$ Problem : Trend removal methods are commonly practiced to reduce the influence of the low frequency and aperiodic non-stationary in RR data. This can unfortunately affect the signal and make the analysis on detrended data less appropriate. $\\bullet$ Objective : Investigate the detrending effect (linear \\& nonlinear) in temporal / nonliear analysis of heart rate variability of long-term RR data (in normal sinus rhythm, atrial fibrillation, 15 congestive heart failure and ventricular premature arrhythmia conditions). $\\bullet$ Methods : Temporal method : standard measure SDNN; Nonlinear methods : multi-scale Fractal Dimension (FD), Detrended Fluctuation Analysis (DFA) \\& Sample Entropy (Sam-pEn) analysis. $\\bullet$ Results : The linear detrending affects little the global characteristics of the RR data, either 20 in temporal analysis or in nonlinear complexity analysis. After linear detrending, the SDNNs are just slightly shifted and all distributions are well preserved. The cross-scale complexity remained almost the same as the ones for original RR data or correlated. Nonlinear detrending changed not only the SDNNs distribution, but also the order among different types of RR data. After this processing, the SDNN became indistinguishable be-25 tween SDNN for normal sinus rhythm and ventricular premature beats. Different RR data has different complexity signature. Nonlinear detrending made the all RR data to be similar , in terms of complexity. It is thus impossible to distinguish them. The FD showed that nonlinearly detrended RR data has a dimension close to 2, the exponent from DFA is close to zero and SampEn is larger than 1.5 -- these complexity values are very close to those for 30 random signal. $\\bullet$ Conclusions : Pre-processing by linear detrending can be performed on RR data, which has little influence on the corresponding analysis. Nonlinear detrending could be harmful and it is not advisable to use this type of pre-processing. Exceptions do exist, but only combined with other appropriate techniques to avoid complete change of the signal's intrinsic dynamics. 35 Keywords $\\bullet$ heart rate variability $\\bullet$ linear / nonlinear detrending $\\bullet$ complexity analysis $\\bullet$ mul-tiscale analysis $\\bullet$ detrended fluctuation analysis $\\bullet$ fractal dimension $\\bullet$ sample entropy;",
+      "publication_date": "2016-05-19T11:29:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.QM"
+      ],
+      "arxiv_id": "1605.05891v1"
+    },
+    {
+      "title": "Breakdown of Long-Range Correlations in Heart Rate Fluctuations During   Meditation",
+      "authors": [
+        "Nikitas Papasimakis",
+        "Fotini Pallikari"
+      ],
+      "abstract": "The average wavelet coefficient method is applied to investigate the scaling features of heart rate variability during meditation, a state of induced mental relaxation. While periodicity dominates the behavior of the heart rate time series at short intervals, the meditation induced correlations in the signal become significantly weaker at longer time scales. Further study of these correlations by means of an entropy analysis in the natural time domain reveals that the induced mental relaxation introduces substantial loss of complexity at larger scales, which indicates a change in the physiological mechanisms involved.",
+      "publication_date": "2009-01-27T17:39:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.bio-ph"
+      ],
+      "arxiv_id": "0901.4295v1"
+    },
+    {
+      "title": "Real-Time, Single-Ear, Wearable ECG Reconstruction, R-Peak Detection,   and HR/HRV Monitoring",
+      "authors": [
+        "Carlos Santos",
+        "Sebastian Frey",
+        "Andrea Cossettini",
+        "Luca Benini",
+        "Victor Kartsch"
+      ],
+      "abstract": "Biosignal monitoring, in particular heart activity through heart rate (HR) and heart rate variability (HRV) tracking, is vital in enabling continuous, non-invasive tracking of physiological and cognitive states. Recent studies have explored compact, head-worn devices for HR and HRV monitoring to improve usability and reduce stigma. However, this approach is challenged by the current reliance on wet electrodes, which limits usability, the weakness of ear-derived signals, making HR/HRV extraction more complex, and the incompatibility of current algorithms for embedded deployment. This work introduces a single-ear wearable system for real-time ECG (Electrocardiogram) parameter estimation, which directly runs on BioGAP, an energy-efficient device for biosignal acquisition and processing. By combining SoA in-ear electrode technology, an optimized DeepMF algorithm, and BioGAP, our proposed subject-independent approach allows for robust extraction of HR/HRV parameters directly on the device with just 36.7 uJ/inference at comparable performance with respect to the current state-of-the-art architecture, achieving 0.49 bpm and 25.82 ms for HR/HRV mean errors, respectively and an estimated battery life of 36h with a total system power consumption of 7.6 mW. Clinical relevance: The ability to reconstruct ECG signals and extract HR and HRV paves the way for continuous, unobtrusive cardiovascular monitoring with head-worn devices. In particular, the integration of cardiovascular measurements in everyday-use devices (such as earbuds) has potential in continuous at-home monitoring to enable early detection of cardiovascular irregularities.",
+      "publication_date": "2025-05-03T08:28:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2505.01738v1"
+    },
+    {
+      "title": "Dynamic Metrics of Heart Rate Variability",
+      "authors": [
+        "Clinton F. Goss",
+        "Eric B. Miller"
+      ],
+      "abstract": "Numerous metrics of heart rate variability (HRV) have been described, analyzed, and compared in the literature. However, they rarely cover the actual metrics used in a class of HRV data acquisition devices - those designed primarily to produce real-time metrics. This paper characterizes a class of metrics that we term dynamic metrics. We also report the results of a pilot study which compares one such dynamic metric, based on photoplethysmographic data using a moving sampling window set to the length of an estimated breath cycle (EBC), with established HRV metrics. The results show high correlation coefficients between the dynamic EBC metrics and the established static SDNN metric (standard deviation of Normal-to-Normal) based on electrocardiography. These results demonstrate the usefulness of data acquisition devices designed for real-time metrics.",
+      "publication_date": "2013-08-27T23:48:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.QM"
+      ],
+      "arxiv_id": "1308.6018v2"
+    },
+    {
+      "title": "Physiological Signal Processing in Heart Rate Variability Measurement: A   Focus on Spectral Analysis",
+      "authors": [
+        "Amin Gasmi"
+      ],
+      "abstract": "Fast Fourier Transform (FFT) relies on the HRV frequency-domain analysis techniques. It requires re-sampling of the inherently unevenly sampled heartbeat time-series (RR tachogram) to produce an evenly sampled time series of the heartbeat. However, re-sampling of the heartbeat time -- series is found to produce a substantial error when estimating an artificial RR tachogram.",
+      "publication_date": "2022-08-02T14:15:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "2208.02234v1"
+    },
+    {
+      "title": "Novel Classification of Ischemic Heart Disease Using Artificial Neural   Network",
+      "authors": [
+        "Giulia Silveri",
+        "Marco Merlo",
+        "Luca Restivo",
+        "Gianfranco Sinagra",
+        "Agostino Accardo"
+      ],
+      "abstract": "Ischemic heart disease (IHD), particularly in its chronic stable form, is a subtle pathology due to its silent behavior before developing in unstable angina, myocardial infarction or sudden cardiac death. Machine learning techniques applied to parameters extracted form heart rate variability (HRV) signal seem to be a valuable support in the early diagnosis of some cardiac diseases. However, so far, IHD patients were identified using Artificial Neural Networks (ANNs) applied to a limited number of HRV parameters and only to very few subjects. In this study, we used several linear and non-linear HRV parameters applied to ANNs, in order to confirm these results on a large cohort of 965 sample of subjects and to identify which features could discriminate IHD patients with high accuracy. By using principal component analysis and stepwise regression, we reduced the original 17 parameters to five, used as inputs, for a series of ANNs. The highest accuracy of 82% was achieved using meanRR, LFn, SD1, gender and age parameters and two hidden neurons.",
+      "publication_date": "2020-11-19T13:00:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "arxiv_id": "2011.09801v1"
+    },
+    {
+      "title": "Gyrosonics a Novel Stimulant for Autonomic Nervous System",
+      "authors": [
+        "S. K. Ghatak",
+        "S. S. Ray",
+        "R. Choudhuri",
+        "S. Banerjee"
+      ],
+      "abstract": "Gyrosonics refers to novel audio binaural stimulus that produces rotational perceptions of sound movement in head at a particular predetermined frequency. Therapeutic effect observed with this is considered to be associated with modification of arousal of autonomic nervous system. The heart rate variability (HRV), non-invasive measure of autonomic nervous system, has been measured for group of 30 subjects for pre- and post- gyrosonic installation. The time- and frequency- domain analysis of HRV results show overall decrease in sympathetic response and increase in para- sympathetic response due to listening of gyro sonics.",
+      "publication_date": "2009-06-29T07:13:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.med-ph"
+      ],
+      "arxiv_id": "0906.5208v1"
+    },
+    {
+      "title": "Revisiting CoRoT RR Lyrae stars: detection of period doubling and   temporal variation of additional frequencies",
+      "authors": [
+        "R. Szabó",
+        "J. M. Benkő",
+        "M. Paparó",
+        "E. Chapellier",
+        "E. Poretti",
+        "A. Baglin",
+        "W. W. Weiss",
+        "K. Kolenberg",
+        "E. Guggenberger",
+        "J. -F. Le Borgne"
+      ],
+      "abstract": "We search for signs of period doubling in CoRoT RR Lyrae stars. The occurrence of this dynamical effect in modulated RR Lyrae stars might help us to gain more information about the mysterious Blazhko effect. The temporal variability of the additional frequencies in representatives of all subtypes of RR Lyrae stars is also investigated. We pre-process CoRoT light curves by applying trend and jump correction and outlier removal. Standard Fourier technique is used to analyze the frequency content of our targets and follow the time dependent phenomena. The most comprehensive collection of CoRoT RR Lyrae stars, including new discoveries is presented and analyzed. We found alternating maxima and in some cases half-integer frequencies in four CoRoT Blazhko RR Lyrae stars, as clear signs of the presence of period doubling. This reinforces that period doubling is an important ingredient to understand the Blazhko effect - a premise we derived previously from the Kepler RR Lyrae sample. As expected, period doubling is detectable only for short time intervals in most modulated RRab stars. Our results show that the temporal variability of the additional frequencies in all RR Lyrae sub-types is ubiquitous. The ephemeral nature and the highly variable amplitude of these variations suggest a complex underlying dynamics of and an intricate interplay between radial and possibly nonradial modes in RR Lyrae stars. The omnipresence of additional modes in all types of RR Lyrae - except in non-modulated RRab stars - implies that asteroseismology of these objects should be feasible in the near future (Abridged).",
+      "publication_date": "2014-08-04T12:01:16+00:00",
+      "doi": "10.1051/0004-6361/201424522",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "astro-ph.SR"
+      ],
+      "arxiv_id": "1408.0653v1"
+    }
+  ]
+}

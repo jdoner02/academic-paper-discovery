@@ -1,0 +1,676 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-06T01:42:25.623176+00:00",
+    "strategy_name": "Hash-Based Digital Signatures",
+    "total_papers": 40,
+    "download_directory": "outputs/2025-08-05_Hash-Based Digital Signatures"
+  },
+  "papers": [
+    {
+      "title": "Stateful Hash-Based Signature (SHBS) Benchmark Data for XMSS and LMS",
+      "authors": [
+        "Brian Romansky",
+        "Thomas Mazzuchi",
+        "Shahram Sarkani"
+      ],
+      "abstract": "The National Institute of Standards and Technology (NIST) has recommended the use of stateful hash-based digital signatures for long-term applications that may require protection from future threats that use quantum computers. XMSS and LMS, the two approved algorithms, have multiple parameter options that impact digital signature size, public key size, the number of signatures that can be produced over the life of a keypair, and the computational effort to validate signatures. This collection of benchmark data is intended to support system designers in understanding the differences among the configuration options.",
+      "publication_date": "2025-02-09T21:14:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.06033v1"
+    },
+    {
+      "title": "Winternitz stack protocols",
+      "authors": [
+        "Alex Shafarenko"
+      ],
+      "abstract": "This paper proposes and evaluates a new bipartite post-quantum digital signature protocol based on Winternitz chains and the HORS oracle. Mutually mistrustful Alice and Bob are able to agree and sign a series of documents in a way that makes it impossible (within the assumed security model) to repudiate their signatures. The number of signatures supported by a single public key is limited by a large number but the security of the signature scheme is not diminished by repeated application. A single public key supports both parties. Some ramifications are discussed, security parameters evaluated and an application area delineated for the proposed concept.",
+      "publication_date": "2022-03-23T17:26:46+00:00",
+      "doi": "10.1186/s42400-024-00225-9",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2203.12566v2"
+    },
+    {
+      "title": "Quantum-access security of the Winternitz one-time signature scheme",
+      "authors": [
+        "Christian Majenz",
+        "Chanelle Matadah Manfouo",
+        "Maris Ozols"
+      ],
+      "abstract": "Quantum-access security, where an attacker is granted superposition access to secret-keyed functionalities, is a fundamental security model and its study has inspired results in post-quantum security. We revisit, and fill a gap in, the quantum-access security analysis of the Lamport one-time signature scheme (OTS) in the quantum random oracle model (QROM) by Alagic et al.~(Eurocrypt 2020). We then go on to generalize the technique to the Winternitz OTS. Along the way, we develop a tool for the analysis of hash chains in the QROM based on the superposition oracle technique by Zhandry (Crypto 2019) which might be of independent interest.",
+      "publication_date": "2021-03-23T10:55:00+00:00",
+      "doi": "10.4230/LIPIcs.ITC.2021.21",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2103.12448v2"
+    },
+    {
+      "title": "Post-Quantum Cryptography Anonymous Scheme -- PQCWC: Post-Quantum   Cryptography Winternitz-Chen",
+      "authors": [
+        "Abel C. H. Chen"
+      ],
+      "abstract": "As quantum computing technology matures, it poses a threat to the security of mainstream asymmetric cryptographic methods. In response, the National Institute of Standards and Technology released the final version of post-quantum cryptographic (PQC) algorithm standards in August 2024. These post-quantum cryptographic algorithms are primarily based on lattice-based and hash-based cryptography. Therefore, this study proposes the Post-Quantum Cryptography Winternitz-Chen (PQCWC) anonymous scheme, aimed at exploring the design of anonymous schemes based on PQC for future applications in privacy protection. The anonymous scheme designed in this study is mainly built on the Winternitz signature scheme, which can prevent the original public key from being exposed in the certificate. Furthermore, the PQCWC anonymous scheme integrates the butterfly key expansion mechanism, proposing the first hash-based butterfly key expansion mechanism in the world, achieving anonymity for both the registration authority and the certificate authority, thereby fully protecting privacy. In the experimental environment, this study compares various hash algorithms, including Secure Hash Algorithm-1 (SHA-1), the SHA-2 series, the SHA-3 series, and the BLAKE series. The results demonstrate that the proposed anonymous scheme can achieve anonymity without increasing key length, signature length, key generation time, signature generation time, or signature verification time.",
+      "publication_date": "2024-09-20T00:14:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.03678v1"
+    },
+    {
+      "title": "FROG: Forward-Secure Post-Quantum Signature",
+      "authors": [
+        "Attila A. Yavuz",
+        "Rouzbeh Behnia"
+      ],
+      "abstract": "Forward-secure signatures guarantee that the signatures generated before the compromise of private key remain secure, and therefore offer an enhanced compromise-resiliency for real-life applications such as digital forensics, audit logs, and financial systems. However, the vast majority of state-of-the-art forward-secure signatures rely on conventional intractability assumptions and therefore are not secure against quantum computers. Hash-based signatures (HBS) (e.g., XMSS) can offer forward-secure post-quantum security. However, they are efficient only for a pre-defined number of messages to be signed and incur high key generation overhead, highly expensive signing, and large signature sizes for an increasing number of messages. It is an open problem to develop quantum-safe forward-secure signatures that are efficient and practical with a signing capability scalable to their security parameters.   In this work, we propose a new series of post-quantum signatures that we call FROG (Forward-secuRe pOst-quantum siGnature). Unlike HBS alternatives, FROG can achieve highly computational efficient signatures with sub-linear key/signature sizes and (practically) unbounded signing capability. This is achieved by transforming suitable post-quantum signatures into forward-secure settings via MMM constructions. We investigated the transformation of prominent post-quantum secure signatures such as Dilithium, WOTS, and BLISS with MMM. Our experiments indicate that FROG outperforms XMSS for the vast majority (if not all for a large number of messages) of performance metrics. We also discuss one-time variants of these base signature schemes that can push the performance of FROG to the edge. Overall, FROG shows a better performance than the existing alternatives with forward-security and therefore is an ideal alternative for the standardization efforts for forward-secure post-quantum signatures.",
+      "publication_date": "2022-05-14T19:01:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2205.07112v1"
+    },
+    {
+      "title": "A Contribution to Secure the Routing Protocol \"Greedy Perimeter   Stateless Routing\" Using a Symmetric Signature-Based AES and MD5 Hash",
+      "authors": [
+        "Mohammed Erritali",
+        "Oussama Mohamed Reda",
+        "Bouabid El Ouahidi"
+      ],
+      "abstract": "This work presents a contribution to secure the routing protocol GPSR (Greedy Perimeter Stateless Routing) for vehicular ad hoc networks, we examine the possible attacks against GPSR and security solutions proposed by different research teams working on ad hoc network security. Then, we propose a solution to secure GPSR packet by adding a digital signature based on symmetric cryptography generated using the AES algorithm and the MD5 hash function more suited to a mobile environment.",
+      "publication_date": "2011-10-07T16:27:25+00:00",
+      "doi": "10.5121/ijdps.2011.2509",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "1110.1579v1"
+    },
+    {
+      "title": "Security analysis of the W-OTS$^+$ signature scheme: Updating security   bounds",
+      "authors": [
+        "M. A. Kudinov",
+        "E. O. Kiktenko",
+        "A. K. Fedorov"
+      ],
+      "abstract": "In this work, we discuss in detail a flaw in the original security proof of the W-OTS${^+}$ variant of the Winternitz one-time signature scheme, which is an important component for various stateless and stateful many-time hash-based digital signature schemes. We update the security proof for the W-OTS${^+}$ scheme and derive the corresponding security level. Our result is of importance for the security analysis of hash-based digital signature schemes.",
+      "publication_date": "2020-02-18T07:59:59+00:00",
+      "doi": "10.4213/mvk362",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2002.07419v2"
+    },
+    {
+      "title": "A Note on the Post-Quantum Security of (Ring) Signatures",
+      "authors": [
+        "Rohit Chatterjee",
+        "Kai-Min Chung",
+        "Xiao Liang",
+        "Giulio Malavolta"
+      ],
+      "abstract": "This work revisits the security of classical signatures and ring signatures in a quantum world. For (ordinary) signatures, we focus on the arguably preferable security notion of blind-unforgeability recently proposed by Alagic et al. (Eurocrypt'20). We present two short signature schemes achieving this notion: one is in the quantum random oracle model, assuming quantum hardness of SIS; and the other is in the plain model, assuming quantum hardness of LWE with super-polynomial modulus. Prior to this work, the only known blind-unforgeable schemes are Lamport's one-time signature and the Winternitz one-time signature, and both of them are in the quantum random oracle model.   For ring signatures, the recent work by Chatterjee et al. (Crypto'21) proposes a definition trying to capture adversaries with quantum access to the signer. However, it is unclear if their definition, when restricted to the classical world, is as strong as the standard security notion for ring signatures. They also present a construction that only partially achieves (even) this seeming weak definition, in the sense that the adversary can only conduct superposition attacks over the messages, but not the rings. We propose a new definition that does not suffer from the above issue. Our definition is an analog to the blind-unforgeability in the ring signature setting. Moreover, assuming the quantum hardness of LWE, we construct a compiler converting any blind-unforgeable (ordinary) signatures to a ring signature satisfying our definition.",
+      "publication_date": "2021-12-11T21:51:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2112.06078v1"
+    },
+    {
+      "title": "Performance Analysis and Evaluation of Post Quantum Secure Blockchained   Federated Learning",
+      "authors": [
+        "Dev Gurung",
+        "Shiva Raj Pokhrel",
+        "Gang Li"
+      ],
+      "abstract": "Post-quantum security is critical in the quantum era. Quantum computers, along with quantum algorithms, make the standard cryptography based on RSA or ECDSA over FL or Blockchain vulnerable. The implementation of post-quantum cryptography (PQC) over such systems is poorly understood as PQC is still in its standardization phase. In this work, we propose a hybrid approach to employ PQC over blockchain-based FL (BFL), where we combine a stateless signature scheme like Dilithium (or Falcon) with a stateful hash-based signature scheme like the extended Merkle Signature Scheme (XMSS). We propose a linear-based formulaic approach to device role selection mechanisms based on multiple factors to address the performance aspect. Our holistic approach of utilizing a verifiable random function (VRF) to assist in the blockchain consensus mechanism shows the practicality of the proposed approaches. The proposed method and extensive experimental results contribute to enhancing the security and performance aspects of BFL systems.",
+      "publication_date": "2023-06-26T15:28:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2306.14772v2"
+    },
+    {
+      "title": "Quotable Signatures for Authenticating Shared Quotes",
+      "authors": [
+        "Joan Boyar",
+        "Simon Erfurth",
+        "Kim S. Larsen",
+        "Ruben Niederhagen"
+      ],
+      "abstract": "Quotable signature schemes are digital signature schemes with the additional property that from the signature for a message, any party can extract signatures for (allowable) quotes from the message, without knowing the secret key or interacting with the signer of the original message. Crucially, the extracted signatures are still signed with the original secret key. We define a notion of security for quotable signature schemes and construct a concrete example of a quotable signature scheme, using Merkle trees and classical digital signature schemes. The scheme is shown to be secure, with respect to the aforementioned notion of security. Additionally, we prove bounds on the complexity of the constructed scheme and provide algorithms for signing, quoting, and verifying. Finally, concrete use cases of quotable signatures are considered, using them to combat misinformation by bolstering authentic content on social media. We consider both how quotable signatures can be used, and why using them could help mitigate the effects of fake news.",
+      "publication_date": "2022-12-21T12:07:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2212.10963v4"
+    },
+    {
+      "title": "Arbitrated quantum signature schemes without using entangled states",
+      "authors": [
+        "Xiangfu Zou",
+        "Daowen Qiu"
+      ],
+      "abstract": "A digital signature is a mathematical scheme for demonstrating the authenticity of a digital message or document. For signing quantum messages, some arbitrated quantum signature schemes have being proposed. However, in the existing literature, arbitrated quantum signature schemes depend on entanglement. In this paper, we present two arbitrated quantum signature schemes without utilizing entangled states in the signing phase and the verifying phase. The first proposed scheme can preserve the merits in the existing schemes. Then, we point out, in this scheme and the prior schemes, there exists a problem that Bob can repudiate the integrality of the signatures. To conquer this problem, we construct another arbitrated quantum signature scheme without using quantum entangled states but using a public board. The new scheme has three advantages: it does not utilize entangled states while it can preserve all merits in the existing schemes; the integrality of the signature can avoid being disavowed by the receiver; and, it provides a higher efficiency in transmission and reduces the complexity of implementation. Furthermore, we present a technique such that the quantum message can keep secret to the arbitrator in a arbitrated quantum signature scheme.",
+      "publication_date": "2010-03-11T14:22:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1003.2337v1"
+    },
+    {
+      "title": "Pointcheval-Sanders Signature-Based Synchronized Aggregate Signature",
+      "authors": [
+        "Masayuki Tezuka",
+        "Keisuke Tanaka"
+      ],
+      "abstract": "Synchronized aggregate signature is a special type of signature that all signers have a synchronized time period and allows aggregating signatures which are generated in the same period. This signature has a wide range of applications for systems that have a natural reporting period such as log and sensor data, or blockchain protocol. In CT-RSA 2016, Pointcheval and Sanders proposed the new randomizable signature scheme. Since this signature scheme is based on type-3 pairing, this signature achieves a short signature size and efficient signature verification. In this paper, we design the Pointchcval-Sanders signature-based synchronized aggregate signature scheme and prove its security under the generalized Pointcheval-Sanders assumption in the random oracle model. Our scheme offers the most efficient aggregate signature verification among synchronized aggregate signature schemes based on bilinear groups.",
+      "publication_date": "2023-04-01T09:12:41+00:00",
+      "doi": "10.1007/978-3-031-29371-9_16",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2304.00265v1"
+    },
+    {
+      "title": "Some Proxy Signature and Designated verifier Signature Schemes over   Braid Groups",
+      "authors": [
+        "Sunder Lal",
+        "Vandani Verma"
+      ],
+      "abstract": "Braids groups provide an alternative to number theoretic public cryptography and can be implemented quite efficiently. The paper proposes five signature schemes: Proxy Signature, Designated Verifier, Bi-Designated Verifier, Designated Verifier Proxy Signature And Bi-Designated Verifier Proxy Signature scheme based on braid groups. We also discuss the security aspects of each of the proposed schemes.",
+      "publication_date": "2009-04-22T10:14:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "0904.3422v1"
+    },
+    {
+      "title": "Revocable Quantum Digital Signatures",
+      "authors": [
+        "Tomoyuki Morimae",
+        "Alexander Poremba",
+        "Takashi Yamakawa"
+      ],
+      "abstract": "We study digital signatures with revocation capabilities and show two results. First, we define and construct digital signatures with revocable signing keys from the LWE assumption. In this primitive, the signing key is a quantum state which enables a user to sign many messages and yet, the quantum key is also revocable, i.e., it can be collapsed into a classical certificate which can later be verified. Once the key is successfully revoked, we require that the initial recipient of the key loses the ability to sign. We construct digital signatures with revocable signing keys from a newly introduced primitive which we call two-tier one-shot signatures, which may be of independent interest. This is a variant of one-shot signatures, where the verification of a signature for the message ``0'' is done publicly, whereas the verification for the message ``1'' is done in private. We give a construction of two-tier one-shot signatures from the LWE assumption. As a complementary result, we also construct digital signatures with quantum revocation from group actions, where the quantum signing key is simply ``returned'' and then verified as part of revocation.   Second, we define and construct digital signatures with revocable signatures from OWFs. In this primitive, the signer can produce quantum signatures which can later be revoked. Here, the security property requires that, once revocation is successful, the initial recipient of the signature loses the ability to find accepting inputs to the signature verification algorithm. We construct this primitive using a newly introduced two-tier variant of tokenized signatures. For the construction, we show a new lemma which we call the adaptive hardcore bit property for OWFs, which may enable further applications.",
+      "publication_date": "2023-12-21T04:10:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2312.13561v1"
+    },
+    {
+      "title": "Proof-of-forgery for hash-based signatures",
+      "authors": [
+        "E. O. Kiktenko",
+        "M. A. Kudinov",
+        "A. A. Bulychev",
+        "A. K. Fedorov"
+      ],
+      "abstract": "In the present work, a peculiar property of hash-based signatures allowing detection of their forgery event is explored. This property relies on the fact that a successful forgery of a hash-based signature most likely results in a collision with respect to the employed hash function, while the demonstration of this collision could serve as convincing evidence of the forgery. Here we prove that with properly adjusted parameters Lamport and Winternitz one-time signatures schemes could exhibit a forgery detection availability property. This property is of significant importance in the framework of crypto-agility paradigm since the considered forgery detection serves as an alarm that the employed cryptographic hash function becomes insecure to use and the corresponding scheme has to be replaced.",
+      "publication_date": "2019-05-30T12:14:42+00:00",
+      "doi": "10.5220/0010579603330342",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1905.12993v2"
+    },
+    {
+      "title": "ESSPI: ECDSA/Schnorr Signed Program Input for BitVMX",
+      "authors": [
+        "Sergio Demian Lerner",
+        "Martin Jonas",
+        "Ariel Futoransky"
+      ],
+      "abstract": "The BitVM and BitVMX protocols have long relied on inefficient one-time signature (OTS) schemes like Lamport and Winternitz for signing program inputs. These schemes exhibit significant storage overheads, hindering their practical application. This paper introduces ESSPI, an optimized method leveraging ECDSA/Schnorr signatures to sign the BitVMX program input. With Schnorr signatures we achieve an optimal 1:1 data expansion, compared to the current known best ratio of 1:200 based on Winternitz signatures. To accomplish this we introduce 4 innovations to BitVMX: (1) a modification of the BitVMX CPU, adding a challengeable hashing core to it, (2) a new partition-based search to detect fraud during hashing, (3) a new enhanced transaction DAG with added data-carrying transactions with a fraud-verifying smart-contract and (4) a novel timelock-based method for proving data availability to Bitcoin smart contracts. The enhanced BitVMX protocol enables the verification of uncompressed inputs such as SPV proofs, NiPoPoWs, or longer computation integrity proofs, such as STARKs.",
+      "publication_date": "2025-03-04T16:40:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.02772v2"
+    },
+    {
+      "title": "Fusion of Multiple Matchers using SVM for Offline Signature   Identification",
+      "authors": [
+        "Dakshina Ranjan Kisku",
+        "Phalguni Gupta",
+        "Jamuna Kanta Sing"
+      ],
+      "abstract": "This paper uses Support Vector Machines (SVM) to fuse multiple classifiers for an offline signature system. From the signature images, global and local features are extracted and the signatures are verified with the help of Gaussian empirical rule, Euclidean and Mahalanobis distance based classifiers. SVM is used to fuse matching scores of these matchers. Finally, recognition of query signatures is done by comparing it with all signatures of the database. The proposed system is tested on a signature database contains 5400 offline signatures of 600 individuals and the results are found to be promising.",
+      "publication_date": "2010-02-02T08:15:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "1002.0416v1"
+    },
+    {
+      "title": "Offline Signature Identification by Fusion of Multiple Classifiers using   Statistical Learning Theory",
+      "authors": [
+        "Dakshina Ranjan Kisku",
+        "Phalguni Gupta",
+        "Jamuna Kanta Sing"
+      ],
+      "abstract": "This paper uses Support Vector Machines (SVM) to fuse multiple classifiers for an offline signature system. From the signature images, global and local features are extracted and the signatures are verified with the help of Gaussian empirical rule, Euclidean and Mahalanobis distance based classifiers. SVM is used to fuse matching scores of these matchers. Finally, recognition of query signatures is done by comparing it with all signatures of the database. The proposed system is tested on a signature database contains 5400 offline signatures of 600 individuals and the results are found to be promising.",
+      "publication_date": "2010-03-30T16:36:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "1003.5865v1"
+    },
+    {
+      "title": "Signature-inverse Theorem in Mesh Group-planes",
+      "authors": [
+        "Reza Aghayan"
+      ],
+      "abstract": "This is the second paper devoted to the numerical version of Signature-inverse Theorem in terms of the underlying joint invariants. Signature Theorem and its Inverse guarantee any application of differential invariant signature curves to the invariant recognition of visual objects. We first show the invalidity of Curvature-inverse and Signature inverse theorems, meaning non-congruent meshes may have the same joint invariant numerical curvature or signature. Then by classifying three and five point ordinary meshes respectively in the Euclidean and affine cases, we look for conditions in terms of the associated joint invariant signatures which make these theorems correct. Additionally, we bring forward The Host Theorem to provide a simpler version of Signature-inverse Theorem for closed ordinary meshes.",
+      "publication_date": "2020-06-06T02:24:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.DG"
+      ],
+      "arxiv_id": "2006.03759v1"
+    },
+    {
+      "title": "A Comprehensive Survey of Threshold Signatures: NIST Standards,   Post-Quantum Cryptography, Exotic Techniques, and Real-World Applications",
+      "authors": [
+        "Kiarash Sedghighadikolaei",
+        "Attila Altay Yavuz"
+      ],
+      "abstract": "Threshold digital signatures enable a distributed execution of signature functionalities and will play a crucial role in the security of emerging decentralized next-generation networked systems and applications. In this paper, we provide a comprehensive and systematic survey of threshold and distributed signatures with advanced features. Our survey encompasses threshold signatures in conventional and post-quantum cryptography (PQC) settings and captures custom-design and standard signatures (e.g., conventional NIST and NIST-PQC). We examine both generic (via secure multi-party computation) and custom thresholding techniques for a myriad of signature families while investigating exotic signatures, real-life applications, and potential future research direction.",
+      "publication_date": "2023-11-09T16:53:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.05514v2"
+    },
+    {
+      "title": "Signature matrices of membranes",
+      "authors": [
+        "Felix Lotter",
+        "Leonard Schmitz"
+      ],
+      "abstract": "The signature of a membrane is a sequence of tensors whose entries are iterated integrals. We study algebraic properties of membrane signatures, with a focus on signature matrices of polynomial and piecewise bilinear membranes. Generalizing known results for path signatures, we show that the two families of membranes admit the same set of signature matrices and we examine the corresponding affine varieties. In particular, we prove that there are no algebraic relations on signature matrices of membranes, in contrast to the path case. We complement our results by a linear time algorithm for the computation of signature tensors for piecewise bilinear membranes.",
+      "publication_date": "2024-09-18T14:05:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.AG"
+      ],
+      "arxiv_id": "2409.11996v2"
+    },
+    {
+      "title": "Calculation of Iterated-Integral Signatures and Log Signatures",
+      "authors": [
+        "Jeremy Reizenstein"
+      ],
+      "abstract": "We explain the algebra needed to make sense of the log signature of a path, with plenty of examples. We show how the log signature can be calculated numerically, and explain some software tools which demonstrate it.",
+      "publication_date": "2017-12-07T18:05:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.RA"
+      ],
+      "arxiv_id": "1712.02757v1"
+    },
+    {
+      "title": "Hypergeometric identities in elliptic signature six",
+      "authors": [
+        "P. L. Robinson"
+      ],
+      "abstract": "Within the Ramanujan theories of elliptic functions, Li-Chien Shen constructed natural elliptic functions in signature three and signature four. When applied in signature six, the same constructions produce non-elliptic functions that nevertheless engender the corresponding hypergeometric identities of Ramanujan.",
+      "publication_date": "2020-09-12T22:34:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.CV"
+      ],
+      "arxiv_id": "2009.07069v1"
+    },
+    {
+      "title": "The signature package on Witt spaces, II. Higher signatures",
+      "authors": [
+        "Pierre Albin",
+        "Eric Leichtnam",
+        "Rafe Mazzeo",
+        "Paolo Piazza"
+      ],
+      "abstract": "This is a sequel to the paper \"The signature package on Witt spaces, I. Index classes\" by the same authors. In the first part we investigated, via a parametrix construction, the regularity properties of the signature operator on a stratified Witt pseudomanifold, proving, in particular, that one can define a K-homology signature class. We also established the existence of an analytic index class for the signature operator twisted by a C^*_r\\Gamma Mischenko bundle and proved that the K-homology signature class is mapped to the signature index class by the assembly map. In this paper we continue our study, showing that the signature index class is invariant under rational Witt bordisms and stratified homotopies. We are also able to identify this analytic class with the topological analogue of the Mischenko symmetric signature recently defined by Banagl. Finally, we define Witt-Novikov higher signatures and show that our analytic results imply a purely topological theorem, namely that the Witt-Novikov higher signatures are stratified homotopy invariants if the assembly map in K-theory is rationally injective.",
+      "publication_date": "2009-11-04T17:33:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.DG"
+      ],
+      "arxiv_id": "0911.0888v2"
+    },
+    {
+      "title": "On expected signatures and signature cumulants in semimartingale models",
+      "authors": [
+        "Peter K. Friz",
+        "Paul P. Hager",
+        "Nikolas Tapia"
+      ],
+      "abstract": "The concept of signatures and expected signatures is vital in data science, especially for sequential data analysis. The signature transform, a Cartan type development, translates paths into high-dimensional feature vectors, capturing their intrinsic characteristics. Under natural conditions, the expectation of the signature determines the law of the signature, providing a statistical summary of the data distribution. This property facilitates robust modeling and inference in machine learning and stochastic processes. Building on previous work by the present authors [Unified signature cumulants and generalized Magnus expansions, FoM Sigma '22] we here revisit the actual computation of expected signatures, in a general semimartingale setting. Several new formulae are given. A log-transform of (expected) signatures leads to log-signatures (signature cumulants), offering a significant reduction in complexity.",
+      "publication_date": "2024-08-09T14:16:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.ML"
+      ],
+      "arxiv_id": "2408.05085v2"
+    },
+    {
+      "title": "One For All: Formally Verifying Protocols which use Aggregate Signatures   (extended version)",
+      "authors": [
+        "Xenia Hofmeier",
+        "Andrea Raguso",
+        "Ralf Sasse",
+        "Dennis Jackson",
+        "David Basin"
+      ],
+      "abstract": "Aggregate signatures are digital signatures that compress multiple signatures from different parties into a single signature, thereby reducing storage and bandwidth requirements. BLS aggregate signatures are a popular kind of aggregate signature, deployed by Ethereum, Dfinity, and Cloudflare amongst others, currently undergoing standardization at the IETF. However, BLS aggregate signatures are difficult to use correctly, with nuanced requirements that must be carefully handled by protocol developers.   In this work, we design the first models of aggregate signatures that enable formal verification tools, such as Tamarin and ProVerif, to be applied to protocols using these signatures. We introduce general models that are based on the cryptographic security definition of generic aggregate signatures, allowing the attacker to exploit protocols where the security requirements are not satisfied. We also introduce a second family of models formalizing BLS aggregate signatures in particular. We demonstrate our approach's practical relevance by modelling and analyzing in Tamarin a device attestation protocol called SANA. Despite SANA's claimed correctness proof, with Tamarin we uncover undocumented assumptions that, when omitted, lead to attacks.",
+      "publication_date": "2025-05-15T14:01:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.10316v1"
+    },
+    {
+      "title": "DSig: Breaking the Barrier of Signatures in Data Centers",
+      "authors": [
+        "Marcos K. Aguilera",
+        "Clément Burgelin",
+        "Rachid Guerraoui",
+        "Antoine Murat",
+        "Athanasios Xygkis",
+        "Igor Zablotchi"
+      ],
+      "abstract": "Data centers increasingly host mutually distrustful users on shared infrastructure. A powerful tool to safeguard such users are digital signatures. Digital signatures have revolutionized Internet-scale applications, but current signatures are too slow for the growing genre of microsecond-scale systems in modern data centers. We propose DSig, the first digital signature system to achieve single-digit microsecond latency to sign, transmit, and verify signatures in data center systems. DSig is based on the observation that, in many data center applications, the signer of a message knows most of the time who will verify its signature. We introduce a new hybrid signature scheme that combines cheap single-use hash-based signatures verified in the foreground with traditional signatures pre-verified in the background. Compared to prior state-of-the-art signatures, DSig reduces signing time from 18.9 to 0.7 us and verification time from 35.6 to 5.1 us, while keeping signature transmission time below 2.5 us. Moreover, DSig achieves 2.5x higher signing throughput and 6.9x higher verification throughput than the state of the art. We use DSig to (a) bring auditability to two key-value stores (HERD and Redis) and a financial trading system (based on Liquibook) for 86% lower added latency than the state of the art, and (b) replace signatures in BFT broadcast and BFT replication, reducing their latency by 73% and 69%, respectively",
+      "publication_date": "2024-06-11T12:44:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.07215v1"
+    },
+    {
+      "title": "TopSig: Topology Preserving Document Signatures",
+      "authors": [
+        "Shlomo Geva",
+        "Christopher M. De Vries"
+      ],
+      "abstract": "Performance comparisons between File Signatures and Inverted Files for text retrieval have previously shown several significant shortcomings of file signatures relative to inverted files. The inverted file approach underpins most state-of-the-art search engine algorithms, such as Language and Probabilistic models. It has been widely accepted that traditional file signatures are inferior alternatives to inverted files. This paper describes TopSig, a new approach to the construction of file signatures. Many advances in semantic hashing and dimensionality reduction have been made in recent times, but these were not so far linked to general purpose, signature file based, search engines. This paper introduces a different signature file approach that builds upon and extends these recent advances. We are able to demonstrate significant improvements in the performance of signature file based indexing and retrieval, performance that is comparable to that of state of the art inverted file based systems, including Language models and BM25. These findings suggest that file signatures offer a viable alternative to inverted files in suitable settings and from the theoretical perspective it positions the file signatures model in the class of Vector Space retrieval models.",
+      "publication_date": "2012-04-24T13:36:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IR"
+      ],
+      "arxiv_id": "1204.5373v1"
+    },
+    {
+      "title": "Additivity and non-additivity for perverse signatures",
+      "authors": [
+        "Greg Friedman",
+        "Eugenie Hunsicker"
+      ],
+      "abstract": "A well-known property of the signature of closed oriented 4n-dimensional manifolds is Novikov additivity, which states that if a manifold is split into two manifolds with boundary along an oriented smooth hypersurface, then the signature of the original manifold equals the sum of the signatures of the resulting manifolds with boundary. Wall showed that this property is not true of signatures on manifolds with boundary and that the difference from additivity could be described as a certain Maslov triple index. Perverse signatures are signatures defined for any stratified pseudomanifold, using the intersection homology groups of Goresky and MacPherson. In the case of Witt spaces, the middle perverse signature is the same as the Witt signature. This paper proves a generalization to perverse signatures of Wall's non-additivity theorem for signatures of manifolds with boundary. Under certain topological conditions on the dividing hypersurface,Novikov additivity for perverse signatures may be deduced as a corollary. In particular, Siegel's version of Novikov additivity for Witt signatures is a special case of this corollary.",
+      "publication_date": "2009-11-19T21:25:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.GT"
+      ],
+      "arxiv_id": "0911.3915v3"
+    },
+    {
+      "title": "Identification of Flaws in the Design of Signatures for Intrusion   Detection Systems",
+      "authors": [
+        "Nancy Agarwal",
+        "Syed Zeeshan Hussain"
+      ],
+      "abstract": "Signature-based Intrusion Detection System (SIDS) provides a promising solution to the problem of web application security. However, the performance of the system highly relies on the quality of the signatures designed to detect attacks. A weak signature set may considerably cause an increase in false alarm rate, making impractical to deploy the system. The objective of the paper is to identify the flaws in the signature structure which are responsible to reduce the efficiency of the detection system. The paper targets SQL injection signatures particularly. Initially, some essential concepts of the domain of the attack that should be focused by the developer in prior to designing the signatures have been discussed. Afterwards, we conducted a case study on the well known PHPIDS tool for analyzing the quality of its SQL signatures. Based on the analysis, we identify various flaws in the designing practice that yield inefficient signatures. We divide the weak signatures into six categories, namely incomplete, irrelevant, semi-relevant, susceptible, redundant and inconsistent signatures. Moreover, we quantify these weaknesses and define them mathematically in terms of set theory. To the best of our knowledge, we have identified some novel signature design issues. The paper will basically assist the signature developer to know what level of expertise is required for devising a quality signature set and how a little ignorance may lead to deterioration in the performance of the SIDS. Furthermore, a security expert may evaluate the detector against the identified flaws by conducting structural analysis on its signature set.",
+      "publication_date": "2018-05-28T10:04:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1805.10848v1"
+    },
+    {
+      "title": "Investigating the Common Authorship of Signatures by Off-Line Automatic   Signature Verification Without the Use of Reference Signatures",
+      "authors": [
+        "Moises Diaz",
+        "Miguel A. Ferrer",
+        "Soodamani Ramalingam",
+        "Richard Guest"
+      ],
+      "abstract": "In automatic signature verification, questioned specimens are usually compared with reference signatures. In writer-dependent schemes, a number of reference signatures are required to build up the individual signer model while a writer-independent system requires a set of reference signatures from several signers to develop the model of the system. This paper addresses the problem of automatic signature verification when no reference signatures are available. The scenario we explore consists of a set of signatures, which could be signed by the same author or by multiple signers. As such, we discuss three methods which estimate automatically the common authorship of a set of off-line signatures. The first method develops a score similarity matrix, worked out with the assistance of duplicated signatures; the second uses a feature-distance matrix for each pair of signatures; and the last method introduces pre-classification based on the complexity of each signature. Publicly available signatures were used in the experiments, which gave encouraging results. As a baseline for the performance obtained by our approaches, we carried out a visual Turing Test where forensic and non-forensic human volunteers, carrying out the same task, performed less well than the automatic schemes.",
+      "publication_date": "2024-05-23T10:30:48+00:00",
+      "doi": "10.1109/TIFS.2019.2924195",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "2405.14409v1"
+    },
+    {
+      "title": "The A.P.S. signature formula for measured foliations",
+      "authors": [
+        "Paolo Antonini"
+      ],
+      "abstract": "We define the Analytical signature, the Hodge signature and the de Rham signature for a foliated manifold with boundary with foliation transverse to the boundary. We show that all these signatures coincide and a Hirzebruch formula is valid.",
+      "publication_date": "2009-07-04T21:21:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.DG"
+      ],
+      "arxiv_id": "0907.0801v2"
+    },
+    {
+      "title": "Comment on \"An arbitrated quantum signature scheme with fast signing and   verifying\"",
+      "authors": [
+        "Yi-Ping Luo",
+        "Tzonelih Hwang"
+      ],
+      "abstract": "Recently, Liu et al. (Quantum Inf Process (2014) 13:491-502) proposed an arbitrated quantum signature (AQS) scheme, where a signature receiver (Bob) can verify the signer's signature through the help of a trusted arbitrator. However, this paper shows that a malicious Bob can perform the existential forgery of the signature under the chosen message attack without being detected.",
+      "publication_date": "2015-12-02T14:44:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1512.00714v1"
+    },
+    {
+      "title": "The iisignature library: efficient calculation of iterated-integral   signatures and log signatures",
+      "authors": [
+        "Jeremy Reizenstein",
+        "Benjamin Graham"
+      ],
+      "abstract": "Iterated-integral signatures and log signatures are vectors calculated from a path that characterise its shape. They come from the theory of differential equations driven by rough paths, and also have applications in statistics and machine learning. We present algorithms for efficiently calculating these signatures, and benchmark their performance. We release the methods as a Python package.",
+      "publication_date": "2018-02-22T14:29:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DS"
+      ],
+      "arxiv_id": "1802.08252v1"
+    },
+    {
+      "title": "UTSig: A Persian Offline Signature Dataset",
+      "authors": [
+        "Amir Soleimani",
+        "Kazim Fouladi",
+        "Babak N. Araabi"
+      ],
+      "abstract": "The pivotal role of datasets in signature verification systems motivates researchers to collect signature samples. Distinct characteristics of Persian signature demands for richer and culture-dependent offline signature datasets. This paper introduces a new and public Persian offline signature dataset, UTSig, that consists of 8280 images from 115 classes. Each class has 27 genuine signatures, 3 opposite-hand signatures, and 42 skilled forgeries made by 6 forgers. Compared with the other public datasets, UTSig has more samples, more classes, and more forgers. We considered various variables including signing period, writing instrument, signature box size, and number of observable samples for forgers in the data collection procedure. By careful examination of main characteristics of offline signature datasets, we observe that Persian signatures have fewer numbers of branch points and end points. We propose and evaluate four different training and test setups for UTSig. Results of our experiments show that training genuine samples along with opposite-hand samples and random forgeries can improve the performance in terms of equal error rate and minimum cost of log likelihood ratio.",
+      "publication_date": "2016-03-10T12:23:03+00:00",
+      "doi": "10.1049/iet-bmt.2015.0058",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "1603.03235v4"
+    },
+    {
+      "title": "Systematization of Knowledge and Implementation: Short Identity-Based   Signatures",
+      "authors": [
+        "Diptendu M. Kar",
+        "Indrajit Ray"
+      ],
+      "abstract": "Identity-Based signature schemes are gaining a lot of popularity every day. Over the last decade, there has been a lot of schemes that have been proposed. Several libraries are there that implement identity-based cryptosystems that include identity-based signature schemes like the JPBC library which is written in Java and the charm-crypto library written in python. However, these libraries do not contain all of the popular schemes, rather the JPBC library contains only one identity-based signature scheme and the charm-crypto contains three. Furthermore, the implemented schemes are designed to work on one particular pairing curve. In pairing-based cryptosystems, even for a given signature scheme, the size of the signature and the performance i.e. the time to sign and verify depends on the chosen pairing curve. There are many applications in which the signature size is of more importance than the performance and similarly other applications where the performance is of more importance than signature size. In this work, we describe the popular signature schemes and their implementation using the JPBC library and describe how different pairing curves affect the signature size and performance. We also provide two methods to further shorten the signature size which is not present in the libraries by default.",
+      "publication_date": "2019-08-14T22:38:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1908.05366v1"
+    },
+    {
+      "title": "Fully-Automatic Pipeline for Document Signature Analysis to Detect Money   Laundering Activities",
+      "authors": [
+        "Nikhil Woodruff",
+        "Amir Enshaei",
+        "Bashar Awwad Shiekh Hasan"
+      ],
+      "abstract": "Signatures present on corporate documents are often used in investigations of relationships between persons of interest, and prior research into the task of offline signature verification has evaluated a wide range of methods on standard signature datasets. However, such tasks often benefit from prior human supervision in the collection, adjustment and labelling of isolated signature images from which all real-world context has been removed. Signatures found in online document repositories such as the United Kingdom Companies House regularly contain high variation in location, size, quality and degrees of obfuscation under stamps. We propose an integrated pipeline of signature extraction and curation, with no human assistance from the obtaining of company documents to the clustering of individual signatures. We use a sequence of heuristic methods, convolutional neural networks, generative adversarial networks and convolutional Siamese networks for signature extraction, filtering, cleaning and embedding respectively. We evaluate both the effectiveness of the pipeline at matching obscured same-author signature pairs and the effectiveness of the entire pipeline against a human baseline for document signature analysis, as well as presenting uses for such a pipeline in the field of real-world anti-money laundering investigation.",
+      "publication_date": "2021-07-29T15:17:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "2107.14091v1"
+    },
+    {
+      "title": "Redactable Signature with Compactness from Set-Commitment",
+      "authors": [
+        "Masayuki Tezuka",
+        "Keisuke Tanaka"
+      ],
+      "abstract": "Redactable signature allows anyone to remove parts of a signed message without invalidating the signature. The need to prove the validity of digital documents issued by governments is increasing. When governments disclose documents, they must remove private information concerning individuals. Redactable signature is useful for such a situation. However, in most redactable signature schemes, to remove parts of the signed message, we need pieces of information for each part we want to remove. If a signed message consists of l elements, the number of elements in an original signature is at least linear in l. As far as we know, in some redactable signature schemes, the number of elements in an original signature is constant, regardless of the number of elements in a message to be signed. However, these constructions have drawbacks in that the use of the random oracle model or generic group model. In this paper, we construct an efficient redactable signature to overcome these drawbacks. Our redactable signature is obtained by combining set-commitment proposed in the recent work by Fuchsbauer et al. (JoC 2019) and digital signatures.",
+      "publication_date": "2022-02-20T11:49:37+00:00",
+      "doi": "10.1587/transfun.2020DMP0013",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2202.09799v1"
+    },
+    {
+      "title": "Offline Signature Verification Based on Feature Disentangling Aided   Variational Autoencoder",
+      "authors": [
+        "Hansong Zhang",
+        "Jiangjian Guo",
+        "Kun Li",
+        "Yang Zhang",
+        "Yimei Zhao"
+      ],
+      "abstract": "Offline handwritten signature verification systems are used to verify the identity of individuals, through recognizing their handwritten signature image as genuine signatures or forgeries. The main tasks of signature verification systems include extracting features from signature images and training a classifier for classification. The challenges of these tasks are twofold. First, genuine signatures and skilled forgeries are highly similar in their appearances, resulting in a small inter-class distance. Second, the instances of skilled forgeries are often unavailable, when signature verification models are being trained. To tackle these problems, this paper proposes a new signature verification method. It is the first model that employs a variational autoencoder (VAE) to extract features directly from signature images. To make the features more discriminative, it improves the traditional VAEs by introducing a new loss function for feature disentangling. In addition, it relies on SVM (Support Vector Machine) for classification according to the extracted features. Extensive experiments are conducted on two public datasets: MCYT-75 and GPDS-synthetic where the proposed method significantly outperformed $13$ representative offline signature verification methods. The achieved improvement in distinctive datasets indicates the robustness and great potential of the developed system in real application.",
+      "publication_date": "2024-09-29T19:54:47+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "arxiv_id": "2409.19754v1"
+    },
+    {
+      "title": "Lattice-Based Ring Signature Scheme under the Random Oracle Model",
+      "authors": [
+        "Shangping Wang",
+        "Ru zhao"
+      ],
+      "abstract": "On the basis of the signatures scheme without trapdoors from lattice, which is proposed by Vadim Lyubashevsky in 2012, we present a new ring signature scheme from lattice. The proposed ring signature scheme is an extension of the signatures scheme without trapdoors. We proved that our scheme is strongly unforgeable against adaptive chosen message in the random oracle model, and proved that the security of our scheme can be reduced to the hardness of the small integer solution (SIS) problem by rejection samplings. Compared with the existing lattice-based ring signature schemes, our new scheme is more efficient and with shorter signature length.",
+      "publication_date": "2014-05-13T14:57:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1405.3177v1"
+    }
+  ]
+}

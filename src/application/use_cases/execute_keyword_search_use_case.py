@@ -89,7 +89,7 @@ class ExecuteKeywordSearchUseCase:
             if config_path is None:
                 # Default to config directory relative to this file
                 current_dir = Path(__file__).parent.parent.parent.parent
-                config_path = current_dir / "config" / "search_keywords.yaml"
+                config_path = current_dir / "config" / "heart_rate_variability.yaml"
 
             self.keyword_config = KeywordConfig.from_yaml_file(config_path)
 
