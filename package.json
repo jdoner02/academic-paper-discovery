@@ -12,8 +12,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:e2e": "playwright test",
-    "export": "next build && next export",
-    "deploy": "npm run export && touch out/.nojekyll"
+    "export": "npm run build",
+    "deploy": "npm run build && touch out/.nojekyll"
   },
   "dependencies": {
     "@types/d3": "^7.4.0",

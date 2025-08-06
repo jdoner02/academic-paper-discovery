@@ -19,11 +19,6 @@ const nextConfig = {
   // - Image optimization disabled for static hosting compatibility
   // - Trailing slash ensures consistent routing behavior
   
-  experimental: {
-    // Enable app directory (Next.js 13+ features)
-    appDir: false, // Using pages directory for educational clarity
-  },
-  
   // Webpack configuration for Clean Architecture path aliases
   webpack: (config) => {
     config.resolve.alias = {
@@ -34,9 +29,6 @@ const nextConfig = {
       '@/infrastructure': require('path').resolve(__dirname, 'src/infrastructure'),
       '@/interface': require('path').resolve(__dirname, 'src/interface'),
     };
-    
-    // Custom pages directory location
-    config.resolve.alias['../pages'] = require('path').resolve(__dirname, 'src/interface/pages');
     
     return config;
   },
