@@ -53,34 +53,51 @@ class ExecuteKeywordSearchUseCase:
     """
 
     def __init__(
-        self, repository: PaperRepositoryPort, config_path: Optional[Path] = None
+        self,
+        repository: PaperRepositoryPort,
+        config_path: Optional[Path] = None,
+        keyword_config: Optional[KeywordConfig] = None,
     ):
         """
-        Initialize use case with repository and optional configuration path.
+        Initialize use case with repository and configuration.
+
+        Educational Note:
+        - Supports dependency injection pattern (config can be injected)
+        - Falls back to file loading for convenience
+        - Validates repository interface compliance
 
         Args:
             repository: Repository for accessing research papers
             config_path: Path to keyword configuration file, or None for default
+            keyword_config: Pre-loaded configuration, takes precedence over file
 
         Raises:
             TypeError: If repository doesn't implement required interface
             FileNotFoundError: If configuration file doesn't exist
+            ValueError: If neither config_path nor keyword_config provided
         """
         if not isinstance(repository, PaperRepositoryPort):
             raise TypeError("Repository must implement PaperRepositoryPort interface")
 
         self.repository = repository
 
-        # Load configuration from file or use default path
-        if config_path is None:
-            # Default to config directory relative to this file
-            current_dir = Path(__file__).parent.parent.parent.parent
-            config_path = current_dir / "config" / "search_keywords.yaml"
+        # Use injected config if provided, otherwise load from file
+        if keyword_config is not None:
+            self.keyword_config = keyword_config
+        else:
+            # Load configuration from file or use default path
+            if config_path is None:
+                # Default to config directory relative to this file
+                current_dir = Path(__file__).parent.parent.parent.parent
+                config_path = current_dir / "config" / "search_keywords.yaml"
 
-        self.keyword_config = KeywordConfig.from_yaml_file(config_path)
+            self.keyword_config = KeywordConfig.from_yaml_file(config_path)
 
     def execute_strategy(
-        self, strategy_name: Optional[str] = None, max_results: Optional[int] = None
+        self,
+        strategy_name: Optional[str] = None,
+        max_results: Optional[int] = None,
+        download_papers: bool = False,
     ) -> List[ResearchPaper]:
         """
         Execute a search using a predefined strategy from configuration.
@@ -88,9 +105,15 @@ class ExecuteKeywordSearchUseCase:
         This method demonstrates how to translate high-level search strategies
         into concrete SearchQuery objects and execute them through the repository.
 
+        Educational Note:
+        - Demonstrates the Facade Pattern: simple interface hiding complexity
+        - Shows how to handle optional parameters with sensible defaults
+        - Uses composition to coordinate multiple domain services
+
         Args:
             strategy_name: Name of strategy to use, or None for default
             max_results: Override for maximum results, or None to use strategy default
+            download_papers: Whether to download PDFs of found papers
 
         Returns:
             List of research papers matching the search strategy
@@ -110,7 +133,28 @@ class ExecuteKeywordSearchUseCase:
         # Apply additional filtering based on configuration
         filtered_results = self._apply_configuration_filters(results)
 
+        # Download papers if requested
+        if download_papers and filtered_results:
+            self._download_papers(filtered_results, strategy.name)
+
         return filtered_results
+
+    def _download_papers(self, papers: List[ResearchPaper], strategy_name: str) -> None:
+        """
+        Download papers using the domain service.
+
+        Educational Note:
+        - Demonstrates separation of concerns: use case coordinates, service executes
+        - Shows how to integrate domain services within application layer
+        """
+        from src.domain.services.paper_download_service import PaperDownloadService
+
+        # Create domain-specific output directory
+        base_output_dir = "outputs"
+        download_service = PaperDownloadService(base_output_dir)
+
+        # Download papers with organized folder structure
+        download_service.download_papers(papers, strategy_name)
 
     def execute_custom_search(
         self,
@@ -234,7 +278,7 @@ class ExecuteKeywordSearchUseCase:
         all_terms = strategy.get_all_terms()
 
         # Use override or strategy default for max results
-        max_results = max_results_override or strategy.max_results
+        max_results = max_results_override or strategy.search_limit
 
         # Use configuration for citation threshold
         min_citations = self.keyword_config.search_configuration.citation_threshold

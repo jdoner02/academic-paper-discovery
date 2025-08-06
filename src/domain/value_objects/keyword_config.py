@@ -37,55 +37,75 @@ class SearchStrategy:
 
     This demonstrates how to encapsulate search behavior configuration
     while maintaining immutability and validation.
+
+    Educational Note:
+    - Immutable value object (frozen=True)
+    - Uses descriptive field names matching config files
+    - Provides sensible defaults for optional fields
+    - Validates data integrity in __post_init__
     """
 
     name: str
     description: str
-    required_terms: List[str]
-    optional_terms: List[str] = field(default_factory=list)
-    alternative_terms: List[str] = field(default_factory=list)
-    technology_terms: List[str] = field(default_factory=list)
-    clinical_terms: List[str] = field(default_factory=list)
-    max_results: int = 50
+    primary_keywords: List[str]
+    secondary_keywords: List[str] = field(default_factory=list)
+    search_limit: int = 50
+    date_range: dict = field(default_factory=dict)
+    exclusion_keywords: List[str] = field(default_factory=list)
 
     def __post_init__(self):
-        """Validate search strategy configuration after initialization."""
+        """
+        Validate search strategy configuration after initialization.
+
+        Educational Note:
+        - Post-init validation ensures data integrity
+        - Raises informative errors for configuration issues
+        - Validates both required fields and business rules
+        """
         if not self.name:
             raise ValueError("Search strategy must have a name")
         if not self.description:
             raise ValueError("Search strategy must have a description")
-        if not self.required_terms:
-            raise ValueError("Search strategy must have at least one required term")
-        if self.max_results <= 0:
-            raise ValueError("max_results must be positive")
+        if not self.primary_keywords:
+            raise ValueError("Search strategy must have at least one primary keyword")
+        if self.search_limit <= 0:
+            raise ValueError("search_limit must be positive")
 
     def get_all_terms(self) -> List[str]:
         """
         Get all search terms for this strategy.
 
+        Educational Note:
+        - Combines primary and secondary keywords
+        - Uses set() for deduplication
+        - Returns list for consistent API
+
         Returns:
-            Combined list of all terms from all categories
+            Combined list of all terms from primary and secondary keywords
         """
-        all_terms = self.required_terms.copy()
-        all_terms.extend(self.optional_terms)
-        all_terms.extend(self.alternative_terms)
-        all_terms.extend(self.technology_terms)
-        all_terms.extend(self.clinical_terms)
+        all_terms = self.primary_keywords.copy()
+        all_terms.extend(self.secondary_keywords)
         return list(set(all_terms))  # Remove duplicates
 
     def build_search_query(self) -> str:
         """
         Build a search query string from the strategy configuration.
 
+        Educational Note:
+        - Constructs boolean search queries for academic databases
+        - Primary keywords use AND logic (all must be present)
+        - Secondary keywords use OR logic (any can be present)
+        - Quotes ensure exact phrase matching
+
         Returns:
             Formatted search query string suitable for academic databases
         """
-        # Required terms must all be present
-        query_parts = [f'"{term}"' for term in self.required_terms]
+        # Primary keywords must all be present (AND logic)
+        query_parts = [f'"{term}"' for term in self.primary_keywords]
 
-        # Optional terms add flexibility
-        if self.optional_terms:
-            optional_part = " OR ".join(f'"{term}"' for term in self.optional_terms)
+        # Secondary keywords add flexibility (OR logic)
+        if self.secondary_keywords:
+            optional_part = " OR ".join(f'"{term}"' for term in self.secondary_keywords)
             query_parts.append(f"({optional_part})")
 
         return " AND ".join(query_parts)
@@ -136,18 +156,18 @@ class KeywordConfig:
     - Encapsulates configuration behavior in domain layer
     """
 
-    hrv_core_terms: List[str]
-    medical_conditions: List[str]
-    methodologies: List[str]
-    clinical_applications: List[str]
     search_strategies: Dict[str, SearchStrategy]
     search_configuration: SearchConfiguration
 
     def __post_init__(self):
-        """Validate the complete keyword configuration."""
-        if not self.hrv_core_terms:
-            raise ValueError("HRV core terms cannot be empty")
+        """
+        Validate the complete keyword configuration.
 
+        Educational Note:
+        - Domain validation at the object level ensures data integrity
+        - Post-init validation catches configuration errors early
+        - Follows fail-fast principle for better debugging
+        """
         if not self.search_strategies:
             raise ValueError("At least one search strategy must be defined")
 
@@ -188,17 +208,16 @@ class KeywordConfig:
 
         # Parse search strategies
         strategies = {}
-        strategy_data = config_data.get("search_strategies", {})
+        strategy_data = config_data.get("strategies", {})
         for name, strategy_config in strategy_data.items():
             strategies[name] = SearchStrategy(
-                name=name,
+                name=strategy_config.get("name", name),
                 description=strategy_config.get("description", ""),
-                required_terms=strategy_config.get("required_terms", []),
-                optional_terms=strategy_config.get("optional_terms", []),
-                alternative_terms=strategy_config.get("alternative_terms", []),
-                technology_terms=strategy_config.get("technology_terms", []),
-                clinical_terms=strategy_config.get("clinical_terms", []),
-                max_results=strategy_config.get("max_results", 50),
+                primary_keywords=strategy_config.get("primary_keywords", []),
+                secondary_keywords=strategy_config.get("secondary_keywords", []),
+                search_limit=strategy_config.get("search_limit", 50),
+                date_range=strategy_config.get("date_range", {}),
+                exclusion_keywords=strategy_config.get("exclusion_keywords", []),
             )
 
         # Parse search configuration
@@ -218,10 +237,6 @@ class KeywordConfig:
         )
 
         return cls(
-            hrv_core_terms=config_data.get("hrv_core_terms", []),
-            medical_conditions=config_data.get("medical_conditions", []),
-            methodologies=config_data.get("methodologies", []),
-            clinical_applications=config_data.get("clinical_applications", []),
             search_strategies=strategies,
             search_configuration=search_config,
         )
@@ -249,16 +264,23 @@ class KeywordConfig:
 
     def get_all_terms(self) -> List[str]:
         """
-        Get all configured search terms across all categories.
+        Get all keywords from all configured strategies.
+
+        Educational Note:
+        - Consolidates keywords from multiple strategies
+        - Uses set() to eliminate duplicates efficiently
+        - Returns list for consistent API
 
         Returns:
-            Combined list of all search terms
+            Combined list of all search terms from all strategies
         """
         all_terms = []
-        all_terms.extend(self.hrv_core_terms)
-        all_terms.extend(self.medical_conditions)
-        all_terms.extend(self.methodologies)
-        all_terms.extend(self.clinical_applications)
+
+        # Collect terms from all configured strategies
+        for strategy in self.search_strategies.values():
+            all_terms.extend(strategy.primary_keywords)
+            all_terms.extend(strategy.secondary_keywords)
+
         return list(set(all_terms))  # Remove duplicates
 
     def list_strategies(self) -> List[str]:

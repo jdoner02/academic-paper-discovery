@@ -53,7 +53,7 @@ class PaperDownloadService:
         self.base_output_dir = Path(base_output_dir)
         self.session = requests.Session()
         self.session.headers.update(
-            {"User-Agent": "HRV-Research-Tool/1.0 (Educational Purpose)"}
+            {"User-Agent": "Research-Paper-Aggregator/1.0 (Educational Purpose)"}
         )
 
     def download_papers(
@@ -126,7 +126,12 @@ class PaperDownloadService:
         """
         Create organized output directory structure.
 
-        Creates directories like: outputs/2025-08-05_broad_hrv_research/
+        Creates directories like: outputs/2025-08-05_comprehensive_research/
+
+        Educational Note:
+        - Uses timestamp prefix for chronological organization
+        - Strategy name provides clear context for the search
+        - Creates parent directories as needed for robustness
         """
         timestamp = datetime.now().strftime("%Y-%m-%d")
         dir_name = f"{timestamp}_{strategy_name}"

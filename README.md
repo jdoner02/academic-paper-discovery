@@ -1,69 +1,145 @@
-# HRV Research Aggregator 🫀📚
-
+# Research Paper Aggregator 🔍📚
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-green.svg)](htmlcov/index.html)
 
-**An intelligent research aggregation system for Heart Rate Variability (HRV) studies, designed for researchers, clinicians, and data scientists working with cardiovascular and autonomic nervous system research.**
+> **🎯 One-Click Academic Research Discovery** - Clone, run, and start discovering papers across multiple research domains in under 2 minutes!
 
-## 🎯 The Problem We Solve
+**Perfect for**: Researchers, PhD students, academics, and anyone who needs to stay current with literature in cybersecurity, post-quantum cryptography, medical research, or any academic domain.
 
-Heart Rate Variability research is scattered across thousands of papers in arXiv, PubMed, IEEE, and other databases. Researchers spend hours manually searching for relevant papers, often missing critical studies due to:
+---
 
-- **Keyword Variations**: "HRV", "Heart Rate Variability", "R-R interval analysis" all refer to similar concepts
-- **Domain Fragmentation**: Papers appear in cardiology, neuroscience, sports medicine, and engineering journals
+## ✨ What This Does
+
+Research Paper Aggregator transforms tedious literature searches into automated discovery pipelines. Instead of manually searching through multiple academic databases, our system:
+
+- **🤖 Automates Literature Discovery**: Runs intelligent searches across arXiv and other databases
+- **📂 Organizes Results**: Downloads papers with structured metadata and organized folders  
+- **🔄 Provides Continuous Updates**: Set up automated daily/weekly research monitoring
+- **🎯 Multi-Domain Support**: Pre-configured for cybersecurity, cryptography, medical research, and more
+- **🖥️ User-Friendly Interface**: Interactive menu system - no command-line expertise needed
+
+## 🚨 The Academic Research Problem
+
+Staying current with rapidly evolving fields is overwhelming:
+
+- **Information Overload**: Thousands of papers published daily across multiple venues
+
+- **Keyword Variations**: Different fields use varying terminology for similar concepts
+- **Domain Fragmentation**: Papers appear across multiple specialized journals and conferences
 - **Manual Process**: Copy-pasting search terms and managing PDF downloads is time-intensive
 - **Inconsistent Metadata**: Different sources format author names, dates, and abstracts differently
 
-## 🚀 Our Solution
+## The Solution
 
-HRV Research Aggregator automates intelligent paper discovery using:
+Research Paper Aggregator automates intelligent paper discovery across multiple academic domains using:
 
-- **🔍 Multi-Strategy Search**: Predefined keyword combinations for different research domains (TBI, wearables, clinical applications)
+- **🔍 Multi-Domain Support**: Pre-configured for cybersecurity, post-quantum cryptography, medical research, and more
 - **📥 Automated Downloads**: One-click PDF downloads with organized folder structure
 - **🏗️ Clean Architecture**: Extensible design supporting multiple academic databases
 - **⚙️ Production Ready**: Cron job automation for continuous research monitoring
 - **📊 Rich Metadata**: Standardized paper information across all sources
+- **🎯 Interactive Menu**: User-friendly interface - just run `python3 main.py`
 
-## ⚡ Quick Start (5 Minutes)
+## ⚡ Super Quick Start (2 Minutes)
 
-### 1. Clone and Install
+### 1. Clone and Run
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hrv-research-aggregator.git
-cd hrv-research-aggregator
+git clone https://github.com/jessicadoner/research-paper-aggregator.git
+cd research-paper-aggregator
 
 # Install dependencies
 pip install -e .
 
-# Or install with development tools
-pip install -e ".[dev]"
+# Run the interactive menu system
+python3 main.py
 ```
 
-### 2. Run Your First Search
+### 2. Choose Your Research Domain
+The interactive menu will show you available research domains:
+- **🫀 Medical Research** (Heart Rate Variability, TBI studies, wearable technology)
+- **🔒 Cybersecurity Water Infrastructure** (SCADA security, critical infrastructure, IoT)  
+- **🔐 Post Quantum Cryptography** (Lattice-based, code-based, NIST standards)
+
+### 3. Select Strategy and Go!
+Pick a research strategy, choose your options, and watch as papers are automatically discovered and downloaded!
+
+**🎉 That's it!** No complex configuration needed - perfect for busy academics.
+
+## ⚡ Command Line Interface (Advanced)
+
+### Using the Legacy CLI (Optional)
+If you prefer command-line interfaces, you can also use the original CLI:
+
 ```bash
 # List available research strategies
-python3 search_hrv.py --list-strategies
+python3 search_research.py --list-strategies
 
-# Search for TBI-related HRV papers
-python3 search_hrv.py --strategy tbi_focused --limit 10
+# Search for cybersecurity infrastructure papers
+python3 search_research.py --strategy scada_security --limit 10
 
-# Download the latest wearable device papers
-python3 search_hrv.py --strategy wearable_technology --download --limit 5
+# Download the latest post-quantum cryptography papers
+python3 search_research.py --strategy lattice_cryptography --download --limit 5
 ```
 
-### 3. Customize for Your Research
+### Custom Search Terms
 ```bash
-# Search with custom keywords
-python3 search_hrv.py --custom "heart rate variability" "Apple Watch" "atrial fibrillation"
+# Search with custom keywords for any domain
+python3 search_research.py --custom "quantum computing" "cryptography" "security"
 
 # Use different data sources
-python3 search_hrv.py --source arxiv --strategy broad_hrv_research
-python3 search_hrv.py --source sample --custom "ECG" --limit 3  # Demo mode
+python3 search_research.py --source arxiv --strategy comprehensive_search
+python3 search_research.py --source sample --custom "research terms" --limit 3  # Demo mode
 ```
 
-**🎉 That's it!** You now have a powerful research aggregation system running locally.
+## 📋 Available Research Domains & Strategies
+
+### 🫀 Medical Research
+- **Broad HRV Research**: Comprehensive search across all Heart Rate Variability applications
+- **Clinical Applications**: Hospital-based studies, patient populations, diagnostic applications
+- **TBI Focused**: Traumatic Brain Injury research combined with physiological monitoring
+- **Wearable Technology**: Consumer devices, Apple Watch, Fitbit, research-grade monitors
+
+### 🔒 Cybersecurity Water Infrastructure
+- **SCADA Security**: Supervisory Control and Data Acquisition system vulnerabilities
+- **Critical Infrastructure Protection**: Power grid, water treatment, municipal systems
+- **IoT Security**: Internet of Things devices in water management systems
+- **Network Intrusion Detection**: Monitoring and protecting water infrastructure networks
+
+### 🔐 Post Quantum Cryptography
+- **Lattice-Based Cryptography**: NTRU, LWE, Ring-LWE cryptographic systems
+- **Code-Based Cryptography**: McEliece, Niederreiter, and error-correcting codes
+- **NIST Standardization**: Post-quantum cryptography standardization process
+- **Quantum-Resistant Protocols**: TLS, SSH, and other protocol adaptations
+
+## 🔧 Advanced Configuration
+
+### Adding Your Own Research Domain
+1. Create a new YAML file in `config/` directory:
+
+```yaml
+# config/my_research_domain.yaml
+strategies:
+  comprehensive_search:
+    base_terms:
+      - "primary research concept"
+      - "alternative terminology"
+    domain_terms:
+      - "specific application area"
+    method_terms:
+      - "research methodology"
+    exclusion_terms:
+      - "terms to exclude"
+
+metadata:
+  domain: "My Research Domain"
+  description: "Description of your research area"
+  last_updated: "2024-01-15"
+```
+
+2. Run `python3 main.py` - your domain will automatically appear in the menu!
 
 ## 📈 Production Deployment
 
@@ -77,14 +153,14 @@ crontab -e
 
 # Add these lines for automated research monitoring:
 
-# Daily TBI research check (9 AM)
-0 9 * * * cd /path/to/hrv-research-aggregator && python3 search_hrv.py --strategy tbi_focused --download --output-dir ~/research/daily_tbi >> ~/logs/hrv_tbi.log 2>&1
+# Daily cybersecurity research check (9 AM)
+0 9 * * * cd /path/to/research-paper-aggregator && python3 main.py --config cybersecurity_water_infrastructure.yaml --strategy scada_security --auto-download >> ~/logs/research_cyber.log 2>&1
 
-# Weekly broad HRV survey (Monday 8 AM)  
-0 8 * * 1 cd /path/to/hrv-research-aggregator && python3 search_hrv.py --strategy broad_hrv_research --download --limit 20 --output-dir ~/research/weekly_broad >> ~/logs/hrv_broad.log 2>&1
+# Weekly post-quantum cryptography survey (Monday 8 AM)  
+0 8 * * 1 cd /path/to/research-paper-aggregator && python3 main.py --config post_quantum_cryptography.yaml --strategy lattice_cryptography --limit 20 --auto-download >> ~/logs/research_pqc.log 2>&1
 
-# Monthly wearable technology review (1st of month, 7 AM)
-0 7 1 * * cd /path/to/hrv-research-aggregator && python3 search_hrv.py --strategy wearable_technology --download --limit 30 --output-dir ~/research/monthly_wearables >> ~/logs/hrv_wearables.log 2>&1
+# Monthly broad research review (1st of month, 7 AM)
+0 7 1 * * cd /path/to/research-paper-aggregator && python3 main.py --config search_keywords.yaml --strategy broad_hrv_research --limit 30 --auto-download >> ~/logs/research_medical.log 2>&1
 ```
 
 ### Research Team Deployment
@@ -230,7 +306,7 @@ CLI → Use Cases → Domain ← Infrastructure
 
 ```bash
 # Clone and set up development environment
-git clone https://github.com/yourusername/hrv-research-aggregator.git
+git clone https://github.com/jdoner02/hrv-research-aggregator.git
 cd hrv-research-aggregator
 
 # Install with development dependencies
@@ -356,9 +432,9 @@ cd /path/to/hrv-research-aggregator && python3 search_hrv.py --strategy tbi_focu
 ### Getting Help
 
 - 📖 **Documentation**: Check inline help with `python3 search_hrv.py --help`
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/yourusername/hrv-research-aggregator/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/hrv-research-aggregator/discussions)
-- 📧 **Contact**: research@yourdomain.com
+- 🐛 **Bug Reports**: [Create an issue](https://github.com/jdoner02/hrv-research-aggregator/issues)
+- 💡 **Feature Requests**: [Start a discussion](https://github.com/jdoner02/hrv-research-aggregator/discussions)
+- 📧 **Contact**: jessica@jessicadoner.com
 
 ## 🤝 Contributing
 

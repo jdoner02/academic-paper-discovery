@@ -1,0 +1,134 @@
+# Heart Rate Variability Research Configuration
+# Configuration for medical research focused on cardiac autonomic function
+
+search_configuration:
+  min_citation_count: 5
+  year_range:
+    start: 2015  # Include foundational HRV research
+    end: null    # Latest developments
+  concurrent_searches: 3
+  default_strategy: "comprehensive_hrv_research"
+
+strategies:
+  comprehensive_hrv_research:
+    name: "Comprehensive HRV Research"
+    description: "Broad coverage of heart rate variability research across all domains"
+    primary_keywords:
+      - "heart rate variability"
+      - "HRV"
+      - "R-R interval"
+      - "RR interval"
+    secondary_keywords:
+      - "RMSSD"
+      - "pNN50"
+      - "SDNN"
+      - "frequency domain analysis"
+      - "time domain analysis"
+      - "Poincaré plot"
+      - "autonomic function"
+      - "cardiac autonomic neuropathy"
+    technology_keywords:
+      - "ECG"
+      - "electrocardiogram"
+      - "photoplethysmography"
+      - "PPG"
+      - "Apple Watch"
+      - "wearable devices"
+      - "continuous monitoring"
+    exclusion_keywords:
+      - "animal study"
+      - "rat model"
+      - "mouse model"
+    search_limit: 50
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+  tbi_focused_hrv:
+    name: "TBI and HRV Research"
+    description: "Heart rate variability research specifically related to traumatic brain injury"
+    primary_keywords:
+      - "heart rate variability"
+      - "traumatic brain injury"
+      - "TBI"
+    secondary_keywords:
+      - "concussion"
+      - "brain injury"
+      - "autonomic dysfunction"
+      - "cardiac monitoring"
+      - "rehabilitation"
+      - "recovery assessment"
+    clinical_keywords:
+      - "biomarker"
+      - "prognosis"
+      - "treatment monitoring"
+      - "risk stratification"
+    exclusion_keywords:
+      - "animal model"
+      - "purely theoretical"
+    search_limit: 30
+    date_range:
+      start: "2018-01-01"
+      end: null
+
+  wearable_hrv_technology:
+    name: "Wearable HRV Technology"
+    description: "HRV research using wearable devices and continuous monitoring systems"
+    primary_keywords:
+      - "heart rate variability"
+      - "wearable devices"
+      - "continuous monitoring"
+    secondary_keywords:
+      - "Apple Watch"
+      - "smartwatch"
+      - "mobile health"
+      - "mHealth"
+      - "digital biomarkers"
+      - "remote monitoring"
+      - "ambulatory monitoring"
+    technology_keywords:
+      - "photoplethysmography"
+      - "PPG"
+      - "optical sensors"
+      - "mobile applications"
+      - "cloud computing"
+      - "machine learning"
+      - "artificial intelligence"
+    exclusion_keywords:
+      - "laboratory only"
+      - "clinical grade only"
+    search_limit: 40
+    date_range:
+      start: "2020-01-01"
+      end: null
+
+  clinical_hrv_applications:
+    name: "Clinical HRV Applications"
+    description: "HRV research focused on clinical outcomes and medical applications"
+    primary_keywords:
+      - "heart rate variability"
+      - "clinical application"
+    secondary_keywords:
+      - "cardiovascular disease"
+      - "diabetes"
+      - "hypertension"
+      - "anxiety"
+      - "depression"
+      - "PTSD"
+      - "sleep disorders"
+      - "stress assessment"
+    clinical_keywords:
+      - "prognosis"
+      - "risk stratification" 
+      - "treatment monitoring"
+      - "rehabilitation"
+      - "biomarker"
+      - "sudden cardiac death"
+      - "patient outcomes"
+    exclusion_keywords:
+      - "healthy subjects only"
+      - "validation study only"
+    search_limit: 35
+    date_range:
+      start: "2017-01-01"
+      end: null

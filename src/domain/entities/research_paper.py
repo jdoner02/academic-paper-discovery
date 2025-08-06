@@ -140,24 +140,52 @@ class ResearchPaper:
                 "Paper must have either DOI or ArXiv ID for identification"
             )
 
-    def is_hrv_relevant(self) -> bool:
+    def is_relevant_to_keywords(self, keywords: List[str]) -> bool:
         """
-        Determine if this paper is relevant to HRV research.
+        Determine if this paper is relevant to a given set of keywords.
 
         This method implements domain-specific business logic to identify
-        papers that are relevant to Heart Rate Variability research.
+        papers that are relevant to a particular research area based on
+        provided keywords.
 
         Educational Note:
-        - This is domain behavior, not just data storage
-        - The logic is encapsulated within the entity
-        - Could be extracted to a domain service if it becomes more complex
+        - This demonstrates the Strategy Pattern - the algorithm (keyword matching)
+          is parameterized by the input (keywords list)
+        - Domain behavior encapsulated within the entity
+        - Flexible design allows for different research domains
+        - Single Responsibility Principle: only handles relevance detection
+
+        Design Decision:
+        - We pass keywords as parameters rather than hardcoding them,
+          following the Open/Closed Principle (open for extension,
+          closed for modification)
+
+        Args:
+            keywords: List of research-domain keywords to check against
 
         Returns:
-            bool: True if paper is relevant to HRV research
+            bool: True if paper is relevant to the given keywords
         """
-        # Define HRV-related keywords
-        # Educational Note: In a real system, these might come from configuration
-        # or a more sophisticated domain service
+        if not keywords:
+            return False
+
+        # Combine title and abstract for comprehensive searching
+        # Educational Note: This creates a larger search space while maintaining
+        # performance by doing the concatenation only once
+        text_to_search = (self.title + " " + self.abstract).lower()
+
+        # Check if any provided keywords are present
+        # Educational Note: Uses any() for short-circuit evaluation - stops
+        # at first match for better performance
+        return any(keyword.lower() in text_to_search for keyword in keywords)
+
+    def is_hrv_relevant(self) -> bool:
+        """
+        DEPRECATED: Use is_relevant_to_keywords() instead.
+
+        Backwards compatibility method for existing tests.
+        This will be removed once tests are updated.
+        """
         hrv_keywords = [
             "heart rate variability",
             "hrv",
@@ -175,12 +203,7 @@ class ResearchPaper:
             "tbi",
             "concussion",
         ]
-
-        # Combine title and abstract for searching
-        text_to_search = (self.title + " " + self.abstract).lower()
-
-        # Check if any HRV keywords are present
-        return any(keyword in text_to_search for keyword in hrv_keywords)
+        return self.is_relevant_to_keywords(hrv_keywords)
 
     def get_identity(self) -> str:
         """

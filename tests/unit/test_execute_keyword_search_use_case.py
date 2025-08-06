@@ -16,7 +16,7 @@ import pytest
 from unittest.mock import Mock, MagicMock
 from pathlib import Path
 from typing import List
-from datetime import datetime
+from datetime import datetime, timezone
 
 from src.application.use_cases.execute_keyword_search_use_case import (
     ExecuteKeywordSearchUseCase,
@@ -54,15 +54,12 @@ class TestExecuteKeywordSearchUseCaseCreation:
 
         # Create minimal valid YAML config
         config_content = """
-hrv_core_terms: ["heart rate variability", "HRV"]
-medical_conditions: ["TBI", "traumatic brain injury"]
-
-search_strategies:
+strategies:
   basic:
     description: "Core HRV research"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV"]
-    max_results: 50
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV"]
+    search_limit: 50
 
 search_configuration:
   default_strategy: "basic"
@@ -114,20 +111,17 @@ class TestExecuteKeywordSearchUseCaseStrategyExecution:
         """Create sample configuration file for testing."""
         config_file = tmp_path / "test_keywords.yaml"
         config_content = """
-hrv_core_terms: ["heart rate variability", "HRV"]
-medical_conditions: ["TBI", "traumatic brain injury"]
-
-search_strategies:
+strategies:
   basic:
     description: "Core HRV research"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV"]
-    max_results: 50
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV"]
+    search_limit: 50
   medical:
     description: "Medical applications"
-    required_terms: ["heart rate variability", "TBI"]
-    optional_terms: ["HRV", "traumatic brain injury"]
-    max_results: 100
+    primary_keywords: ["heart rate variability", "TBI"]
+    secondary_keywords: ["HRV", "traumatic brain injury"]
+    search_limit: 100
 
 search_configuration:
   default_strategy: "basic"
@@ -142,31 +136,31 @@ search_configuration:
         """Create sample research papers for testing."""
         return [
             ResearchPaper(
-                doi="10.1000/test1",
                 title="HRV Analysis in Healthy Subjects",
-                abstract="Study of heart rate variability in normal population",
                 authors=["Smith, J.", "Doe, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 5, 15, tzinfo=timezone.utc),
+                abstract="Study of heart rate variability in normal population",
+                doi="10.1000/test1",
+                venue="Cardiology Journal",
                 citation_count=10,
-                journal="Cardiology Journal",
             ),
             ResearchPaper(
-                doi="10.1000/test2",
                 title="Animal Studies of HRV",
-                abstract="Heart rate variability research in animal models",
                 authors=["Johnson, B."],
-                publication_year=2022,
+                publication_date=datetime(2022, 3, 10, tzinfo=timezone.utc),
+                abstract="Heart rate variability research in animal models",
+                doi="10.1000/test2",
+                venue="Animal Research",
                 citation_count=8,
-                journal="Animal Research",
             ),
             ResearchPaper(
-                doi="10.1000/test3",
                 title="HRV in TBI Patients",
-                abstract="Heart rate variability analysis in traumatic brain injury patients",
                 authors=["Wilson, C."],
-                publication_year=2023,
+                publication_date=datetime(2023, 7, 20, tzinfo=timezone.utc),
+                abstract="Heart rate variability analysis in traumatic brain injury patients",
+                doi="10.1000/test3",
+                venue="Neurology",
                 citation_count=15,
-                journal="Neurology",
             ),
         ]
 
@@ -241,14 +235,12 @@ class TestExecuteKeywordSearchUseCaseCustomSearch:
         mock_repository = Mock(spec=PaperRepositoryPort)
         config_file = tmp_path / "custom_test.yaml"
         config_content = """
-hrv_core_terms: ["heart rate variability", "HRV"]
-
-search_strategies:
+strategies:
   basic:
     description: "Basic HRV research"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV"]
-    max_results: 50
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV"]
+    search_limit: 50
 
 search_configuration:
   default_strategy: "basic"  
@@ -263,13 +255,13 @@ search_configuration:
         # Arrange
         sample_papers = [
             ResearchPaper(
-                doi="10.1000/test1",
                 title="Custom HRV Study",
-                abstract="Custom research on heart rate variability",
                 authors=["Custom, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
+                abstract="Custom research on heart rate variability",
+                doi="10.1000/test1",
+                venue="Custom Journal",
                 citation_count=12,
-                journal="Custom Journal",
             )
         ]
         use_case.repository.find_by_query.return_value = sample_papers
@@ -285,7 +277,7 @@ search_configuration:
 
         # Verify query construction
         call_args = use_case.repository.find_by_query.call_args[0][0]
-        assert "heart rate variability" in call_args.terms
+        assert "hrv" in call_args.terms
         assert "custom" in call_args.terms
         assert call_args.max_results == 25
         assert call_args.min_citations == 10  # From configuration
@@ -302,7 +294,7 @@ search_configuration:
 
         # Assert
         call_args = use_case.repository.find_by_query.call_args[0][0]
-        expected_terms = ["heart rate variability", "tbi", "stress"]
+        expected_terms = ["hrv", "tbi", "stress"]
         for term in expected_terms:
             assert term in call_args.terms
 
@@ -338,26 +330,22 @@ class TestExecuteKeywordSearchUseCaseBatchOperations:
         mock_repository = Mock(spec=PaperRepositoryPort)
         config_file = tmp_path / "batch_test.yaml"
         config_content = """
-hrv_core_terms: ["heart rate variability", "HRV"]
-medical_conditions: ["TBI", "traumatic brain injury"]
-methodologies: ["frequency domain analysis"]
-
-search_strategies:
+strategies:
   basic:
     description: "Basic HRV"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV"]
-    max_results: 25
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV"]
+    search_limit: 25
   medical:
     description: "Medical HRV"
-    required_terms: ["heart rate variability", "TBI"]
-    optional_terms: ["HRV", "traumatic brain injury"]
-    max_results: 50
+    primary_keywords: ["heart rate variability", "TBI"]
+    secondary_keywords: ["HRV", "traumatic brain injury"]
+    search_limit: 50
   analysis:
     description: "HRV Analysis"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV", "frequency domain analysis"]
-    max_results: 30
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV", "frequency domain analysis"]
+    search_limit: 30
 
 search_configuration:
   default_strategy: "basic"
@@ -376,9 +364,9 @@ search_configuration:
                 title="Test Paper",
                 abstract="Test abstract",
                 authors=["Test, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=10,
-                journal="Test Journal",
+                venue="Test Journal",
             )
         ]
         use_case_with_multiple_strategies.repository.find_by_query.return_value = (
@@ -423,9 +411,9 @@ search_configuration:
         # Assert
         assert isinstance(strategy_info, SearchStrategy)
         assert strategy_info.description == "Medical HRV"
-        assert strategy_info.max_results == 50
-        assert "heart rate variability" in strategy_info.required_terms
-        assert "TBI" in strategy_info.required_terms
+        assert strategy_info.search_limit == 50  # From fixture config
+        assert "heart rate variability" in strategy_info.primary_keywords
+        assert "TBI" in strategy_info.primary_keywords
 
     def test_get_strategy_info_nonexistent(self, use_case_with_multiple_strategies):
         """Should raise ValueError for nonexistent strategy."""
@@ -443,14 +431,12 @@ class TestExecuteKeywordSearchUseCaseFiltering:
         mock_repository = Mock(spec=PaperRepositoryPort)
         config_file = tmp_path / "filter_test.yaml"
         config_content = """
-hrv_core_terms: ["heart rate variability", "HRV"]
-
-search_strategies:
+strategies:
   basic:
     description: "Basic HRV research"
-    required_terms: ["heart rate variability"]
-    optional_terms: ["HRV"]
-    max_results: 50
+    primary_keywords: ["heart rate variability"]
+    secondary_keywords: ["HRV"]
+    search_limit: 50
 
 search_configuration:
   default_strategy: "basic"
@@ -469,27 +455,27 @@ search_configuration:
                 title="HRV in Human Subjects",
                 abstract="Good human study",
                 authors=["Human, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=10,
-                journal="Human Journal",
+                venue="Human Journal",
             ),
             ResearchPaper(
                 doi="10.1000/bad1",
                 title="Animal Studies of HRV",
                 abstract="Study in animals",
                 authors=["Animal, B."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=8,
-                journal="Animal Journal",
+                venue="Animal Journal",
             ),
             ResearchPaper(
                 doi="10.1000/bad2",
                 title="HRV in Cell Culture",
                 abstract="Cell culture experiments",
                 authors=["Culture, C."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=6,
-                journal="Cell Journal",
+                venue="Cell Journal",
             ),
         ]
         use_case_with_exclusions.repository.find_by_query.return_value = (
@@ -512,18 +498,18 @@ search_configuration:
                 title="HRV Research",
                 abstract="Human heart rate variability study",
                 authors=["Human, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=10,
-                journal="Human Journal",
+                venue="Human Journal",
             ),
             ResearchPaper(
                 doi="10.1000/bad",
                 title="HRV Research",
                 abstract="This study used in vitro methods to analyze HRV",
                 authors=["Vitro, B."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=8,
-                journal="Lab Journal",
+                venue="Lab Journal",
             ),
         ]
         use_case_with_exclusions.repository.find_by_query.return_value = (
@@ -546,27 +532,27 @@ search_configuration:
                 title="HRV in Humans",
                 abstract="Human study",
                 authors=["Human, A."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=10,
-                journal="Human Journal",
+                venue="Human Journal",
             ),
             ResearchPaper(
                 doi="10.1000/bad1",
                 title="ANIMAL Studies of HRV",  # Uppercase
                 abstract="Animal research",
                 authors=["Animal, B."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=8,
-                journal="Animal Journal",
+                venue="Animal Journal",
             ),
             ResearchPaper(
                 doi="10.1000/bad2",
                 title="HRV Analysis",
                 abstract="This study used In Vitro methods",  # Mixed case
                 authors=["Vitro, C."],
-                publication_year=2023,
+                publication_date=datetime(2023, 6, 15, tzinfo=timezone.utc),
                 citation_count=6,
-                journal="Lab Journal",
+                venue="Lab Journal",
             ),
         ]
         use_case_with_exclusions.repository.find_by_query.return_value = (

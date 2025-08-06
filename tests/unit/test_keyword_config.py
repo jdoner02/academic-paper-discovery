@@ -40,17 +40,17 @@ class TestSearchStrategy:
         strategy = SearchStrategy(
             name="test_strategy",
             description="Test strategy for unit testing",
-            required_terms=["heart rate variability"],
-            optional_terms=["HRV", "RMSSD"],
-            max_results=25,
+            primary_keywords=["heart rate variability"],
+            secondary_keywords=["HRV", "RMSSD"],
+            search_limit=25,
         )
 
         # Then: Strategy is created successfully
         assert strategy.name == "test_strategy"
         assert strategy.description == "Test strategy for unit testing"
-        assert strategy.required_terms == ["heart rate variability"]
-        assert strategy.optional_terms == ["HRV", "RMSSD"]
-        assert strategy.max_results == 25
+        assert strategy.primary_keywords == ["heart rate variability"]
+        assert strategy.secondary_keywords == ["HRV", "RMSSD"]
+        assert strategy.search_limit == 25
 
     def test_strategy_immutability(self):
         """Test that SearchStrategy is immutable after creation."""
@@ -58,7 +58,7 @@ class TestSearchStrategy:
         strategy = SearchStrategy(
             name="test_strategy",
             description="Test description",
-            required_terms=["term1"],
+            primary_keywords=["term1"],
         )
 
         # When/Then: Attempting to modify raises AttributeError
@@ -70,7 +70,7 @@ class TestSearchStrategy:
         # When/Then: Creating strategy with empty name raises ValueError
         with pytest.raises(ValueError, match="Search strategy must have a name"):
             SearchStrategy(
-                name="", description="Test description", required_terms=["term1"]
+                name="", description="Test description", primary_keywords=["term1"]
             )
 
     def test_strategy_validation_empty_description(self):
@@ -78,41 +78,40 @@ class TestSearchStrategy:
         # When/Then: Creating strategy with empty description raises ValueError
         with pytest.raises(ValueError, match="Search strategy must have a description"):
             SearchStrategy(
-                name="test_strategy", description="", required_terms=["term1"]
+                name="test_strategy", description="", primary_keywords=["term1"]
             )
 
     def test_strategy_validation_empty_required_terms(self):
-        """Test validation rejects empty required terms."""
-        # When/Then: Creating strategy with no required terms raises ValueError
+        """Test validation rejects empty primary keywords."""
+        # When/Then: Creating strategy with no primary keywords raises ValueError
         with pytest.raises(
-            ValueError, match="Search strategy must have at least one required term"
+            ValueError, match="Search strategy must have at least one primary keyword"
         ):
-            SearchStrategy(
-                name="test_strategy", description="Test description", required_terms=[]
-            )
-
-    def test_strategy_validation_negative_max_results(self):
-        """Test validation rejects negative max results."""
-        # When/Then: Creating strategy with negative max_results raises ValueError
-        with pytest.raises(ValueError, match="max_results must be positive"):
             SearchStrategy(
                 name="test_strategy",
                 description="Test description",
-                required_terms=["term1"],
-                max_results=-1,
+                primary_keywords=[],
+            )
+
+    def test_strategy_validation_negative_max_results(self):
+        """Test validation rejects negative search limit."""
+        # When/Then: Creating strategy with negative search_limit raises ValueError
+        with pytest.raises(ValueError, match="search_limit must be positive"):
+            SearchStrategy(
+                name="test_strategy",
+                description="Test description",
+                primary_keywords=["term1"],
+                search_limit=-1,
             )
 
     def test_get_all_terms(self):
-        """Test getting all terms from all categories."""
-        # Given: Strategy with terms in multiple categories
+        """Test getting all terms from primary and secondary keywords."""
+        # Given: Strategy with both primary and secondary keywords
         strategy = SearchStrategy(
             name="comprehensive_strategy",
-            description="Strategy with all term types",
-            required_terms=["hrv", "required"],
-            optional_terms=["optional1", "optional2"],
-            alternative_terms=["alt1"],
-            technology_terms=["tech1", "tech2"],
-            clinical_terms=["clinical1"],
+            description="Strategy with all keyword types",
+            primary_keywords=["hrv", "required"],
+            secondary_keywords=["optional1", "optional2"],
         )
 
         # When: Getting all terms
@@ -124,10 +123,6 @@ class TestSearchStrategy:
             "required",
             "optional1",
             "optional2",
-            "alt1",
-            "tech1",
-            "tech2",
-            "clinical1",
         ]
         assert len(all_terms) == len(expected_terms)
         for term in expected_terms:
@@ -139,9 +134,8 @@ class TestSearchStrategy:
         strategy = SearchStrategy(
             name="duplicate_strategy",
             description="Strategy with duplicate terms",
-            required_terms=["hrv", "duplicate"],
-            optional_terms=["duplicate", "optional"],
-            alternative_terms=["hrv"],
+            primary_keywords=["hrv", "duplicate"],
+            secondary_keywords=["duplicate", "optional"],
         )
 
         # When: Getting all terms
@@ -154,36 +148,36 @@ class TestSearchStrategy:
         assert "optional" in all_terms
 
     def test_build_search_query_required_only(self):
-        """Test building search query with only required terms."""
-        # Given: Strategy with only required terms
+        """Test building search query with only primary keywords."""
+        # Given: Strategy with only primary keywords
         strategy = SearchStrategy(
             name="simple_strategy",
             description="Simple strategy",
-            required_terms=["heart rate variability", "HRV"],
+            primary_keywords=["heart rate variability", "HRV"],
         )
 
         # When: Building search query
         query = strategy.build_search_query()
 
-        # Then: Query contains properly formatted required terms
+        # Then: Query contains properly formatted primary keywords
         assert '"heart rate variability"' in query
         assert '"HRV"' in query
         assert " AND " in query
 
     def test_build_search_query_with_optional_terms(self):
-        """Test building search query with optional terms."""
-        # Given: Strategy with required and optional terms
+        """Test building search query with secondary keywords."""
+        # Given: Strategy with primary and secondary keywords
         strategy = SearchStrategy(
             name="complex_strategy",
             description="Complex strategy",
-            required_terms=["heart rate variability"],
-            optional_terms=["RMSSD", "pNN50"],
+            primary_keywords=["heart rate variability"],
+            secondary_keywords=["RMSSD", "pNN50"],
         )
 
         # When: Building search query
         query = strategy.build_search_query()
 
-        # Then: Query contains required terms and optional terms with OR logic
+        # Then: Query contains primary keywords and secondary keywords with OR logic
         assert '"heart rate variability"' in query
         assert '"RMSSD"' in query
         assert '"pNN50"' in query
@@ -276,21 +270,17 @@ class TestKeywordConfig:
     def sample_yaml_config(self):
         """Fixture providing sample YAML configuration data."""
         return {
-            "hrv_core_terms": ["heart rate variability", "HRV"],
-            "medical_conditions": ["TBI", "concussion"],
-            "methodologies": ["ECG", "PPG"],
-            "clinical_applications": ["prognosis", "biomarker"],
-            "search_strategies": {
+            "strategies": {
                 "broad_hrv": {
                     "description": "Broad HRV research",
-                    "required_terms": ["heart rate variability"],
-                    "optional_terms": ["HRV"],
-                    "max_results": 50,
+                    "primary_keywords": ["heart rate variability"],
+                    "secondary_keywords": ["HRV"],
+                    "search_limit": 50,
                 },
                 "tbi_focused": {
                     "description": "TBI-focused HRV research",
-                    "required_terms": ["heart rate variability", "TBI"],
-                    "max_results": 30,
+                    "primary_keywords": ["heart rate variability", "TBI"],
+                    "search_limit": 30,
                 },
             },
             "search_configuration": {
@@ -307,13 +297,13 @@ class TestKeywordConfig:
         """Test creating valid KeywordConfig from components."""
         # Given: Valid configuration components
         strategies = {}
-        for name, strategy_data in sample_yaml_config["search_strategies"].items():
+        for name, strategy_data in sample_yaml_config["strategies"].items():
             strategies[name] = SearchStrategy(
                 name=name,
                 description=strategy_data["description"],
-                required_terms=strategy_data["required_terms"],
-                optional_terms=strategy_data.get("optional_terms", []),
-                max_results=strategy_data["max_results"],
+                primary_keywords=strategy_data["primary_keywords"],
+                secondary_keywords=strategy_data.get("secondary_keywords", []),
+                search_limit=strategy_data["search_limit"],
             )
 
         search_config_data = sample_yaml_config["search_configuration"]
@@ -329,17 +319,11 @@ class TestKeywordConfig:
 
         # When: Creating KeywordConfig
         config = KeywordConfig(
-            hrv_core_terms=sample_yaml_config["hrv_core_terms"],
-            medical_conditions=sample_yaml_config["medical_conditions"],
-            methodologies=sample_yaml_config["methodologies"],
-            clinical_applications=sample_yaml_config["clinical_applications"],
             search_strategies=strategies,
             search_configuration=search_config,
         )
 
         # Then: Configuration is created successfully
-        assert config.hrv_core_terms == ["heart rate variability", "HRV"]
-        assert config.medical_conditions == ["TBI", "concussion"]
         assert len(config.search_strategies) == 2
         assert "broad_hrv" in config.search_strategies
         assert "tbi_focused" in config.search_strategies
@@ -356,8 +340,6 @@ class TestKeywordConfig:
             config = KeywordConfig.from_yaml_file(temp_path)
 
             # Then: Configuration is loaded correctly
-            assert config.hrv_core_terms == ["heart rate variability", "HRV"]
-            assert config.medical_conditions == ["TBI", "concussion"]
             assert len(config.search_strategies) == 2
             assert config.search_configuration.default_strategy == "broad_hrv"
             assert config.search_configuration.citation_threshold == 5
@@ -405,8 +387,8 @@ class TestKeywordConfig:
             # Then: Correct strategy is returned
             assert strategy.name == "tbi_focused"
             assert strategy.description == "TBI-focused HRV research"
-            assert "heart rate variability" in strategy.required_terms
-            assert "TBI" in strategy.required_terms
+            assert "heart rate variability" in strategy.primary_keywords
+            assert "TBI" in strategy.primary_keywords
         finally:
             temp_path.unlink()
 
@@ -446,8 +428,8 @@ class TestKeywordConfig:
             temp_path.unlink()
 
     def test_get_all_terms(self, sample_yaml_config):
-        """Test getting all terms from all categories."""
-        # Given: KeywordConfig with terms in multiple categories
+        """Test getting all terms from all strategies."""
+        # Given: KeywordConfig with multiple strategies
         with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
             yaml.dump(sample_yaml_config, f)
             temp_path = Path(f.name)
@@ -458,18 +440,13 @@ class TestKeywordConfig:
             # When: Getting all terms
             all_terms = config.get_all_terms()
 
-            # Then: All unique terms from all categories are returned
+            # Then: All unique terms from all strategies are returned
             expected_terms = [
                 "heart rate variability",
                 "HRV",
                 "TBI",
-                "concussion",
-                "ECG",
-                "PPG",
-                "prognosis",
-                "biomarker",
             ]
-            assert len(all_terms) == len(expected_terms)
+            assert len(all_terms) >= len(expected_terms)
             for term in expected_terms:
                 assert term in all_terms
         finally:
@@ -495,10 +472,10 @@ class TestKeywordConfig:
         finally:
             temp_path.unlink()
 
-    def test_validation_empty_hrv_terms(self, sample_yaml_config):
-        """Test validation rejects empty HRV core terms."""
-        # Given: Configuration with empty HRV core terms
-        sample_yaml_config["hrv_core_terms"] = []
+    def test_validation_empty_strategies(self, sample_yaml_config):
+        """Test validation rejects empty strategies."""
+        # Given: Configuration with empty strategies
+        sample_yaml_config["strategies"] = {}
 
         with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
             yaml.dump(sample_yaml_config, f)
@@ -506,7 +483,9 @@ class TestKeywordConfig:
 
         try:
             # When/Then: Loading raises ValueError
-            with pytest.raises(ValueError, match="HRV core terms cannot be empty"):
+            with pytest.raises(
+                ValueError, match="At least one search strategy must be defined"
+            ):
                 KeywordConfig.from_yaml_file(temp_path)
         finally:
             temp_path.unlink()

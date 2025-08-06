@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 """
-HRV Research Paper Search - Single Entry Point CLI Script
+Research Paper Search - Single Entry Point CLI Script
 
 This script demonstrates the keyword-based search system built with Clean Architecture.
-It loads keyword configurations from YAML and executes searches using different strategies.
+It loads keyword configurations from YAML and executes searches using different strategies
+across multiple research domains including cybersecurity, post-quantum cryptography, and medical research.
 
 Usage Examples:
-    python search_hrv.py --strategy broad_hrv_research
-    python search_    # Handle downloading if requested
-    if args.download and results:
-        from domain.services.paper_download_service import PaperDownloadService
-
-        print(f"\n📥 Starting paper downloads...")
-        download_service = PaperDownloadService(base_output_dir=args.output_dir) --strategy tbi_focused --limit 10
-    python search_hrv.py --custom "heart rate variability" "traumatic brain injury"
-    python search_hrv.py --list-strategies
+    python search_research.py --strategy scada_security
+    python search_research.py --strategy lattice_cryptography --limit 10
+    python search_research.py --custom "quantum computing" "cryptography"
+    python search_research.py --list-strategies
 
 Educational Notes:
 - Demonstrates Clean Architecture in practice with single entry point
