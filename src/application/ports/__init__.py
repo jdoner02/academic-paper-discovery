@@ -32,6 +32,6 @@ from src.application.ports.paper_repository_port import PaperRepositoryPort
 from src.application.ports.paper_source_port import PaperSourcePort
 
 __all__ = [
-    'PaperRepositoryPort',
-    'PaperSourcePort',
+    "PaperRepositoryPort",
+    "PaperSourcePort",
 ]

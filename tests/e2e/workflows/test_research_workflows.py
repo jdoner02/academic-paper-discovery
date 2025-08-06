@@ -125,7 +125,11 @@ class TestAcademicResearchWorkflows:
                         "intrusion detection",
                         "vulnerability",
                     ],
-                    "exclusion_keywords": ["tutorial", "survey only", "basic introduction"],
+                    "exclusion_keywords": [
+                        "tutorial",
+                        "survey only",
+                        "basic introduction",
+                    ],
                     "search_limit": 100,
                 },
                 "ai_security_intersection": {
@@ -144,7 +148,10 @@ class TestAcademicResearchWorkflows:
                     "name": "quantum_cryptography",
                     "description": "Post-quantum cryptography research",
                     "primary_keywords": ["quantum cryptography", "post-quantum"],
-                    "secondary_keywords": ["quantum resistant", "cryptographic protocols"],
+                    "secondary_keywords": [
+                        "quantum resistant",
+                        "cryptographic protocols",
+                    ],
                     "exclusion_keywords": ["theoretical only"],
                     "search_limit": 30,
                 },

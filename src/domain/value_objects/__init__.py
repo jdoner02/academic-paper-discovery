@@ -16,6 +16,7 @@ Examples of value objects in HRV research:
 - SearchQuery: Encapsulates search parameters
 - KeywordConfig: Configuration for research paper keyword searches
 - PaperFingerprint: Identity mechanism for duplicate paper detection across sources
+- SourceMetadata: Multi-source paper metadata tracking and quality assessment
 - QualityScore: Represents data quality metrics
 - Citation: Represents a bibliographic citation
 - DateRange: Represents a time period
@@ -24,9 +25,11 @@ Examples of value objects in HRV research:
 from .keyword_config import KeywordConfig
 from .search_query import SearchQuery
 from .paper_fingerprint import PaperFingerprint
+from .source_metadata import SourceMetadata
 
 __all__ = [
-    'KeywordConfig',
-    'SearchQuery',
-    'PaperFingerprint',
+    "KeywordConfig",
+    "SearchQuery",
+    "PaperFingerprint",
+    "SourceMetadata",
 ]
