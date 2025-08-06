@@ -1,33 +1,73 @@
 /**
- * Paper - Domain Entity representing academic research papers.
+ * Paper Entity - Core Domain Entity for Academic Research Papers
  * 
- * This entity encapsulates academic research papers with identity, metadata,
- * and business behavior for concept extraction and discovery workflows.
+ * This class demonstrates Clean Architecture Entity patterns and Domain-Driven Design principles.
+ * As a domain entity, it encapsulates business rules and behavior while maintaining independence
+ * from infrastructure concerns.
  * 
  * Educational Notes:
- * - Demonstrates Entity pattern from Domain-Driven Design
- * - Shows identity-based equality (DOI or ArXiv ID as identity)
- * - Illustrates rich domain model with business behavior
- * - Provides foundation for research paper aggregation and analysis
+ * - Shows Entity pattern with identity-based equality (DOI, ArXiv ID, or title/authors)
+ * - Demonstrates Factory Method pattern for object creation with different identity strategies
+ * - Illustrates Value Object composition (EmbeddingVector, EvidenceSentence)
+ * - Implements Domain Event concepts through processing metadata
+ * - Maintains Rich Domain Model with business behavior, not just data containers
  * 
  * Design Decisions:
- * - Identity based on DOI or ArXiv ID (academic standards)
- * - Immutable after creation to prevent data corruption
- * - Business methods encapsulate research domain logic
- * - Validation ensures academic paper data integrity
+ * - Private constructor enforces factory method usage for controlled object creation
+ * - Immutable identity after creation prevents entity identity corruption
+ * - Mutable processing metadata allows for lifecycle state changes
+ * - Static factory methods handle different paper identity strategies
  * 
- * Clean Architecture Layer: Domain (Entity)
- * Dependencies: EmbeddingVector, EvidenceSentence (domain value objects)
+ * SOLID Principles Applied:
+ * - Single Responsibility: Manages paper identity, validation, and business behavior
+ * - Open/Closed: Extensible through inheritance, closed for modification of core identity
+ * - Liskov Substitution: Any Paper instance can be used polymorphically
+ * - Interface Segregation: Clean separation of creation, identity, and processing concerns
+ * - Dependency Inversion: Depends on domain value objects, not infrastructure details
+ * 
+ * Clean Architecture Compliance:
+ * - Domain Layer: Pure business logic with no external dependencies
+ * - Business Rules: Validation and behavior rules encapsulated within entity
+ * - Technology Independence: No framework or database dependencies
  * 
  * Use Cases:
- * - Managing research paper identity and metadata
- * - Validating paper readiness for processing
- * - Generating summaries for concept extraction
- * - Tracking processing status and metadata
+ * - Academic paper identity management across different sources (DOI, ArXiv, manual entry)
+ * - Content processing pipeline tracking with metadata
+ * - Concept extraction preparation and validation
+ * - Research paper aggregation and deduplication
  */
 
 import { EmbeddingVector } from '../value_objects/EmbeddingVector';
 import { EvidenceSentence } from '../value_objects/EvidenceSentence';
+
+// Domain Constants - Business Rules and Validation Patterns
+const VALIDATION_PATTERNS = {
+    DOI: /^10\.\d+\/.+$/,
+    ARXIV_ID: /^\d{4}\.\d{4,5}(v\d+)?$/
+} as const;
+
+const CONTENT_LIMITS = {
+    DEFAULT_SUMMARY_LENGTH: 500,
+    TRUNCATION_THRESHOLD: 0.7,
+    MIN_SUMMARY_BUFFER: 10
+} as const;
+
+const ERROR_MESSAGES = {
+    INVALID_DOI: "Invalid DOI format. Expected format: 10.xxxx/xxxxx",
+    INVALID_ARXIV: "Invalid ArXiv ID format. Expected format: YYYY.NNNNN or YYYY.NNNNNvN",
+    EMPTY_TITLE: "Title cannot be empty",
+    EMPTY_AUTHORS: "Authors array cannot be empty",
+    INVALID_AUTHOR: "Invalid author format: author names cannot be empty strings",
+    IDENTITY_REQUIRED: "Papers require either DOI, ArXiv ID, or non-empty title with authors for identity"
+} as const;
+
+// Domain Types - Processing Metadata Structure for Paper Lifecycle Tracking
+export interface ProcessingMetadata {
+    processedAt: string;
+    extractionModel: string;
+    conceptCount: number;
+    confidenceScore: number;
+}
 
 export interface PaperProps {
     doi?: string | null;
@@ -39,15 +79,6 @@ export interface PaperProps {
     publishedDate?: Date;
     journal?: string;
     url?: string;
-}
-
-export interface ProcessingMetadata {
-    status: 'pending' | 'processing' | 'completed' | 'failed';
-    createdAt: Date;
-    processedAt?: Date;
-    embeddingGenerated?: boolean;
-    conceptsExtracted?: boolean;
-    errorMessage?: string;
 }
 
 export interface ValidationResult {
@@ -302,17 +333,6 @@ export class Paper {
      */
     isProcessed(): boolean {
         return this._processingMetadata !== undefined && this._processingMetadata !== null;
-    }    /**
-     * Gets processing metadata and status information.
-     */
-    getProcessingMetadata(): ProcessingMetadata {
-        return {
-            status: this.isReadyForProcessing() ? 'pending' : 'failed',
-            createdAt: this._createdAt,
-            embeddingGenerated: false,
-            conceptsExtracted: false,
-            errorMessage: this.isReadyForProcessing() ? undefined : 'Paper not ready for processing'
-        };
     }
 
     /**
