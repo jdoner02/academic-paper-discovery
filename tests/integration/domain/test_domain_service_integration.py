@@ -235,27 +235,35 @@ class TestSearchQueryValueObjectIntegration:
         strategy = SearchStrategy(
             name="cybersecurity_research",
             description="Cybersecurity research papers",
-            primary_terms=["cybersecurity", "network security"],
-            secondary_terms=["threat detection", "encryption"],
-            excluded_terms=["tutorial"],
-            max_results=100,
+            primary_keywords=["cybersecurity", "network security"],
+            secondary_keywords=["threat detection", "encryption"],
+            exclusion_keywords=["tutorial"],
+            search_limit=100,
         )
 
         config = KeywordConfig(
             strategies=[strategy], default_strategy="cybersecurity_research"
         )
 
-        # Act: Build search query from configuration
-        search_query = strategy.build_search_query(
-            start_year=2020, end_year=2024, min_citations=10
+        # Act: Create search query using strategy data
+        search_query = SearchQuery(
+            terms=strategy.get_all_terms(),
+            start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
+            end_date=datetime(2024, 12, 31, tzinfo=timezone.utc),
+            min_citations=10
         )
 
         # Assert: Value objects should integrate correctly
         assert isinstance(search_query, SearchQuery)
         assert search_query.terms == tuple(strategy.get_all_terms())
-        assert search_query.start_year == 2020
-        assert search_query.end_year == 2024
+        assert search_query.start_date == datetime(2020, 1, 1, tzinfo=timezone.utc)
+        assert search_query.end_date == datetime(2024, 12, 31, tzinfo=timezone.utc)
         assert search_query.min_citations == 10
+
+        # Test strategy query string building
+        query_string = strategy.build_search_query()
+        assert isinstance(query_string, str)
+        assert "cybersecurity" in query_string
 
         # Verify value object immutability is maintained
         original_terms = search_query.terms
@@ -276,8 +284,8 @@ class TestSearchQueryValueObjectIntegration:
         # Valid query should work
         valid_query = SearchQuery(
             terms=["machine learning", "cybersecurity"],
-            start_year=2020,
-            end_year=2023,
+            start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
+            end_date=datetime(2023, 12, 31, tzinfo=timezone.utc),
             max_results=50,
         )
 
@@ -308,15 +316,15 @@ class TestSearchQueryValueObjectIntegration:
         # Create identical queries
         query1 = SearchQuery(
             terms=["cybersecurity", "AI"],
-            start_year=2020,
-            end_year=2024,
+            start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
+            end_date=datetime(2024, 12, 31, tzinfo=timezone.utc),
             max_results=100,
         )
 
         query2 = SearchQuery(
             terms=["cybersecurity", "AI"],
-            start_year=2020,
-            end_year=2024,
+            start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
+            end_date=datetime(2024, 12, 31, tzinfo=timezone.utc),
             max_results=100,
         )
 

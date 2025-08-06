@@ -343,25 +343,33 @@ class TestResearchPaperEdgeCases:
         assert "François" in paper.authors[0]
         assert "José" in paper.authors[1]
 
-    def test_reject_paper_without_identity_fields(
+    def test_paper_without_standard_identifiers_allowed_for_multi_source_support(
         self, sample_authors, sample_publication_date
     ):
         """
-        Test that papers without DOI or ArXiv ID are rejected.
+        Test that papers without DOI or ArXiv ID are now allowed for multi-source support.
 
-        Business Rule: Papers need proper identification for deduplication.
+        Educational Note:
+        The validation was relaxed to support sources like Google Scholar
+        that may not provide standard academic identifiers. PaperFingerprint
+        will create composite identifiers from title+author combinations.
         """
         # Arrange - paper without DOI or ArXiv ID
-        title = "Paper Without Identity"
+        title = "Conference Paper Without Standard Identifiers"
 
-        # Act & Assert - Should raise ValueError
-        with pytest.raises(ValueError, match="either DOI or ArXiv ID"):
-            ResearchPaper(
-                title=title,
-                authors=sample_authors,
-                publication_date=sample_publication_date,
-                # No DOI or ArXiv ID provided
-            )
+        # Act - Should succeed with multi-source support
+        paper = ResearchPaper(
+            title=title,
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            # No DOI or ArXiv ID provided - this is now allowed
+        )
+
+        # Assert - Paper created successfully
+        assert paper.title == title
+        assert paper.authors == sample_authors
+        assert paper.doi is None
+        assert paper.arxiv_id is None
 
     def test_paper_with_missing_abstract(self, sample_authors, sample_publication_date):
         """

@@ -147,8 +147,8 @@ class TestArxivRepositoryExternalIntegration:
         # Complex search query with multiple parameters
         query = SearchQuery(
             terms=["machine learning", "cybersecurity"],
-            start_year=2020,
-            end_year=2023,
+            start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
+            end_date=datetime(2023, 12, 31, tzinfo=timezone.utc),
             max_results=50,
             min_citations=10,
         )
