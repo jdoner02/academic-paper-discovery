@@ -175,18 +175,18 @@ const TechnicalSection: React.FC = () => (
         </div>
         
         <div className="bg-gray-900 text-green-400 p-6 rounded-lg font-mono text-sm overflow-x-auto">
-          <div className="mb-2 text-gray-400">// Clean Architecture Layers</div>
+          <div className="mb-2 text-gray-400">{/* Clean Architecture Layers */}</div>
           <div>src/</div>
-          <div>├── domain/           <span className="text-gray-400">// Business Logic</span></div>
-          <div>│   ├── entities/     <span className="text-gray-400">// Core Objects</span></div>
+          <div>├── domain/           <span className="text-gray-400">{/* Business Logic */}</span></div>
+          <div>│   ├── entities/     <span className="text-gray-400">{/* Core Objects */}</span></div>
           <div>│   └── value_objects/</div>
-          <div>├── application/      <span className="text-gray-400">// Use Cases</span></div>
+          <div>├── application/      <span className="text-gray-400">{/* Use Cases */}</span></div>
           <div>│   ├── use_cases/</div>
-          <div>│   └── ports/        <span className="text-gray-400">// Interfaces</span></div>
-          <div>├── infrastructure/   <span className="text-gray-400">// External</span></div>
+          <div>│   └── ports/        <span className="text-gray-400">{/* Interfaces */}</span></div>
+          <div>├── infrastructure/   <span className="text-gray-400">{/* External */}</span></div>
           <div>│   └── repositories/</div>
-          <div>└── interface/        <span className="text-gray-400">// UI Components</span></div>
-          <div className="mt-4 text-gray-400">// Test Coverage: 33/33 passing ✅</div>
+          <div>└── interface/        <span className="text-gray-400">{/* UI Components */}</span></div>
+          <div className="mt-4 text-gray-400">{/* Test Coverage: 33/33 passing ✅ */}</div>
         </div>
       </div>
     </div>
