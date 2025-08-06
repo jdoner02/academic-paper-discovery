@@ -1,0 +1,192 @@
+# Post-Quantum Cryptography Research Configuration
+# Comprehensive coverage of quantum-resistant cryptographic research
+
+search_configuration:
+  min_citation_count: 3
+  year_range:
+    start: 2015  # Include foundational PQC research
+    end: null    # Latest developments
+  concurrent_searches: 4
+  default_strategy: "post_quantum_cryptography"
+
+strategies:
+  post_quantum_cryptography:
+    name: "Post-Quantum Cryptography"
+    description: "Comprehensive research on quantum-resistant cryptographic algorithms"
+    primary_keywords:
+      - "post-quantum cryptography"
+      - "quantum-resistant"
+      - "quantum-safe"
+    secondary_keywords:
+      - "lattice-based cryptography"
+      - "code-based cryptography"
+      - "multivariate cryptography"
+      - "hash-based signatures"
+      - "isogeny-based cryptography"
+      - "NIST PQC"
+      - "quantum cryptanalysis"
+    algorithms_keywords:
+      - "Kyber"
+      - "Dilithium"
+      - "FALCON"
+      - "SPHINCS+"
+      - "McEliece"
+      - "NTRU"
+      - "Rainbow"
+    exclusion_keywords:
+      - "quantum key distribution"
+      - "purely theoretical"
+    search_limit: 60
+
+  lattice_based_crypto:
+    name: "Lattice-Based Cryptography"
+    description: "Research on lattice-based post-quantum cryptographic schemes"
+    primary_keywords:
+      - "lattice-based cryptography"
+      - "learning with errors"
+      - "LWE"
+    secondary_keywords:
+      - "ring learning with errors"
+      - "RLWE"
+      - "module learning with errors"
+      - "MLWE"
+      - "shortest vector problem"
+      - "SVP"
+      - "closest vector problem"
+      - "CVP"
+    algorithms_keywords:
+      - "NewHope"
+      - "Kyber"
+      - "Dilithium"
+      - "FALCON"
+      - "CRYSTALS"
+      - "FrodoKEM"
+    exclusion_keywords:
+      - "classical lattice"
+      - "non-cryptographic"
+    search_limit: 45
+
+  code_based_crypto:
+    name: "Code-Based Cryptography"
+    description: "Error-correcting code based post-quantum cryptography"
+    primary_keywords:
+      - "code-based cryptography"
+      - "error correcting codes"
+      - "linear codes"
+    secondary_keywords:
+      - "McEliece cryptosystem"
+      - "Niederreiter cryptosystem"
+      - "syndrome decoding"
+      - "random linear codes"
+      - "structured codes"
+      - "LDPC codes"
+      - "polar codes"
+    algorithms_keywords:
+      - "Classic McEliece"
+      - "BIKE"
+      - "HQC"
+      - "LEDAcrypt"
+      - "NTS-KEM"
+    exclusion_keywords:
+      - "classical coding theory"
+      - "non-cryptographic codes"
+    search_limit: 35
+
+  multivariate_crypto:
+    name: "Multivariate Cryptography"
+    description: "Multivariate polynomial equation based cryptography"
+    primary_keywords:
+      - "multivariate cryptography"
+      - "multivariate polynomials"
+      - "MQ problem"
+    secondary_keywords:
+      - "oil and vinegar"
+      - "HFE"
+      - "UOV"
+      - "Rainbow signature"
+      - "LUOV"
+      - "GeMSS"
+    algorithms_keywords:
+      - "Rainbow"
+      - "LUOV"
+      - "GeMSS"
+      - "MQDSS"
+    exclusion_keywords:
+      - "classical algebra"
+      - "non-cryptographic"
+    search_limit: 30
+
+  hash_based_signatures:
+    name: "Hash-Based Digital Signatures"
+    description: "Hash function based post-quantum digital signatures"
+    primary_keywords:
+      - "hash-based signatures"
+      - "Merkle signatures"
+      - "one-time signatures"
+    secondary_keywords:
+      - "Lamport signatures"
+      - "Winternitz signatures"
+      - "WOTS"
+      - "XMSS"
+      - "LMS"
+      - "stateful signatures"
+      - "stateless signatures"
+    algorithms_keywords:
+      - "SPHINCS+"
+      - "XMSS"
+      - "LMS"
+      - "WOTS+"
+    exclusion_keywords:
+      - "classical hash functions"
+      - "non-signature applications"
+    search_limit: 25
+
+  pqc_implementations:
+    name: "PQC Implementation and Performance"
+    description: "Implementation aspects and performance of post-quantum algorithms"
+    primary_keywords:
+      - "post-quantum implementation"
+      - "PQC performance"
+      - "quantum-safe implementation"
+    secondary_keywords:
+      - "hardware implementation"
+      - "software optimization"
+      - "side-channel attacks"
+      - "fault attacks"
+      - "constant-time implementation"
+      - "memory optimization"
+      - "speed optimization"
+    platforms_keywords:
+      - "FPGA implementation"
+      - "embedded systems"
+      - "IoT devices"
+      - "ARM processors"
+      - "x86 optimization"
+    exclusion_keywords:
+      - "theoretical only"
+      - "non-implementation"
+    search_limit: 40
+
+  pqc_standardization:
+    name: "PQC Standardization and Migration"
+    description: "Standardization efforts and migration to post-quantum cryptography"
+    primary_keywords:
+      - "PQC standardization"
+      - "NIST PQC competition"
+      - "quantum migration"
+    secondary_keywords:
+      - "cryptographic agility"
+      - "hybrid systems"
+      - "transition planning"
+      - "protocol migration"
+      - "TLS post-quantum"
+      - "PKI migration"
+    standards_keywords:
+      - "NIST standards"
+      - "IETF drafts"
+      - "ISO standards"
+      - "ETSI guidelines"
+    exclusion_keywords:
+      - "classical standardization"
+      - "non-PQC standards"
+    search_limit: 35

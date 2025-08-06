@@ -1,0 +1,140 @@
+# Cybersecurity for Water and Wastewater Infrastructure Research
+# Configuration for Eastern Washington University Cybersecurity Research
+
+search_configuration:
+  min_citation_count: 5
+  year_range:
+    start: 2018  # Focus on recent cybersecurity developments
+    end: null    # Include latest research
+  concurrent_searches: 3
+  default_strategy: "critical_infrastructure_security"
+
+strategies:
+  critical_infrastructure_security:
+    name: "Critical Infrastructure Security"
+    description: "Comprehensive cybersecurity research for water and wastewater treatment facilities"
+    primary_keywords:
+      - "cybersecurity"
+      - "critical infrastructure"
+      - "water treatment"
+      - "wastewater"
+    secondary_keywords:
+      - "SCADA security"
+      - "industrial control systems" 
+      - "ICS security"
+      - "water infrastructure protection"
+      - "utility cybersecurity"
+      - "critical infrastructure protection"
+    technology_keywords:
+      - "PLC security"
+      - "HMI security"
+      - "industrial IoT"
+      - "network segmentation"
+      - "intrusion detection"
+      - "anomaly detection"
+    exclusion_keywords:
+      - "theoretical only"
+      - "purely mathematical"
+    search_limit: 50
+    date_range:
+      start: "2020-01-01"
+      end: null
+
+  scada_water_security:
+    name: "SCADA and Water Systems Security"
+    description: "Security research focused on SCADA systems in water utilities"
+    primary_keywords:
+      - "SCADA security"
+      - "industrial control systems"
+      - "water utility"
+    secondary_keywords:
+      - "supervisory control"
+      - "data acquisition security"
+      - "industrial cybersecurity"
+      - "operational technology"
+      - "OT security"
+      - "process control security"
+    technology_keywords:
+      - "Modbus security"
+      - "DNP3 security"
+      - "fieldbus security"
+      - "industrial protocols"
+      - "PLC vulnerabilities"
+    exclusion_keywords:
+      - "general IT security"
+      - "enterprise security"
+    search_limit: 40
+    
+  water_infrastructure_threats:
+    name: "Water Infrastructure Threat Analysis"  
+    description: "Research on specific threats and vulnerabilities in water systems"
+    primary_keywords:
+      - "water infrastructure"
+      - "cybersecurity threats"
+      - "vulnerability assessment"
+    secondary_keywords:
+      - "cyber attacks"
+      - "threat modeling"
+      - "risk assessment"
+      - "security assessment"
+      - "penetration testing"
+      - "red team exercises"
+    application_keywords:
+      - "water treatment plant"
+      - "wastewater treatment"
+      - "water distribution"
+      - "pumping stations"
+      - "water quality monitoring"
+    exclusion_keywords:
+      - "physical security only"
+      - "policy only"
+    search_limit: 35
+
+  iot_smart_water_security:
+    name: "IoT and Smart Water Systems Security"
+    description: "Security research for IoT devices and smart water management systems"
+    primary_keywords:
+      - "IoT security"
+      - "smart water"
+      - "connected devices"
+    secondary_keywords:
+      - "sensor security"
+      - "wireless sensor networks"
+      - "smart meters"
+      - "remote monitoring"
+      - "edge computing"
+      - "fog computing"
+    technology_keywords:
+      - "LoRaWAN security"
+      - "Zigbee security"
+      - "cellular IoT"
+      - "satellite communication"
+      - "mesh networks"
+    exclusion_keywords:
+      - "general IoT"
+      - "consumer IoT"
+    search_limit: 30
+
+  incident_response_water:
+    name: "Water Utility Incident Response"
+    description: "Cybersecurity incident response specific to water infrastructure"
+    primary_keywords:
+      - "incident response"
+      - "cyber incident"
+      - "water utility"
+    secondary_keywords:
+      - "disaster recovery"
+      - "business continuity"
+      - "crisis management"
+      - "forensic analysis"
+      - "malware analysis"
+      - "breach response"
+    application_keywords:
+      - "utility operations"
+      - "service restoration"
+      - "emergency protocols"
+      - "coordination procedures"
+    exclusion_keywords:
+      - "general incident response"
+      - "enterprise IT"
+    search_limit: 25
