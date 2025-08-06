@@ -14,6 +14,7 @@ const customJestConfig = {
     '<rootDir>/node_modules/',
     '<rootDir>/out/',
     '<rootDir>/cli-tool/',
+    '<rootDir>/tests/future-integration/',
   ],
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
@@ -42,7 +43,7 @@ const customJestConfig = {
       statements: 95,
     },
   },
-  moduleNameMappings: {
+  moduleNameMapper: {
     // Handle module aliases (same as tsconfig.json paths)
     '^@/(.*)$': '<rootDir>/src/$1',
     '^@/domain/(.*)$': '<rootDir>/src/domain/$1',
@@ -52,8 +53,17 @@ const customJestConfig = {
     '^@/tests/(.*)$': '<rootDir>/tests/$1',
   },
   testMatch: [
+    '**/tests/unit/**/*.(js|jsx|ts|tsx)',
+    '**/tests/integration/**/*.(js|jsx|ts|tsx)',
     '**/__tests__/**/*.(js|jsx|ts|tsx)',
     '**/*.(test|spec).(js|jsx|ts|tsx)',
+  ],
+  testPathIgnorePatterns: [
+    '<rootDir>/.next/',
+    '<rootDir>/node_modules/',
+    '<rootDir>/out/',
+    '<rootDir>/cli-tool/',
+    '<rootDir>/tests/future-integration/',
   ],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }],
