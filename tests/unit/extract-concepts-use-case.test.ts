@@ -31,13 +31,16 @@ describe('ExtractConceptsUseCase', () => {
       findConceptsByPaperIds: jest.fn(),
       findRootConcepts: jest.fn(),
       findConceptHierarchies: jest.fn(),
-      findConceptsByEmbeddingSimilarity: jest.fn(),
+      findSimilarConcepts: jest.fn(),
+      deleteConcepts: jest.fn(),
     } as jest.Mocked<ConceptRepositoryPort>;
 
     mockEmbeddingService = {
       generateEmbedding: jest.fn(),
-      calculateSimilarity: jest.fn(),
-      batchGenerateEmbeddings: jest.fn(),
+      generateBatchEmbeddings: jest.fn(),
+      getModelInfo: jest.fn(),
+      validateText: jest.fn(),
+      calculateTextSimilarity: jest.fn(),
     } as jest.Mocked<EmbeddingServicePort>;
 
     useCase = new ExtractConceptsUseCase(
