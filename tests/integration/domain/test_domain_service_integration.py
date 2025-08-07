@@ -250,7 +250,7 @@ class TestSearchQueryValueObjectIntegration:
             terms=strategy.get_all_terms(),
             start_date=datetime(2020, 1, 1, tzinfo=timezone.utc),
             end_date=datetime(2024, 12, 31, tzinfo=timezone.utc),
-            min_citations=10
+            min_citations=10,
         )
 
         # Assert: Value objects should integrate correctly

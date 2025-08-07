@@ -48,10 +48,11 @@ PaperFingerprint works with:
 import hashlib
 import re
 from dataclasses import dataclass
-from typing import Optional, List, Set
+from typing import Optional, List, Set, TYPE_CHECKING
 from datetime import datetime
 
-from src.domain.entities.research_paper import ResearchPaper
+if TYPE_CHECKING:
+    from domain.entities.research_paper import ResearchPaper
 
 
 @dataclass(frozen=True, eq=False)  # Disable auto-generated equality
@@ -92,7 +93,7 @@ class PaperFingerprint:
     source_identifiers: dict  # Store original identifiers for debugging
 
     @classmethod
-    def from_paper(cls, paper: ResearchPaper) -> "PaperFingerprint":
+    def from_paper(cls, paper: "ResearchPaper") -> "PaperFingerprint":
         """
         Factory method to create fingerprint from ResearchPaper entity.
 
@@ -146,7 +147,7 @@ class PaperFingerprint:
         )
 
     @staticmethod
-    def _determine_primary_identifier(paper: ResearchPaper) -> str:
+    def _determine_primary_identifier(paper: "ResearchPaper") -> str:
         """
         Determine the primary identifier using hierarchical preference.
 
@@ -184,7 +185,7 @@ class PaperFingerprint:
         return PaperFingerprint._create_composite_identifier(paper)
 
     @staticmethod
-    def _create_composite_identifier(paper: ResearchPaper) -> str:
+    def _create_composite_identifier(paper: "ResearchPaper") -> str:
         """
         Create composite identifier from title and first author.
 

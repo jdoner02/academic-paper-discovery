@@ -4,7 +4,7 @@
 
 An interactive web platform that uses machine learning and visualization to help researchers explore literature landscapes without technical barriers.
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen)](https://jdoner02.github.io/research-paper-discovery-web/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen)](https://jdoner02.github.io/academic-paper-discovery/)
 [![Test Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)](./tests)
 [![Clean Architecture](https://img.shields.io/badge/architecture-clean-blue)](./src)
 [![TDD](https://img.shields.io/badge/methodology-TDD-orange)](./tests)
@@ -16,18 +16,58 @@ An interactive web platform that uses machine learning and visualization to help
 - **Evidence-Based Navigation**: Click concepts to see supporting sentences from papers
 - **Mobile-Responsive Design**: Full functionality on all devices
 - **No Technical Barriers**: Form-based configuration, no command-line required
+- **Multi-Source Integration**: Access papers from ArXiv.org and MDPI journals
+- **Multi-Domain Support**: Research any field via YAML configuration files
+- **Intelligent Search Strategies**: Pre-configured and custom search approaches
+- **Automated Downloads**: Papers organized in domain-specific folders
+- **Duplicate Prevention**: Smart deduplication across multiple sources
 
 ### 🔧 **For Developers**
 - **Clean Architecture**: Strict layer separation with educational documentation
 - **Test-Driven Development**: 95%+ test coverage with Red-Green-Refactor methodology
 - **Comprehensive Documentation**: Every design decision explained
 - **Professional Patterns**: Repository, Strategy, Factory, Adapter patterns demonstrated
+- **Interactive GUI**: Web-based concept visualization with D3.js
+- **Multiple Visualizations**: Sunburst, treemap, and network graph views
+- **Concept Exploration**: Click to explore evidence sentences and PDF sources
+- **Academic Design**: Accessible interface for researchers and students
+
+## 🏗️ Architecture
+
+This project demonstrates **Clean Architecture** with clear separation of concerns:
+
+```
+📦 Domain Layer (Business Logic)
+├── 📝 Entities: ResearchPaper, Concept, ConceptHierarchy
+├── 💎 Value Objects: SearchQuery, KeywordConfig, SearchStrategy
+└── 🔧 Services: PaperDownloadService, ConceptExtractor
+
+📦 Application Layer (Use Cases) 
+├── 🎯 ExecuteKeywordSearchUseCase
+└── 🔍 ExtractPaperConceptsUseCase
+
+📦 Infrastructure Layer (External)
+├── 🌐 ArxivPaperRepository
+├── 📰 MDPIPaperRepository
+├── 🔬 PMCPaperRepository
+├── 💾 JSONConceptRepository
+└── 🎨 Flask GUI Application
+```
+
+### 🎓 Educational Value
+
+Perfect for learning:
+- **SOLID Principles**: Single Responsibility, Open/Closed, Dependency Inversion
+- **Design Patterns**: Repository, Strategy, Factory, Command, Facade
+- **Domain-Driven Design**: Entities, Value Objects, Domain Services
+- **Clean Architecture**: Layer separation and dependency inversion
+- **Test-Driven Development**: Comprehensive unit and integration testing
 
 ## 🚀 Quick Start
 
 ### For End Users
 
-1. **Visit the Live Platform**: [research-paper-discovery-web.github.io](https://jdoner02.github.io/research-paper-discovery-web/)
+1. **Visit the Live Platform**: [jdoner02.github.io/academic-paper-discovery](https://jdoner02.github.io/academic-paper-discovery/)
 2. **Select Research Area**: Choose from available research domains
 3. **Configure Search**: Check/uncheck search strategies
 4. **Explore Concepts**: Navigate interactive concept maps
@@ -37,21 +77,94 @@ An interactive web platform that uses machine learning and visualization to help
 
 ```bash
 # Clone the repository
-git clone https://github.com/jdoner02/research-paper-discovery-web.git
-cd research-paper-discovery-web
+git clone https://github.com/jdoner02/academic-paper-discovery.git
+cd academic-paper-discovery
 
-# Install dependencies
-npm install
+# Install Python dependencies
+pip install -r requirements.txt
 
-# Run tests (TDD approach - run tests first!)
-npm test
+# Run comprehensive test suite (TDD approach - tests first!)
+python -m pytest tests/ -v --cov=src --cov-report=html
 
-# Start development server
-npm run dev
+# Start the GUI application
+python run_gui.py
 
+# Or use the CLI for batch operations
+python search_cli.py
+
+<<<<<<< Updated upstream
 # Build for production
 npm run build
 npm run export
+=======
+The interactive menu guides you through:
+
+1. **Select Research Domain**: Choose from available YAML configurations
+2. **Pick Search Strategy**: Select from predefined research strategies  
+3. **Configure Download**: Preview or download papers to local folders
+4. **Set Parameters**: Adjust number of papers and other settings
+
+### 🖥️ Interactive GUI
+
+Launch the web-based concept explorer:
+
+```bash
+python run_gui.py
+```
+
+Then open your browser to `http://localhost:5000` to:
+
+- 📊 **Visualize Concepts**: Explore research concepts with interactive D3.js visualizations
+- 🔍 **Filter & Search**: Find specific concepts using real-time filtering
+- 📝 **View Evidence**: Click concepts to see supporting evidence sentences
+- 📄 **Access PDFs**: Click evidence sentences to open source PDFs
+- 🎨 **Multiple Views**: Switch between sunburst, treemap, and network visualizations
+- 📏 **Zoom & Pan**: Navigate large concept hierarchies with smooth interactions
+
+## 📋 Available Research Domains
+
+### 🔐 Cybersecurity & Water Infrastructure
+- Critical Infrastructure Security
+- SCADA Systems Security  
+- Threat Analysis & IoT Security
+- Incident Response
+
+### 🔒 Post-Quantum Cryptography
+- Quantum-Resistant Algorithms
+- Lattice-Based Cryptography
+- Code-Based & Multivariate Schemes
+- Implementation & Standards
+
+### ❤️ Heart Rate Variability (HRV)
+- Medical Applications & TBI Research
+- Technology & Wearables Integration
+- Analysis Methods & Algorithms
+- Clinical Studies
+
+## 🛠️ Configuration
+
+Create new research domains by adding YAML files to `config/`:
+
+```yaml
+strategies:
+  strategy_name:
+    description: "Brief description"
+    primary_keywords:
+      - "main term 1"
+      - "main term 2"
+    secondary_keywords:  
+      - "supporting term 1"
+      - "supporting term 2"
+    search_limit: 50
+    date_range:
+      start_year: 2020
+      end_year: 2024
+
+search_configuration:
+  default_strategy: "strategy_name"
+  citation_threshold: 5
+  exclude_terms: ["exclude1", "exclude2"]
+>>>>>>> Stashed changes
 ```
 
 ## 🏗️ Architecture
@@ -111,7 +224,43 @@ npm run test:coverage
 npm run test:e2e
 ```
 
+<<<<<<< Updated upstream
 ### TDD Cycle Example
+=======
+**Test Coverage**: 70+ repository tests covering domain logic, value objects, and multi-source integration.
+
+## 📁 Project Structure
+
+```
+academic-paper-discovery/
+├── 📂 config/                    # YAML configuration files
+│   ├── cybersecurity_water_infrastructure.yaml
+│   ├── post_quantum_cryptography.yaml
+│   └── heart_rate_variability.yaml
+├── 📂 src/
+│   ├── 📂 domain/               # Business logic (no external dependencies)
+│   │   ├── 📂 entities/         # Core business objects  
+│   │   ├── 📂 value_objects/    # Immutable domain concepts
+│   │   └── 📂 services/         # Domain services
+│   ├── 📂 application/          # Use cases and ports
+│   │   ├── 📂 use_cases/        # Business workflows
+│   │   └── 📂 ports/            # Abstract interfaces
+│   └── 📂 infrastructure/       # External systems integration
+│       └── 📂 repositories/     # Data access implementations
+├── 📂 tests/
+│   ├── 📂 unit/                 # Component-level tests
+│   └── 📂 integration/          # System-level tests  
+├── 📂 outputs/                  # Downloaded papers (organized by domain/date)
+├── main.py                      # Interactive menu application
+├── search_research.py           # CLI script interface
+└── README.md
+```
+
+## 🔧 Command Line Interface
+
+For advanced users, use the CLI directly:
+
+>>>>>>> Stashed changes
 ```bash
 # 1. RED: Write failing test
 npm test -- --testNamePattern="ConceptNode creation"
@@ -269,6 +418,18 @@ Every component includes:
 
 ## 🤝 Contributing
 
+<<<<<<< Updated upstream
+=======
+This project welcomes contributions! Areas for enhancement:
+
+- 🌐 Additional data sources (PubMed Central, Zenodo, DOAJ, RePEc, etc.)
+- 📊 Advanced filtering and ranking algorithms  
+- 🎨 Web interface or GUI
+- 📈 Analytics and visualization features
+- 🔧 Performance optimizations
+- 📚 Additional research domain configurations
+
+>>>>>>> Stashed changes
 ### Development Setup
 1. **Fork the repository**
 2. **Create feature branch**: `git checkout -b feature/amazing-feature`

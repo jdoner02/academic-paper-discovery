@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Research Paper Aggregator - Advanced search and analysis interface">
+    <title>Research Paper Aggregator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Basic styling for the interface */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .main-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .site-title {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 300;
+        }
+        
+        .search-section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            color: #34495e;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        
+        .config-selector {
+            margin-bottom: 20px;
+        }
+        
+        .config-selector label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #555;
+        }
+        
+        .config-selector select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            background: white;
+        }
+        
+        .search-form {
+            margin-bottom: 20px;
+        }
+        
+        .search-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .search-input-group input[type="search"] {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        
+        .search-input-group input[type="search"]:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+        
+        .search-button {
+            padding: 15px 25px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .search-button:hover {
+            background: #2980b9;
+        }
+        
+        .help-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .filters-container {
+            margin-top: 20px;
+        }
+        
+        .filters-toggle {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .advanced-filters {
+            margin-top: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .filter-group {
+            margin-bottom: 15px;
+        }
+        
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #555;
+        }
+        
+        .filter-group input,
+        .filter-group select {
+            width: 100%;
+            max-width: 200px;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .results-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .recent-section {
+            margin-top: 30px;
+        }
+        
+        .recent-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .recent-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f8f9fa;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+        
+        .recent-search-btn {
+            background: none;
+            border: none;
+            color: #3498db;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .recent-search-btn:hover {
+            text-decoration: underline;
+        }
+        
+        .recent-timestamp {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .concepts-section {
+            margin-top: 30px;
+        }
+        
+        .concept-filters input {
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .concept-visualization {
+            min-height: 300px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+        
+        .main-footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        .footer-nav a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 1000;
+        }
+        
+        .skip-link:focus {
+            top: 6px;
+        }
+        
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            .search-input-group {
+                flex-direction: column;
+            }
+            
+            .site-title {
+                font-size: 2rem;
+            }
+            
+            .footer-nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+        
+        /* Statistics Overview Styling */
+        .statistics-overview {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 8px;
+        }
+        
+        .stats-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+            min-width: 100px;
+        }
+        
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            display: block;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                gap: 20px;
+            }
+            
+            .stat-number {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Accessibility Skip Links -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header Section -->
+    <header class="main-header" role="banner">
+        <div class="container">
+            <h1 class="site-title">Research Paper Aggregator</h1>
+            <p>Advanced Academic Research Discovery Tool</p>
+            
+            <!-- Statistics Section -->
+            <div class="statistics-overview" role="region" aria-label="Collection Statistics">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">{{ total_papers or 0 }}</span>
+                        <span class="stat-label">Papers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">{{ total_concepts or 0 }}</span>
+                        <span class="stat-label">Concepts</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">{{ domains_count or 0 }}</span>
+                        <span class="stat-label">Domains</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="container">
+            <!-- Search Interface -->
+            <section id="search" class="search-section" aria-labelledby="search-heading">
+                <h2 id="search-heading" class="section-title">Academic Search</h2>
+                
+                <!-- Configuration Selector -->
+                <div class="config-selector">
+                    <label for="config-select">Research Domain:</label>
+                    <select id="config-select" name="config" aria-describedby="config-help">
+                        <option value="">Select research area...</option>
+                        {% if available_configs %}
+                            {% for config in available_configs %}
+                                <option value="{{ config.name }}">{{ config.display_name }}</option>
+                            {% endfor %}
+                        {% endif %}
+                    </select>
+                    <div id="config-help" class="help-text">Choose your research domain for optimized search</div>
+                </div>
+
+                <!-- Search Form -->
+                <form id="search-form" class="search-form" role="search">
+                    <div class="search-input-group">
+                        <label for="search-query" class="visually-hidden">Search Query</label>
+                        <input 
+                            type="search" 
+                            id="search-query" 
+                            name="query" 
+                            placeholder="Enter keywords, concepts, or research questions..."
+                            aria-describedby="search-help"
+                            autocomplete="off"
+                        >
+                        <button type="submit" class="search-button">
+                            <span>Search</span>
+                        </button>
+                    </div>
+                    <div id="search-help" class="help-text">Use natural language or specific keywords</div>
+                </form>
+
+                <!-- Advanced Filters -->
+                <div class="filters-container">
+                    <button class="filters-toggle" onclick="toggleFilters()">
+                        Advanced Filters
+                    </button>
+                    <div id="advanced-filters" class="advanced-filters" style="display: none;">
+                        <div class="filter-group">
+                            <label for="date-from">From Date:</label>
+                            <input type="date" id="date-from" name="date_from">
+                        </div>
+                        <div class="filter-group">
+                            <label for="date-to">To Date:</label>
+                            <input type="date" id="date-to" name="date_to">
+                        </div>
+                        <div class="filter-group">
+                            <label for="paper-limit">Max Results:</label>
+                            <select id="paper-limit" name="limit">
+                                <option value="10">10 papers</option>
+                                <option value="25" selected>25 papers</option>
+                                <option value="50">50 papers</option>
+                                <option value="100">100 papers</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results" class="results-section" aria-labelledby="results-heading" style="display: none;">
+                <h2 id="results-heading" class="section-title">Search Results</h2>
+                <div class="results-summary"></div>
+                <div class="results-container" role="region" aria-label="Search results">
+                    <!-- Results will be populated via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Recent Searches -->
+            {% if recent_searches %}
+            <section id="recent" class="recent-section" aria-labelledby="recent-heading">
+                <h2 id="recent-heading" class="section-title">Recent Searches</h2>
+                <ul class="recent-list">
+                    {% for search in recent_searches %}
+                    <li class="recent-item">
+                        <button class="recent-search-btn" data-query="{{ search.query }}" onclick="useRecentSearch('{{ search.query }}')">
+                            {{ search.query }}
+                        </button>
+                        <time datetime="{{ search.timestamp }}" class="recent-timestamp">
+                            {{ search.timestamp.strftime('%Y-%m-%d %H:%M') }}
+                        </time>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            <!-- Concept Explorer -->
+            <section id="concepts" class="concepts-section" aria-labelledby="concepts-heading">
+                <h2 id="concepts-heading" class="section-title">Concept Explorer</h2>
+                <div class="concepts-container">
+                    <div class="concept-filters">
+                        <input type="search" id="concept-search" placeholder="Filter concepts..." aria-label="Filter concepts">
+                    </div>
+                    <div class="concept-visualization" id="concept-viz" role="img" aria-label="Concept relationship visualization">
+                        <p>Concept visualization will appear here after performing a search</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; {{ current_year }} Research Paper Aggregator. Academic Research Tool.</p>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="/api/docs">API Documentation</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#help">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Basic JavaScript for interaction -->
+    <script>
+        function toggleFilters() {
+            const filters = document.getElementById('advanced-filters');
+            const isHidden = filters.style.display === 'none';
+            filters.style.display = isHidden ? 'block' : 'none';
+        }
+        
+        function useRecentSearch(query) {
+            document.getElementById('search-query').value = query;
+        }
+        
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = document.getElementById('search-query').value;
+            const config = document.getElementById('config-select').value;
+            
+            if (!query.trim()) {
+                alert('Please enter a search query');
+                return;
+            }
+            
+            if (!config) {
+                alert('Please select a research domain');
+                return;
+            }
+            
+            // Show results section
+            document.getElementById('results').style.display = 'block';
+            document.querySelector('.results-summary').innerHTML = `
+                <p>Searching for: <strong>${query}</strong> in domain: <strong>${config}</strong></p>
+                <p><em>Search functionality is being implemented...</em></p>
+            `;
+            
+            // Scroll to results
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        // Auto-focus search input
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('search-query').focus();
+        });
+    </script>
+</body>
+</html>

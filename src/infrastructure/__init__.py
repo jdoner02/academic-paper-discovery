@@ -1,7 +1,7 @@
 """
 Infrastructure Layer
 
-This directory contains the infrastructure implementations for our HRV research aggregation system.
+This directory contains the infrastructure implementations for our research aggregation system.
 
 Purpose:
 The infrastructure layer implements the ports (interfaces) defined in the application layer,

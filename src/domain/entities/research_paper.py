@@ -1,9 +1,9 @@
 """
-ResearchPaper domain entity.
+ResearchPaper domain entity with multi-source architecture support.
 
 This module contains the core ResearchPaper entity, which represents a scientific
-research paper in our domain. As an entity, it has identity and encapsulates
-the business rules related to research papers.
+research paper in our domain. Enhanced with multi-source capabilities to support
+comprehensive academic paper aggregation across ArXiv, PubMed, IEEE Xplore, etc.
 
 Educational Notes:
 - This is a domain entity (has identity and lifecycle)
@@ -11,39 +11,78 @@ Educational Notes:
 - Uses dataclass for clean, immutable-by-default implementation
 - Implements domain-specific behavior (HRV relevance detection)
 - Follows Single Responsibility Principle
+- Enhanced with multi-source architecture for paper aggregation
+
+Multi-Source Architecture Features:
+- Optional source_metadata field for source attribution and metadata
+- Optional paper_fingerprint field for duplicate detection across sources
+- Backward compatible design - existing code continues unchanged
+- Forward type references resolve circular import issues cleanly
 
 Design Decisions:
 - DOI or ArXiv ID serves as identity for equality comparison
+- Multi-source fields are optional to preserve backward compatibility
+- Entity equality based on core business identity, not source attribution
 - Immutable by default (frozen=True) to prevent invalid state changes
 - Rich validation in __post_init__ to enforce business rules
 - Domain-specific methods for HRV relevance detection
+
+TYPE_CHECKING Pattern:
+Uses forward type references with TYPE_CHECKING to avoid circular imports
+between entities and value objects while maintaining clean architecture.
+This is the recommended pattern for domain layer composition.
 """
 
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from typing import List, Optional
+from typing import List, Optional, TYPE_CHECKING
 import re
+
+# Use TYPE_CHECKING to avoid circular imports
+if TYPE_CHECKING:
+    from src.domain.value_objects.source_metadata import SourceMetadata
+    from src.domain.value_objects.paper_fingerprint import PaperFingerprint
 
 
 @dataclass(frozen=True)
 class ResearchPaper:
     """
-    Domain entity representing a scientific research paper.
+    Domain entity representing a scientific research paper with multi-source capabilities.
 
     This entity encapsulates the core business rules for research papers
-    in the HRV research domain. It validates data integrity and provides
-    domain-specific behavior.
+    in the HRV research domain, enhanced with multi-source architecture
+    to support comprehensive academic paper aggregation.
+
+    Multi-Source Architecture:
+    The entity now supports tracking papers from multiple academic sources
+    (ArXiv, PubMed, IEEE Xplore, etc.) with optional metadata preservation
+    and duplicate detection capabilities.
+
+    Key Features:
+    - Source metadata preservation (database of origin, quality metrics)
+    - Paper fingerprinting for duplicate detection across sources
+    - Backward compatible design (existing code unchanged)
+    - Clean Architecture compliance with forward type references
 
     Educational Note:
     - @dataclass(frozen=True) creates an immutable class
     - Immutability prevents invalid state changes and makes testing easier
     - The frozen parameter generates __eq__ and __hash__ methods automatically
+    - Optional multi-source fields enable feature enhancement without breaking changes
 
     Business Rules Enforced:
     1. Every paper must have a non-empty title
     2. Every paper must have at least one author
     3. Publication dates cannot be in the future
-    4. Either DOI or ArXiv ID is required for identity
+    4. Publication dates must be timezone-aware
+    5. Either DOI or ArXiv ID is required for identity
+    6. Multi-source fields are optional for backward compatibility
+    7. Paper equality based on core identity, not source attribution
+
+    TYPE_CHECKING Pattern Usage:
+    Uses forward type references ("SourceMetadata", "PaperFingerprint") to avoid
+    circular imports while enabling rich composition with value objects.
+    This demonstrates clean domain layer architecture.
     """
 
     # Required fields - these define the core identity and metadata
@@ -63,6 +102,29 @@ class ResearchPaper:
     # Educational Note: field(default_factory=list) creates a new list for each instance
     # This prevents the mutable default argument anti-pattern
     keywords: List[str] = field(default_factory=list)
+
+    # Multi-source architecture fields for enhanced paper tracking and aggregation
+    #
+    # Educational Note: Multi-Source Field Design
+    # These optional fields enable comprehensive academic paper aggregation:
+    #
+    # source_metadata: Preserves information about the source database/repository
+    #   - Tracks which academic source the paper came from (ArXiv, PubMed, etc.)
+    #   - Maintains source-specific metadata and quality assessments
+    #   - Enables source attribution and data provenance tracking
+    #
+    # paper_fingerprint: Enables duplicate detection across different sources
+    #   - Creates content-based identity hash from title and authors
+    #   - Allows detection of same paper from multiple sources
+    #   - Supports paper deduplication and consolidation workflows
+    #
+    # Design Principles Applied:
+    # 1. Optional fields ensure 100% backward compatibility
+    # 2. Forward type references avoid circular imports (Clean Architecture)
+    # 3. Value object composition provides rich domain modeling
+    # 4. Entity identity remains based on core business attributes
+    source_metadata: Optional["SourceMetadata"] = None
+    paper_fingerprint: Optional["PaperFingerprint"] = None
 
     def __post_init__(self) -> None:
         """

@@ -89,7 +89,19 @@ class ExecuteKeywordSearchUseCase:
             if config_path is None:
                 # Default to config directory relative to this file
                 current_dir = Path(__file__).parent.parent.parent.parent
-                config_path = current_dir / "config" / "heart_rate_variability.yaml"
+                config_dir = current_dir / "config"
+
+                # Find any available YAML configuration file
+                yaml_files = list(config_dir.glob("*.yaml"))
+                if not yaml_files:
+                    raise FileNotFoundError(
+                        f"No YAML configuration files found in {config_dir}. "
+                        "Please provide a config_path or ensure configuration files exist."
+                    )
+
+                # Use the first available configuration file
+                config_path = yaml_files[0]
+                print(f"Using default configuration: {config_path.name}")
 
             self.keyword_config = KeywordConfig.from_yaml_file(config_path)
 
@@ -98,6 +110,7 @@ class ExecuteKeywordSearchUseCase:
         strategy_name: Optional[str] = None,
         max_results: Optional[int] = None,
         download_papers: bool = False,
+        output_dir: Optional[Path] = None,
     ) -> List[ResearchPaper]:
         """
         Execute a search using a predefined strategy from configuration.
@@ -114,6 +127,7 @@ class ExecuteKeywordSearchUseCase:
             strategy_name: Name of strategy to use, or None for default
             max_results: Override for maximum results, or None to use strategy default
             download_papers: Whether to download PDFs of found papers
+            output_dir: Optional directory for PDF downloads (creates date-based if None)
 
         Returns:
             List of research papers matching the search strategy
@@ -135,13 +149,23 @@ class ExecuteKeywordSearchUseCase:
 
         # Download papers if requested
         if download_papers and filtered_results:
-            self._download_papers(filtered_results, strategy.name)
+            self._download_papers(filtered_results, strategy.name, output_dir)
 
         return filtered_results
 
-    def _download_papers(self, papers: List[ResearchPaper], strategy_name: str) -> None:
+    def _download_papers(
+        self,
+        papers: List[ResearchPaper],
+        strategy_name: str,
+        output_dir: Optional[Path] = None,
+    ) -> None:
         """
         Download papers using the domain service.
+
+        Args:
+            papers: List of papers to download
+            strategy_name: Name of the strategy (for fallback organization)
+            output_dir: Optional specific output directory
 
         Educational Note:
         - Demonstrates separation of concerns: use case coordinates, service executes
@@ -154,7 +178,7 @@ class ExecuteKeywordSearchUseCase:
         download_service = PaperDownloadService(base_output_dir)
 
         # Download papers with organized folder structure
-        download_service.download_papers(papers, strategy_name)
+        download_service.download_papers(papers, strategy_name, output_dir=output_dir)
 
     def execute_custom_search(
         self,

@@ -19,7 +19,7 @@ Testing Strategy:
 """
 
 import pytest
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import List
 
 # Import our domain entity
@@ -394,6 +394,303 @@ class TestResearchPaperEdgeCases:
         assert paper.abstract == ""
         # Should still be able to check HRV relevance (won't match due to empty abstract)
         assert paper.is_hrv_relevant() is False
+
+
+class TestResearchPaperMultiSourceFields:
+    """
+    Test class for ResearchPaper multi-source enhancements (TDD Cycle 5).
+
+    This class tests the addition of source_metadata and paper_fingerprint
+    fields to support comprehensive academic paper aggregation across
+    multiple sources like ArXiv, PubMed, IEEE Xplore, etc.
+
+    Educational Notes:
+    - Demonstrates Clean Architecture entity enhancement
+    - Shows value object composition in domain entities
+    - Tests backward compatibility preservation patterns
+    - Illustrates multi-source architecture foundations
+
+    TDD Cycle 5 Phase: RED → GREEN → REFACTOR
+    Current Phase: GREEN (implementing minimal functionality)
+    """
+
+    def test_create_paper_with_source_metadata(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test creating ResearchPaper with source_metadata field.
+
+        Business Rule: Papers should accept optional source_metadata to track
+        which academic database/source they originated from.
+
+        Educational Note:
+        - Shows how entities can work with value objects
+        - Demonstrates source attribution in multi-source systems
+        - Tests optional field integration patterns
+        """
+        # Arrange
+        from src.domain.value_objects.source_metadata import SourceMetadata
+
+        source_metadata = SourceMetadata(
+            source_name="ArXiv",
+            source_identifier="arxiv:2401.12345",
+            source_url="https://arxiv.org/abs/2401.12345",
+            has_full_text=True,
+            is_open_access=True,
+            peer_review_status="preprint",
+            quality_score=0.95,
+            source_specific_data={"category": "cs.AI"},
+        )
+
+        # Act
+        paper = ResearchPaper(
+            title="Source Metadata Test Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/source.test.2024",
+            source_metadata=source_metadata,
+        )
+
+        # Assert
+        assert paper.source_metadata is not None
+        assert paper.source_metadata.source_name == "ArXiv"
+        assert paper.source_metadata.quality_score == 0.95
+
+    def test_create_paper_with_paper_fingerprint(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test creating ResearchPaper with paper_fingerprint field.
+
+        Business Rule: Papers should accept optional paper_fingerprint to enable
+        duplicate detection across different academic sources.
+
+        Educational Note:
+        - Shows how entities can work with specialized value objects
+        - Demonstrates duplicate detection foundation
+        - Tests optional field integration patterns
+        """
+        # Arrange
+        from src.domain.value_objects.paper_fingerprint import PaperFingerprint
+
+        # Create a test paper first to generate fingerprint from
+        test_paper = ResearchPaper(
+            title="Fingerprint Test Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/fingerprint.test.2024",
+        )
+
+        paper_fingerprint = PaperFingerprint.from_paper(test_paper)
+
+        # Act - Create new paper with explicit fingerprint
+        paper = ResearchPaper(
+            title="Fingerprint Test Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/fingerprint.test.2024",
+            paper_fingerprint=paper_fingerprint,
+        )
+
+        # Assert
+        assert paper.paper_fingerprint is not None
+        assert paper.paper_fingerprint.primary_identifier is not None
+        assert paper.paper_fingerprint.title_hash is not None
+
+    def test_create_paper_with_both_multi_source_fields(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test creating ResearchPaper with both source_metadata and paper_fingerprint.
+
+        Business Rule: Papers should support full multi-source integration with
+        both source metadata preservation and duplicate detection capabilities.
+
+        Educational Note:
+        - Demonstrates complete multi-source architecture
+        - Shows value object composition in domain entities
+        - Tests complex field interaction scenarios
+        """
+        # Arrange
+        from src.domain.value_objects.source_metadata import SourceMetadata
+        from src.domain.value_objects.paper_fingerprint import PaperFingerprint
+
+        source_metadata = SourceMetadata(
+            source_name="PubMed",
+            source_identifier="pmid:12345678",
+            source_url="https://pubmed.ncbi.nlm.nih.gov/12345678",
+            has_full_text=False,
+            is_open_access=False,
+            peer_review_status="peer_reviewed",
+            quality_score=0.88,
+            source_specific_data={"pmid": "12345678", "pmc_id": "PMC987654"},
+            retrieved_at=sample_publication_date,
+        )
+
+        # Create fingerprint for the paper
+        test_paper = ResearchPaper(
+            title="Complete Multi-Source Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/complete.multi.2024",
+        )
+        paper_fingerprint = PaperFingerprint.from_paper(test_paper)
+
+        # Act
+        paper = ResearchPaper(
+            title="Complete Multi-Source Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/complete.multi.2024",
+            source_metadata=source_metadata,
+            paper_fingerprint=paper_fingerprint,
+        )
+
+        # Assert - Both fields should be properly set
+        assert paper.source_metadata is not None
+        assert paper.source_metadata.source_name == "PubMed"
+        assert paper.paper_fingerprint is not None
+        assert paper.paper_fingerprint.primary_identifier is not None
+
+    def test_multi_source_fields_are_optional_for_backward_compatibility(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test that multi-source fields are truly optional.
+
+        Business Rule: Existing ResearchPaper creation should continue working
+        unchanged to ensure backward compatibility.
+
+        Educational Note:
+        - Demonstrates backward compatibility preservation
+        - Shows optional field handling in domain entities
+        - Tests Clean Architecture enhancement patterns
+        """
+        # Act - Create paper without multi-source fields (existing behavior)
+        paper = ResearchPaper(
+            title="Traditional Paper Creation",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/traditional.2024",
+        )
+
+        # Assert - Multi-source fields should be None but paper should work
+        assert paper.source_metadata is None
+        assert paper.paper_fingerprint is None
+        assert paper.title == "Traditional Paper Creation"
+        assert paper.doi == "10.1000/traditional.2024"
+
+    def test_multi_source_paper_maintains_existing_business_rules(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test that papers with multi-source fields still enforce existing business rules.
+
+        Business Rule: Adding multi-source fields should not weaken existing
+        validation and business logic.
+
+        Educational Note:
+        - Shows how domain enhancements preserve existing invariants
+        - Demonstrates business rule preservation in evolutionary architecture
+        - Tests comprehensive validation in enhanced entities
+        """
+        # Arrange
+        from src.domain.value_objects.source_metadata import SourceMetadata
+
+        source_metadata = SourceMetadata(
+            source_name="ArXiv",
+            source_identifier="arxiv:test",
+            source_url="https://arxiv.org/abs/test",
+            has_full_text=True,
+            is_open_access=True,
+            peer_review_status="preprint",
+            quality_score=0.90,
+            source_specific_data={"categories": ["cs.AI"]},
+            retrieved_at=sample_publication_date,
+        )
+
+        # Act & Assert - Should still reject empty title
+        with pytest.raises(
+            ValueError, match="Research paper must have a non-empty title"
+        ):
+            ResearchPaper(
+                title="",  # Invalid - empty title
+                authors=sample_authors,
+                publication_date=sample_publication_date,
+                source_metadata=source_metadata,
+            )
+
+        # Act & Assert - Should still reject future publication date
+        with pytest.raises(
+            ValueError, match="Publication date cannot be in the future"
+        ):
+            future_date = datetime.now(timezone.utc) + timedelta(days=30)
+            ResearchPaper(
+                title="Future Paper",
+                authors=sample_authors,
+                publication_date=future_date,  # Invalid - future date
+                source_metadata=source_metadata,
+            )
+
+    def test_multi_source_paper_equality_based_on_identity_not_source_fields(
+        self, sample_authors, sample_publication_date
+    ):
+        """
+        Test that paper equality is still based on core identity, not source fields.
+
+        Business Rule: Paper equality should be determined by core business
+        attributes (title, authors, DOI) not source attribution.
+
+        Educational Note:
+        - Demonstrates entity identity preservation in enhancements
+        - Shows how equality semantics remain stable during evolution
+        - Tests that source metadata doesn't affect business identity
+        """
+        # Arrange - Create two papers with same core data but different source metadata
+        from src.domain.value_objects.source_metadata import SourceMetadata
+
+        arxiv_metadata = SourceMetadata(
+            source_name="ArXiv",
+            source_identifier="arxiv:2401.12345",
+            source_url="https://arxiv.org/abs/2401.12345",
+            has_full_text=True,
+            is_open_access=True,
+            peer_review_status="preprint",
+            quality_score=0.95,
+            source_specific_data={"category": "cs.AI"},
+        )
+
+        pubmed_metadata = SourceMetadata(
+            source_name="PubMed",
+            source_identifier="pmid:87654321",
+            source_url="https://pubmed.ncbi.nlm.nih.gov/87654321",
+            has_full_text=False,
+            is_open_access=False,
+            peer_review_status="peer_reviewed",
+            quality_score=0.88,
+            source_specific_data={"pmid": "87654321"},
+        )
+
+        # Act - Create two papers with same identity but different source metadata
+        paper1 = ResearchPaper(
+            title="Identity Test Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/identity.test.2024",
+            source_metadata=arxiv_metadata,
+        )
+
+        paper2 = ResearchPaper(
+            title="Identity Test Paper",
+            authors=sample_authors,
+            publication_date=sample_publication_date,
+            doi="10.1000/identity.test.2024",
+            source_metadata=pubmed_metadata,
+        )
+
+        # Assert - Papers should be considered equal despite different source metadata
+        assert paper1 == paper2
+        assert hash(paper1) == hash(paper2)
 
 
 # Educational Note:

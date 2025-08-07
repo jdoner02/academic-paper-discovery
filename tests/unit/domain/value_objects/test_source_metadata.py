@@ -452,7 +452,9 @@ class TestSourceMetadataQuality:
         complete_score = complete_metadata.assess_completeness()
         incomplete_score = incomplete_metadata.assess_completeness()
 
-        assert complete_score >= 0.6  # Adjusted to realistic expectation based on available fields
+        assert (
+            complete_score >= 0.6
+        )  # Adjusted to realistic expectation based on available fields
         assert incomplete_score < 0.2  # More realistic incomplete threshold
         assert complete_score > incomplete_score
 

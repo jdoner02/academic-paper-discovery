@@ -26,10 +26,12 @@ from .keyword_config import KeywordConfig
 from .search_query import SearchQuery
 from .paper_fingerprint import PaperFingerprint
 from .source_metadata import SourceMetadata
+from .embedding_vector import EmbeddingVector
 
 __all__ = [
     "KeywordConfig",
     "SearchQuery",
     "PaperFingerprint",
     "SourceMetadata",
+    "EmbeddingVector",
 ]

@@ -61,6 +61,7 @@ class PaperDownloadService:
         papers: List[ResearchPaper],
         strategy_name: str,
         progress_callback: Optional[Callable[[int, int, str], None]] = None,
+        output_dir: Optional[Path] = None,
     ) -> Dict[str, str]:
         """
         Download a collection of research papers with progress tracking.
@@ -69,12 +70,19 @@ class PaperDownloadService:
             papers: List of ResearchPaper entities to download
             strategy_name: Name of search strategy used (for organization)
             progress_callback: Optional callback for progress updates
+            output_dir: Optional specific output directory (otherwise creates date-based one)
 
         Returns:
             Dictionary mapping paper titles to download status/file paths
         """
-        # Create output directory structure
-        output_dir = self._create_output_directory(strategy_name)
+        # Use provided output directory or create date-based one
+        if output_dir is None:
+            output_dir = self._create_output_directory(strategy_name)
+        else:
+            # Ensure PDFs subdirectory exists in provided directory
+            pdfs_dir = output_dir / "pdfs"
+            pdfs_dir.mkdir(parents=True, exist_ok=True)
+            output_dir = pdfs_dir
 
         # Track download results
         results = {}

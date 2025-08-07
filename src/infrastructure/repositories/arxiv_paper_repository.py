@@ -274,11 +274,9 @@ class ArxivPaperRepository(PaperSourcePort):
             pdf_url = entry.id.replace("/abs/", "/pdf/") + ".pdf"
 
             # Create source metadata for multi-source tracking
-            # Note: ResearchPaper doesn't yet support source_metadata fields,
-            # but we demonstrate how it would work when added
             source_metadata = SourceMetadata.from_arxiv_response(entry)
 
-            # Create ResearchPaper entity (without multi-source fields for now)
+            # Create ResearchPaper entity with multi-source fields
             paper = ResearchPaper(
                 title=title,
                 authors=authors,
@@ -289,10 +287,30 @@ class ArxivPaperRepository(PaperSourcePort):
                 citation_count=0,  # ArXiv doesn't provide citation counts
                 keywords=keywords,
                 arxiv_id=arxiv_id,
-                url=pdf_url
+                url=pdf_url,
+                source_metadata=source_metadata,
             )
 
-            return paper
+            # Generate paper fingerprint for duplicate detection
+            paper_fingerprint = PaperFingerprint.from_paper(paper)
+
+            # Create enhanced paper with both multi-source fields
+            enhanced_paper = ResearchPaper(
+                title=title,
+                authors=authors,
+                abstract=abstract,
+                publication_date=published_date,
+                doi=doi,
+                venue="arXiv preprint",
+                citation_count=0,
+                keywords=keywords,
+                arxiv_id=arxiv_id,
+                url=pdf_url,
+                source_metadata=source_metadata,
+                paper_fingerprint=paper_fingerprint,
+            )
+
+            return enhanced_paper
 
         except Exception as e:
             print(f"Error converting arXiv entry to paper: {e}")
@@ -465,7 +483,7 @@ class ArxivPaperRepository(PaperSourcePort):
             # Extract ArXiv-specific enhancements from metadata
             enhanced_keywords = list(paper.keywords) if paper.keywords else []
             enhanced_url = paper.url
-            
+
             # Add ArXiv categories to keywords if available
             if "categories" in source_metadata:
                 categories = source_metadata["categories"]
@@ -473,11 +491,11 @@ class ArxivPaperRepository(PaperSourcePort):
                     enhanced_keywords.extend(categories.split())
                 elif isinstance(categories, list):
                     enhanced_keywords.extend(categories)
-            
+
             # Enhance URL with ArXiv PDF link if needed
             if "pdf_url" in source_metadata and not enhanced_url:
                 enhanced_url = source_metadata["pdf_url"]
-            
+
             # Create enhanced paper while preserving original identity
             enhanced_paper = ResearchPaper(
                 title=paper.title,
@@ -491,11 +509,11 @@ class ArxivPaperRepository(PaperSourcePort):
                 arxiv_id=paper.arxiv_id,
                 url=enhanced_url,
                 source_metadata=paper.source_metadata,
-                paper_fingerprint=paper.paper_fingerprint
+                paper_fingerprint=paper.paper_fingerprint,
             )
-            
+
             return enhanced_paper
-            
+
         except Exception as e:
             print(f"Warning: Could not enrich paper with ArXiv metadata: {e}")
             return paper  # Return original paper on error
@@ -507,7 +525,7 @@ class ArxivPaperRepository(PaperSourcePort):
         Returns the standard ArXiv abstract page URL, which is the canonical
         reference point for ArXiv papers. This URL provides access to:
         - Paper abstract and metadata
-        - PDF download links  
+        - PDF download links
         - Version history
         - Citation information
         - Related papers
@@ -531,9 +549,9 @@ class ArxivPaperRepository(PaperSourcePort):
         try:
             if not paper.arxiv_id:
                 return None
-                
+
             return f"https://arxiv.org/abs/{paper.arxiv_id}"
-            
+
         except Exception as e:
             print(f"Warning: Could not generate ArXiv URL for paper: {e}")
             return None

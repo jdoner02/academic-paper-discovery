@@ -756,7 +756,7 @@ class TestExecuteKeywordSearchUseCaseErrorHandling:
         mock_repository.find_by_query.return_value = []  # Empty results
 
         mock_config = Mock(spec=KeywordConfig)
-        # Create mock search configuration  
+        # Create mock search configuration
         mock_search_config = Mock()
         mock_search_config.citation_threshold = 0
         mock_search_config.exclude_terms = []

@@ -329,6 +329,88 @@ class AcademicResearchApp:
             ],
         }
 
+    def calculate_concept_statistics(self):
+        """
+        Calculate real-time statistics from concept storage.
+
+        GREEN PHASE: Implementation to provide template statistics.
+
+        Educational Notes:
+        - Real Data Integration: Accesses actual concept extraction results
+        - Performance Optimization: Efficient counting without loading full data
+        - Error Handling: Graceful fallback for missing or corrupted data
+
+        Returns:
+            dict: Statistics including total_concepts, total_papers, domains_count
+        """
+        try:
+            concept_storage_path = Path("concept_storage/concepts")
+
+            if not concept_storage_path.exists():
+                return {"total_concepts": 0, "total_papers": 0, "domains_count": 0}
+
+            total_concepts = 0
+            total_papers = 0
+            domains_count = 0
+
+            # Count concepts and papers across all domains
+            for domain_dir in concept_storage_path.iterdir():
+                if not domain_dir.is_dir():
+                    continue
+
+                domains_count += 1
+                domain_papers = 0
+
+                # Count papers (JSON files) in this domain
+                concept_files = list(domain_dir.glob("*.json"))
+                non_index_files = [
+                    f for f in concept_files if not f.name.startswith("_")
+                ]
+                domain_papers = len(non_index_files)
+                total_papers += domain_papers
+
+                # Sample a few files to estimate concept count per domain
+                files_to_sample = non_index_files[:3]  # Sample first 3 files
+                domain_concept_estimate = 0
+
+                for concept_file in files_to_sample:
+                    try:
+                        with open(concept_file, "r", encoding="utf-8") as f:
+                            file_data = json.load(f)
+
+                        if "concepts" in file_data and isinstance(
+                            file_data["concepts"], list
+                        ):
+                            # Count concepts in this file
+                            file_concepts = len(file_data["concepts"])
+                            domain_concept_estimate += file_concepts
+
+                    except (json.JSONDecodeError, KeyError, IOError):
+                        continue
+
+                # Estimate total concepts for this domain based on sampling
+                if files_to_sample and domain_papers > 0:
+                    avg_concepts_per_file = domain_concept_estimate / len(
+                        files_to_sample
+                    )
+                    domain_total_concepts = int(avg_concepts_per_file * domain_papers)
+                    total_concepts += domain_total_concepts
+
+            # Log statistics for debugging
+            self.app.logger.info(
+                f"Calculated statistics: {total_concepts} concepts across {total_papers} papers from {domains_count} domains"
+            )
+
+            return {
+                "total_concepts": total_concepts,
+                "total_papers": total_papers,
+                "domains_count": domains_count,
+            }
+
+        except Exception as e:
+            self.app.logger.error(f"Error calculating concept statistics: {e}")
+            return {"total_concepts": 0, "total_papers": 0, "domains_count": 0}
+
     def setup_routes(self):
         """
         Setup Flask routes with Clean Architecture integration.
@@ -344,10 +426,13 @@ class AcademicResearchApp:
             """
             Main interface route with enhanced UI/UX.
 
+            GREEN PHASE: Enhanced to provide real concept and paper statistics.
+
             Educational Notes:
             - Progressive Enhancement: Works without JavaScript, enhanced with it
             - User Journey: Designed for academic research workflows
             - Accessibility: Proper semantic markup and ARIA labels
+            - Real Data Integration: Displays actual statistics from concept storage
             """
             try:
                 # Get available keyword configurations
@@ -356,13 +441,19 @@ class AcademicResearchApp:
                 # Get recent search history
                 recent_searches = self.get_recent_search_history()
 
-                # Render enhanced template with academic UI
+                # GREEN PHASE: Calculate real statistics from concept storage
+                statistics = self.calculate_concept_statistics()
+
+                # Render enhanced template with academic UI and real statistics
                 return render_template(
                     "index_enhanced.html",
                     available_configs=available_configs,
                     recent_searches=recent_searches,
                     ui_config=self.ui_config,
                     current_year=datetime.now().year,
+                    total_concepts=statistics["total_concepts"],
+                    total_papers=statistics["total_papers"],
+                    domains_count=statistics["domains_count"],
                 )
 
             except Exception as e:
@@ -639,7 +730,9 @@ class AcademicResearchApp:
 
                         # Limit files per domain for performance and multi-domain testing
                         concept_files = list(domain_dir.glob("*.json"))
-                        non_index_files = [f for f in concept_files if not f.name.startswith("_")]
+                        non_index_files = [
+                            f for f in concept_files if not f.name.startswith("_")
+                        ]
                         files_to_process = non_index_files[:2]  # Max 2 files per domain
 
                         for concept_file in files_to_process:
@@ -653,8 +746,10 @@ class AcademicResearchApp:
                                     file_data["concepts"], list
                                 ):
                                     # Limit concepts per file to ensure multiple domains are represented
-                                    concepts_from_file = file_data["concepts"][:5]  # Max 5 concepts per file
-                                    
+                                    concepts_from_file = file_data["concepts"][
+                                        :5
+                                    ]  # Max 5 concepts per file
+
                                     for concept_data in concepts_from_file:
                                         # Add paper info to concept
                                         enhanced_concept = concept_data.copy()
@@ -689,11 +784,15 @@ class AcademicResearchApp:
                 self.app.logger.info(
                     f"Processed {domains_processed} domains, {files_processed} files, loaded {len(real_concepts)} concepts"
                 )
-                
+
                 # Debug: Log domains being processed for testing
                 if real_concepts:
-                    domains_in_response = set(c.get('source_domain', 'unknown') for c in real_concepts)
-                    self.app.logger.info(f"Domains in response: {sorted(domains_in_response)}")
+                    domains_in_response = set(
+                        c.get("source_domain", "unknown") for c in real_concepts
+                    )
+                    self.app.logger.info(
+                        f"Domains in response: {sorted(domains_in_response)}"
+                    )
 
                 # If no real concepts found, fall back to mock data temporarily
                 if not real_concepts:
@@ -1039,6 +1138,57 @@ class AcademicResearchApp:
             return send_from_directory("gui/static", filename)
 
         # Additional Integration API Routes for Clean Architecture Integration
+
+        @self.app.route("/api/domains", methods=["GET"])
+        def get_available_domains():
+            """
+            Get list of available research domains.
+
+            GREEN PHASE: Implementation to make TDD workflow tests pass.
+
+            Educational Notes:
+            - TDD Implementation: Provides domain list for concept exploration workflow
+            - Real Data Integration: Returns actual domains from concept storage
+            - Workflow Support: Enables domain selection in frontend
+            """
+            try:
+                concept_storage_path = Path("concept_storage/concepts")
+
+                if not concept_storage_path.exists():
+                    return jsonify(
+                        {
+                            "domains": [],
+                            "total": 0,
+                            "message": "No concept storage found",
+                        }
+                    )
+
+                # Get available domains from directory structure
+                available_domains = []
+                for domain_dir in sorted(concept_storage_path.iterdir()):
+                    if domain_dir.is_dir():
+                        available_domains.append(domain_dir.name)
+
+                return jsonify(
+                    {
+                        "domains": available_domains,
+                        "total": len(available_domains),
+                        "message": f"Found {len(available_domains)} available domains",
+                    }
+                )
+
+            except Exception as e:
+                self.app.logger.error(f"Error fetching available domains: {e}")
+                return (
+                    jsonify(
+                        {
+                            "domains": [],
+                            "total": 0,
+                            "error": "Failed to load available domains",
+                        }
+                    ),
+                    500,
+                )
 
         @self.app.route("/api/domains/<domain>/hierarchy", methods=["GET"])
         def get_domain_hierarchy(domain):

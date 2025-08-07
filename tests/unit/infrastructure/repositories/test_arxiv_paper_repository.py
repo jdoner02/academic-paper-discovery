@@ -660,3 +660,269 @@ class TestArxivPaperRepositoryQueryFiltering:
         query = SearchQuery(terms=["test"])  # No date constraints
 
         assert repo._matches_query_filters(paper, query) is True
+
+
+class TestArxivRepositoryMultiSourceIntegration:
+    """
+    Test suite for ArXiv repository multi-source integration (TDD Cycle 6A).
+
+    This test class validates that the ArXiv repository correctly populates
+    the multi-source fields (source_metadata, paper_fingerprint) that were
+    added to ResearchPaper in TDD Cycle 5.
+
+    Educational Notes:
+    - Demonstrates integration testing across architectural layers
+    - Shows how to test Clean Architecture cross-layer workflows
+    - Validates that infrastructure properly creates domain objects
+    - Tests the complete ArXiv API → SourceMetadata → ResearchPaper pipeline
+
+    TDD Cycle 6A Phase: RED → GREEN → REFACTOR
+    Current Phase: RED (these tests should initially FAIL)
+    """
+
+    def test_arxiv_papers_have_source_metadata_populated(self):
+        """
+        Test that papers created by ArXiv repository have source_metadata populated.
+
+        Business Rule: All papers from ArXiv repository should include source
+        attribution metadata for provenance tracking and quality assessment.
+
+        Educational Note:
+        - Tests integration between infrastructure and domain layers
+        - Validates multi-source architecture in practice
+        - Ensures source attribution for academic integrity
+
+        This test should initially FAIL because the current ArXiv repository
+        doesn't populate the source_metadata field in ResearchPaper entities.
+        """
+        # Arrange
+        repo = ArxivPaperRepository()
+
+        # Mock ArXiv API entry with realistic data
+        mock_entry = Mock()
+        mock_entry.title = "Heart Rate Variability in Clinical Settings"
+        mock_entry.summary = (
+            "This paper analyzes HRV patterns in clinical environments."
+        )
+        # Create proper Mock objects with name attributes
+        author1 = Mock()
+        author1.name = "Dr. Jane Smith"
+        author2 = Mock()
+        author2.name = "Prof. John Doe"
+        mock_entry.authors = [author1, author2]
+        mock_entry.published_parsed = (2024, 8, 1, 10, 30, 0, 0, 0, 0)
+        mock_entry.id = "http://arxiv.org/abs/2408.12345v1"
+        mock_entry.categories = "cs.AI stat.ML"
+        mock_entry.get.return_value = "10.1000/arxiv.2408.12345"
+
+        # Act
+        paper = repo._convert_arxiv_entry_to_paper(mock_entry)
+
+        # Assert - Paper should have source_metadata populated
+        assert paper is not None
+        assert (
+            paper.source_metadata is not None
+        ), "ArXiv papers should have source_metadata populated"
+        assert paper.source_metadata.source_name == "ArXiv"
+        assert paper.source_metadata.source_identifier.startswith("arxiv:")
+        assert (
+            paper.source_metadata.has_full_text is True
+        )  # ArXiv papers have full text
+        assert paper.source_metadata.is_open_access is True  # ArXiv is open access
+        assert paper.source_metadata.peer_review_status == "preprint"
+        assert (
+            paper.source_metadata.quality_score > 0.0
+        )  # Should have quality assessment
+
+    def test_arxiv_papers_have_paper_fingerprint_for_duplicate_detection(self):
+        """
+        Test that papers created by ArXiv repository have paper_fingerprint for duplicate detection.
+
+        Business Rule: All papers should have fingerprints to enable duplicate
+        detection across different sources and prevent redundant downloads.
+
+        Educational Note:
+        - Demonstrates multi-source duplicate detection foundation
+        - Shows value object usage in infrastructure layer
+        - Tests cross-source identity management
+
+        This test should initially FAIL because the current ArXiv repository
+        doesn't create paper_fingerprint for ResearchPaper entities.
+        """
+        # Arrange
+        repo = ArxivPaperRepository()
+
+        # Mock ArXiv API entry
+        mock_entry = Mock()
+        mock_entry.title = "Machine Learning for Healthcare Applications"
+        mock_entry.summary = "Comprehensive review of ML applications in healthcare."
+        # Create proper Mock object with name attribute
+        author1 = Mock()
+        author1.name = "Dr. Alice Johnson"
+        mock_entry.authors = [author1]
+        mock_entry.published_parsed = (2024, 7, 15, 14, 20, 0, 0, 0, 0)
+        mock_entry.id = "http://arxiv.org/abs/2407.98765v2"
+        mock_entry.categories = "cs.LG cs.AI"
+        mock_entry.get.return_value = ""
+
+        # Act
+        paper = repo._convert_arxiv_entry_to_paper(mock_entry)
+
+        # Assert - Paper should have paper_fingerprint for duplicate detection
+        assert paper is not None
+        assert (
+            paper.paper_fingerprint is not None
+        ), "ArXiv papers should have paper_fingerprint for duplicate detection"
+        assert paper.paper_fingerprint.primary_identifier is not None
+        assert paper.paper_fingerprint.title_hash is not None
+        assert paper.paper_fingerprint.author_hash is not None
+
+    def test_arxiv_source_metadata_preserves_arxiv_specific_data(self):
+        """
+        Test that ArXiv-specific metadata is preserved in source_metadata.
+
+        Business Rule: Source-specific information (categories, version info,
+        submission dates) should be preserved for research provenance.
+
+        Educational Note:
+        - Tests source-specific data preservation patterns
+        - Shows how to maintain API-specific information in domain objects
+        - Demonstrates metadata enrichment from external sources
+        """
+        # Arrange
+        repo = ArxivPaperRepository()
+
+        # Mock ArXiv entry with rich metadata
+        mock_entry = Mock()
+        mock_entry.title = "Quantum Computing Algorithms"
+        mock_entry.summary = "Novel quantum algorithms for optimization problems."
+        # Create proper Mock objects with name attributes
+        author1 = Mock()
+        author1.name = "Prof. Bob Wilson"
+        author2 = Mock()
+        author2.name = "Dr. Carol Davis"
+        mock_entry.authors = [author1, author2]
+        mock_entry.published_parsed = (2024, 6, 10, 9, 15, 0, 0, 0, 0)
+        mock_entry.id = "http://arxiv.org/abs/2406.54321v3"
+        mock_entry.categories = "quant-ph cs.DS math.OC"
+
+        # Create proper get method that returns appropriate values for different keys
+        def mock_get(key, default=None):
+            if key == "id":
+                return "http://arxiv.org/abs/2406.54321v3"
+            elif key == "arxiv_doi":
+                return "10.1000/quantum.example"
+            elif key == "comment":
+                return "Quantum optimization algorithms with practical applications"
+            elif key == "journal_ref":
+                return "Nature Quantum 2024"
+            elif key == "primary_category":
+                return "quant-ph"
+            elif key == "links":
+                return [
+                    "http://arxiv.org/abs/2406.54321v3",
+                    "http://arxiv.org/pdf/2406.54321v3.pdf",
+                ]
+            elif key == "categories":
+                return "quant-ph cs.DS math.OC"
+            else:
+                return default
+
+        mock_entry.get = mock_get
+
+        # Act
+        paper = repo._convert_arxiv_entry_to_paper(mock_entry)
+
+        # Assert - Source metadata should preserve ArXiv-specific information
+        assert paper is not None
+        assert paper.source_metadata is not None
+
+        # Check ArXiv-specific data preservation
+        source_data = paper.source_metadata.source_specific_data
+        assert "categories" in source_data, "ArXiv categories should be preserved"
+        assert "quant-ph" in source_data["categories"] or "quant-ph" in str(source_data)
+
+        # Verify source URL points to ArXiv
+        assert "arxiv.org" in paper.source_metadata.source_url
+
+        # Check source identifier format
+        assert paper.source_metadata.source_identifier.startswith("arxiv:")
+        assert "2406.54321" in paper.source_metadata.source_identifier
+
+    def test_complete_multi_source_workflow_end_to_end(self):
+        """
+        Test complete multi-source workflow from ArXiv API to enhanced ResearchPaper.
+
+        Business Rule: The complete workflow should demonstrate multi-source
+        architecture capabilities including source attribution, quality assessment,
+        and duplicate detection preparation.
+
+        Educational Note:
+        - Demonstrates complete Clean Architecture workflow
+        - Shows end-to-end multi-source paper aggregation
+        - Validates architectural integration across all layers
+        - Tests practical utility of multi-source enhancements
+        """
+        # Arrange
+        repo = ArxivPaperRepository()
+
+        # Mock comprehensive ArXiv entry
+        mock_entry = Mock()
+        mock_entry.title = "Advanced Deep Learning Techniques"
+        mock_entry.summary = "Comprehensive survey of state-of-the-art deep learning methods and applications."
+        # Create proper Mock objects with name attributes
+        author1 = Mock()
+        author1.name = "Prof. Emma Zhang"
+        author2 = Mock()
+        author2.name = "Dr. Michael Brown"
+        author3 = Mock()
+        author3.name = "Dr. Sarah Kim"
+        mock_entry.authors = [author1, author2, author3]
+        mock_entry.published_parsed = (2024, 5, 20, 16, 45, 0, 0, 0, 0)
+        mock_entry.id = "http://arxiv.org/abs/2405.11111v1"
+        mock_entry.categories = "cs.LG cs.AI cs.CV"
+        mock_entry.get.return_value = "10.1000/deeplearning.survey.2024"
+
+        # Act - Convert ArXiv entry to enhanced ResearchPaper
+        paper = repo._convert_arxiv_entry_to_paper(mock_entry)
+
+        # Assert - Validate complete multi-source integration
+        assert (
+            paper is not None
+        ), "ArXiv entry should convert to ResearchPaper successfully"
+
+        # Verify core ResearchPaper fields
+        assert paper.title == "Advanced Deep Learning Techniques"
+        assert len(paper.authors) == 3
+        assert "Prof. Emma Zhang" in paper.authors
+        assert paper.abstract.startswith("Comprehensive survey")
+
+        # Verify multi-source fields are populated
+        assert paper.source_metadata is not None, "Source metadata should be populated"
+        assert (
+            paper.paper_fingerprint is not None
+        ), "Paper fingerprint should be created"
+
+        # Verify source metadata quality
+        metadata = paper.source_metadata
+        assert metadata.source_name == "ArXiv"
+        assert metadata.has_full_text is True
+        assert metadata.is_open_access is True
+        assert metadata.peer_review_status == "preprint"
+        assert metadata.quality_score >= 0.8  # ArXiv generally high quality
+
+        # Verify paper fingerprint for duplicate detection
+        fingerprint = paper.paper_fingerprint
+        assert fingerprint.title_hash is not None
+        assert fingerprint.author_hash is not None
+        assert len(fingerprint.primary_identifier) > 0
+
+        # Verify ArXiv-specific data preservation
+        source_data = metadata.source_specific_data
+        assert "categories" in source_data or any(
+            "cs.LG" in str(v) for v in source_data.values()
+        )
+
+        # Verify educational completeness - this demonstrates the full
+        # multi-source architecture working end-to-end from external API
+        # to enhanced domain entities ready for multi-source aggregation

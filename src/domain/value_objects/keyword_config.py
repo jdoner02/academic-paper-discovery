@@ -43,15 +43,21 @@ class SearchStrategy:
     - Uses descriptive field names matching config files
     - Provides sensible defaults for optional fields
     - Validates data integrity in __post_init__
+    - Enhanced to support technical_terms, application_domains, and exclude_terms
     """
 
     name: str
     description: str
     primary_keywords: List[str]
     secondary_keywords: List[str] = field(default_factory=list)
+    technical_terms: List[str] = field(default_factory=list)
+    application_domains: List[str] = field(default_factory=list)
+    exclude_terms: List[str] = field(default_factory=list)
     search_limit: int = 50
     date_range: dict = field(default_factory=dict)
-    exclusion_keywords: List[str] = field(default_factory=list)
+    exclusion_keywords: List[str] = field(
+        default_factory=list
+    )  # Legacy field for backward compatibility
 
     def __post_init__(self):
         """
@@ -76,15 +82,17 @@ class SearchStrategy:
         Get all search terms for this strategy.
 
         Educational Note:
-        - Combines primary and secondary keywords
+        - Combines primary keywords, secondary keywords, and technical terms
         - Uses set() for deduplication
         - Returns list for consistent API
+        - Enhanced to include technical_terms for comprehensive searches
 
         Returns:
-            Combined list of all terms from primary and secondary keywords
+            Combined list of all terms from primary keywords, secondary keywords, and technical terms
         """
         all_terms = self.primary_keywords.copy()
         all_terms.extend(self.secondary_keywords)
+        all_terms.extend(self.technical_terms)
         return list(set(all_terms))  # Remove duplicates
 
     def build_search_query(self) -> str:
@@ -215,9 +223,14 @@ class KeywordConfig:
                 description=strategy_config.get("description", ""),
                 primary_keywords=strategy_config.get("primary_keywords", []),
                 secondary_keywords=strategy_config.get("secondary_keywords", []),
+                technical_terms=strategy_config.get("technical_terms", []),
+                application_domains=strategy_config.get("application_domains", []),
+                exclude_terms=strategy_config.get("exclude_terms", []),
                 search_limit=strategy_config.get("search_limit", 50),
                 date_range=strategy_config.get("date_range", {}),
-                exclusion_keywords=strategy_config.get("exclusion_keywords", []),
+                exclusion_keywords=strategy_config.get(
+                    "exclusion_keywords", []
+                ),  # Legacy support
             )
 
         # Parse search configuration
@@ -270,9 +283,10 @@ class KeywordConfig:
         - Consolidates keywords from multiple strategies
         - Uses set() to eliminate duplicates efficiently
         - Returns list for consistent API
+        - Enhanced to include technical_terms for comprehensive coverage
 
         Returns:
-            Combined list of all search terms from all strategies
+            Combined list of all search terms from all strategies including technical terms
         """
         all_terms = []
 
@@ -280,6 +294,7 @@ class KeywordConfig:
         for strategy in self.search_strategies.values():
             all_terms.extend(strategy.primary_keywords)
             all_terms.extend(strategy.secondary_keywords)
+            all_terms.extend(strategy.technical_terms)
 
         return list(set(all_terms))  # Remove duplicates
 

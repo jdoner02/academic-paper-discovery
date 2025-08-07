@@ -121,8 +121,12 @@ class SourceMetadata:
         """
         # Extract and normalize ArXiv ID (remove version for identifier)
         arxiv_id = arxiv_data.get("id", "")
-        # Remove version suffix for consistent identification
-        normalized_id = arxiv_id.split("v")[0] if "v" in arxiv_id else arxiv_id
+
+        # Remove version suffix for consistent identification (split on LAST 'v')
+        # Use rsplit to split on the rightmost 'v' to handle ArXiv IDs properly
+        # since 'arxiv' contains 'v' but we want to split on the version 'v'
+        normalized_id = arxiv_id.rsplit("v", 1)[0] if "v" in arxiv_id else arxiv_id
+
         if normalized_id.startswith("http://arxiv.org/abs/"):
             normalized_id = normalized_id.replace("http://arxiv.org/abs/", "")
 
@@ -241,6 +245,102 @@ class SourceMetadata:
             retrieved_at=datetime.now(timezone.utc),
             access_restrictions=access_restrictions if access_restrictions else None,
         )
+
+    @classmethod
+    def from_pmc_response(
+        cls,
+        original_data: Dict[str, Any],
+        source_identifier: str,
+        source_url: str,
+        harvest_timestamp: datetime,
+    ) -> "SourceMetadata":
+        """
+        Factory method to create SourceMetadata from PubMed Central OAI-PMH response.
+
+        Educational Note:
+        PMC (PubMed Central) is the open access repository for biomedical literature.
+        This factory handles OAI-PMH Dublin Core metadata format and preserves
+        biomedical-specific fields for comprehensive attribution.
+
+        PMC-specific features handled:
+        - PMC ID as primary identifier with proper formatting
+        - Full-text availability (PMC articles have full XML/PDF access)
+        - Open access status (all PMC content is open access)
+        - Medical subject classification from Dublin Core subjects
+        - Publisher and journal information preservation
+
+        Args:
+            original_data: Raw OAI-PMH Dublin Core metadata from PMC
+            source_identifier: PMC ID (e.g., "PMC123456")
+            source_url: Direct URL to PMC article
+            harvest_timestamp: When the data was harvested
+
+        Returns:
+            SourceMetadata with PMC-specific attribution and capabilities
+        """
+        # PMC provides full-text access to all content
+        has_full_text = True
+        is_open_access = True
+
+        # PMC content is peer-reviewed (unlike ArXiv preprints)
+        peer_review_status = "peer_reviewed"
+
+        # Extract PMC-specific metadata from Dublin Core format
+        source_specific_data = {
+            "pmc_id": source_identifier,
+            "oai_identifier": original_data.get("identifier", [""])[0],
+            "subject": original_data.get("subject", []),  # For test compatibility
+            "dublin_core_subjects": original_data.get("subject", []),
+            "publication_types": original_data.get("type", []),
+            "type": original_data.get("type", []),  # For test compatibility
+            "publisher": (
+                original_data.get("publisher", [""])[0]
+                if original_data.get("publisher")
+                else ""
+            ),  # String format for PMC repository
+            "rights": original_data.get("rights", []),
+            "format": original_data.get("format", []),
+            "relation": original_data.get("relation", []),
+            "coverage": original_data.get("coverage", []),
+            "language": (
+                original_data.get("language", ["en"])[0]
+                if original_data.get("language")
+                else "en"
+            ),
+            "doi": cls._extract_doi_from_relations(
+                original_data.get("relation", [])
+            ),  # For test compatibility
+            "has_pdf_access": True,  # PMC provides PDF access
+            "has_xml_access": True,  # PMC provides full-text XML
+        }
+
+        # Calculate quality score for PMC (generally high due to peer review and full access)
+        quality_score = cls._calculate_pmc_quality_score(
+            original_data, source_specific_data
+        )
+
+        return cls(
+            source_name="PubMed Central",
+            source_identifier=f"pmc:{source_identifier}",
+            source_url=source_url,
+            has_full_text=has_full_text,
+            is_open_access=is_open_access,
+            peer_review_status=peer_review_status,
+            quality_score=quality_score,
+            source_specific_data=source_specific_data,
+            retrieved_at=harvest_timestamp,
+            access_restrictions=None,  # PMC has no access restrictions
+        )
+
+    @staticmethod
+    def _extract_doi_from_relations(relations: List[str]) -> str:
+        """Extract DOI from relation fields."""
+        for relation in relations or []:
+            if relation.startswith("doi:"):
+                return relation[4:]  # Remove 'doi:' prefix
+            if "doi.org" in relation:
+                return relation.split("/")[-1]
+        return ""
 
     @classmethod
     def from_google_scholar_response(
@@ -410,6 +510,8 @@ class SourceMetadata:
             return self._calculate_arxiv_quality_score({}, self.source_specific_data)
         elif self.source_name == "PubMed":
             return self._calculate_pubmed_quality_score({}, self.source_specific_data)
+        elif self.source_name == "PubMed Central":
+            return self._calculate_pmc_quality_score({}, self.source_specific_data)
         elif self.source_name == "Google Scholar":
             return self._calculate_scholar_quality_score({}, self.source_specific_data)
         else:
@@ -503,6 +605,63 @@ class SourceMetadata:
         # Bonus for author affiliations (institutional context)
         if specific_data.get("author_affiliations"):
             score += 0.05
+
+        return min(1.0, score)
+
+    @staticmethod
+    def _calculate_pmc_quality_score(
+        original_data: Dict[str, Any], specific_data: Dict[str, Any]
+    ) -> float:
+        """
+        Calculate quality score specific to PubMed Central papers.
+
+        Educational Note:
+        PMC papers generally have high quality due to:
+        - Peer review requirement for inclusion
+        - Full-text availability and accessibility
+        - Comprehensive metadata and indexing
+        - Medical/biomedical focus with rigorous standards
+
+        Quality factors considered:
+        - Publisher reputation (journal-based scoring)
+        - Subject classification richness
+        - Full-text format availability
+        - Rights and licensing clarity
+        """
+        score = 0.85  # High base score for PMC peer-reviewed content
+
+        # Bonus for multiple subject classifications (comprehensive indexing)
+        subjects = specific_data.get("dublin_core_subjects", [])
+        if len(subjects) >= 3:
+            score += 0.05
+        elif len(subjects) >= 1:
+            score += 0.02
+
+        # Bonus for reputable publisher information
+        publisher = specific_data.get("publisher", "").lower()
+        reputable_publishers = [
+            "plos",
+            "nature",
+            "science",
+            "cell",
+            "lancet",
+            "bmj",
+            "nejm",
+            "american medical association",
+            "elsevier",
+            "springer",
+            "wiley",
+        ]
+        if any(pub in publisher for pub in reputable_publishers):
+            score += 0.05
+
+        # Bonus for multiple format availability (PDF + XML)
+        if specific_data.get("has_pdf_access") and specific_data.get("has_xml_access"):
+            score += 0.03
+
+        # Bonus for clear rights and licensing (open access clarity)
+        if specific_data.get("rights"):
+            score += 0.02
 
         return min(1.0, score)
 

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Error - Research Paper Aggregator">
+    <title>Error - Research Paper Aggregator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .error-container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .error-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            color: #e74c3c;
+        }
+        
+        .error-title {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            color: #7f8c8d;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .error-suggestions {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        
+        .error-suggestions h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .error-suggestions ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .error-suggestions li {
+            margin-bottom: 0.5rem;
+            color: #5a6c7d;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn-secondary {
+            background-color: #95a5a6;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+        
+        .error-code {
+            font-family: 'Courier New', monospace;
+            background: #ecf0f1;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .error-container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Accessibility Skip Links -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header Section -->
+    <header class="main-header" role="banner">
+        <div class="container">
+            <h1 class="site-title">
+                <a href="/">Research Paper Aggregator</a>
+            </h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="error-container">
+            <!-- Error Icon -->
+            <div class="error-icon" aria-hidden="true">⚠️</div>
+            
+            <!-- Error Header -->
+            <h1 class="error-title">
+                {{ error_type or "An Error Occurred" }}
+                {% if error_code %}
+                <span class="error-code">{{ error_code }}</span>
+                {% endif %}
+            </h1>
+            
+            <!-- Error Message -->
+            <p class="error-message">
+                {{ error_message or "We encountered an unexpected problem while processing your request." }}
+            </p>
+            
+            <!-- Suggestions Section -->
+            {% if suggestions %}
+            <div class="error-suggestions">
+                <h3>What you can try:</h3>
+                <ul>
+                    {% for suggestion in suggestions %}
+                    <li>{{ suggestion }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% else %}
+            <div class="error-suggestions">
+                <h3>What you can try:</h3>
+                <ul>
+                    <li>Refresh the page and try again</li>
+                    <li>Go back to the previous page</li>
+                    <li>Return to the main research interface</li>
+                    <li>Check your internet connection</li>
+                </ul>
+            </div>
+            {% endif %}
+            
+            <!-- Action Buttons -->
+            <div class="error-actions">
+                <a href="/" class="btn btn-primary">
+                    Return to Home
+                </a>
+                <button onclick="window.history.back()" class="btn btn-secondary">
+                    Go Back
+                </button>
+                {% if error_code == 404 %}
+                <a href="/search" class="btn btn-secondary">
+                    Try Search
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        
+        <!-- Technical Details (for development) -->
+        {% if config.DEBUG and error_details %}
+        <details class="error-details" style="max-width: 800px; margin: 2rem auto; padding: 1rem; background: #f8f9fa; border-radius: 6px;">
+            <summary>Technical Details (Debug Mode)</summary>
+            <pre style="margin-top: 1rem; white-space: pre-wrap; font-size: 0.9rem;">{{ error_details }}</pre>
+        </details>
+        {% endif %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; {{ current_year or 2025 }} Research Paper Aggregator. Academic Research Tool.</p>
+        </div>
+    </footer>
+
+    <!-- Status Messages -->
+    <div id="status-messages" class="status-messages" aria-live="assertive"></div>
+    
+    <script>
+        // Simple enhancement for error page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Auto-focus on primary action for keyboard navigation
+            const primaryBtn = document.querySelector('.btn-primary');
+            if (primaryBtn) {
+                setTimeout(() => primaryBtn.focus(), 100);
+            }
+            
+            // Add keyboard shortcut for going back
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    window.history.back();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
