@@ -198,6 +198,174 @@ class TestAPIConceptsRealDataIntegration:
         RED PHASE: Test that /api/concepts serves real concept data, not mocks.
 
         Educational Note:
+        This test will initially pass with mock data, but should validate
+        real concept data from our concept_storage directory structure.
+        """
+        response = client.get("/api/concepts")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+
+        assert "concepts" in data
+        assert "success" in data
+        assert data["success"] is True
+
+        # Validate this is real data, not mock data
+        if data["concepts"]:
+            concept = data["concepts"][0]
+
+            # Real concepts should have extraction metadata that mock data doesn't have
+            real_data_indicators = [
+                "extraction_method",  # tfidf, textrank, etc.
+                "created_at",  # ISO timestamp
+                "source_domain",  # industrial_iot_security, etc.
+                "relevance_score",  # float between 0-1
+            ]
+
+            # All indicators should be present for real data
+            for indicator in real_data_indicators:
+                assert indicator in concept, f"Missing real data field: {indicator}"
+
+            # Validate data types for real concept fields
+            assert isinstance(concept["frequency"], int), "frequency should be integer"
+            assert isinstance(
+                concept["relevance_score"], float
+            ), "relevance_score should be float"
+            assert isinstance(
+                concept["source_papers"], list
+            ), "source_papers should be list"
+            assert concept["extraction_method"] in [
+                "tfidf",
+                "textrank",
+                "yake",
+            ], "Should have valid extraction method"
+
+    def test_api_concepts_aggregates_from_multiple_domains(self, client):
+        """
+        RED PHASE: Test that /api/concepts aggregates concepts from all domains.
+
+        Educational Note:
+        Real implementation should aggregate concepts from all extracted domains,
+        not just serve a fixed mock list of 20 items.
+        """
+        response = client.get("/api/concepts")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+
+        concepts = data["concepts"]
+
+        if concepts:
+            # Check if we have diversity in source domains
+            domains = set()
+            for concept in concepts:
+                if "source_domain" in concept:
+                    domains.add(concept["source_domain"])
+
+            # Should have concepts from multiple domains (we have 30+ domains)
+            assert (
+                len(domains) > 5
+            ), f"Should aggregate from multiple domains, got {len(domains)}"
+
+            # Should have realistic number of concepts (not just 20 mock items)
+            assert (
+                len(concepts) > 50
+            ), f"Should have substantial concepts, got {len(concepts)}"
+
+    def test_api_concepts_search_filters_real_data(self, client):
+        """
+        RED PHASE: Test that search filtering works with real concept text.
+
+        Educational Note:
+        Test search functionality against actual extracted concept terms,
+        not artificial mock data patterns.
+        """
+        # Search for a term that should exist in our cybersecurity domains
+        response = client.get("/api/concepts?search=security")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+
+        # Should find security-related concepts from real data
+        concepts = data["concepts"]
+        assert len(concepts) > 0, "Should find security-related concepts"
+
+        # Verify search actually filtered (returned concepts should contain search term)
+        for concept in concepts[:5]:  # Check first 5 concepts
+            concept_text = concept.get("text", "").lower()
+            assert (
+                "security" in concept_text
+            ), f"Concept '{concept_text}' should contain search term"
+
+    def test_api_concepts_category_filters_by_domain(self, client):
+        """
+        RED PHASE: Test that category filtering works with real domain structure.
+
+        Educational Note:
+        Category filtering should map to our actual source_domain structure,
+        not artificial "Machine Learning" vs "NLP" categories.
+        """
+        # Filter by a real domain category from our concept storage
+        response = client.get("/api/concepts?category=industrial_iot_security")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+
+        concepts = data["concepts"]
+        if concepts:
+            # All returned concepts should be from the specified domain
+            for concept in concepts:
+                assert (
+                    concept.get("source_domain") == "industrial_iot_security"
+                ), f"Concept should be from industrial_iot_security domain"
+
+    def test_api_concepts_realistic_data_volume(self, client):
+        """
+        RED PHASE: Test that endpoint handles realistic concept volumes.
+
+        Educational Note:
+        Real concept extraction produces hundreds or thousands of concepts,
+        not just 20 mock items. Test with realistic data scale.
+        """
+        response = client.get("/api/concepts")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+
+        concepts = data["concepts"]
+
+        # Should have substantial concept data from real extraction
+        assert (
+            len(concepts) > 100
+        ), f"Should have realistic concept count, got {len(concepts)}"
+
+        # Response should be reasonable size but substantial
+        response_size = len(response.data)
+        assert response_size > 5000, "Response should contain substantial data"
+        assert response_size < 50_000_000, "Response should not be excessively large"
+
+
+class TestAPIConceptsRealDataIntegration:
+    """
+    RED PHASE: Tests for /api/concepts endpoint to serve real data.
+
+    Educational Notes:
+    - Current endpoint serves mock data, tests will validate real data integration
+    - Tests define transition from mock to real concept storage
+    """
+
+    @pytest.fixture
+    def client(self):
+        """Create test client for Flask app."""
+        app = create_app({"TESTING": True})
+        with app.test_client() as client:
+            yield client
+
+    def test_api_concepts_serves_real_extracted_data(self, client):
+        """
+        RED PHASE: Test that /api/concepts serves real concept data, not mocks.
+
+        Educational Note:
         This test will initially pass with mock data, but should be modified
         to validate real concept data from our concept_storage.
         """
