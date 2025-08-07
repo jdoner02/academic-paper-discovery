@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Approaches_to_Formal_Verification_of_Security_Protocols",
+  "paper_title": "Approaches to Formal Verification of Security Protocols",
+  "concepts": [
+    {
+      "text": "protocol",
+      "frequency": 128,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.762976+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 46,
+      "relevance_score": 0.7112956810631229,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.765177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 43,
+      "relevance_score": 0.6714285714285714,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.754346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "logic",
+      "frequency": 43,
+      "relevance_score": 0.6714285714285714,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.772322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "specification",
+      "frequency": 42,
+      "relevance_score": 0.6581395348837209,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.774742+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 28,
+      "relevance_score": 0.622093023255814,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.753917+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "approaches",
+      "frequency": 27,
+      "relevance_score": 0.6088039867109635,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.760616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strand",
+      "frequency": 38,
+      "relevance_score": 0.6049833887043189,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.772577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kab",
+      "frequency": 37,
+      "relevance_score": 0.5916943521594684,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.855124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security protocols",
+      "frequency": 18,
+      "relevance_score": 0.589202657807309,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.870890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "messages",
+      "frequency": 34,
+      "relevance_score": 0.551827242524917,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.799098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m t",
+      "frequency": 26,
+      "relevance_score": 0.545514950166113,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.902288+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key protocol",
+      "frequency": 7,
+      "relevance_score": 0.5430232558139535,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.937789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol run",
+      "frequency": 14,
+      "relevance_score": 0.536046511627907,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.878779+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nspk",
+      "frequency": 31,
+      "relevance_score": 0.5119601328903655,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.777184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol specification",
+      "frequency": 11,
+      "relevance_score": 0.49617940199335553,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.897605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 18,
+      "relevance_score": 0.489202657807309,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.769249+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b m t",
+      "frequency": 14,
+      "relevance_score": 0.48604651162790696,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.944731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "verification",
+      "frequency": 29,
+      "relevance_score": 0.4853820598006645,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.757010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nspk protocol",
+      "frequency": 10,
+      "relevance_score": 0.48289036544850505,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.875989+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "part m m1",
+      "frequency": 6,
+      "relevance_score": 0.479734219269103,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.943920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "needham-schroeder protocol",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.929306+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prevalent approaches towards",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.937150+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "formal verification techniques",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.938211+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "logical inference approaches",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.938422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "needham schroeder protocol",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.956757+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q processes p",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.963181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infinite state systems",
+      "frequency": 2,
+      "relevance_score": 0.476578073089701,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.967472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m t -",
+      "frequency": 5,
+      "relevance_score": 0.4664451827242525,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.948728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n - nonces",
+      "frequency": 5,
+      "relevance_score": 0.4664451827242525,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.960941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m t 1",
+      "frequency": 4,
+      "relevance_score": 0.45315614617940203,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.951215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m m -",
+      "frequency": 4,
+      "relevance_score": 0.45315614617940203,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.961401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key protocol",
+      "frequency": 7,
+      "relevance_score": 0.4430232558139535,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.872577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- nonce n",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.945623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t - got",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.949763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k - publickey",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.960254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- publickey n",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.960473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "publickey n -",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.960692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-agents b -agents",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.961619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m - x",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.962296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a- p b-",
+      "frequency": 3,
+      "relevance_score": 0.43986710963455145,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.962734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "logic programming",
+      "frequency": 18,
+      "relevance_score": 0.43920265780730894,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.874053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b m",
+      "frequency": 18,
+      "relevance_score": 0.43920265780730894,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.903131+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lowe s attack",
+      "frequency": 10,
+      "relevance_score": 0.432890365448505,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.938000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "programming",
+      "frequency": 25,
+      "relevance_score": 0.4322259136212625,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.768828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s message 1",
+      "frequency": 2,
+      "relevance_score": 0.42657807308970097,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.940330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message 1 2",
+      "frequency": 2,
+      "relevance_score": 0.42657807308970097,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.940540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lemma 1 1",
+      "frequency": 2,
+      "relevance_score": 0.42657807308970097,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.941598+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node t 2",
+      "frequency": 2,
+      "relevance_score": 0.42657807308970097,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.942019+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m m1 m2",
+      "frequency": 2,
+      "relevance_score": 0.42657807308970097,
+      "source_papers": [
+        "local/Approaches_to_Formal_Verification_of_Security_Protocols"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:22.945844+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:22.968381+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:22.968550+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

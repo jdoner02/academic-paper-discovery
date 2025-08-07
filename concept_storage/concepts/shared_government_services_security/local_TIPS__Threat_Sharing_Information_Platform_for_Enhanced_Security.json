@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security",
+  "paper_title": "TIPS  Threat Sharing Information Platform for Enhanced Security",
+  "concepts": [
+    {
+      "text": "threat",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.187938+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sharing",
+      "frequency": 47,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.188067+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.188194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 41,
+      "relevance_score": 0.9502695976773123,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.206718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hyperledger",
+      "frequency": 32,
+      "relevance_score": 0.7636250518457071,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.195612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trusted",
+      "frequency": 31,
+      "relevance_score": 0.7428867689755287,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.193092+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fabric",
+      "frequency": 30,
+      "relevance_score": 0.7221484861053504,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.195746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 29,
+      "relevance_score": 0.7014102032351721,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.209111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber",
+      "frequency": 28,
+      "relevance_score": 0.6806719203649938,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.197887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hyperledger fabric",
+      "frequency": 23,
+      "relevance_score": 0.6769805060141021,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.244161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 27,
+      "relevance_score": 0.6599336374948154,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.188573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "channel",
+      "frequency": 24,
+      "relevance_score": 0.5977187888842804,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.196817+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat information",
+      "frequency": 19,
+      "relevance_score": 0.5940273745333886,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.242527+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 23,
+      "relevance_score": 0.576980506014102,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.194148+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber threat",
+      "frequency": 17,
+      "relevance_score": 0.552550808793032,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.244429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain",
+      "frequency": 21,
+      "relevance_score": 0.5355039402737454,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.202071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob",
+      "frequency": 20,
+      "relevance_score": 0.5147656574035671,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.206367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "msp",
+      "frequency": 20,
+      "relevance_score": 0.5147656574035671,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.227054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information sharing",
+      "frequency": 15,
+      "relevance_score": 0.5110742430526752,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.245285+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message transaction processes",
+      "frequency": 2,
+      "relevance_score": 0.4914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271114+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generation computer systems",
+      "frequency": 2,
+      "relevance_score": 0.4914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat intelligence",
+      "frequency": 14,
+      "relevance_score": 0.4903359601824969,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.244563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 14,
+      "relevance_score": 0.4903359601824969,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.247998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber threat intelligence",
+      "frequency": 9,
+      "relevance_score": 0.4866445458316051,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.266002+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 18,
+      "relevance_score": 0.4732890916632103,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.203210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "identity",
+      "frequency": 17,
+      "relevance_score": 0.4525508087930319,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.203085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat-sharing",
+      "frequency": 12,
+      "relevance_score": 0.4488593944421402,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.196281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tips threat sharing",
+      "frequency": 7,
+      "relevance_score": 0.44516798009124847,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.264987+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat sharing information",
+      "frequency": 7,
+      "relevance_score": 0.44516798009124847,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.265114+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sharing information platform",
+      "frequency": 7,
+      "relevance_score": 0.44516798009124847,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.265242+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attribute-based encryption abe",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.265495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hy- perledger fabric",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.266255+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat informa- tion",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.268169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 0",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 10 7",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271380+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 25 0",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 19 0",
+      "frequency": 2,
+      "relevance_score": 0.44147656574035665,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.271645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 9,
+      "relevance_score": 0.43664454583160517,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.219492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intelligence",
+      "frequency": 16,
+      "relevance_score": 0.4318125259228536,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.198022+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat information sharing",
+      "frequency": 6,
+      "relevance_score": 0.4244296972210701,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.267411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 8,
+      "relevance_score": 0.41590626296142674,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.201567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exchange",
+      "frequency": 15,
+      "relevance_score": 0.41107424305267526,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.196147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alice",
+      "frequency": 15,
+      "relevance_score": 0.41107424305267526,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.206118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transaction",
+      "frequency": 15,
+      "relevance_score": 0.41107424305267526,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.211063+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deployment models",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.252298+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption techniques",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.256512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption process",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.257319+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transaction processes",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.259942+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transaction processing",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.260202+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer systems",
+      "frequency": 2,
+      "relevance_score": 0.3914765657403567,
+      "source_papers": [
+        "local/TIPS__Threat_Sharing_Information_Platform_for_Enhanced_Security"
+      ],
+      "source_domain": "shared_government_services_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:51.263524+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:11:51.272558+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:11:51.272742+00:00",
+    "repository_version": "1.0",
+    "domain": "shared_government_services_security"
+  }
+}

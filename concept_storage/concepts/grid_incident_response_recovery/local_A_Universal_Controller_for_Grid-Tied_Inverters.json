@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/A_Universal_Controller_for_Grid-Tied_Inverters",
+  "paper_title": "A Universal Controller for Grid-Tied Inverters",
+  "concepts": [
+    {
+      "text": "grid",
+      "frequency": 68,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.810006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inverters",
+      "frequency": 53,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.810238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 46,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.815374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mirafzal",
+      "frequency": 33,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.833809+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 32,
+      "relevance_score": 0.981057268722467,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.810672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b mirafzal",
+      "frequency": 23,
+      "relevance_score": 0.8332599118942732,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.862615+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "microgrids",
+      "frequency": 26,
+      "relevance_score": 0.8158590308370044,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.811106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee",
+      "frequency": 25,
+      "relevance_score": 0.7883259911894273,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.810450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pv -battery systems",
+      "frequency": 4,
+      "relevance_score": 0.6601321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.865492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voltage",
+      "frequency": 20,
+      "relevance_score": 0.6506607929515419,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.825146+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 14,
+      "relevance_score": 0.6354625550660793,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.811749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-battery systems",
+      "frequency": 4,
+      "relevance_score": 0.5601321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.849259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid -forming inverters",
+      "frequency": 5,
+      "relevance_score": 0.5376651982378855,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.867928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee transactions",
+      "frequency": 12,
+      "relevance_score": 0.5303964757709252,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.861530+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid -forming",
+      "frequency": 8,
+      "relevance_score": 0.5202643171806167,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.849467+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stability",
+      "frequency": 15,
+      "relevance_score": 0.5129955947136564,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.811434+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hybrid pv -battery",
+      "frequency": 4,
+      "relevance_score": 0.5101321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.865388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control -sync",
+      "frequency": 7,
+      "relevance_score": 0.4927312775330397,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.848740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid -forming gfm",
+      "frequency": 3,
+      "relevance_score": 0.4825991189427312,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.865596+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "direct phase -angle",
+      "frequency": 3,
+      "relevance_score": 0.4825991189427312,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.865707+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cascaded h -bridge",
+      "frequency": 3,
+      "relevance_score": 0.4825991189427312,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.866762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems",
+      "frequency": 4,
+      "relevance_score": 0.4601321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.854105+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gfm",
+      "frequency": 13,
+      "relevance_score": 0.45792951541850224,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.812498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "frequency",
+      "frequency": 13,
+      "relevance_score": 0.45792951541850224,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.814792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inverter",
+      "frequency": 13,
+      "relevance_score": 0.45792951541850224,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.816454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications",
+      "frequency": 13,
+      "relevance_score": 0.45792951541850224,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.824446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transactions",
+      "frequency": 13,
+      "relevance_score": 0.45792951541850224,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.846244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid -following gfl",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.866027+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "short -circuit capacity",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.866236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h -bridge multilevel",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.867182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase -angle detection",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.867714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multiple grid -forming",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.868036+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2023 f sadeque",
+      "frequency": 2,
+      "relevance_score": 0.4550660792951542,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.868877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-forming inverters",
+      "frequency": 5,
+      "relevance_score": 0.4376651982378855,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.860149+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "universal",
+      "frequency": 12,
+      "relevance_score": 0.4303964757709251,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.809745+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-forming",
+      "frequency": 8,
+      "relevance_score": 0.42026431718061674,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.812380+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industry applications",
+      "frequency": 8,
+      "relevance_score": 0.42026431718061674,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.862825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 6,
+      "relevance_score": 0.4151982378854626,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.823370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid -tied",
+      "frequency": 4,
+      "relevance_score": 0.4101321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.848636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pv -battery",
+      "frequency": 4,
+      "relevance_score": 0.4101321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.849155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase -angle",
+      "frequency": 4,
+      "relevance_score": 0.4101321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.850212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 pp",
+      "frequency": 4,
+      "relevance_score": 0.4101321585903084,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.861644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s",
+      "frequency": 2,
+      "relevance_score": 0.40506607929515415,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.852602+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "load",
+      "frequency": 11,
+      "relevance_score": 0.4028634361233481,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.815794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "microgrid",
+      "frequency": 11,
+      "relevance_score": 0.4028634361233481,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.816243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronics",
+      "frequency": 11,
+      "relevance_score": 0.4028634361233481,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.846455+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-sync",
+      "frequency": 7,
+      "relevance_score": 0.3927312775330396,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.810782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-forming gfm",
+      "frequency": 3,
+      "relevance_score": 0.38259911894273124,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.849570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-phase inverters",
+      "frequency": 3,
+      "relevance_score": 0.38259911894273124,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.850837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "short -circuit",
+      "frequency": 3,
+      "relevance_score": 0.38259911894273124,
+      "source_papers": [
+        "local/A_Universal_Controller_for_Grid-Tied_Inverters"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:21.853447+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:04:21.869085+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:04:21.869256+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

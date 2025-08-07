@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_...",
+  "paper_title": "An Enhanced Online Certificate Status Protocol for Public Key Infrastructure with Smart Grid and ...",
+  "concepts": [
+    {
+      "text": "certificate",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "status",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp",
+      "frequency": 106,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.069548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.073249+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client",
+      "frequency": 34,
+      "relevance_score": 0.9359970494221784,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.074747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp server",
+      "frequency": 27,
+      "relevance_score": 0.8638800098352595,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.102541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate status",
+      "frequency": 22,
+      "relevance_score": 0.7409392672731743,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.099820+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response",
+      "frequency": 26,
+      "relevance_score": 0.7392918613228424,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.084411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate status protocol",
+      "frequency": 11,
+      "relevance_score": 0.7204696336365871,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113095+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 25,
+      "relevance_score": 0.7147037128104253,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.067327+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request",
+      "frequency": 24,
+      "relevance_score": 0.6901155642980082,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.074954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 16,
+      "relevance_score": 0.6434103761986723,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp stapling",
+      "frequency": 18,
+      "relevance_score": 0.6425866732235064,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.101660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 22,
+      "relevance_score": 0.6409392672731743,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "status protocol",
+      "frequency": 11,
+      "relevance_score": 0.6204696336365871,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.099922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stapling",
+      "frequency": 21,
+      "relevance_score": 0.6163511187607573,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.071864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dlms",
+      "frequency": 19,
+      "relevance_score": 0.5671748217359233,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.073116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "revocation",
+      "frequency": 19,
+      "relevance_score": 0.5671748217359233,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.078840+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key infrastructure",
+      "frequency": 10,
+      "relevance_score": 0.5458814851241701,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113199+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp response",
+      "frequency": 14,
+      "relevance_score": 0.5442340791738383,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.106891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "status protocol ocsp",
+      "frequency": 3,
+      "relevance_score": 0.523764445537251,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113723+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid",
+      "frequency": 13,
+      "relevance_score": 0.5196459306614212,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.100233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hybrid ocsp framework",
+      "frequency": 2,
+      "relevance_score": 0.499176297024834,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online certificate status",
+      "frequency": 7,
+      "relevance_score": 0.4721170395869191,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.112991+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 9,
+      "relevance_score": 0.4712933366117532,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066995+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hybrid ocsp",
+      "frequency": 11,
+      "relevance_score": 0.47046963363658717,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.105859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 e-mail address",
+      "frequency": 2,
+      "relevance_score": 0.44917629702483397,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113508+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 10,
+      "relevance_score": 0.44588148512417014,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.100025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key infrastructure",
+      "frequency": 10,
+      "relevance_score": 0.44588148512417014,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.100128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp responder",
+      "frequency": 10,
+      "relevance_score": 0.44588148512417014,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.108439+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "work",
+      "frequency": 14,
+      "relevance_score": 0.4442340791738383,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.071647+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "query",
+      "frequency": 14,
+      "relevance_score": 0.4442340791738383,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.072081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "responder",
+      "frequency": 14,
+      "relevance_score": 0.4442340791738383,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.090089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol ocsp",
+      "frequency": 3,
+      "relevance_score": 0.423764445537251,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.101330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hybrid ocsp server",
+      "frequency": 5,
+      "relevance_score": 0.422940742562085,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115379+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 13,
+      "relevance_score": 0.4196459306614212,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.066782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "website",
+      "frequency": 13,
+      "relevance_score": 0.4196459306614212,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.088750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp framework",
+      "frequency": 2,
+      "relevance_score": 0.39917629702483404,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.106066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operating system",
+      "frequency": 2,
+      "relevance_score": 0.39917629702483404,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.111835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e-mail address",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.101108+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.103529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nthu edu tw",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid environment",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.113931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client s certificate",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.114759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate revocation list",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115069+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proxy ocsp server",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115591+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid scenario",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "huang s work",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.115904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compressed certificate status",
+      "frequency": 4,
+      "relevance_score": 0.39835259404966805,
+      "source_papers": [
+        "local/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key_Infrastructure_with_Smart_Grid_and_..."
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.116110+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:56.117775+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:56.117956+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

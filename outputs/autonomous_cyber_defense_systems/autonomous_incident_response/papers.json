@@ -1,0 +1,473 @@
+{
+  "config_name": "autonomous_cyber_defense_systems",
+  "strategy_name": "autonomous_incident_response",
+  "processed_at": "2025-08-07T09:14:21.518987+00:00",
+  "total_papers": 25,
+  "papers": [
+    {
+      "title": "Automated Attack Testflow Extraction from Cyber Threat Report using BERT   for Contextual Analysis",
+      "authors": [
+        "Faissal Ahmadou",
+        "Sepehr Ghaffarzadegan",
+        "Boubakr Nour",
+        "Makan Pourzandi",
+        "Mourad Debbabi",
+        "Chadi Assi"
+      ],
+      "abstract": "In the ever-evolving landscape of cybersecurity, the rapid identification and mitigation of Advanced Persistent Threats (APTs) is crucial. Security practitioners rely on detailed threat reports to understand the tactics, techniques, and procedures (TTPs) employed by attackers. However, manually extracting attack testflows from these reports requires elusive knowledge and is time-consuming and prone to errors. This paper proposes FLOWGUARDIAN, a novel solution leveraging language models (i.e., BERT) and Natural Language Processing (NLP) techniques to automate the extraction of attack testflows from unstructured threat reports. FLOWGUARDIAN systematically analyzes and contextualizes security events, reconstructs attack sequences, and then generates comprehensive testflows. This automated approach not only saves time and reduces human error but also ensures comprehensive coverage and robustness in cybersecurity testing. Empirical validation using public threat reports demonstrates FLOWGUARDIAN's accuracy and efficiency, significantly enhancing the capabilities of security teams in proactive threat hunting and incident response.",
+      "publication_date": "2025-07-09T19:33:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.07244v1.pdf"
+    },
+    {
+      "title": "CyberAlly: Leveraging LLMs and Knowledge Graphs to Empower Cyber   Defenders",
+      "authors": [
+        "Minjune Kim",
+        "Jeff Wang",
+        "Kristen Moore",
+        "Diksha Goel",
+        "Derui Wang",
+        "Ahmad Mohsin",
+        "Ahmed Ibrahim",
+        "Robin Doss",
+        "Seyit Camtepe",
+        "Helge Janicke"
+      ],
+      "abstract": "The increasing frequency and sophistication of cyberattacks demand innovative approaches to strengthen defense capabilities. Training on live infrastructure poses significant risks to organizations, making secure, isolated cyber ranges an essential tool for conducting Red vs. Blue Team training events. These events enable security teams to refine their skills without impacting operational environments. While such training provides a strong foundation, the ever-evolving nature of cyber threats necessitates additional support for effective defense. To address this challenge, we introduce CyberAlly, a knowledge graph-enhanced AI assistant designed to enhance the efficiency and effectiveness of Blue Teams during incident response. Integrated into our cyber range alongside an open-source SIEM platform, CyberAlly monitors alerts, tracks Blue Team actions, and suggests tailored mitigation recommendations based on insights from prior Red vs. Blue Team exercises. This demonstration highlights the feasibility and impact of CyberAlly in augmenting incident response and equipping defenders to tackle evolving threats with greater precision and confidence.",
+      "publication_date": "2025-04-10T05:03:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2504.07457v1.pdf"
+    },
+    {
+      "title": "Operationalizing Cybersecurity Knowledge: Design, Implementation &   Evaluation of a Knowledge Management System for CACAO Playbooks",
+      "authors": [
+        "Orestis Tsirakis",
+        "Konstantinos Fysarakis",
+        "Vasileios Mavroeidis",
+        "Ioannis Papaefstathiou"
+      ],
+      "abstract": "Modern cybersecurity threats are growing in complexity, targeting increasingly intricate & interconnected systems. To effectively defend against these evolving threats, security teams utilize automation & orchestration to enhance response efficiency and consistency. In that sense, cybersecurity playbooks are key enablers, providing a structured, reusable, and continuously improving approach to incident response, enabling organizations to codify requirements, domain expertise, and best practices and automate decision-making processes to the extent possible. The emerging Collaborative Automated Course of Action Operations (CACAO) standard defines a common machine-processable schema for cybersecurity playbooks, facilitating interoperability for their exchange and ensuring the ability to orchestrate and automate cybersecurity operations. However, despite its potential and the fact that it is a relatively new standardization work, there is a lack of tools to support its adoption and, in particular, the management & lifecycle development of CACAO playbooks, limiting their practical deployment. Motivated by the above, this work presents the design, development, and evaluation of a Knowledge Management System (KMS) for managing CACAO cybersecurity playbooks throughout their lifecycle, providing essential tools to streamline playbook management. Using open technologies & standards, the proposed approach fosters standards-based interoperability & enhances the usability of state-of-the-art cybersecurity orchestration & automation primitives. To encourage adoption, the resulting implementation is released as open-source, which, to the extent of our knowledge, comprises the first publicly available & documented work in this domain, supporting the broader uptake of CACAO playbooks & promoting the widespread use of interoperable automation and orchestration mechanisms in cybersecurity operations.",
+      "publication_date": "2025-03-07T07:54:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2503.05206v2.pdf"
+    },
+    {
+      "title": "An Attentive Graph Agent for Topology-Adaptive Cyber Defence",
+      "authors": [
+        "Ilya Orson Sandoval",
+        "Isaac Symes Thompson",
+        "Vasilios Mavroudis",
+        "Chris Hicks"
+      ],
+      "abstract": "As cyber threats grow increasingly sophisticated, reinforcement learning (RL) is emerging as a promising technique to create intelligent and adaptive cyber defense systems. However, most existing autonomous defensive agents have overlooked the inherent graph structure of computer networks subject to cyber attacks, potentially missing critical information and constraining their adaptability. To overcome these limitations, we developed a custom version of the Cyber Operations Research Gym (CybORG) environment, encoding network state as a directed graph with realistic low-level features. We employ a Graph Attention Network (GAT) architecture to process node, edge, and global features, and adapt its output to be compatible with policy gradient methods in RL. Our GAT-based approach offers key advantages over flattened alternatives: policies that demonstrate resilience to certain types of unexpected dynamic network topology changes, reasonable generalisation to networks of varying sizes within the same structural distribution, and interpretable defensive actions grounded in tangible network properties. We demonstrate that GAT defensive policies can be trained using our low-level directed graph observations, even when unexpected connections arise during simulation. Evaluations across networks of different sizes, but consistent subnetwork structure, show our policies achieve comparable performance to policies trained specifically for each network configuration. Our study contributes to the development of robust cyber defence systems that can better adapt to real-world network security challenges.",
+      "publication_date": "2025-01-24T18:22:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2501.14700v4.pdf"
+    },
+    {
+      "title": "Preventing Jailbreak Prompts as Malicious Tools for Cybercriminals: A   Cyber Defense Perspective",
+      "authors": [
+        "Jean Marie Tshimula",
+        "Xavier Ndona",
+        "D'Jeff K. Nkashama",
+        "Pierre-Martin Tardif",
+        "Froduald Kabanza",
+        "Marc Frappier",
+        "Shengrui Wang"
+      ],
+      "abstract": "Jailbreak prompts pose a significant threat in AI and cybersecurity, as they are crafted to bypass ethical safeguards in large language models, potentially enabling misuse by cybercriminals. This paper analyzes jailbreak prompts from a cyber defense perspective, exploring techniques like prompt injection and context manipulation that allow harmful content generation, content filter evasion, and sensitive information extraction. We assess the impact of successful jailbreaks, from misinformation and automated social engineering to hazardous content creation, including bioweapons and explosives. To address these threats, we propose strategies involving advanced prompt analysis, dynamic safety protocols, and continuous model fine-tuning to strengthen AI resilience. Additionally, we highlight the need for collaboration among AI researchers, cybersecurity experts, and policymakers to set standards for protecting AI systems. Through case studies, we illustrate these cyber defense approaches, promoting responsible AI practices to maintain system integrity and public trust. \\textbf{\\color{red}Warning: This paper contains content which the reader may find offensive.}",
+      "publication_date": "2024-11-25T18:23:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2411.16642v1.pdf"
+    },
+    {
+      "title": "Artificial Intelligence in Cybersecurity: Building Resilient Cyber   Diplomacy Frameworks",
+      "authors": [
+        "Michael Stoltz"
+      ],
+      "abstract": "This paper explores how automation and artificial intelligence (AI) are transforming U.S. cyber diplomacy. Leveraging these technologies helps the U.S. manage the complexity and urgency of cyber diplomacy, improving decision-making, efficiency, and security. As global inter connectivity grows, cyber diplomacy, managing national interests in the digital space has become vital. The ability of AI and automation to quickly process vast data volumes enables timely responses to cyber threats and opportunities. This paper underscores the strategic integration of these tools to maintain U.S. competitive advantage and secure national interests. Automation enhances diplomatic communication and data processing, freeing diplomats to focus on strategic decisions. AI supports predictive analytics and real time decision making, offering critical insights and proactive measures during high stakes engagements. Case studies show AIs effectiveness in monitoring cyber activities and managing international cyber policy. Challenges such as ethical concerns, security vulnerabilities, and reliance on technology are also addressed, emphasizing human oversight and strong governance frameworks. Ensuring proper ethical guidelines and cybersecurity measures allows the U.S. to harness the benefits of automation and AI while mitigating risks. By adopting these technologies, U.S. cyber diplomacy can become more proactive and effective, navigating the evolving digital landscape with greater agility.",
+      "publication_date": "2024-11-17T17:57:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2411.13585v1.pdf"
+    },
+    {
+      "title": "Handling Pandemic-Scale Cyber Threats: Lessons from COVID-19",
+      "authors": [
+        "Adam Shostack",
+        "Josiah Dykstra"
+      ],
+      "abstract": "The devastating health, societal, and economic impacts of the COVID-19 pandemic illuminate potential dangers of unpreparedness for catastrophic pandemic-scale cyber events. While the nature of these threats differs, the responses to COVID-19 illustrate valuable lessons that can guide preparation and response to cyber events. Drawing on the critical role of collaboration and pre-defined roles in pandemic response, we emphasize the need for developing similar doctrine and skill sets for cyber threats. We provide a framework for action by presenting the characteristics of a pandemic-scale cyber event and differentiating it from smaller-scale incidents the world has previously experienced. The framework is focused on the United States. We analyze six critical lessons from COVID-19, outlining key considerations for successful preparedness, acknowledging the limitations of the pandemic metaphor, and offering actionable steps for developing a robust cyber defense playbook. By learning from COVID-19, government agencies, private sector, cybersecurity professionals, academic researchers, and policy makers can build proactive strategies that safeguard critical infrastructure, minimize economic damage, and ensure societal resilience in the face of future cyber events.",
+      "publication_date": "2024-08-15T20:59:23+00:00",
+      "doi": "10.1145/3703465.3703466",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2408.08417v1.pdf"
+    },
+    {
+      "title": "Structural Generalization in Autonomous Cyber Incident Response with   Message-Passing Neural Networks and Reinforcement Learning",
+      "authors": [
+        "Jakob Nyberg",
+        "Pontus Johnson"
+      ],
+      "abstract": "We believe that agents for automated incident response based on machine learning need to handle changes in network structure. Computer networks are dynamic, and can naturally change in structure over time. Retraining agents for small network changes costs time and energy. We attempt to address this issue with an existing method of relational agent learning, where the relations between objects are assumed to remain consistent across problem instances. The state of the computer network is represented as a relational graph and encoded through a message passing neural network. The message passing neural network and an agent policy using the encoding are optimized end-to-end using reinforcement learning. We evaluate the approach on the second instance of the Cyber Autonomy Gym for Experimentation (CAGE~2), a cyber incident simulator that simulates attacks on an enterprise network. We create variants of the original network with different numbers of hosts and agents are tested without additional training on them. Our results show that agents using relational information are able to find solutions despite changes to the network, and can perform optimally in some instances. Agents using the default vector state representation perform better, but need to be specially trained on each network variant, demonstrating a trade-off between specialization and generalization.",
+      "publication_date": "2024-07-08T09:34:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2407.05775v1.pdf"
+    },
+    {
+      "title": "The Path To Autonomous Cyber Defense",
+      "authors": [
+        "Sean Oesch",
+        "Phillipe Austria",
+        "Amul Chaulagain",
+        "Brian Weber",
+        "Cory Watson",
+        "Matthew Dixson",
+        "Amir Sadovnik"
+      ],
+      "abstract": "Defenders are overwhelmed by the number and scale of attacks against their networks.This problem will only be exacerbated as attackers leverage artificial intelligence to automate their workflows. We propose a path to autonomous cyber agents able to augment defenders by automating critical steps in the cyber defense life cycle.",
+      "publication_date": "2024-04-12T19:51:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2404.10788v1.pdf"
+    },
+    {
+      "title": "Raijū: Reinforcement Learning-Guided Post-Exploitation for Automating   Security Assessment of Network Systems",
+      "authors": [
+        "Van-Hau Pham",
+        "Hien Do Hoang",
+        "Phan Thanh Trung",
+        "Van Dinh Quoc",
+        "Trong-Nghia To",
+        "Phan The Duy"
+      ],
+      "abstract": "In order to assess the risks of a network system, it is important to investigate the behaviors of attackers after successful exploitation, which is called post-exploitation. Although there are various efficient tools supporting post-exploitation implementation, no application can automate this process. Most of the steps of this process are completed by experts who have profound knowledge of security, known as penetration testers or pen-testers. To this end, our study proposes the Raij\\=u framework, a Reinforcement Learning (RL)-driven automation approach that assists pen-testers in quickly implementing the process of post-exploitation for security-level evaluation in network systems. We implement two RL algorithms, Advantage Actor-Critic (A2C) and Proximal Policy Optimization (PPO), to train specialized agents capable of making intelligent actions, which are Metasploit modules to automatically launch attacks of privileges escalation, gathering hashdump, and lateral movement. By leveraging RL, we aim to empower these agents with the ability to autonomously select and execute actions that can exploit vulnerabilities in target systems. This approach allows us to automate certain aspects of the penetration testing workflow, making it more efficient and responsive to emerging threats and vulnerabilities. The experiments are performed in four real environments with agents trained in thousands of episodes. The agents automatically select actions and launch attacks on the environments and achieve over 84\\% of successful attacks with under 55 attack steps given. Moreover, the A2C algorithm has proved extremely effective in the selection of proper actions for automation of post-exploitation.",
+      "publication_date": "2023-09-27T09:36:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2309.15518v1.pdf"
+    },
+    {
+      "title": "Data-Driven Intelligence can Revolutionize Today's Cybersecurity World:   A Position Paper",
+      "authors": [
+        "Iqbal H. Sarker",
+        "Helge Janicke",
+        "Leandros Maglaras",
+        "Seyit Camtepe"
+      ],
+      "abstract": "As cyber threats evolve and grow progressively more sophisticated, cyber security is becoming a more significant concern in today's digital era. Traditional security measures tend to be insufficient to defend against these persistent and dynamic threats because they are mainly intuitional. One of the most promising ways to handle this ongoing problem is utilizing the potential of data-driven intelligence, by leveraging AI and machine learning techniques. It can improve operational efficiency and saves response times by automating repetitive operations, enabling real-time threat detection, and facilitating incident response. In addition, it augments human expertise with insightful information, predictive analytics, and enhanced decision-making, enabling them to better understand and address evolving problems. Thus, data-driven intelligence could significantly improve real-world cybersecurity solutions in a wide range of application areas like critical infrastructure, smart cities, digital twin, industrial control systems and so on. In this position paper, we argue that data-driven intelligence can revolutionize the realm of cybersecurity, offering not only large-scale task automation but also assist human experts for better situation awareness and decision-making in real-world scenarios.",
+      "publication_date": "2023-08-09T04:48:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2308.05126v1.pdf"
+    },
+    {
+      "title": "MasterKey: Automated Jailbreak Across Multiple Large Language Model   Chatbots",
+      "authors": [
+        "Gelei Deng",
+        "Yi Liu",
+        "Yuekang Li",
+        "Kailong Wang",
+        "Ying Zhang",
+        "Zefeng Li",
+        "Haoyu Wang",
+        "Tianwei Zhang",
+        "Yang Liu"
+      ],
+      "abstract": "Large Language Models (LLMs) have revolutionized Artificial Intelligence (AI) services due to their exceptional proficiency in understanding and generating human-like text. LLM chatbots, in particular, have seen widespread adoption, transforming human-machine interactions. However, these LLM chatbots are susceptible to \"jailbreak\" attacks, where malicious users manipulate prompts to elicit inappropriate or sensitive responses, contravening service policies. Despite existing attempts to mitigate such threats, our research reveals a substantial gap in our understanding of these vulnerabilities, largely due to the undisclosed defensive measures implemented by LLM service providers.   In this paper, we present Jailbreaker, a comprehensive framework that offers an in-depth understanding of jailbreak attacks and countermeasures. Our work makes a dual contribution. First, we propose an innovative methodology inspired by time-based SQL injection techniques to reverse-engineer the defensive strategies of prominent LLM chatbots, such as ChatGPT, Bard, and Bing Chat. This time-sensitive approach uncovers intricate details about these services' defenses, facilitating a proof-of-concept attack that successfully bypasses their mechanisms. Second, we introduce an automatic generation method for jailbreak prompts. Leveraging a fine-tuned LLM, we validate the potential of automated jailbreak generation across various commercial LLM chatbots. Our method achieves a promising average success rate of 21.58%, significantly outperforming the effectiveness of existing techniques. We have responsibly disclosed our findings to the concerned service providers, underscoring the urgent need for more robust defenses. Jailbreaker thus marks a significant step towards understanding and mitigating jailbreak threats in the realm of LLM chatbots.",
+      "publication_date": "2023-07-16T01:07:15+00:00",
+      "doi": "10.14722/ndss.2024.24188",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2307.08715v2.pdf"
+    },
+    {
+      "title": "A critical review of cyber-physical security for building automation   systems",
+      "authors": [
+        "Guowen Li",
+        "Lingyu Ren",
+        "Yangyang Fu",
+        "Zhiyao Yang",
+        "Veronica Adetola",
+        "Jin Wen",
+        "Qi Zhu",
+        "Teresa Wu",
+        "K. Selcuk Candanf",
+        "Zheng O'Neill"
+      ],
+      "abstract": "Modern Building Automation Systems (BASs), as the brain that enables the smartness of a smart building, often require increased connectivity both among system components as well as with outside entities, such as optimized automation via outsourced cloud analytics and increased building-grid integrations. However, increased connectivity and accessibility come with increased cyber security threats. BASs were historically developed as closed environments with limited cyber-security considerations. As a result, BASs in many buildings are vulnerable to cyber-attacks that may cause adverse consequences, such as occupant discomfort, excessive energy usage, and unexpected equipment downtime. Therefore, there is a strong need to advance the state-of-the-art in cyber-physical security for BASs and provide practical solutions for attack mitigation in buildings. However, an inclusive and systematic review of BAS vulnerabilities, potential cyber-attacks with impact assessment, detection & defense approaches, and cyber-secure resilient control strategies is currently lacking in the literature. This review paper fills the gap by providing a comprehensive up-to-date review of cyber-physical security for BASs at three levels in commercial buildings: management level, automation level, and field level. The general BASs vulnerabilities and protocol-specific vulnerabilities for the four dominant BAS protocols are reviewed, followed by a discussion on four attack targets and seven potential attack scenarios. The impact of cyber-attacks on BASs is summarized as signal corruption, signal delaying, and signal blocking. The typical cyber-attack detection and defense approaches are identified at the three levels. Cyber-secure resilient control strategies for BASs under attack are categorized into passive and active resilient control schemes. Open challenges and future opportunities are finally discussed.",
+      "publication_date": "2022-10-21T04:32:24+00:00",
+      "doi": "10.1016/j.arcontrol.2023.02.004",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2210.11726v2.pdf"
+    },
+    {
+      "title": "Markov Decision Process For Automatic Cyber Defense",
+      "authors": [
+        "Xiaofan Zhou",
+        "Simon Yusuf Enoch",
+        "Dong Seong Kim"
+      ],
+      "abstract": "It is challenging for a security analyst to detect or defend against cyber-attacks. Moreover, traditional defense deployment methods require the security analyst to manually enforce the defenses in the presence of uncertainties about the defense to deploy. As a result, it is essential to develop an automated and resilient defense deployment mechanism to thwart the new generation of attacks. In this paper, we propose a framework based on Markov Decision Process (MDP) and Q-learning to automatically generate optimal defense solutions for networked system states. The framework consists of four phases namely; the model initialization phase, model generation phase, Q-learning phase, and the conclusion phase. The proposed model collects real network information as inputs and then builds them into structural data. We implement a Q-learning process in the model to learn the quality of a defense action in a particular state. To investigate the feasibility of the proposed model, we perform simulation experiments and the result reveals that the model can reduce the risk of network systems from cyber attacks. Furthermore, the experiment shows that the model has shown a certain level of flexibility when different parameters are used for Q-learning.",
+      "publication_date": "2022-07-12T09:58:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.05436v2.pdf"
+    },
+    {
+      "title": "Cyber-Physical Defense in the Quantum Era",
+      "authors": [
+        "Michel Barbeau",
+        "Joaquin Garcia-Alfaro"
+      ],
+      "abstract": "Networked-Control Systems (NCSs), a type of cyber-physical systems, consist of tightly integrated computing, communication and control technologies. While being very flexible environments, they are vulnerable to computing and networking attacks. Recent NCSs hacking incidents had major impact. They call for more research on cyber-physical security. Fears about the use of quantum computing to break current cryptosystems make matters worse. While the quantum threat motivated the creation of new disciplines to handle the issue, such as post-quantum cryptography, other fields have overlooked the existence of quantum-enabled adversaries. This is the case of cyber-physical defense research, a distinct but complementary discipline to cyber-physical protection. Cyber-physical defense refers to the capability to detect and react in response to cyber-physical attacks. Concretely, it involves the integration of mechanisms to identify adverse events and prepare response plans, during and after incidents occur. In this paper, we make the assumption that the eventually available quantum computer will provide an advantage to adversaries against defenders, unless they also adopt this technology. We envision the necessity for a paradigm shift, where an increase of adversarial resources because of quantum supremacy does not translate into higher likelihood of disruptions. Consistently with current system design practices in other areas, such as the use of artificial intelligence for the reinforcement of attack detection tools, we outline a vision for next generation cyber-physical defense layers leveraging ideas from quantum computing and machine learning. Through an example, we show that defenders of NCSs can learn and improve their strategies to anticipate and recover from attacks.",
+      "publication_date": "2022-02-21T16:52:50+00:00",
+      "doi": "10.1038/s41598-022-05690-1",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2202.10354v1.pdf"
+    },
+    {
+      "title": "APIRO: A Framework for Automated Security Tools API Recommendation",
+      "authors": [
+        "Zarrin Tasnim Sworna",
+        "Chadni Islam",
+        "Muhammad Ali Babar"
+      ],
+      "abstract": "Security Orchestration, Automation, and Response (SOAR) platforms integrate and orchestrate a wide variety of security tools to accelerate the operational activities of Security Operation Center (SOC). Integration of security tools in a SOAR platform is mostly done manually using APIs, plugins, and scripts. SOC teams need to navigate through API calls of different security tools to find a suitable API to define or update an incident response action. Analyzing various types of API documentation with diverse API format and presentation structure involves significant challenges such as data availability, data heterogeneity, and semantic variation for automatic identification of security tool APIs specific to a particular task. Given these challenges can have negative impact on SOC team's ability to handle security incident effectively and efficiently, we consider it important to devise suitable automated support solutions to address these challenges. We propose a novel learning-based framework for automated security tool API Recommendation for security Orchestration, automation, and response, APIRO. To mitigate data availability constraint, APIRO enriches security tool API description by applying a wide variety of data augmentation techniques. To learn data heterogeneity of the security tools and semantic variation in API descriptions, APIRO consists of an API-specific word embedding model and a Convolutional Neural Network (CNN) model that are used for prediction of top 3 relevant APIs for a task. We experimentally demonstrate the effectiveness of APIRO in recommending APIs for different tasks using 3 security tools and 36 augmentation techniques. Our experimental results demonstrate the feasibility of APIRO for achieving 91.9% Top-1 Accuracy.",
+      "publication_date": "2022-01-20T02:34:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2201.07959v1.pdf"
+    },
+    {
+      "title": "Fixed Points in Cyber Space: Rethinking Optimal Evasion Attacks in the   Age of AI-NIDS",
+      "authors": [
+        "Christian Schroeder de Witt",
+        "Yongchao Huang",
+        "Philip H. S. Torr",
+        "Martin Strohmeier"
+      ],
+      "abstract": "Cyber attacks are increasing in volume, frequency, and complexity. In response, the security community is looking toward fully automating cyber defense systems using machine learning. However, so far the resultant effects on the coevolutionary dynamics of attackers and defenders have not been examined. In this whitepaper, we hypothesise that increased automation on both sides will accelerate the coevolutionary cycle, thus begging the question of whether there are any resultant fixed points, and how they are characterised. Working within the threat model of Locked Shields, Europe's largest cyberdefense exercise, we study blackbox adversarial attacks on network classifiers. Given already existing attack capabilities, we question the utility of optimal evasion attack frameworks based on minimal evasion distances. Instead, we suggest a novel reinforcement learning setting that can be used to efficiently generate arbitrary adversarial perturbations. We then argue that attacker-defender fixed points are themselves general-sum games with complex phase transitions, and introduce a temporally extended multi-agent reinforcement learning framework in which the resultant dynamics can be studied. We hypothesise that one plausible fixed point of AI-NIDS may be a scenario where the defense strategy relies heavily on whitelisted feature flow subspaces. Finally, we demonstrate that a continual learning approach is required to study attacker-defender dynamics in temporally extended general-sum games.",
+      "publication_date": "2021-11-23T23:42:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2111.12197v1.pdf"
+    },
+    {
+      "title": "Autonomous Attack Mitigation for Industrial Control Systems",
+      "authors": [
+        "John Mern",
+        "Kyle Hatch",
+        "Ryan Silva",
+        "Cameron Hickert",
+        "Tamim Sookoor",
+        "Mykel J. Kochenderfer"
+      ],
+      "abstract": "Defending computer networks from cyber attack requires timely responses to alerts and threat intelligence. Decisions about how to respond involve coordinating actions across multiple nodes based on imperfect indicators of compromise while minimizing disruptions to network operations. Currently, playbooks are used to automate portions of a response process, but often leave complex decision-making to a human analyst. In this work, we present a deep reinforcement learning approach to autonomous response and recovery in large industrial control networks. We propose an attention-based neural architecture that is flexible to the size of the network under protection. To train and evaluate the autonomous defender agent, we present an industrial control network simulation environment suitable for reinforcement learning. Experiments show that the learned agent can effectively mitigate advanced attacks that progress with few observable signals over several months before execution. The proposed deep reinforcement learning approach outperforms a fully automated playbook method in simulation, taking less disruptive actions while also defending more nodes on the network. The learned policy is also more robust to changes in attacker behavior than playbook approaches.",
+      "publication_date": "2021-11-03T18:08:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2111.02445v1.pdf"
+    },
+    {
+      "title": "A Reputation-based Approach using Consortium Blockchain for Cyber Threat   Intelligence Sharing",
+      "authors": [
+        "Zhang Xiaohui",
+        "Miao Xianghua"
+      ],
+      "abstract": "The CTI (Cyber Threat Intelligence) sharing and exchange is an effective method to improve the responsiveness of the protection party. Blockchain technology enables sharing collaboration consortium to conduct a trusted CTI sharing and exchange without a trusted centralized institution. However, the distributed connectivity of the blockchain-based CTI sharing model proposed before exposes the systems into byzantine attacks, the compromised members of partner organizations will further decrease the accuracy and trust level of CTI by generating false reporting. To address the unbalance issues of performance in speed, scalability and security, this paper proposes a new blockchain-based CTI model, which combines consortium blockchain and distributed reputation management systems to achieve automated analysis and response of tactical threat intelligence. In addition, the novel consensus algorithm of consortium blockchain that is fit for CTI sharing and exchange introduced in this paper. The new consensus algorithm is called 'Proof-of Reputation' (PoR) consensus, which meets the requirements of transaction rate and makes the consensus in a creditable network environment through constructing a reputation model. Finally, the effectiveness and security performance of the proposed model and consensus algorithm is verified by experiments.",
+      "publication_date": "2021-07-13T14:47:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2107.06662v1.pdf"
+    },
+    {
+      "title": "Automated Fuzzing of Automotive Control Units",
+      "authors": [
+        "Timothy Werquin",
+        "Roos Hubrechtsen",
+        "Ashok Thangarajan",
+        "Frank Piessens",
+        "Jan Tobias Muehlberg"
+      ],
+      "abstract": "Modern vehicles are governed by a network of Electronic Control Units (ECUs), which are programmed to sense inputs from the driver and the environment, to process these inputs, and to control actuators that, e.g., regulate the engine or even control the steering system. ECUs within a vehicle communicate via automotive bus systems such as the Controller Area Network (CAN), and beyond the vehicles boundaries through upcoming vehicle-to-vehicle and vehicle-to-infrastructure channels. Approaches to manipulate the communication between ECUs for the purpose of security testing and reverse-engineering of vehicular functions have been presented in the past, all of which struggle with automating the detection of system change in response to message injection. In this paper we present our findings with fuzzing CAN networks, in particular while observing individual ECUs with a sensor harness. The harness detects physical responses, which we then use in a oracle functions to inform the fuzzing process. We systematically define fuzzers, fuzzing configurations and oracle functions for testing ECUs. We evaluate our approach based on case studies of commercial instrument clusters and with an experimental framework for CAN authentication. Our results show that the approach is capable of identifying interesting ECU states with a high level of automation. Our approach is applicable in distributed cyber-physical systems beyond automotive computing.",
+      "publication_date": "2021-02-24T15:28:36+00:00",
+      "doi": "10.1109/SIOT48044.2019.9637090",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2102.12345v2.pdf"
+    },
+    {
+      "title": "Cyber Autonomy: Automating the Hacker- Self-healing, self-adaptive,   automatic cyber defense systems and their impact to the industry, society and   national security",
+      "authors": [
+        "Ryan K L Ko"
+      ],
+      "abstract": "This paper sets the context for the urgency for cyber autonomy, and the current gaps of the cyber security industry. A novel framework proposing four phases of maturity for full cyber autonomy will be discussed. The paper also reviews new and emerging cyber security automation techniques and tools, and discusses their impact on society, the perceived cyber security skills gap/shortage and national security. We will also be discussing the delicate balance between national security, human rights and ethics, and the potential demise of the manual penetration testing industry in the face of automation.",
+      "publication_date": "2020-12-08T12:50:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2012.04405v1.pdf"
+    },
+    {
+      "title": "HARMer: Cyber-attacks Automation and Evaluation",
+      "authors": [
+        "Simon Yusuf Enoch",
+        "Zhibin Huang",
+        "Chun Yong Moon",
+        "Donghwan Lee",
+        "Myung Kil Ahn",
+        "Dong Seong Kim"
+      ],
+      "abstract": "With the increasing growth of cyber-attack incidences, it is important to develop innovative and effective techniques to assess and defend networked systems against cyber attacks. One of the well-known techniques for this is performing penetration testing which is carried by a group of security professionals (i.e, red team). Penetration testing is also known to be effective to find existing and new vulnerabilities, however, the quality of security assessment can be depending on the quality of the red team members and their time and devotion to the penetration testing. In this paper, we propose a novel automation framework for cyber-attacks generation named `HARMer' to address the challenges with respect to manual attack execution by the red team. Our novel proposed framework, design, and implementation is based on a scalable graphical security model called Hierarchical Attack Representation Model (HARM). (1) We propose the requirements and the key phases for the automation framework. (2) We propose security metrics-based attack planning strategies along with their algorithms. (3) We conduct experiments in a real enterprise network and Amazon Web Services. The results show how the different phases of the framework interact to model the attackers' operations. This framework will allow security administrators to automatically assess the impact of various threats and attacks in an automated manner.",
+      "publication_date": "2020-06-25T12:52:10+00:00",
+      "doi": "10.1109/ACCESS.2020.3009748",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2006.14352v3.pdf"
+    },
+    {
+      "title": "Cyber Security Incident Handling, Warning and Response System for the   European Critical Information Infrastructures (CyberSANE)",
+      "authors": [
+        "Spyridon Papastergiou",
+        "Haralambos Mouratidis",
+        "Eleni-Maria Kalogeraki"
+      ],
+      "abstract": "This paper aims to enhance the security and resilience of Critical Information Infrastructures (CIIs) by providing a dynamic collaborative, warning and response system (CyberSANE system) supporting and guiding security officers and operators (e.g. Incident Response professionals) to recognize, identify, dynamically analyse, forecast, treat and respond to their threats and risks and handle their daily cyber incidents. The proposed solution provides a first of a kind approach for handling cyber security incidents in the digital environments with highly interconnected, complex and diverse nature.",
+      "publication_date": "2020-03-11T15:25:40+00:00",
+      "doi": "10.1007/978-3-030-20257-6_41",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2003.05720v1.pdf"
+    },
+    {
+      "title": "Deep Reinforcement Learning for Cyber Security",
+      "authors": [
+        "Thanh Thi Nguyen",
+        "Vijay Janapa Reddi"
+      ],
+      "abstract": "The scale of Internet-connected systems has increased considerably, and these systems are being exposed to cyber attacks more than ever. The complexity and dynamics of cyber attacks require protecting mechanisms to be responsive, adaptive, and scalable. Machine learning, or more specifically deep reinforcement learning (DRL), methods have been proposed widely to address these issues. By incorporating deep learning into traditional RL, DRL is highly capable of solving complex, dynamic, and especially high-dimensional cyber defense problems. This paper presents a survey of DRL approaches developed for cyber security. We touch on different vital aspects, including DRL-based security methods for cyber-physical systems, autonomous intrusion detection techniques, and multiagent DRL-based game theory simulations for defense strategies against cyber attacks. Extensive discussions and future research directions on DRL-based cyber security are also given. We expect that this comprehensive review provides the foundations for and facilitates future studies on exploring the potential of emerging DRL to cope with increasingly complex cyber security problems.",
+      "publication_date": "2019-06-13T16:34:12+00:00",
+      "doi": "10.1109/TNNLS.2021.3121870",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1906.05799v4.pdf"
+    },
+    {
+      "title": "Deriving Cyber-security Requirements for Cyber Physical Systems",
+      "authors": [
+        "Robert Laddaga",
+        "Paul Robertson",
+        "Howard Shrobe",
+        "Dan Cerys",
+        "Prakash Manghwani",
+        "Patrik Meijer"
+      ],
+      "abstract": "Today's cyber physical systems (CPS) are not well protected against cyber attacks. Protected CPS often have holes in their defense, due to the manual nature of today's cyber security design process. It is necessary to automate or semi-automate the design and implementation of CPS to meet stringent cyber security requirements (CSR), without sacrificing functional performance, timing and cost constraints. Step one is deriving, for each CPS, the CSR that flow from the particular functional design for that CPS. That is the task assumed by our system, Deriving Cyber-security Requirements Yielding Protected Physical Systems - DCRYPPS. DCRYPPS applies Artificial Intelligence (AI) technologies, including planning and model based diagnosis to an important area of cyber security.",
+      "publication_date": "2019-01-07T15:05:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1901.01867v1.pdf"
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency",
+  "paper_title": "Machine Learning for Scalable and Optimal Load Shedding Under Power System Contingency",
+  "concepts": [
+    {
+      "text": "load",
+      "frequency": 124,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.099092+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 118,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.099726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ols",
+      "frequency": 86,
+      "relevance_score": 0.9275596612779061,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.106775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 70,
+      "relevance_score": 0.9235950731331793,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.100031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "load shedding",
+      "frequency": 65,
+      "relevance_score": 0.8254811393379522,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.332288+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shedding",
+      "frequency": 66,
+      "relevance_score": 0.7351039260969976,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.099416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 49,
+      "relevance_score": 0.7215165511932256,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.113905+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems",
+      "frequency": 37,
+      "relevance_score": 0.7060431100846806,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.349792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trans power systems",
+      "frequency": 19,
+      "relevance_score": 0.632832948421863,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.494483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "local",
+      "frequency": 54,
+      "relevance_score": 0.6196304849884526,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.110273+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 118-bus system",
+      "frequency": 6,
+      "relevance_score": 0.6077367205542725,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.463621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "118-bus system",
+      "frequency": 14,
+      "relevance_score": 0.5847190146266359,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.341459+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee",
+      "frequency": 50,
+      "relevance_score": 0.581139337952271,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.101604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "texas 2000-bus system",
+      "frequency": 2,
+      "relevance_score": 0.5692455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.464268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 48,
+      "relevance_score": 0.5618937644341802,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.097996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prediction",
+      "frequency": 48,
+      "relevance_score": 0.5618937644341802,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.131826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contingency",
+      "frequency": 47,
+      "relevance_score": 0.5522709776751347,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.100343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2000-bus system",
+      "frequency": 8,
+      "relevance_score": 0.5269822940723634,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.342371+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electric power systems",
+      "frequency": 4,
+      "relevance_score": 0.4884911470361817,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.493844+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee trans power",
+      "frequency": 19,
+      "relevance_score": 0.482832948421863,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.494164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems ieee",
+      "frequency": 3,
+      "relevance_score": 0.4788683602771362,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.490944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems ieee trans",
+      "frequency": 3,
+      "relevance_score": 0.4788683602771362,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.491265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning-for-ols framework",
+      "frequency": 2,
+      "relevance_score": 0.4692455735180908,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.355270+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system resilience",
+      "frequency": 2,
+      "relevance_score": 0.4692455735180908,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.461275+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system emergency",
+      "frequency": 2,
+      "relevance_score": 0.4692455735180908,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.465223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bus",
+      "frequency": 38,
+      "relevance_score": 0.46566589684372595,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.189893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system",
+      "frequency": 12,
+      "relevance_score": 0.46547344110854505,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.332613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "load center",
+      "frequency": 27,
+      "relevance_score": 0.45981524249422634,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.360194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1 5",
+      "frequency": 5,
+      "relevance_score": 0.4481139337952271,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.496361+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 36,
+      "relevance_score": 0.4464203233256351,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.116031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee trans",
+      "frequency": 25,
+      "relevance_score": 0.4405696689761355,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.437995+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power flow",
+      "frequency": 24,
+      "relevance_score": 0.4309468822170901,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.352226+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 hidden layers",
+      "frequency": 3,
+      "relevance_score": 0.42886836027713626,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.487780+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d k",
+      "frequency": 23,
+      "relevance_score": 0.4213240954580446,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.399862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "op- timal load",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.461590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "synthetic texas 2000-bus",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.463948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "local measure- ments",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.474702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "piece-wise quadratic cost",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.475622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pn j 1vivj",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.476234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2f - 2h",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.476545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ifαi 2ai 2pr",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.477862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k k 1",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.479705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 k",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.480010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "σ1 σ2 σs",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.485889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-zero principal angle",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.486221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 contingency scenarios",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.488085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 outaged lines",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.488390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "under-frequency load shedding",
+      "frequency": 2,
+      "relevance_score": 0.4192455735180909,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.498854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimal load shedding",
+      "frequency": 12,
+      "relevance_score": 0.415473441108545,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.460963+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ac-ols",
+      "frequency": 22,
+      "relevance_score": 0.41170130869899924,
+      "source_papers": [
+        "local/Machine_Learning_for_Scalable_and_Optimal_Load_Shedding_Under_Power_System_Contingency"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:16.154026+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:04:16.503046+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:04:16.503238+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

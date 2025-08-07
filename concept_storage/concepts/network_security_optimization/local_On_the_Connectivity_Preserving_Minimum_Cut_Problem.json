@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem",
+  "paper_title": "On the Connectivity Preserving Minimum Cut Problem",
+  "concepts": [
+    {
+      "text": "cut",
+      "frequency": 77,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.782737+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 71,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.787338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node",
+      "frequency": 76,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.788244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cs1",
+      "frequency": 67,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.854238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 53,
+      "relevance_score": 0.8066666666666666,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.783001+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 v",
+      "frequency": 33,
+      "relevance_score": 0.74,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.925013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 41,
+      "relevance_score": 0.6466666666666666,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.788728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c s1 v",
+      "frequency": 18,
+      "relevance_score": 0.64,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.984762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cpmec",
+      "frequency": 37,
+      "relevance_score": 0.5933333333333333,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.793442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum",
+      "frequency": 36,
+      "relevance_score": 0.58,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.782153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "weight",
+      "frequency": 35,
+      "relevance_score": 0.5666666666666668,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.804545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 34,
+      "relevance_score": 0.5533333333333333,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.802956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q1 q2",
+      "frequency": 18,
+      "relevance_score": 0.54,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.912093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c s1",
+      "frequency": 18,
+      "relevance_score": 0.54,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.939569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 v t",
+      "frequency": 10,
+      "relevance_score": 0.5333333333333333,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.978842+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cep s1",
+      "frequency": 16,
+      "relevance_score": 0.5133333333333333,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.926324+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q1 q2 1",
+      "frequency": 8,
+      "relevance_score": 0.5066666666666667,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.972706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "connected",
+      "frequency": 30,
+      "relevance_score": 0.5,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.802580+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "path",
+      "frequency": 30,
+      "relevance_score": 0.5,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.807222+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r q1 q2",
+      "frequency": 6,
+      "relevance_score": 0.48,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.972047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cep s1 v",
+      "frequency": 6,
+      "relevance_score": 0.48,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.978625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graphs",
+      "frequency": 28,
+      "relevance_score": 0.4733333333333334,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.797239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cep s1 α",
+      "frequency": 5,
+      "relevance_score": 0.4666666666666667,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.984978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 α t",
+      "frequency": 5,
+      "relevance_score": 0.4666666666666667,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.985196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c u2 u3",
+      "frequency": 5,
+      "relevance_score": 0.4666666666666667,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.987205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2",
+      "frequency": 12,
+      "relevance_score": 0.45999999999999996,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.891103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 3",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.965398+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "theorem 2 2",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.968461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lemma 3 3",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.981693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c ep s1",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.984328+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ep s1 v",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.984545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t c u2",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.985631+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cep s1 β",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.985847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 β t",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.986072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 p",
+      "frequency": 4,
+      "relevance_score": 0.45333333333333337,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.990713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum cut",
+      "frequency": 19,
+      "relevance_score": 0.4533333333333333,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.884683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3",
+      "frequency": 11,
+      "relevance_score": 0.44666666666666666,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.891325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "source node s1and",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.966065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partner node s2",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.966283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "theorem 2 5",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.970039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n q1 q2",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.972490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "answer pair a1",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.973576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pair a1 a2",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.973794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q1 c q2",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.974661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 n2ǫ1 1",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.975354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b1 b m",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.977533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce s1 t",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.979058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c u3 cep",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.986768+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u3 cep s1",
+      "frequency": 3,
+      "relevance_score": 0.43999999999999995,
+      "source_papers": [
+        "local/On_the_Connectivity_Preserving_Minimum_Cut_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:30.986985+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:40:30.998573+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:40:30.998799+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "config_name": "autonomous_cyber_defense_systems",
+  "strategy_name": "ai_driven_cyber_defense",
+  "processed_at": "2025-08-07T15:56:58.235571+00:00",
+  "total_papers": 1,
+  "papers": [
+    {
+      "title": "Markov Decision Process For Automatic Cyber Defense",
+      "authors": [
+        "Xiaofan Zhou",
+        "Simon Yusuf Enoch",
+        "Dong Seong Kim"
+      ],
+      "abstract": "It is challenging for a security analyst to detect or defend against cyber-attacks. Moreover, traditional defense deployment methods require the security analyst to manually enforce the defenses in the presence of uncertainties about the defense to deploy. As a result, it is essential to develop an automated and resilient defense deployment mechanism to thwart the new generation of attacks. In this paper, we propose a framework based on Markov Decision Process (MDP) and Q-learning to automatically generate optimal defense solutions for networked system states. The framework consists of four phases namely; the model initialization phase, model generation phase, Q-learning phase, and the conclusion phase. The proposed model collects real network information as inputs and then builds them into structural data. We implement a Q-learning process in the model to learn the quality of a defense action in a particular state. To investigate the feasibility of the proposed model, we perform simulation experiments and the result reveals that the model can reduce the risk of network systems from cyber attacks. Furthermore, the experiment shows that the model has shown a certain level of flexibility when different parameters are used for Q-learning.",
+      "publication_date": "2022-07-12T09:58:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.05436v2.pdf"
+    }
+  ]
+}

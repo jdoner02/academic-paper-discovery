@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Staff_Scheduling_for_Demand-Responsive_Services",
+  "paper_title": "Staff Scheduling for Demand-Responsive Services",
+  "concepts": [
+    {
+      "text": "shifts",
+      "frequency": 83,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.927142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shift",
+      "frequency": 127,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.941611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "total",
+      "frequency": 53,
+      "relevance_score": 0.7850200336047564,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.935562+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reward",
+      "frequency": 48,
+      "relevance_score": 0.7203955021326095,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.936238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimum",
+      "frequency": 46,
+      "relevance_score": 0.6945456895437507,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.002822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demand",
+      "frequency": 45,
+      "relevance_score": 0.6816207832493214,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.934210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "supply",
+      "frequency": 45,
+      "relevance_score": 0.6816207832493214,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.956448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shift agnostic optimum",
+      "frequency": 29,
+      "relevance_score": 0.6748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.112274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t t",
+      "frequency": 35,
+      "relevance_score": 0.6523717203050279,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.043566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 40,
+      "relevance_score": 0.6169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.923772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shift plan",
+      "frequency": 29,
+      "relevance_score": 0.5748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.034160+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shift agnostic",
+      "frequency": 29,
+      "relevance_score": 0.5748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.069487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agnostic optimum",
+      "frequency": 29,
+      "relevance_score": 0.5748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.069710+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "staff",
+      "frequency": 36,
+      "relevance_score": 0.5652966265994571,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.923426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demand modelling step",
+      "frequency": 8,
+      "relevance_score": 0.5533992503554349,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.100021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "function",
+      "frequency": 35,
+      "relevance_score": 0.5523717203050278,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.928045+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "step",
+      "frequency": 35,
+      "relevance_score": 0.5523717203050278,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.955318+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demand modelling",
+      "frequency": 15,
+      "relevance_score": 0.5438735944164405,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.036394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "constraints",
+      "frequency": 33,
+      "relevance_score": 0.5265219077161691,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.928717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "separate demand modelling",
+      "frequency": 4,
+      "relevance_score": 0.5016996251777175,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.122590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drivers",
+      "frequency": 30,
+      "relevance_score": 0.48774718883288093,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.982719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modelling",
+      "frequency": 18,
+      "relevance_score": 0.48264831329972857,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.939341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "staff scheduling process",
+      "frequency": 2,
+      "relevance_score": 0.4758498125888587,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.099576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shift planning process",
+      "frequency": 2,
+      "relevance_score": 0.4758498125888587,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.101355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "plan",
+      "frequency": 29,
+      "relevance_score": 0.4748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:56.941834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agnostic",
+      "frequency": 29,
+      "relevance_score": 0.4748222825384516,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.002598+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "staff scheduling",
+      "frequency": 21,
+      "relevance_score": 0.4714230321830167,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.028711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modelling step",
+      "frequency": 9,
+      "relevance_score": 0.46632415664986426,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.036838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 24 48",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.117407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "24 48 72",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.117629+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "48 72 96",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.117851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "72 96 120",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.118072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 120 144",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.118300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "120 144 168",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.118521+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "144 168 time0",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.118743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "168 time0 000",
+      "frequency": 4,
+      "relevance_score": 0.45169962517771745,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.118964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demand mod- elling",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.100243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maxtx t 1ft",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.104492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yt dt 1",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.105603+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dt 1 e",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.105825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 e ayt",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.106046+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tx t 1xt",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.106713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t 1xt sn",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.106935+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "δ β 1xτ",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.107827+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t 1ft yt",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.110939+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 5 δ",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.116078+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 δ 8",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.116299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "δ 8 β",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.116521+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "num drivers0 00",
+      "frequency": 3,
+      "relevance_score": 0.4387747188832881,
+      "source_papers": [
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.120909+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:37:57.125920+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:37:57.126091+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization",
+  "paper_title": "Accelerating Framework of Transformer by Hardware Design and Model Compression Co-Optimization",
+  "concepts": [
+    {
+      "text": "sparsity",
+      "frequency": 67,
+      "relevance_score": 0.9369768894440974,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.743697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 51,
+      "relevance_score": 0.7371018113678951,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.737595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 48,
+      "relevance_score": 0.6996252342286071,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.727932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pruning",
+      "frequency": 45,
+      "relevance_score": 0.6621486570893191,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.744401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transformer",
+      "frequency": 44,
+      "relevance_score": 0.6496564647095565,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.727696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 29,
+      "relevance_score": 0.6122735790131169,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.727457+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matrix",
+      "frequency": 41,
+      "relevance_score": 0.6121798875702685,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.745340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware closed-loop framework",
+      "frequency": 3,
+      "relevance_score": 0.5874765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.000346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "closed-loop acceleration framework",
+      "frequency": 2,
+      "relevance_score": 0.5749843847595253,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.994884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sparsity ratio",
+      "frequency": 29,
+      "relevance_score": 0.5622735790131168,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.890164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 36,
+      "relevance_score": 0.5497189256714554,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.742289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "achieve",
+      "frequency": 35,
+      "relevance_score": 0.5372267332916927,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.751882+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 9,
+      "relevance_score": 0.5124297314178639,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.008854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "natural language processing",
+      "frequency": 4,
+      "relevance_score": 0.49996876951905056,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.997333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 1",
+      "frequency": 8,
+      "relevance_score": 0.4999375390381011,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.008525+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 32,
+      "relevance_score": 0.4997501561524047,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.746746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "closed-loop framework",
+      "frequency": 3,
+      "relevance_score": 0.48747657713928794,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.905707+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0",
+      "frequency": 15,
+      "relevance_score": 0.4873828856964397,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.930688+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ratio",
+      "frequency": 31,
+      "relevance_score": 0.4872579637726421,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.743932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transformer-based models",
+      "frequency": 2,
+      "relevance_score": 0.4749843847595253,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.884656+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language processing emnlp",
+      "frequency": 2,
+      "relevance_score": 0.4749843847595253,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.026921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 13,
+      "relevance_score": 0.4623985009369145,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.930920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "frequency": 13,
+      "relevance_score": 0.4623985009369144,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.021775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 17,
+      "relevance_score": 0.46236727045596504,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.732049+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 29,
+      "relevance_score": 0.46227357901311683,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.733408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sparse",
+      "frequency": 29,
+      "relevance_score": 0.46227357901311683,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.745106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 0",
+      "frequency": 4,
+      "relevance_score": 0.4499687695190506,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.009089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 1",
+      "frequency": 4,
+      "relevance_score": 0.4499687695190506,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.009418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 0",
+      "frequency": 4,
+      "relevance_score": 0.4499687695190506,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.010214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "acceleration framework",
+      "frequency": 8,
+      "relevance_score": 0.4499375390381012,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.888689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware- friendly block",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.002297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 5 6",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.004556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 1",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.009650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 1",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.009981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "312 5 312",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.010782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 312 5",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.011107+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "85 0 86",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.019913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 86 45",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.020144+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e h -m",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.029490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h -m sha",
+      "frequency": 3,
+      "relevance_score": 0.4374765771392879,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.029721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 27,
+      "relevance_score": 0.4372891942535915,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.728173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware closed-loop acceleration",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:09.994644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware closed- loop",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.000019+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block 4 6",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.005121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csr bcsr tile-bitmap",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.006845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bcsr tile-bitmap mbr",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.007171+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 2",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.007964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 1 2",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.008293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 4 1",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.010548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 2,
+      "relevance_score": 0.42498438475952527,
+      "source_papers": [
+        "local/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model_Compression_Co-Optimization"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:10.011339+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:10.031254+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:10.031446+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

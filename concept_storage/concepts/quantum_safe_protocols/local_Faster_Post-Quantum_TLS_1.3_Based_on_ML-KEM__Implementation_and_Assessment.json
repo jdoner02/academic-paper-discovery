@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment",
+  "paper_title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM  Implementation and Assessment",
+  "concepts": [
+    {
+      "text": "tls",
+      "frequency": 107,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.655758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml-kem",
+      "frequency": 81,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.656021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1",
+      "frequency": 62,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.831600+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3",
+      "frequency": 65,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.831839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1 3",
+      "frequency": 62,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.000935+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "avx-512",
+      "frequency": 56,
+      "relevance_score": 0.8430129750832471,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.672844+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "implementation",
+      "frequency": 61,
+      "relevance_score": 0.8004248478585371,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.656283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 46,
+      "relevance_score": 0.7281892295326673,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.655485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 45,
+      "relevance_score": 0.6167068549776094,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.661480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pq-tls handshake protocols",
+      "frequency": 2,
+      "relevance_score": 0.572964749110116,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.005455+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 41,
+      "relevance_score": 0.5707773567573775,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.667646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum tls 1",
+      "frequency": 12,
+      "relevance_score": 0.5377884946606958,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.000691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "into tls 1",
+      "frequency": 12,
+      "relevance_score": 0.5377884946606958,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.003374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑓𝑗 𝑙𝑒𝑛 2",
+      "frequency": 12,
+      "relevance_score": 0.5377884946606958,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.017974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 24,
+      "relevance_score": 0.5255769893213917,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.663115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "faster post-quantum tls",
+      "frequency": 10,
+      "relevance_score": 0.5148237455505799,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.000451+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3 handshake",
+      "frequency": 10,
+      "relevance_score": 0.5148237455505799,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.006224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pq-tls",
+      "frequency": 27,
+      "relevance_score": 0.5100241129865656,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.663815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ϵr o 1",
+      "frequency": 9,
+      "relevance_score": 0.5033413709955219,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.100494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "handshake",
+      "frequency": 35,
+      "relevance_score": 0.5018831094270295,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.666790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 48 32",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.063480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 49 33",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.064213+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 50 34",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.065211+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 51 35",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.066174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "51 35 19",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.066415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 52 36",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.067149+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 53 37",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.068126+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "53 37 21",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.068365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 54 38",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.069085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "54 38 22",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.069323+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 55 39",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.070065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "55 39 23",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.070322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8 56 40",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.071087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9 57 41",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.071868+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "57 41 25",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.072121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 58 42",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.072912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "58 42 26",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.073170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11 59 43",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.073945+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "59 43 27",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.074189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "12 60 44",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.074915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 44 28",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.075163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "13 61 45",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.075909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "61 45 29",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.076155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "14 62 46",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.076888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "62 46 30",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.077135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "15 47 31",
+      "frequency": 8,
+      "relevance_score": 0.4918589964404638,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.077884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms into tls",
+      "frequency": 3,
+      "relevance_score": 0.48444712366517395,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.001415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federal information processing",
+      "frequency": 3,
+      "relevance_score": 0.48444712366517395,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.121523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information processing standards",
+      "frequency": 3,
+      "relevance_score": 0.48444712366517395,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:02.121769+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "avx-512 implementation",
+      "frequency": 16,
+      "relevance_score": 0.48371799288092776,
+      "source_papers": [
+        "local/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM__Implementation_and_Assessment"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:01.839487+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:02.123101+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:02.123294+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

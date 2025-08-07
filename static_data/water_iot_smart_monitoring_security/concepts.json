@@ -1,0 +1,1439 @@
+{
+  "domain": "water_iot_smart_monitoring_security",
+  "concepts": [
+    {
+      "text": "sensor",
+      "total_frequency": 1345,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment",
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key",
+      "total_frequency": 957,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 939,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot",
+      "total_frequency": 922,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs",
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 916,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory",
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "networks",
+      "total_frequency": 686,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "devices",
+      "total_frequency": 600,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nodes",
+      "total_frequency": 588,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless",
+      "total_frequency": 582,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "node",
+      "total_frequency": 485,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 462,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs",
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "energy",
+      "total_frequency": 459,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "query",
+      "total_frequency": 367,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocol",
+      "total_frequency": 359,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "encryption",
+      "total_frequency": 353,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ua v",
+      "total_frequency": 353,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "100",
+      "total_frequency": 325,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "device",
+      "total_frequency": 324,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "authentication",
+      "total_frequency": 313,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 308,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "smart",
+      "total_frequency": 304,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "keys",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 287,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ieee",
+      "total_frequency": 244,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "jedi",
+      "total_frequency": 242,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sink",
+      "total_frequency": 237,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensor networks",
+      "total_frequency": 232,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensors",
+      "total_frequency": 228,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "communication",
+      "total_frequency": 225,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "100 100",
+      "total_frequency": 209,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "secure",
+      "total_frequency": 195,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "routing",
+      "total_frequency": 195,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "users",
+      "total_frequency": 165,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless sensor",
+      "total_frequency": 164,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rules",
+      "total_frequency": 162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "data-capture",
+      "total_frequency": 159,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "100 100 100",
+      "total_frequency": 153,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attestation",
+      "total_frequency": 151,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment",
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "message",
+      "total_frequency": 148,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot devices",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wkd-ibe",
+      "total_frequency": 142,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "collection",
+      "total_frequency": 139,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensor nodes",
+      "total_frequency": 130,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "channel",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "chunk",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "biometric",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "trust",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ble",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "data-capture rules",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "blockchain",
+      "total_frequency": 121,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocols",
+      "total_frequency": 120,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "-based",
+      "total_frequency": 120,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "fingerprint",
+      "total_frequency": 120,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sealing",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "scheme",
+      "total_frequency": 118,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "high",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pairing",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "path",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless sensor networks",
+      "total_frequency": 111,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "monitoring",
+      "total_frequency": 111,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensor node",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2018",
+      "total_frequency": 108,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pattern",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "management",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 105,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+        "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "access",
+      "total_frequency": 105,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "size",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "function",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uri",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "processing",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+        "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "privacy",
+      "total_frequency": 96,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "messages",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ecg",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "enclave",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key management",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+        "local/Complete_Security_Framework_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "use",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "task",
+      "total_frequency": 89,
+      "avg_relevance": 0.89,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "adversary",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacks",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+        "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+        "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "query path",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "swarm",
+      "total_frequency": 85,
+      "avg_relevance": 0.85,
+      "source_papers": [
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "training",
+      "total_frequency": 82,
+      "avg_relevance": 0.82,
+      "source_papers": [
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+        "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "camera",
+      "total_frequency": 82,
+      "avg_relevance": 0.82,
+      "source_papers": [
+        "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "verify",
+      "total_frequency": 82,
+      "avg_relevance": 0.82,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "drone",
+      "total_frequency": 78,
+      "avg_relevance": 0.78,
+      "source_papers": [
+        "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "internet",
+      "total_frequency": 77,
+      "avg_relevance": 0.77,
+      "source_papers": [
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things",
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "power",
+      "total_frequency": 76,
+      "avg_relevance": 0.76,
+      "source_papers": [
+        "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+        "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+        "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "transmission",
+      "total_frequency": 74,
+      "avg_relevance": 0.74,
+      "source_papers": [
+        "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "usa",
+      "total_frequency": 73,
+      "avg_relevance": 0.73,
+      "source_papers": [
+        "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "firmware",
+      "total_frequency": 72,
+      "avg_relevance": 0.72,
+      "source_papers": [
+        "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "learning",
+      "total_frequency": 72,
+      "avg_relevance": 0.72,
+      "source_papers": [
+        "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+        "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sealing function",
+      "total_frequency": 72,
+      "avg_relevance": 0.72,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+        "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "healthcare",
+      "total_frequency": 71,
+      "avg_relevance": 0.71,
+      "source_papers": [
+        "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "water",
+      "total_frequency": 67,
+      "avg_relevance": 0.67,
+      "source_papers": [
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cluster",
+      "total_frequency": 67,
+      "avg_relevance": 0.67,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "notary",
+      "total_frequency": 67,
+      "avg_relevance": 0.67,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "verification",
+      "total_frequency": 67,
+      "avg_relevance": 0.67,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "irrigation",
+      "total_frequency": 66,
+      "avg_relevance": 0.66,
+      "source_papers": [
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "things",
+      "total_frequency": 66,
+      "avg_relevance": 0.66,
+      "source_papers": [
+        "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+        "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+        "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+        "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network": {
+      "id": "local/Identity-based_Trusted_Authentication_in_Wireless_Sensor_Network",
+      "title": "Identity-based Trusted Authentication in Wireless Sensor Network",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App": {
+      "id": "local/A_Comprehensive_Framework_for_Building_Highly_Secure__Network-Connected_Devices__Chip_to_App",
+      "title": "A Comprehensive Framework for Building Highly Secure  Network-Connected Devices  Chip to App",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things": {
+      "id": "local/Smart_Water_Irrigation_for_Rice_Farming_through_the_Internet_of_Things",
+      "title": "Smart Water Irrigation for Rice Farming through the Internet of Things",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...": {
+      "id": "local/TRIFECTA__Security__Energy-Efficiency__and_Communication_Capacity_Comparison_for_Wireless_IoT_Dev...",
+      "title": "TRIFECTA  Security  Energy-Efficiency  and Communication Capacity Comparison for Wireless IoT Dev...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT": {
+      "id": "local/A_Hybrid_Algorithm_to_Enhance_Wireless_Sensor_Networks_security_on_the_IoT",
+      "title": "A Hybrid Algorithm to Enhance Wireless Sensor Networks security on the IoT",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks": {
+      "id": "local/Analysis_of_the_attack_and_its_solution_in_wireless_sensor_networks",
+      "title": "Analysis of the attack and its solution in wireless sensor networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks": {
+      "id": "local/Cryptography_and_Key_Management_Schemes_for_Wireless_Sensor_Networks",
+      "title": "Cryptography and Key Management Schemes for Wireless Sensor Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices": {
+      "id": "local/DatChain_--_Blockchain_implementation_in_Data_transfer_for_IoT_Devices",
+      "title": "DatChain -- Blockchain implementation in Data transfer for IoT Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors": {
+      "id": "local/Backscattering-Based_Security_in_Wireless_Power_Transfer_Applied_to_Battery-Free_BLE_Sensors",
+      "title": "Backscattering-Based Security in Wireless Power Transfer Applied to Battery-Free BLE Sensors",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks": {
+      "id": "local/Reliable_and_Efficient_Data_Collection_in_UAV-based_IoT_Networks",
+      "title": "Reliable and Efficient Data Collection in UAV-based IoT Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory": {
+      "id": "local/Swarm-Net__Firmware_Attestation_in_IoT_Swarms_using_Graph_Neural_Networks_and_Volatile_Memory",
+      "title": "Swarm-Net  Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors": {
+      "id": "local/ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors",
+      "title": "ECG Biometric Authentication Using Self-Supervised Learning for IoT Edge Sensors",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices": {
+      "id": "local/Towards_Motion_Invariant_Authentication_for_On-Body_IoT_Devices",
+      "title": "Towards Motion Invariant Authentication for On-Body IoT Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network": {
+      "id": "local/Efficient_Data_Collection_Over_Multiple_Access_Wireless_Sensors_Network",
+      "title": "Efficient Data Collection Over Multiple Access Wireless Sensors Network",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices": {
+      "id": "local/A_decentralized_approach_towards_secure_firmware_updates_and_testing_over_commercial_IoT_Devices",
+      "title": "A decentralized approach towards secure firmware updates and testing over commercial IoT Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures": {
+      "id": "local/Smart_Wireless_Communication_is_the_Cornerstone_of_Smart_Infrastructures",
+      "title": "Smart Wireless Communication is the Cornerstone of Smart Infrastructures",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats": {
+      "id": "local/BLE_Protocol_in_IoT_Devices_and_Smart_Wearable_Devices__Security_and_Privacy_Threats",
+      "title": "BLE Protocol in IoT Devices and Smart Wearable Devices  Security and Privacy Threats",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs": {
+      "id": "local/Enabling_End-to-End_Secure_Connectivity_for_Low-Power_IoT_Devices_with_UAVs",
+      "title": "Enabling End-to-End Secure Connectivity for Low-Power IoT Devices with UAVs",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras": {
+      "id": "local/A_Review-based_Taxonomy_for_Secure_Health_Care_Monitoring__Wireless_Smart_Cameras",
+      "title": "A Review-based Taxonomy for Secure Health Care Monitoring  Wireless Smart Cameras",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing": {
+      "id": "local/Swipe2Pair__Secure_and_Fast_In-Band_Wireless_Device_Pairing",
+      "title": "Swipe2Pair  Secure and Fast In-Band Wireless Device Pairing",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT": {
+      "id": "local/JEDI__Many-to-Many_End-to-End_Encryption_and_Key_Delegation_for_IoT",
+      "title": "JEDI  Many-to-Many End-to-End Encryption and Key Delegation for IoT",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks": {
+      "id": "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+      "title": "An Energy Efficient Routing Protocol for Wireless Internet-of-Things Sensor Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic": {
+      "id": "local/A_Smart_Home_is_No_Castle__Privacy_Vulnerabilities_of_Encrypted_IoT_Traffic",
+      "title": "A Smart Home is No Castle  Privacy Vulnerabilities of Encrypted IoT Traffic",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment": {
+      "id": "local/IoT_Notary__Sensor_Data_Attestation_in_Smart_Environment",
+      "title": "IoT Notary  Sensor Data Attestation in Smart Environment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication": {
+      "id": "local/Fingerprinting_Analog_IoT_Sensors_for_Secret-Free_Authentication",
+      "title": "Fingerprinting Analog IoT Sensors for Secret-Free Authentication",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...": {
+      "id": "local/Rethinking_IoT_Security__A_Protocol_Based_on_Blockchain_Smart_Contracts_for_Secure_and_Automated_...",
+      "title": "Rethinking IoT Security  A Protocol Based on Blockchain Smart Contracts for Secure and Automated ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors": {
+      "id": "local/From_Seaweed_to_Security__The_Emergence_of_Alginate_in_Compromising_IoT_Fingerprint_Sensors",
+      "title": "From Seaweed to Security  The Emergence of Alginate in Compromising IoT Fingerprint Sensors",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments": {
+      "id": "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+      "title": "IoT Notary  Attestable Sensor Data Capture in IoT Environments",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network": {
+      "id": "local/Study_of_a_new_link_layer_security_scheme_in_a_wireless_sensor_network",
+      "title": "Study of a new link layer security scheme in a wireless sensor network",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Complete_Security_Framework_for_Wireless_Sensor_Networks": {
+      "id": "local/Complete_Security_Framework_for_Wireless_Sensor_Networks",
+      "title": "Complete Security Framework for Wireless Sensor Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks": {
+      "id": "local/A_General_Purpose_Data_and_Query_Privacy_Preserving_Protocol_for_Wireless_Sensor_Networks",
+      "title": "A General Purpose Data and Query Privacy Preserving Protocol for Wireless Sensor Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...": {
+      "id": "local/Securing_IoT_Communication_using_Physical_Sensor_Data_--_Graph_Layer_Security_with_Federated_Mult...",
+      "title": "Securing IoT Communication using Physical Sensor Data -- Graph Layer Security with Federated Mult...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks": {
+      "id": "local/Energy_Efficient_Security_Architecture_for_Wireless_BioMedical_Sensor_Networks",
+      "title": "Energy Efficient Security Architecture for Wireless BioMedical Sensor Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1230,
+    "total_papers": 33,
+    "avg_concepts_per_paper": 37.27272727272727
+  }
+}

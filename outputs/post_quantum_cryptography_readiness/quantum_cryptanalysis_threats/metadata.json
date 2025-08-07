@@ -1,0 +1,268 @@
+{
+  "processing_metadata": {
+    "processed_at": "2025-08-07T16:22:00.461309+00:00",
+    "processor_version": "1.0.0",
+    "max_papers_limit": 50,
+    "deduplication_enabled": true,
+    "concept_extraction_enabled": true
+  },
+  "strategy_metadata": {
+    "config_name": "post_quantum_cryptography_readiness",
+    "strategy_name": "quantum_cryptanalysis_threats",
+    "papers_found": 26
+  },
+  "file_structure": {
+    "papers_file": "papers.json",
+    "metadata_file": "metadata.json",
+    "concepts_file": "concepts.json",
+    "hierarchy_file": "concept_hierarchy.json"
+  },
+  "last_download_date": "2025-08-07T16:22:00.461309+00:00",
+  "downloaded_papers": {
+    "title:performance and storage analysis of crystals kyber as a post quantum   replacement for rsa and ecc": {
+      "title": "Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum   Replacement for RSA and ECC",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Performance_and_Storage_Analysis_of_CRYSTALS_Kyber_as_a_Post_Quantum___Replacement_for_RSA_and_ECC.pdf"
+    },
+    "title:evaluating post-quantum cryptographic algorithms on resource-constrained   devices": {
+      "title": "Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained   Devices",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Evaluating_Post-Quantum_Cryptographic_Algorithms_on_Resource-Constrained___Devices.pdf"
+    },
+    "title:a comparative study of classical and post-quantum cryptographic   algorithms in the era of quantum computing": {
+      "title": "A Comparative Study of Classical and Post-Quantum Cryptographic   Algorithms in the Era of Quantum Computing",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/A_Comparative_Study_of_Classical_and_Post-Quantum_Cryptographic___Algorithms_in_the_Era_of_Quantum_Computing.pdf"
+    },
+    "title:the hashed fractal key recovery (hfkr) problem: from symbolic path   inversion to post-quantum cryptographic keys": {
+      "title": "The Hashed Fractal Key Recovery (HFKR) Problem: From Symbolic Path   Inversion to Post-Quantum Cryptographic Keys",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/The_Hashed_Fractal_Key_Recovery_(HFKR)_Problem:_From_Symbolic_Path___Inversion_to_Post-Quantum_Cryptographic_Keys.pdf"
+    },
+    "title:towards quantum resilience: data-driven migration strategy design": {
+      "title": "Towards Quantum Resilience: Data-Driven Migration Strategy Design",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Towards_Quantum_Resilience:_Data-Driven_Migration_Strategy_Design.pdf"
+    },
+    "title:qubit optimized quantum implementation of slim": {
+      "title": "Qubit Optimized Quantum Implementation of SLIM",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Qubit_Optimized_Quantum_Implementation_of_SLIM.pdf"
+    },
+    "10.1016/j.cose.2024.104272": {
+      "title": "Evaluation Framework for Quantum Security Risk Assessment: A   Comprehensive Strategy for Quantum-Safe Transition",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Evaluation_Framework_for_Quantum_Security_Risk_Assessment:_A___Comprehensive_Strategy_for_Quantum-Safe_Transition.pdf"
+    },
+    "title:post-quantum cryptography: securing digital communication in the quantum   era": {
+      "title": "Post-Quantum Cryptography: Securing Digital Communication in the Quantum   Era",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Post-Quantum_Cryptography:_Securing_Digital_Communication_in_the_Quantum___Era.pdf"
+    },
+    "10.1145/3718349": {
+      "title": "Hacking Cryptographic Protocols with Advanced Variational Quantum   Attacks",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Hacking_Cryptographic_Protocols_with_Advanced_Variational_Quantum___Attacks.pdf"
+    },
+    "title:designing hash and encryption engines using quantum computing": {
+      "title": "Designing Hash and Encryption Engines using Quantum Computing",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Designing_Hash_and_Encryption_Engines_using_Quantum_Computing.pdf"
+    },
+    "title:simulating noisy quantum circuits for cryptographic algorithms": {
+      "title": "Simulating Noisy Quantum Circuits for Cryptographic Algorithms",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Simulating_Noisy_Quantum_Circuits_for_Cryptographic_Algorithms.pdf"
+    },
+    "title:minimizing cnot-count in quantum circuit of the extended shor's   algorithm for ecdlp": {
+      "title": "Minimizing CNOT-count in quantum circuit of the extended Shor's   algorithm for ECDLP",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Minimizing_CNOT-count_in_quantum_circuit_of_the_extended_Shor's___algorithm_for_ECDLP.pdf"
+    },
+    "title:factoring integers with sublinear resources on a superconducting quantum   processor": {
+      "title": "Factoring integers with sublinear resources on a superconducting quantum   processor",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Factoring_integers_with_sublinear_resources_on_a_superconducting_quantum___processor.pdf"
+    },
+    "title:post-quantum cryptography algorithms standardization and performance   analysis": {
+      "title": "Post-Quantum Cryptography Algorithms Standardization and Performance   Analysis",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance___Analysis.pdf"
+    },
+    "title:quantum collision finding for homomorphic hash functions": {
+      "title": "Quantum collision finding for homomorphic hash functions",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Quantum_collision_finding_for_homomorphic_hash_functions.pdf"
+    },
+    "10.1103/RevModPhys.94.015004": {
+      "title": "Noisy intermediate-scale quantum (NISQ) algorithms",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Noisy_intermediate-scale_quantum_(NISQ)_algorithms.pdf"
+    },
+    "title:benchmarking the quantum cryptanalysis of symmetric, public-key and   hash-based cryptographic schemes": {
+      "title": "Benchmarking the quantum cryptanalysis of symmetric, public-key and   hash-based cryptographic schemes",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Benchmarking_the_quantum_cryptanalysis_of_symmetric,_public-key_and___hash-based_cryptographic_schemes.pdf"
+    },
+    "title:quantum resource estimates for computing elliptic curve discrete   logarithms": {
+      "title": "Quantum resource estimates for computing elliptic curve discrete   logarithms",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Quantum_resource_estimates_for_computing_elliptic_curve_discrete___logarithms.pdf"
+    },
+    "10.1007/978-3-319-59879-6_20": {
+      "title": "Quantum algorithms for computing short discrete logarithms and factoring   RSA integers",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Quantum_algorithms_for_computing_short_discrete_logarithms_and_factoring___RSA_integers.pdf"
+    },
+    "10.13154/tosc.v2016.i1.71-94": {
+      "title": "Quantum Differential and Linear Cryptanalysis",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Quantum_Differential_and_Linear_Cryptanalysis.pdf"
+    },
+    "10.1038/nphoton.2012.259": {
+      "title": "Experimental realisation of Shor's quantum factoring algorithm using   qubit recycling",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Experimental_realisation_of_Shor's_quantum_factoring_algorithm_using___qubit_recycling.pdf"
+    },
+    "10.1016/j.physleta.2006.11.024": {
+      "title": "Threshold quantum cryptograph based on Grover's algorithm",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Threshold_quantum_cryptograph_based_on_Grover's_algorithm.pdf"
+    },
+    "title:shor's discrete logarithm quantum algorithm for elliptic curves": {
+      "title": "Shor's discrete logarithm quantum algorithm for elliptic curves",
+      "download_date": "2025-08-07T09:30:55.974638+00:00",
+      "file_path": "pdfs/Shor's_discrete_logarithm_quantum_algorithm_for_elliptic_curves.pdf"
+    },
+    "title:implementing and evaluating post-quantum dnssec in coredns": {
+      "title": "Implementing and Evaluating Post-Quantum DNSSEC in CoreDNS",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS.pdf"
+    },
+    "title:cryptoscope: analyzing cryptographic usages in modern software": {
+      "title": "Cryptoscope: Analyzing cryptographic usages in modern software",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Cryptoscope:_Analyzing_cryptographic_usages_in_modern_software.pdf"
+    },
+    "title:quantum resource estimates for computing binary elliptic curve discrete   logarithms": {
+      "title": "Quantum resource estimates for computing binary elliptic curve discrete   logarithms",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete___logarithms.pdf"
+    },
+    "title:blockchain security risk assessment in quantum era, migration strategies   and proactive defense": {
+      "title": "Blockchain Security Risk Assessment in Quantum Era, Migration Strategies   and Proactive Defense",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Blockchain_Security_Risk_Assessment_in_Quantum_Era,_Migration_Strategies___and_Proactive_Defense.pdf"
+    },
+    "title:enhancing transportation cyber-physical systems security: a shift to   post-quantum cryptography": {
+      "title": "Enhancing Transportation Cyber-Physical Systems Security: A Shift to   Post-Quantum Cryptography",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Enhancing_Transportation_Cyber-Physical_Systems_Security:_A_Shift_to___Post-Quantum_Cryptography.pdf"
+    },
+    "title:post-quantum secure ue-to-ue communications": {
+      "title": "Post-Quantum Secure UE-to-UE Communications",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Post-Quantum_Secure_UE-to-UE_Communications.pdf"
+    },
+    "title:a security assessment tool for quantum threat analysis": {
+      "title": "A Security Assessment tool for Quantum Threat Analysis",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/A_Security_Assessment_tool_for_Quantum_Threat_Analysis.pdf"
+    },
+    "title:a quantum automatic tool for finding impossible differentials": {
+      "title": "A Quantum Automatic Tool for Finding Impossible Differentials",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/A_Quantum_Automatic_Tool_for_Finding_Impossible_Differentials.pdf"
+    },
+    "10.34190/eccws.23.1.2247": {
+      "title": "Applications of Post-quantum Cryptography",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Applications_of_Post-quantum_Cryptography.pdf"
+    },
+    "title:a cryptographic perspective on the verifiability of quantum advantage": {
+      "title": "A Cryptographic Perspective on the Verifiability of Quantum Advantage",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/A_Cryptographic_Perspective_on_the_Verifiability_of_Quantum_Advantage.pdf"
+    },
+    "10.3389/frqst.2023.1164428": {
+      "title": "Deploying hybrid quantum-secured infrastructure for applications: When   quantum and post-quantum can work together",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Deploying_hybrid_quantum-secured_infrastructure_for_applications:_When___quantum_and_post-quantum_can_work_together.pdf"
+    },
+    "10.1109/QCE53715.2022.00083": {
+      "title": "Quantum Telecloning on NISQ Computers",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_Telecloning_on_NISQ_Computers.pdf"
+    },
+    "10.1109/TQE.2022.3233526": {
+      "title": "Applying Grover's Algorithm to Hash Functions: A Software Perspective",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Applying_Grover's_Algorithm_to_Hash_Functions:_A_Software_Perspective.pdf"
+    },
+    "title:post quantum cryptography: techniques, challenges, standardization, and   directions for future research": {
+      "title": "Post Quantum Cryptography: Techniques, Challenges, Standardization, and   Directions for Future Research",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Post_Quantum_Cryptography:_Techniques,_Challenges,_Standardization,_and___Directions_for_Future_Research.pdf"
+    },
+    "title:quantum solutions to possible challenges of blockchain technology": {
+      "title": "Quantum solutions to possible challenges of Blockchain technology",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_solutions_to_possible_challenges_of_Blockchain_technology.pdf"
+    },
+    "10.1007/978-3-030-34578-5_20": {
+      "title": "Quantum Attacks without Superposition Queries: the Offline Simon's   Algorithm",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_Attacks_without_Superposition_Queries:_the_Offline_Simon's___Algorithm.pdf"
+    },
+    "title:identifying research challenges in post quantum cryptography migration   and cryptographic agility": {
+      "title": "Identifying Research Challenges in Post Quantum Cryptography Migration   and Cryptographic Agility",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration___and_Cryptographic_Agility.pdf"
+    },
+    "10.1103/PhysRevApplied.13.054062": {
+      "title": "Quantum Advantage in Cryptography with a Low-Connectivity Quantum   Annealer",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_Advantage_in_Cryptography_with_a_Low-Connectivity_Quantum___Annealer.pdf"
+    },
+    "title:quantum differential cryptanalysis": {
+      "title": "Quantum Differential Cryptanalysis",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_Differential_Cryptanalysis.pdf"
+    },
+    "title:quantum speedup in stoquastic adiabatic quantum computation": {
+      "title": "Quantum speedup in stoquastic adiabatic quantum computation",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_speedup_in_stoquastic_adiabatic_quantum_computation.pdf"
+    },
+    "title:quantum impossible differential and truncated differential cryptanalysis": {
+      "title": "Quantum impossible differential and truncated differential cryptanalysis",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_impossible_differential_and_truncated_differential_cryptanalysis.pdf"
+    },
+    "10.1007/978-3-662-53008-5_8": {
+      "title": "Breaking Symmetric Cryptosystems using Quantum Period Finding",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Breaking_Symmetric_Cryptosystems_using_Quantum_Period_Finding.pdf"
+    },
+    "10.1117/12.546504": {
+      "title": "Distributed quantum computing: A distributed Shor algorithm",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Distributed_quantum_computing:_A_distributed_Shor_algorithm.pdf"
+    },
+    "title:asymmetrical quantum cryptographic algorithm": {
+      "title": "Asymmetrical Quantum Cryptographic Algorithm",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Asymmetrical_Quantum_Cryptographic_Algorithm.pdf"
+    },
+    "title:quantum computing and shor`s factoring algorithm": {
+      "title": "Quantum Computing and Shor`s Factoring Algorithm",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Quantum_Computing_and_Shor`s_Factoring_Algorithm.pdf"
+    },
+    "title:shor's quantum factoring algorithm": {
+      "title": "Shor's Quantum Factoring Algorithm",
+      "download_date": "2025-08-07T16:22:00.461309+00:00",
+      "file_path": "pdfs/Shor's_Quantum_Factoring_Algorithm.pdf"
+    }
+  }
+}

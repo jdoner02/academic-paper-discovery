@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning",
+  "paper_title": "Adaptive Power System Emergency Control using Deep Reinforcement Learning",
+  "concepts": [
+    {
+      "text": "power",
+      "frequency": 101,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.885759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 78,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.886071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 148,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.886654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drl",
+      "frequency": 93,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.899916+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system",
+      "frequency": 42,
+      "relevance_score": 0.7690780283376571,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.096787+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "load",
+      "frequency": 64,
+      "relevance_score": 0.7385950908002394,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.906704+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 61,
+      "relevance_score": 0.7086609459189782,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.958717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emergency",
+      "frequency": 52,
+      "relevance_score": 0.6188585112751945,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.886367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emergency control",
+      "frequency": 40,
+      "relevance_score": 0.5991219317501497,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.097353+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 50,
+      "relevance_score": 0.5989024146876871,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.887511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "two-area four-machine system",
+      "frequency": 3,
+      "relevance_score": 0.5799341448812613,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.221565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 39-bus system",
+      "frequency": 3,
+      "relevance_score": 0.5799341448812613,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.221846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large-scale power systems",
+      "frequency": 3,
+      "relevance_score": 0.5799341448812613,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.224138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems",
+      "frequency": 23,
+      "relevance_score": 0.5794951107563361,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.102204+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "load shedding",
+      "frequency": 36,
+      "relevance_score": 0.5592097385751347,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.105342+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system control",
+      "frequency": 9,
+      "relevance_score": 0.5398024346437836,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.220715+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 29,
+      "relevance_score": 0.5393634005188586,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.902341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system emergency",
+      "frequency": 7,
+      "relevance_score": 0.5198463380562762,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.217885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system emergency control",
+      "frequency": 6,
+      "relevance_score": 0.5098682897625224,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.218172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 25,
+      "relevance_score": 0.4994512073438435,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.904957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "39-bus system",
+      "frequency": 4,
+      "relevance_score": 0.489912193175015,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.107130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drl algorithms",
+      "frequency": 14,
+      "relevance_score": 0.4896926761125524,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.103920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "four-machine system",
+      "frequency": 3,
+      "relevance_score": 0.4799341448812613,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.106486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "benchmarking drl algorithms",
+      "frequency": 3,
+      "relevance_score": 0.4799341448812612,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.226486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system dynamic",
+      "frequency": 3,
+      "relevance_score": 0.4799341448812612,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.233315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "buses 4 7",
+      "frequency": 7,
+      "relevance_score": 0.4698463380562762,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.252053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reinforcement learning",
+      "frequency": 27,
+      "relevance_score": 0.46940730393135105,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.097942+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dynamic",
+      "frequency": 37,
+      "relevance_score": 0.4691877868688884,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.905814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shedding",
+      "frequency": 37,
+      "relevance_score": 0.4691877868688884,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.906988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 36,
+      "relevance_score": 0.4592097385751347,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:35.891866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "under-voltage load shedding",
+      "frequency": 4,
+      "relevance_score": 0.43991219317501495,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.221283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minfvi t 0",
+      "frequency": 4,
+      "relevance_score": 0.43991219317501495,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.240831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "conventional q-learning-based control",
+      "frequency": 4,
+      "relevance_score": 0.43991219317501495,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.250284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system control",
+      "frequency": 9,
+      "relevance_score": 0.43980243464378366,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.104207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-dimensional feature extraction",
+      "frequency": 3,
+      "relevance_score": 0.42993414488126125,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.219869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t 8t2 t0",
+      "frequency": 3,
+      "relevance_score": 0.42993414488126125,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.231554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8t2 t0 tc",
+      "frequency": 3,
+      "relevance_score": 0.42993414488126125,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.231836+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fault-induced delayed voltage",
+      "frequency": 3,
+      "relevance_score": 0.42993414488126125,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.237978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 s",
+      "frequency": 3,
+      "relevance_score": 0.42993414488126125,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.246899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "open-source platform named",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.220151+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drl-based emergency control",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.221001+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emergency con- trol",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.222129+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emer- gency control",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.222411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep learn- ing",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.224742+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "short-term voltage control",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.226190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rt st 1",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.228310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9 observe reward",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.229217+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state st 1",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.230706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "best-performance nn parameters",
+      "frequency": 2,
+      "relevance_score": 0.41995609658750743,
+      "source_papers": [
+        "local/Adaptive_Power_System_Emergency_Control_using_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:36.233941+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:04:36.260151+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:04:36.260332+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+  "paper_title": "Ransomware  Analysis and Evaluation of Live Forensic Techniques and the Impact on Linux based IoT...",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "frequency": 101,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.999692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux",
+      "frequency": 59,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.000300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 30,
+      "relevance_score": 0.9041648495420846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.000536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "were",
+      "frequency": 33,
+      "relevance_score": 0.819581334496293,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.012628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux ransomware",
+      "frequency": 23,
+      "relevance_score": 0.7015263846489315,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.053973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 26,
+      "relevance_score": 0.66694286960314,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.004438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2023",
+      "frequency": 21,
+      "relevance_score": 0.6579153946794593,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.011554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 24,
+      "relevance_score": 0.6233318796336677,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.000418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cl0p",
+      "frequency": 19,
+      "relevance_score": 0.6143044047099869,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.014047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 22,
+      "relevance_score": 0.5797208896641954,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.030672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2023 online available",
+      "frequency": 8,
+      "relevance_score": 0.5744439598778892,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.073139+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operating systems",
+      "frequency": 10,
+      "relevance_score": 0.5680549498473615,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.058269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux operating systems",
+      "frequency": 5,
+      "relevance_score": 0.5590274749236808,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.070279+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux systems",
+      "frequency": 9,
+      "relevance_score": 0.5462494548626254,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.052560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "live forensic techniques",
+      "frequency": 4,
+      "relevance_score": 0.5372219799389446,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows",
+      "frequency": 20,
+      "relevance_score": 0.536109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.001661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online available",
+      "frequency": 15,
+      "relevance_score": 0.5270824247710424,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.067311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux systems became",
+      "frequency": 3,
+      "relevance_score": 0.5154164849542084,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068383+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows operating systems",
+      "frequency": 3,
+      "relevance_score": 0.5154164849542084,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.070401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2023 online",
+      "frequency": 9,
+      "relevance_score": 0.4962494548626254,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.067194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems became interesting",
+      "frequency": 2,
+      "relevance_score": 0.4936109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "endangers iot ecosystems",
+      "frequency": 2,
+      "relevance_score": 0.4936109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot ecosystems whereas",
+      "frequency": 2,
+      "relevance_score": 0.4936109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ecosystems whereas many",
+      "frequency": 2,
+      "relevance_score": 0.4936109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.068911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "many iot systems",
+      "frequency": 2,
+      "relevance_score": 0.4936109899694723,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.069159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forensic",
+      "frequency": 18,
+      "relevance_score": 0.4924989097252508,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.999944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 18,
+      "relevance_score": 0.4924989097252508,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.017109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory",
+      "frequency": 18,
+      "relevance_score": 0.4924989097252508,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.023152+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 11,
+      "relevance_score": 0.4898604448320977,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.003831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware samples",
+      "frequency": 13,
+      "relevance_score": 0.48347143480157,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.062368+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forensic techniques",
+      "frequency": 6,
+      "relevance_score": 0.48083296990841695,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.051968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operating system",
+      "frequency": 6,
+      "relevance_score": 0.48083296990841695,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.056406+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 17,
+      "relevance_score": 0.4706934147405146,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.015496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "samples",
+      "frequency": 17,
+      "relevance_score": 0.4706934147405146,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.035619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "techniques",
+      "frequency": 10,
+      "relevance_score": 0.4680549498473615,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.000063+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux ransomware samples",
+      "frequency": 7,
+      "relevance_score": 0.45263846489315307,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.071250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operating",
+      "frequency": 16,
+      "relevance_score": 0.44888791975577846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.014548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "icefire",
+      "frequency": 16,
+      "relevance_score": 0.44888791975577846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.035737+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online",
+      "frequency": 16,
+      "relevance_score": 0.44888791975577846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.049796+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available",
+      "frequency": 16,
+      "relevance_score": 0.44888791975577846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.049915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ubuntu 20 04",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.071009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 04 6",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.071129+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardcoded rc4 master-key",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.071632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "icefire cl0p blackbasta",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.072671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019 online available",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.073255+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2022 online available",
+      "frequency": 2,
+      "relevance_score": 0.44361098996947235,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.073372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blackbasta",
+      "frequency": 15,
+      "relevance_score": 0.4270824247710423,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.023928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot systems",
+      "frequency": 3,
+      "relevance_score": 0.41541648495420846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.052092+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems became",
+      "frequency": 3,
+      "relevance_score": 0.41541648495420846,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.052677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "impact",
+      "frequency": 14,
+      "relevance_score": 0.40527692978630614,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT..."
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.000182+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:08:20.073707+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:08:20.073896+00:00",
+    "repository_version": "1.0",
+    "domain": "government_ransomware_defense"
+  }
+}

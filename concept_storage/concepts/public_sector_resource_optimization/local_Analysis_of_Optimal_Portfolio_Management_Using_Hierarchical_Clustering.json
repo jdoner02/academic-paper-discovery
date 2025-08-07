@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering",
+  "paper_title": "Analysis of Optimal Portfolio Management Using Hierarchical Clustering",
+  "concepts": [
+    {
+      "text": "portfolio",
+      "frequency": 84,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.035966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stocks",
+      "frequency": 35,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.040652+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "returns",
+      "frequency": 31,
+      "relevance_score": 0.9469945355191256,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.042524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markowitz",
+      "frequency": 30,
+      "relevance_score": 0.919672131147541,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.038432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "market",
+      "frequency": 29,
+      "relevance_score": 0.8923497267759563,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.040164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clustered",
+      "frequency": 27,
+      "relevance_score": 0.8377049180327869,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.047825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clustering",
+      "frequency": 26,
+      "relevance_score": 0.8103825136612022,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.036282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimization",
+      "frequency": 20,
+      "relevance_score": 0.646448087431694,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.036783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matrix",
+      "frequency": 20,
+      "relevance_score": 0.646448087431694,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.046483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "portfolio optimization",
+      "frequency": 16,
+      "relevance_score": 0.6371584699453552,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.066261+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "standard",
+      "frequency": 19,
+      "relevance_score": 0.6191256830601093,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.048348+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "standard deviation",
+      "frequency": 15,
+      "relevance_score": 0.6098360655737705,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average monthly excess",
+      "frequency": 11,
+      "relevance_score": 0.6005464480874316,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.076661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk",
+      "frequency": 18,
+      "relevance_score": 0.5918032786885247,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.042733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hierarchical clustering",
+      "frequency": 14,
+      "relevance_score": 0.5825136612021857,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.066063+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 12,
+      "relevance_score": 0.5778688524590164,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.037733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "allocation",
+      "frequency": 17,
+      "relevance_score": 0.5644808743169398,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.040554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "portfolio optimization models",
+      "frequency": 4,
+      "relevance_score": 0.5592896174863388,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.076477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monthly excess returns",
+      "frequency": 9,
+      "relevance_score": 0.5459016393442623,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.076754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hierarchical",
+      "frequency": 16,
+      "relevance_score": 0.5371584699453552,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.036177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monthly",
+      "frequency": 16,
+      "relevance_score": 0.5371584699453552,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.048127+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "excess",
+      "frequency": 16,
+      "relevance_score": 0.5371584699453552,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.048238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "look-back",
+      "frequency": 12,
+      "relevance_score": 0.5278688524590164,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.050866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "excess returns",
+      "frequency": 12,
+      "relevance_score": 0.5278688524590164,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "investors",
+      "frequency": 15,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.036882+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "return",
+      "frequency": 15,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.042956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deviation",
+      "frequency": 15,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.048448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk management techniques",
+      "frequency": 2,
+      "relevance_score": 0.5046448087431694,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.079646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "covariance matrix",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874318,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.067667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average monthly",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874318,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monthly excess",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874318,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clustered portfolio",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874318,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.071906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk-adjusted",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874317,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.039977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sharpe-ratios",
+      "frequency": 11,
+      "relevance_score": 0.5005464480874317,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.060206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "120-month look-back",
+      "frequency": 7,
+      "relevance_score": 0.49125683060109293,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.069237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "excess returns standard",
+      "frequency": 7,
+      "relevance_score": 0.4912568306010929,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.076846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "returns standard deviation",
+      "frequency": 7,
+      "relevance_score": 0.4912568306010929,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.076939+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "covariance",
+      "frequency": 14,
+      "relevance_score": 0.48251366120218575,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.046380+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk-adjusted returns",
+      "frequency": 6,
+      "relevance_score": 0.4639344262295082,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimization models",
+      "frequency": 4,
+      "relevance_score": 0.4592896174863388,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.066558+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3-month buy-and-hold long-short",
+      "frequency": 2,
+      "relevance_score": 0.45464480874316937,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.077429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "buy-and-hold long-short strategy",
+      "frequency": 2,
+      "relevance_score": 0.45464480874316937,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.077526+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "120-month look-back period",
+      "frequency": 2,
+      "relevance_score": 0.45464480874316937,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.077623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "higher risk-adjusted returns",
+      "frequency": 2,
+      "relevance_score": 0.45464480874316937,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.077916+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "120-month look-back windows",
+      "frequency": 2,
+      "relevance_score": 0.45464480874316937,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.079004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-short strategy",
+      "frequency": 5,
+      "relevance_score": 0.43661202185792347,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.067766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk-free rate",
+      "frequency": 5,
+      "relevance_score": 0.43661202185792347,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.068993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "look-back period",
+      "frequency": 5,
+      "relevance_score": 0.43661202185792347,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.072369+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "while",
+      "frequency": 12,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.038152+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "portfolios",
+      "frequency": 12,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "source_domain": "public_sector_resource_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.042418+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:10:55.079799+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:10:55.079979+00:00",
+    "repository_version": "1.0",
+    "domain": "public_sector_resource_optimization"
+  }
+}

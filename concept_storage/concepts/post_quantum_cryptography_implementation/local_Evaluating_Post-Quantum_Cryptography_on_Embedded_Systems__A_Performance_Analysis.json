@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+  "paper_title": "Evaluating Post-Quantum Cryptography on Embedded Systems  A Performance Analysis",
+  "concepts": [
+    {
+      "text": "pqc",
+      "frequency": 28,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls",
+      "frequency": 22,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 20,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "schemes",
+      "frequency": 21,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.991212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 13,
+      "relevance_score": 0.9928571428571429,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989953+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 14,
+      "relevance_score": 0.9,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 12,
+      "relevance_score": 0.8857142857142857,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989151+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 11,
+      "relevance_score": 0.8785714285714286,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded",
+      "frequency": 13,
+      "relevance_score": 0.8428571428571429,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems",
+      "frequency": 8,
+      "relevance_score": 0.8071428571428573,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.997640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 12,
+      "relevance_score": 0.7857142857142857,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.992978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc schemes",
+      "frequency": 10,
+      "relevance_score": 0.7714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.998476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key exchange",
+      "frequency": 9,
+      "relevance_score": 0.7142857142857142,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.998530+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 8,
+      "relevance_score": 0.7071428571428572,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc algorithms",
+      "frequency": 6,
+      "relevance_score": 0.692857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.997809+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exchange",
+      "frequency": 10,
+      "relevance_score": 0.6714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.991912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client",
+      "frequency": 10,
+      "relevance_score": 0.6714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.993295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature generation",
+      "frequency": 8,
+      "relevance_score": 0.6571428571428573,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.997979+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls handshake",
+      "frequency": 8,
+      "relevance_score": 0.6571428571428573,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.999139+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 7,
+      "relevance_score": 0.65,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.991372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "raspberry pi system",
+      "frequency": 3,
+      "relevance_score": 0.6214285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:15.001001+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "into",
+      "frequency": 9,
+      "relevance_score": 0.6142857142857142,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs",
+      "frequency": 9,
+      "relevance_score": 0.6142857142857142,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.992339+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "handshake",
+      "frequency": 9,
+      "relevance_score": 0.6142857142857142,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.994365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lattice-based",
+      "frequency": 7,
+      "relevance_score": 0.6,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.993560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 6,
+      "relevance_score": 0.5928571428571429,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.992392+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls protocol",
+      "frequency": 4,
+      "relevance_score": 0.5785714285714286,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.997923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded system",
+      "frequency": 4,
+      "relevance_score": 0.5785714285714286,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.998142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "into tls protocol",
+      "frequency": 2,
+      "relevance_score": 0.5642857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:15.000618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls handshake protocol",
+      "frequency": 2,
+      "relevance_score": 0.5642857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:15.000892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generation",
+      "frequency": 8,
+      "relevance_score": 0.5571428571428572,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "falcon",
+      "frequency": 8,
+      "relevance_score": 0.5571428571428572,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.992286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared secret",
+      "frequency": 6,
+      "relevance_score": 0.5428571428571429,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.999306+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pi system",
+      "frequency": 3,
+      "relevance_score": 0.5214285714285715,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.999577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum cryp- tographic",
+      "frequency": 2,
+      "relevance_score": 0.5142857142857142,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:15.000946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nist",
+      "frequency": 7,
+      "relevance_score": 0.5,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic",
+      "frequency": 7,
+      "relevance_score": 0.5,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989843+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum cryptography",
+      "frequency": 3,
+      "relevance_score": 0.4714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.997585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum crypto",
+      "frequency": 3,
+      "relevance_score": 0.4714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.998088+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem e g",
+      "frequency": 3,
+      "relevance_score": 0.4714285714285714,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:15.000673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4642857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.998196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "standardization process",
+      "frequency": 2,
+      "relevance_score": 0.4642857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.999084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "handshake protocol",
+      "frequency": 2,
+      "relevance_score": 0.4642857142857143,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.999361+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptography",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.989215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overhead",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.991098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.992605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "efficiency",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.993878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.994829+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret",
+      "frequency": 6,
+      "relevance_score": 0.44285714285714284,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.994884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource-constrained",
+      "frequency": 4,
+      "relevance_score": 0.4285714285714286,
+      "source_papers": [
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.990682+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:15.001735+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:15.001914+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

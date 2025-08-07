@@ -1,0 +1,841 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:25:55.223882+00:00",
+    "strategy_name": "Quantum-Safe Network Protocols and Standards",
+    "total_papers": 48,
+    "download_directory": "outputs/post_quantum_cryptography_readiness/quantum_safe_protocols/pdfs"
+  },
+  "papers": [
+    {
+      "title": "An Efficient TLS 1.3 Handshake Protocol with VC Certificate Type",
+      "authors": [
+        "Leonardo Perugini",
+        "Andrea Vesco"
+      ],
+      "abstract": "The paper presents a step forward in the design and implementation of a Transport Layer Security (TLS) handshake protocol that enables the use of Verifiable Credential (VC) while maintaining full compliance with RFC-8446 and preserving all the security features of TLS 1.3. The improvement over our previous work lies in the handshake design, which now only uses messages already defined for TLS 1.3. The design has an incredibly positive impact on the implementation, as we made minimal changes to the OpenSSL library and relied mostly on a novel external provider to handle VC and Decentralized IDentifier (DID) related operations. The experimental results prove the feasibility of the design and show comparable performance to the original solution based on Public Key Infrastructure (PKI) and X.509 certificates. These results pave the way for the adoption of Self-Sovereign Identity in large-scale Internet of Things (IoT) systems, with a clear benefit in terms of reducing the cost of identity management.",
+      "publication_date": "2024-07-17T13:18:16+00:00",
+      "doi": "10.1109/CCNC54725.2025.10975914",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.12536v3"
+    },
+    {
+      "title": "On the Integration of Self-Sovereign Identity with TLS 1.3 Handshake to   Build Trust in IoT Systems",
+      "authors": [
+        "Leonardo Perugini",
+        "Andrea Vesco"
+      ],
+      "abstract": "The centralized PKI is not a suitable solution to provide identities in large-scale IoT systems. The main problem is the high cost of managing X.509 certificates throughout their lifecycle, from installation to regular updates and revocation. The Self-Sovereign Identity (SSI) is a decentralised option that reduces the need for human intervention, and therefore has the potential to significantly reduce the complexity and cost associated to identity management in large-scale IoT systems. However, to leverage the full potential of SSI, the authentication of IoT nodes needs to be moved from the application to the Transport Layer Security (TLS) level. This paper contributes to the adoption of SSI in large-scale IoT systems by addressing, for the first time, the extension of the original TLS 1.3 handshake to support two new SSI authentication modes while maintaining the interoperability with nodes implementing the original handshake protocol. The open source implementation of the new TLS 1.3 handshake protocol in OpenSSL is used to experimentally prove the feasibility of the approach.",
+      "publication_date": "2023-11-01T09:22:31+00:00",
+      "doi": "10.1016/j.iot.2024.101103",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.00386v2"
+    },
+    {
+      "title": "Performanz Evaluation von PQC in TLS 1.3 unter variierenden   Netzwerkcharakteristiken",
+      "authors": [
+        "Johanna Henrich"
+      ],
+      "abstract": "Quantum computers could break currently used asymmetric cryptographic schemes in a few years using Shor's algorithm. They are used in numerous protocols and applications to secure authenticity as well as key agreement, and quantum-safe alternatives are urgently needed. NIST therefore initiated a standardization process. This requires intensive evaluation, also with regard to performance and integrability. Here, the integration into TLS 1.3 plays an important role, since it is used for 90% of all Internet connections. In the present work, algorithms for quantum-safe key exchange during TLS 1.3 handshake were reviewed. The focus is on the influence of dedicated network parameters such as transmission rate or packet loss in order to gain insights regarding the suitability of the algorithms under corresponding network conditions. For the implementation, a framework by Paquin et al. was extended to emulate network scenarios and capture the handshake duration for selected algorithms. It is shown that the evaluated candidates Kyber, Saber and NTRU as well as the alternative NTRU Prime have a very good overall performance and partly undercut the handshake duration of the classical ECDH. The choice of a higher security level or hybrid variants does not make a significant difference here. This is not the case with alternatives such as FrodoKEM, SIKE, HQC or BIKE, which have individual disadvantages and whose respective performance varies greatly depending on the security level and hybrid implementation. This is especially true for the data-intensive algorithm FrodoKEM. In general, the prevailing network characteristics should be taken into account when choosing scheme and variant. Further it becomes clear that the performance of the handshake is influenced by external factors such as TCP mechanisms or MTU, which could compensate for possible disadvantages due to PQC if configured appropriately.",
+      "publication_date": "2023-03-27T12:33:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.15148v1"
+    },
+    {
+      "title": "Towards Forward Secure Internet Traffic",
+      "authors": [
+        "Eman Salem Alashwali",
+        "Pawel Szalachowski",
+        "Andrew Martin"
+      ],
+      "abstract": "Forward Secrecy (FS) is a security property in key-exchange algorithms which guarantees that a compromise in the secrecy of a long-term private-key does not compromise the secrecy of past session keys. With a growing awareness of long-term mass surveillance programs by governments and others, FS has become widely regarded as a highly desirable property. This is particularly true in the TLS protocol, which is used to secure Internet communication. In this paper, we investigate FS in pre-TLS 1.3 protocols, which do not mandate FS, but still widely used today. We conduct an empirical analysis of over 10 million TLS servers from three different datasets using a novel heuristic approach. Using a modern TLS client handshake algorithms, our results show 5.37% of top domains, 7.51% of random domains, and 26.16% of random IPs do not select FS key-exchange algorithms. Surprisingly, 39.20% of the top domains, 24.40% of the random domains, and 14.46% of the random IPs that do not select FS, do support FS. In light of this analysis, we discuss possible paths toward forward secure Internet traffic. As an improvement of the current state, we propose a new client-side mechanism that we call \"Best Effort Forward Secrecy\" (BEFS), and an extension of it that we call \"Best Effort Forward Secrecy and Authenticated Encryption\" (BESAFE), which aims to guide (force) misconfigured servers to FS using a best effort approach. Finally, within our analysis, we introduce a novel adversarial model that we call \"discriminatory\" adversary, which is applicable to the TLS protocol.",
+      "publication_date": "2019-06-29T16:19:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1907.00231v1"
+    },
+    {
+      "title": "A Beyond-5G Authentication and Key Agreement Protocol",
+      "authors": [
+        "Mohamed Taoufiq Damir",
+        "Tommi Meskanen",
+        "Sara Ramezanian",
+        "Valtteri Niemi"
+      ],
+      "abstract": "The standardized Authentication and Key Agreement protocol for 5G networks (5G AKA) have several security and privacy vulnerabilities. In this paper, we propose a novel authentication and key agreement protocol for 5G and beyond that is compatible with the standardized 5G AKA. Our protocol has several privacy and security properties, e.g., perfect forward secrecy, resistance against linkability attacks, and protection against malicious SNs. Moreover, both the user identity protection and the perfect forward secrecy are handled using Key Encapsulation Mechanisms (KEM), which makes our protocol adaptable to the quantum-safe setting. To analyze the performance of the proposed protocol, we use the post-quantum KEM CRYSTALS-Kyber, recently chosen to be standardized by NIST, and NIST post-quantum Round 4 candidate KEMs. The results for communication and computation costs show that utilizing our protocol is feasible in practice and sometimes outperforms the public-key cryptography used in 5G AKA, i.e., ECIES. We further prove the security of our protocol by utilizing ProVerif.",
+      "publication_date": "2022-07-13T12:08:41+00:00",
+      "doi": "10.1007/978-3-031-23020-2_14",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2207.06144v2"
+    },
+    {
+      "title": "DID Link: Authentication in TLS with Decentralized Identifiers and   Verifiable Credentials",
+      "authors": [
+        "Sandro Rodriguez Garzon",
+        "Dennis Natusch",
+        "Artur Philipp",
+        "Axel Küpper",
+        "Hans Joachim Einsiedler",
+        "Daniela Schneider"
+      ],
+      "abstract": "Authentication in TLS is predominately carried out with X.509 digital certificates issued by certificate authorities (CA). The centralized nature of current public key infrastructures, however, comes along with severe risks, such as single points of failure and susceptibility to cyber-attacks, potentially undermining the security and trustworthiness of the entire system. With Decentralized Identifiers (DID) alongside distributed ledger technology, it becomes technically feasible to prove ownership of a unique identifier without requiring an attestation of the proof's public key by a centralized and therefore vulnerable CA. This article presents DID Link, a novel authentication scheme for TLS 1.3 that empowers entities to authenticate in a TLS-compliant way with self-issued X.509 certificates that are equipped with ledger-anchored DIDs instead of CA-issued identifiers. It facilitates the exchange of tamper-proof and 3rd-party attested claims in the form of DID-bound Verifiable Credentials after the TLS handshake to complete the authentication with a full identification of the communication partner. A prototypical implementation shows comparable TLS handshake durations of DID Link if verification material is cached and reasonable prolongations if it is obtained from a ledger. The significant speed improvement of the resulting TLS channel over a widely used, DID-based alternative transport protocol on the application layer demonstrates the potential of DID Link to become a viable solution for the establishment of secure and trustful end-to-end communication links with decentrally managed digital identities.",
+      "publication_date": "2024-05-13T08:03:32+00:00",
+      "doi": "10.1109/PST62714.2024.10788053",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.07533v4"
+    },
+    {
+      "title": "Masking Host Identity on Internet: Encrypted TLS/SSL Handshake",
+      "authors": [
+        "Vinod S. Khandkar",
+        "Manjesh K. Hanawal"
+      ],
+      "abstract": "Network middle-boxes often classify the traffic flows on the Internet to perform traffic management or discriminate one traffic against the other. As the widespread adoption of HTTPS protocol has made it difficult to classify the traffic looking into the content field, one of the fields the middle-boxes look for is Server Name Indicator (SNI), which goes in plain text. SNI field contains information about the host and can, in turn, reveal the type of traffic. This paper presents a method to mask the server host identity by encrypting the SNI. We develop a simple method that completes the SSL/TLS connection establishment over two handshakes - the first handshake establishes a secure channel without sharing SNI information, and the second handshake shares the encrypted SNI. Our method makes it mandatory for fronting servers to always accept the handshake request without the SNI and respond with a valid SSL certificate.   As there is no modification in already proven SSL/TLS encryption mechanism and processing of handshake messages, the new method enjoys all security benefits of existing secure channel establishment and needs no modification in existing routers/middle-boxes. Using customized client-server over the live Internet, we demonstrate the feasibility of our method. Moreover, the impact analysis shows that the method adheres to almost all SSL/TLS related Internet standards requirements.",
+      "publication_date": "2021-01-12T15:48:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2101.04556v1"
+    },
+    {
+      "title": "Computational Security Analysis of the UMTS and LTE Authentication and   Key Agreement Protocols",
+      "authors": [
+        "Joe-Kai Tsay",
+        "Stig Mjølsnes"
+      ],
+      "abstract": "We present a computational security analysis of the Authentication and Key Agreement (AKA) protocols for both Long-Term Evolution (LTE) and Universal Mobile Telecommunications System (UMTS). This work constitutes the first security analysis of LTE AKA to date and the first computationally sound analysis of UMTS AKA. Our work is the first formal analysis to consider messages that are sent in the core network, where we take into account details of the carrying protocol (i.e., MAP or Diameter) and of the mechanism for secure transport (i.e., MAPsec/TCAPsec or IPsec ESP). Moreover, we report on a deficiency in the protocol specifications of UMTS AKA and LTE AKA and the specifications of the core network security (called network domain security), which may enable efficient attacks. The vulnerability allows an inside attacker not only to impersonate an honest protocol participant during a run of the protocol but also to subsequently use wireless services on his behalf. UMTS AKA run over MAP with MAPsec seems vulnerable in the most straight-forward application of the attack. On the other hand, our analysis shows that UMTS and LTE AKA over Diameter/IPsec and UMTS AKA over MAP/TCAPsec (with sufficiently long session identifiers) computationally satisfy intended authentication properties as well as some key secrecy properties, assuming that the used primitives meet standard cryptographic assumptions.",
+      "publication_date": "2012-03-17T14:33:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1203.3866v2"
+    },
+    {
+      "title": "An Enhanced Online Certificate Status Protocol for Public Key   Infrastructure with Smart Grid and Energy Storage System",
+      "authors": [
+        "Hong-Sheng Huang",
+        "Cheng-Che Chuang",
+        "Jhih-Zen Shih",
+        "Hsuan-Tung Chen",
+        "Hung-Min Sun"
+      ],
+      "abstract": "The efficiency of checking certificate status is one of the key indicators in the public key infrastructure (PKI). This prompted researchers to design the Online Certificate Status Protocol (OCSP) standard, defined in RFC 6960, to guide developers in implementing OCSP components. However, as the environment increasingly relies on PKI for identity authentication, it is essential to protect the communication between clients and servers from rogue elements. This can be achieved by using SSL/TLS techniques to establish a secure channel, allowing Certificate Authorities (CAs) to safely transfer certificate status information. In this work, we introduce the OCSP Stapling approach to optimize OCSP query costs in our smart grid environment. This approach reduces the number of queries from the Device Language Message Specification (DLMS) server to the OCSP server. Our experimental results show that OCSP stapling increases both efficiency and security, creating a more robust architecture for the smart grid.",
+      "publication_date": "2024-09-17T06:57:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2409.10929v4"
+    },
+    {
+      "title": "5G-AKA-HPQC: Hybrid Post-Quantum Cryptography Protocol for   Quantum-Resilient 5G Primary Authentication with Forward Secrecy",
+      "authors": [
+        "Yongho Ko",
+        "I Wayan Adi Juliawan Pawana",
+        "Ilsun You"
+      ],
+      "abstract": "5G enables digital innovation by integrating diverse services, making security especially primary authentication crucial. Two standardized protocols, 5G AKA and EAP AKA', handle authentication for 3GPP and non 3GPP devices. However, 5G AKA has vulnerabilities, including linkability attacks. Additionally, quantum computing poses threats, requiring quantum resistant cryptography. While post-quantum cryptography (PQC) is being standardized, its real world robustness remains unproven. Conventional cryptographic schemes offer reliability due to decades of practical use. To bridge this gap, IETF is standardizing hybrid PQC (HPQC), combining classical and quantum resistant methods. Ensuring forward secrecy and quantum resilience in 5G-AKA is critical. To address these issues, we propose 5G AKA HPQC, a protocol maintaining compatibility with existing standards while enhancing security by integrating keys derived from Elliptic Curve Integrated Encryption Scheme (ECIES) and PQC Key Encapsulation Mechanism (KEM). We validate its security using SVO Logic and ProVerif, confirming its robustness. Performance evaluations assess computational and communication overheads, demonstrating a balance between security and efficiency. This research provides key insights into quantum-safe authentication, contributing to future standardization of secure mobile authentication protocols.",
+      "publication_date": "2025-02-05T03:05:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.02851v1"
+    },
+    {
+      "title": "Hybrid Authentication Protocols for Advanced Quantum Networks",
+      "authors": [
+        "Suchetana Goswami",
+        "Mina Doosti",
+        "Elham Kashefi"
+      ],
+      "abstract": "Authentication is a fundamental building block of secure quantum networks, essential for quantum cryptographic protocols and often debated as a key limitation of quantum key distribution (QKD) in security standards. Most quantum-safe authentication schemes rely on small pre-shared keys or post-quantum computational assumptions. In this work, we introduce a new authentication approach that combines hardware assumptions, particularly Physical Unclonable Functions (PUFs), along with fundamental quantum properties of non-local states, such as local indistinguishability, to achieve provable security in entanglement-based protocols. We propose two protocols for different scenarios in entanglement-enabled quantum networks. The first protocol, referred to as the offline protocol, requires pre-distributed entangled states but no quantum communication during the authentication phase. It enables a server to authenticate clients at any time with only minimal classical communication. The second, an online protocol, requires quantum communication but only necessitates entangled state generation on the prover side. For this, we introduce a novel hardware module, the Hybrid Entangled PUF (HEPUF). Both protocols use weakly secure, off-the-shelf classical PUFs as their hardware module, yet we prove that quantum properties such as local indistinguishability enable exponential security for authentication, even in a single round. We provide full security analysis for both protocols and establish them as the first entanglement-based extension of hardware-based quantum authentication. These protocols are suitable for implementation across various platforms, particularly photonics-based ones, and offer a practical and flexible solution to the long-standing challenge of authentication in quantum communication networks.",
+      "publication_date": "2025-04-15T18:51:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2504.11552v1"
+    },
+    {
+      "title": "Secure, Anonymity-Preserving and Lightweight Mutual Authentication and   Key Agreement Protocol for Home Automation IoT Networks",
+      "authors": [
+        "Akash Gupta",
+        "Gaurav S. Kasbekar"
+      ],
+      "abstract": "Home automation Internet of Things (IoT) systems have recently become a target for several types of attacks. In this paper, we present an authentication and key agreement protocol for a home automation network based on the ZigBee standard, which connects together a central controller and several end devices. Our scheme performs mutual authentication between end devices and the controller, which is followed by device-to-device communication. The scheme achieves confidentiality, message integrity, anonymity, unlinkability, forward and backward secrecy, and availability. Our scheme uses only simple hash and XOR computations and symmetric key encryption, and hence is resource-efficient. We show using a detailed security analysis and numerical results that our proposed scheme provides better security and anonymity, and is more efficient in terms of computation time, communication cost, and storage cost than schemes proposed in prior works.",
+      "publication_date": "2021-05-20T11:56:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2105.09687v2"
+    },
+    {
+      "title": "Misbinding Raw Public Keys to Identities in TLS",
+      "authors": [
+        "Mariam Moustafa",
+        "Mohit Sethi",
+        "Tuomas Aura"
+      ],
+      "abstract": "The adoption of security protocols such as Transport Layer Security (TLS) has significantly improved the state of traffic encryption and integrity protection on the Internet. Despite rigorous analysis, vulnerabilities continue to emerge, sometimes due to fundamental flaws in the protocol specification. This paper examines the security of TLS when using Raw Public Key (RPK) authentication. This mode has not been as extensively studied as X.509 certificates and Pre-Shared Keys (PSK). We develop a formal model of TLS RPK using applied pi calculus and the ProVerif verification tool, revealing that the RPK mode is susceptible to identity misbinding attacks. Our contributions include formal models of TLS RPK with several mechanisms for binding the endpoint identity to its public key, verification results, practical scenarios demonstrating the misbinding attack, and recommendations for mitigating such vulnerabilities. These findings highlight the need for improved security measures in TLS RPK.",
+      "publication_date": "2024-11-14T19:28:09+00:00",
+      "doi": "10.1007/978-3-031-79007-2_4",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.09770v2"
+    },
+    {
+      "title": "Towards Threshold Key Exchange Protocols",
+      "authors": [
+        "Denis Kolegov",
+        "Yulia Khalniyazova",
+        "Denis Varlakov"
+      ],
+      "abstract": "Threshold schemes exist for many cryptographic primitives like signatures, key derivation functions, and ciphers. At the same time, practical key exchange protocols based on Diffie-Hellman (DH) or ECDSA primitives are not designed or implemented in a threshold setting. In this paper, we implement popular key exchange protocols in a threshold manner and show that this approach can be used in practice. First, we introduce two basic threshold DH key agreement schemes that provide enhanced security features in comparison with the classic DH primitive: dealerless distributed key generation, threshold shared key computation, and private key shares refreshing. We implemented the proposed DH schemes within WireGuard protocol to demonstrate its effectiveness, efficiency, and usability in practice. The open question is the security of the proposed schemes and their instantiation from the elliptic curves used in key agreement protocols: NIST curves, Russian GOST curves, and Curve25519. Second, we propose an idea of implementing TLS in a threshold setting that can be used instead of Keyless SSL/TLS technology, and provide the measurements of TLS key exchanges based on threshold ECDSA. Even if we don't provide any formal definitions, security analysis, and mathematical proofs, we believe that the ideas and mechanisms suggested in this paper can be interesting and useful. The main intention of the paper is to start discussions and raise awareness of the challenges and problems arising when moving to threshold key exchange protocols.",
+      "publication_date": "2020-12-27T07:56:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2101.00084v2"
+    },
+    {
+      "title": "TLS in the wild: an Internet-wide analysis of TLS-based protocols for   electronic communication",
+      "authors": [
+        "Ralph Holz",
+        "Johanna Amann",
+        "Olivier Mehani",
+        "Matthias Wachs",
+        "Mohamed Ali Kaafar"
+      ],
+      "abstract": "The majority of electronic communication today happens either via email or chat. Thanks to the use of standardised protocols electronic mail (SMTP, IMAP, POP3) and instant chat (XMPP, IRC) servers can be deployed in a decentralised but interoperable fashion. These protocols can be secured by providing encryption with the use of TLS---directly or via the STARTTLS extension---and leverage X.509 PKIs or ad hoc methods to authenticate communication peers. However, many combination of these mechanisms lead to insecure deployments.   We present the largest study to date that investigates the security of the email and chat infrastructures. We used active Internet-wide scans to determine the amount of secure service deployments, and passive monitoring to investigate if user agents actually use this opportunity to secure their communications. We addressed both the client-to-server interactions as well as server-to-server forwarding mechanisms that these protocols offer, and the use of encryption and authentication methods in the process.   Our findings shed light on an insofar unexplored area of the Internet. The truly frightening result is that most of our communication is poorly secured in transit.",
+      "publication_date": "2015-11-02T00:16:56+00:00",
+      "doi": "10.14722/ndss.2016.23055",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1511.00341v2"
+    },
+    {
+      "title": "Symbolic Abstractions for Quantum Protocol Verification",
+      "authors": [
+        "Lucca Hirschi"
+      ],
+      "abstract": "Quantum protocols such as the BB84 Quantum Key Distribution protocol exchange qubits to achieve information-theoretic security guarantees. Many variants thereof were proposed, some of them being already deployed. Existing security proofs in that field are mostly tedious, error-prone pen-and-paper proofs of the core protocol only that rarely account for other crucial components such as authentication. This calls for formal and automated verification techniques that exhaustively explore all possible intruder behaviors and that scale well.   The symbolic approach offers rigorous, mathematical frameworks and automated tools to analyze security protocols. Based on well-designed abstractions, it has allowed for large-scale formal analyses of real-life protocols such as TLS 1.3 and mobile telephony protocols. Hence a natural question is: Can we use this successful line of work to analyze quantum protocols? This paper proposes a first positive answer and motivates further research on this unexplored path.",
+      "publication_date": "2019-04-08T16:50:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1904.04186v2"
+    },
+    {
+      "title": "Analysis And Improvement of Pairing-Free Certificate-Less Two-Party   Authenticated Key Agreement Protocol For Grid Computing",
+      "authors": [
+        "Amr Farouk",
+        "Mohamed M. Fouad",
+        "Ahmed A. Abdelhafez"
+      ],
+      "abstract": "The predominant grid authentication mechanisms use public key infrastructure (PKI). Nonetheless, certificate-less public key cryptography (CL-PKC) has several advantages that seem to well align with the demands of grid computing. Security and efficiency are the main objectives of grid authentication protocols. Unfortunately, certificate-less authenticated key agreement protocols rely on the bilinear pairing, that is extremely computational expensive. In this paper, we analyze the recently secure certificateless key agreement protocols without pairing. We then propose a novel grid pairing-free certificate-less two-party authenticated key agreement (GPC-AKA) protocol, providing a more lightweight key management approach for grid users. We also show, a GPC-AKA security protocol proof using formal automated security analysis Sycther tool.",
+      "publication_date": "2014-03-12T08:38:25+00:00",
+      "doi": "10.5121/ijsptm.2014.3103",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1403.2844v1"
+    },
+    {
+      "title": "A Self-Authentication and Deniable Efficient Group Key Agreement   Protocol for VANET",
+      "authors": [
+        "Mu Han",
+        "Lei Hua",
+        "Shidian Ma"
+      ],
+      "abstract": "With the rapid development of vehicular ad hoc Network (VANET), it is gaining significant popularity and receiving increasing attentions from academics and industry in security and efficiency. To address security and efficiency issues, a self-authentication and deniable efficient group key agreement protocol is proposed in this paper. This scheme establishes a group between road-side unit (RSU) and vehicles by using self-authentication without certification authority, and enhances certification efficiency by using group key (GK) transmission method. At the same time, to avoid the attacker to attack the legal vehicle by RSU, we adopt deniable group key agreement method to negotiation session key (sk) and use it to transmit GK between RSU. In addition, vehicles not only broadcast messages to other vehicles, but also communicate with other members in the same group. So group communication is necessary in VANET. Finally, the security and performance analysis shown that our scheme is security, meanwhile the verification delay, transmission overheard and message delay are more efficient than other related schemes in authentication, transmission and communication.",
+      "publication_date": "2016-11-28T07:32:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1611.09009v1"
+    },
+    {
+      "title": "Time-Assisted Authentication Protocol",
+      "authors": [
+        "Muhammad Bilal",
+        "Shin-Gak Kang"
+      ],
+      "abstract": "Authentication is the first step toward establishing a service provider and customer (C-P) association. In a mobile network environment, a lightweight and secure authentication protocol is one of the most significant factors to enhance the degree of service persistence. This work presents a secure and lightweight keying and authentication protocol suite termed TAP (Time-Assisted Authentication Protocol). TAP improves the security of protocols with the assistance of time-based encryption keys and scales down the authentication complexity by issuing a re-authentication ticket. While moving across the network, a mobile customer node sends a re-authentication ticket to establish new sessions with service-providing nodes. Consequently, this reduces the communication and computational complexity of the authentication process. In the keying protocol suite, a key distributor controls the key generation arguments and time factors, while other participants independently generate a keychain based on key generation arguments. We undertake a rigorous security analysis and prove the security strength of TAP using CSP and rank function analysis.",
+      "publication_date": "2017-02-14T03:04:13+00:00",
+      "doi": "10.1002/dac.3309",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1702.04055v2"
+    },
+    {
+      "title": "Formal Modelling and Security Analysis of Bitcoin's Payment Protocol",
+      "authors": [
+        "Paolo Modesti",
+        "Siamak F. Shahandashti",
+        "Patrick McCorry",
+        "Feng Hao"
+      ],
+      "abstract": "The Payment Protocol standard BIP70, specifying how payments in Bitcoin are performed by merchants and customers, is supported by the largest payment processors and most widely-used wallets. The protocol has been shown to be vulnerable to refund attacks due to lack of authentication of the refund addresses. In this paper, we give the first formal model of the protocol and formalise the refund address security goals for the protocol, namely refund address authentication and secrecy. The formal model utilises communication channels as abstractions conveying security goals on which the protocol modeller and verifier can rely. We analyse the Payment Protocol confirming that it is vulnerable to an attack violating the refund address authentication security goal. Moreover, we present a concrete protocol revision proposal supporting the merchant with publicly verifiable evidence that can mitigate the attack. We verify that the revised protocol meets the security goals defined for the refund address. Hence, we demonstrate that the revised protocol is secure, not only against the existing attacks, but also against any further attacks violating the formalised security goals.",
+      "publication_date": "2021-03-15T15:05:01+00:00",
+      "doi": "10.1016/j.cose.2021.102279",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2103.08436v1"
+    },
+    {
+      "title": "Authenticated and Secure Automotive Service Discovery with DNSSEC and   DANE",
+      "authors": [
+        "Mehmet Mueller",
+        "Timo Häckel",
+        "Philipp Meyer",
+        "Franz Korf",
+        "Thomas C. Schmidt"
+      ],
+      "abstract": "Automotive softwarization is progressing and future cars are expected to operate a Service-Oriented Architecture on multipurpose compute units, which are interconnected via a high-speed Ethernet backbone. The AUTOSAR architecture foresees a universal middleware called SOME/IP that provides the service primitives, interfaces, and application protocols on top of Ethernet and IP. SOME/IP lacks a robust security architecture, even though security is an essential in future Internet-connected vehicles. In this paper, we augment the SOME/IP service discovery with an authentication and certificate management scheme based on DNSSEC and DANE. We argue that the deployment of well-proven, widely tested standard protocols should serve as an appropriate basis for a robust and reliable security infrastructure in cars. Our solution enables on-demand service authentication in offline scenarios, easy online updates, and remains free of attestation collisions. We evaluate our extension of the common vsomeip stack and find performance values that fully comply with car operations.",
+      "publication_date": "2023-03-27T12:01:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.15128v1"
+    },
+    {
+      "title": "Building Automotive Security on Internet Standards: An Integration of   DNSSEC, DANE, and DANCE to Authenticate and Authorize In-Car Services",
+      "authors": [
+        "Timo Salomon",
+        "Mehmet Mueller",
+        "Philipp Meyer",
+        "Thomas C. Schmidt"
+      ],
+      "abstract": "The automotive industry is undergoing a software-as-a-service transformation that enables software-defined functions and post-sale updates via cloud and vehicle-to-everything communication. Connectivity in cars introduces significant security challenges, as remote attacks on vehicles have become increasingly prevalent. Current automotive designs call for security solutions that address the entire lifetime of a vehicle. In this paper, we propose to authenticate and authorize in-vehicle services by integrating DNSSEC, DANE, and DANCE with automotive middleware. Our approach decouples the cryptographic authentication of the service from that of the service deployment with the help of DNSSEC and thereby largely simplifies key management. We propose to authenticate in-vehicle services by certificates that are solely generated by the service suppliers but published on deployment via DNSSEC TLSA records solely signed by the OEM. Building on well-established Internet standards ensures interoperability with various current and future protocols, scalable management of credentials for millions of connected vehicles at well-established security levels. We back our design proposal by a security analysis using the STRIDE threat model and by evaluations in a realistic in-vehicle setup that demonstrate its effectiveness.",
+      "publication_date": "2025-06-16T09:02:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.13261v1"
+    },
+    {
+      "title": "CABBA: Compatible Authenticated Bandwidth-efficient Broadcast protocol   for ADS-B",
+      "authors": [
+        "Mikaëla Ngamboé",
+        "Xiao Niu",
+        "Benoit Joly",
+        "Steven P Biegler",
+        "Paul Berthier",
+        "Rémi Benito",
+        "Greg Rice",
+        "José M Fernandez",
+        "Gabriela Nicolescu"
+      ],
+      "abstract": "The Automatic Dependent Surveillance-Broadcast (ADS-B) is a surveillance technology that mandated in many airspaces. It improves safety, increases efficiency and reduces air traffic congestion by broadcasting aircraft navigation data. Yet, ADS-B is vulnerable to spoofing attacks as it lacks mechanisms to ensure the integrity and authenticity of the data being supplied. None of the existing cryptographic solutions fully meet the backward compatibility and bandwidth preservation requirements of the standard. Hence, we propose the Compatible Authenticated Bandwidth-efficient Broadcast protocol for ADS-B (CABBA), an improved approach that integrates TESLA, phase-overlay modulation techniques and certificate-based PKI. As a result, entity authentication, data origin authentication, and data integrity are the security services that CABBA offers. To assess compliance with the standard, we designed an SDR-based implementation of CABBA and performed backward compatibility tests on commercial and general aviation (GA) ADS-B in receivers. Besides, we calculated the 1090ES band's activity factor and analyzed the channel occupancy rate according to ITU-R SM.2256-1 recommendation. Also, we performed a bit error rate analysis of CABBA messages. The results suggest that CABBA is backward compatible, does not incur significant communication overhead, and has an error rate that is acceptable for Eb/No values above 14 dB.",
+      "publication_date": "2023-12-15T15:17:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.09870v3"
+    },
+    {
+      "title": "Stateful Security Protocol Verification",
+      "authors": [
+        "Li Li",
+        "Jun Pang",
+        "Yang Liu",
+        "Jun Sun",
+        "Jin Song Dong"
+      ],
+      "abstract": "A long-standing research problem in security protocol design is how to efficiently verify security protocols with tamper-resistant global states. In this paper, we address this problem by first proposing a protocol specification framework, which explicitly represents protocol execution states and state transformations. Secondly, we develop an algorithm for verifying security properties by utilizing the key ingredients of the first-order reasoning for reachability analysis, while tracking state transformation and checking the validity of newly generated states. Our verification algorithm is proven to be (partially) correct, if it terminates. We have implemented the proposed framework and verification algorithms in a tool named SSPA, and evaluate it using a number of stateful security protocols. The experimental results show that our approach is not only feasible but also practically efficient. In particular, we have found a security flaw on the digital envelope protocol, which could not be detected by existing security protocol verifiers.",
+      "publication_date": "2014-03-10T13:40:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1403.2237v1"
+    },
+    {
+      "title": "Towards Public Key Infrastructure less authentication in Session   Initiation Protocol",
+      "authors": [
+        "Abdullah Al Hasib",
+        "Abdullah Azfar",
+        "Md. Sarwar Morshed"
+      ],
+      "abstract": "The Session Initiation Protocol (SIP) has become the most predominant protocol for Voice over Internet Protocol (VoIP) signaling. Security of SIP is an important consideration for VoIP communication as the traffic is transmitted over the insecure IP network. And the authentication process in SIP ranges from pre-shared secret based solutions to Public Key Infrastructure (PKI) based solution. However, due to the limitations in PKI based solutions, some PKI less authentications mechanisms are proposed. This paper aims to present an overview of different authentication methods used in or together with SIP. We start by highlighting the security issues in SIP in the context of VoIP communication. Then we illustrate the current activities regarding the SIP authentication mechanisms including the recent developments in the research community and standardization efforts within the Internet Engineering Task Force (IETF). Finally we analyze the security aspects of these approaches.",
+      "publication_date": "2010-02-05T09:12:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1002.1160v1"
+    },
+    {
+      "title": "A Secure and Authenticated Key Management Protocol (SA-KMP) for   Vehicular Networks",
+      "authors": [
+        "Hengchuan Tan",
+        "Maode Ma",
+        "Houda Labiod",
+        "Aymen Boudguiga",
+        "Jun Zhang",
+        "Peter Han Joo Chong"
+      ],
+      "abstract": "Public key infrastructure (PKI) is the most widely used security mechanism for securing communications over the network. However, there are known performance issues, making it unsuitable for use in vehicular networks. In this paper, we propose a secure and authenticated key management protocol (SA-KMP) to overcome the shortcomings of the PKI. The SA-KMP scheme distributes repository containing the bindings of the en-tity's identity and its corresponding public key to each vehicle and road side unit. By doing so, certificate exchanges and certificate revocation lists are eliminated. Furthermore, the SA-KMP scheme uses symmetric keys derived based on a 3-D-matrix-based key agreement scheme to reduce the high computational costs of using asymmetric cryptography. We demonstrate the efficiency of the SA-KMP through performance evaluations in terms of transmission and storage overhead, network latency, and key generation time. Analytical results show that the SA-KMP is more scalable and outperforms the certificate-based PKI. Simulation results indicate that the key generation time of the SA-KMP scheme is less than that of the existing Elliptic Curve Diffie--Hellman and Diffie--Hellman protocols. In addition, we use Proverif to prove that the SA-KMP scheme is secure against an active attacker under the Dolev and Yao model and further show that the SA-KMP scheme is secure against denial of service, collusion attacks, and a wide range of other malicious attacks.",
+      "publication_date": "2017-12-28T13:55:54+00:00",
+      "doi": "10.1109/TVT.2016.2621354",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1712.09859v1"
+    },
+    {
+      "title": "Secure Email Transmission Protocols -- A New Architecture Design",
+      "authors": [
+        "Gabriel Chen",
+        "Rick Wanner"
+      ],
+      "abstract": "During today's digital age, emails have become a crucial part of communications for both personal and enterprise usage. However, email transmission protocols were not designed with security in mind, and this has always been a challenge while trying to make email transmission more secure. On top of the basic layer of SMTP, POP3, and IMAP protocols to send and retrieve emails, there are several other major security protocols used in current days to secure email transmission such as TLS/SSL, STARTTLS, and PGP/GPG encryption. The most general design used in email transmission architecture is SMTP with PGP/GPG encryption sending through an TLS/SSL secure channel. Regardless, vulnerabilities within these security protocols and encryption methods, there is still work can be done regarding the architecture design. In this paper, we discuss the challenges among current email transmission security protocols and architectures. We explore some new techniques and propose a new email transmission architecture using EEKS structure and Schnorr Signature to eliminate the usage of PGP/GPG for encryption while achieving Perfect Forward Secrecy.",
+      "publication_date": "2022-07-31T07:56:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2208.00388v1"
+    },
+    {
+      "title": "A Lightweight and Secure PUF-Based Authentication and Key-exchange   Protocol for IoT Devices",
+      "authors": [
+        "Chandranshu Gupta",
+        "Gaurav Varshney"
+      ],
+      "abstract": "The Internet of Things (IoT) has improved people's lives by seamlessly integrating into many facets of modern life and facilitating information sharing across platforms. Device Authentication and Key exchange are major challenges for the IoT. High computational resource requirements for cryptographic primitives and message transmission during Authentication make the existing methods like PKI and IBE not suitable for these resource constrained devices. PUF appears to offer a practical and economical security mechanism in place of typically sophisticated cryptosystems like PKI and IBE. PUF provides an unclonable and tamper sensitive unique signature based on the PUF chip by using manufacturing process variability. Therefore, in this study, we use lightweight bitwise XOR, hash function, and PUF to Authenticate IoT devices. Despite several studies employing the PUF to authenticate communication between IoT devices, to the authors' knowledge, existing solutions require intermediary gateway and internet capabilities by the IoT device to directly interact with a Server for Authentication and hence, are not scalable when the IoT device works on different technologies like BLE, Zigbee, etc. To address the aforementioned issue, we present a system in which the IoT device does not require a continuous active internet connection to communicate with the server in order to Authenticate itself. The results of a thorough security study are validated against adversarial attacks and PUF modeling attacks. For formal security validation, the AVISPA verification tool is also used. Performance study recommends this protocol's lightweight characteristics. The proposed protocol's acceptability and defenses against adversarial assaults are supported by a prototype developed with ESP32.",
+      "publication_date": "2023-11-07T15:42:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.04078v1"
+    },
+    {
+      "title": "Security Analysis of Two Recent Pairing-Free Certificateless Two-Party   Authenticated Key Agreement Protocols for Smart Grid",
+      "authors": [
+        "Yong-Jin Kim",
+        "Dok-Jun An",
+        "Son-Gyong Kim",
+        "Kum-Sok Sin",
+        "You-Jin Jong",
+        "Ok-Chol Ri"
+      ],
+      "abstract": "Smart grids are intelligent power transmission networks that monitor and control communication participants and grid nodes to ensure bidirectional flow of information and power between all nodes. To secure the smart grid, it is very important to design the key agreement protocol. The pairing-free certificateless two-party authenticated key agreement protocol has been widely studied and applied as a basic core protocol to protect the security of the smart grid. Until now, various protocols have been proposed, and these protocols are being introduced and operated not only in smart grid, but also in smart cities, healthcare, and vehicle ad hoc networks. In this paper, we analyzed the security properties of two recently proposed pairing-free certificateless two-party authenticated key agreement protocols for Smart grid. According to our analysis, these two protocols are insecure against basic impersonation attacks of malicious key-generator centers, man-in-the-middle attacks of malicious key generator centers, and key offset attacks. We also found and pointed out some errors in the descriptions of these protocols.",
+      "publication_date": "2022-03-03T03:42:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2203.01504v2"
+    },
+    {
+      "title": "An Authentication Protocol for Future Sensor Networks",
+      "authors": [
+        "Muhammad Bilal",
+        "Shin-Gak Kang"
+      ],
+      "abstract": "Authentication is one of the essential security services in Wireless Sensor Networks (WSNs) for ensuring secure data sessions. Sensor node authentication ensures the confidentiality and validity of data collected by the sensor node, whereas user authentication guarantees that only legitimate users can access the sensor data. In a mobile WSN, sensor and user nodes move across the network and exchange data with multiple nodes, thus experiencing the authentication process multiple times. The integration of WSNs with Internet of Things (IoT) brings forth a new kind of WSN architecture along with stricter security requirements; for instance, a sensor node or a user node may need to establish multiple concurrent secure data sessions. With concurrent data sessions, the frequency of the re-authentication process increases in proportion to the number of concurrent connections, which makes the security issue even more challenging. The currently available authentication protocols were designed for the autonomous WSN and do not account for the above requirements. In this paper, we present a novel, lightweight and efficient key exchange and authentication protocol suite called the Secure Mobile Sensor Network (SMSN) Authentication Protocol. In the SMSN a mobile node goes through an initial authentication procedure and receives a re-authentication ticket from the base station. Later a mobile node can use this re-authentication ticket when establishing multiple data exchange sessions and/or when moving across the network. This scheme reduces the communication and computational complexity of the authentication process. We proved the strength of our protocol with rigorous security analysis and simulated the SMSN and previously proposed schemes in an automated protocol verifier tool. Finally, we compared the computational complexity and communication cost against well-known authentication protocols.",
+      "publication_date": "2017-05-02T02:11:00+00:00",
+      "doi": "10.3390/s17050979",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1705.00764v1"
+    },
+    {
+      "title": "Hardening X.509 Certificate Issuance using Distributed Ledger Technology",
+      "authors": [
+        "Holger Kinkelin",
+        "Richard von Seck",
+        "Christoph Rudolf",
+        "Georg Carle"
+      ],
+      "abstract": "The security of cryptographic communication protocols that use X.509 certificates depends on the correctness of those certificates. This paper proposes a system that helps to ensure the correct operation of an X.509 certification authority and its registration authorities. We achieve this goal by enforcing a policy-defined, multi-party validation and authorization workflow of certificate signing requests. Besides, our system offers full accountability for this workflow for forensic purposes. As a foundation for our implementation, we leverage the distributed ledger and smart contract framework Hyperledger Fabric. Our implementation inherits the strong tamper-resistance of Fabric which strengthens the integrity of the computer processes that enforce the validation and authorization of the certificate signing request, and of the metadata collected during certificate issuance.",
+      "publication_date": "2020-04-15T12:48:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2004.07063v1"
+    },
+    {
+      "title": "Secure Shell (SSH): Public Key Authentication over Hypertext Transfer   Protocol (HTTP)",
+      "authors": [
+        "Dorai Ashok Shanmugavel Anbalagan"
+      ],
+      "abstract": "Secure Shell (SSH) protocol requires all implementations to support public key authentication method (\"publickey\") for authentication purposes, so web applications which provide a SSH client over the web browser need to support \"publickey\". However, restrictions in Hypertext Transfer Protocol (HTTP), such as same origin policy, and limited access to local resources, make it difficult to perform such authentications. In this document, a system to perform \"publickey\" authentication over HTTP is provided. It is ensured that no compromise is made that would pose a security risk to SSH protocol.",
+      "publication_date": "2015-06-15T11:47:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1506.05073v1"
+    },
+    {
+      "title": "Cryptanalysis of the SLAP Authentication Protocol",
+      "authors": [
+        "Ciampi Giovanni"
+      ],
+      "abstract": "RFID (Radio Frequency Identification) is a powerful technology that, due to its numerous advantages, is supposed to replace the various identification systems such as barcodes or magnetic stripes in a short time. There are three devices involved in an RFID protocol: a Reader, a Tag, and a back-end Database. One of the key factors for the RFID technology is that, in order to be used on large scale, the price of the Tags has to be cheap: it cannot be expensive because who is supposed to use it would need a great amount of them, furthermore, Tags must have very small dimensions. The low-cost nature of such devices implies the impossibility to use standard cryptographic protocols on them, furthermore, Ultra-Lightweight Tags even lack the necessary computational power to generate random numbers. Many experts are trying to build secure protocols that involve just simple bitwise logical operations for these Tags, but, unfortunately, each of these protocols turned out to be vulnerable to some serious attack after short time from publication. The need for a secure RFID authentication protocol today seems more urgent than ever, because this technology is already used for security purposes, such as electronic passports. The challenge to build a secure protocol for Ultra-Lightweight RFID systems is so hard that in several years no one has been able to build one. In this thesis we analyze in great detail a recently proposed protocol for Ultra-Lightweight RFID systems called SLAP, with the aim of finding new vulnerabilities. SLAP has already been violated (along with a set of similar protocols) by Safkhani and Bagheri, that have recently published a de-synchronization attack. At the end of our analysis, we will propose an impersonification attack to the protocol, along with a fix for our attack and some considerations on the attacks proposed on this kind of protocols.",
+      "publication_date": "2019-05-27T13:26:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1906.03228v1"
+    },
+    {
+      "title": "A Formal Analysis of 5G Authentication",
+      "authors": [
+        "David Basin",
+        "Jannik Dreier",
+        "Lucca Hirschi",
+        "Saša Radomirović",
+        "Ralf Sasse",
+        "Vincent Stettler"
+      ],
+      "abstract": "Mobile communication networks connect much of the world's population. The security of users' calls, SMSs, and mobile data depends on the guarantees provided by the Authenticated Key Exchange protocols used. For the next-generation network (5G), the 3GPP group has standardized the 5G AKA protocol for this purpose. We provide the first comprehensive formal model of a protocol from the AKA family: 5G AKA. We also extract precise requirements from the 3GPP standards defining 5G and we identify missing security goals. Using the security protocol verification tool Tamarin, we conduct a full, systematic, security evaluation of the model with respect to the 5G security goals. Our automated analysis identifies the minimal security assumptions required for each security goal and we find that some critical security goals are not met, except under additional assumptions missing from the standard. Finally, we make explicit recommendations with provably secure fixes for the attacks and weaknesses we found.",
+      "publication_date": "2018-06-27T09:13:13+00:00",
+      "doi": "10.1145/3243734.3243846",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1806.10360v4"
+    },
+    {
+      "title": "Security of EV-Charging Protocols",
+      "authors": [
+        "Pol Van Aubel",
+        "Erik Poll"
+      ],
+      "abstract": "The field of electric vehicle charging involves a complex combination of actors, devices, networks, and protocols. These protocols are being developed without a clear focus on security. In this paper, we give an overview of the main roles and protocols in use in the Netherlands. We describe a clear attacker model and security requirements, show that in light of this many of the protocols have security issues, and provide suggestions on how to address these issues. The most important conclusion is the need for end-to-end security for data in transit and long-term authenticity for data at rest. In addition, we highlight the need for improved authentication of the EV driver, e.g. by using banking cards. For the communication links we advise mandatory use of TLS, standardization of TLS options and configurations, and improved authentication using TLS client certificates.",
+      "publication_date": "2022-02-09T18:49:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2202.04631v1"
+    },
+    {
+      "title": "Security Analysis of the Consumer Remote SIM Provisioning Protocol",
+      "authors": [
+        "Abu Shohel Ahmed",
+        "Aleksi Peltonen",
+        "Mohit Sethi",
+        "Tuomas Aura"
+      ],
+      "abstract": "Remote SIM provisioning (RSP) for consumer devices is the protocol specified by the GSM Association for downloading SIM profiles into a secure element in a mobile device. The process is commonly known as eSIM, and it is expected to replace removable SIM cards. The security of the protocol is critical because the profile includes the credentials with which the mobile device will authenticate to the mobile network. In this paper, we present a formal security analysis of the consumer RSP protocol. We model the multi-party protocol in applied pi calculus, define formal security goals, and verify them in ProVerif. The analysis shows that the consumer RSP protocol protects against a network adversary when all the intended participants are honest. However, we also model the protocol in realistic partial compromise scenarios where the adversary controls a legitimate participant or communication channel. The security failures in the partial compromise scenarios reveal weaknesses in the protocol design. The most important observation is that the security of RSP depends unnecessarily on it being encapsulated in a TLS tunnel. Also, the lack of pre-established identifiers means that a compromised download server anywhere in the world or a compromised secure element can be used for attacks against RSP between honest participants. Additionally, the lack of reliable methods for verifying user intent can lead to serious security failures. Based on the findings, we recommend practical improvements to RSP implementations, future versions of the specification, and mobile operator processes to increase the robustness of eSIM security.",
+      "publication_date": "2022-11-28T14:00:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2211.15323v2"
+    },
+    {
+      "title": "Approaches to Formal Verification of Security Protocols",
+      "authors": [
+        "Suvansh Lal",
+        "Mohit Jain",
+        "Vikrant Chaplot"
+      ],
+      "abstract": "In recent times, many protocols have been proposed to provide security for various information and communication systems. Such protocols must be tested for their functional correctness before they are used in practice. Application of formal methods for verification of security protocols would enhance their reliability thereby, increasing the usability of systems that employ them. Thus, formal verification of security protocols has become a key issue in computer and communications security. In this paper we present, analyze and compare some prevalent approaches towards verification of secure systems. We follow the notion of - same goal through different approaches - as we formally analyze the Needham Schroeder Public Key protocol for Lowe's attack using each of our presented approaches.",
+      "publication_date": "2011-01-10T13:53:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1101.1815v1"
+    },
+    {
+      "title": "SSH-Passkeys: Leveraging Web Authentication for Passwordless SSH",
+      "authors": [
+        "Moe Kayali",
+        "Jonas Schmitt",
+        "Franziska Roesner"
+      ],
+      "abstract": "We propose a method for using Web Authentication APIs for SSH authentication, enabling passwordless remote server login with passkeys. These are credentials that are managed throughout the key lifecycle by an authenticator on behalf of the user and offer strong security guarantees.   Passwords remain the dominant mode of SSH authentication, despite their well known flaws such as phishing and reuse. SSH's custom key-based authentication protocol can alleviate these issues but remains vulnerable to key theft. Additionally, it has poor usability, with even knowledgeable users leaking key material and failing to verify fingerprints. Hence, effective key management remains a critical open area in SSH security. In contrast, WebAuthn is a modern authentication standard designed to replace passwords, managing keys on behalf of the user. As a web API, this standard cannot integrate with SSH directly.   We propose a framework to integrate WebAuthn with SSH servers, by using UNIX pluggable authentication modules (PAM). Our approach is backwards-compatible, supports stock SSH servers and requires no new software client-side. It offers protection for cryptographic material at rest, resistance to key leaks, phishing protection, privacy protection and attestation capability. None of these properties are offered by passwords nor traditional SSH keys. We validate these advantages with a structured, conceptual security analysis.   We develop a prototype implementation and conduct a user study to quantify the security advantages of our proposal, testing our prototype with 40 SSH users. The study confirms the security problems of SSH-keys, including 20% of the cohort leaking their private keys. Our SSH-passkeys effectively address these problems: we find a 90% reduction in critical security errors, while reducing authentication time by 4x on average.",
+      "publication_date": "2025-07-11T21:13:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.09022v1"
+    },
+    {
+      "title": "Cryptanalysis and improvement of two certificateless three-party   authenticated key agreement protocols",
+      "authors": [
+        "Haiyan Sun",
+        "Qiaoyan Wen",
+        "Hua Zhang",
+        "Zhengping Jin",
+        "Wenmin Li"
+      ],
+      "abstract": "Recently, two certificateless three-party authenticated key agreement protocols were proposed, and both protocols were claimed they can meet the desirable security properties including forward security, key compromise impersonation resistance and so on. Through cryptanalysis, we show that one neither meets forward security and key compromise impersonation resistance nor resists an attack by an adversary who knows all users' secret values, and the other cannot resist key compromise impersonation attack. Finally, we propose improved protocols to make up two original protocols' security weaknesses, respectively. Further security analysis shows that our improved protocols can remove such security weaknesses.",
+      "publication_date": "2013-01-22T07:23:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1301.5091v1"
+    },
+    {
+      "title": "Quantum Key Distribution in the Classical Authenticated Key Exchange   Framework",
+      "authors": [
+        "Michele Mosca",
+        "Douglas Stebila",
+        "Berkant Ustaoglu"
+      ],
+      "abstract": "Key establishment is a crucial primitive for building secure channels: in a multi-party setting, it allows two parties using only public authenticated communication to establish a secret session key which can be used to encrypt messages. But if the session key is compromised, the confidentiality of encrypted messages is typically compromised as well. Without quantum mechanics, key establishment can only be done under the assumption that some computational problem is hard. Since digital communication can be easily eavesdropped and recorded, it is important to consider the secrecy of information anticipating future algorithmic and computational discoveries which could break the secrecy of past keys, violating the secrecy of the confidential channel.   Quantum key distribution (QKD) can be used generate secret keys that are secure against any future algorithmic or computational improvements. QKD protocols still require authentication of classical communication, however, which is most easily achieved using computationally secure digital signature schemes. It is generally considered folklore that QKD when used with computationally secure authentication is still secure against an unbounded adversary, provided the adversary did not break the authentication during the run of the protocol.   We describe a security model for quantum key distribution based on traditional classical authenticated key exchange (AKE) security models. Using our model, we characterize the long-term security of the BB84 QKD protocol with computationally secure authentication against an eventually unbounded adversary. By basing our model on traditional AKE models, we can more readily compare the relative merits of various forms of QKD and existing classical AKE protocols. This comparison illustrates in which types of adversarial environments different quantum and classical key agreement protocols can be secure.",
+      "publication_date": "2012-06-27T00:56:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1206.6150v1"
+    },
+    {
+      "title": "Autonomous collision attack on OCSP services",
+      "authors": [
+        "Ken Ivanov"
+      ],
+      "abstract": "The paper describes two important design flaws in Online Certificate Status Protocol (OCSP), a protocol widely used in PKI environments for managing digital certificates' credibility in real time. The flaws significantly reduce the security capabilities of the protocol, and can be exploited by a malicious third party to generate forged signed certificate statuses and, in the worst scenario, forged certificates. Description of the flaws, along with expected exploitation routes, consequences for consuming application layer protocols, and proposed countermeasures, is given.",
+      "publication_date": "2016-09-10T13:13:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1609.03047v1"
+    },
+    {
+      "title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and   Assessment",
+      "authors": [
+        "Jieyu Zheng",
+        "Haoliang Zhu",
+        "Yifan Dong",
+        "Zhenyu Song",
+        "Zhenhao Zhang",
+        "Yafang Yang",
+        "Yunlei Zhao"
+      ],
+      "abstract": "TLS is extensively utilized for secure data transmission over networks. However, with the advent of quantum computers, the security of TLS based on traditional public-key cryptography is under threat. To counter quantum threats, it is imperative to integrate post-quantum algorithms into TLS. Most PQ-TLS research focuses on integration and evaluation, but few studies address the improvement of PQ-TLS performance by optimizing PQC implementation. For the TLS protocol, handshake performance is crucial, and for post-quantum TLS (PQ-TLS) the performance of post-quantum key encapsulation mechanisms (KEMs) directly impacts handshake performance. In this work, we explore the impact of post-quantum KEMs on PQ-TLS performance. We explore how to improve ML-KEM performance using the latest Intel's Advanced Vector Extensions instruction set AVX-512. We detail a spectrum of techniques devised to parallelize polynomial multiplication, modular reduction, and other computationally intensive modules within ML-KEM. Our optimized ML-KEM implementation achieves up to 1.64x speedup compared to the latest AVX2 implementation. Furthermore, we introduce a novel batch key generation method for ML-KEM that can seamlessly integrate into the TLS protocols. The batch method accelerates the key generation procedure by 3.5x to 4.9x. We integrate the optimized AVX-512 implementation of ML-KEM into TLS 1.3, and assess handshake performance under both PQ-only and hybrid modes. The assessment demonstrates that our faster ML-KEM implementation results in a higher number of TLS 1.3 handshakes per second under both modes. Additionally, we revisit two IND-1-CCA KEM constructions discussed in Eurocrypt22 and Asiacrypt23. Besides, we implement them based on ML-KEM and integrate the one of better performance into TLS 1.3 with benchmarks.",
+      "publication_date": "2024-04-21T05:59:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2404.13544v2"
+    },
+    {
+      "title": "A Security Enhanced Authentication Protocol",
+      "authors": [
+        "Sai Sreekar Vankayalapati",
+        "Srijanee Mookherji",
+        "Vanga Odelu"
+      ],
+      "abstract": "Internet of Things (IoT) have gained popularity in recent times. With an increase in the number of IoT devices, security and privacy vulnerabilities are also increasing. For sensitive domains like healthcare and industrial sectors, such vulnerabilities can cause havoc. Thus, authentication is an important aspect for establishing a secure communication between various participants. In this paper, we study the two recent authentication and key exchange protocols. We prove that these protocols are vulnerable to replay attack and modification attack, and also suffer from technical correctness. We then present the possible improvements to overcome the discussed vulnerabilities. The enhancement preserves performance of the original protocols.",
+      "publication_date": "2023-12-23T13:15:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.15250v1"
+    },
+    {
+      "title": "APRAP: Another Privacy Preserving RFID Authentication Protocol",
+      "authors": [
+        "Atsuko Miyaji",
+        "Mohammad Shahriar Rahman"
+      ],
+      "abstract": "Privacy preserving RFID (Radio Frequency Identification) authentication has been an active research area in recent years. Both forward security and backward security are required to maintain the privacy of a tag, i.e., exposure of a tag's secret key should not reveal the past or future secret keys of the tag. We envisage the need for a formal model for backward security for RFID protocol designs in shared key settings, since the RFID tags are too resource-constrained to support public key settings. However, there has not been much research on backward security for shared key environment since Serge Vaudenay in his Asiacrypt 2007 paper showed that perfect backward security is impossible to achieve without public key settings. We propose a Privacy Preserving RFID Authentication Protocol for shared key environment, APRAP, which minimizes the damage caused by secret key exposure using insulated keys. Even if a tag's secret key is exposed during an authentication session, forward security and 'restricted' backward security of the tag are preserved under our assumptions. The notion of 'restricted' backward security is that the adversary misses the protocol transcripts which are needed to update the compromised secret key. Although our definition does not capture perfect backward security, it is still suitable for effective implementation as the tags are highly mobile in practice. We also provide a formal security model of APRAP. Our scheme is more efficient than previous proposals from the viewpoint of computational requirements.",
+      "publication_date": "2012-09-23T13:52:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1209.5066v1"
+    },
+    {
+      "title": "Security of the DNS Protocol - Implementation and Weaknesses Analyses of   DNSSEC",
+      "authors": [
+        "Kaouthar Chetioui",
+        "Ghizlane Orhanou",
+        "Said El Hajji",
+        "Abdelmajid Lakbabi"
+      ],
+      "abstract": "Today, Internet offers many critical applications. So, it becomes very crucial for Internet service providers to ensure traceability of operations and to secure data exchange. Since all these communications are based on the use of the Domain Name System (DNS) protocol, it becomes necessary to think to enhance and secure it by proposing a secure version of this protocol that can correct the whole or a part of the DNS protocol weaknesses and vulnerabilities. In this context, DNSsec was created by the IETF to ensure the integrity of DNS data and authentication of the source of such data. DNSsec is based on the key cryptography public to provide different security services. In the present paper, we will present first the DNS protocol and its weaknesses. After that, we will be interested in studying the DNSsec implementation and data exchange, and then give a deep analysis of its weaknesses.",
+      "publication_date": "2012-07-30T21:40:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1207.7109v1"
+    },
+    {
+      "title": "An efficient certificateless authenticated key agreement protocol   without bilinear pairings",
+      "authors": [
+        "Debiao He",
+        "Yitao Chen"
+      ],
+      "abstract": "Certificateless public key cryptography simplifies the complex certificate management in the traditional public key cryptography and resolves the key escrow problem in identity-based cryptography. Many certificateless authenticated key agreement protocols using bilinear pairings have been proposed. But the relative computation cost of the pairing is approximately twenty times higher than that of the scalar multiplication over elliptic curve group. Recently, several certificateless authenticated key agreement protocols without pairings were proposed to improve the performance. In this paper, we propose a new certificateless authenticated key agreement protocol without pairing. The user in our just needs to compute five scale multiplication to finish the key agreement. We also show the proposed protocol is secure in the random oracle model.",
+      "publication_date": "2011-06-20T13:41:46+00:00",
+      "doi": "10.1016/j.mcm.2011.08.004",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1106.3898v1"
+    },
+    {
+      "title": "Q-ESP: a QoS-compliant Security Protocol to enrich IPSec Framework",
+      "authors": [
+        "Mahmoud Mostafa",
+        "Anas Abou El Kalam",
+        "Christian Fraboul"
+      ],
+      "abstract": "IPSec is a protocol that allows to make secure connections between branch offices and allows secure VPN accesses. However, the efforts to improve IPSec are still under way; one aspect of this improvement is to take Quality of Service (QoS) requirements into account. QoS is the ability of the network to provide a service at an assured service level while optimizing the global usage of network resources. The QoS level that a flow receives depends on a six-bit identifier in the IP header; the so-called Differentiated Services code point (DSCP). Basically, Multi-Field classifiers classify a packet by inspecting IP/TCP headers, to decide how the packet should be processed. The current IPSec standard does hardly offer any guidance to do this, because the existing IPSec ESP security protocol hides much of this information in its encrypted payloads, preventing network control devices such as routers and switches from utilizing this information in performing classification appropriately. To solve this problem, we propose a QoS-friendly Encapsulated Security Payload (Q-ESP) as a new IPSec security protocol that provides both security and QoS supports. We also present our NetBSD kernel-based implementation as well as our evaluation results of Q-ESP.",
+      "publication_date": "2009-11-20T12:59:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "0911.4034v2"
+    },
+    {
+      "title": "Oh SSH-it, what's my fingerprint? A Large-Scale Analysis of SSH Host Key   Fingerprint Verification Records in the DNS",
+      "authors": [
+        "Sebastian Neef",
+        "Nils Wisiol"
+      ],
+      "abstract": "The SSH protocol is commonly used to access remote systems on the Internet, as it provides an encrypted and authenticated channel for communication. If upon establishing a new connection, the presented server key is unknown to the client, the user is asked to verify the key fingerprint manually, which is prone to errors and often blindly trusted. The SSH standard describes an alternative to such manual key verification: using the Domain Name System (DNS) to publish the server key information in SSHFP records.   In this paper, we conduct a large-scale Internet study to measure the prevalence of SSHFP records among DNS domain names. We scan the Tranco 1M list and over 500 million names from the certificate transparency log over the course of 26 days. The results show that in two studied populations, about 1 in 10,000 domains has SSHFP records, with more than half of them deployed without using DNSSEC, drastically reducing security benefits.",
+      "publication_date": "2022-08-18T14:29:47+00:00",
+      "doi": "10.1007/978-3-031-20974-1_4",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2208.08846v2"
+    }
+  ]
+}

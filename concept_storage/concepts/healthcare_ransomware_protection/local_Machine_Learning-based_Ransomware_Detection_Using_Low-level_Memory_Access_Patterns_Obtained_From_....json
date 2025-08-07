@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_...",
+  "paper_title": "Machine Learning-based Ransomware Detection Using Low-level Memory Access Patterns Obtained From ...",
+  "concepts": [
+    {
+      "text": "memory",
+      "frequency": 76,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.596900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 79,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.597089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hypervisor",
+      "frequency": 66,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.597666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ept",
+      "frequency": 60,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.630433+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read",
+      "frequency": 81,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.639883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write",
+      "frequency": 100,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.640111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access patterns",
+      "frequency": 51,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.682777+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 10 20",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.744291+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 20 30",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.744470+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 30 40",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.744649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 40 50",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.744828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 50 60",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.745007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read write 0",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.746442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write 0 10",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.746620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patterns",
+      "frequency": 56,
+      "relevance_score": 0.9980115458627326,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.597284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 10",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.722673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 20",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.722863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 30",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.723053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 40",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.723244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 50",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.723466+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 60",
+      "frequency": 41,
+      "relevance_score": 0.9574727389352148,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.723657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read write",
+      "frequency": 46,
+      "relevance_score": 0.9376523412443876,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.701967+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write 0",
+      "frequency": 38,
+      "relevance_score": 0.9093649775497114,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.727110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write read",
+      "frequency": 40,
+      "relevance_score": 0.8414368184733805,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.726931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware",
+      "frequency": 45,
+      "relevance_score": 0.8216164207825529,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.596330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write read exec",
+      "frequency": 32,
+      "relevance_score": 0.8131494547787042,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.747160+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read exec read",
+      "frequency": 32,
+      "relevance_score": 0.8131494547787042,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.747340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exec read write",
+      "frequency": 31,
+      "relevance_score": 0.7971135343168698,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.747519+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "address",
+      "frequency": 40,
+      "relevance_score": 0.7414368184733804,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.616715+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "guest",
+      "frequency": 39,
+      "relevance_score": 0.7254008980115458,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.622440+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read exec",
+      "frequency": 32,
+      "relevance_score": 0.7131494547787043,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.727829+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exec read",
+      "frequency": 32,
+      "relevance_score": 0.7131494547787043,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.728008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 37,
+      "relevance_score": 0.6933290570878768,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.595890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory access patterns",
+      "frequency": 24,
+      "relevance_score": 0.6848620910840282,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.730700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ept violationept violation",
+      "frequency": 24,
+      "relevance_score": 0.6848620910840282,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.746981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory access",
+      "frequency": 30,
+      "relevance_score": 0.6810776138550353,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.682595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "storage access patterns",
+      "frequency": 22,
+      "relevance_score": 0.6527902501603592,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.733822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "guest os",
+      "frequency": 28,
+      "relevance_score": 0.6490057729313663,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.691490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exec",
+      "frequency": 32,
+      "relevance_score": 0.6131494547787042,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.680965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning models",
+      "frequency": 10,
+      "relevance_score": 0.6103592046183451,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.734002+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-level memory access",
+      "frequency": 12,
+      "relevance_score": 0.5924310455420141,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.730520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ept violationept",
+      "frequency": 24,
+      "relevance_score": 0.5848620910840283,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.727469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "violationept violation",
+      "frequency": 24,
+      "relevance_score": 0.5848620910840283,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.727649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hypervisor-based monitoring system",
+      "frequency": 2,
+      "relevance_score": 0.582071840923669,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.732333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "violation",
+      "frequency": 30,
+      "relevance_score": 0.5810776138550353,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.638436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "storage access",
+      "frequency": 23,
+      "relevance_score": 0.5688261706221938,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.693414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malware",
+      "frequency": 28,
+      "relevance_score": 0.5490057729313663,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.601450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "storage",
+      "frequency": 28,
+      "relevance_score": 0.5490057729313663,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.624648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 60 seconds02468entropy",
+      "frequency": 8,
+      "relevance_score": 0.528287363694676,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.745543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 seconds02468entropy bit",
+      "frequency": 8,
+      "relevance_score": 0.528287363694676,
+      "source_papers": [
+        "local/Machine_Learning-based_Ransomware_Detection_Using_Low-level_Memory_Access_Patterns_Obtained_From_..."
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.745722+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:57.749953+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:57.750125+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_ransomware_protection"
+  }
+}

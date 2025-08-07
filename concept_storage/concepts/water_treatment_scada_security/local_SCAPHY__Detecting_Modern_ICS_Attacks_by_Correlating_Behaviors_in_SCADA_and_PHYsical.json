@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical",
+  "paper_title": "SCAPHY  Detecting Modern ICS Attacks by Correlating Behaviors in SCADA and PHYsical",
+  "concepts": [
+    {
+      "text": "ics",
+      "frequency": 165,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.420797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada",
+      "frequency": 168,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.422544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "caphy",
+      "frequency": 145,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.434255+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s caphy",
+      "frequency": 145,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.967699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical",
+      "frequency": 137,
+      "relevance_score": 0.9998357963875205,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.422980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 97,
+      "relevance_score": 0.8871100164203612,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.447284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 86,
+      "relevance_score": 0.6648604269293924,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.502869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 83,
+      "relevance_score": 0.6451559934318555,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.421235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 78,
+      "relevance_score": 0.6123152709359605,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.426932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control",
+      "frequency": 36,
+      "relevance_score": 0.5864532019704434,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.454543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical process-aware dynamic",
+      "frequency": 5,
+      "relevance_score": 0.5828407224958949,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.467605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "element",
+      "frequency": 72,
+      "relevance_score": 0.5729064039408867,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.520292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "legitimate process-control behaviors",
+      "frequency": 3,
+      "relevance_score": 0.569704433497537,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.428926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control phase behaviors",
+      "frequency": 3,
+      "relevance_score": 0.569704433497537,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.445666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada process-control execution",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.363488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process- control behaviors",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.416840+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linear models 16",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.423950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models 16 18",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.424391+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "extract legitimate process-control",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.437106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical process- aware",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.438057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process- aware dynamic",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.438510+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "legitimate process-control phase",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.445230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "approaches 8 10",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.457081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bypassed proper process-altering",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.506011+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models 16 19",
+      "frequency": 2,
+      "relevance_score": 0.563136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.536566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scaphy",
+      "frequency": 66,
+      "relevance_score": 0.5334975369458128,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.419400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-altering",
+      "frequency": 24,
+      "relevance_score": 0.5076354679802956,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.597405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "opc",
+      "frequency": 62,
+      "relevance_score": 0.5072249589490969,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.518865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada process-control",
+      "frequency": 8,
+      "relevance_score": 0.5025451559934319,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.978281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control phase",
+      "frequency": 8,
+      "relevance_score": 0.5025451559934319,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.058510+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 8,
+      "relevance_score": 0.5025451559934319,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.357419+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-aware dynamic",
+      "frequency": 7,
+      "relevance_score": 0.4959770114942529,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.977292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "legitimate process-control",
+      "frequency": 6,
+      "relevance_score": 0.4894088669950739,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.980475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical process-aware",
+      "frequency": 5,
+      "relevance_score": 0.48284072249589494,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.123117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control system",
+      "frequency": 5,
+      "relevance_score": 0.48284072249589494,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.421763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-monitoring",
+      "frequency": 20,
+      "relevance_score": 0.4813628899835797,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.596964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process- control",
+      "frequency": 4,
+      "relevance_score": 0.47627257799671596,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.971961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models 16",
+      "frequency": 4,
+      "relevance_score": 0.47627257799671596,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.002849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control behaviors",
+      "frequency": 4,
+      "relevance_score": 0.47627257799671596,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.020911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process- aware",
+      "frequency": 3,
+      "relevance_score": 0.469704433497537,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.042450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-altering phase",
+      "frequency": 3,
+      "relevance_score": 0.469704433497537,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.114262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control execution",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.978721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical process-",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.042006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-altering phases",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.083377+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "approaches 8",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.092284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process-control operations",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.147772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proper process-altering",
+      "frequency": 2,
+      "relevance_score": 0.463136288998358,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.253349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "novel process dependency",
+      "frequency": 2,
+      "relevance_score": 0.4631362889983579,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.435676+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control physical processes",
+      "frequency": 2,
+      "relevance_score": 0.4631362889983579,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.450069+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "level control process",
+      "frequency": 2,
+      "relevance_score": 0.4631362889983579,
+      "source_papers": [
+        "local/SCAPHY__Detecting_Modern_ICS_Attacks_by_Correlating_Behaviors_in_SCADA_and_PHYsical"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.452694+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:05.569000+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:05.569219+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

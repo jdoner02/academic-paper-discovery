@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+  "paper_title": "algoXSSF  Detection and analysis of cross-site request forgery  XSRF  and cross-site scripting  X...",
+  "concepts": [
+    {
+      "text": "xss",
+      "frequency": 86,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.440397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 78,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.440678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "web",
+      "frequency": 72,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.452064+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site",
+      "frequency": 49,
+      "relevance_score": 0.8949368883846263,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.438723+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 44,
+      "relevance_score": 0.7240249609984399,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.438492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site scripting",
+      "frequency": 29,
+      "relevance_score": 0.7112891788398809,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.583876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 43,
+      "relevance_score": 0.7098425755212027,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.452286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 35,
+      "relevance_score": 0.6963834917033045,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.584970+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xss attacks",
+      "frequency": 34,
+      "relevance_score": 0.6822011062260673,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.584317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 39,
+      "relevance_score": 0.6531130336122536,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.441607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 39,
+      "relevance_score": 0.6531130336122536,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.483515+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 39,
+      "relevance_score": 0.6531130336122536,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.491811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site request forgery",
+      "frequency": 16,
+      "relevance_score": 0.6269181676357963,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.624636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 37,
+      "relevance_score": 0.6247482626577789,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.441335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csrf",
+      "frequency": 36,
+      "relevance_score": 0.6105658771805418,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.476283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site scripting xss",
+      "frequency": 14,
+      "relevance_score": 0.5985533966813218,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.625074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning algorithms",
+      "frequency": 9,
+      "relevance_score": 0.5776414692951355,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.625710+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 23,
+      "relevance_score": 0.5761948659764573,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.441878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request",
+      "frequency": 32,
+      "relevance_score": 0.5538363352715927,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.439026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site request",
+      "frequency": 17,
+      "relevance_score": 0.5411005531130336,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.583248+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scripting",
+      "frequency": 31,
+      "relevance_score": 0.5396539497943554,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.440147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malicious",
+      "frequency": 30,
+      "relevance_score": 0.5254715643171182,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.462153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threats",
+      "frequency": 29,
+      "relevance_score": 0.5112891788398809,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.466108+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning techniques",
+      "frequency": 3,
+      "relevance_score": 0.49254715643171176,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.630934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications",
+      "frequency": 27,
+      "relevance_score": 0.48292440788540636,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.473031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber defense framework",
+      "frequency": 2,
+      "relevance_score": 0.4783647709544745,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.626330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning algorithms embedded",
+      "frequency": 2,
+      "relevance_score": 0.4783647709544745,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.626536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systematic literature review",
+      "frequency": 2,
+      "relevance_score": 0.4783647709544745,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.627590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning algorithms",
+      "frequency": 9,
+      "relevance_score": 0.4776414692951355,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.585187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "into",
+      "frequency": 26,
+      "relevance_score": 0.4687420224081691,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.485227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml algorithms",
+      "frequency": 8,
+      "relevance_score": 0.46345908381789813,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.610560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user s",
+      "frequency": 18,
+      "relevance_score": 0.4552829385902709,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.593337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request forgery",
+      "frequency": 17,
+      "relevance_score": 0.44110055311303364,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.583462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "web applications",
+      "frequency": 17,
+      "relevance_score": 0.44110055311303364,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.591720+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xss attack",
+      "frequency": 17,
+      "relevance_score": 0.44110055311303364,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.598051+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site scripting vulnerabilities",
+      "frequency": 2,
+      "relevance_score": 0.42836477095447456,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.628854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-site scripting attack",
+      "frequency": 2,
+      "relevance_score": 0.42836477095447456,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.629481+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xss cross-site scripting",
+      "frequency": 2,
+      "relevance_score": 0.42836477095447456,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.629896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv abs 2311",
+      "frequency": 2,
+      "relevance_score": 0.42836477095447456,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.633491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "broad-band wireless computing",
+      "frequency": 2,
+      "relevance_score": 0.42836477095447456,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.633697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber",
+      "frequency": 23,
+      "relevance_score": 0.4261948659764573,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.459632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vulnerabilities",
+      "frequency": 23,
+      "relevance_score": 0.4261948659764573,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.471284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 23,
+      "relevance_score": 0.4261948659764573,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.516303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "techniques",
+      "frequency": 12,
+      "relevance_score": 0.42018862572684723,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.490017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request forgery csrf",
+      "frequency": 8,
+      "relevance_score": 0.41345908381789814,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.628014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scripting xss",
+      "frequency": 15,
+      "relevance_score": 0.4127357821585591,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.584099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml techniques",
+      "frequency": 4,
+      "relevance_score": 0.40672954190894905,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.598474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning techniques",
+      "frequency": 4,
+      "relevance_score": 0.40672954190894905,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.610145+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csrf attacks",
+      "frequency": 14,
+      "relevance_score": 0.39855339668132184,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.597629+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "browser",
+      "frequency": 21,
+      "relevance_score": 0.39783009502198274,
+      "source_papers": [
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:40.492018+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:40.634262+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:40.634450+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

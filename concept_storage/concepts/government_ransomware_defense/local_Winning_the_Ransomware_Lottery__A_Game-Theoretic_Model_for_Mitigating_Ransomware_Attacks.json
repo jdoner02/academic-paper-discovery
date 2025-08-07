@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+  "paper_title": "Winning the Ransomware Lottery  A Game-Theoretic Model for Mitigating Ransomware Attacks",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.307747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 44,
+      "relevance_score": 0.9082292432035268,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.315730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 37,
+      "relevance_score": 0.7796473181484203,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.315573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransom",
+      "frequency": 32,
+      "relevance_score": 0.6878030859662012,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.331201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 27,
+      "relevance_score": 0.5959588537839824,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.308334+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "probability",
+      "frequency": 23,
+      "relevance_score": 0.5224834680382072,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.315885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "payment",
+      "frequency": 22,
+      "relevance_score": 0.5041146216017635,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.316042+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o -site backups",
+      "frequency": 3,
+      "relevance_score": 0.4551065393093313,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pay",
+      "frequency": 19,
+      "relevance_score": 0.44900808229243205,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.335916+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware op- erators",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.386091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "plose 1 pwin",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.386359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 0 1",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.386760+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non- nancial mechanisms",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 decreasing attack",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 cyber insurance",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387598+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 o -site",
+      "frequency": 2,
+      "relevance_score": 0.43673769287288755,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 18,
+      "relevance_score": 0.4306392358559883,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.310136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware operators",
+      "frequency": 12,
+      "relevance_score": 0.4204261572373255,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.371991+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "successful",
+      "frequency": 17,
+      "relevance_score": 0.4122703894195444,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.328215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 0",
+      "frequency": 6,
+      "relevance_score": 0.41021307861866274,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.378899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 16,
+      "relevance_score": 0.39390154298310065,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.310570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "organizations",
+      "frequency": 16,
+      "relevance_score": 0.39390154298310065,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.312138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "victims",
+      "frequency": 16,
+      "relevance_score": 0.39390154298310065,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.312894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o -site",
+      "frequency": 5,
+      "relevance_score": 0.391844232182219,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.372424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware attacks",
+      "frequency": 10,
+      "relevance_score": 0.38368846436443793,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.371258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lottery",
+      "frequency": 15,
+      "relevance_score": 0.3755326965466569,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.307907+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "work",
+      "frequency": 15,
+      "relevance_score": 0.3755326965466569,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.314592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "expected",
+      "frequency": 15,
+      "relevance_score": 0.3755326965466569,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.314889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "since",
+      "frequency": 15,
+      "relevance_score": 0.3755326965466569,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.319400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ran- somware",
+      "frequency": 4,
+      "relevance_score": 0.3734753857457752,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.372743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "expected value",
+      "frequency": 9,
+      "relevance_score": 0.36531961792799417,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.372136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 14,
+      "relevance_score": 0.3571638501102131,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.311445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operators",
+      "frequency": 14,
+      "relevance_score": 0.3571638501102131,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.313178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "victim",
+      "frequency": 14,
+      "relevance_score": 0.3571638501102131,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.331471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 3024",
+      "frequency": 3,
+      "relevance_score": 0.35510653930933134,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.379173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-site backups",
+      "frequency": 3,
+      "relevance_score": 0.35510653930933134,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.384324+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decreasing attack success",
+      "frequency": 3,
+      "relevance_score": 0.35510653930933134,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.387464+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware lottery",
+      "frequency": 8,
+      "relevance_score": 0.3469507714915503,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.371124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 5,
+      "relevance_score": 0.34184423218221893,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.328456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attackers",
+      "frequency": 13,
+      "relevance_score": 0.3387950036737693,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.312747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 13,
+      "relevance_score": 0.3387950036737693,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.329701+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware op-",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.374741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "op- erators",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.374881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "plose 1",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.376577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 pwin",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.376711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xlose 0",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.376846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b0 c",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.378343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.379039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5",
+      "frequency": 2,
+      "relevance_score": 0.3367376928728876,
+      "source_papers": [
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:20.379306+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:08:20.388211+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:08:20.388394+00:00",
+    "repository_version": "1.0",
+    "domain": "government_ransomware_defense"
+  }
+}

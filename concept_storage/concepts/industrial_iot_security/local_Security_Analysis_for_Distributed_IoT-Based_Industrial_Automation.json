@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation",
+  "paper_title": "Security Analysis for Distributed IoT-Based Industrial Automation",
+  "concepts": [
+    {
+      "text": "models",
+      "frequency": 68,
+      "relevance_score": 0.7567441687159997,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.792573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controller",
+      "frequency": 66,
+      "relevance_score": 0.5918399284596467,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.862320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cipn-based control models",
+      "frequency": 3,
+      "relevance_score": 0.5723563603845294,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.480311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 43,
+      "relevance_score": 0.5704411655115881,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.776536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security-aware channel models",
+      "frequency": 2,
+      "relevance_score": 0.564904240256353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.456729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security-aware closed-loop system",
+      "frequency": 2,
+      "relevance_score": 0.564904240256353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.465755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tpn-based controller models",
+      "frequency": 2,
+      "relevance_score": 0.564904240256353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.481853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 39,
+      "relevance_score": 0.5406326849988822,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.803549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 58,
+      "relevance_score": 0.532222967434235,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.780724+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 55,
+      "relevance_score": 0.5098666070497057,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.766948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 54,
+      "relevance_score": 0.5024144869215292,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.800070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "channel",
+      "frequency": 52,
+      "relevance_score": 0.4875102466651763,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.796534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "closed-loop system",
+      "frequency": 5,
+      "relevance_score": 0.4872606006408824,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.200812+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 38,
+      "relevance_score": 0.4831805648707057,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.174105+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cipn-based models",
+      "frequency": 4,
+      "relevance_score": 0.47980848051270586,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.204741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 3,
+      "relevance_score": 0.47235636038452944,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.192877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reconﬁgurable manufacturing systems",
+      "frequency": 3,
+      "relevance_score": 0.47235636038452944,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.453896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sequential control systems",
+      "frequency": 3,
+      "relevance_score": 0.47235636038452944,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.459653+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed automation systems",
+      "frequency": 3,
+      "relevance_score": 0.47235636038452944,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.461767+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intercept modify submodel",
+      "frequency": 3,
+      "relevance_score": 0.47235636038452944,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.513799+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 49,
+      "relevance_score": 0.4651538862806468,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.798921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system-level veriﬁcation",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.168690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system-level safety",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.256679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discrete-event systems",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.442998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time systems",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.453125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed control models",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.460497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial automation systems",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.463369+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication channel models",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.464547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "underlying physical process",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.466951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dos attack submodel",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.511766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intercept spoof submodel",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.512592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems ieee transactions",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.537792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems technology",
+      "frequency": 2,
+      "relevance_score": 0.4649042402563529,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.540268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 u",
+      "frequency": 22,
+      "relevance_score": 0.4639466428198823,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.327099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 802 15",
+      "frequency": 7,
+      "relevance_score": 0.4521648408972353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.464947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u chbusy 0",
+      "frequency": 7,
+      "relevance_score": 0.4521648408972353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.493536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "chbusy 0 u",
+      "frequency": 7,
+      "relevance_score": 0.4521648408972353,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.493946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "chbusy 1 g",
+      "frequency": 6,
+      "relevance_score": 0.44471272076905877,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.489423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "place",
+      "frequency": 46,
+      "relevance_score": 0.4427975258961174,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:23.920708+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 u",
+      "frequency": 18,
+      "relevance_score": 0.4341381623071764,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.356924+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u bxcvr_rx 1",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.494763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bxcvr_rx 1 u",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.495173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 u bxcvr_prx",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.496720+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g chbusy 1",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.499450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u chbusy 1",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.503325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "802 15 4",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.509243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 u chbusy",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.515031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-cost arm cortex-m3-based",
+      "frequency": 4,
+      "relevance_score": 0.4298084805127058,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.523642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controller models",
+      "frequency": 10,
+      "relevance_score": 0.4245212012817646,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.187573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grafcet iec 60848",
+      "frequency": 3,
+      "relevance_score": 0.4223563603845294,
+      "source_papers": [
+        "local/Security_Analysis_for_Distributed_IoT-Based_Industrial_Automation"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:24.457117+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:17:24.541583+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:17:24.541771+00:00",
+    "repository_version": "1.0",
+    "domain": "industrial_iot_security"
+  }
+}

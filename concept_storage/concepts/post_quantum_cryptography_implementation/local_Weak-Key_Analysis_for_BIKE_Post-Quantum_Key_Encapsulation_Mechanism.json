@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism",
+  "paper_title": "Weak-Key Analysis for BIKE Post-Quantum Key Encapsulation Mechanism",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 91,
+      "relevance_score": 0.8899305555555556,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.414085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bike",
+      "frequency": 82,
+      "relevance_score": 0.8118055555555556,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.413243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 72,
+      "relevance_score": 0.725,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.427235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dfr",
+      "frequency": 71,
+      "relevance_score": 0.7163194444444444,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.428909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "weak-keys",
+      "frequency": 50,
+      "relevance_score": 0.6340277777777777,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.433288+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decoder",
+      "frequency": 55,
+      "relevance_score": 0.5774305555555556,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.427904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ind-cca security",
+      "frequency": 30,
+      "relevance_score": 0.5604166666666667,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.702706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w 2",
+      "frequency": 30,
+      "relevance_score": 0.5604166666666667,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.791727+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheme",
+      "frequency": 53,
+      "relevance_score": 0.5600694444444445,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.421579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qc-mdpc",
+      "frequency": 33,
+      "relevance_score": 0.4864583333333333,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.462103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "code-based cryptosystems",
+      "frequency": 4,
+      "relevance_score": 0.4847222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.708328+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ind-cca",
+      "frequency": 32,
+      "relevance_score": 0.47777777777777775,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.426897+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vector",
+      "frequency": 43,
+      "relevance_score": 0.47326388888888893,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.542749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁrst",
+      "frequency": 42,
+      "relevance_score": 0.46458333333333335,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.433957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r w 2",
+      "frequency": 7,
+      "relevance_score": 0.46076388888888886,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.942200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w 2 f",
+      "frequency": 6,
+      "relevance_score": 0.4520833333333333,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.939781+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parity-check matrix",
+      "frequency": 17,
+      "relevance_score": 0.44756944444444446,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.744678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 r",
+      "frequency": 5,
+      "relevance_score": 0.4434027777777778,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.932409+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state-of-the-art bgf decoder",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.901921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ind- cca security",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.902490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h 1 n0",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.910984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 n0 1",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.911531+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n w -qc-mdpc",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.917297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 r 1g",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.932746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 br",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.936918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f w 2",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.940856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m w 2",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.942532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w 2 1",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.942865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 s 2",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.945207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 w 2",
+      "frequency": 4,
+      "relevance_score": 0.43472222222222223,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.953264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j h 1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.912407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qc-mdpc pke scheme",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.914201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w -qc-mdpc code",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.917645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a0 a1x a2x2",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.919715+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a1x a2x2 ar",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.920057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a2x2 ar 1xr",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.920399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ar 1xr 1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.920742+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e0 0 e0",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.924468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 e0 1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.924816+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 3 1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.933618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 x x2",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.935024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x x2 xf",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.935378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x2 xf 1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.935954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hi i2f0 1g",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.937869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w 2 o1",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.944195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w 2 m",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.946893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "128 bit security",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.948909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wt r 2",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.949914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "springer 2020 pp",
+      "frequency": 3,
+      "relevance_score": 0.42604166666666665,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.957480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "private key",
+      "frequency": 26,
+      "relevance_score": 0.42569444444444443,
+      "source_papers": [
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:09.716805+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:09.959828+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:09.960029+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

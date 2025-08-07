@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems",
+  "paper_title": "Privacy Preservation Intrusion Detection Technique for SCADA Systems",
+  "concepts": [
+    {
+      "text": "scada",
+      "frequency": 67,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.302122+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.302251+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems",
+      "frequency": 32,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.350328+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "techniques",
+      "frequency": 33,
+      "relevance_score": 0.9922402159244265,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.306399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "features",
+      "frequency": 33,
+      "relevance_score": 0.8422402159244264,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.326592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 32,
+      "relevance_score": 0.8197480881691408,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.301993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 22,
+      "relevance_score": 0.7448268106162843,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.304983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 28,
+      "relevance_score": 0.7297795771479981,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.303034+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy",
+      "frequency": 27,
+      "relevance_score": 0.7072874493927125,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.301592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection",
+      "frequency": 19,
+      "relevance_score": 0.6273504273504273,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.350188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- physical system",
+      "frequency": 2,
+      "relevance_score": 0.5949842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.373008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion",
+      "frequency": 21,
+      "relevance_score": 0.5723346828609986,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.301864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ids",
+      "frequency": 20,
+      "relevance_score": 0.549842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.305112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "current scada systems",
+      "frequency": 4,
+      "relevance_score": 0.5399685110211426,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system",
+      "frequency": 8,
+      "relevance_score": 0.5299370220422852,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.352934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 3,
+      "relevance_score": 0.517476383265857,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369285+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 18,
+      "relevance_score": 0.5048582995951417,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.309879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre -processor",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057135,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.356529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "acquisition scada systems",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369029+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems face",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369157+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy preservation techniques",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection systems",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.369925+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning techniques",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.370699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tcp scada systems",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.373658+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems international",
+      "frequency": 2,
+      "relevance_score": 0.49498425551057124,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.373787+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system",
+      "frequency": 6,
+      "relevance_score": 0.48495276653171393,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.351009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy preservation",
+      "frequency": 12,
+      "relevance_score": 0.4699055330634278,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.349883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based ids monitors",
+      "frequency": 3,
+      "relevance_score": 0.46747638326585694,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.370052+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑁 𝑖 1",
+      "frequency": 3,
+      "relevance_score": 0.46747638326585694,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.370444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensitive",
+      "frequency": 16,
+      "relevance_score": 0.45987404408457044,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.305808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy preservation intrusion",
+      "frequency": 7,
+      "relevance_score": 0.4574448942869995,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.368772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "preservation intrusion detection",
+      "frequency": 7,
+      "relevance_score": 0.4574448942869995,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.368901+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensitive information",
+      "frequency": 11,
+      "relevance_score": 0.44741340530814216,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.351528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 𝑁 𝑖",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.370571+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2nd acm international",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.372624+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber - physical",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.372881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infrastructure protection 10",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.374065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protection 10 59",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.374197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 59 -70",
+      "frequency": 2,
+      "relevance_score": 0.4449842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.374325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "unsupervised techniques",
+      "frequency": 4,
+      "relevance_score": 0.43996851102114265,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.357073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "correlation",
+      "frequency": 15,
+      "relevance_score": 0.4373819163292848,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.308137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection system",
+      "frequency": 3,
+      "relevance_score": 0.417476383265857,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.350883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection systems",
+      "frequency": 3,
+      "relevance_score": 0.417476383265857,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.355128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clustering techniques",
+      "frequency": 3,
+      "relevance_score": 0.417476383265857,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.365675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "preservation",
+      "frequency": 14,
+      "relevance_score": 0.41488978857399905,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.301732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 14,
+      "relevance_score": 0.41488978857399905,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.309622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "normal",
+      "frequency": 14,
+      "relevance_score": 0.41488978857399905,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.326846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-processor",
+      "frequency": 2,
+      "relevance_score": 0.3949842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.325320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems face",
+      "frequency": 2,
+      "relevance_score": 0.3949842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.350740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "preservation techniques",
+      "frequency": 2,
+      "relevance_score": 0.3949842555105713,
+      "source_papers": [
+        "local/Privacy_Preservation_Intrusion_Detection_Technique_for_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:31.351655+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:31.374547+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:31.374722+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

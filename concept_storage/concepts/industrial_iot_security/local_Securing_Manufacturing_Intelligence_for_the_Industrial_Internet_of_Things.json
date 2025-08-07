@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things",
+  "paper_title": "Securing Manufacturing Intelligence for the Industrial Internet of Things",
+  "concepts": [
+    {
+      "text": "security",
+      "frequency": 101,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.019304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 55,
+      "relevance_score": 0.8620895108770957,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.040858+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 30,
+      "relevance_score": 0.6656851877511432,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.039954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "servers",
+      "frequency": 34,
+      "relevance_score": 0.5711098794512955,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.070604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 23,
+      "relevance_score": 0.5686919772758764,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.025680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generation computer systems",
+      "frequency": 2,
+      "relevance_score": 0.47771234585007616,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.154178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controls",
+      "frequency": 27,
+      "relevance_score": 0.4741166689760288,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.023623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "olap",
+      "frequency": 26,
+      "relevance_score": 0.46026049605099073,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.070425+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industry 4 0",
+      "frequency": 4,
+      "relevance_score": 0.45542469170015243,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.151826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utm",
+      "frequency": 25,
+      "relevance_score": 0.4464043231259527,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.021304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "users",
+      "frequency": 25,
+      "relevance_score": 0.4464043231259527,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.055772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "al-aqrabi h liu",
+      "frequency": 3,
+      "relevance_score": 0.44156851877511427,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.156762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h al-aqrabi",
+      "frequency": 10,
+      "relevance_score": 0.43856172925038106,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.124139+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "securing manufacturing intelligence",
+      "frequency": 10,
+      "relevance_score": 0.43856172925038106,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.149650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "manufacturing",
+      "frequency": 24,
+      "relevance_score": 0.4325481502009145,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.012201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 13,
+      "relevance_score": 0.4301302480254954,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.028516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 8 9",
+      "frequency": 2,
+      "relevance_score": 0.4277123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.150747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "12 13 14",
+      "frequency": 2,
+      "relevance_score": 0.4277123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.151284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "business intelli- gence",
+      "frequency": 2,
+      "relevance_score": 0.4277123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.156569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security controls",
+      "frequency": 16,
+      "relevance_score": 0.4216987668006097,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.122240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "al-aqrabi",
+      "frequency": 15,
+      "relevance_score": 0.40784259387557154,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.013187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet",
+      "frequency": 22,
+      "relevance_score": 0.4048358043508383,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.012792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee computer society",
+      "frequency": 7,
+      "relevance_score": 0.3969932104752667,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.156374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bi system",
+      "frequency": 3,
+      "relevance_score": 0.39156851877511434,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.127025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "things",
+      "frequency": 21,
+      "relevance_score": 0.39097963142580017,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.012983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed",
+      "frequency": 21,
+      "relevance_score": 0.39097963142580017,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.021855+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 10,
+      "relevance_score": 0.388561729250381,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.063177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 0",
+      "frequency": 6,
+      "relevance_score": 0.38313703755022865,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.129587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utm cloud",
+      "frequency": 13,
+      "relevance_score": 0.38013024802549533,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.133744+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical systems",
+      "frequency": 2,
+      "relevance_score": 0.3777123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.123169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication framework",
+      "frequency": 2,
+      "relevance_score": 0.3777123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.128867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information systems",
+      "frequency": 2,
+      "relevance_score": 0.3777123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.132116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overall system",
+      "frequency": 2,
+      "relevance_score": 0.3777123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.135031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer systems",
+      "frequency": 2,
+      "relevance_score": 0.3777123458500762,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.143504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "business",
+      "frequency": 20,
+      "relevance_score": 0.3771234585007621,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.018349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "application",
+      "frequency": 20,
+      "relevance_score": 0.3771234585007621,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.060621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processes",
+      "frequency": 9,
+      "relevance_score": 0.37470555632534297,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.027025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni ed threat",
+      "frequency": 5,
+      "relevance_score": 0.3692808646251905,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.150203+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ed threat management",
+      "frequency": 5,
+      "relevance_score": 0.3692808646251905,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.150382+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial internet",
+      "frequency": 12,
+      "relevance_score": 0.3662740751004573,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.118871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 19,
+      "relevance_score": 0.36326728557572396,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.051753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industry 4",
+      "frequency": 4,
+      "relevance_score": 0.35542469170015245,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.129407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modelling",
+      "frequency": 7,
+      "relevance_score": 0.34699321047526677,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.038299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "al-aqrabi h",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.148210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di erent security",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.151466+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b distributed security",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.152376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wan j zhang",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.154357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j zhang d",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.154537+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hill r antonopoulos",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.154898+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r antonopoulos n",
+      "frequency": 3,
+      "relevance_score": 0.3415685187751143,
+      "source_papers": [
+        "local/Securing_Manufacturing_Intelligence_for_the_Industrial_Internet_of_Things"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.155079+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:17:22.158084+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:17:22.158303+00:00",
+    "repository_version": "1.0",
+    "domain": "industrial_iot_security"
+  }
+}

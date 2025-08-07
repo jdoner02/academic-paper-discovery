@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+  "paper_title": "NAttack  Adversarial Attacks to bypass a GAN based classifier trained to detect Network intrusion",
+  "concepts": [
+    {
+      "text": "network",
+      "frequency": 51,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.438548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 68,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.441265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial",
+      "frequency": 47,
+      "relevance_score": 0.9891411275066213,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.436904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "samples",
+      "frequency": 47,
+      "relevance_score": 0.9891411275066213,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.461381+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 36,
+      "relevance_score": 0.781044267877412,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.437089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-attack",
+      "frequency": 26,
+      "relevance_score": 0.6918653045781309,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.461718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discriminator",
+      "frequency": 29,
+      "relevance_score": 0.6486189935679153,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.458186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classiﬁer",
+      "frequency": 28,
+      "relevance_score": 0.6297010972379872,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.437671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural",
+      "frequency": 28,
+      "relevance_score": 0.6297010972379872,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.446435+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial attacks",
+      "frequency": 22,
+      "relevance_score": 0.6161937192584185,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.499260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion",
+      "frequency": 27,
+      "relevance_score": 0.610783200908059,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.438732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 26,
+      "relevance_score": 0.5918653045781309,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.449957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class",
+      "frequency": 26,
+      "relevance_score": 0.5918653045781309,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.457541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural network",
+      "frequency": 19,
+      "relevance_score": 0.5594400302686342,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.501791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 24,
+      "relevance_score": 0.5540295119182747,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.440471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generator",
+      "frequency": 24,
+      "relevance_score": 0.5540295119182747,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.457863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 5,
+      "relevance_score": 0.5445894816496406,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.521606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 14,
+      "relevance_score": 0.5148505486189936,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.443492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection systems",
+      "frequency": 3,
+      "relevance_score": 0.5067536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.520619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection",
+      "frequency": 16,
+      "relevance_score": 0.5026863412788498,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.502262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "features",
+      "frequency": 21,
+      "relevance_score": 0.4972758229284904,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.456894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4878357926598562,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.520305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network intrusion",
+      "frequency": 14,
+      "relevance_score": 0.4648505486189936,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.499733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "loss",
+      "frequency": 19,
+      "relevance_score": 0.4594400302686341,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.486096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-attack samples",
+      "frequency": 8,
+      "relevance_score": 0.45134317063942486,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.510790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection system",
+      "frequency": 5,
+      "relevance_score": 0.4445894816496406,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.505255+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 dimensional vector",
+      "frequency": 2,
+      "relevance_score": 0.43783579265985617,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.523043+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "log 1 d",
+      "frequency": 2,
+      "relevance_score": 0.43783579265985617,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.523852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "precision recall f-1",
+      "frequency": 2,
+      "relevance_score": 0.43783579265985617,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.524179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recall f-1 score",
+      "frequency": 2,
+      "relevance_score": 0.43783579265985617,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.524340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f-1 score non-attack",
+      "frequency": 2,
+      "relevance_score": 0.43783579265985617,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.524496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generated",
+      "frequency": 17,
+      "relevance_score": 0.42160423760877797,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.458350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 9,
+      "relevance_score": 0.42026106696935306,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.450113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network intrusion detection",
+      "frequency": 6,
+      "relevance_score": 0.41350737797956866,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.521765+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 11,
+      "relevance_score": 0.4080968596292093,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.500208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning algorithms",
+      "frequency": 3,
+      "relevance_score": 0.40675368898978437,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.501000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection systems",
+      "frequency": 3,
+      "relevance_score": 0.40675368898978437,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.502419+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 16,
+      "relevance_score": 0.40268634127884984,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.440314+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 16,
+      "relevance_score": 0.40268634127884984,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.458673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "january 2020",
+      "frequency": 5,
+      "relevance_score": 0.3945894816496406,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.519503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 dimensional",
+      "frequency": 4,
+      "relevance_score": 0.37567158531971245,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.509637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f-1 score",
+      "frequency": 4,
+      "relevance_score": 0.37567158531971245,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.517102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial examples",
+      "frequency": 9,
+      "relevance_score": 0.370261066969353,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.503554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial attack",
+      "frequency": 9,
+      "relevance_score": 0.370261066969353,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.511755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sample",
+      "frequency": 14,
+      "relevance_score": 0.3648505486189936,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.461875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cross-entropy loss",
+      "frequency": 3,
+      "relevance_score": 0.3567536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.513497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "500k samples",
+      "frequency": 3,
+      "relevance_score": 0.3567536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.516614+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class imbalance problem",
+      "frequency": 3,
+      "relevance_score": 0.3567536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.521293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fast gradient sign",
+      "frequency": 3,
+      "relevance_score": 0.3567536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.521450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "simple adversarial attacks",
+      "frequency": 3,
+      "relevance_score": 0.3567536889897843,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:08.522082+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:08.524697+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:08.524871+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

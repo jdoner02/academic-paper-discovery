@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+  "paper_title": "Characterizing IOMT Personal Area Networks Landscape",
+  "concepts": [
+    {
+      "text": "devices",
+      "frequency": 71,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.184254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 54,
+      "relevance_score": 0.8572570466975179,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.198033+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical",
+      "frequency": 40,
+      "relevance_score": 0.6609311457018651,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.185545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber -physical systems",
+      "frequency": 2,
+      "relevance_score": 0.5780465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.350984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 34,
+      "relevance_score": 0.5767914738465854,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.203478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 33,
+      "relevance_score": 0.5627681952040388,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.182170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iomt",
+      "frequency": 32,
+      "relevance_score": 0.548744916561492,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.175042+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 20,
+      "relevance_score": 0.5304655728509325,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.184025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 30,
+      "relevance_score": 0.5206983592763988,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.177159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet",
+      "frequency": 30,
+      "relevance_score": 0.5206983592763988,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.180370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018",
+      "frequency": 22,
+      "relevance_score": 0.5085121301360258,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.207365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 27,
+      "relevance_score": 0.47862852334875894,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.175776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "things",
+      "frequency": 27,
+      "relevance_score": 0.47862852334875894,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.180579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wearable",
+      "frequency": 27,
+      "relevance_score": 0.47862852334875894,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.203263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-physical systems",
+      "frequency": 2,
+      "relevance_score": 0.47804655728509327,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.315683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health monitoring systems",
+      "frequency": 2,
+      "relevance_score": 0.47804655728509327,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.360812+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 16,
+      "relevance_score": 0.47437245828074603,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.242691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 802 15",
+      "frequency": 5,
+      "relevance_score": 0.47011639321273313,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.351205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "802 15",
+      "frequency": 12,
+      "relevance_score": 0.46827934371055957,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.316331+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 26,
+      "relevance_score": 0.46460524470621234,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.183576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "802 15 4",
+      "frequency": 4,
+      "relevance_score": 0.45609311457018653,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.353085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 25,
+      "relevance_score": 0.45058196606366563,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.180803+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bluetooth",
+      "frequency": 25,
+      "relevance_score": 0.45058196606366563,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.193008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical",
+      "frequency": 25,
+      "relevance_score": 0.45058196606366563,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.198868+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 physical components",
+      "frequency": 3,
+      "relevance_score": 0.4420698359276398,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.350545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "802 15 3",
+      "frequency": 3,
+      "relevance_score": 0.4420698359276398,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.351646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 1",
+      "frequency": 3,
+      "relevance_score": 0.4420698359276398,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.352470+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017",
+      "frequency": 17,
+      "relevance_score": 0.4383957369232927,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.271840+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 13,
+      "relevance_score": 0.4323026223531061,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.177376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yamaniyyah jeddah 22332",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.348327+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jeddah 22332 jeddah",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.348550+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "22332 jeddah saudi",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.348769+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1 1",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.350767+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 high rate",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.351851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "802 15 6",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.352261+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ad -hoc network",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.352880+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "topologies namely 1",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.353949+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "namely 1 star",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.354154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 star topology",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.354359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 mesh topology",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.354563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "typical master -",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.355591+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "master - slave",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.355795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "standard 802 15",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.356004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "following states 1",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.356210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "states 1 orphan",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.356417+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hub 2 connected",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.356622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "unsecured frames 3",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.357071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical devices -",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.359364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices - global",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.359581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- global market",
+      "frequency": 2,
+      "relevance_score": 0.4280465572850932,
+      "source_papers": [
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:40.359791+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:40.363352+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:40.363540+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

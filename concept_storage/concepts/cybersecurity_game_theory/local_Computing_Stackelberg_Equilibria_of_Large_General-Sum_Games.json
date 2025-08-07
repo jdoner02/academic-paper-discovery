@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games",
+  "paper_title": "Computing Stackelberg Equilibria of Large General-Sum Games",
+  "concepts": [
+    {
+      "text": "stackelberg",
+      "frequency": 83,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.048276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "games",
+      "frequency": 77,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.049096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "leader",
+      "frequency": 77,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.050808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "follower",
+      "frequency": 63,
+      "relevance_score": 0.8752891951759784,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.061282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 60,
+      "relevance_score": 0.8383706620723603,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.052055+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matching",
+      "frequency": 53,
+      "relevance_score": 0.7522274181639182,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.107403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stackelberg equilibrium",
+      "frequency": 43,
+      "relevance_score": 0.7291656411518583,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.167250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x y",
+      "frequency": 39,
+      "relevance_score": 0.6799409303470342,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.205808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "payo",
+      "frequency": 44,
+      "relevance_score": 0.6414718188530643,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.089547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n 2",
+      "frequency": 27,
+      "relevance_score": 0.6322667979325621,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.232693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 43,
+      "relevance_score": 0.6291656411518582,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.061063+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategy",
+      "frequency": 41,
+      "relevance_score": 0.6045532857494461,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.062121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 40,
+      "relevance_score": 0.5922471080482402,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.048066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibria",
+      "frequency": 36,
+      "relevance_score": 0.5430223972434163,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.048474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "general-sum games",
+      "frequency": 19,
+      "relevance_score": 0.5338173763229141,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.166454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zero-sum",
+      "frequency": 26,
+      "relevance_score": 0.5199606202313561,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.053281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 34,
+      "relevance_score": 0.5184100418410041,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.051641+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e cient algorithms",
+      "frequency": 5,
+      "relevance_score": 0.51153088850603,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.259943+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2",
+      "frequency": 17,
+      "relevance_score": 0.5092050209205021,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.201912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "general-sum",
+      "frequency": 25,
+      "relevance_score": 0.5076544425301501,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.048869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edges",
+      "frequency": 33,
+      "relevance_score": 0.5061038641397982,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.082236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3d matching problem",
+      "frequency": 8,
+      "relevance_score": 0.498449421609648,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.268284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stackelberg equilibria",
+      "frequency": 24,
+      "relevance_score": 0.4953482648289441,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.166056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 n",
+      "frequency": 7,
+      "relevance_score": 0.486143243908442,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.287121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 n 2",
+      "frequency": 7,
+      "relevance_score": 0.486143243908442,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.287468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum 3d matching",
+      "frequency": 7,
+      "relevance_score": 0.486143243908442,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.295822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "polynomial time algorithms",
+      "frequency": 2,
+      "relevance_score": 0.474612355402412,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.269271+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large general-sum games",
+      "frequency": 6,
+      "relevance_score": 0.473837066207236,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.258901+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e2s xe ce",
+      "frequency": 6,
+      "relevance_score": 0.473837066207236,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.261606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x0 e ce",
+      "frequency": 6,
+      "relevance_score": 0.473837066207236,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.277269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n 1 2",
+      "frequency": 6,
+      "relevance_score": 0.473837066207236,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.288214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "show",
+      "frequency": 30,
+      "relevance_score": 0.4691853310361802,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.058066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2common x y",
+      "frequency": 5,
+      "relevance_score": 0.46153088850602997,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.290112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 5 n",
+      "frequency": 5,
+      "relevance_score": 0.46153088850602997,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.293953+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 n 2",
+      "frequency": 5,
+      "relevance_score": 0.46153088850602997,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.294161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0",
+      "frequency": 13,
+      "relevance_score": 0.4599803101156781,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.234341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e ciently",
+      "frequency": 21,
+      "relevance_score": 0.45842973172532614,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.168043+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e2s x e",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.280000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x e2ex0 ec0",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.283080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e2ex0 ec0 e",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.283278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gap location 1",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.286923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ex x x0",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.292911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x x0 x",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.293120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 1",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.298567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1 2",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.298761+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jx x0 j",
+      "frequency": 4,
+      "relevance_score": 0.44922471080482396,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.299345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large zero-sum games",
+      "frequency": 3,
+      "relevance_score": 0.43691853310361806,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.260150+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "example 3 1",
+      "frequency": 3,
+      "relevance_score": 0.43691853310361806,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.261811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 dud k",
+      "frequency": 3,
+      "relevance_score": 0.43691853310361806,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.264974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-transformation- identical-matching problem",
+      "frequency": 3,
+      "relevance_score": 0.43691853310361806,
+      "source_papers": [
+        "local/Computing_Stackelberg_Equilibria_of_Large_General-Sum_Games"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:52.268088+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:35:52.302274+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:35:52.302441+00:00",
+    "repository_version": "1.0",
+    "domain": "cybersecurity_game_theory"
+  }
+}

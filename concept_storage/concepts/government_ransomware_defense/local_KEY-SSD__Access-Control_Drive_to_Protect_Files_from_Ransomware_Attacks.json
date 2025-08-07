@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+  "paper_title": "KEY-SSD  Access-Control Drive to Protect Files from Ransomware Attacks",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "frequency": 106,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.449360+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle",
+      "frequency": 118,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.461222+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 215,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.471981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey-ssd",
+      "frequency": 61,
+      "relevance_score": 0.8368300624834991,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.708587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ey-ssd",
+      "frequency": 61,
+      "relevance_score": 0.736830062483499,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.466334+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "disk",
+      "frequency": 68,
+      "relevance_score": 0.6984335122766875,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.465659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block",
+      "frequency": 67,
+      "relevance_score": 0.6896330194490891,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.454199+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 64,
+      "relevance_score": 0.6632315409662941,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.456270+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 46,
+      "relevance_score": 0.6548226700695239,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.469658+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey-ftl",
+      "frequency": 37,
+      "relevance_score": 0.6256182346211389,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.750606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁles",
+      "frequency": 58,
+      "relevance_score": 0.610428584000704,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.478966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "read",
+      "frequency": 54,
+      "relevance_score": 0.5752266126903107,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.468977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kernel",
+      "frequency": 53,
+      "relevance_score": 0.5664261198627123,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.521385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "write",
+      "frequency": 52,
+      "relevance_score": 0.557625627035114,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.511241+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drive",
+      "frequency": 51,
+      "relevance_score": 0.5488251342075156,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.448351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ey-ftl",
+      "frequency": 38,
+      "relevance_score": 0.5344187274487371,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.572943+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "disk drive",
+      "frequency": 35,
+      "relevance_score": 0.5080172489659421,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.708237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system",
+      "frequency": 17,
+      "relevance_score": 0.4996083780691719,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.709266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey- ftl",
+      "frequency": 9,
+      "relevance_score": 0.4792044354483851,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.907968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey-ftl d",
+      "frequency": 9,
+      "relevance_score": 0.4792044354483851,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.908629+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "openssd",
+      "frequency": 43,
+      "relevance_score": 0.4784211915867289,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.525855+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key system call",
+      "frequency": 3,
+      "relevance_score": 0.476401478482795,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.918504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey-ftl s",
+      "frequency": 8,
+      "relevance_score": 0.4704039426207868,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.914887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1p 2p 4p",
+      "frequency": 8,
+      "relevance_score": 0.4704039426207868,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.955670+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system layers",
+      "frequency": 2,
+      "relevance_score": 0.4676009856551967,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.904289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system generic block",
+      "frequency": 2,
+      "relevance_score": 0.4676009856551967,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.906981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sysclose key system",
+      "frequency": 2,
+      "relevance_score": 0.4676009856551967,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.919191+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mutual authentication techniques",
+      "frequency": 2,
+      "relevance_score": 0.4676009856551967,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.977444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mass storage systems",
+      "frequency": 2,
+      "relevance_score": 0.4676009856551967,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.981637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overhead",
+      "frequency": 41,
+      "relevance_score": 0.46082020593153217,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.475802+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q8throughput mb s",
+      "frequency": 6,
+      "relevance_score": 0.45280295696559003,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.933637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sata protocol",
+      "frequency": 11,
+      "relevance_score": 0.4468054211035818,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.747239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k ey- ssd",
+      "frequency": 5,
+      "relevance_score": 0.4440024641379917,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.903278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle sys- tem",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.900556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-node k-node k-node",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.914232+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ey- ftl s",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.930364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 20 40",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.930690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 40 60",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.931019+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 60 80",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.931345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 80 100",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.931671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s key openssd-af",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.934302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2p 4p 8p16p",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.955999+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4p 8p16p 32p",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.956329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8p16p 32p 64pthroughput",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.956659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "32p 64pthroughput mb",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.956988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "64pthroughput mb s",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.957315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2p 4p 8pthroughput",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.965013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4p 8pthroughput mb",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.965341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8pthroughput mb s",
+      "frequency": 4,
+      "relevance_score": 0.4352019713103934,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.965672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ssd",
+      "frequency": 38,
+      "relevance_score": 0.4344187274487371,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:22.519032+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:08:22.988998+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:08:22.989205+00:00",
+    "repository_version": "1.0",
+    "domain": "government_ransomware_defense"
+  }
+}

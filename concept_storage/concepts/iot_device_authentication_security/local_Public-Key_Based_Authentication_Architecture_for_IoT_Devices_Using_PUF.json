@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF",
+  "paper_title": "Public-Key Based Authentication Architecture for IoT Devices Using PUF",
+  "concepts": [
+    {
+      "text": "protocol",
+      "frequency": 84,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.704784+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 78,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.708981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 67,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.721636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 48,
+      "relevance_score": 0.7670372429127292,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.693734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ttp",
+      "frequency": 40,
+      "relevance_score": 0.6558643690939411,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.749840+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 37,
+      "relevance_score": 0.6141745414118954,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.745070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "directions protocol 1",
+      "frequency": 4,
+      "relevance_score": 0.6055864369093941,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.873918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1 1",
+      "frequency": 3,
+      "relevance_score": 0.5916898276820456,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.859938+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol variants a-d",
+      "frequency": 3,
+      "relevance_score": 0.5916898276820456,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.877833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certi cate",
+      "frequency": 28,
+      "relevance_score": 0.5891050583657588,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.812726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1 2",
+      "frequency": 2,
+      "relevance_score": 0.5777932184546971,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.875175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1 3",
+      "frequency": 2,
+      "relevance_score": 0.5777932184546971,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.875359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1 4",
+      "frequency": 2,
+      "relevance_score": 0.5777932184546971,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.875889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1",
+      "frequency": 9,
+      "relevance_score": 0.5750694830461368,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.816587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "variant",
+      "frequency": 32,
+      "relevance_score": 0.5446914952751528,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.708246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cert",
+      "frequency": 32,
+      "relevance_score": 0.5446914952751528,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.759586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol variants",
+      "frequency": 14,
+      "relevance_score": 0.5445525291828794,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.816411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "puf",
+      "frequency": 31,
+      "relevance_score": 0.5307948860478043,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.694520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certi",
+      "frequency": 30,
+      "relevance_score": 0.5168982768204559,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.750584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-agreement protocol",
+      "frequency": 4,
+      "relevance_score": 0.5055864369093941,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.810771+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key 256 bits",
+      "frequency": 7,
+      "relevance_score": 0.4972762645914397,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.860470+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id hd pk",
+      "frequency": 14,
+      "relevance_score": 0.4945525291828794,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.864362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 28,
+      "relevance_score": 0.4891050583657588,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.694313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cate",
+      "frequency": 28,
+      "relevance_score": 0.4891050583657588,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.750762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "berlin heidelberg",
+      "frequency": 20,
+      "relevance_score": 0.47793218454697056,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.851853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 protocol",
+      "frequency": 2,
+      "relevance_score": 0.47779321845469713,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.809528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 protocol",
+      "frequency": 2,
+      "relevance_score": 0.47779321845469713,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.811479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 protocol",
+      "frequency": 2,
+      "relevance_score": 0.47779321845469713,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.817482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 protocol",
+      "frequency": 2,
+      "relevance_score": 0.47779321845469713,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.839347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key generation process",
+      "frequency": 2,
+      "relevance_score": 0.477793218454697,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.875711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 26,
+      "relevance_score": 0.4613118399110617,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.752770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device id 1",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.862060+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id 1 x",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.862236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 x hd",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.862411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "puf enroll 2",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.862948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kgen x 3",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.863833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 3 id",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.864010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 id hd",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.864185+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 id sigskttp",
+      "frequency": 4,
+      "relevance_score": 0.45558643690939404,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.865101+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hd pk id",
+      "frequency": 11,
+      "relevance_score": 0.4528627015008338,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.864540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sram",
+      "frequency": 25,
+      "relevance_score": 0.44741523068371314,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.699574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 25,
+      "relevance_score": 0.44741523068371314,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.706300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 14,
+      "relevance_score": 0.44455252918287935,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.717343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "curve di e-hellman",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.857794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di e-hellman ecdh",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.857979+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o -the-shelf components",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.858331+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-volatile memory nvm",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.859578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret key 256",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.860293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key 256",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.861000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "enroll 2 pkid",
+      "frequency": 3,
+      "relevance_score": 0.44168982768204557,
+      "source_papers": [
+        "local/Public-Key_Based_Authentication_Architecture_for_IoT_Devices_Using_PUF"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:30.863129+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:30.885865+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:30.886033+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

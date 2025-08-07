@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT",
+  "paper_title": "Secure and Reliable Biometric Access Control for Resource-Constrained Systems and IoT",
+  "concepts": [
+    {
+      "text": "biometric",
+      "frequency": 82,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.226094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 81,
+      "relevance_score": 0.9894257164818271,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.235474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ecg",
+      "frequency": 70,
+      "relevance_score": 0.8686395080707148,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.252494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iomba",
+      "frequency": 62,
+      "relevance_score": 0.7807949928626331,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.303135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "noise",
+      "frequency": 52,
+      "relevance_score": 0.670989348852531,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.304782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "na-iomba",
+      "frequency": 42,
+      "relevance_score": 0.6611837048424288,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.307145+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-processing feature extraction",
+      "frequency": 3,
+      "relevance_score": 0.5829416932030307,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.540031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 43,
+      "relevance_score": 0.5721642692434391,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.275041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "feature extraction post-processing",
+      "frequency": 2,
+      "relevance_score": 0.5719611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.536407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "puf",
+      "frequency": 41,
+      "relevance_score": 0.5502031404414187,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.244159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reliability",
+      "frequency": 39,
+      "relevance_score": 0.5282420116393982,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.253634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "obfuscation",
+      "frequency": 37,
+      "relevance_score": 0.5062808828373778,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.240352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accessed march 2018",
+      "frequency": 9,
+      "relevance_score": 0.49882507960909195,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.550450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre- processing",
+      "frequency": 4,
+      "relevance_score": 0.49392225760404085,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.477211+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "feature",
+      "frequency": 35,
+      "relevance_score": 0.48431975403535743,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.269010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-processing feature",
+      "frequency": 3,
+      "relevance_score": 0.4829416932030307,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.493642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "extraction post-processing",
+      "frequency": 2,
+      "relevance_score": 0.47196112880202046,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.480531+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xilinx system generator",
+      "frequency": 2,
+      "relevance_score": 0.47196112880202046,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.544134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 33,
+      "relevance_score": 0.46235862523333693,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.233832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 000 0",
+      "frequency": 5,
+      "relevance_score": 0.45490282200505106,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.541536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 18,
+      "relevance_score": 0.44765015921818385,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.227458+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "match-on card device",
+      "frequency": 4,
+      "relevance_score": 0.4439222576040408,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.534485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "template",
+      "frequency": 31,
+      "relevance_score": 0.44039749643131654,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.234927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 31,
+      "relevance_score": 0.44039749643131654,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.266238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-processing",
+      "frequency": 7,
+      "relevance_score": 0.4268639508070715,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.356706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 16,
+      "relevance_score": 0.42568903041616346,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.271196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-volatile permanent memory",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.535860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "semi-invasive attacks require",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.536952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 2005 pp",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.544952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "march 2018 5",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.550996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018 5 6",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.551269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 6 million",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.551541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 million ﬁngerprints",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.551813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee pp 1",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.553453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o logic-memory interface",
+      "frequency": 2,
+      "relevance_score": 0.4219611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.553726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 29,
+      "relevance_score": 0.41843636762929615,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.240041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key generation",
+      "frequency": 19,
+      "relevance_score": 0.408630723619194,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.486330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "biometric systems",
+      "frequency": 5,
+      "relevance_score": 0.4049028220050511,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.450273+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "march 2018",
+      "frequency": 9,
+      "relevance_score": 0.39882507960909197,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.524060+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "biometric system",
+      "frequency": 4,
+      "relevance_score": 0.39392225760404087,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.459702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "noise models",
+      "frequency": 4,
+      "relevance_score": 0.39392225760404087,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.464751+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "enrollment process",
+      "frequency": 4,
+      "relevance_score": 0.39392225760404087,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.475763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-processing",
+      "frequency": 3,
+      "relevance_score": 0.3829416932030306,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.304228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantization framework",
+      "frequency": 3,
+      "relevance_score": 0.3829416932030306,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.452573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "obfuscation approaches",
+      "frequency": 3,
+      "relevance_score": 0.3829416932030306,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.472497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process variations",
+      "frequency": 3,
+      "relevance_score": 0.3829416932030306,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.473396+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signal processing",
+      "frequency": 3,
+      "relevance_score": 0.3829416932030306,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.524607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "semi-invasive attacks",
+      "frequency": 7,
+      "relevance_score": 0.37686395080707147,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.481628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-processed",
+      "frequency": 2,
+      "relevance_score": 0.3719611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.384265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication system",
+      "frequency": 2,
+      "relevance_score": 0.3719611288020204,
+      "source_papers": [
+        "local/Secure_and_Reliable_Biometric_Access_Control_for_Resource-Constrained_Systems_and_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:47.457361+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:47.554574+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:47.554801+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

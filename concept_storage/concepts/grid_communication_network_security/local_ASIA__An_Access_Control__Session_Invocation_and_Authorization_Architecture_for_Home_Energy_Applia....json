@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia...",
+  "paper_title": "ASIA  An Access Control  Session Invocation and Authorization Architecture for Home Energy Applia...",
+  "concepts": [
+    {
+      "text": "energy",
+      "frequency": 96,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.373058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 58,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.373341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ict",
+      "frequency": 84,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.378645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gateway",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.378789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ict gateway",
+      "frequency": 61,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.442488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 48,
+      "relevance_score": 0.9419575513067884,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.373482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asia",
+      "frequency": 46,
+      "relevance_score": 0.9068759866690055,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.371853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid",
+      "frequency": 34,
+      "relevance_score": 0.7963865988423084,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.441858+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "home",
+      "frequency": 39,
+      "relevance_score": 0.7840905104367655,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.372908+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 33,
+      "relevance_score": 0.6788458165234169,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.375424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "connection",
+      "frequency": 33,
+      "relevance_score": 0.6788458165234169,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.405463+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 32,
+      "relevance_score": 0.6613050342045256,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.372027+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 31,
+      "relevance_score": 0.6437642518856341,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.390346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "role",
+      "frequency": 31,
+      "relevance_score": 0.6437642518856341,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.429495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 30,
+      "relevance_score": 0.6262234695667427,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.381974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 24,
+      "relevance_score": 0.6209787756533942,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.445070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "component",
+      "frequency": 29,
+      "relevance_score": 0.6086826872478512,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.426301+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 25,
+      "relevance_score": 0.5385195579722856,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.374955+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 25,
+      "relevance_score": 0.5385195579722856,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.375274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operator",
+      "frequency": 23,
+      "relevance_score": 0.5034379933345028,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.404590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "token",
+      "frequency": 23,
+      "relevance_score": 0.5034379933345028,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.433206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ict gateway process",
+      "frequency": 2,
+      "relevance_score": 0.48508156463778285,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.483601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "role component",
+      "frequency": 16,
+      "relevance_score": 0.4806525171022628,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.460860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ict gateways",
+      "frequency": 15,
+      "relevance_score": 0.46311173478337136,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.443082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy-aware home appliances",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.476877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commands barb2right authentication",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.480943+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "square4 connection request",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481083+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid role barb2right",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "role barb2right authenticated",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "via asia square4",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authorization result square4",
+      "frequency": 3,
+      "relevance_score": 0.45262234695667425,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.482340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 20,
+      "relevance_score": 0.45081564637782845,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.372187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gateways",
+      "frequency": 20,
+      "relevance_score": 0.45081564637782845,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.380218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "square4",
+      "frequency": 14,
+      "relevance_score": 0.44557095246448,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.435399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "au- thentication session",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.473262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "info rma- tion",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.474111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "en - ergy",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.476738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architecture pr e-",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.477297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pr e- sented",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.477438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e- sented above",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.477578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ap- proach supports",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.479542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asia square4 token",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "square4 token contains",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.481921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "result square4 tan",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.482482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "square4 tan optional",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.482622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "requester side square4",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.482762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "square4 optional command",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.482901+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "token square4 connection",
+      "frequency": 2,
+      "relevance_score": 0.4350815646377828,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.484443+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request",
+      "frequency": 19,
+      "relevance_score": 0.433274864058937,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.420044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid role",
+      "frequency": 7,
+      "relevance_score": 0.42278547623223994,
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.478982+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:07:11.485715+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:07:11.485901+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_communication_network_security"
+  }
+}

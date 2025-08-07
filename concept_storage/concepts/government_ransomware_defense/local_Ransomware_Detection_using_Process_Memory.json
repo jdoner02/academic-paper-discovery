@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Ransomware_Detection_using_Process_Memory",
+  "paper_title": "Ransomware Detection using Process Memory",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "frequency": 71,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.782895+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory",
+      "frequency": 53,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.789286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 38,
+      "relevance_score": 0.9116750827093854,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.783250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process memory",
+      "frequency": 26,
+      "relevance_score": 0.8027250565906322,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.866903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 38,
+      "relevance_score": 0.7616750827093853,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.793408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 37,
+      "relevance_score": 0.7442625805328226,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.783078+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2021",
+      "frequency": 31,
+      "relevance_score": 0.7397875674734459,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.797079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9375 0",
+      "frequency": 12,
+      "relevance_score": 0.6089500261187533,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.915632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "specificity f-measure accuracy",
+      "frequency": 8,
+      "relevance_score": 0.5393000174125022,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.914972+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f-measure accuracy b",
+      "frequency": 8,
+      "relevance_score": 0.5393000174125022,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.915138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 25,
+      "relevance_score": 0.5353125544140693,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.792686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 25,
+      "relevance_score": 0.5353125544140693,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.802613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017",
+      "frequency": 19,
+      "relevance_score": 0.5308375413546926,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.800992+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9375",
+      "frequency": 13,
+      "relevance_score": 0.526362528295316,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.888945+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensitivity specificity f-measure",
+      "frequency": 7,
+      "relevance_score": 0.5218875152359393,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.914801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9783 0",
+      "frequency": 7,
+      "relevance_score": 0.5218875152359393,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.917443+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "were",
+      "frequency": 24,
+      "relevance_score": 0.5179000522375066,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.793047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9375 0",
+      "frequency": 12,
+      "relevance_score": 0.5089500261187533,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.889109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9565 0",
+      "frequency": 6,
+      "relevance_score": 0.5044750130593766,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.918438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 23,
+      "relevance_score": 0.5004875500609437,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.809699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre -processing",
+      "frequency": 2,
+      "relevance_score": 0.4848250043531256,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.883231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4848250043531256,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.907066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware detection process",
+      "frequency": 2,
+      "relevance_score": 0.4848250043531256,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.907611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 22,
+      "relevance_score": 0.48307504788438105,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.792507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware detection",
+      "frequency": 16,
+      "relevance_score": 0.4786000348250044,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.865247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "17th international",
+      "frequency": 10,
+      "relevance_score": 0.47412502176562776,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.871501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security 2022",
+      "frequency": 10,
+      "relevance_score": 0.47412502176562776,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.871826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9347 0",
+      "frequency": 4,
+      "relevance_score": 0.46965000870625107,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.916128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018",
+      "frequency": 15,
+      "relevance_score": 0.4611875326484416,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.796585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 15,
+      "relevance_score": 0.4611875326484416,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.867576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 2",
+      "frequency": 9,
+      "relevance_score": 0.456712519589065,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.884378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "avinash singh richard",
+      "frequency": 9,
+      "relevance_score": 0.45671251958906495,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.908666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "singh richard adeyemi",
+      "frequency": 9,
+      "relevance_score": 0.45671251958906495,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.908870+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "richard adeyemi ikuesan",
+      "frequency": 9,
+      "relevance_score": 0.45671251958906495,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.909047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sandbox guarnieri 2014",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.909751+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 b utilities",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.912700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy b 90",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.915303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 0 9375",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.915468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9375 0 9783",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.917279+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9783 0 9375",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.917614+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9271 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.918106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gradient -boosted tree",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.918271+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9688 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.918786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 7396 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.918950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 8913 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.919118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9792 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.919282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 7283 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.919447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9231 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.919611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9474 0",
+      "frequency": 3,
+      "relevance_score": 0.4522375065296883,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.919775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 11,
+      "relevance_score": 0.4415375239421905,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:19.792861+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:08:19.922069+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:08:19.922254+00:00",
+    "repository_version": "1.0",
+    "domain": "government_ransomware_defense"
+  }
+}

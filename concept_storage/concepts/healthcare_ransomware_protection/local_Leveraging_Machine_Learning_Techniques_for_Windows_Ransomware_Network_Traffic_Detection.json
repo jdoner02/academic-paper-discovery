@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection",
+  "paper_title": "Leveraging Machine Learning Techniques for Windows Ransomware Network Traffic Detection",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "frequency": 62,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.954368+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.954774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 37,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.998871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 39,
+      "relevance_score": 0.9861622358554875,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.954506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 38,
+      "relevance_score": 0.9634401272438082,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.953799+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 38,
+      "relevance_score": 0.9634401272438082,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.953944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malware",
+      "frequency": 27,
+      "relevance_score": 0.7134969325153374,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.961256+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "traffic",
+      "frequency": 25,
+      "relevance_score": 0.6680527152919791,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.954637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network traffic",
+      "frequency": 19,
+      "relevance_score": 0.6317200636219041,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.999375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016",
+      "frequency": 18,
+      "relevance_score": 0.608997955010225,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.961937+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 80",
+      "frequency": 13,
+      "relevance_score": 0.5953874119518291,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.022687+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "192 168 56",
+      "frequency": 8,
+      "relevance_score": 0.5817768688934333,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.033257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classifier",
+      "frequency": 21,
+      "relevance_score": 0.5771642808452625,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.961120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 192 168",
+      "frequency": 7,
+      "relevance_score": 0.5590547602817542,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.033382+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "feature",
+      "frequency": 20,
+      "relevance_score": 0.5544421722335833,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.974881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning techniques",
+      "frequency": 4,
+      "relevance_score": 0.5408884344467166,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.029260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 80 96",
+      "frequency": 6,
+      "relevance_score": 0.5363326516700749,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.042401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "80 96 80",
+      "frequency": 6,
+      "relevance_score": 0.5363326516700749,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.042525+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accessed 31 -mar-2017",
+      "frequency": 6,
+      "relevance_score": 0.5363326516700749,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.045145+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 30",
+      "frequency": 10,
+      "relevance_score": 0.5272210861167916,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.020677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 20",
+      "frequency": 10,
+      "relevance_score": 0.5272210861167916,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.024325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate",
+      "frequency": 18,
+      "relevance_score": 0.508997955010225,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.958973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "97 10",
+      "frequency": 9,
+      "relevance_score": 0.5044989775051125,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.019540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "techniques",
+      "frequency": 11,
+      "relevance_score": 0.4999431947284708,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.954079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre -processed",
+      "frequency": 2,
+      "relevance_score": 0.4954442172233584,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.008934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4954442172233583,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.029992+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high processing time",
+      "frequency": 2,
+      "relevance_score": 0.4954442172233583,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.035048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 20 95",
+      "frequency": 4,
+      "relevance_score": 0.4908884344467166,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.044524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 95 20",
+      "frequency": 4,
+      "relevance_score": 0.4908884344467166,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.044648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tpr",
+      "frequency": 17,
+      "relevance_score": 0.4862758463985458,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.973163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "192 168",
+      "frequency": 8,
+      "relevance_score": 0.4817768688934333,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.011697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "168 56",
+      "frequency": 8,
+      "relevance_score": 0.4817768688934333,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.011822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 00",
+      "frequency": 8,
+      "relevance_score": 0.4817768688934333,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.019160+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning classifiers",
+      "frequency": 8,
+      "relevance_score": 0.4817768688934333,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.031012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j48",
+      "frequency": 12,
+      "relevance_score": 0.47266530334015,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:59.960984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "168 56 17",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.033511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "precision recall f-measure",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.036813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 95 00",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.037194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j48 97 10",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.037596+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "97 10 1",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.037722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 1 60",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.037849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 60 97",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.037976+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 97 30",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "97 30 97",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 97 10",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "97 10 97",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 97 10",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038610+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "knn 95 30",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.038980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 30 4",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.039104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 10 95",
+      "frequency": 3,
+      "relevance_score": 0.4681663258350375,
+      "source_papers": [
+        "local/Leveraging_Machine_Learning_Techniques_for_Windows_Ransomware_Network_Traffic_Detection"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.039357+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:14:00.046647+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:14:00.046845+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_ransomware_protection"
+  }
+}

@@ -1,0 +1,1715 @@
+{
+  "domain": "medical_device_cybersecurity",
+  "concepts": [
+    {
+      "text": "devices",
+      "total_frequency": 2124,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "medical",
+      "total_frequency": 2079,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 2042,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "device",
+      "total_frequency": 1427,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Deep_dip_teardown_of_tubeless_insulin_pump",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 994,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 961,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iomt",
+      "total_frequency": 864,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attack",
+      "total_frequency": 782,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "access",
+      "total_frequency": 765,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacks",
+      "total_frequency": 676,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "patient",
+      "total_frequency": 642,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "medical devices",
+      "total_frequency": 613,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "imd",
+      "total_frequency": 581,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot",
+      "total_frequency": 515,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 479,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cybersecurity",
+      "total_frequency": 451,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "healthcare",
+      "total_frequency": 444,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key",
+      "total_frequency": 408,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "trust",
+      "total_frequency": 344,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "authentication",
+      "total_frequency": 318,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "insulin",
+      "total_frequency": 316,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_dip_teardown_of_tubeless_insulin_pump",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "risk",
+      "total_frequency": 315,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "safety",
+      "total_frequency": 309,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 286,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "vulnerability",
+      "total_frequency": 281,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "control",
+      "total_frequency": 265,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "information",
+      "total_frequency": 257,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "vulnerabilities",
+      "total_frequency": 241,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "layer",
+      "total_frequency": 235,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "health",
+      "total_frequency": 228,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "detection",
+      "total_frequency": 225,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "software",
+      "total_frequency": 212,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ieee",
+      "total_frequency": 211,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "internet",
+      "total_frequency": 210,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "framework",
+      "total_frequency": 210,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "communication",
+      "total_frequency": 199,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 197,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "programmer",
+      "total_frequency": 195,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "image",
+      "total_frequency": 184,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "traffic",
+      "total_frequency": 176,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless",
+      "total_frequency": 172,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Compromising_a_Medical_Mannequin",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocol",
+      "total_frequency": 171,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "e g",
+      "total_frequency": 170,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "medical device",
+      "total_frequency": 170,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "things",
+      "total_frequency": 167,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "aid",
+      "total_frequency": 153,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "access control",
+      "total_frequency": 148,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 145,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Deep_dip_teardown_of_tubeless_insulin_pump",
+        "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "aid systems",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot devices",
+      "total_frequency": 135,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "signature",
+      "total_frequency": 132,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bluetooth",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Network_Traffic_Analysis_of_Medical_Devices",
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "use",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+        "local/Secure_Digital_Administration_in_Medical_Environment",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "miot",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "scheme",
+      "total_frequency": 120,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "infusion",
+      "total_frequency": 117,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "smart",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "management",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "blockchain",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "server",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Secure_Digital_Administration_in_Medical_Environment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "case",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 0",
+      "total_frequency": 111,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rules",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "techniques",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "card",
+      "total_frequency": 105,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "energy",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+        "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iomt devices",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "likelihood",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ml-enabled",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pump",
+      "total_frequency": 99,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "were",
+      "total_frequency": 98,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_dip_teardown_of_tubeless_insulin_pump",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "domain",
+      "total_frequency": 97,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "learning",
+      "total_frequency": 95,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "capec",
+      "total_frequency": 95,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cloud",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wearable",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "esem",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "keys",
+      "total_frequency": 89,
+      "avg_relevance": 0.89,
+      "source_papers": [
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "coprocessor",
+      "total_frequency": 89,
+      "avg_relevance": 0.89,
+      "source_papers": [
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "requirements",
+      "total_frequency": 88,
+      "avg_relevance": 0.88,
+      "source_papers": [
+        "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "estimates",
+      "total_frequency": 88,
+      "avg_relevance": 0.88,
+      "source_papers": [
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "patient s",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "networks",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+        "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+        "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sac",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "doctor",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2021",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+        "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "patients",
+      "total_frequency": 85,
+      "avg_relevance": 0.85,
+      "source_papers": [
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "secure",
+      "total_frequency": 84,
+      "avg_relevance": 0.84,
+      "source_papers": [
+        "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+        "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "stimulation",
+      "total_frequency": 84,
+      "avg_relevance": 0.84,
+      "source_papers": [
+        "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "reader",
+      "total_frequency": 83,
+      "avg_relevance": 0.83,
+      "source_papers": [
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "severity",
+      "total_frequency": 79,
+      "avg_relevance": 0.79,
+      "source_papers": [
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "provenance",
+      "total_frequency": 79,
+      "avg_relevance": 0.79,
+      "source_papers": [
+        "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "fda",
+      "total_frequency": 79,
+      "avg_relevance": 0.79,
+      "source_papers": [
+        "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+        "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "proposal",
+      "total_frequency": 78,
+      "avg_relevance": 0.78,
+      "source_papers": [
+        "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "malicious",
+      "total_frequency": 78,
+      "avg_relevance": 0.78,
+      "source_papers": [
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "glucose",
+      "total_frequency": 78,
+      "avg_relevance": 0.78,
+      "source_papers": [
+        "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "implantable medical devices",
+      "total_frequency": 77,
+      "avg_relevance": 0.77,
+      "source_papers": [
+        "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+        "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+        "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+        "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "training",
+      "total_frequency": 77,
+      "avg_relevance": 0.77,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin",
+        "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models",
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices": {
+      "id": "local/POKs_Based_Secure_and_Energy-Efficient_Access_Control_for_Implantable_Medical_Devices",
+      "title": "POKs Based Secure and Energy-Efficient Access Control for Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...": {
+      "id": "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+      "title": "Baseline functionality for security and control of commodity IoT devices and domain-controlled de...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices": {
+      "id": "local/Extreme_Learning_Machine_Based_System_for_DDoS_Attacks_Detections_on_IoMT_Devices",
+      "title": "Extreme Learning Machine Based System for DDoS Attacks Detections on IoMT Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things": {
+      "id": "local/Blockchain-Enabled_EHR_Framework_for_Internet_of_Medical_Things",
+      "title": "Blockchain-Enabled EHR Framework for Internet of Medical Things",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...": {
+      "id": "local/Identifying_and_Modeling_Security_Threats_for_IoMT_Edge_Network_using_Markov_Chain_and_Common_Vul...",
+      "title": "Identifying and Modeling Security Threats for IoMT Edge Network using Markov Chain and Common Vul...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security": {
+      "id": "local/Recent_Advances_in_the_Internet_of_Medical_Things__IoMT__Systems_Security",
+      "title": "Recent Advances in the Internet of Medical Things  IoMT  Systems Security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices": {
+      "id": "local/IMDfence__Architecting_a_Secure_Protocol_for_Implantable_Medical_Devices",
+      "title": "IMDfence  Architecting a Secure Protocol for Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset": {
+      "id": "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+      "title": "Enhanced Anomaly Detection in IoMT Networks using Ensemble AI Models on the CICIoMT2024 Dataset",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Characterizing_IOMT_Personal_Area_Networks_Landscape": {
+      "id": "local/Characterizing_IOMT_Personal_Area_Networks_Landscape",
+      "title": "Characterizing IOMT Personal Area Networks Landscape",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring": {
+      "id": "local/Safeguarding_Smart_Inhaler_Devices_and_Patient_Privacy_in_Respiratory_Health_Monitoring",
+      "title": "Safeguarding Smart Inhaler Devices and Patient Privacy in Respiratory Health Monitoring",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...": {
+      "id": "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+      "title": "A Biomechatronic Approach to Evaluating the Security of Wearable Devices in the Internet of Medic...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Compromising_a_Medical_Mannequin": {
+      "id": "local/Compromising_a_Medical_Mannequin",
+      "title": "Compromising a Medical Mannequin",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices": {
+      "id": "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices",
+      "title": "A Cybersecurity Guide for Using Fitness Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices": {
+      "id": "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+      "title": "MediHunt  A Network Forensics Framework for Medical IoT Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices": {
+      "id": "local/Know_Your_Enemy__Characteristics_of_Cyber-Attacks_on_Medical_Imaging_Devices",
+      "title": "Know Your Enemy  Characteristics of Cyber-Attacks on Medical Imaging Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/On_Medical_Device_Cybersecurity_Compliance_in_EU": {
+      "id": "local/On_Medical_Device_Cybersecurity_Compliance_in_EU",
+      "title": "On Medical Device Cybersecurity Compliance in EU",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices": {
+      "id": "local/Digital_Investigation_of_Security_Attacks_on_Cardiac_Implantable_Medical_Devices",
+      "title": "Digital Investigation of Security Attacks on Cardiac Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection": {
+      "id": "local/Securing_Healthcare_with_Deep_Learning__A_CNN-Based_Model_for_medical_IoT_Threat_Detection",
+      "title": "Securing Healthcare with Deep Learning  A CNN-Based Model for medical IoT Threat Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment": {
+      "id": "local/L2AI__lightweight_three-factor_authentication_and_authorization_in_IOMT_blockchain-based_environment",
+      "title": "L2AI  lightweight three-factor authentication and authorization in IOMT blockchain-based environment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices": {
+      "id": "local/Cleartext_Data_Transmissions_in_Consumer_IoT_Medical_Devices",
+      "title": "Cleartext Data Transmissions in Consumer IoT Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices": {
+      "id": "local/e-SAFE__Secure__Efficient_and_Forensics-Enabled_Access_to_Implantable_Medical_Devices",
+      "title": "e-SAFE  Secure  Efficient and Forensics-Enabled Access to Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Network_Traffic_Analysis_of_Medical_Devices": {
+      "id": "local/Network_Traffic_Analysis_of_Medical_Devices",
+      "title": "Network Traffic Analysis of Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions": {
+      "id": "local/Cybersecurity_and_Frequent_Cyber_Attacks_on_IoT_Devices_in_Healthcare__Issues_and_Solutions",
+      "title": "Cybersecurity and Frequent Cyber Attacks on IoT Devices in Healthcare  Issues and Solutions",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices": {
+      "id": "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices",
+      "title": "A Secure Proxy-based Access Control Scheme for Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices": {
+      "id": "local/Towards_Realistic_Battery-DoS_Protection_of_Implantable_Medical_Devices",
+      "title": "Towards Realistic Battery-DoS Protection of Implantable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation": {
+      "id": "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation",
+      "title": "A New Methodology for Information Security Risk Assessment for Medical Devices and Its Evaluation",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development": {
+      "id": "local/Evaluating_the_Role_of_Security_Assurance_Cases_in_Agile_Medical_Device_Development",
+      "title": "Evaluating the Role of Security Assurance Cases in Agile Medical Device Development",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System": {
+      "id": "local/Medical_Image_Data_Provenance_for_Medical_Cyber-Physical_System",
+      "title": "Medical Image Data Provenance for Medical Cyber-Physical System",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices": {
+      "id": "local/CyMed__A_Framework_for_Testing_Cybersecurity_of_Connected_Medical_Devices",
+      "title": "CyMed  A Framework for Testing Cybersecurity of Connected Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations": {
+      "id": "local/Evaluating_Medical_IoT__MIoT__Device_Security_using_NISTIR-8228_Expectations",
+      "title": "Evaluating Medical IoT  MIoT  Device Security using NISTIR-8228 Expectations",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...": {
+      "id": "local/Revolutionizing_Medical_Data_Transmission_with_IoMT__A_Comprehensive_Survey_of_Wireless_Communica...",
+      "title": "Revolutionizing Medical Data Transmission with IoMT  A Comprehensive Survey of Wireless Communica...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices": {
+      "id": "local/Systems-Theoretic_and_Data-Driven_Security_Analysis_in_ML-enabled_Medical_Devices",
+      "title": "Systems-Theoretic and Data-Driven Security Analysis in ML-enabled Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS": {
+      "id": "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS",
+      "title": "A Review on the Security Vulnerabilities of the IoMT against Malware Attacks and DDoS",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices": {
+      "id": "local/Energy-Aware_Digital_Signatures_for_Embedded_Medical_Devices",
+      "title": "Energy-Aware Digital Signatures for Embedded Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges": {
+      "id": "local/Cybersecurity_of_AI_medical_devices__risks__legislation__and_challenges",
+      "title": "Cybersecurity of AI medical devices  risks  legislation  and challenges",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...": {
+      "id": "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi...",
+      "title": "An Intelligent Trust Cloud Management Method for Secure Clustering in 5G enabled Internet of Medi...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices": {
+      "id": "local/Security_of_Medical_Cyber-physical_Systems__An_Empirical_Study_on_Imaging_Devices",
+      "title": "Security of Medical Cyber-physical Systems  An Empirical Study on Imaging Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models": {
+      "id": "local/CVE-LLM___Automatic_vulnerability_evaluation_in_medical_device_industry_using_large_language_models",
+      "title": "CVE-LLM   Automatic vulnerability evaluation in medical device industry using large language models",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices": {
+      "id": "local/HW_SW_Framework_for_Improving_the_Safety_of_Implantable_and_Wearable_Medical_Devices",
+      "title": "HW SW Framework for Improving the Safety of Implantable and Wearable Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Deep_dip_teardown_of_tubeless_insulin_pump": {
+      "id": "local/Deep_dip_teardown_of_tubeless_insulin_pump",
+      "title": "Deep dip teardown of tubeless insulin pump",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Secure_Digital_Administration_in_Medical_Environment": {
+      "id": "local/Secure_Digital_Administration_in_Medical_Environment",
+      "title": "Secure Digital Administration in Medical Environment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices": {
+      "id": "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices",
+      "title": "Attack-Graph Threat Modeling Assessment of Ambulatory Medical Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models": {
+      "id": "local/Predicting_IoT_Device_Vulnerability_Fix_Times_with_Survival_and_Failure_Time_Models",
+      "title": "Predicting IoT Device Vulnerability Fix Times with Survival and Failure Time Models",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...": {
+      "id": "local/Exploring_Challenges_and_Opportunities_in_Cybersecurity_Risk_and_Threat_Communications_Related_To...",
+      "title": "Exploring Challenges and Opportunities in Cybersecurity Risk and Threat Communications Related To...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...": {
+      "id": "local/Securing_the_Internet_of_Medical_Things__IoMT___Real-World_Attack_Taxonomy_and_Practical_Security...",
+      "title": "Securing the Internet of Medical Things  IoMT   Real-World Attack Taxonomy and Practical Security...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network": {
+      "id": "local/Enabling_Zero_Trust_Security_in_IoMT_Edge_Network",
+      "title": "Enabling Zero Trust Security in IoMT Edge Network",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things": {
+      "id": "local/Towards_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medical_Things",
+      "title": "Towards Evaluating the Security of Wearable Devices in the Internet of Medical Things",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device": {
+      "id": "local/IoMT-Blockchain_based_Secured_Remote_Patient_Monitoring_Framework_for_Neuro-Stimulation_Device",
+      "title": "IoMT-Blockchain based Secured Remote Patient Monitoring Framework for Neuro-Stimulation Device",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies": {
+      "id": "local/Securing_Automated_Insulin_Delivery_Systems__A_Review_of_Security_Threats_and_Protectives_Strategies",
+      "title": "Securing Automated Insulin Delivery Systems  A Review of Security Threats and Protectives Strategies",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check": {
+      "id": "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check",
+      "title": "ACRIC  Securing Legacy Communication Networks via Authenticated Cyclic Redundancy Integrity Check",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1837,
+    "total_papers": 50,
+    "avg_concepts_per_paper": 36.74
+  }
+}

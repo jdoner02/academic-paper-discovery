@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+  "paper_title": "Designing Robust Cyber-Defense Agents with Evolving Behavior Trees",
+  "concepts": [
+    {
+      "text": "strategy",
+      "frequency": 60,
+      "relevance_score": 0.8558578987150416,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.118044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ebt",
+      "frequency": 59,
+      "relevance_score": 0.8432602670697908,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.099541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "behaviors",
+      "frequency": 56,
+      "relevance_score": 0.8054673721340387,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.122400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agent",
+      "frequency": 52,
+      "relevance_score": 0.755076845553036,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.096958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "environment",
+      "frequency": 50,
+      "relevance_score": 0.7298815822625346,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.100054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 49,
+      "relevance_score": 0.7172839506172839,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.086179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "behavior",
+      "frequency": 47,
+      "relevance_score": 0.6920886873267825,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.082534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "structure",
+      "frequency": 37,
+      "relevance_score": 0.5661123708742756,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.099310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "challenge scenario 2",
+      "frequency": 12,
+      "relevance_score": 0.5511715797430083,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.300387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-defense",
+      "frequency": 26,
+      "relevance_score": 0.527538422776518,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.081758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autonomous",
+      "frequency": 33,
+      "relevance_score": 0.5157218442932728,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.087106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red",
+      "frequency": 32,
+      "relevance_score": 0.5031242126480222,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.133544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agents",
+      "frequency": 31,
+      "relevance_score": 0.49052658100277147,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.082019+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red agent",
+      "frequency": 23,
+      "relevance_score": 0.48974552784076597,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.239676+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "action",
+      "frequency": 30,
+      "relevance_score": 0.47792894935752084,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.145295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autonomous cyber-defense agent",
+      "frequency": 6,
+      "relevance_score": 0.4755857898715041,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.299413+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber",
+      "frequency": 29,
+      "relevance_score": 0.4653313177122701,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.098372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scenario 2",
+      "frequency": 13,
+      "relevance_score": 0.463769211388259,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.236977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autonomous cyber-defense",
+      "frequency": 12,
+      "relevance_score": 0.45117157974300837,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.235119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cage challenge scenario",
+      "frequency": 12,
+      "relevance_score": 0.4511715797430083,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.300125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defense",
+      "frequency": 27,
+      "relevance_score": 0.44013605442176873,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.086411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autonomous cyber- defense",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.301327+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tt 1 burn",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.306931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-agent controller policies",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.309146+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 20 40",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.311022+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 40 60",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.311258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 60 80",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.311491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 80 100",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.311725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "80 100 timestep",
+      "frequency": 3,
+      "relevance_score": 0.437792894935752,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.311958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lecs",
+      "frequency": 26,
+      "relevance_score": 0.427538422776518,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.112951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "burn",
+      "frequency": 26,
+      "relevance_score": 0.427538422776518,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.177282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning- enabled components",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.296832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "genetic pro- gramming",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.298250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 burn v",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.307192+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 500 1000",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.309855+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "500 1000 1500",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.310088+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1000 1500 2000",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.310321+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1500 2000 2500",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.310557+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2000 2500 3000",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.310790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 timestep 20",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.312191+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "timestep 20 0",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.312430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 0 17",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.312670+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 17 5",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.312910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "17 5 15",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.313142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 15 0",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.313375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "15 0 12",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.313607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 12 5",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.313839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "12 5 10",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.314074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 10 0",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.314307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 0 7",
+      "frequency": 2,
+      "relevance_score": 0.4251952632905014,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.314542+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:15.318932+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:15.319121+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

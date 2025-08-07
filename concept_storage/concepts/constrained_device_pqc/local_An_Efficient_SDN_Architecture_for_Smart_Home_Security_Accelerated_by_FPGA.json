@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA",
+  "paper_title": "An Efficient SDN Architecture for Smart Home Security Accelerated by FPGA",
+  "concepts": [
+    {
+      "text": "knn",
+      "frequency": 54,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.821881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sort",
+      "frequency": 68,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.867658+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 46,
+      "relevance_score": 0.9303249097472924,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.817695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 26,
+      "relevance_score": 0.7193140794223827,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.829000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hls",
+      "frequency": 31,
+      "relevance_score": 0.65956678700361,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.826759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sorting",
+      "frequency": 29,
+      "relevance_score": 0.6234657039711191,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.828830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-min",
+      "frequency": 23,
+      "relevance_score": 0.6151624548736462,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.865607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "merge",
+      "frequency": 26,
+      "relevance_score": 0.5693140794223827,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.867825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "merge sort",
+      "frequency": 19,
+      "relevance_score": 0.5429602888086642,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.909857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 24,
+      "relevance_score": 0.5332129963898917,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.819518+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "odd-even",
+      "frequency": 18,
+      "relevance_score": 0.5249097472924188,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.867991+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bubble sort",
+      "frequency": 18,
+      "relevance_score": 0.5249097472924188,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.909690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bubble",
+      "frequency": 23,
+      "relevance_score": 0.5151624548736462,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.828478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sorting algorithms",
+      "frequency": 9,
+      "relevance_score": 0.5124548736462095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.901789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "odd-even sort",
+      "frequency": 11,
+      "relevance_score": 0.49855595667870034,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.910200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "home",
+      "frequency": 22,
+      "relevance_score": 0.4971119133574007,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.817150+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 22,
+      "relevance_score": 0.4971119133574007,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.819912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart home",
+      "frequency": 16,
+      "relevance_score": 0.4888086642599278,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.898727+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 b",
+      "frequency": 9,
+      "relevance_score": 0.4624548736462094,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.917575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "size",
+      "frequency": 20,
+      "relevance_score": 0.46101083032490975,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.859870+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-level synthesis hls",
+      "frequency": 3,
+      "relevance_score": 0.4541516245487365,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.928943+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sort odd-even sort",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.929783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 5 10",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.930281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 10 30",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.930447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 30 50",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.930612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 50 70",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.930778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 70 90",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.930944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fold cross-validation accuracy",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.931112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "size 1031051071091011log latency",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.931947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬂow-based network trafﬁc",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.932954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2015 pp 1",
+      "frequency": 2,
+      "relevance_score": 0.43610108303249095,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.933993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 18,
+      "relevance_score": 0.4249097472924188,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.816969+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum",
+      "frequency": 18,
+      "relevance_score": 0.4249097472924188,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.847115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices",
+      "frequency": 12,
+      "relevance_score": 0.4166064981949459,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.899229+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 9,
+      "relevance_score": 0.41245487364620936,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.837725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 9,
+      "relevance_score": 0.41245487364620936,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.843735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-min sort",
+      "frequency": 6,
+      "relevance_score": 0.40830324909747295,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.910543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 17,
+      "relevance_score": 0.4068592057761733,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.829850+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart home security",
+      "frequency": 5,
+      "relevance_score": 0.39025270758122743,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.927777+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 16,
+      "relevance_score": 0.38880866425992777,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.819728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 16,
+      "relevance_score": 0.38880866425992777,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.829169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parallel processing",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.900774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml models",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.903971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimization techniques",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.909355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hls system",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.913942+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms like",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.921547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "acceleration techniques",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.923564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml algorithms",
+      "frequency": 2,
+      "relevance_score": 0.386101083032491,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.923896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-min solution",
+      "frequency": 4,
+      "relevance_score": 0.3722021660649819,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.920174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019 pp",
+      "frequency": 4,
+      "relevance_score": 0.3722021660649819,
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.927279+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:07.934249+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:07.934427+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

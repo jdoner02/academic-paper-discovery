@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid",
+  "paper_title": "Distributed Intrusion Detection System using Semantic-based Rules for SCADA in Smart Grid",
+  "concepts": [
+    {
+      "text": "system",
+      "frequency": 28,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.971005+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnp3",
+      "frequency": 34,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.972891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rule",
+      "frequency": 53,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.974828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ids",
+      "frequency": 54,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.975154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 39,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.975372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rules",
+      "frequency": 31,
+      "relevance_score": 0.9779382611158312,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.971112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc",
+      "frequency": 27,
+      "relevance_score": 0.8646559048428207,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.975263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 26,
+      "relevance_score": 0.8363353157745681,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.970897+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet",
+      "frequency": 25,
+      "relevance_score": 0.8080147267063155,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.976969+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 24,
+      "relevance_score": 0.7796941376380628,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.983767+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ids rules",
+      "frequency": 19,
+      "relevance_score": 0.7380911922967999,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ids rule",
+      "frequency": 18,
+      "relevance_score": 0.7097706032285471,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.007256+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 20,
+      "relevance_score": 0.6664117813650524,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.983317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection time",
+      "frequency": 16,
+      "relevance_score": 0.6531294250920419,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.005445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed",
+      "frequency": 19,
+      "relevance_score": 0.6380911922967998,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.970669+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "types",
+      "frequency": 19,
+      "relevance_score": 0.6380911922967998,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.976858+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber",
+      "frequency": 18,
+      "relevance_score": 0.6097706032285471,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.978577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 17,
+      "relevance_score": 0.5814500141602946,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.972127+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 11,
+      "relevance_score": 0.5615264797507789,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.980128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "master",
+      "frequency": 16,
+      "relevance_score": 0.5531294250920419,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.986448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnp3 protocol",
+      "frequency": 3,
+      "relevance_score": 0.5349617672047579,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.010859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion prevention system",
+      "frequency": 3,
+      "relevance_score": 0.5349617672047579,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.015412+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prevention system",
+      "frequency": 6,
+      "relevance_score": 0.5199235344095158,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.006226+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol dnp3",
+      "frequency": 2,
+      "relevance_score": 0.5066411781365052,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.007909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 2,
+      "relevance_score": 0.5066411781365052,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.014950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 14,
+      "relevance_score": 0.4964882469555367,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.972454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical",
+      "frequency": 14,
+      "relevance_score": 0.4964882469555367,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.981454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid",
+      "frequency": 10,
+      "relevance_score": 0.48320589068252623,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc pattern",
+      "frequency": 10,
+      "relevance_score": 0.48320589068252623,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.007148+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada",
+      "frequency": 13,
+      "relevance_score": 0.4681676578872841,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.971219+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pattern",
+      "frequency": 13,
+      "relevance_score": 0.4681676578872841,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.984302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shows",
+      "frequency": 13,
+      "relevance_score": 0.4681676578872841,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.986104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection system",
+      "frequency": 4,
+      "relevance_score": 0.4632823562730105,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018 online available",
+      "frequency": 2,
+      "relevance_score": 0.4566411781365052,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.016853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 12,
+      "relevance_score": 0.43984706881903146,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.971431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system",
+      "frequency": 3,
+      "relevance_score": 0.4349617672047579,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing time",
+      "frequency": 3,
+      "relevance_score": 0.4349617672047579,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.014026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet ﬂow",
+      "frequency": 8,
+      "relevance_score": 0.42656471254602096,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.005212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber attacks",
+      "frequency": 8,
+      "relevance_score": 0.42656471254602096,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.006912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ids rule generation",
+      "frequency": 4,
+      "relevance_score": 0.41328235627301046,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.015537+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 11,
+      "relevance_score": 0.41152647975077883,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.971325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬂow",
+      "frequency": 11,
+      "relevance_score": 0.41152647975077883,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.977202+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "order",
+      "frequency": 11,
+      "relevance_score": 0.41152647975077883,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.981339+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada protocols",
+      "frequency": 2,
+      "relevance_score": 0.40664117813650524,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system operation",
+      "frequency": 2,
+      "relevance_score": 0.40664117813650524,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.004664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication protocol",
+      "frequency": 2,
+      "relevance_score": 0.40664117813650524,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.006460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc patterns",
+      "frequency": 7,
+      "relevance_score": 0.3982441234777684,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.009154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnp3 communication",
+      "frequency": 3,
+      "relevance_score": 0.38496176720475783,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.010410+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sequence 1",
+      "frequency": 3,
+      "relevance_score": 0.38496176720475783,
+      "source_papers": [
+        "local/Distributed_Intrusion_Detection_System_using_Semantic-based_Rules_for_SCADA_in_Smart_Grid"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:03.013266+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:07:03.017047+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:07:03.017241+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_communication_network_security"
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:18:55.524891+00:00",
+    "strategy_name": "Post-Quantum Cryptography Implementation and Performance",
+    "total_papers": 49,
+    "download_directory": "outputs/post_quantum_cryptography_readiness/post_quantum_cryptography_implementation/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Post Quantum Cryptography (PQC) Signatures Without Trapdoors",
+      "authors": [
+        "William J Buchanan"
+      ],
+      "abstract": "Some of our current public key methods use a trap door to implement digital signature methods. This includes the RSA method, which uses Fermat's little theorem to support the creation and verification of a digital signature. The problem with a back-door is that the actual trap-door method could, in the end, be discovered. With the rise of PQC (Post Quantum Cryptography), we will see a range of methods that will not use trap doors and provide stronger proof of security. In this case, we use hash-based signatures (as used with SPHINCS+) and Fiat Shamir signatures using Zero Knowledge Proofs (as used with Dilithium).",
+      "publication_date": "2025-04-18T18:10:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.14016v1"
+    },
+    {
+      "title": "Identifying Research Challenges in Post Quantum Cryptography Migration   and Cryptographic Agility",
+      "authors": [
+        "David Ott",
+        "Christopher Peikert",
+        "other workshop participants"
+      ],
+      "abstract": "The implications of sufficiently large quantum computers for widely used public-key cryptography is well-documented and increasingly discussed by the security community. An April 2016 report by the National Institute of Standards and Technology (NIST), notably, calls out the need for new standards to replace cryptosystems based on integer factorization and discrete logarithm problems, which have been shown to be vulnerable to Shor's quantum algorithm for prime factorization. Specifically, widely used RSA, ECDSA, ECDH, and DSA cryptosystems will need to be replaced by post-quantum cryptography (PQC) alternatives (also known as quantum-resistant or quantum-safe cryptography). Failure to transition before sufficiently powerful quantum computers are realized will jeopardize the security of public key cryptosystems which are widely deployed within communication protocols, digital signing mechanisms, authentication frameworks, and more. To avoid this, NIST has actively led a PQC standardization effort since 2016, leveraging a large and international research community.   On January 31-February 1, 2019, the Computing Community Consortium (CCC) held a workshop in Washington, D.C. to discuss research challenges associated with PQC migration. Entitled, \"Identifying Research Challenges in Post Quantum Cryptography Migration and Cryptographic Agility\", participants came from three distinct yet related communities: cryptographers contributing to the NIST PQC standards effort, applied cryptographers with expertise in creating cryptographic solutions and implementing cryptography in real-world settings, and industry practitioners with expertise in deploying cryptographic standards within products and compute infrastructures. Discussion centered around two key themes: identifying constituent challenges in PQC migration and imagining a new science of \"cryptographic agility\".",
+      "publication_date": "2019-09-16T17:38:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "1909.07353v1"
+    },
+    {
+      "title": "Hybrid Scheme of Post-Quantum Cryptography and Elliptic-Curve   Cryptography for Certificates -- A Case Study of Security Credential   Management System in Vehicle-to-Everything Communications",
+      "authors": [
+        "Abel C. H. Chen",
+        "Bon-Yeh Lin"
+      ],
+      "abstract": "Due to the current standard of Security Credential Management System (SCMS) for Vehicle-to-Everything (V2X) communications using asymmetric cryptography, specifically Elliptic-Curve Cryptography (ECC), which may be vulnerable to quantum computing attacks. Therefore, the V2X SCMS is threatened by quantum computing attacks. However, although the National Institute of Standards and Technology (NIST) has already selected Post-Quantum Cryptography (PQC) algorithms as the standard, the current PQC algorithms may have issues such as longer public key lengths, longer signature lengths, or lower signature generation and verification efficiency, which may not fully meet the requirements of V2X communication applications. In view of the challenges in V2X communication, such as packet length, signature generation and verification efficiency, security level, and vehicle privacy, this study proposes a hybrid certificate scheme of PQC and ECC. By leveraging the strengths of both PQC and ECC, this scheme aims to overcome the challenges in V2X communication. PQC is used to establish a security level resistant to quantum computing attacks, while ECC is utilized to establish anonymous certificates and reduce packet length to meet the requirements of V2X communication. In the practical experiments, the study implemented the SCMS end entity based on the Chunghwa Telecom SCMS and the Clientron On-Board Unit (OBU) to conduct field tests in Danhai New Town in New Taipei City. The performance of various existing hybrid certificate schemes combining PQC (e.g., Dilithium, Falcon, and SPHINCS+) and ECC is compared, and a practical solution is provided for V2X industries.",
+      "publication_date": "2025-01-13T02:59:59+00:00",
+      "doi": "10.1109/ICCPCT61902.2024.10673280",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.07028v1"
+    },
+    {
+      "title": "NIST Post-Quantum Cryptography Standard Algorithms Based on Quantum   Random Number Generators",
+      "authors": [
+        "Abel C. H. Chen"
+      ],
+      "abstract": "In recent years, the advancement of quantum computing technology has posed potential security threats to RSA cryptography and elliptic curve cryptography. In response, the National Institute of Standards and Technology (NIST) published several Federal Information Processing Standards (FIPS) of post-quantum cryptography (PQC) in August 2024, including the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), Module-Lattice-Based Digital Signature Algorithm (ML-DSA), and Stateless Hash-Based Digital Signature Algorithm (SLH-DSA). Although these PQC algorithms are designed to resist quantum computing attacks, they may not provide adequate security in certain specialized application scenarios. To address this issue, this study proposes quantum random number generator (QRNG)-based PQC algorithms. These algorithms leverage quantum computing to generate random numbers, which serve as the foundation for key pair generation, key encapsulation, and digital signature generation. A generalized architecture of QRNG is proposed, along with the design of six QRNGs. Each generator is evaluated according to the statistical validation procedures outlined in NIST SP 800-90B, including tests for verification of entropy sources and independent and identically distributed (IID) outputs. Experimental results assess the computation time of the six QRNGs, as well as the performance of QRNG-based ML-KEM, QRNG-based ML-DSA, and QRNG-based SLH-DSA. These findings provide valuable reference data for future deployment of PQC systems.",
+      "publication_date": "2025-07-24T00:27:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.21151v1"
+    },
+    {
+      "title": "A Systematic Study of Lattice-based NIST PQC Algorithms: from Reference   Implementations to Hardware Accelerators",
+      "authors": [
+        "Malik Imran",
+        "Zain Ul Abideen",
+        "Samuel Pagliarini"
+      ],
+      "abstract": "Security of currently deployed public key cryptography algorithms is foreseen to be vulnerable against quantum computer attacks. Hence, a community effort exists to develop post-quantum cryptography (PQC) algorithms, i.e., algorithms that are resistant to quantum attacks. In this work, we have investigated how lattice-based candidate algorithms from the NIST PQC standardization competition fare when conceived as hardware accelerators. To achieve this, we have assessed the reference implementations of selected algorithms with the goal of identifying what are their basic building blocks. We assume the hardware accelerators will be implemented in application specific integrated circuit (ASIC) and the targeted technology in our experiments is a commercial 65nm node. In order to estimate the characteristics of each algorithm, we have assessed their memory requirements, use of multipliers, and how each algorithm employs hashing functions. Furthermore, for these building blocks, we have collected area and power figures for 12 candidate algorithms. For memories, we make use of a commercial memory compiler. For logic, we make use of a standard cell library. In order to compare the candidate algorithms fairly, we select a reference frequency of operation of 500MHz. Our results reveal that our area and power numbers are comparable to the state of the art, despite targeting a higher frequency of operation and a higher security level in our experiments. The comprehensive investigation of lattice-based NIST PQC algorithms performed in this paper can be used for guiding ASIC designers when selecting an appropriate algorithm while respecting requirements and design constraints.",
+      "publication_date": "2020-09-15T13:32:03+00:00",
+      "doi": "10.3390/electronics9111953",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2009.07091v3"
+    },
+    {
+      "title": "Benchmark Performance of Homomorphic Polynomial Public Key Cryptography   for Key Encapsulation and Digital Signature Schemes",
+      "authors": [
+        "Randy Kuang",
+        "Maria Perepechaenko",
+        "Dafu Lou",
+        "Brinda Tank"
+      ],
+      "abstract": "This paper conducts a comprehensive benchmarking analysis of the performance of two innovative cryptographic schemes: Homomorphic Polynomial Public Key (HPPK)-Key Encapsulation Mechanism (KEM) and Digital Signature (DS), recently proposed by Kuang et al. These schemes represent a departure from traditional cryptographic paradigms, with HPPK leveraging the security of homomorphic symmetric encryption across two hidden rings without reliance on NP-hard problems. HPPK can be viewed as a specialized variant of Multivariate Public Key Cryptography (MPKC), intricately associated with two vector spaces: the polynomial vector space for the secret exchange and the multivariate vector space for randomized encapsulation.   The unique integration of asymmetric, symmetric, and homomorphic cryptography within HPPK necessitates a careful examination of its performance metrics. This study focuses on the thorough benchmarking of HPPK KEM and DS across key cryptographic operations, encompassing key generation, encapsulation, decapsulation, signing, and verification. The results highlight the exceptional efficiency of HPPK, characterized by compact key sizes, cipher sizes, and signature sizes. The use of symmetric encryption in HPPK enhances its overall performance. Key findings underscore the outstanding performance of HPPK KEM and DS across various security levels, emphasizing their superiority in crucial cryptographic operations. This research positions HPPK as a promising and competitive solution for post-quantum cryptographic applications in a wide range of applications, including blockchain, digital currency, and Internet of Things (IoT) devices.",
+      "publication_date": "2024-01-05T13:36:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2401.02803v2"
+    },
+    {
+      "title": "Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC   Adoption Rates and Identifying Migration Pathways",
+      "authors": [
+        "Jakub Sowa",
+        "Bach Hoang",
+        "Advaith Yeluru",
+        "Steven Qie",
+        "Anita Nikolich",
+        "Ravishankar Iyer",
+        "Phuong Cao"
+      ],
+      "abstract": "The problem of adopting quantum-resistant cryptographic network protocols or post-quantum cryptography (PQC) is critically important to democratizing quantum computing. The problem is urgent because practical quantum computers will break classical encryption in the next few decades. Past encrypted data has already been collected and can be decrypted in the near future. The main challenges of adopting post-quantum cryptography lie in algorithmic complexity and hardware/software/network implementation. The grand question of how existing cyberinfrastructure will support post-quantum cryptography remains unanswered.   This paper describes: i) the design of a novel Post-Quantum Cryptography (PQC) network instrument placed at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign and a part of the FABRIC testbed; ii) the latest results on PQC adoption rate across a wide spectrum of network protocols (Secure Shell -- SSH, Transport Layer Security -- TLS, etc.); iii) the current state of PQC implementation in key scientific applications (e.g., OpenSSH or SciTokens); iv) the challenges of being quantum-resistant; and v) discussion of potential novel attacks.   This is the first large-scale measurement of PQC adoption at national-scale supercomputing centers and FABRIC testbeds. Our results show that only OpenSSH and Google Chrome have successfully implemented PQC and achieved an initial adoption rate of 0.029% (6,044 out of 20,556,816) for OpenSSH connections at NCSA coming from major Internet Service Providers or Autonomous Systems (ASes) such as OARNET, GTT, Google Fiber Webpass (U.S.) and Uppsala Lans Landsting (Sweden), with an overall increasing adoption rate year-over-year for 2023-2024. Our analyses identify pathways to migrate current applications to be quantum-resistant.",
+      "publication_date": "2024-07-31T16:48:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2408.00054v3"
+    },
+    {
+      "title": "Public Key Cryptography Standards: PKCS",
+      "authors": [
+        "Yongge Wang"
+      ],
+      "abstract": "Cryptographic standards serve two important goals: making different implementations interoperable and avoiding various known pitfalls in commonly used schemes. This chapter discusses Public-Key Cryptography Standards (PKCS) which have significant impact on the use of public key cryptography in practice. PKCS standards are a set of standards, called PKCS #1 through #15. These standards cover RSA encryption, RSA signature, password-based encryption, cryptographic message syntax, private-key information syntax, selected object classes and attribute types, certification request syntax, cryptographic token interface, personal information exchange syntax, and cryptographic token information syntax. The PKCS standards are published by RSA Laboratories. Though RSA Laboratories solicits public opinions and advice for PKCS standards, RSA Laboratories retain sole decision-making authority on all aspects of PKCS standards. PKCS has been the basis for many other standards such as S/MIME.",
+      "publication_date": "2012-07-23T16:38:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1207.5446v1"
+    },
+    {
+      "title": "Homomorphic Polynomial Public Key Cryptography for Quantum-secure   Digital Signature",
+      "authors": [
+        "Randy Kuang",
+        "Maria Perepechaenko",
+        "Mahmoud Sayed",
+        "Dafu Lou"
+      ],
+      "abstract": "In their 2022 study, Kuang et al. introduced Multivariable Polynomial Public Key (MPPK) cryptography, leveraging the inversion relationship between multiplication and division for quantum-safe public key systems. They extended MPPK into Homomorphic Polynomial Public Key (HPPK), employing homomorphic encryption for large hidden ring operations. Originally designed for key encapsulation (KEM), HPPK's security relies on homomorphic encryption of public polynomials. This paper expands HPPK KEM to a digital signature scheme, facing challenges due to the distinct nature of verification compared to decryption. To adapt HPPK KEM to digital signatures, the authors introduce an extension of the Barrett reduction algorithm, transforming modular multiplications into divisions in the verification equation over a prime field. The extended algorithm non-linearly embeds the signature into public polynomial coefficients, addressing vulnerabilities in earlier MPPK DS schemes. Security analysis demonstrates exponential complexity for private key recovery and forged signature attacks, considering ring bit length twice that of the prime field size.",
+      "publication_date": "2023-11-15T13:54:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.08967v3"
+    },
+    {
+      "title": "Group ring cryptography: Cryptography, key exchange, public key",
+      "authors": [
+        "Ted Hurley"
+      ],
+      "abstract": "General cryptographic schemes are presented where keys can be one-time or ephemeral. Processes for key exchange are derived. Public key cryptographic schemes based on the new systems are easily established. Authentication and signature schemes are implemented. The schemes are an advance on group ring techniques and are easily implemented but highly secure. They may be integrated with error-correcting coding schemes so that encryption/coding and decryption/decoding may be done simultaneously.",
+      "publication_date": "2013-05-17T12:38:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1305.4063v3"
+    },
+    {
+      "title": "X.509 Information Security Certification Based on Post-Quantum   Cryptography",
+      "authors": [
+        "Abel C. H. Chen"
+      ],
+      "abstract": "In recent years, with the advancement of quantum computing, mainstream asymmetric cryptographic methods in the current Public Key Infrastructure (PKI) systems are gradually being threatened. Therefore, this study explores X.509 security certificates based on Post-Quantum Cryptography (PQC) and discusses implemented solutions. This study compares mainstream asymmetric cryptographic methods (including RSA and Elliptic Curve Digital Signature Algorithm (ECDSA)) with standard PQC methods (including Falcon, Dilithium, SPHINCS+), comparing the efficiency of certificate generation, signature generation, and signature verification. Finally, recommendations for a solution based on PQC for X.509 security certificates are proposed.",
+      "publication_date": "2024-08-05T01:38:36+00:00",
+      "doi": "10.1109/ICSSES62373.2024.10561274",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2408.02179v1"
+    },
+    {
+      "title": "Implementing and Evaluating Post-Quantum DNSSEC in CoreDNS",
+      "authors": [
+        "Julio Gento Suela",
+        "Javier Blanco-Romero",
+        "Florina Almenares Mendoza",
+        "Daniel Díaz-Sánchez"
+      ],
+      "abstract": "The emergence of quantum computers poses a significant threat to current secure service, application and/or protocol implementations that rely on RSA and ECDSA algorithms, for instance DNSSEC, because public-key cryptography based on number factorization or discrete logarithm is vulnerable to quantum attacks. This paper presents the integration of post-quantum cryptographic (PQC) algorithms into CoreDNS to enable quantum-resistant DNSSEC functionality. We have developed a plugin that extends CoreDNS with support for five PQC signature algorithm families: ML-DSA, FALCON, SPHINCS+, MAYO, and SNOVA. Our implementation maintains compatibility with existing DNS resolution flows while providing on-the-fly signing using quantum-resistant signatures. A benchmark has been performed and performance evaluation results reveal significant trade-offs between security and efficiency. The results indicate that while PQC algorithms introduce operational overhead, several candidates offer viable compromises for transitioning DNSSEC to quantum-resistant cryptography.",
+      "publication_date": "2025-07-12T14:34:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.09301v1"
+    },
+    {
+      "title": "Analysis of Post-Quantum Cryptography in User Equipment in 5G and Beyond",
+      "authors": [
+        "Sanzida Hoque",
+        "Abdullah Aydeger",
+        "Engin Zeydan",
+        "Madhusanka Liyanage"
+      ],
+      "abstract": "The advent of quantum computing threatens the security of classical public-key cryptographic systems, prompting the transition to post-quantum cryptography (PQC). While PQC has been analyzed in theory, its performance in practical wireless communication environments remains underexplored. This paper presents a detailed implementation and performance evaluation of NIST-selected PQC algorithms in user equipment (UE) to UE communications over 5G networks. Using a full 5G emulation stack (Open5GS and UERANSIM) and PQC-enabled TLS 1.3 via BoringSSL and liboqs, we examine key encapsulation mechanisms and digital signature schemes across realistic network conditions. We evaluate performance based on handshake latency, CPU and memory usage, bandwidth, and retransmission rates, under varying cryptographic configurations and client loads. Our findings show that ML-KEM with ML-DSA offers the best efficiency for latency-sensitive applications, while SPHINCS+ and HQC combinations incur higher computational and transmission overheads, making them unsuitable for security-critical but time-sensitive 5G scenarios.",
+      "publication_date": "2025-07-22T23:21:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.17074v1"
+    },
+    {
+      "title": "Practical hybrid PQC-QKD protocols with enhanced security and   performance",
+      "authors": [
+        "Pei Zeng",
+        "Debayan Bandyopadhyay",
+        "José A. Méndez Méndez",
+        "Nolan Bitner",
+        "Alexander Kolar",
+        "Michael T. Solomon",
+        "Ziyu Ye",
+        "Filip Rozpędek",
+        "Tian Zhong",
+        "F. Joseph Heremans",
+        "David D. Awschalom",
+        "Liang Jiang",
+        "Junyu Liu"
+      ],
+      "abstract": "Quantum resistance is vital for emerging cryptographic systems as quantum technologies continue to advance towards large-scale, fault-tolerant quantum computers. Resistance may be offered by quantum key distribution (QKD), which provides information-theoretic security using quantum states of photons, but may be limited by transmission loss at long distances. An alternative approach uses classical means and is conjectured to be resistant to quantum attacks, so-called post-quantum cryptography (PQC), but it is yet to be rigorously proven, and its current implementations are computationally expensive. To overcome the security and performance challenges present in each, here we develop hybrid protocols by which QKD and PQC inter-operate within a joint quantum-classical network. In particular, we consider different hybrid designs that may offer enhanced speed and/or security over the individual performance of either approach. Furthermore, we present a method for analyzing the security of hybrid protocols in key distribution networks. Our hybrid approach paves the way for joint quantum-classical communication networks, which leverage the advantages of both QKD and PQC and can be tailored to the requirements of various practical networks.",
+      "publication_date": "2024-11-02T00:02:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2411.01086v3"
+    },
+    {
+      "title": "Multivariate Public Key Cryptography and Digital Signature",
+      "authors": [
+        "Pulugurtha Krishna Subba Rao",
+        "Duggirala Meher Krishna",
+        "Duggirala Ravi"
+      ],
+      "abstract": "In this paper, algorithms for multivariate public key cryptography and digital signature are described. Plain messages and encrypted messages are arrays, consisting of elements from a fixed finite ring or field. The encryption and decryption algorithms are based on multivariate mappings. The security of the private key depends on the difficulty of solving a system of parametric simultaneous multivariate equations involving polynomial or exponential mappings. The method is a general purpose utility for most data encryption, digital certificate or digital signature applications. For security protocols of the application layer level in the OSI model, the methods described in this paper are useful.",
+      "publication_date": "2018-07-20T06:19:47+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1807.07710v2"
+    },
+    {
+      "title": "Performance Analysis and Industry Deployment of Post-Quantum   Cryptography Algorithms",
+      "authors": [
+        "Elif Dicle Demir",
+        "Buse Bilgin",
+        "Mehmet Cengiz Onbasli"
+      ],
+      "abstract": "As quantum computing advances, modern cryptographic standards face an existential threat, necessitating a transition to post-quantum cryptography (PQC). The National Institute of Standards and Technology (NIST) has selected CRYSTALS-Kyber and CRYSTALS-Dilithium as standardized PQC algorithms for secure key exchange and digital signatures, respectively. This study conducts a comprehensive performance analysis of these algorithms by benchmarking execution times across cryptographic operations such as key generation, encapsulation, decapsulation, signing, and verification. Additionally, the impact of AVX2 optimizations is evaluated to assess hardware acceleration benefits. Our findings demonstrate that Kyber and Dilithium achieve efficient execution times, outperforming classical cryptographic schemes such as RSA and ECDSA at equivalent security levels. Beyond technical performance, the real-world deployment of PQC introduces challenges in telecommunications networks, where large-scale infrastructure upgrades, interoperability with legacy systems, and regulatory constraints must be addressed. This paper examines the feasibility of PQC adoption in telecom environments, highlighting key transition challenges, security risks, and implementation strategies. Through industry case studies, we illustrate how telecom operators are integrating PQC into 5G authentication, subscriber identity protection, and secure communications. Our analysis provides insights into the computational trade-offs, deployment considerations, and standardization efforts shaping the future of quantum-safe cryptographic infrastructure.",
+      "publication_date": "2025-03-17T09:06:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.12952v2"
+    },
+    {
+      "title": "SHIFT SNARE: Uncovering Secret Keys in FALCON via Single-Trace Analysis",
+      "authors": [
+        "Jinyi Qiu",
+        "Aydin Aysu"
+      ],
+      "abstract": "This paper presents a novel singletrace sidechannel attack on FALCON a latticebased postquantum digital signature protocol recently approved for standardization by NIST We target the discrete Gaussian sampling operation within FALCONs key generation scheme and demonstrate that a single power trace is sufficient to mount a successful attack Notably negating the results of a 63bit rightshift operation on 64bit secret values leaks critical information about the assignment of 1 versus 0 to intermediate coefficients during sampling These leaks enable full recovery of the secret key We demonstrate a groundup approach to the attack on an ARM CortexM4 microcontroller executing both the reference and optimized implementations from FALCONs NIST round 3 software package We successfully recovered all of the secret polynomials in FALCON We further quantify the attackers success rate using a univariate Gaussian template model providing generalizable guarantees Statistical analysis with over 500000 tests reveals a percoefficient success rate of 999999999478 and a fullkey recovery rate of 9999994654 for FALCON512 We verify that this vulnerability is present in all implementations included in FALCONs NIST submission package This highlights the vulnerability of current software implementations to singletrace attacks and underscores the urgent need for singletrace resilient software in embedded systems",
+      "publication_date": "2025-04-01T01:03:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.00320v2"
+    },
+    {
+      "title": "Key Exchange in the Quantum Era: Evaluating a Hybrid System of   Public-Key Cryptography and Physical-Layer Security",
+      "authors": [
+        "Paul Staat",
+        "Meik Dörpinghaus",
+        "Azadeh Sheikholeslami",
+        "Christof Paar",
+        "Gerhard Fettweis",
+        "Dennis Goeckel"
+      ],
+      "abstract": "Today's information society relies on cryptography to achieve security goals such as confidentiality, integrity, authentication, and non-repudiation for digital communications. Here, public-key cryptosystems play a pivotal role to share encryption keys and create digital signatures. However, quantum computers threaten the security of traditional public-key cryptosystems as they can tame computational problems underlying the schemes, i.e., discrete logarithm and integer factorization. The prospective arrival of capable-enough quantum computers already threatens today's secret communication in terms of their long-term secrecy when stored to be later decrypted. Therefore, researchers strive to develop and deploy alternative schemes.   In this work, evaluate a key exchange protocol based on combining public-key schemes with physical-layer security, anticipating the prospect of quantum attacks. If powerful quantum attackers cannot immediately obtain private keys, legitimate parties have a window of short-term secrecy to perform a physical-layer jamming key exchange (JKE) to establish a long-term shared secret. Thereby, the protocol constraints the computation time available to the attacker to break the employed public-key cryptography. In this paper, we outline the protocol, discuss its security, and point out challenges to be resolved.",
+      "publication_date": "2024-12-17T21:56:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2412.13352v1"
+    },
+    {
+      "title": "A survey on NIST PQ signatures",
+      "authors": [
+        "Nicola Di Chiano",
+        "Riccardo Longo",
+        "Alessio Meneghetti",
+        "Giordano Santilli"
+      ],
+      "abstract": "Shor's shockingly fast quantum algorithm for solving the period-finding problem is a threat for the most common public-key primitives, as it can be efficiently applied to solve both the Integer Factorisation Problem and the Discrete Logarithm Problem. In other words, many once-secure protocols have to be replaced by still-secure alternatives. Instead of relying, for example, on the RSA protocol, the Diffie-Hellman key-exchange or the (Elliptic Curve) Digital Signature Algorithm, many researchers moved their attention to the design and analysis of primitives which are yet to be broken by quantum algorithms. The urgency of the threat imposed by quantum computers led the U.S. National Institute of Standards and Technology (NIST) to open calls for both Post-Quantum Public-Keys Exchange Algorithms and Post-Quantum Digital Signature Algorithms. In this brief survey we focus on the round 3 finalists and alternate candidates for Digital Signatures: CRYSTALS-DILITHIUM, FALCON, Rainbow, SPHINCS+, GeMSS, Picnic.",
+      "publication_date": "2021-07-23T08:46:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2107.11082v1"
+    },
+    {
+      "title": "A Comprehensive Survey of Threshold Signatures: NIST Standards,   Post-Quantum Cryptography, Exotic Techniques, and Real-World Applications",
+      "authors": [
+        "Kiarash Sedghighadikolaei",
+        "Attila Altay Yavuz"
+      ],
+      "abstract": "Threshold digital signatures enable a distributed execution of signature functionalities and will play a crucial role in the security of emerging decentralized next-generation networked systems and applications. In this paper, we provide a comprehensive and systematic survey of threshold and distributed signatures with advanced features. Our survey encompasses threshold signatures in conventional and post-quantum cryptography (PQC) settings and captures custom-design and standard signatures (e.g., conventional NIST and NIST-PQC). We examine both generic (via secure multi-party computation) and custom thresholding techniques for a myriad of signature families while investigating exotic signatures, real-life applications, and potential future research direction.",
+      "publication_date": "2023-11-09T16:53:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.05514v2"
+    },
+    {
+      "title": "Performanz Evaluation von PQC in TLS 1.3 unter variierenden   Netzwerkcharakteristiken",
+      "authors": [
+        "Johanna Henrich"
+      ],
+      "abstract": "Quantum computers could break currently used asymmetric cryptographic schemes in a few years using Shor's algorithm. They are used in numerous protocols and applications to secure authenticity as well as key agreement, and quantum-safe alternatives are urgently needed. NIST therefore initiated a standardization process. This requires intensive evaluation, also with regard to performance and integrability. Here, the integration into TLS 1.3 plays an important role, since it is used for 90% of all Internet connections. In the present work, algorithms for quantum-safe key exchange during TLS 1.3 handshake were reviewed. The focus is on the influence of dedicated network parameters such as transmission rate or packet loss in order to gain insights regarding the suitability of the algorithms under corresponding network conditions. For the implementation, a framework by Paquin et al. was extended to emulate network scenarios and capture the handshake duration for selected algorithms. It is shown that the evaluated candidates Kyber, Saber and NTRU as well as the alternative NTRU Prime have a very good overall performance and partly undercut the handshake duration of the classical ECDH. The choice of a higher security level or hybrid variants does not make a significant difference here. This is not the case with alternatives such as FrodoKEM, SIKE, HQC or BIKE, which have individual disadvantages and whose respective performance varies greatly depending on the security level and hybrid implementation. This is especially true for the data-intensive algorithm FrodoKEM. In general, the prevailing network characteristics should be taken into account when choosing scheme and variant. Further it becomes clear that the performance of the handshake is influenced by external factors such as TCP mechanisms or MTU, which could compensate for possible disadvantages due to PQC if configured appropriately.",
+      "publication_date": "2023-03-27T12:33:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.15148v1"
+    },
+    {
+      "title": "Post-Quantum Hybrid Digital Signatures with Hardware-Support for Digital   Twins",
+      "authors": [
+        "Saif E. Nouma",
+        "Attila A. Yavuz"
+      ],
+      "abstract": "Digital Twins (DT) virtually model cyber-physical objects using Internet of Things (IoT) components (e.g., sensors) to gather and process senstive information stored in the cloud. Trustworthiness of the streamed data is crucial which requires quantum safety and breach resiliency. Digital signatures are essential for scalable authentication and non-repudiation. Yet, NIST PQC signature standards are exorbitantly costly for low-end IoT without considering forward security. Moreover, Post-Quantum (PQ) signatures lack aggregation, which is highly desirable to reduce the transmission and storage burdens in DTs. Hence, there is an urgent need for lightweight digital signatures that offer compromise resiliency and compactness while permitting an effective transition into the PQ era for DTs.   We create a series of highly lightweight digital signatures called Hardware-ASsisted Efficient Signature (HASES) that meets the above requirements. The core of HASES is a hardware-assisted cryptographic commitment construct oracle (CCO) that permits verifiers to obtain expensive commitments without signer interaction. We created three HASES schemes: PQ-HASES is a forward-secure PQ signature, LA-HASES is an efficient aggregate Elliptic-Curve signature, and HY-HASES is a novel hybrid scheme that combines PQ-HASES and LA-HASES with novel strong nesting and sequential aggregation. HASES does not require a secure-hardware on the signer. We proved that HASES schemes are secure and implemented them on commodity hardware and an 8-bit AVR ATmega2560. Our experiments confirm that PQ-HASES and LA-HASES are two magnitudes of times more signer efficient than their PQ and conventional-secure counterparts, respectively. HY-HASES outperforms NIST PQC and conventional signature combinations, offering a standardcompliant transitional solution for emerging DTs. We open-source HASES schemes for public testing and adaptation.",
+      "publication_date": "2023-05-20T23:00:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2305.12298v2"
+    },
+    {
+      "title": "Weak-Key Analysis for BIKE Post-Quantum Key Encapsulation Mechanism",
+      "authors": [
+        "Mohammad Reza Nosouhi",
+        "Syed W. Shah",
+        "Lei Pan",
+        "Yevhen Zolotavkin",
+        "Ashish Nanda",
+        "Praveen Gauravaram",
+        "Robin Doss"
+      ],
+      "abstract": "The evolution of quantum computers poses a serious threat to contemporary public-key encryption (PKE) schemes. To address this impending issue, the National Institute of Standards and Technology (NIST) is currently undertaking the Post-Quantum Cryptography (PQC) standardization project intending to evaluate and subsequently standardize the suitable PQC scheme(s). One such attractive approach, called Bit Flipping Key Encapsulation (BIKE), has made to the final round of the competition. Despite having some attractive features, the IND-CCA security of the BIKE depends on the average decoder failure rate (DFR), a higher value of which can facilitate a particular type of side-channel attack. Although the BIKE adopts a Black-Grey-Flip (BGF) decoder that offers a negligible DFR, the effect of weak-keys on the average DFR has not been fully investigated. Therefore, in this paper, we first perform an implementation of the BIKE scheme, and then through extensive experiments show that the weak-keys can be a potential threat to IND-CCA security of the BIKE scheme and thus need attention from the research community prior to standardization. We also propose a key-check algorithm that can potentially supplement the BIKE mechanism and prevent users from generating and adopting weak keys to address this issue.",
+      "publication_date": "2022-04-29T05:06:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2204.13885v2"
+    },
+    {
+      "title": "Towards Threshold Key Exchange Protocols",
+      "authors": [
+        "Denis Kolegov",
+        "Yulia Khalniyazova",
+        "Denis Varlakov"
+      ],
+      "abstract": "Threshold schemes exist for many cryptographic primitives like signatures, key derivation functions, and ciphers. At the same time, practical key exchange protocols based on Diffie-Hellman (DH) or ECDSA primitives are not designed or implemented in a threshold setting. In this paper, we implement popular key exchange protocols in a threshold manner and show that this approach can be used in practice. First, we introduce two basic threshold DH key agreement schemes that provide enhanced security features in comparison with the classic DH primitive: dealerless distributed key generation, threshold shared key computation, and private key shares refreshing. We implemented the proposed DH schemes within WireGuard protocol to demonstrate its effectiveness, efficiency, and usability in practice. The open question is the security of the proposed schemes and their instantiation from the elliptic curves used in key agreement protocols: NIST curves, Russian GOST curves, and Curve25519. Second, we propose an idea of implementing TLS in a threshold setting that can be used instead of Keyless SSL/TLS technology, and provide the measurements of TLS key exchanges based on threshold ECDSA. Even if we don't provide any formal definitions, security analysis, and mathematical proofs, we believe that the ideas and mechanisms suggested in this paper can be interesting and useful. The main intention of the paper is to start discussions and raise awareness of the challenges and problems arising when moving to threshold key exchange protocols.",
+      "publication_date": "2020-12-27T07:56:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2101.00084v2"
+    },
+    {
+      "title": "Evaluating Post-Quantum Cryptography on Embedded Systems: A Performance   Analysis",
+      "authors": [
+        "Ben Dong",
+        "Qian Wang"
+      ],
+      "abstract": "The National Institute of Standards and Technology (NIST) has finalized the selection of post-quantum cryptographic (PQC) algorithms for use in the era of quantum computing. Despite their integration into TLS protocol for key establishment and signature generation, there is limited study on profiling these newly standardized algorithms in resource-constrained communication systems. In this work, we integrate PQC into both TLS servers and clients built upon embedded systems. Additionally, we compare the performance overhead of PQC pairs to currently used non-PQC schemes.",
+      "publication_date": "2024-09-09T03:12:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2409.05298v1"
+    },
+    {
+      "title": "Performance Analysis and Deployment Considerations of Post-Quantum   Cryptography for Consumer Electronics",
+      "authors": [
+        "Daniel Commey",
+        "Benjamin Appiah",
+        "Griffith S. Klogo",
+        "Winful Bagyl-Bac",
+        "James D. Gadze",
+        "Yousef Alsenani",
+        "Garth V. Crosby"
+      ],
+      "abstract": "Quantum computing threatens the security foundations of consumer electronics (CE). Preparing the diverse CE ecosystem, particularly resource-constrained devices, for the post-quantum era requires quantitative understanding of quantum-resistant cryptography (PQC) performance. This paper presents a comprehensive cross-platform performance analysis of leading PQC Key Encapsulation Mechanisms (KEMs) and digital signatures (NIST standards/candidates) compared against classical RSA/ECC. We evaluated execution time, communication costs (key/signature sizes), and memory footprint indicators on high-performance (macOS/M4, Ubuntu/x86) and constrained platforms (Raspberry Pi 4/ARM). Our quantitative results reveal lattice-based schemes, notably NIST standards ML-KEM (Kyber) and ML-DSA (Dilithium), provide a strong balance of computational efficiency and moderate communication/storage overhead, making them highly suitable for many CE applications. In contrast, code-based Classic McEliece imposes significant key size challenges, while hash-based SPHINCS+ offers high security assurance but demands large signature sizes impacting bandwidth and storage. Based on empirical data across platforms and security levels, we provide specific deployment recommendations tailored to different CE scenarios (e.g., wearables, smart home hubs, mobile devices), offering guidance for manufacturers navigating the PQC transition.",
+      "publication_date": "2025-05-04T20:38:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.02239v2"
+    },
+    {
+      "title": "One-Time Universal Hashing Quantum Digital Signatures without Perfect   Keys",
+      "authors": [
+        "Bing-Hong Li",
+        "Yuan-Mei Xie",
+        "Xiao-Yu Cao",
+        "Chen-Long Li",
+        "Yao Fu",
+        "Hua-Lei Yin",
+        "Zeng-Bing Chen"
+      ],
+      "abstract": "Quantum digital signatures (QDS), generating correlated bit strings among three remote parties for signatures through quantum law, can guarantee non-repudiation, authenticity, and integrity of messages. Recently, one-time universal hashing QDS framework, exploiting the quantum asymmetric encryption and universal hash functions, has been proposed to significantly improve the signature rate and ensure unconditional security by directly signing the hash value of long messages. However, similar to quantum key distribution, this framework utilizes keys with perfect secrecy by performing privacy amplification that introduces cumbersome matrix operations, thereby consuming large computational resources, causing delays and increasing failure probability. Here, we prove that, different from private communication, imperfect quantum keys with limited information leakage can be used for digital signatures and authentication without compromising the security while having eight orders of magnitude improvement on signature rate for signing a megabit message compared with conventional single-bit schemes. This study significantly reduces the delay for data postprocessing and is compatible with any quantum key generation protocols. In our simulation, taking two-photon twin-field key generation protocol as an example, QDS can be practically implemented over a fiber distance of 650 km between the signer and receiver. For the first time, this study offers a cryptographic application of quantum keys with imperfect secrecy and paves a way for the practical and agile implementation of digital signatures in a future quantum network.",
+      "publication_date": "2023-01-03T14:54:27+00:00",
+      "doi": "10.1103/PhysRevApplied.20.044011",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2301.01132v4"
+    },
+    {
+      "title": "Public key cryptography based on skew dihedral group rings",
+      "authors": [
+        "Javier de la Cruz",
+        "Edgar Martínez-Moro",
+        "Ricardo Villanueva-Polanco"
+      ],
+      "abstract": "In this paper, we propose to use a skew dihedral group ring given by the group $D_{2n}$ and the finite field $\\mathbb{F}_{q^2}$ for public-key cryptography. Using the ambient space $\\mathbb{F}_{q^{2}}^{\\theta} D_{2n}$ and a group homomorphism $\\theta: D_{2n} \\rightarrow \\mathrm{Aut}(\\mathbb{F}_{q^2})$, we introduce a key exchange protocol and present an analysis of its security. Moreover, we explore the properties of the resulting skew group ring $\\mathbb{F}_{q^{2}}^{\\theta} D_{2n}$, exploiting them to enhance our key exchange protocol. We also introduce a probabilistic public-key scheme derived from our key exchange protocol and obtain a key encapsulation mechanism (KEM) by applying a well-known generic transformation to our public-key scheme. Finally, we present a proof-of-concept implementation of our cryptographic constructions. To the best of our knowledge, this is the first paper that proposes a skew dihedral group ring for public-key cryptography.",
+      "publication_date": "2022-05-06T03:26:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2205.02997v1"
+    },
+    {
+      "title": "PQ-CAN: A Framework for Simulating Post-Quantum Cryptography in Embedded   Systems",
+      "authors": [
+        "Mauro Conti",
+        "Francesco Marchiori",
+        "Sebastiano Matarazzo",
+        "Marco Rubin"
+      ],
+      "abstract": "The rapid development of quantum computers threatens traditional cryptographic schemes, prompting the need for Post-Quantum Cryptography (PQC). Although the NIST standardization process has accelerated the development of such algorithms, their application in resource-constrained environments such as embedded systems remains a challenge. Automotive systems relying on the Controller Area Network (CAN) bus for communication are particularly vulnerable due to their limited computational capabilities, high traffic, and need for real-time response. These constraints raise concerns about the feasibility of implementing PQC in automotive environments, where legacy hardware and bit rate limitations must also be considered.   In this paper, we introduce PQ-CAN, a modular framework for simulating the performance and overhead of PQC algorithms in embedded systems. We consider the automotive domain as our case study, testing a variety of PQC schemes under different scenarios. Our simulation enables the adjustment of embedded system computational capabilities and CAN bus bit rate constraints. We also provide insights into the trade-offs involved by analyzing each algorithm's security level and overhead for key encapsulation and digital signature. By evaluating the performance of these algorithms, we provide insights into their feasibility and identify the strengths and limitations of PQC in securing automotive communications in the post-quantum era.",
+      "publication_date": "2025-04-14T21:50:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.10730v1"
+    },
+    {
+      "title": "Mobile Energy Requirements of the Upcoming NIST Post-Quantum   Cryptography Standards",
+      "authors": [
+        "Markku-Juhani O. Saarinen"
+      ],
+      "abstract": "Standardization of Post-Quantum Cryptography (PQC) was started by NIST in 2016 and has proceeded to its second elimination round. The upcoming standards are intended to replace (or supplement) current RSA and Elliptic Curve Cryptography (ECC) on all targets, including lightweight, embedded, and mobile systems. We present an energy requirement analysis based on extensive measurements of PQC candidate algorithms on a Cortex M4 - based reference platform. We relate computational (energy) costs of PQC algorithms to their data transmission costs which are expected to increase with new types of public keys and ciphertext messages. The energy, bandwidth, and latency needs of PQC algorithms span several orders of magnitude, which is substantial enough to impact battery life, user experience, and application protocol design. We propose metrics and guidelines for PQC algorithm usage in IoT and mobile systems based on our findings. Our evidence supports the view that fast structured-lattice PQC schemes are the preferred choice for cloud-connected mobile devices in most use cases, even when per-bit data transmission energy cost is relatively high.",
+      "publication_date": "2019-12-02T16:45:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1912.00916v4"
+    },
+    {
+      "title": "Quantum-Safe Hybrid Key Exchanges with KEM-Based Authentication",
+      "authors": [
+        "Christopher Battarbee",
+        "Christoph Striecks",
+        "Ludovic Perret",
+        "Sebastian Ramacher",
+        "Kevin Verhaeghe"
+      ],
+      "abstract": "Authenticated Key Exchange (AKE) between any two entities is one of the most important security protocols available for securing our digital networks and infrastructures. In PQCrypto 2023, Bruckner, Ramacher and Striecks proposed a novel hybrid AKE (HAKE) protocol, dubbed Muckle+, that is particularly useful in large quantum-safe networks consisting of a large number of nodes. Their protocol is hybrid in the sense that it allows key material from conventional and post-quantum primitives, as well as from quantum key distribution, to be incorporated into a single end-to-end shared key.   To achieve the desired authentication properties, Muckle+ utilizes post-quantum digital signatures. However, available instantiations of such signatures schemes are not yet efficient enough compared to their post-quantum key-encapsulation mechanism (KEM) counterparts, particularly in large networks with potentially several connections in a short period of time.   To mitigate this gap, we propose Muckle# that pushes the efficiency boundaries of currently known HAKE constructions. Muckle# uses post-quantum key-encapsulating mechanisms for implicit authentication inspired by recent works done in the area of Transport Layer Security (TLS) protocols, particularly, in KEMTLS (CCS'20).   We port those ideas to the HAKE framework and develop novel proof techniques on the way. Due to our novel KEM-based approach, the resulting protocol has a slightly different message flow compared to prior work that we carefully align with the HAKE framework and which makes our changes to the Muckle+ non-trivial.",
+      "publication_date": "2024-11-06T16:28:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.04030v2"
+    },
+    {
+      "title": "Public-Key Quantum Authentication and Digital Signature Schemes Based on   the QMA-Complete Problem",
+      "authors": [
+        "Le-Ran Liu",
+        "Min-Quan He",
+        "Dan-Bo Zhang",
+        "Z. D. Wang"
+      ],
+      "abstract": "We propose a quantum authentication and digital signature protocol whose security is founded on the Quantum Merlin Arthur~(QMA)-completeness of the consistency of local density matrices. The protocol functions as a true public-key cryptography system, where the public key is a set of local density matrices generated from the private key, a global quantum state. This construction uniquely eliminates the need for trusted third parties, pre-shared secrets, or authenticated classical channels for public key distribution, making a significant departure from symmetric protocols like quantum key distribution. We provide a rigorous security analysis, proving the scheme's unforgeability against adaptive chosen-message attacks by quantum adversaries. The proof proceeds by a formal reduction, demonstrating that a successful forgery would imply an efficient quantum algorithm for the QMA-complete Consistency of Quantum Marginal Problem~(QMP). We further analyze the efficiency of verification using partial quantum state tomography, establishing the protocol's theoretical robustness and outlining a path towards practical implementation",
+      "publication_date": "2025-06-20T10:56:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2506.16904v1"
+    },
+    {
+      "title": "Robust Quantum Public-Key Encryption with Applications to Quantum Key   Distribution",
+      "authors": [
+        "Giulio Malavolta",
+        "Michael Walter"
+      ],
+      "abstract": "Quantum key distribution (QKD) allows Alice and Bob to agree on a shared secret key, while communicating over a public (untrusted) quantum channel. Compared to classical key exchange, it has two main advantages: (i) The key is unconditionally hidden to the eyes of any attacker, and (ii) its security assumes only the existence of authenticated classical channels which, in practice, can be realized using Minicrypt assumptions, such as the existence of digital signatures. On the flip side, QKD protocols typically require multiple rounds of interactions, whereas classical key exchange can be realized with the minimal amount of two messages using public-key encryption. A long-standing open question is whether QKD requires more rounds of interaction than classical key exchange. In this work, we propose a two-message QKD protocol that satisfies everlasting security, assuming only the existence of quantum-secure one-way functions. That is, the shared key is unconditionally hidden, provided computational assumptions hold during the protocol execution. Our result follows from a new construction of quantum public-key encryption (QPKE) whose security, much like its classical counterpart, only relies on authenticated classical channels.",
+      "publication_date": "2023-04-06T11:14:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2304.02999v2"
+    },
+    {
+      "title": "On a new fast public key cryptosystem",
+      "authors": [
+        "Samir Bouftass"
+      ],
+      "abstract": "This paper presents a new fast public key cryptosystem namel : a key exchange algorithm, a public key encryption algorithm and a digital signature algorithm, based on the difficulty to invert the following function: $$F(x) =(a\\times x)Mod(2^p)Div(2^q).$$ Mod is modulo operation , Div is integer division operation , a , p and q are integers where $( p > q )$. We define p and q values for which ModDiv2Inv can be the hardest. We then present ModDiv2Kex, a new fast key exchange algorithm based on ModDiv2Inv. In this paper we also evaluate the hardness of this problem by reducing it to SAT .",
+      "publication_date": "2015-08-31T10:27:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1508.07756v2"
+    },
+    {
+      "title": "A SAT-based Public Key Cryptography Scheme",
+      "authors": [
+        "Sebastian E. Schmittner"
+      ],
+      "abstract": "A homomorphic public key crypto-scheme based on the Boolean Satisfiability Problem is proposed. The public key is a SAT formula satisfied by the private key. Probabilistic encryption generates functions implied to be false by the public key XOR the message bits. A zero-knowledge proof is used to provide signatures.",
+      "publication_date": "2015-07-29T10:24:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1507.08094v3"
+    },
+    {
+      "title": "PQC: Triple Decomposition Problem Applied To GL(d, Fp) - A Secure   Framework For Canonical Non-Commutative Cryptography",
+      "authors": [
+        "Pedro Hecht"
+      ],
+      "abstract": "Post-Quantum Cryptography (PQC) attempts to find cryptographic protocols resistant to attacks using Shor polynomial time algorithm for numerical field problems or Grover search algorithm. A mostly overlooked but valuable line of solutions is provided by non-commutative algebraic structures, specifically canonical protocols that rely on one-way trapdoor functions (OWTF). Here we develop an algebraic framework who could be applied to different asymmetric protocols like D-H KE (Diffie-Hellman key exchange), Public Key Encryption, Digital Signature, ZKP (zero-knowledge proof) authentication, Oblivious Transfer, Multi-Party Computing, and so on. The trapdoor one-way functions selected are (a) Triple decomposition Problem (TDP) developed by Kurt, where a known element is factored into a product of three unknown factors and (b) a new version of conjugacy search that we refer from now on as Blind Conjugacy Search Problem (BCSP). Our platform structure is the general linear group GL(d,F_p) d-square non-singular matrices of prime field values. We give support to the fact that this framework is cryptographically secure against classical attacks like linear algebra attacks, length-based attacks, side-channel attacks against square (or duplicate) and multiply (or sum) algorithm, high sensitivity to pseudo random deterministic generators, etc. At same time it is immune against quantum attacks (using Grover and Shor), if the size parameters are carefully selected. Semantic security and IND-CCA2 compliance for this framework is discussed.",
+      "publication_date": "2018-10-21T15:57:22+00:00",
+      "doi": "10.13140/RG.2.2.23240.78082",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1810.08983v2"
+    },
+    {
+      "title": "A tiny public key scheme based on Niederreiter Cryptosystem",
+      "authors": [
+        "Arash Khalvan",
+        "Amirhossein Zali",
+        "Mahmoud Ahmadian Attari"
+      ],
+      "abstract": "Due to the weakness of public key cryptosystems encounter of quantum computers, the need to provide a solution was emerged. The McEliece cryptosystem and its security equivalent, the Niederreiter cryptosystem, which are based on Goppa codes, are one of the solutions, but they are not practical due to their long key length. Several prior attempts to decrease the length of the public key in code-based cryptosystems involved substituting the Goppa code family with other code families. However, these efforts ultimately proved to be insecure. In 2016, the National Institute of Standards and Technology (NIST) called for proposals from around the world to standardize post-quantum cryptography (PQC) schemes to solve this issue. After receiving of various proposals in this field, the Classic McEliece cryptosystem, as well as the Hamming Quasi-Cyclic (HQC) and Bit Flipping Key Encapsulation (BIKE), chosen as code-based encryption category cryptosystems that successfully progressed to the final stage. This article proposes a method for developing a code-based public key cryptography scheme that is both simple and implementable. The proposed scheme has a much shorter public key length compared to the NIST finalist cryptosystems. The key length for the primary parameters of the McEliece cryptosystem (n=1024, k=524, t=50) ranges from 18 to 500 bits. The security of this system is at least as strong as the security of the Niederreiter cryptosystem. The proposed structure is based on the Niederreiter cryptosystem which exhibits a set of highly advantageous properties that make it a suitable candidate for implementation in all extant systems.",
+      "publication_date": "2023-10-10T15:50:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2310.06724v1"
+    },
+    {
+      "title": "Quantum walks public key cryptographic system",
+      "authors": [
+        "C. Vlachou",
+        "J. Rodrigues",
+        "P. Mateus",
+        "N. Paunković",
+        "A. Souto"
+      ],
+      "abstract": "Quantum Cryptography is a rapidly developing field of research that benefits from the properties of Quantum Mechanics in performing cryptographic tasks. Quantum walks are a powerful model for quantum computation and very promising for quantum information processing. In this paper, we present a quantum public-key cryptographic system based on quantum walks. In particular, in the proposed protocol the public key is given by a quantum state generated by performing a quantum walk. We show that the protocol is secure and analyze the complexity of public-key generation and encryption/decryption procedures.",
+      "publication_date": "2016-02-03T18:34:56+00:00",
+      "doi": "10.1142/S0219749915500501",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1602.01404v1"
+    },
+    {
+      "title": "Sequential Aggregate Signatures with Short Public Keys without Random   Oracles",
+      "authors": [
+        "Kwangsu Lee",
+        "Dong Hoon Lee",
+        "Moti Yung"
+      ],
+      "abstract": "The notion of aggregate signature has been motivated by applications and it enables any user to compress different signatures signed by different signers on different messages into a short signature. Sequential aggregate signature, in turn, is a special kind of aggregate signature that only allows a signer to add his signature into an aggregate signature in sequential order. This latter scheme has applications in diversified settings such as in reducing bandwidth of certificate chains and in secure routing protocols. Lu, Ostrovsky, Sahai, Shacham, and Waters (EUROCRYPT 2006) presented the first sequential aggregate signature scheme in the standard model. The size of their public key, however, is quite large (i.e., the number of group elements is proportional to the security parameter), and therefore, they suggested as an open problem the construction of such a scheme with short keys.   In this paper, we propose the first sequential aggregate signature schemes with short public keys (i.e., a constant number of group elements) in prime order (asymmetric) bilinear groups that are secure under static assumptions in the standard model. Furthermore, our schemes employ a constant number of pairing operations per message signing and message verification operation. Technically, we start with a public-key signature scheme based on the recent dual system encryption technique of Lewko and Waters (TCC 2010). This technique cannot directly provide an aggregate signature scheme since, as we observed, additional elements should be published in a public key to support aggregation. Thus, our constructions are careful augmentation techniques for the dual system technique to allow it to support sequential aggregate signature schemes. We also propose a multi-signature scheme with short public parameters in the standard model.",
+      "publication_date": "2015-02-24T05:51:56+00:00",
+      "doi": "10.1016/j.tcs.2015.02.019",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1502.06691v1"
+    },
+    {
+      "title": "Quantum-Resistant Cryptography",
+      "authors": [
+        "John Preuß Mattsson",
+        "Ben Smeets",
+        "Erik Thormarker"
+      ],
+      "abstract": "Quantum-resistant cryptography is cryptography that aims to deliver cryptographic functions and protocols that remain secure even if large-scale fault-tolerant quantum computers are built. NIST will soon announce the first selected public-key cryptography algorithms in its Post-Quantum Cryptography (PQC) standardization which is the most important current effort in the field of quantum-resistant cryptography. This report provides an overview to security experts who do not yet have a deep understanding of quantum-resistant cryptography. It surveys the computational model of quantum computers; the quantum algorithms that affect cryptography the most; the risk of Cryptographically Relevant Quantum Computers (CRQCs) being built; the security of symmetric and public-key cryptography in the presence of CRQCs; the NIST PQC standardization effort; the migration to quantum-resistant public-key cryptography; the relevance of Quantum Key Distribution as a complement to conventional cryptography; and the relevance of Quantum Random Number Generators as a complement to current hardware Random Number Generators.",
+      "publication_date": "2021-12-01T10:36:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2112.00399v1"
+    },
+    {
+      "title": "Public key cryptography based on twisted dihedral group algebras",
+      "authors": [
+        "Javier de la Cruz",
+        "Ricardo Villanueva-Polanco"
+      ],
+      "abstract": "In this paper, we propose to use a twisted dihedral group algebra for public-key cryptography. For this, we introduce a new $2$-cocycle $\\alpha_{\\lambda}$ to twist the dihedral group algebra. Using the ambient space $\\mathbb{F}^{\\alpha_{\\lambda}} D_{2n}$, we then introduce a key exchange protocol and present an analysis of its security. Moreover, we explore the properties of the resulting twisted algebra $\\mathbb{F}^{\\alpha_{\\lambda}}D_{2n}$, exploiting them to enhance our key exchange protocol. We also introduce a probabilistic public-key scheme derived from our key-exchange protocol and obtain a key encapsulation mechanism (KEM) by applying a well-known generic transformation to our public-key scheme. Finally, we present a proof-of-concept implementation of the resulting key encapsulation mechanism.",
+      "publication_date": "2021-12-14T23:54:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2112.07798v1"
+    },
+    {
+      "title": "Assessment of cryptographic approaches for a quantum-resistant Galileo   OSNMA",
+      "authors": [
+        "Javier Junquera-Sánchez",
+        "Carlos Hernando-Ramiro",
+        "Óscar Gamallo-Palomares",
+        "José-Antonio Gómez-Sánchez"
+      ],
+      "abstract": "Quantum computing becomes more of a reality as time passes, bringing several cybersecurity challenges. Modern cryptography is based on the computational complexity of specific mathematical problems, but as new quantum-based computers appear, classical methods might not be enough to secure communications. In this paper, we analyse the state of the Galileo Open Service Navigation Message Authentication (OSNMA) to overcome these new threats. This analysis and its assessment have been performed using OSNMA documentation, reviewing the available Post Quantum Cryptography (PQC) algorithms competing in the National Institute of Standards and Technology (NIST) standardization process, and studying the possibility of its implementation in the Galileo service. The main barrier to adopting the PQC approach is the size of both the signature and the key. The analysis shows that OSNMA is not yet prepared to face the quantum threat, and a significant change would be required. This work concludes by assessing different temporal countermeasures that can be implemented to sustain the system's integrity in the short term.",
+      "publication_date": "2023-12-18T10:20:50+00:00",
+      "doi": "10.33012/navi.648",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.11080v2"
+    },
+    {
+      "title": "5G-AKA-HPQC: Hybrid Post-Quantum Cryptography Protocol for   Quantum-Resilient 5G Primary Authentication with Forward Secrecy",
+      "authors": [
+        "Yongho Ko",
+        "I Wayan Adi Juliawan Pawana",
+        "Ilsun You"
+      ],
+      "abstract": "5G enables digital innovation by integrating diverse services, making security especially primary authentication crucial. Two standardized protocols, 5G AKA and EAP AKA', handle authentication for 3GPP and non 3GPP devices. However, 5G AKA has vulnerabilities, including linkability attacks. Additionally, quantum computing poses threats, requiring quantum resistant cryptography. While post-quantum cryptography (PQC) is being standardized, its real world robustness remains unproven. Conventional cryptographic schemes offer reliability due to decades of practical use. To bridge this gap, IETF is standardizing hybrid PQC (HPQC), combining classical and quantum resistant methods. Ensuring forward secrecy and quantum resilience in 5G-AKA is critical. To address these issues, we propose 5G AKA HPQC, a protocol maintaining compatibility with existing standards while enhancing security by integrating keys derived from Elliptic Curve Integrated Encryption Scheme (ECIES) and PQC Key Encapsulation Mechanism (KEM). We validate its security using SVO Logic and ProVerif, confirming its robustness. Performance evaluations assess computational and communication overheads, demonstrating a balance between security and efficiency. This research provides key insights into quantum-safe authentication, contributing to future standardization of secure mobile authentication protocols.",
+      "publication_date": "2025-02-05T03:05:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.02851v1"
+    },
+    {
+      "title": "Fuzzing+Hardware Performance Counters-Based Detection of Algorithm   Subversion Attacks on Post-Quantum Signature Schemes",
+      "authors": [
+        "Animesh Basak Chowdhury",
+        "Anushree Mahapatra",
+        "Deepraj Soni",
+        "Ramesh Karri"
+      ],
+      "abstract": "NIST is standardizing Post Quantum Cryptography (PQC) algorithms that are resilient to the computational capability of quantum computers. Past works show malicious subversion with cryptographic software (algorithm subversion attacks) that weaken the implementations. We show that PQC digital signature codes can be subverted in line with previously reported flawed implementations that generate verifiable, but less-secure signatures, demonstrating the risk of such attacks. Since, all processors have built-in Hardware Performance Counters (HPCs), there exists a body of work proposing a low-cost Machine Learning (ML)-based integrity checking of software using HPC fingerprints. However, such HPC-based approaches may not detect subversion of PQC codes. A miniscule percentage of qualitative inputs when applied to the PQC codes improve this accuracy to 98%. We propose grey-box fuzzing as a pre-processing step to obtain inputs to aid the HPC-based method.",
+      "publication_date": "2022-03-13T23:18:47+00:00",
+      "doi": "10.1109/TCAD.2022.3159749",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2203.06782v1"
+    },
+    {
+      "title": "Complexity of Post-Quantum Cryptography in Embedded Systems and Its   Optimization Strategies",
+      "authors": [
+        "Omar Alnaseri",
+        "Yassine Himeur",
+        "Shadi Atalla",
+        "Wathiq Mansoor"
+      ],
+      "abstract": "With the rapid advancements in quantum computing, traditional cryptographic schemes like Rivest-Shamir-Adleman (RSA) and elliptic curve cryptography (ECC) are becoming vulnerable, necessitating the development of quantum-resistant algorithms. The National Institute of Standards and Technology (NIST) has initiated a standardization process for PQC algorithms, and several candidates, including CRYSTALS-Kyber and McEliece, have reached the final stages. This paper first provides a comprehensive analysis of the hardware complexity of post-quantum cryptography (PQC) in embedded systems, categorizing PQC algorithms into families based on their underlying mathematical problems: lattice-based, code-based, hash-based and multivariate / isogeny-based schemes. Each family presents distinct computational, memory, and energy profiles, making them suitable for different use cases. To address these challenges, this paper discusses optimization strategies such as pipelining, parallelization, and high-level synthesis (HLS), which can improve the performance and energy efficiency of PQC implementations. Finally, a detailed complexity analysis of CRYSTALS-Kyber and McEliece, comparing their key generation, encryption, and decryption processes in terms of computational complexity, has been conducted.",
+      "publication_date": "2025-04-18T08:02:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.13537v1"
+    },
+    {
+      "title": "A Unified Cryptoprocessor for Lattice-based Signature and Key-exchange",
+      "authors": [
+        "Aikata Aikata",
+        "Ahmet Can Mert",
+        "David Jacquemin",
+        "Amitabh Das",
+        "Donald Matthews",
+        "Santosh Ghosh",
+        "Sujoy Sinha Roy"
+      ],
+      "abstract": "We propose design methodologies for building a compact, unified and programmable cryptoprocessor architecture that computes post-quantum key agreement and digital signature. Synergies in the two types of cryptographic primitives are used to make the cryptoprocessor compact. As a case study, the cryptoprocessor architecture has been optimized targeting the signature scheme 'CRYSTALS-Dilithium' and the key encapsulation mechanism (KEM) 'Saber', both finalists in the NIST's post-quantum cryptography standardization project. The programmable cryptoprocessor executes key generations, encapsulations, decapsulations, signature generations, and signature verifications for all the security levels of Dilithium and Saber. On a Xilinx Ultrascale+ FPGA, the proposed cryptoprocessor consumes 18,406 LUTs, 9,323 FFs, 4 DSPs, and 24 BRAMs. It achieves 200 MHz clock frequency and finishes CCA-secure key-generation/encapsulation/decapsulation operations for LightSaber in 29.6/40.4/58.3$\\mu$s; for Saber in 54.9/69.7/94.9$\\mu$s; and for FireSaber in 87.6/108.0/139.4$\\mu$s, respectively. It finishes key-generation/sign/verify operations for Dilithium-2 in 70.9/151.6/75.2$\\mu$s; for Dilithium-3 in 114.7/237/127.6$\\mu$s; and for Dilithium-5 in 194.2/342.1/228.9$\\mu$s, respectively, for the best-case scenario. On UMC 65nm library for ASIC the latency is improved by a factor of two due to a 2x increase in clock frequency.",
+      "publication_date": "2022-10-13T23:25:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2210.07412v1"
+    },
+    {
+      "title": "Onion Routing Key Distribution for QKDN",
+      "authors": [
+        "Pedro Otero-García",
+        "Javier Blanco-Romero",
+        "Ana Fernández-Vilas",
+        "Daniel Sobral-Blanco",
+        "Manuel Fernández-Veiga",
+        "Florina Almenares-Mendoza"
+      ],
+      "abstract": "The advance of quantum computing poses a significant threat to classical cryptography, compromising the security of current encryption schemes such as RSA and ECC. In response to this challenge, two main approaches have emerged: quantum cryptography and post-quantum cryptography (PQC). However, both have implementation and security limitations. In this paper, we propose a secure key distribution protocol for Quantum Key Distribution Networks (QKDN), which incorporates encapsulation techniques in the key-relay model for QKDN inspired by onion routing and combined with PQC to guarantee confidentiality, integrity, authenticity and anonymity in communication. The proposed protocol optimizes security by using post-quantum public key encryption to protect the shared secrets from intermediate nodes in the QKDN, thereby reducing the risk of attacks by malicious intermediaries. Finally, relevant use cases are presented, such as critical infrastructure networks, interconnection of data centers and digital money, demonstrating the applicability of the proposal in critical high-security environments.",
+      "publication_date": "2025-02-10T16:47:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.06657v3"
+    },
+    {
+      "title": "State of the art parallel approaches for RSA public key based   cryptosystem",
+      "authors": [
+        "Sapna Saxena",
+        "Bhanu Kapoor"
+      ],
+      "abstract": "RSA is one of the most popular Public Key Cryptography based algorithm mainly used for digital signatures, encryption/decryption etc. It is based on the mathematical scheme of factorization of very large integers which is a compute-intensive process and takes very long time as well as power to perform. Several scientists are working throughout the world to increase the speedup and to decrease the power consumption of RSA algorithm while keeping the security of the algorithm intact. One popular technique which can be used to enhance the performance of RSA is parallel programming. In this paper we are presenting the survey of various parallel implementations of RSA algorithm involving variety of hardware and software implementations.",
+      "publication_date": "2015-03-12T05:35:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1503.03593v1"
+    },
+    {
+      "title": "First demonstration of a post-quantum key-exchange with a nanosatellite",
+      "authors": [
+        "Simon M. Burkhardt",
+        "Ayesha Reezwana",
+        "Tanvirul Islam",
+        "Willi Meier",
+        "Alexander Ling",
+        "Christoph F. Wildfeuer"
+      ],
+      "abstract": "We demonstrate a post-quantum key-exchange with the nanosatellite SpooQy-1 in low Earth orbit using Kyber-512, a lattice-based key-encapsulation mechanism and a round three finalist in the NIST PQC standardization process. Our firmware solution runs on an on-board computer that is based on the Atmel AVR32 RISC microcontroller, a widely used platform for nanosatellites. We uploaded the new firmware with a 436.2 MHz UHF link using the CubeSat Space Protocol (CSP) and performed the steps of the key exchange in several passes over Switzerland. The shared secret key generated in this experiment could potentially be used to encrypt RF links with AES-256. This implementation demonstrates the feasibility of a quantum-safe authenticated key-exchange and encryption system on SWaP constrained nanosatellites.",
+      "publication_date": "2022-06-02T10:45:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2206.00978v1"
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey",
+  "paper_title": "Machine Learning for the Detection and Identification of Internet of Things  IoT  Devices  A Survey",
+  "concepts": [
+    {
+      "text": "ieee",
+      "frequency": 199,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.388078+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 190,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.393983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 203,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.429778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 167,
+      "relevance_score": 0.9154296875,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.391416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "identiﬁcation",
+      "frequency": 156,
+      "relevance_score": 0.86171875,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.392698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 132,
+      "relevance_score": 0.74453125,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.393335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 126,
+      "relevance_score": 0.715234375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.442548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep",
+      "frequency": 106,
+      "relevance_score": 0.617578125,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.447795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural",
+      "frequency": 102,
+      "relevance_score": 0.598046875,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.703730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "features",
+      "frequency": 100,
+      "relevance_score": 0.58828125,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.547277+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device identiﬁcation",
+      "frequency": 78,
+      "relevance_score": 0.580859375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.318806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber- physical systems",
+      "frequency": 4,
+      "relevance_score": 0.56953125,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.997898+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "black-box models e",
+      "frequency": 2,
+      "relevance_score": 0.559765625,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.989046+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing systems 2016",
+      "frequency": 2,
+      "relevance_score": 0.559765625,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.081155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 2016 pp",
+      "frequency": 2,
+      "relevance_score": 0.559765625,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.081766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 63,
+      "relevance_score": 0.5576171875,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.423809+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 88,
+      "relevance_score": 0.5296875000000001,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.392058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 86,
+      "relevance_score": 0.519921875,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.640025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless",
+      "frequency": 85,
+      "relevance_score": 0.5150390625,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.456063+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019",
+      "frequency": 64,
+      "relevance_score": 0.5125,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.568332+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2020",
+      "frequency": 59,
+      "relevance_score": 0.48808593749999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.390110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital signal processing",
+      "frequency": 5,
+      "relevance_score": 0.47441406249999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.926184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural information processing",
+      "frequency": 5,
+      "relevance_score": 0.47441406249999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.076113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information processing systems",
+      "frequency": 5,
+      "relevance_score": 0.47441406249999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.076764+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device identiﬁcation models",
+      "frequency": 4,
+      "relevance_score": 0.46953124999999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.953157+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signals",
+      "frequency": 75,
+      "relevance_score": 0.4662109375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.456730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 3,
+      "relevance_score": 0.46464843750000007,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.638340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "statistical learning algorithms",
+      "frequency": 3,
+      "relevance_score": 0.46464843749999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.967411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems foundations principles",
+      "frequency": 3,
+      "relevance_score": 0.46464843749999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.012444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-cryptographic approaches",
+      "frequency": 2,
+      "relevance_score": 0.45976562500000007,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.353653+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prediction-based approaches",
+      "frequency": 2,
+      "relevance_score": 0.45976562500000007,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.538190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "black-box models",
+      "frequency": 2,
+      "relevance_score": 0.45976562500000007,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.613996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 2016",
+      "frequency": 2,
+      "relevance_score": 0.45976562500000007,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.864405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "statistical learning approaches",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.946311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning models",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.955003+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "unsupervised learning algorithms",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.985284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models e g",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.989691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "things cybermanufacturing systems",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.991588+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cybermanufacturing systems cham",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.992227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems cham switzerland",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.992843+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems machine learning",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.998509+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical systems foundations",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.011827+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "automatic identiﬁcation system",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.017372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless algorithms systems",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.065312+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems engineering ecsse",
+      "frequency": 2,
+      "relevance_score": 0.45976562499999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.099322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural networks",
+      "frequency": 53,
+      "relevance_score": 0.4587890625,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:49.515546+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 2018 pp",
+      "frequency": 12,
+      "relevance_score": 0.45859375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.036482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017",
+      "frequency": 52,
+      "relevance_score": 0.45390624999999996,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:48.568960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 2017 pp",
+      "frequency": 11,
+      "relevance_score": 0.4537109375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.024952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 2019 pp",
+      "frequency": 11,
+      "relevance_score": 0.4537109375,
+      "source_papers": [
+        "local/Machine_Learning_for_the_Detection_and_Identification_of_Internet_of_Things__IoT__Devices__A_Survey"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:50.032136+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:50.106318+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:50.106503+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

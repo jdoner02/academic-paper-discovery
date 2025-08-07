@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Onion_Routing_Key_Distribution_for_QKDN",
+  "paper_title": "Onion Routing Key Distribution for QKDN",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 66,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.284442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 52,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.285895+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 47,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.292950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qkd",
+      "frequency": 47,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.302869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node",
+      "frequency": 56,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.315896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 20,
+      "relevance_score": 0.6704330460374185,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.295612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "onion",
+      "frequency": 26,
+      "relevance_score": 0.6465629598486441,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.284139+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 26,
+      "relevance_score": 0.6465629598486441,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.286621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared",
+      "frequency": 25,
+      "relevance_score": 0.6255413075467732,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.292516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 16,
+      "relevance_score": 0.5863464368299349,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.290154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 23,
+      "relevance_score": 0.5834980029430313,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.286910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b1 b n",
+      "frequency": 7,
+      "relevance_score": 0.5471515661130965,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.368958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qkdn",
+      "frequency": 21,
+      "relevance_score": 0.5414546983392895,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.284734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc",
+      "frequency": 20,
+      "relevance_score": 0.5204330460374185,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.289498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intermediate",
+      "frequency": 19,
+      "relevance_score": 0.49941139373554755,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.292806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 14,
+      "relevance_score": 0.49430313222619293,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.288184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key distribution protocol",
+      "frequency": 2,
+      "relevance_score": 0.4920433046037418,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.365757+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n 1",
+      "frequency": 9,
+      "relevance_score": 0.4891948707168383,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.357978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 b n",
+      "frequency": 4,
+      "relevance_score": 0.4840866092074837,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.369100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 11,
+      "relevance_score": 0.4812381753205802,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.307200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptography",
+      "frequency": 18,
+      "relevance_score": 0.47838974143367663,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.286475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 18,
+      "relevance_score": 0.47838974143367663,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.311714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blocks b1 b",
+      "frequency": 3,
+      "relevance_score": 0.4630649569056128,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.368816+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b 1 b",
+      "frequency": 3,
+      "relevance_score": 0.4630649569056128,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.370714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b n 1",
+      "frequency": 3,
+      "relevance_score": 0.4630649569056128,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.370856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 oi 1",
+      "frequency": 3,
+      "relevance_score": 0.4630649569056128,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.372254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qkd nodes",
+      "frequency": 12,
+      "relevance_score": 0.45225982762245115,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.349792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "oi 1",
+      "frequency": 7,
+      "relevance_score": 0.4471515661130965,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.359575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b1 b",
+      "frequency": 7,
+      "relevance_score": 0.4471515661130965,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.360283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum public key",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.366186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "miciu aei 10",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.366475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aei 10 13039",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.366618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 13039 501100011033",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.366770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i-th qkd node",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.368201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "esym kpqc p0",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.368486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fori n 1",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.368674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dsym ki b2",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.369993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ki b2 dsym",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.370140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b2 dsym ki",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.370286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 o n",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.370998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o n 1",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.371140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 o1 t1",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.371282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o1 t1 rdm",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.371424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t1 rdm 1",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.371574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dsym kpqc 1",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.371941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pi 1 oi",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.372102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1999 pp",
+      "frequency": 2,
+      "relevance_score": 0.44204330460374186,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.372397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret",
+      "frequency": 16,
+      "relevance_score": 0.4363464368299349,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.313260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key distribution",
+      "frequency": 11,
+      "relevance_score": 0.43123817532058023,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.343738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared secret",
+      "frequency": 11,
+      "relevance_score": 0.43123817532058023,
+      "source_papers": [
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:30.349935+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:30.372650+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:30.372834+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

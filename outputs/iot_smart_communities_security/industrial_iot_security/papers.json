@@ -1,0 +1,26 @@
+{
+  "config_name": "iot_smart_communities_security",
+  "strategy_name": "industrial_iot_security",
+  "processed_at": "2025-08-07T16:17:10.630283+00:00",
+  "total_papers": 1,
+  "papers": [
+    {
+      "title": "EBAKE-SE: A Novel ECC Based Authenticated Key Exchange between   Industrial IoT Devices using Secure Element",
+      "authors": [
+        "Chintan Patela",
+        "Ali Kashif Bashirb",
+        "Ahmad Ali AlZubic",
+        "Rutvij H Jhaveri"
+      ],
+      "abstract": "Industrial IoT (IIoT) aims to enhance services provided by various industries such as manufacturing and product processing. IIoT suffers from various challenges and security is one of the key challenge among those challenges. Authentication and access control are two notable challenges for any Industrial IoT (IIoT) based industrial deployment. Any IoT based Industry 4.0 enterprise designs networks between hundreds of tiny devices such as sensors, actuators, fog devices and gateways. Thus, articulating a secure authentication protocol between sensing devices or a sensing device and user devices is an essential step in IoT security. In this paper, first, we present cryptanalysis for the certificate-based scheme proposed for similar environment by Das et al. and prove that their scheme is vulnerable to various traditional attacks such as device anonymity, MITM, and DoS. We then put forward an inter-device authentication scheme using an ECC (Elliptic Curve Cryptography) that is highly secure and lightweight compared to other schemes for a similar environment. Furthermore, we set forth a formal security analysis using the random oracle based ROR model and informal security analysis over the Doleve-Yao channel. In this paper, we present the comparison of the proposed scheme with existing schemes based on communication cost, computation cost and security index to prove that the proposed EBAKE-SE is highly efficient, reliable, and trustworthy compared to other existing schemes for inter-device authentication. At long last, we present an implementation for the proposed EBAKE-SE using MQTT protocol",
+      "publication_date": "2022-07-27T09:58:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.13419v1.pdf"
+    }
+  ]
+}

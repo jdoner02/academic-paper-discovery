@@ -1,0 +1,1509 @@
+{
+  "domain": "government_ransomware_defense",
+  "concepts": [
+    {
+      "text": "ransomware",
+      "total_frequency": 4333,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms",
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation",
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/On_the_Economics_of_Ransomware",
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "detection",
+      "total_frequency": 890,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public",
+      "total_frequency": 881,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact...",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Public_Constitutional_AI",
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 874,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/Ransomware_in_Windows_and_Android_Platforms",
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Multiscale_Governance",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ﬁle",
+      "total_frequency": 734,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 531,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Multiscale_Governance",
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Public_Constitutional_AI",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms",
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 481,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Public_Constitutional_AI",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 478,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_the_Economics_of_Ransomware",
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key",
+      "total_frequency": 455,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "addresses",
+      "total_frequency": 422,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "equity",
+      "total_frequency": 378,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ﬁles",
+      "total_frequency": 366,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "file",
+      "total_frequency": 306,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "governance",
+      "total_frequency": 299,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Multiscale_Governance",
+        "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacks",
+      "total_frequency": 298,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "features",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "encryption",
+      "total_frequency": 289,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attack",
+      "total_frequency": 269,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_the_Economics_of_Ransomware",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "payments",
+      "total_frequency": 258,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "constitutional",
+      "total_frequency": 253,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "use",
+      "total_frequency": 233,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...",
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "government",
+      "total_frequency": 231,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...",
+        "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "techniques",
+      "total_frequency": 224,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation",
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Ransomware_in_Windows_and_Android_Platforms",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "learning",
+      "total_frequency": 220,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bitcoin",
+      "total_frequency": 219,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "see",
+      "total_frequency": 214,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "malware",
+      "total_frequency": 212,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "address",
+      "total_frequency": 211,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "files",
+      "total_frequency": 210,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public sector",
+      "total_frequency": 199,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "information",
+      "total_frequency": 190,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sector",
+      "total_frequency": 188,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 187,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2021",
+      "total_frequency": 180,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Cryptographic_ransomware_encryption_detection__Survey"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "events",
+      "total_frequency": 179,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ransom",
+      "total_frequency": 170,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_the_Economics_of_Ransomware",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "constitutional ai",
+      "total_frequency": 169,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tool",
+      "total_frequency": 169,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2020",
+      "total_frequency": 161,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Multiscale_Governance",
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "adm",
+      "total_frequency": 157,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "crowdfunding",
+      "total_frequency": 156,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2019",
+      "total_frequency": 155,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "legitimacy",
+      "total_frequency": 154,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "payment",
+      "total_frequency": 146,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "technology",
+      "total_frequency": 142,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...",
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/Multiscale_Governance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "samples",
+      "total_frequency": 140,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "memory",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "employees",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "available",
+      "total_frequency": 132,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/Public_Constitutional_AI",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machine",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "design",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "families",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "community",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "peeler",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "human",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/Public_Constitutional_AI",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ransomware detection",
+      "total_frequency": 124,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2016",
+      "total_frequency": 123,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ransomware attacks",
+      "total_frequency": 123,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_systematic_literature_review_on_Ransomware_attacks",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ran- somware",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "law",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "guidebook",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "online available",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+        "local/Ransomware_in_Windows_and_Android_Platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "were",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "online",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "access",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "communication",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "trust",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "exe",
+      "total_frequency": 112,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "policy",
+      "total_frequency": 108,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "transactions",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Ransomware_Detection_and_Classification_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "principles",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "benign",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Majority_Voting_Approach_to_Ransomware_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "company",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public constitutional",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "questions",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "e g",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Ransomware_Detection_and_Classification_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public constitutional ai",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "accessed",
+      "total_frequency": 100,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+        "local/Cryptographic_ransomware_encryption_detection__Survey"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ai systems",
+      "total_frequency": 97,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "feature",
+      "total_frequency": 96,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Ransomware_Detection_Dynamics__Insights_and_Implications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2023",
+      "total_frequency": 95,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+        "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "constitution",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "around",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "decisions",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "agency",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machine learning",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+        "local/Ransomware_Detection_and_Classification_using_Machine_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "crypto",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "processes",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+        "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+        "local/Multiscale_Governance",
+        "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems",
+        "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ransomware payments",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "city",
+      "total_frequency": 89,
+      "avg_relevance": 0.89,
+      "source_papers": [
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "municipalities",
+      "total_frequency": 88,
+      "avg_relevance": 0.88,
+      "source_papers": [
+        "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "organizations",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/On_the_Economics_of_Ransomware",
+        "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+        "local/Multiscale_Governance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ads",
+      "total_frequency": 87,
+      "avg_relevance": 0.87,
+      "source_papers": [
+        "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2022",
+      "total_frequency": 84,
+      "avg_relevance": 0.84,
+      "source_papers": [
+        "local/Cryptographic_ransomware_encryption_detection__Survey",
+        "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "supra note",
+      "total_frequency": 82,
+      "avg_relevance": 0.82,
+      "source_papers": [
+        "local/Public_Constitutional_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "backup",
+      "total_frequency": 81,
+      "avg_relevance": 0.81,
+      "source_papers": [
+        "local/On_the_Economics_of_Ransomware",
+        "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2017",
+      "total_frequency": 81,
+      "avg_relevance": 0.81,
+      "source_papers": [
+        "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+        "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+        "local/Ransomware_Detection_and_Classification_Strategies",
+        "local/Ransomware_Detection_using_Process_Memory",
+        "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "agencies",
+      "total_frequency": 81,
+      "avg_relevance": 0.81,
+      "source_papers": [
+        "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+        "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber..."
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection": {
+      "id": "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection",
+      "title": "A Sysmon Incremental Learning System for Ransomware Analysis and Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy": {
+      "id": "local/Ransomware_IR_Model__Proactive_Threat_Intelligence-Based_Incident_Response_Strategy",
+      "title": "Ransomware IR Model  Proactive Threat Intelligence-Based Incident Response Strategy",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain": {
+      "id": "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain",
+      "title": "BitcoinHeist  Topological Data Analysis for Ransomware Detection on the Bitcoin Blockchain",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats": {
+      "id": "local/Identity_Prove_Limited_Information_Governance_Policy_against_cyber_security_persistent_threats",
+      "title": "Identity Prove Limited Information Governance Policy against cyber security persistent threats",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_in_Windows_and_Android_Platforms": {
+      "id": "local/Ransomware_in_Windows_and_Android_Platforms",
+      "title": "Ransomware in Windows and Android Platforms",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Multiscale_Governance": {
+      "id": "local/Multiscale_Governance",
+      "title": "Multiscale Governance",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Detection_and_Classification_using_Machine_Learning": {
+      "id": "local/Ransomware_Detection_and_Classification_using_Machine_Learning",
+      "title": "Ransomware Detection and Classification using Machine Learning",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Detection_using_Process_Memory": {
+      "id": "local/Ransomware_Detection_using_Process_Memory",
+      "title": "Ransomware Detection using Process Memory",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_systematic_literature_review_on_Ransomware_attacks": {
+      "id": "local/A_systematic_literature_review_on_Ransomware_attacks",
+      "title": "A systematic literature review on Ransomware attacks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems": {
+      "id": "local/Avaddon_ransomware__an_in-depth_analysis_and_decryption_of_infected_systems",
+      "title": "Avaddon ransomware  an in-depth analysis and decryption of infected systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware": {
+      "id": "local/Fight_Virus_Like_a_Virus__A_New_Defense_Method_Against_File-Encrypting_Ransomware",
+      "title": "Fight Virus Like a Virus  A New Defense Method Against File-Encrypting Ransomware",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks": {
+      "id": "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks",
+      "title": "A Prevention and a Traction System for Ransomware Attacks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy": {
+      "id": "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy",
+      "title": "A Tale of Two Markets  Investigating the Ransomware Payments Economy",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks": {
+      "id": "local/KEY-SSD__Access-Control_Drive_to_Protect_Files_from_Ransomware_Attacks",
+      "title": "KEY-SSD  Access-Control Drive to Protect Files from Ransomware Attacks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Detection_and_Classification_Strategies": {
+      "id": "local/Ransomware_Detection_and_Classification_Strategies",
+      "title": "Ransomware Detection and Classification Strategies",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...": {
+      "id": "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba...",
+      "title": "A Kings Ransom for Encryption  Ransomware Classification using Augmented One-Shot Learning and Ba...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/On_the_Economics_of_Ransomware": {
+      "id": "local/On_the_Economics_of_Ransomware",
+      "title": "On the Economics of Ransomware",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...": {
+      "id": "local/From_Cyber_Threat_to_Data_Shield__Constructing_Provably_Secure_File_Erasure_with_Repurposed_Ranso...",
+      "title": "From Cyber Threat to Data Shield  Constructing Provably Secure File Erasure with Repurposed Ranso...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem": {
+      "id": "local/Showing_the_Receipts__Understanding_the_Modern_Ransomware_Ecosystem",
+      "title": "Showing the Receipts  Understanding the Modern Ransomware Ecosystem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Detection_Dynamics__Insights_and_Implications": {
+      "id": "local/Ransomware_Detection_Dynamics__Insights_and_Implications",
+      "title": "Ransomware Detection Dynamics  Insights and Implications",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution": {
+      "id": "local/Making_Honey_Files_Sweeter__SentryFS_--_A_Service-Oriented_Smart_Ransomware_Solution",
+      "title": "Making Honey Files Sweeter  SentryFS -- A Service-Oriented Smart Ransomware Solution",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation": {
+      "id": "local/Emerging_Practices_in_Participatory_AI_Design_in_Public_Sector_Innovation",
+      "title": "Emerging Practices in Participatory AI Design in Public Sector Innovation",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Public_Constitutional_AI": {
+      "id": "local/Public_Constitutional_AI",
+      "title": "Public Constitutional AI",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem": {
+      "id": "local/Ransomware_Payments_in_the_Bitcoin_Ecosystem",
+      "title": "Ransomware Payments in the Bitcoin Ecosystem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications": {
+      "id": "local/Monitoring_Trust_in_Human-Machine_Interactions_for_Public_Sector_Applications",
+      "title": "Monitoring Trust in Human-Machine Interactions for Public Sector Applications",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...": {
+      "id": "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public...",
+      "title": "Crowdfunding Public Projects  Collaborative Governance for Achieving Citizen Co-funding of Public...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/RAPPER__Ransomware_Prevention_via_Performance_Counters": {
+      "id": "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+      "title": "RAPPER  Ransomware Prevention via Performance Counters",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations": {
+      "id": "local/Oversight_Structures_for_Agentic_AI_in_Public-Sector_Organizations",
+      "title": "Oversight Structures for Agentic AI in Public-Sector Organizations",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems": {
+      "id": "local/Decentralised_Governance_for_Autonomous_Cyber-Physical_Systems",
+      "title": "Decentralised Governance for Autonomous Cyber-Physical Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact...": {
+      "id": "local/Enhancing_Citizen-Government_Communication_with_AI__Evaluating_the_Impact_of_AI-Assisted_Interact...",
+      "title": "Enhancing Citizen-Government Communication with AI  Evaluating the Impact of AI-Assisted Interact...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector": {
+      "id": "local/Governance_and_Communication_of_Algorithmic_Decision_Making__A_Case_Study_on_Public_Sector",
+      "title": "Governance and Communication of Algorithmic Decision Making  A Case Study on Public Sector",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation": {
+      "id": "local/Evaluation_of_Live_Forensic_Techniques_in_Ransomware_Attack_Mitigation",
+      "title": "Evaluation of Live Forensic Techniques in Ransomware Attack Mitigation",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence": {
+      "id": "local/Know_Abnormal__Find_Evil__Frequent_Pattern_Mining_for_Ransomware_Threat_Hunting_and_Intelligence",
+      "title": "Know Abnormal  Find Evil  Frequent Pattern Mining for Ransomware Threat Hunting and Intelligence",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...": {
+      "id": "local/The_Situate_AI_Guidebook__Co-Designing_a_Toolkit_to_Support_Multi-Stakeholder_Early-stage_Deliber...",
+      "title": "The Situate AI Guidebook  Co-Designing a Toolkit to Support Multi-Stakeholder Early-stage Deliber...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims": {
+      "id": "local/Volenti_non_fit_injuria__Ransomware_and_its_Victims",
+      "title": "Volenti non fit injuria  Ransomware and its Victims",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cryptographic_ransomware_encryption_detection__Survey": {
+      "id": "local/Cryptographic_ransomware_encryption_detection__Survey",
+      "title": "Cryptographic ransomware encryption detection  Survey",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms": {
+      "id": "local/Ransomware_Classification_and_Detection_With_Machine_Learning_Algorithms",
+      "title": "Ransomware Classification and Detection With Machine Learning Algorithms",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...": {
+      "id": "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_...",
+      "title": "Data and Technology for Equitable Public Administration  Understanding City Government Employees ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Majority_Voting_Approach_to_Ransomware_Detection": {
+      "id": "local/Majority_Voting_Approach_to_Ransomware_Detection",
+      "title": "Majority Voting Approach to Ransomware Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks": {
+      "id": "local/Winning_the_Ransomware_Lottery__A_Game-Theoretic_Model_for_Mitigating_Ransomware_Attacks",
+      "title": "Winning the Ransomware Lottery  A Game-Theoretic Model for Mitigating Ransomware Attacks",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions": {
+      "id": "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions",
+      "title": "A Survey on Ransomware  Evolution  Taxonomy  and Defense Solutions",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...": {
+      "id": "local/Research_Agenda_in_Intelligent_Infrastructure_to_Enhance_Disaster_Management__Community_Resilienc...",
+      "title": "Research Agenda in Intelligent Infrastructure to Enhance Disaster Management  Community Resilienc...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...": {
+      "id": "local/Ransomware__Analysis_and_Evaluation_of_Live_Forensic_Techniques_and_the_Impact_on_Linux_based_IoT...",
+      "title": "Ransomware  Analysis and Evaluation of Live Forensic Techniques and the Impact on Linux based IoT...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware": {
+      "id": "local/Peeler__Profiling_Kernel-Level_Events_to_Detect_Ransomware",
+      "title": "Peeler  Profiling Kernel-Level Events to Detect Ransomware",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1734,
+    "total_papers": 44,
+    "avg_concepts_per_paper": 39.40909090909091
+  }
+}

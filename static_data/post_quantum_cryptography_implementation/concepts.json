@@ -1,0 +1,1561 @@
+{
+  "domain": "post_quantum_cryptography_implementation",
+  "concepts": [
+    {
+      "text": "key",
+      "total_frequency": 2874,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic...",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/On_a_new_fast_public_key_cryptosystem",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication",
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/Group_ring_cryptography__Cryptography__key_exchange__public_key",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 1399,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic...",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism",
+        "local/Hybrid_Scheme_of_Post-Quantum_Cryptography_and_Elliptic-Curve_Cryptography_for_Certificates_--_A_...",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication",
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "und",
+      "total_frequency": 1388,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "signature",
+      "total_frequency": 1255,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "die",
+      "total_frequency": 1207,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "der",
+      "total_frequency": 1204,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "quantum",
+      "total_frequency": 950,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pqc",
+      "total_frequency": 900,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "algorithms",
+      "total_frequency": 667,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocol",
+      "total_frequency": 664,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic...",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public",
+      "total_frequency": 640,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 534,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...",
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "scheme",
+      "total_frequency": 519,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "signatures",
+      "total_frequency": 518,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bei",
+      "total_frequency": 503,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "von",
+      "total_frequency": 480,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cryptography",
+      "total_frequency": 469,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "public key",
+      "total_frequency": 464,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Group_ring_cryptography__Cryptography__key_exchange__public_key",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "werden",
+      "total_frequency": 453,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "für",
+      "total_frequency": 440,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "eine",
+      "total_frequency": 403,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 0",
+      "total_frequency": 394,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "threshold",
+      "total_frequency": 354,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tls",
+      "total_frequency": 345,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "post-quantum",
+      "total_frequency": 329,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "des",
+      "total_frequency": 327,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "auf",
+      "total_frequency": 303,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ist",
+      "total_frequency": 292,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "level",
+      "total_frequency": 290,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nist",
+      "total_frequency": 279,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "group",
+      "total_frequency": 278,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+        "local/Group_ring_cryptography__Cryptography__key_exchange__public_key",
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cryptographic",
+      "total_frequency": 277,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "message",
+      "total_frequency": 274,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "den",
+      "total_frequency": 271,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "digital",
+      "total_frequency": 240,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bob",
+      "total_frequency": 234,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/On_a_new_fast_public_key_cryptosystem",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mit",
+      "total_frequency": 224,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "secret",
+      "total_frequency": 209,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bracketri",
+      "total_frequency": 209,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "e g",
+      "total_frequency": 208,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum-Resistant_Cryptography",
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Public_Key_Cryptography_Standards__PKCS"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "alice",
+      "total_frequency": 208,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/On_a_new_fast_public_key_cryptosystem",
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sich",
+      "total_frequency": 201,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "das",
+      "total_frequency": 195,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "schemes",
+      "total_frequency": 194,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange",
+        "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "qkd",
+      "total_frequency": 191,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Quantum-Resistant_Cryptography",
+        "local/Onion_Routing_Key_Distribution_for_QKDN"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 1",
+      "total_frequency": 189,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multivariate_Public_Key_Cryptography_and_Digital_Signature",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Group_ring_cryptography__Cryptography__key_exchange__public_key",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "power",
+      "total_frequency": 173,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "keys",
+      "total_frequency": 167,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "algorithmen",
+      "total_frequency": 162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 161,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "kem",
+      "total_frequency": 154,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "random",
+      "total_frequency": 154,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 143,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bracketri ht",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 139,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "für die",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2023",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+        "local/Hybrid_Scheme_of_Post-Quantum_Cryptography_and_Elliptic-Curve_Cryptography_for_Certificates_--_A_...",
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pqc algorithms",
+      "total_frequency": 136,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+        "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+        "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenleftbig",
+      "total_frequency": 132,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multivariate_Public_Key_Cryptography_and_Digital_Signature"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rsa",
+      "total_frequency": 132,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 1",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "encryption",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Onion_Routing_Key_Distribution_for_QKDN",
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "classical",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+        "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mod",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+        "local/On_a_new_fast_public_key_cryptosystem",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "saber",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "polynomial",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "end",
+      "total_frequency": 123,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "dilithium",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hppk",
+      "total_frequency": 121,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenrightbig",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multivariate_Public_Key_Cryptography_and_Digital_Signature"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key exchange",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+        "local/Quantum_walks_public_key_cryptographic_system",
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+        "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+        "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+        "local/Hybrid_Scheme_of_Post-Quantum_Cryptography_and_Elliptic-Curve_Cryptography_for_Certificates_--_A_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "size",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "function",
+      "total_frequency": 109,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "agility",
+      "total_frequency": 109,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2 2",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken",
+        "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cryptology",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sizes",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "migration",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hpc",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocols",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "digital signatures",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 2",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_survey_on_NIST_PQ_signatures",
+        "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+        "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+        "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+        "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "authentication",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "stage",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rate",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+        "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pkcs",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Key_Cryptography_Standards__PKCS"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "believes",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "private",
+      "total_frequency": 99,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Public_Key_Cryptography_Standards__PKCS",
+        "local/Towards_Threshold_Key_Exchange_Protocols",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "springer",
+      "total_frequency": 99,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bits",
+      "total_frequency": 98,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "area",
+      "total_frequency": 98,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attack",
+      "total_frequency": 98,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+        "local/A_SAT-based_Public_Key_Cryptography_Scheme"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "prime",
+      "total_frequency": 97,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...",
+        "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "-based",
+      "total_frequency": 97,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "international",
+      "total_frequency": 95,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "implementations",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+        "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "aggregate",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "qrng",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "print",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...",
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/Group_ring_cryptography__Cryptography__key_exchange__public_key": {
+      "id": "local/Group_ring_cryptography__Cryptography__key_exchange__public_key",
+      "title": "Group ring cryptography  Cryptography  key exchange  public key",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa...": {
+      "id": "local/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms__from_Reference_Implementations_to_Hardwa...",
+      "title": "A Systematic Study of Lattice-based NIST PQC Algorithms  from Reference Implementations to Hardwa...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis": {
+      "id": "local/SHIFT_SNARE__Uncovering_Secret_Keys_in_FALCON_via_Single-Trace_Analysis",
+      "title": "SHIFT SNARE  Uncovering Secret Keys in FALCON via Single-Trace Analysis",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards": {
+      "id": "local/Mobile_Energy_Requirements_of_the_Upcoming_NIST_Post-Quantum_Cryptography_Standards",
+      "title": "Mobile Energy Requirements of the Upcoming NIST Post-Quantum Cryptography Standards",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...": {
+      "id": "local/Performance_Analysis_and_Deployment_Considerations_of_Post-Quantum_Cryptography_for_Consumer_Elec...",
+      "title": "Performance Analysis and Deployment Considerations of Post-Quantum Cryptography for Consumer Elec...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Quantum_walks_public_key_cryptographic_system": {
+      "id": "local/Quantum_walks_public_key_cryptographic_system",
+      "title": "Quantum walks public key cryptographic system",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken": {
+      "id": "local/Performanz_Evaluation_von_PQC_in_TLS_1.3_unter_variierenden_Netzwerkcharakteristiken",
+      "title": "Performanz Evaluation von PQC in TLS 1.3 unter variierenden Netzwerkcharakteristiken",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras": {
+      "id": "local/Public_key_cryptography_based_on_twisted_dihedral_group_algebras",
+      "title": "Public key cryptography based on twisted dihedral group algebras",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite": {
+      "id": "local/First_demonstration_of_a_post-quantum_key-exchange_with_a_nanosatellite",
+      "title": "First demonstration of a post-quantum key-exchange with a nanosatellite",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Multivariate_Public_Key_Cryptography_and_Digital_Signature": {
+      "id": "local/Multivariate_Public_Key_Cryptography_and_Digital_Signature",
+      "title": "Multivariate Public Key Cryptography and Digital Signature",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA": {
+      "id": "local/Assessment_of_cryptographic_approaches_for_a_quantum-resistant_Galileo_OSNMA",
+      "title": "Assessment of cryptographic approaches for a quantum-resistant Galileo OSNMA",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies": {
+      "id": "local/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its_Optimization_Strategies",
+      "title": "Complexity of Post-Quantum Cryptography in Embedded Systems and Its Optimization Strategies",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication": {
+      "id": "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication",
+      "title": "Quantum-Safe Hybrid Key Exchanges with KEM-Based Authentication",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...": {
+      "id": "local/PQC__Triple_Decomposition_Problem_Applied_To_GL_d__Fp__-_A_Secure_Framework_For_Canonical_Non-Com...",
+      "title": "PQC  Triple Decomposition Problem Applied To GL d  Fp  - A Secure Framework For Canonical Non-Com...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Public_key_cryptography_based_on_skew_dihedral_group_rings": {
+      "id": "local/Public_key_cryptography_based_on_skew_dihedral_group_rings",
+      "title": "Public key cryptography based on skew dihedral group rings",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...": {
+      "id": "local/Key_Exchange_in_the_Quantum_Era__Evaluating_a_Hybrid_System_of_Public-Key_Cryptography_and_Physic...",
+      "title": "Key Exchange in the Quantum Era  Evaluating a Hybrid System of Public-Key Cryptography and Physic...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...": {
+      "id": "local/Post-Quantum_Cryptography__PQC__Network_Instrument__Measuring_PQC_Adoption_Rates_and_Identifying_...",
+      "title": "Post-Quantum Cryptography  PQC  Network Instrument  Measuring PQC Adoption Rates and Identifying ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Onion_Routing_Key_Distribution_for_QKDN": {
+      "id": "local/Onion_Routing_Key_Distribution_for_QKDN",
+      "title": "Onion Routing Key Distribution for QKDN",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms": {
+      "id": "local/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum_Cryptography_Algorithms",
+      "title": "Performance Analysis and Industry Deployment of Post-Quantum Cryptography Algorithms",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography": {
+      "id": "local/X.509_Information_Security_Certification_Based_on_Post-Quantum_Cryptography",
+      "title": "X.509 Information Security Certification Based on Post-Quantum Cryptography",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys": {
+      "id": "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+      "title": "One-Time Universal Hashing Quantum Digital Signatures without Perfect Keys",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis": {
+      "id": "local/Evaluating_Post-Quantum_Cryptography_on_Embedded_Systems__A_Performance_Analysis",
+      "title": "Evaluating Post-Quantum Cryptography on Embedded Systems  A Performance Analysis",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_SAT-based_Public_Key_Cryptography_Scheme": {
+      "id": "local/A_SAT-based_Public_Key_Cryptography_Scheme",
+      "title": "A SAT-based Public Key Cryptography Scheme",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...": {
+      "id": "local/A_Comprehensive_Survey_of_Threshold_Signatures__NIST_Standards__Post-Quantum_Cryptography__Exotic...",
+      "title": "A Comprehensive Survey of Threshold Signatures  NIST Standards  Post-Quantum Cryptography  Exotic...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem": {
+      "id": "local/State_of_the_art_parallel_approaches_for_RSA_public_key_based_cryptosystem",
+      "title": "State of the art parallel approaches for RSA public key based cryptosystem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility": {
+      "id": "local/Identifying_Research_Challenges_in_Post_Quantum_Cryptography_Migration_and_Cryptographic_Agility",
+      "title": "Identifying Research Challenges in Post Quantum Cryptography Migration and Cryptographic Agility",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_survey_on_NIST_PQ_signatures": {
+      "id": "local/A_survey_on_NIST_PQ_signatures",
+      "title": "A survey on NIST PQ signatures",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Public_Key_Cryptography_Standards__PKCS": {
+      "id": "local/Public_Key_Cryptography_Standards__PKCS",
+      "title": "Public Key Cryptography Standards  PKCS",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature": {
+      "id": "local/Homomorphic_Polynomial_Public_Key_Cryptography_for_Quantum-secure_Digital_Signature",
+      "title": "Homomorphic Polynomial Public Key Cryptography for Quantum-secure Digital Signature",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Threshold_Key_Exchange_Protocols": {
+      "id": "local/Towards_Threshold_Key_Exchange_Protocols",
+      "title": "Towards Threshold Key Exchange Protocols",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem": {
+      "id": "local/A_tiny_public_key_scheme_based_on_Niederreiter_Cryptosystem",
+      "title": "A tiny public key scheme based on Niederreiter Cryptosystem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Hybrid_Scheme_of_Post-Quantum_Cryptography_and_Elliptic-Curve_Cryptography_for_Certificates_--_A_...": {
+      "id": "local/Hybrid_Scheme_of_Post-Quantum_Cryptography_and_Elliptic-Curve_Cryptography_for_Certificates_--_A_...",
+      "title": "Hybrid Scheme of Post-Quantum Cryptography and Elliptic-Curve Cryptography for Certificates -- A ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS": {
+      "id": "local/Implementing_and_Evaluating_Post-Quantum_DNSSEC_in_CoreDNS",
+      "title": "Implementing and Evaluating Post-Quantum DNSSEC in CoreDNS",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems": {
+      "id": "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+      "title": "PQ-CAN  A Framework for Simulating Post-Quantum Cryptography in Embedded Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles": {
+      "id": "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+      "title": "Sequential Aggregate Signatures with Short Public Keys without Random Oracles",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins": {
+      "id": "local/Post-Quantum_Hybrid_Digital_Signatures_with_Hardware-Support_for_Digital_Twins",
+      "title": "Post-Quantum Hybrid Digital Signatures with Hardware-Support for Digital Twins",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors": {
+      "id": "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+      "title": "Post Quantum Cryptography  PQC  Signatures Without Trapdoors",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance": {
+      "id": "local/Practical_hybrid_PQC-QKD_protocols_with_enhanced_security_and_performance",
+      "title": "Practical hybrid PQC-QKD protocols with enhanced security and performance",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem": {
+      "id": "local/Public-Key_Quantum_Authentication_and_Digital_Signature_Schemes_Based_on_the_QMA-Complete_Problem",
+      "title": "Public-Key Quantum Authentication and Digital Signature Schemes Based on the QMA-Complete Problem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange": {
+      "id": "local/A_Unified_Cryptoprocessor_for_Lattice-based_Signature_and_Key-exchange",
+      "title": "A Unified Cryptoprocessor for Lattice-based Signature and Key-exchange",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution": {
+      "id": "local/Robust_Quantum_Public-Key_Encryption_with_Applications_to_Quantum_Key_Distribution",
+      "title": "Robust Quantum Public-Key Encryption with Applications to Quantum Key Distribution",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Quantum-Resistant_Cryptography": {
+      "id": "local/Quantum-Resistant_Cryptography",
+      "title": "Quantum-Resistant Cryptography",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism": {
+      "id": "local/Weak-Key_Analysis_for_BIKE_Post-Quantum_Key_Encapsulation_Mechanism",
+      "title": "Weak-Key Analysis for BIKE Post-Quantum Key Encapsulation Mechanism",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond": {
+      "id": "local/Analysis_of_Post-Quantum_Cryptography_in_User_Equipment_in_5G_and_Beyond",
+      "title": "Analysis of Post-Quantum Cryptography in User Equipment in 5G and Beyond",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...": {
+      "id": "local/Fuzzing_Hardware_Performance_Counters-Based_Detection_of_Algorithm_Subversion_Attacks_on_Post-Qua...",
+      "title": "Fuzzing Hardware Performance Counters-Based Detection of Algorithm Subversion Attacks on Post-Qua...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators": {
+      "id": "local/NIST_Post-Quantum_Cryptography_Standard_Algorithms_Based_on_Quantum_Random_Number_Generators",
+      "title": "NIST Post-Quantum Cryptography Standard Algorithms Based on Quantum Random Number Generators",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic...": {
+      "id": "local/5G-AKA-HPQC__Hybrid_Post-Quantum_Cryptography_Protocol_for_Quantum-Resilient_5G_Primary_Authentic...",
+      "title": "5G-AKA-HPQC  Hybrid Post-Quantum Cryptography Protocol for Quantum-Resilient 5G Primary Authentic...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...": {
+      "id": "local/Benchmark_Performance_of_Homomorphic_Polynomial_Public_Key_Cryptography_for_Key_Encapsulation_and...",
+      "title": "Benchmark Performance of Homomorphic Polynomial Public Key Cryptography for Key Encapsulation and...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/On_a_new_fast_public_key_cryptosystem": {
+      "id": "local/On_a_new_fast_public_key_cryptosystem",
+      "title": "On a new fast public key cryptosystem",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1928,
+    "total_papers": 49,
+    "avg_concepts_per_paper": 39.3469387755102
+  }
+}

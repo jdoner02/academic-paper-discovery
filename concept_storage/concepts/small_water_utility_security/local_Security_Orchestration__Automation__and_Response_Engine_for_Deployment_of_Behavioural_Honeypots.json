@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots",
+  "paper_title": "Security Orchestration  Automation  and Response Engine for Deployment of Behavioural Honeypots",
+  "concepts": [
+    {
+      "text": "engine",
+      "frequency": 61,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.756441+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "honeypots",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.757169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "honeypot",
+      "frequency": 68,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.781417+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "soar engine",
+      "frequency": 50,
+      "relevance_score": 0.9712478790683325,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.857622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deployed",
+      "frequency": 56,
+      "relevance_score": 0.9637976245565325,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.780068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "soar",
+      "frequency": 55,
+      "relevance_score": 0.9483726669751658,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.769189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 44,
+      "relevance_score": 0.7786981335801326,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.767448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 41,
+      "relevance_score": 0.7324232608360327,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.767645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "172 26 233",
+      "frequency": 19,
+      "relevance_score": 0.6930741940459664,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.917763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "172",
+      "frequency": 30,
+      "relevance_score": 0.6627487274409996,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.818864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 34,
+      "relevance_score": 0.6244485577664661,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.772534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ips",
+      "frequency": 33,
+      "relevance_score": 0.6090236001850995,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.766091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "172 26",
+      "frequency": 19,
+      "relevance_score": 0.5930741940459664,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.876806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 233",
+      "frequency": 19,
+      "relevance_score": 0.5930741940459664,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.877010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 21,
+      "relevance_score": 0.5739241092086997,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.761552+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "172 16 238",
+      "frequency": 10,
+      "relevance_score": 0.5542495758136665,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.932883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sec 172 16",
+      "frequency": 9,
+      "relevance_score": 0.5388246182322999,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.933265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 28,
+      "relevance_score": 0.5318988122782663,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.763365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet",
+      "frequency": 28,
+      "relevance_score": 0.5318988122782663,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.802768+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 27,
+      "relevance_score": 0.5164738546968995,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.755590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 17,
+      "relevance_score": 0.5122242788832331,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.765509+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 17,
+      "relevance_score": 0.5122242788832331,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.790601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine-learning models",
+      "frequency": 4,
+      "relevance_score": 0.5116998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.866713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reserved",
+      "frequency": 26,
+      "relevance_score": 0.5010488971155329,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.809203+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning models",
+      "frequency": 3,
+      "relevance_score": 0.4962748727441,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.916811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "233",
+      "frequency": 19,
+      "relevance_score": 0.4930741940459664,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.819061+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "botnet",
+      "frequency": 25,
+      "relevance_score": 0.48562393953416627,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.771930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "http",
+      "frequency": 25,
+      "relevance_score": 0.48562393953416627,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.797118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 2,
+      "relevance_score": 0.48084991516273334,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.914875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malware collection system",
+      "frequency": 2,
+      "relevance_score": 0.48084991516273334,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.915256+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "precision recall f-score",
+      "frequency": 5,
+      "relevance_score": 0.4771247879068332,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.923495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recall f-score 1",
+      "frequency": 5,
+      "relevance_score": 0.4771247879068332,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.923684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f-score 1 decision",
+      "frequency": 5,
+      "relevance_score": 0.4771247879068332,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.923902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 decision tree",
+      "frequency": 5,
+      "relevance_score": 0.4771247879068332,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.924092+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc",
+      "frequency": 24,
+      "relevance_score": 0.47019898195279963,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.772124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 24,
+      "relevance_score": 0.47019898195279963,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.790185+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 24,
+      "relevance_score": 0.47019898195279963,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.812247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 233 4",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.918142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision tree 99",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.924853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "97 55 97",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.925429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "occurrence-look back 1000",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.930194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "99 92 99",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.930583+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet time -",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.931551+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "16 238 5",
+      "frequency": 4,
+      "relevance_score": 0.4616998303254666,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.933072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ddos",
+      "frequency": 23,
+      "relevance_score": 0.454774024371433,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.772337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "172 16",
+      "frequency": 10,
+      "relevance_score": 0.45424957581366654,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.909696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "16 238",
+      "frequency": 10,
+      "relevance_score": 0.45424957581366654,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.909897+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 233 40",
+      "frequency": 3,
+      "relevance_score": 0.44627487274409994,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.918332+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 decision tree",
+      "frequency": 3,
+      "relevance_score": 0.44627487274409994,
+      "source_papers": [
+        "local/Security_Orchestration__Automation__and_Response_Engine_for_Deployment_of_Behavioural_Honeypots"
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.924661+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:31:48.935452+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:31:48.935640+00:00",
+    "repository_version": "1.0",
+    "domain": "small_water_utility_security"
+  }
+}

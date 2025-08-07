@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Qubit_Optimized_Quantum_Implementation_of_SLIM",
+  "paper_title": "Qubit Optimized Quantum Implementation of SLIM",
+  "concepts": [
+    {
+      "text": "quantum",
+      "frequency": 126,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.110010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "slim",
+      "frequency": 64,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.110410+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ksp",
+      "frequency": 38,
+      "relevance_score": 0.7914119359534206,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.130053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qubits",
+      "frequency": 36,
+      "relevance_score": 0.7550218340611353,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.117080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 32,
+      "relevance_score": 0.6822416302765648,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.114965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "implementation",
+      "frequency": 31,
+      "relevance_score": 0.6640465793304221,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.110214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 30,
+      "relevance_score": 0.6458515283842794,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.128849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum implementation",
+      "frequency": 19,
+      "relevance_score": 0.5457059679767103,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.179587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s-box",
+      "frequency": 18,
+      "relevance_score": 0.5275109170305676,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.135315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lighter-r framework",
+      "frequency": 3,
+      "relevance_score": 0.504585152838428,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.194190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum information processing",
+      "frequency": 3,
+      "relevance_score": 0.504585152838428,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.215345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block",
+      "frequency": 22,
+      "relevance_score": 0.5002911208151383,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.114305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 22,
+      "relevance_score": 0.5002911208151383,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.119257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems-ches",
+      "frequency": 2,
+      "relevance_score": 0.4863901018922854,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.210793+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rounds",
+      "frequency": 21,
+      "relevance_score": 0.48209606986899567,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.138922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "circuit",
+      "frequency": 21,
+      "relevance_score": 0.48209606986899567,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.149544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gates",
+      "frequency": 20,
+      "relevance_score": 0.46390101892285296,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.132143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 3s 2s",
+      "frequency": 3,
+      "relevance_score": 0.45458515283842793,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.213554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "192 64 128",
+      "frequency": 3,
+      "relevance_score": 0.45458515283842793,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.214860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ultra-lightweight block cipher",
+      "frequency": 3,
+      "relevance_score": 0.45458515283842793,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.217926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "depth",
+      "frequency": 19,
+      "relevance_score": 0.44570596797671036,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.165940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum cost",
+      "frequency": 13,
+      "relevance_score": 0.43653566229985447,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.183876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 k",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.212753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer k 1",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.212913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 3x 2x0",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.213234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x3x 2x 0",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.213394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2s 1s 0",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.213714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1848 9452 3184",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.214374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9452 3184 14484",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.214534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "144 64 80",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.215021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum engineering 1",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.216641+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "engineering 1 1",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.216801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 12",
+      "frequency": 2,
+      "relevance_score": 0.43639010189228533,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.216961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 10,
+      "relevance_score": 0.43195050946142655,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.113395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cipher",
+      "frequency": 18,
+      "relevance_score": 0.42751091703056765,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.115611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer",
+      "frequency": 18,
+      "relevance_score": 0.42751091703056765,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.136119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block cipher",
+      "frequency": 12,
+      "relevance_score": 0.4183406113537118,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.180922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "round",
+      "frequency": 17,
+      "relevance_score": 0.40931586608442505,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.140403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "32 rounds",
+      "frequency": 6,
+      "relevance_score": 0.40917030567685586,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.185996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "16 qubits",
+      "frequency": 6,
+      "relevance_score": 0.40917030567685586,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.189630+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ksp 1",
+      "frequency": 6,
+      "relevance_score": 0.40917030567685586,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.191428+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 3s",
+      "frequency": 6,
+      "relevance_score": 0.40917030567685586,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.197090+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption protocols",
+      "frequency": 3,
+      "relevance_score": 0.404585152838428,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.182739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information processing",
+      "frequency": 3,
+      "relevance_score": 0.404585152838428,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.205116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum circuit",
+      "frequency": 11,
+      "relevance_score": 0.40014556040756916,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.189143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 8,
+      "relevance_score": 0.39556040756914124,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.142691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qubit",
+      "frequency": 16,
+      "relevance_score": 0.39112081513828245,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.109635+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "structure",
+      "frequency": 16,
+      "relevance_score": 0.39112081513828245,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.116430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 rounds",
+      "frequency": 5,
+      "relevance_score": 0.39097525473071326,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.192566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 3x",
+      "frequency": 5,
+      "relevance_score": 0.39097525473071326,
+      "source_papers": [
+        "local/Qubit_Optimized_Quantum_Implementation_of_SLIM"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:04.195171+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:22:04.218313+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:22:04.218490+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_cryptanalysis_threats"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare",
+  "paper_title": "GDPR Compliance for Blockchain Applications in Healthcare",
+  "concepts": [
+    {
+      "text": "gdpr",
+      "frequency": 79,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.353684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain",
+      "frequency": 107,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.354049+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.358962+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 44,
+      "relevance_score": 0.841489720256151,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.354403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing",
+      "frequency": 30,
+      "relevance_score": 0.7555611729019212,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.369752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art",
+      "frequency": 38,
+      "relevance_score": 0.7403774856757668,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.370886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compliance",
+      "frequency": 33,
+      "relevance_score": 0.6561172901921132,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.353870+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "personal",
+      "frequency": 32,
+      "relevance_score": 0.6392652510953826,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.370136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 27,
+      "relevance_score": 0.555005055611729,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.357297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technology",
+      "frequency": 25,
+      "relevance_score": 0.5213009774182676,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.356918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patients",
+      "frequency": 25,
+      "relevance_score": 0.5213009774182676,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.360024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yes",
+      "frequency": 25,
+      "relevance_score": 0.5213009774182676,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.434834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yes yes",
+      "frequency": 17,
+      "relevance_score": 0.48648466464442197,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.465181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "identity",
+      "frequency": 22,
+      "relevance_score": 0.4707448601280755,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.384227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "right",
+      "frequency": 22,
+      "relevance_score": 0.4707448601280755,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.399228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yes yes yes",
+      "frequency": 10,
+      "relevance_score": 0.468520390967307,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.474570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 21,
+      "relevance_score": 0.45389282103134476,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.360381+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protection",
+      "frequency": 21,
+      "relevance_score": 0.45389282103134476,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.368615+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 15 right",
+      "frequency": 3,
+      "relevance_score": 0.45055611729019207,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.474217+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jens-andreas hanssen rensaa",
+      "frequency": 3,
+      "relevance_score": 0.45055611729019207,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.476519+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 7 gdpr",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.471988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 34 gdpr",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.473324+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "34 gdpr communication",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.473505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "identity art 15",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.474041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "15 right access",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.474393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 6 ieee",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.475456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019 anton hasselgren",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.475633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2020 jens-andreas hanssen",
+      "frequency": 2,
+      "relevance_score": 0.43370407819346135,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.476695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy",
+      "frequency": 19,
+      "relevance_score": 0.42018874283788343,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.359847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications",
+      "frequency": 18,
+      "relevance_score": 0.4033367037411527,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.354227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient",
+      "frequency": 18,
+      "relevance_score": 0.4033367037411527,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.372675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient s identity",
+      "frequency": 6,
+      "relevance_score": 0.40111223458038425,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.472347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing activities",
+      "frequency": 3,
+      "relevance_score": 0.40055611729019214,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.458407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gdpr compliance",
+      "frequency": 11,
+      "relevance_score": 0.38537243006403776,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.441048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 15",
+      "frequency": 5,
+      "relevance_score": 0.38426019548365353,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.455678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 33",
+      "frequency": 5,
+      "relevance_score": 0.38426019548365353,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.456031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "regulatory frameworks",
+      "frequency": 2,
+      "relevance_score": 0.3837040781934614,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.443009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing health",
+      "frequency": 2,
+      "relevance_score": 0.3837040781934614,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.459895+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing upon",
+      "frequency": 2,
+      "relevance_score": 0.3837040781934614,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.463947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stop processing",
+      "frequency": 2,
+      "relevance_score": 0.3837040781934614,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.464134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing n",
+      "frequency": 2,
+      "relevance_score": 0.3837040781934614,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.465563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "work",
+      "frequency": 16,
+      "relevance_score": 0.3696326255476913,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.362926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 16,
+      "relevance_score": 0.3696326255476913,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.364876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 16,
+      "relevance_score": 0.3696326255476913,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.379837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018",
+      "frequency": 10,
+      "relevance_score": 0.36852039096730704,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.369179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019",
+      "frequency": 10,
+      "relevance_score": 0.36852039096730704,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.437624+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient s",
+      "frequency": 10,
+      "relevance_score": 0.36852039096730704,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.452504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 7,
+      "relevance_score": 0.36796427367711493,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.393886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "art 17",
+      "frequency": 4,
+      "relevance_score": 0.3674081563869228,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.449662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protection impact assessment",
+      "frequency": 4,
+      "relevance_score": 0.3674081563869228,
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.472703+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:15:27.476981+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:15:27.477175+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_privacy_compliance"
+  }
+}

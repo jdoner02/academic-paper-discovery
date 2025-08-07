@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Transdisciplinary_electric_power_grid_science",
+  "paper_title": "Transdisciplinary electric power grid science",
+  "concepts": [
+    {
+      "text": "power",
+      "frequency": 52,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.877755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 29,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.880539+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2012",
+      "frequency": 23,
+      "relevance_score": 0.8063801740047456,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.882922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electricity",
+      "frequency": 23,
+      "relevance_score": 0.7063801740047456,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.886872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 22,
+      "relevance_score": 0.6800158186132349,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.877871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blackouts",
+      "frequency": 22,
+      "relevance_score": 0.6800158186132349,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.884085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems",
+      "frequency": 12,
+      "relevance_score": 0.6663722646981282,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.927012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electric power systems",
+      "frequency": 7,
+      "relevance_score": 0.6345504877405748,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.942504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems 5",
+      "frequency": 3,
+      "relevance_score": 0.6290930661745321,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.942733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electric power",
+      "frequency": 16,
+      "relevance_score": 0.6218296862641709,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.924923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 14,
+      "relevance_score": 0.6191009754811495,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.897422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy",
+      "frequency": 19,
+      "relevance_score": 0.6009227524387029,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.888736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power grids",
+      "frequency": 15,
+      "relevance_score": 0.5954653308726601,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.927142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electric",
+      "frequency": 18,
+      "relevance_score": 0.5745583970471921,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.877638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grids",
+      "frequency": 17,
+      "relevance_score": 0.5481940416556815,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.880911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 11,
+      "relevance_score": 0.5400079093066175,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.899062+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 5",
+      "frequency": 3,
+      "relevance_score": 0.5290930661745321,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.927888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electric power system",
+      "frequency": 3,
+      "relevance_score": 0.529093066174532,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.943194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "climate change",
+      "frequency": 12,
+      "relevance_score": 0.5163722646981281,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.929035+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power system",
+      "frequency": 6,
+      "relevance_score": 0.5081861323490641,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.931650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power systems ieee",
+      "frequency": 2,
+      "relevance_score": 0.5027287107830214,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.946526+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems ieee transactions",
+      "frequency": 2,
+      "relevance_score": 0.5027287107830214,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.946643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "climate",
+      "frequency": 15,
+      "relevance_score": 0.4954653308726601,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.884766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "davis ca 95616",
+      "frequency": 3,
+      "relevance_score": 0.47909306617453207,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.942159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ca 95616 usa",
+      "frequency": 3,
+      "relevance_score": 0.47909306617453207,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.942273+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "complex systems",
+      "frequency": 4,
+      "relevance_score": 0.45545742156604274,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.932733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 grand challenges",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.942848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee spectrum 47",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.943566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spectrum 47 44",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.943696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "47 44 59",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.943810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "self-organization chaos 17",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.944166+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "109 e680 e689",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.944516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2004 utce final",
+      "frequency": 2,
+      "relevance_score": 0.45272871078302135,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.946183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "change",
+      "frequency": 13,
+      "relevance_score": 0.44273662008963877,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.884883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infrastructure",
+      "frequency": 13,
+      "relevance_score": 0.44273662008963877,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.887479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 13,
+      "relevance_score": 0.44273662008963877,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.893785+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems ieee",
+      "frequency": 3,
+      "relevance_score": 0.429093066174532,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.940180+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cascading",
+      "frequency": 12,
+      "relevance_score": 0.41637226469812816,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.886625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new",
+      "frequency": 12,
+      "relevance_score": 0.41637226469812816,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.889962+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problems",
+      "frequency": 12,
+      "relevance_score": 0.41637226469812816,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.912330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proc natl acad",
+      "frequency": 4,
+      "relevance_score": 0.4054574215660427,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.944289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "natl acad sci",
+      "frequency": 4,
+      "relevance_score": 0.4054574215660427,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.944403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "greenhouse gas emissions",
+      "frequency": 4,
+      "relevance_score": 0.4054574215660427,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.945348+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stylized models",
+      "frequency": 2,
+      "relevance_score": 0.4027287107830214,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.930959+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "topological models",
+      "frequency": 2,
+      "relevance_score": 0.4027287107830214,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.931072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systemic risk",
+      "frequency": 2,
+      "relevance_score": 0.4027287107830214,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.936565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transdisciplinary",
+      "frequency": 11,
+      "relevance_score": 0.39000790930661744,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.877513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reliability",
+      "frequency": 11,
+      "relevance_score": 0.39000790930661744,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.889243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 6",
+      "frequency": 3,
+      "relevance_score": 0.3790930661745321,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.925965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ca 95616",
+      "frequency": 3,
+      "relevance_score": 0.3790930661745321,
+      "source_papers": [
+        "local/Transdisciplinary_electric_power_grid_science"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:54.926333+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:03:54.947522+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:03:54.947715+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

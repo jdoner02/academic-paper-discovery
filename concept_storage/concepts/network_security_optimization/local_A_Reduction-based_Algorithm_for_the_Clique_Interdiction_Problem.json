@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem",
+  "paper_title": "A Reduction-based Algorithm for the Clique Interdiction Problem",
+  "concepts": [
+    {
+      "text": "clique",
+      "frequency": 77,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.320426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reduction",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.328536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "θ g",
+      "frequency": 70,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.455071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g k",
+      "frequency": 112,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.455296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "θ g k",
+      "frequency": 63,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.517462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω g",
+      "frequency": 66,
+      "relevance_score": 0.9987413772237685,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.452753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 72,
+      "relevance_score": 0.9713542296986567,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.324377+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n u",
+      "frequency": 54,
+      "relevance_score": 0.8535156722739925,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.452072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g v",
+      "frequency": 54,
+      "relevance_score": 0.8535156722739925,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.454394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω g n",
+      "frequency": 41,
+      "relevance_score": 0.7961878252450684,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.521628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g n",
+      "frequency": 47,
+      "relevance_score": 0.7688006777199563,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.461489+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vertices",
+      "frequency": 55,
+      "relevance_score": 0.7656178143531405,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.324872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g n u",
+      "frequency": 28,
+      "relevance_score": 0.6388599782161443,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.521859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n v",
+      "frequency": 34,
+      "relevance_score": 0.6114728306910324,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.451620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph g v",
+      "frequency": 25,
+      "relevance_score": 0.6025535519787002,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.516775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g v e",
+      "frequency": 24,
+      "relevance_score": 0.5904514098995521,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.517002+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v e",
+      "frequency": 32,
+      "relevance_score": 0.5872685465327363,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.449226+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u v",
+      "frequency": 32,
+      "relevance_score": 0.5872685465327363,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.450698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vertex",
+      "frequency": 39,
+      "relevance_score": 0.5719835410867724,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.330379+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lower bound",
+      "frequency": 30,
+      "relevance_score": 0.5630642623744403,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.447694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph g",
+      "frequency": 29,
+      "relevance_score": 0.5509621202952923,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.454168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "integer",
+      "frequency": 37,
+      "relevance_score": 0.5477792569284764,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.354162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ilp-cip g k",
+      "frequency": 11,
+      "relevance_score": 0.5331235628706281,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.537393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g v s",
+      "frequency": 19,
+      "relevance_score": 0.5299406995038122,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.518619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g k θ",
+      "frequency": 19,
+      "relevance_score": 0.5299406995038122,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.523237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum",
+      "frequency": 35,
+      "relevance_score": 0.5235749727701803,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.335484+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g n v",
+      "frequency": 18,
+      "relevance_score": 0.5178385574246642,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.525670+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 22,
+      "relevance_score": 0.5162471257412562,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.361523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t l",
+      "frequency": 26,
+      "relevance_score": 0.5146556940578482,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.504174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 0",
+      "frequency": 17,
+      "relevance_score": 0.5057364153455162,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.475341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum clique",
+      "frequency": 25,
+      "relevance_score": 0.5025535519787002,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.438071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v s",
+      "frequency": 25,
+      "relevance_score": 0.5025535519787002,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.455522+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cliques",
+      "frequency": 33,
+      "relevance_score": 0.4993706886118843,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.339806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lower",
+      "frequency": 33,
+      "relevance_score": 0.4993706886118843,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.366292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bound",
+      "frequency": 33,
+      "relevance_score": 0.4993706886118843,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.367447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k θ g",
+      "frequency": 16,
+      "relevance_score": 0.4936342732663681,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.517229+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s g k",
+      "frequency": 16,
+      "relevance_score": 0.4936342732663681,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.518845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "given",
+      "frequency": 32,
+      "relevance_score": 0.4872685465327363,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.324128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω g v",
+      "frequency": 15,
+      "relevance_score": 0.48153213118722016,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.549655+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reduction-based preprocess",
+      "frequency": 2,
+      "relevance_score": 0.4742042841582961,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.486864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u lb 2",
+      "frequency": 6,
+      "relevance_score": 0.47261285247488805,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.522315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c1 c2 y",
+      "frequency": 6,
+      "relevance_score": 0.47261285247488805,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.541694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v n u",
+      "frequency": 14,
+      "relevance_score": 0.4694299891080721,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.527346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v u",
+      "frequency": 22,
+      "relevance_score": 0.4662471257412562,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.450469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graphs",
+      "frequency": 30,
+      "relevance_score": 0.4630642623744403,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.336919+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 0 005",
+      "frequency": 5,
+      "relevance_score": 0.46051071039574,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.543278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 005 v",
+      "frequency": 5,
+      "relevance_score": 0.46051071039574,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.543507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 05 v",
+      "frequency": 5,
+      "relevance_score": 0.46051071039574,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.544185+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "size",
+      "frequency": 29,
+      "relevance_score": 0.45096212029529226,
+      "source_papers": [
+        "local/A_Reduction-based_Algorithm_for_the_Clique_Interdiction_Problem"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:20.323610+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:40:20.559873+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:40:20.560098+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

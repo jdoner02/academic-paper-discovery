@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision",
+  "paper_title": "Nash Equilibria of Two-Player Matrix Games Repeated Until Collision",
+  "concepts": [
+    {
+      "text": "nash",
+      "frequency": 190,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.929182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 n",
+      "frequency": 143,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.372953+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x y",
+      "frequency": 204,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.397340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 171,
+      "relevance_score": 0.9720040795512492,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.917146+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nash equilibrium",
+      "frequency": 138,
+      "relevance_score": 0.9037225905150432,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.347816+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 147,
+      "relevance_score": 0.8496175420703722,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.929721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player",
+      "frequency": 140,
+      "relevance_score": 0.8139214686384497,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.931543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "let",
+      "frequency": 130,
+      "relevance_score": 0.7629270780214177,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.048568+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ruc",
+      "frequency": 122,
+      "relevance_score": 0.7221315655277919,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.911574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lemma",
+      "frequency": 122,
+      "relevance_score": 0.7221315655277919,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.092692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e atio slash",
+      "frequency": 75,
+      "relevance_score": 0.6824579296277409,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.066020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "games",
+      "frequency": 113,
+      "relevance_score": 0.6762366139724629,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.904923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hatwidey",
+      "frequency": 103,
+      "relevance_score": 0.6252422233554309,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.050180+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "summationdisplay",
+      "frequency": 96,
+      "relevance_score": 0.5895461499235084,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.120937+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e atio",
+      "frequency": 75,
+      "relevance_score": 0.582457929627741,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.421527+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "atio slash",
+      "frequency": 75,
+      "relevance_score": 0.582457929627741,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.422168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ruc game",
+      "frequency": 72,
+      "relevance_score": 0.5671596124426312,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.346737+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategy",
+      "frequency": 90,
+      "relevance_score": 0.5589495155532891,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.947298+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hatwidex",
+      "frequency": 88,
+      "relevance_score": 0.5487506374298827,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.049643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1",
+      "frequency": 48,
+      "relevance_score": 0.5447730749617542,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.543813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f g",
+      "frequency": 62,
+      "relevance_score": 0.5161652218255992,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.655421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategies",
+      "frequency": 81,
+      "relevance_score": 0.5130545639979602,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.952677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support",
+      "frequency": 79,
+      "relevance_score": 0.5028556858745539,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.084500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1 n",
+      "frequency": 20,
+      "relevance_score": 0.5019887812340642,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.157697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max player",
+      "frequency": 59,
+      "relevance_score": 0.5008669046404896,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.360300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e b",
+      "frequency": 58,
+      "relevance_score": 0.4957674655787863,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.493865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "min",
+      "frequency": 75,
+      "relevance_score": 0.4824579296277409,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.970418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "atio",
+      "frequency": 75,
+      "relevance_score": 0.4824579296277409,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.085036+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "slash",
+      "frequency": 75,
+      "relevance_score": 0.4824579296277409,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.085572+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alli 1 n",
+      "frequency": 15,
+      "relevance_score": 0.4764915859255482,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.114524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "min player",
+      "frequency": 54,
+      "relevance_score": 0.47536970933197353,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.362447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proof",
+      "frequency": 72,
+      "relevance_score": 0.46715961244263127,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.091616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 δ 1",
+      "frequency": 13,
+      "relevance_score": 0.4662927078021417,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.212580+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithmic game theory",
+      "frequency": 3,
+      "relevance_score": 0.4652983171851096,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.047295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "atio slash j",
+      "frequency": 32,
+      "relevance_score": 0.4631820499745028,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.194705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x y 2",
+      "frequency": 12,
+      "relevance_score": 0.46119326874043853,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.078262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x y 1",
+      "frequency": 12,
+      "relevance_score": 0.46119326874043853,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.082562+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1n summationdisplay j",
+      "frequency": 12,
+      "relevance_score": 0.46119326874043853,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.126385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y 1 n",
+      "frequency": 12,
+      "relevance_score": 0.46119326874043853,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.137245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "δ 1 δρb",
+      "frequency": 12,
+      "relevance_score": 0.46119326874043853,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.224979+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discrete algorithms soda",
+      "frequency": 2,
+      "relevance_score": 0.46019887812340643,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.353093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 δ",
+      "frequency": 31,
+      "relevance_score": 0.45808261091279956,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.603940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max",
+      "frequency": 70,
+      "relevance_score": 0.4569607343192249,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:06.968156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f i1 j1",
+      "frequency": 11,
+      "relevance_score": 0.45609382967873535,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.437281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c r 1",
+      "frequency": 10,
+      "relevance_score": 0.45099439061703217,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.283556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y 1",
+      "frequency": 29,
+      "relevance_score": 0.4478837327893932,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:07.442315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 ε 1",
+      "frequency": 9,
+      "relevance_score": 0.4458949515553289,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.083637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 n let",
+      "frequency": 9,
+      "relevance_score": 0.4458949515553289,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.115064+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support y 1",
+      "frequency": 9,
+      "relevance_score": 0.4458949515553289,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.153709+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 bt hatwidex",
+      "frequency": 9,
+      "relevance_score": 0.4458949515553289,
+      "source_papers": [
+        "local/Nash_Equilibria_of_Two-Player_Matrix_Games_Repeated_Until_Collision"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:08.229748+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:36:08.581447+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:36:08.581643+00:00",
+    "repository_version": "1.0",
+    "domain": "cybersecurity_game_theory"
+  }
+}

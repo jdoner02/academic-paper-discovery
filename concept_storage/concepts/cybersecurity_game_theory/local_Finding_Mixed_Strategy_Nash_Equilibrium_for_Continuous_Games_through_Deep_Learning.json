@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning",
+  "paper_title": "Finding Mixed Strategy Nash Equilibrium for Continuous Games through Deep Learning",
+  "concepts": [
+    {
+      "text": "nash",
+      "frequency": 50,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 41,
+      "relevance_score": 0.9624316365166175,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.582988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nash equilibrium",
+      "frequency": 35,
+      "relevance_score": 0.936222128733698,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.616028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategy",
+      "frequency": 39,
+      "relevance_score": 0.9203618005889778,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "function",
+      "frequency": 39,
+      "relevance_score": 0.9203618005889778,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.579462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 38,
+      "relevance_score": 0.8993268826251577,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g1 g2 gn",
+      "frequency": 23,
+      "relevance_score": 0.8838031131678586,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "games",
+      "frequency": 37,
+      "relevance_score": 0.8782919646613379,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g1 g2",
+      "frequency": 23,
+      "relevance_score": 0.7838031131678587,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.630096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g2 gn",
+      "frequency": 23,
+      "relevance_score": 0.7838031131678587,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.630209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g1 1 g2",
+      "frequency": 15,
+      "relevance_score": 0.715523769457299,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 g2 2",
+      "frequency": 15,
+      "relevance_score": 0.715523769457299,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g2 2 gn",
+      "frequency": 15,
+      "relevance_score": 0.715523769457299,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 gn n",
+      "frequency": 15,
+      "relevance_score": 0.715523769457299,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous",
+      "frequency": 28,
+      "relevance_score": 0.6889777029869584,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mixed strategy",
+      "frequency": 22,
+      "relevance_score": 0.6627681952040387,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.615783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g1 1",
+      "frequency": 17,
+      "relevance_score": 0.657593605384939,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.629368+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 g2",
+      "frequency": 15,
+      "relevance_score": 0.6155237694572991,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.629482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g2 2",
+      "frequency": 15,
+      "relevance_score": 0.6155237694572991,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.629604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 gn",
+      "frequency": 15,
+      "relevance_score": 0.6155237694572991,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.629735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fi g1",
+      "frequency": 15,
+      "relevance_score": 0.6155237694572991,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.630547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mixed",
+      "frequency": 24,
+      "relevance_score": 0.6048380311316786,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.574176+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e j u",
+      "frequency": 14,
+      "relevance_score": 0.5944888514934792,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.658023+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v g k",
+      "frequency": 14,
+      "relevance_score": 0.5944888514934792,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.664596+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v g",
+      "frequency": 18,
+      "relevance_score": 0.5786285233487589,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.632280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g k",
+      "frequency": 18,
+      "relevance_score": 0.5786285233487589,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.640832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j u",
+      "frequency": 17,
+      "relevance_score": 0.5575936053849391,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.628471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gn n",
+      "frequency": 17,
+      "relevance_score": 0.5575936053849391,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.629867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j u 8j",
+      "frequency": 7,
+      "relevance_score": 0.5472444257467396,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.658136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rifi g1 1",
+      "frequency": 7,
+      "relevance_score": 0.5472444257467396,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.659949+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fi g1 1",
+      "frequency": 6,
+      "relevance_score": 0.5262095077829196,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.658476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gifi g1 g2",
+      "frequency": 6,
+      "relevance_score": 0.5262095077829196,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.662332+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 13,
+      "relevance_score": 0.5234539335296593,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.591749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2fi g",
+      "frequency": 10,
+      "relevance_score": 0.5103491796381994,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.639798+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v g1 g2",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g2 gn fi",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656724+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gn fi g1",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.656845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fi g1 g2",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.657651+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j u 8j6",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.660289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g 2fi g",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.663464+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2fi g di",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.663576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g k 1",
+      "frequency": 5,
+      "relevance_score": 0.5051745898190997,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.664370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mc-gni",
+      "frequency": 14,
+      "relevance_score": 0.4944888514934792,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.601175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e j",
+      "frequency": 14,
+      "relevance_score": 0.4944888514934792,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.631583+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game-theoretic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.49206983592763986,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.646681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms show consistency",
+      "frequency": 2,
+      "relevance_score": 0.49206983592763986,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.667649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gradient-based nikaido-isoda gni",
+      "frequency": 4,
+      "relevance_score": 0.48413967185527973,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.649960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nikaido-isoda gni function",
+      "frequency": 4,
+      "relevance_score": 0.48413967185527973,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.650073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gradient-based nikaido-isoda function",
+      "frequency": 4,
+      "relevance_score": 0.48413967185527973,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.655101+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 n",
+      "frequency": 4,
+      "relevance_score": 0.48413967185527973,
+      "source_papers": [
+        "local/Finding_Mixed_Strategy_Nash_Equilibrium_for_Continuous_Games_through_Deep_Learning"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:02.655329+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:35:02.669279+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:35:02.669521+00:00",
+    "repository_version": "1.0",
+    "domain": "cybersecurity_game_theory"
+  }
+}

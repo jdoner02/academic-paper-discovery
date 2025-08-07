@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/FPGA-Placement_via_Quantum_Annealing",
+  "paper_title": "FPGA-Placement via Quantum Annealing",
+  "concepts": [
+    {
+      "text": "placement",
+      "frequency": 63,
+      "relevance_score": 0.888189665957713,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.432055+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 57,
+      "relevance_score": 0.8131239834855498,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.423511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 47,
+      "relevance_score": 0.6880145126986114,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.433465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 10 20",
+      "frequency": 17,
+      "relevance_score": 0.6126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.682460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 20 30",
+      "frequency": 17,
+      "relevance_score": 0.6126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.682712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 30 40",
+      "frequency": 17,
+      "relevance_score": 0.6126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.682958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qap",
+      "frequency": 38,
+      "relevance_score": 0.5754159889903665,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.442605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 38,
+      "relevance_score": 0.5754159889903665,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.454595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 20,
+      "relevance_score": 0.5502189415738772,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.581477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 iterations",
+      "frequency": 17,
+      "relevance_score": 0.5126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.625835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 10",
+      "frequency": 17,
+      "relevance_score": 0.5126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.631930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 20",
+      "frequency": 17,
+      "relevance_score": 0.5126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.632175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 30",
+      "frequency": 17,
+      "relevance_score": 0.5126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.632410+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 40",
+      "frequency": 17,
+      "relevance_score": 0.5126861003377956,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.632642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 40 50worst",
+      "frequency": 8,
+      "relevance_score": 0.5000875766295508,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.684197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 50worst iterationsqap",
+      "frequency": 8,
+      "relevance_score": 0.5000875766295508,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.684441+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qubo",
+      "frequency": 31,
+      "relevance_score": 0.4878393594395095,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.437679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iterations",
+      "frequency": 31,
+      "relevance_score": 0.4878393594395095,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.450813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random",
+      "frequency": 31,
+      "relevance_score": 0.4878393594395095,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.465334+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matrix",
+      "frequency": 31,
+      "relevance_score": 0.4878393594395095,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.486613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random 0 10",
+      "frequency": 7,
+      "relevance_score": 0.487576629550857,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.683950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga-placement via quantum",
+      "frequency": 6,
+      "relevance_score": 0.4750656824721631,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.653387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "min 𝜶 0",
+      "frequency": 6,
+      "relevance_score": 0.4750656824721631,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.669098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝜶 0 1",
+      "frequency": 6,
+      "relevance_score": 0.4750656824721631,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.669337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga -placement problem",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.657556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑔 𝑷 𝜶",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.667950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑷 𝜶 c",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.668179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 0 1",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.677426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 𝑘",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.677657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 𝑘 𝑘",
+      "frequency": 5,
+      "relevance_score": 0.46255473539346925,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.677886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 28,
+      "relevance_score": 0.45030651820342804,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.432993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arg min",
+      "frequency": 20,
+      "relevance_score": 0.45021894157387715,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.585955+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sec 4 2",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.663919+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "permutation matrix 𝑷",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.667026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 𝑠𝑐",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.669570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑖 1𝛼𝑖 𝑪𝑖",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.671416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50worst iterationsqap costku",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.684686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iterationsqap costku 10",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.684935+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "costku 10 ku",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.685179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 ku 50",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.685423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ku 50 ku",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.685668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 ku 100",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.685913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "choosing random sub-problems",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.688027+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "line line 3",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.688259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50worst iterationsqap costk",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.689414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iterationsqap costk 60",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.689644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "costk 60 k",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.689873+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 k 80",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.690106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 80 k",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.690335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "80 k 100",
+      "frequency": 4,
+      "relevance_score": 0.45004378831477543,
+      "source_papers": [
+        "local/FPGA-Placement_via_Quantum_Annealing"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.690564+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:12.698993+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:12.699161+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

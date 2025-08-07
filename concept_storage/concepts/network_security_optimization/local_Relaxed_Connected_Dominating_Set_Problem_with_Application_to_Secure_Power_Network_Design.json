@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design",
+  "paper_title": "Relaxed Connected Dominating Set Problem with Application to Secure Power Network Design",
+  "concepts": [
+    {
+      "text": "set",
+      "frequency": 72,
+      "relevance_score": 0.836422215403498,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.103672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 72,
+      "relevance_score": 0.836422215403498,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.103967+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 63,
+      "relevance_score": 0.7443694384780607,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.107738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "connected",
+      "frequency": 56,
+      "relevance_score": 0.6727728342027206,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.102947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω e",
+      "frequency": 44,
+      "relevance_score": 0.6500357983021376,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.331274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rcds",
+      "frequency": 50,
+      "relevance_score": 0.6114043162524291,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.110631+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 49,
+      "relevance_score": 0.6011762299273805,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.104846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce1",
+      "frequency": 38,
+      "relevance_score": 0.5886672803518461,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.224990+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce2",
+      "frequency": 33,
+      "relevance_score": 0.5375268487266033,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.225285+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v id e",
+      "frequency": 19,
+      "relevance_score": 0.4943336401759231,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.414445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω e1 ω",
+      "frequency": 9,
+      "relevance_score": 0.49205277692543725,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.445641+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e1 ω e2",
+      "frequency": 9,
+      "relevance_score": 0.49205277692543725,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.445928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system design problem",
+      "frequency": 3,
+      "relevance_score": 0.4806842589751458,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.402998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protection",
+      "frequency": 37,
+      "relevance_score": 0.4784391940267976,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.131816+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v e",
+      "frequency": 27,
+      "relevance_score": 0.47615833077631176,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.290058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id e",
+      "frequency": 27,
+      "relevance_score": 0.47615833077631176,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.297033+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e t",
+      "frequency": 27,
+      "relevance_score": 0.47615833077631176,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.327649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u ce2 u",
+      "frequency": 7,
+      "relevance_score": 0.4715966042753401,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.459226+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure system design",
+      "frequency": 2,
+      "relevance_score": 0.4704561726500972,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.405794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure control systems",
+      "frequency": 2,
+      "relevance_score": 0.4704561726500972,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.473241+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω e1",
+      "frequency": 16,
+      "relevance_score": 0.46364938120077737,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.355754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "atio slash 0",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.413882+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 3",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.423372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "colorings ce1 ce2",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.443336+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e ω e1",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.447366+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce1 u ce2",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.459525+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce2 u 0",
+      "frequency": 6,
+      "relevance_score": 0.46136851795029155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.462179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decomposition",
+      "frequency": 35,
+      "relevance_score": 0.45798302137670044,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.115132+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dominating set",
+      "frequency": 25,
+      "relevance_score": 0.45570215812621456,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.260475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u v",
+      "frequency": 25,
+      "relevance_score": 0.45570215812621456,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.290958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphere-cut decomposition",
+      "frequency": 15,
+      "relevance_score": 0.4534212948757288,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.266333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e e t",
+      "frequency": 15,
+      "relevance_score": 0.45342129487572874,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.429474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 4",
+      "frequency": 5,
+      "relevance_score": 0.45114043162524287,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.421712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 5,
+      "relevance_score": 0.45114043162524287,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.436218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x1 x2 x3",
+      "frequency": 5,
+      "relevance_score": 0.45114043162524287,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.469245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 19,
+      "relevance_score": 0.44433364017592314,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.121719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphere- cut decomposition",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.401852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimal sphere-cut decomposition",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.429197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z r 0",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.433660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 ˆ0 1",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.436848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 1",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.439065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω e 1",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.441849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "basic colorings ce1",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.443047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 x4 ce1",
+      "frequency": 4,
+      "relevance_score": 0.4409123453001943,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.471851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum",
+      "frequency": 33,
+      "relevance_score": 0.4375268487266033,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.130981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2",
+      "frequency": 13,
+      "relevance_score": 0.43296512222563155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.287820+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proposition 2",
+      "frequency": 13,
+      "relevance_score": 0.43296512222563155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.304678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ω e2",
+      "frequency": 13,
+      "relevance_score": 0.43296512222563155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.356309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce1 u",
+      "frequency": 13,
+      "relevance_score": 0.43296512222563155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.379523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce2 u",
+      "frequency": 13,
+      "relevance_score": 0.43296512222563155,
+      "source_papers": [
+        "local/Relaxed_Connected_Dominating_Set_Problem_with_Application_to_Secure_Power_Network_Design"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:21.380362+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:40:21.474129+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:40:21.474336+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

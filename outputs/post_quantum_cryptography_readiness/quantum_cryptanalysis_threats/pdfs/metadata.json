@@ -1,0 +1,795 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:22:00.453993+00:00",
+    "strategy_name": "Quantum Threat Assessment and Cryptanalysis",
+    "total_papers": 43,
+    "download_directory": "outputs/post_quantum_cryptography_readiness/quantum_cryptanalysis_threats/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Benchmarking the quantum cryptanalysis of symmetric, public-key and   hash-based cryptographic schemes",
+      "authors": [
+        "Vlad Gheorghiu",
+        "Michele Mosca"
+      ],
+      "abstract": "Quantum algorithms can break factoring and discrete logarithm based cryptography and weaken symmetric cryptography and hash functions. In order to estimate the real-world impact of these attacks, apart from tracking the development of fault-tolerant quantum computers it is important to have an estimate of the resources needed to implement these quantum attacks.   For attacking symmetric cryptography and hash functions, generic quantum attacks are substantially less powerful than they are for today's public-key cryptography. So security will degrade gradually as quantum computing resources increase. At present, there is a substantial resource overhead due to the cost of fault-tolerant quantum error correction. We provide estimates of this overhead using state-of-the-art methods in quantum fault-tolerance. We use state-of-the-art optimized circuits, though further improvements in their implementation would also reduce the resources needed to implement these attacks. To bound the potential impact of further circuit optimizations we provide cost estimates assuming trivial-cost implementations of these functions. These figures indicate the effective bit-strength of the various symmetric schemes and hash functions based on what we know today (and with various assumptions on the quantum hardware), and frame the various potential improvements that should continue to be tracked. As an example, we also look at the implications for Bitcoin's proof-of-work system.   For many of the currently used asymmetric (public-key) cryptographic schemes based on RSA and elliptic curve discrete logarithms, we again provide cost estimates based on the latest advances in cryptanalysis, circuit compilation and quantum fault-tolerance theory. These allow, for example, a direct comparison of the quantum vulnerability of RSA and elliptic curve cryptography for a fixed classical bit strength.",
+      "publication_date": "2019-02-06T18:48:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1902.02332v2"
+    },
+    {
+      "title": "Simulating Noisy Quantum Circuits for Cryptographic Algorithms",
+      "authors": [
+        "Sahay Harshvardhan",
+        "Sanil Jain",
+        "James E. McClure",
+        "Caleb McIrvin",
+        "Ngoc Quy Tran"
+      ],
+      "abstract": "The emergence of noisy intermediate-scale quantum (NISQ) computers has important consequences for cryptographic algorithms. It is theoretically well-established that key algorithms used in cybersecurity are vulnerable to quantum computers due to the fact that theoretical security guarantees, designed based on algorithmic complexity for classical computers, are not sufficient for quantum circuits. Many different quantum algorithms have been developed, which have potentially broad applications on future computing systems. However, this potential depends on the continued maturation of quantum hardware, which remains an area of active research and development. Theoretical limits provide an upper bound on the performance for algorithms. In practice, threats to encryption can only be accurately be assessed in the context of the rapidly evolving hardware and software landscape. Software co-design refers to the concurrent design of software and hardware as a way to understand the limitations of current capabilities and develop effective strategies to advance the state of the art. Since the capabilities for classical computation currently exceed quantum capabilities, quantum emulation techniques can play an important role in the co-design process. In this paper, we describe how the {\\em cuQuantum} environment can support quantum algorithm co-design activities using widely-available commodity hardware. We describe how emulation techniques can be used to assess the impact of noise on algorithms of interest, and identify limitations associated with current hardware. We present our analysis in the context of areas of priority for cybersecurity and cryptography in particular since these algorithms are extraordinarily consequential for securing information in the digital world.",
+      "publication_date": "2023-06-03T13:37:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2306.02111v1"
+    },
+    {
+      "title": "Hacking Cryptographic Protocols with Advanced Variational Quantum   Attacks",
+      "authors": [
+        "Borja Aizpurua",
+        "Pablo Bermejo",
+        "Josu Etxezarreta Martinez",
+        "Roman Orus"
+      ],
+      "abstract": "Here we introduce an improved approach to Variational Quantum Attack Algorithms (VQAA) on crytographic protocols. Our methods provide robust quantum attacks to well-known cryptographic algorithms, more efficiently and with remarkably fewer qubits than previous approaches. We implement simulations of our attacks for symmetric-key protocols such as S-DES, S-AES and Blowfish. For instance, we show how our attack allows a classical simulation of a small 8-qubit quantum computer to find the secret key of one 32-bit Blowfish instance with 24 times fewer number of iterations than a brute-force attack. Our work also shows improvements in attack success rates for lightweight ciphers such as S-DES and S-AES. Further applications beyond symmetric-key cryptography are also discussed, including asymmetric-key protocols and hash functions. In addition, we also comment on potential future improvements of our methods. Our results bring one step closer assessing the vulnerability of large-size classical cryptographic protocols with Noisy Intermediate-Scale Quantum (NISQ) devices, and set the stage for future research in quantum cybersecurity.",
+      "publication_date": "2023-11-06T09:46:16+00:00",
+      "doi": "10.1145/3718349",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2311.02986v2"
+    },
+    {
+      "title": "A Comparative Study of Classical and Post-Quantum Cryptographic   Algorithms in the Era of Quantum Computing",
+      "authors": [
+        "Arimondo Scrivano"
+      ],
+      "abstract": "The advent of quantum computing poses a significant threat to the foundational cryptographic algorithms that secure modern digital communications. Protocols such as HTTPS, digital certificates, and public key infrastructures (PKIs) heavily rely on cryptographic primitives like RSA, ECC, and Diffie-Hellman, which are vulnerable to quantum attacks -- most notably Shor's algorithm. This paper presents a comprehensive comparative analysis between classical cryptographic algorithms currently in widespread use and emerging post-quantum cryptographic schemes designed to withstand quantum adversaries. We review the cryptographic mechanisms underpinning modern internet security, outline the mathematical foundations of quantum attacks, and evaluate the security, performance, and implementation feasibility of quantum-resistant alternatives such as Kyber, Dilithium, and Falcon. Additionally, we assess the hybrid approaches currently being explored by institutions and tech companies to enable a smooth transition to post-quantum cryptography. By providing an in-depth comparison, this study aims to guide researchers, developers, and policymakers in understanding the critical implications of quantum computing on cryptographic infrastructures and the necessary steps for securing communications in the quantum era.",
+      "publication_date": "2025-06-06T10:20:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.ET"
+      ],
+      "arxiv_id": "2508.00832v1"
+    },
+    {
+      "title": "The Hashed Fractal Key Recovery (HFKR) Problem: From Symbolic Path   Inversion to Post-Quantum Cryptographic Keys",
+      "authors": [
+        "Mohamed Aly Bouke"
+      ],
+      "abstract": "Classical cryptographic systems rely heavily on structured algebraic problems, such as factorization, discrete logarithms, or lattice-based assumptions, which are increasingly vulnerable to quantum attacks and structural cryptanalysis. In response, this work introduces the Hashed Fractal Key Recovery (HFKR) problem, a non-algebraic cryptographic construction grounded in symbolic dynamics and chaotic perturbations. HFKR builds on the Symbolic Path Inversion Problem (SPIP), leveraging symbolic trajectories generated via contractive affine maps over $\\mathbb{Z}^2$, and compressing them into fixed-length cryptographic keys using hash-based obfuscation. A key contribution of this paper is the empirical confirmation that these symbolic paths exhibit fractal behavior, quantified via box counting dimension, path geometry, and spatial density measures. The observed fractal dimension increases with trajectory length and stabilizes near 1.06, indicating symbolic self-similarity and space-filling complexity, both of which reinforce the entropy foundation of the scheme. Experimental results across 250 perturbation trials show that SHA3-512 and SHAKE256 amplify symbolic divergence effectively, achieving mean Hamming distances near 255, ideal bit-flip rates, and negligible entropy deviation. In contrast, BLAKE3 exhibits statistically uniform but weaker diffusion. These findings confirm that HFKR post-quantum security arises from the synergy between symbolic fractality and hash-based entropy amplification. The resulting construction offers a lightweight, structure-free foundation for secure key generation in adversarial settings without relying on algebraic hardness assumptions.",
+      "publication_date": "2025-06-04T18:54:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.04383v1"
+    },
+    {
+      "title": "Identifying Research Challenges in Post Quantum Cryptography Migration   and Cryptographic Agility",
+      "authors": [
+        "David Ott",
+        "Christopher Peikert",
+        "other workshop participants"
+      ],
+      "abstract": "The implications of sufficiently large quantum computers for widely used public-key cryptography is well-documented and increasingly discussed by the security community. An April 2016 report by the National Institute of Standards and Technology (NIST), notably, calls out the need for new standards to replace cryptosystems based on integer factorization and discrete logarithm problems, which have been shown to be vulnerable to Shor's quantum algorithm for prime factorization. Specifically, widely used RSA, ECDSA, ECDH, and DSA cryptosystems will need to be replaced by post-quantum cryptography (PQC) alternatives (also known as quantum-resistant or quantum-safe cryptography). Failure to transition before sufficiently powerful quantum computers are realized will jeopardize the security of public key cryptosystems which are widely deployed within communication protocols, digital signing mechanisms, authentication frameworks, and more. To avoid this, NIST has actively led a PQC standardization effort since 2016, leveraging a large and international research community.   On January 31-February 1, 2019, the Computing Community Consortium (CCC) held a workshop in Washington, D.C. to discuss research challenges associated with PQC migration. Entitled, \"Identifying Research Challenges in Post Quantum Cryptography Migration and Cryptographic Agility\", participants came from three distinct yet related communities: cryptographers contributing to the NIST PQC standards effort, applied cryptographers with expertise in creating cryptographic solutions and implementing cryptography in real-world settings, and industry practitioners with expertise in deploying cryptographic standards within products and compute infrastructures. Discussion centered around two key themes: identifying constituent challenges in PQC migration and imagining a new science of \"cryptographic agility\".",
+      "publication_date": "2019-09-16T17:38:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "1909.07353v1"
+    },
+    {
+      "title": "Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained   Devices",
+      "authors": [
+        "Jesus Lopez",
+        "Viviana Cadena",
+        "Mohammad Saidur Rahman"
+      ],
+      "abstract": "The rapid advancement of quantum computing poses a critical threat to classical cryptographic algorithms such as RSA and ECC, particularly in Internet of Things (IoT) devices, where secure communication is essential but often constrained by limited computational resources. This paper investigates the feasibility of deploying post-quantum cryptography (PQC) algorithms on resource-constrained devices. In particular, we implement three PQC algorithms -- BIKE, CRYSTALS-Kyber, and HQC -- on a lightweight IoT platform built with Raspberry Pi devices. Leveraging the Open Quantum Safe (\\texttt{liboqs}) library in conjunction with \\texttt{mbedTLS}, we develop quantum-secure key exchange protocols, and evaluate their performance in terms of computational overhead, memory usage, and energy consumption for quantum secure communication. Experimental results demonstrate that the integration of PQC algorithms on constrained hardware is practical, reinforcing the urgent need for quantum-resilient cryptographic frameworks in next-generation IoT devices. The implementation of this paper is available at https://iqsec-lab.github.io/PQC-IoT/.",
+      "publication_date": "2025-07-11T05:03:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.08312v1"
+    },
+    {
+      "title": "Quantum Differential and Linear Cryptanalysis",
+      "authors": [
+        "Marc Kaplan",
+        "Gaëtan Leurent",
+        "Anthony Leverrier",
+        "María Naya-Plasencia"
+      ],
+      "abstract": "Quantum computers, that may become available one day, would impact many scientific fields, most notably cryptography since many asymmetric primitives are insecure against an adversary with quantum capabilities. Cryptographers are already anticipating this threat by proposing and studying a number of potentially quantum-safe alternatives for those primitives. On the other hand, symmetric primitives seem less vulnerable against quantum computing: the main known applicable result is Grover's algorithm that gives a quadratic speed-up for exhaustive search.   In this work, we examine more closely the security of symmetric ciphers against quantum attacks. Since our trust in symmetric ciphers relies mostly on their ability to resist cryptanalysis techniques, we investigate quantum cryptanalysis techniques. More specifically, we consider quantum versions of differential and linear cryptanalysis. We show that it is usually possible to use quantum computations to obtain a quadratic speed-up for these attack techniques, but the situation must be nuanced: we don't get a quadratic speed-up for all variants of the attacks. This allows us to demonstrate the following non-intuitive result: the best attack in the classical world does not necessarily lead to the best quantum one. We give some examples of application on ciphers LAC and KLEIN. We also discuss the important difference between an adversary that can only perform quantum computations, and an adversary that can also make quantum queries to a keyed primitive.",
+      "publication_date": "2015-10-20T11:20:04+00:00",
+      "doi": "10.13154/tosc.v2016.i1.71-94",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1510.05836v3"
+    },
+    {
+      "title": "Post-Quantum Cryptography: Securing Digital Communication in the Quantum   Era",
+      "authors": [
+        "G S Mamatha",
+        "Namya Dimri",
+        "Rasha Sinha"
+      ],
+      "abstract": "The advent of quantum computing poses a profound threat to traditional cryptographic systems, exposing vulnerabilities that compromise the security of digital communication channels reliant on RSA, ECC, and similar classical encryption methods. Quantum algorithms, notably Shor's algorithm, exploit the inherent computational power of quantum computers to efficiently solve mathematical problems underlying these cryptographic schemes. In response, post-quantum cryptography (PQC) emerged as a critical field aimed at developing resilient cryptographic algorithms impervious to quantum attacks. This paper delineates the vulnerabilities of classical cryptographic systems to quantum attacks, elucidates the principles of quantum computing, and introduces various PQC algorithms such as lattice-based cryptography, code-based cryptography, hash-based cryptography, and multivariate polynomial cryptography. Highlighting the importance of PQC in securing digital communication amidst quantum computing advancements, this research underscores its pivotal role in safeguarding data integrity, confidentiality, and authenticity in the face of emerging quantum threats.",
+      "publication_date": "2024-03-18T12:51:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.11741v1"
+    },
+    {
+      "title": "Qubit Optimized Quantum Implementation of SLIM",
+      "authors": [
+        "Hasan Ozgur Cildiroglu",
+        "Oguz Yayla"
+      ],
+      "abstract": "The advent of quantum computing has profound implications for current technologies, offering advancements in optimization while posing significant threats to cryptographic algorithms. Public-key cryptosystems relying on prime factorization or discrete logarithms are particularly vulnerable, whereas block ciphers (BCs) remain secure through increased key lengths. In this study, we introduce a novel quantum implementation of SLIM, a lightweight block cipher optimized for 32-bit plaintext and an 80-bit key, based on a Feistel structure. This implementation distinguishes itself from other BC quantum implementations in its class (64-128-bit) by utilizing a minimal number of qubits while maintaining robust cryptographic strength and efficiency. By employing an innovative design that minimizes qubit usage, this work highlights SLIM's potential as a resource-efficient and secure candidate for quantum-resistant encryption protocols.",
+      "publication_date": "2024-12-14T13:52:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2412.10835v1"
+    },
+    {
+      "title": "Quantum collision finding for homomorphic hash functions",
+      "authors": [
+        "Juan Carlos Garcia-Escartin",
+        "Vicent Gimeno",
+        "Julio José Moyano-Fernández"
+      ],
+      "abstract": "Hash functions are a basic cryptographic primitive. Certain hash functions try to prove security against collision and preimage attacks by reductions to known hard problems. These hash functions usually have some additional properties that allow for that reduction. Hash functions which are additive or multiplicative are vulnerable to a quantum attack using the hidden subgroup problem algorithm for quantum computers. Using a quantum oracle to the hash, we can reconstruct the kernel of the hash function, which is enough to find collisions and second preimages. When the hash functions are additive with respect to the group operation in an Abelian group, there is always an efficient implementation of this attack. We present concrete attack examples to provable hash functions, including a preimage attack to $\\oplus$-linear hash functions and for certain multiplicative homomorphic hash schemes.",
+      "publication_date": "2021-07-30T23:01:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2108.00100v2"
+    },
+    {
+      "title": "Quantum algorithms for computing short discrete logarithms and factoring   RSA integers",
+      "authors": [
+        "Martin Ekerå",
+        "Johan Håstad"
+      ],
+      "abstract": "In this paper we generalize the quantum algorithm for computing short discrete logarithms previously introduced by Eker{\\aa} so as to allow for various tradeoffs between the number of times that the algorithm need be executed on the one hand, and the complexity of the algorithm and the requirements it imposes on the quantum computer on the other hand.   Furthermore, we describe applications of algorithms for computing short discrete logarithms. In particular, we show how other important problems such as those of factoring RSA integers and of finding the order of groups under side information may be recast as short discrete logarithm problems. This immediately gives rise to an algorithm for factoring RSA integers that is less complex than Shor's general factoring algorithm in the sense that it imposes smaller requirements on the quantum computer.   In both our algorithm and Shor's algorithm, the main hurdle is to compute a modular exponentiation in superposition. When factoring an n bit integer, the exponent is of length 2n bits in Shor's algorithm, compared to slightly more than n/2 bits in our algorithm.",
+      "publication_date": "2017-02-01T13:41:33+00:00",
+      "doi": "10.1007/978-3-319-59879-6_20",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1702.00249v1"
+    },
+    {
+      "title": "Evaluation Framework for Quantum Security Risk Assessment: A   Comprehensive Strategy for Quantum-Safe Transition",
+      "authors": [
+        "Yaser Baseri",
+        "Vikas Chouhan",
+        "Ali Ghorbani",
+        "Aaron Chow"
+      ],
+      "abstract": "The rise of large-scale quantum computing poses a significant threat to traditional cryptographic security measures. Quantum attacks undermine current asymmetric cryptographic algorithms, rendering them ineffective. Even symmetric key cryptography is vulnerable, albeit to a lesser extent, suggesting longer keys or extended hash functions for security. Thus, current cryptographic solutions are inadequate against emerging quantum threats. Organizations must transition to quantum-safe environments with robust continuity plans and meticulous risk management. This study explores the challenges of migrating to quantum-safe cryptographic states, introducing a comprehensive security risk assessment framework. We propose a security risk assessment framework that examines vulnerabilities across algorithms, certificates, and protocols throughout the migration process (pre-migration, during migration, post-migration). We link these vulnerabilities to the STRIDE threat model to assess their impact and likelihood. Then, we discuss practical mitigation strategies for critical components like algorithms, public key infrastructures, and protocols. Our study not only identifies potential attacks and vulnerabilities at each layer and migration stage but also suggests possible countermeasures and alternatives to enhance system resilience, empowering organizations to construct a secure infrastructure for the quantum era. Through these efforts, we establish the foundation for enduring security in networked systems amid the challenges of the quantum era.",
+      "publication_date": "2024-04-12T04:18:58+00:00",
+      "doi": "10.1016/j.cose.2024.104272",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2404.08231v3"
+    },
+    {
+      "title": "Noisy intermediate-scale quantum (NISQ) algorithms",
+      "authors": [
+        "Kishor Bharti",
+        "Alba Cervera-Lierta",
+        "Thi Ha Kyaw",
+        "Tobias Haug",
+        "Sumner Alperin-Lea",
+        "Abhinav Anand",
+        "Matthias Degroote",
+        "Hermanni Heimonen",
+        "Jakob S. Kottmann",
+        "Tim Menke",
+        "Wai-Keong Mok",
+        "Sukin Sim",
+        "Leong-Chuan Kwek",
+        "Alán Aspuru-Guzik"
+      ],
+      "abstract": "A universal fault-tolerant quantum computer that can solve efficiently problems such as integer factorization and unstructured database search requires millions of qubits with low error rates and long coherence times. While the experimental advancement towards realizing such devices will potentially take decades of research, noisy intermediate-scale quantum (NISQ) computers already exist. These computers are composed of hundreds of noisy qubits, i.e. qubits that are not error-corrected, and therefore perform imperfect operations in a limited coherence time. In the search for quantum advantage with these devices, algorithms have been proposed for applications in various disciplines spanning physics, machine learning, quantum chemistry and combinatorial optimization. The goal of such algorithms is to leverage the limited available resources to perform classically challenging tasks. In this review, we provide a thorough summary of NISQ computational paradigms and algorithms. We discuss the key structure of these algorithms, their limitations, and advantages. We additionally provide a comprehensive overview of various benchmarking and software tools useful for programming and testing NISQ devices.",
+      "publication_date": "2021-01-21T05:27:34+00:00",
+      "doi": "10.1103/RevModPhys.94.015004",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2101.08448v2"
+    },
+    {
+      "title": "Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum   Replacement for RSA and ECC",
+      "authors": [
+        "Nicolas Rodriguez",
+        "Fernando Rodriguez"
+      ],
+      "abstract": "The steady advancement in quantum computer error correction technology has pushed the current record to 48 stable logical qubits, bringing us closer to machines capable of running Shor's algorithm at scales that threaten RSA and ECC cryptography. While the timeline for developing such quantum computers remains uncertain, the cryptographic community must prepare for the transition to quantum-resistant algorithms. CRYSTALS-Kyber, standardized by NIST in 2022, represents a leading post-quantum cryptographic solution, but widespread adoption faces significant challenges. If this migration follows patterns similar to the SHA-1 to SHA-2 transition, organizations may experience prolonged periods of vulnerability, with substantial security and economic consequences. This study evaluates Kyber's practical viability through performance testing across various implementation schemes, utilizing only standard built-in processor acceleration features, some of which include AES-NI and ASIMD, without any specialized hardware additions. Our findings demonstrate that Kyber provides robust security guarantees against quantum attacks while maintaining acceptable performance profiles for most contemporary applications, utilizing only commodity hardware with manufacturer-provided acceleration capabilities.",
+      "publication_date": "2025-08-03T09:53:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2508.01694v2"
+    },
+    {
+      "title": "Experimental realisation of Shor's quantum factoring algorithm using   qubit recycling",
+      "authors": [
+        "Enrique Martin-Lopez",
+        "Anthony Laing",
+        "Thomas Lawson",
+        "Roberto Alvarez",
+        "Xiao-Qi Zhou",
+        "Jeremy L. O'Brien"
+      ],
+      "abstract": "Quantum computational algorithms exploit quantum mechanics to solve problems exponentially faster than the best classical algorithms. Shor's quantum algorithm for fast number factoring is a key example and the prime motivator in the international effort to realise a quantum computer. However, due to the substantial resource requirement, to date, there have been only four small-scale demonstrations. Here we address this resource demand and demonstrate a scalable version of Shor's algorithm in which the n qubit control register is replaced by a single qubit that is recycled n times: the total number of qubits is one third of that required in the standard protocol. Encoding the work register in higher-dimensional states, we implement a two-photon compiled algorithm to factor N=21. The algorithmic output is distinguishable from noise, in contrast to previous demonstrations. These results point to larger-scale implementations of Shor's algorithm by harnessing scalable resource reductions applicable to all physical architectures.",
+      "publication_date": "2011-11-17T16:55:45+00:00",
+      "doi": "10.1038/nphoton.2012.259",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1111.4147v2"
+    },
+    {
+      "title": "Quantum resource estimates for computing elliptic curve discrete   logarithms",
+      "authors": [
+        "Martin Roetteler",
+        "Michael Naehrig",
+        "Krysta M. Svore",
+        "Kristin Lauter"
+      ],
+      "abstract": "We give precise quantum resource estimates for Shor's algorithm to compute discrete logarithms on elliptic curves over prime fields. The estimates are derived from a simulation of a Toffoli gate network for controlled elliptic curve point addition, implemented within the framework of the quantum computing software tool suite LIQ$Ui|\\rangle$. We determine circuit implementations for reversible modular arithmetic, including modular addition, multiplication and inversion, as well as reversible elliptic curve point addition. We conclude that elliptic curve discrete logarithms on an elliptic curve defined over an $n$-bit prime field can be computed on a quantum computer with at most $9n + 2\\lceil\\log_2(n)\\rceil+10$ qubits using a quantum circuit of at most $448 n^3 \\log_2(n) + 4090 n^3$ Toffoli gates. We are able to classically simulate the Toffoli networks corresponding to the controlled elliptic curve point addition as the core piece of Shor's algorithm for the NIST standard curves P-192, P-224, P-256, P-384 and P-521. Our approach allows gate-level comparisons to recent resource estimates for Shor's factoring algorithm. The results also support estimates given earlier by Proos and Zalka and indicate that, for current parameters at comparable classical security levels, the number of qubits required to tackle elliptic curves is less than for attacking RSA, suggesting that indeed ECC is an easier target than RSA.",
+      "publication_date": "2017-06-21T06:21:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1706.06752v3"
+    },
+    {
+      "title": "Minimizing CNOT-count in quantum circuit of the extended Shor's   algorithm for ECDLP",
+      "authors": [
+        "Xia Liu",
+        "Huan Yang",
+        "Li Yang"
+      ],
+      "abstract": "Since the elliptic curve discrete logarithms problem (ECDLP) was proposed, it has been widely used in cryptosystem because of its strong security. Although the proposal of the extended Shor's algorithm offers hope for cracking ECDLP, it is debatable whether the algorithm can actually pose a threat in practice. From the perspective of the quantum circuit of the algorithm, we analyze the feasibility of cracking ECDLP with improved quantum circuits using an ion trap quantum computer.   We give precise quantum circuits for extended Shor's algorithm to calculate discrete logarithms on elliptic curves over prime fields, including modulus subtraction, three different modulus multiplication, modulus inverse, and windowed arithmetic. Whereas previous studies mostly focused on minimizing the number of qubits or the depth of the circuit, we minimize the number of CNOTs, which greatly affects the time to run the algorithm on an ion trap quantum computer. First, we give the implementation of the basic arithmetic with the lowest known number of CNOTs and the construction of an improved modular inverse, point addition, and the windowing technique. Then, we precisely estimate the number of improved quantum circuits needed to perform the extended Shor's algorithm for factoring an n-bit integer. We analyze the running time and feasibility of the extended Shor's algorithm on an ion trap quantum computer according to the number of CNOTs. Finally, we discussed the lower bound of the number of CNOTs needed to implement the extended Shor's algorithm.",
+      "publication_date": "2023-05-19T03:41:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2305.11410v1"
+    },
+    {
+      "title": "Post-Quantum Cryptography Algorithms Standardization and Performance   Analysis",
+      "authors": [
+        "Manish Kumar"
+      ],
+      "abstract": "Quantum computer is no longer a hypothetical idea. It is the worlds most important technology and there is a race among countries to get supremacy in quantum technology. Its the technology that will reduce the computing time from years to hours or even minutes. The power of quantum computing will be a great support for the scientific community. However, it raises serious threats to cybersecurity. Theoretically, all the cryptography algorithms are vulnerable to attack. The practical quantum computers, when available with millions of qubits capacity, will be able to break nearly all modern public-key cryptographic systems. Before the quantum computers arrive with sufficient qubit capacity, we must be ready with quantum-safe cryptographic algorithms, tools, techniques, and deployment strategies to protect the ICT infrastructure. This paper discusses in detail the global effort for the design, development, and standardization of various quantum-safe cryptography algorithms along with the performance analysis of some of the potential quantum-safe algorithms. Most of the quantum-safe algorithms need more CPU cycles, higher runtime memory, and large key size. The objective of the paper is to analyze the feasibility of the various quantum-safe cryptography algorithms.",
+      "publication_date": "2022-04-06T04:15:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2204.02571v1"
+    },
+    {
+      "title": "Designing Hash and Encryption Engines using Quantum Computing",
+      "authors": [
+        "Suryansh Upadhyay",
+        "Rupshali Roy",
+        "Swaroop Ghosh"
+      ],
+      "abstract": "Quantum computing (QC) holds the promise of revolutionizing problem-solving by exploiting quantum phenomena like superposition and entanglement. It offers exponential speed-ups across various domains, from machine learning and security to drug discovery and optimization. In parallel, quantum encryption and key distribution have garnered substantial interest, leveraging quantum engines to enhance cryptographic techniques. Classical cryptography faces imminent threats from quantum computing, exemplified by Shors algorithms capacity to breach established encryption schemes. However, quantum circuits and algorithms, capitalizing on superposition and entanglement, offer innovative avenues for enhancing security. In this paper we explore quantum-based hash functions and encryption to fortify data security. Quantum hash functions and encryption can have numerous potential application cases, such as password storage, digital signatures, cryptography, anti-tampering etc. The integration of quantum and classical methods demonstrates potential in securing data in the era of quantum computing.",
+      "publication_date": "2023-10-26T14:49:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2310.17439v1"
+    },
+    {
+      "title": "Factoring integers with sublinear resources on a superconducting quantum   processor",
+      "authors": [
+        "Bao Yan",
+        "Ziqi Tan",
+        "Shijie Wei",
+        "Haocong Jiang",
+        "Weilong Wang",
+        "Hong Wang",
+        "Lan Luo",
+        "Qianheng Duan",
+        "Yiting Liu",
+        "Wenhao Shi",
+        "Yangyang Fei",
+        "Xiangdong Meng",
+        "Yu Han",
+        "Zheng Shan",
+        "Jiachen Chen",
+        "Xuhao Zhu",
+        "Chuanyu Zhang",
+        "Feitong Jin",
+        "Hekang Li",
+        "Chao Song",
+        "Zhen Wang",
+        "Zhi Ma",
+        "H. Wang",
+        "Gui-Lu Long"
+      ],
+      "abstract": "Shor's algorithm has seriously challenged information security based on public key cryptosystems. However, to break the widely used RSA-2048 scheme, one needs millions of physical qubits, which is far beyond current technical capabilities. Here, we report a universal quantum algorithm for integer factorization by combining the classical lattice reduction with a quantum approximate optimization algorithm (QAOA). The number of qubits required is O(logN/loglog N), which is sublinear in the bit length of the integer $N$, making it the most qubit-saving factorization algorithm to date. We demonstrate the algorithm experimentally by factoring integers up to 48 bits with 10 superconducting qubits, the largest integer factored on a quantum device. We estimate that a quantum circuit with 372 physical qubits and a depth of thousands is necessary to challenge RSA-2048 using our algorithm. Our study shows great promise in expediting the application of current noisy quantum computers, and paves the way to factor large integers of realistic cryptographic significance.",
+      "publication_date": "2022-12-23T14:45:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2212.12372v1"
+    },
+    {
+      "title": "Towards Quantum Resilience: Data-Driven Migration Strategy Design",
+      "authors": [
+        "Nahid Aliyev",
+        "Ozan Cetin",
+        "Emil Huseynov"
+      ],
+      "abstract": "The advancements in quantum computing are a threat to classical cryptographic systems. The traditional cryptographic methods that utilize factorization-based or discrete-logarithm-based algorithms, such as RSA and ECC, are some of these. This paper thoroughly investigates the vulnerabilities of traditional cryptographic methods against quantum attacks and provides a decision-support framework to help organizations in recommending mitigation plans and determining appropriate transition strategies to post-quantum cryptography. A semi-synthetic dataset, consisting of key features such as key size, network complexity, and sensitivity levels, is crafted, with each configuration labeled according to its recommended mitigation plan. Using decision tree and random forest models, a classifier is trained to recommend appropriate mitigation/transition plans such as continuous monitoring, scheduled transitions, and immediate hybrid implementation. The proposed approach introduces a data-driven and dynamic solution for organizations to assess the scale of the migration, specifying a structured roadmap toward quantum resilience. The results highlight important features that influence strategy decisions and support actionable recommendations for cryptographic modernization based on system context.",
+      "publication_date": "2025-05-09T11:12:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.05959v1"
+    },
+    {
+      "title": "Implementing and Evaluating Post-Quantum DNSSEC in CoreDNS",
+      "authors": [
+        "Julio Gento Suela",
+        "Javier Blanco-Romero",
+        "Florina Almenares Mendoza",
+        "Daniel Díaz-Sánchez"
+      ],
+      "abstract": "The emergence of quantum computers poses a significant threat to current secure service, application and/or protocol implementations that rely on RSA and ECDSA algorithms, for instance DNSSEC, because public-key cryptography based on number factorization or discrete logarithm is vulnerable to quantum attacks. This paper presents the integration of post-quantum cryptographic (PQC) algorithms into CoreDNS to enable quantum-resistant DNSSEC functionality. We have developed a plugin that extends CoreDNS with support for five PQC signature algorithm families: ML-DSA, FALCON, SPHINCS+, MAYO, and SNOVA. Our implementation maintains compatibility with existing DNS resolution flows while providing on-the-fly signing using quantum-resistant signatures. A benchmark has been performed and performance evaluation results reveal significant trade-offs between security and efficiency. The results indicate that while PQC algorithms introduce operational overhead, several candidates offer viable compromises for transitioning DNSSEC to quantum-resistant cryptography.",
+      "publication_date": "2025-07-12T14:34:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.09301v1"
+    },
+    {
+      "title": "Applications of Post-quantum Cryptography",
+      "authors": [
+        "Emils Bagirovs",
+        "Grigory Provodin",
+        "Tuomo Sipola",
+        "Jari Hautamäki"
+      ],
+      "abstract": "With the constantly advancing capabilities of quantum computers, conventional cryptographic systems relying on complex math problems may encounter unforeseen vulnerabilities. Unlike regular computers, which are often deemed cost-ineffective in cryptographic attacks, quantum computers have a significant advantage in calculation speed. This distinction potentially makes currently used algorithms less secure or even completely vulnerable, compelling the exploration of post-quantum cryptography (PQC) as the most reasonable solution to quantum threats. This review aims to provide current information on applications, benefits, and challenges associated with the PQC. The review employs a systematic scoping review with the scope restricted to the years 2022 and 2023; only articles that were published in scientific journals were used in this paper. The review examined the articles on the applications of quantum computing in various spheres. However, the scope of this paper was restricted to the domain of the PQC because most of the analyzed articles featured this field. Subsequently, the paper is analyzing various PQC algorithms, including lattice-based, hash-based, code-based, multivariate polynomial, and isogeny-based cryptography. Each algorithm is being judged based on its potential applications, robustness, and challenges. All the analyzed algorithms are promising for the post-quantum era in such applications as digital signatures, communication channels, and IoT. Moreover, some of the algorithms are already implemented in the spheres of banking transactions, communication, and intellectual property. Meanwhile, despite their potential, these algorithms face serious challenges since they lack standardization, require vast amounts of storage and computation power, and might have unknown vulnerabilities that can be discovered only with years of cryptanalysis.",
+      "publication_date": "2024-06-19T06:45:39+00:00",
+      "doi": "10.34190/eccws.23.1.2247",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.13258v3"
+    },
+    {
+      "title": "A Cryptographic Perspective on the Verifiability of Quantum Advantage",
+      "authors": [
+        "Nai-Hui Chia",
+        "Honghao Fu",
+        "Fang Song",
+        "Penghui Yao"
+      ],
+      "abstract": "In recent years, achieving verifiable quantum advantage on a NISQ device has emerged as an important open problem in quantum information. The sampling-based quantum advantages are not known to have efficient verification methods. This paper investigates the verification of quantum advantage from a cryptographic perspective. We establish a strong connection between the verifiability of quantum advantage and cryptographic and complexity primitives, including efficiently samplable, statistically far but computationally indistinguishable pairs of (mixed) quantum states ($\\mathsf{EFI}$), pseudorandom states ($\\mathsf{PRS}$), and variants of minimum circuit size problems ($\\mathsf{MCSP}$). Specifically, we prove that a) a sampling-based quantum advantage is either verifiable or can be used to build $\\mathsf{EFI}$ and even $\\mathsf{PRS}$ and b) polynomial-time algorithms for a variant of $\\mathsf{MCSP}$ would imply efficient verification of quantum advantages.   Our work shows that the quest for verifiable quantum advantages may lead to applications of quantum cryptography, and the construction of quantum primitives can provide new insights into the verifiability of quantum advantages.",
+      "publication_date": "2023-10-23T00:31:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2310.14464v1"
+    },
+    {
+      "title": "Quantum Advantage in Cryptography with a Low-Connectivity Quantum   Annealer",
+      "authors": [
+        "Feng Hu",
+        "Lucas Lamata",
+        "Chao Wang",
+        "Xi Chen",
+        "Enrique Solano",
+        "Mikel Sanz"
+      ],
+      "abstract": "The application in cryptography of quantum algorithms for prime factorization fostered the interest in quantum computing. However, quantum computers, and particularly quantum annealers, can also be helpful to construct secure cryptographic keys. Indeed, finding robust Boolean functions for cryptography is an important problem in sequence ciphers, block ciphers, and hash functions, among others. Due to the super-exponential size $\\mathcal{O}(2^{2^n})$ of the associated space, finding $n$-variable Boolean functions with global cryptographic constraints is computationally hard. This problem has already been addressed employing generic low-connected incoherent D-Wave quantum annealers. However, the limited connectivity of the Chimera graph, together with the exponential growth in the complexity of the Boolean function design problem, limit the problem scalability. Here, we propose a special-purpose coherent quantum annealing architecture with three couplers per qubit, designed to optimally encode the bent function design problem. A coherent quantum annealer with this tree-type architecture has the potential to solve the $8$-variable bent function design problem, which is classically unsolved, with only $127$ physical qubits and $126$ couplers. This paves the way to reach useful quantum supremacy within the framework of quantum annealing for cryptographic purposes.",
+      "publication_date": "2019-06-19T15:09:17+00:00",
+      "doi": "10.1103/PhysRevApplied.13.054062",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1906.08140v2"
+    },
+    {
+      "title": "Quantum Telecloning on NISQ Computers",
+      "authors": [
+        "Elijah Pelofske",
+        "Andreas Bärtschi",
+        "Bryan Garcia",
+        "Boris Kiefer",
+        "Stephan Eidenbenz"
+      ],
+      "abstract": "Due to the no-cloning theorem, generating perfect quantum clones of an arbitrary unknown quantum state is not possible, however approximate quantum clones can be constructed. Quantum telecloning is a protocol that originates from a combination of quantum teleportation and quantum cloning. Here we present $1 \\rightarrow 2$ and $1 \\rightarrow 3$ quantum telecloning circuits, with and without ancilla, that are theoretically optimal (meaning the clones have the highest fidelity allowed by quantum mechanics), universal (meaning the clone fidelity is independent of the state being cloned), and symmetric (meaning the clones all have the same fidelity). We implement these circuits on gate model IBMQ and Quantinuum NISQ hardware and quantify the clone fidelities using parallel single qubit state tomography. Quantum telecloning using mid-circuit measurement with classical feed-forward control (i.e. real time if statements) is demonstrated on the Quantinuum H1-2 device. Two alternative implementations of quantum telecloning, deferred measurement and post selection, are demonstrated on ibmq\\_montreal, where mid-circuit measurements with real time if statements are not available. Our results show that NISQ devices can achieve near-optimal quantum telecloning fidelity; for example the Quantinuum H1-2 device running the telecloning circuits without ancilla achieved a mean clone fidelity of $0.824$ with standard deviation of $0.024$ for two clone circuits and $0.765$ with standard deviation of $0.022$ for three clone circuits. The theoretical fidelity limits are $0.8\\overline{3}$ for two clones and $0.\\overline{7}$ for three clones. This demonstrates the viability of performing experimental analysis of quantum information networks and quantum cryptography protocols on NISQ computers.",
+      "publication_date": "2022-04-30T01:40:24+00:00",
+      "doi": "10.1109/QCE53715.2022.00083",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2205.00125v2"
+    },
+    {
+      "title": "Quantum solutions to possible challenges of Blockchain technology",
+      "authors": [
+        "Nivedita Dey",
+        "Mrityunjay Ghosh",
+        "Amlan Chakrabarti"
+      ],
+      "abstract": "Technological advancements of Blockchain and other Distributed Ledger Techniques (DLTs) promise to provide significant advantages to applications seeking transparency, redundancy, and accountability. Actual adoption of these emerging technologies requires incorporating cost-effective, fast, QoS-enabled, secure, and scalable design. With the recent advent of quantum computing, the security of current blockchain cryptosystems can be compromised to a greater extent. Quantum algorithms like Shor's large integer factorization algorithm and Grover's unstructured database search algorithm can provide exponential and quadratic speedup, respectively, in contrast to their classical counterpart. This can put threats on both public-key cryptosystems and hash functions, which necessarily demands to migrate from classical cryptography to quantum-secure cryptography. Moreover, the computational latency of blockchain platforms causes slow transaction speed, so quantum computing principles might provide significant speedup and scalability in transaction processing and accelerating the mining process. For such purpose, this article first studies current and future classical state-of-the-art blockchain scalability and security primitives. The relevant quantum-safe blockchain cryptosystem initiatives which have been taken by Bitcoin, Ethereum, Corda, etc. are stated and compared with respect to key sizes, hash length, execution time, computational overhead, and energy efficiency. Post Quantum Cryptographic algorithms like Code-based, Lattice-based, Multivariate-based, and other schemes are not well suited for classical blockchain technology due to several disadvantages in practical implementation. Decryption latency, massive consumption of computational resources, and increased key size are few challenges that can hinder blockchain performance.",
+      "publication_date": "2021-10-11T14:41:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2110.05321v1"
+    },
+    {
+      "title": "Cryptoscope: Analyzing cryptographic usages in modern software",
+      "authors": [
+        "Micha Moffie",
+        "Omer Boehm",
+        "Anatoly Koyfman",
+        "Eyal Bin",
+        "Efrayim Sztokman",
+        "Sukanta Bhattacharjee",
+        "Meghnath Saha",
+        "James McGugan"
+      ],
+      "abstract": "The advent of quantum computing poses a significant challenge as it has the potential to break certain cryptographic algorithms, necessitating a proactive approach to identify and modernize cryptographic code. Identifying these cryptographic elements in existing code is only the first step. It is crucial not only to identify quantum vulnerable algorithms but also to detect vulnerabilities and incorrect crypto usages, to prioritize, report, monitor as well as remediate and modernize code bases. A U.S. government memorandum require agencies to begin their transition to PQC (Post Quantum Cryptograpy) by conducting a prioritized inventory of cryptographic systems including software and hardware systems. In this paper we describe our code scanning tool - Cryptoscope - which leverages cryptographic domain knowledge as well as compiler techniques to statically parse and analyze source code. By analyzing control and data flow the tool is able to build an extendable and querriable inventory of cryptography. Cryptoscope goes beyond identifying disconnected cryptographic APIs and instead provides the user with an inventory of cryptographic assets - containing comprehensive views of the cryptographic operations implemented. We show that for more than 92% of our test cases, these views include the cryptographic operation itself, APIs, as well as the related material such as keys, nonces, random sources etc. Lastly, building on top of this inventory, our tool is able to detect and report all the cryptographic related weaknesses and vulnerabilities (11 out of 15) in CamBench - achieving state-of-the-art performance.",
+      "publication_date": "2025-03-25T10:39:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.19531v1"
+    },
+    {
+      "title": "A Quantum Automatic Tool for Finding Impossible Differentials",
+      "authors": [
+        "Huiqin Xie",
+        "Qiqing Xia",
+        "Ke Wang",
+        "Yanjun Li",
+        "Li Yang"
+      ],
+      "abstract": "Due to the superiority of quantum computing, traditional cryptography is facing severe threat. This makes the security evaluation of cryptographic systems in quantum attack models significant and urgent. For symmetric ciphers, the security analysis heavily relies on cyptanalytic tools. Thus exploring the use of quantum algorithms to traditional cyptanalytic tools has drawn a lot of attention. In this study, we utilize quantum algorithms to improve impossible differential attack, and design two quantum automatic tools for searching impossible differentials. The proposed quantum algorithms exploit the idea of miss-in-the-middle and the properties of truncated differentials. We rigorously prove their validity and calculate the quantum resources required to implement them. Compared to existing classical automatic cryptanalysis, the quantum tools proposed have the advantage of accurately characterizing S-boxes while only requiring polynomial complexity, and can take into consideration the impact of the key schedules in single-key model.",
+      "publication_date": "2024-07-14T03:00:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2407.10056v1"
+    },
+    {
+      "title": "Post-Quantum Secure UE-to-UE Communications",
+      "authors": [
+        "Sanzida Hoque",
+        "Abdullah Aydeger",
+        "Engin Zeydan"
+      ],
+      "abstract": "The rapid development of quantum computing poses a significant threat to the security of current cryptographic systems, including those used in User Equipment (UE) for mobile communications. Conventional cryptographic algorithms such as Rivest-Shamir-Adleman (RSA) and Elliptic curve cryptography (ECC) are vulnerable to quantum computing attacks, which could jeopardize the confidentiality, integrity, and availability of sensitive data transmitted by UEs. This demo paper proposes the integration of Post-Quantum Cryptography (PQC) in TLS for UE Communication to mitigate the risks of quantum attacks. We present our setup and explain each of the components used. We also provide the entire workflow of the demo for other researchers to replicate the same setup. By addressing the implementation of PQC within a 5G network to secure UE-to-UE communication, this research aims to pave the way for developing quantum-resistant mobile devices and securing the future of wireless communications.",
+      "publication_date": "2024-08-20T18:19:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2408.11117v1"
+    },
+    {
+      "title": "Enhancing Transportation Cyber-Physical Systems Security: A Shift to   Post-Quantum Cryptography",
+      "authors": [
+        "Abdullah Al Mamun",
+        "Akid Abrar",
+        "Mizanur Rahman",
+        "M Sabbir Salek",
+        "Mashrur Chowdhury"
+      ],
+      "abstract": "The rise of quantum computing threatens traditional cryptographic algorithms that secure Transportation Cyber-Physical Systems (TCPS). Shor's algorithm poses a significant threat to RSA and ECC, while Grover's algorithm reduces the security of symmetric encryption schemes, such as AES. The objective of this paper is to underscore the urgency of transitioning to post-quantum cryptography (PQC) to mitigate these risks in TCPS by analyzing the vulnerabilities of traditional cryptographic schemes and the applicability of standardized PQC schemes in TCPS. We analyzed vulnerabilities in traditional cryptography against quantum attacks and reviewed the applicability of NIST-standardized PQC schemes, including CRYSTALS-Kyber, CRYSTALS-Dilithium, and SPHINCS+, in TCPS. We conducted a case study to analyze the vulnerabilities of a TCPS application from the Architecture Reference for Cooperative and Intelligent Transportation (ARC-IT) service package, i.e., Electronic Toll Collection, leveraging the Microsoft Threat Modeling tool. This case study highlights the cryptographic vulnerabilities of a TCPS application and presents how PQC can effectively counter these threats. Additionally, we evaluated CRYSTALS-Kyber's performance across wired and wireless TCPS data communication scenarios. While CRYSTALS-Kyber proves effective in securing TCPS applications over high-bandwidth, low-latency Ethernet networks, our analysis highlights challenges in meeting the stringent latency requirements of safety-critical wireless applications within TCPS. Future research should focus on developing lightweight PQC solutions and hybrid schemes that integrate traditional and PQC algorithms, to enhance compatibility, scalability, and real-time performance, ensuring robust protection against emerging quantum threats in TCPS.",
+      "publication_date": "2024-11-20T04:11:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.13023v1"
+    },
+    {
+      "title": "Quantum Differential Cryptanalysis",
+      "authors": [
+        "Qing Zhou",
+        "Songfeng Lu",
+        "Zhigang Zhang",
+        "Jie Sun"
+      ],
+      "abstract": "In this paper, we propose a quantum version of the differential cryptanalysis which offers a quadratic speedup over the existing classical one and show the quantum circuit implementing it. The quantum differential cryptanalysis is based on the quantum minimum/maximum-finding algorithm, where the values to be compared and filtered are obtained by calling the quantum counting algorithm. Any cipher which is vulnerable to the classical differential cryptanalysis based on counting procedures can be cracked more quickly under this quantum differential attack.",
+      "publication_date": "2018-11-25T02:23:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1811.09931v2"
+    },
+    {
+      "title": "Quantum resource estimates for computing binary elliptic curve discrete   logarithms",
+      "authors": [
+        "Michael Garn",
+        "Angus Kan"
+      ],
+      "abstract": "We perform logical and physical resource estimation for computing binary elliptic curve discrete logarithms using Shor's algorithm on fault-tolerant quantum computers. We adopt a windowed approach to design our circuit implementation of the algorithm, which comprises repeated applications of elliptic curve point addition operations and table look-ups. Unlike previous work, the point addition operation is implemented exactly, including all exceptional cases. We provide exact logical gate and qubit counts of our algorithm for cryptographically relevant binary field sizes. Furthermore, we estimate the hardware footprint and runtime of our algorithm executed on surface-code matter-based quantum computers with a baseline architecture, where logical qubits have nearest-neighbor connectivity, and on a surface-code photonic fusion-based quantum computer with an active-volume architecture, which enjoys a logarithmic number of non-local connections between logical qubits. At 10$\\%$ threshold and compared to a baseline device with a $1\\mu s$ code cycle, our algorithm runs $\\gtrsim$ 2-20 times faster, depending on the operating regime of the hardware and over all considered field sizes, on a photonic active-volume device.",
+      "publication_date": "2025-03-04T20:18:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2503.02984v1"
+    },
+    {
+      "title": "Blockchain Security Risk Assessment in Quantum Era, Migration Strategies   and Proactive Defense",
+      "authors": [
+        "Yaser Baseri",
+        "Abdelhakim Hafid",
+        "Yahya Shahsavari",
+        "Dimitrios Makrakis",
+        "Hassan Khodaiemehr"
+      ],
+      "abstract": "The emergence of quantum computing presents a formidable challenge to the security of blockchain systems. Traditional cryptographic algorithms, foundational to digital signatures, message encryption, and hashing functions, become vulnerable to the immense computational power of quantum computers. This paper conducts a thorough risk assessment of transitioning to quantum-resistant blockchains, comprehensively analyzing potential threats targeting vital blockchain components: the network, mining pools, transaction verification mechanisms, smart contracts, and user wallets. By elucidating the intricate challenges and strategic considerations inherent in transitioning to quantum-resistant algorithms, the paper evaluates risks and highlights obstacles in securing blockchain components with quantum-resistant cryptography. It offers a hybrid migration strategy to facilitate a smooth transition from classical to quantum-resistant cryptography. The analysis extends to prominent blockchains such as Bitcoin, Ethereum, Ripple, Litecoin, and Zcash, assessing vulnerable components, potential impacts, and associated STRIDE threats, thereby identifying areas susceptible to quantum attacks. Beyond analysis, the paper provides actionable guidance for designing secure and resilient blockchain ecosystems in the quantum computing era. Recognizing the looming threat of quantum computers, this research advocates for a proactive transition to quantum-resistant blockchain networks. It proposes a tailored security blueprint that strategically fortifies each component against the evolving landscape of quantum-induced cyber threats. Emphasizing the critical need for blockchain stakeholders to adopt proactive measures and implement quantum-resistant solutions, the paper underscores the importance of embracing these insights to navigate the complexities of the quantum era with resilience and confidence.",
+      "publication_date": "2025-01-21T00:27:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.11798v1"
+    },
+    {
+      "title": "Breaking Symmetric Cryptosystems using Quantum Period Finding",
+      "authors": [
+        "Marc Kaplan",
+        "Gaëtan Leurent",
+        "Anthony Leverrier",
+        "María Naya-Plasencia"
+      ],
+      "abstract": "Due to Shor's algorithm, quantum computers are a severe threat for public key cryptography. This motivated the cryptographic community to search for quantum-safe solutions. On the other hand, the impact of quantum computing on secret key cryptography is much less understood. In this paper, we consider attacks where an adversary can query an oracle implementing a cryptographic primitive in a quantum superposition of different states. This model gives a lot of power to the adversary, but recent results show that it is nonetheless possible to build secure cryptosystems in it.   We study applications of a quantum procedure called Simon's algorithm (the simplest quantum period finding algorithm) in order to attack symmetric cryptosystems in this model. Following previous works in this direction, we show that several classical attacks based on finding collisions can be dramatically sped up using Simon's algorithm: finding a collision requires $\\Omega(2^{n/2})$ queries in the classical setting, but when collisions happen with some hidden periodicity, they can be found with only $O(n)$ queries in the quantum model.   We obtain attacks with very strong implications. First, we show that the most widely used modes of operation for authentication and authenticated encryption e.g. CBC-MAC, PMAC, GMAC, GCM, and OCB) are completely broken in this security model. Our attacks are also applicable to many CAESAR candidates: CLOC, AEZ, COPA, OTR, POET, OMD, and Minalpher. This is quite surprising compared to the situation with encryption modes: Anand et al. show that standard modes are secure with a quantum-secure PRF.   Second, we show that Simon's algorithm can also be applied to slide attacks, leading to an exponential speed-up of a classical symmetric cryptanalysis technique in the quantum model.",
+      "publication_date": "2016-02-18T21:13:16+00:00",
+      "doi": "10.1007/978-3-662-53008-5_8",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1602.05973v3"
+    },
+    {
+      "title": "A Security Assessment tool for Quantum Threat Analysis",
+      "authors": [
+        "Basel Halak",
+        "Cristian Sebastian Csete",
+        "Edward Joyce",
+        "Jack Papaioannou",
+        "Alexandre Pires",
+        "Jin Soma",
+        "Betul Gokkaya",
+        "Michael Murphy"
+      ],
+      "abstract": "The rapid advancement of quantum computing poses a significant threat to many current security algorithms used for secure communication, digital authentication, and information encryption. A sufficiently powerful quantum computer could potentially exploit vulnerabilities in these algorithms, rendering data in transit insecure. This threat is expected to materialize within the next 20 years. Immediate transition to quantum-resilient cryptographic schemes is crucial, primarily to mitigate store-now-decrypt-later attacks and to ensure the security of products with decade-long operational lives. This transition requires a systematic approach to identifying and upgrading vulnerable cryptographic implementations. This work developed a quantum assessment tool for organizations, providing tailored recommendations for transitioning their security protocols into a post-quantum world. The work included a systematic evaluation of the proposed solution using qualitative feedback from network administrators and cybersecurity experts. This feedback was used to refine the accuracy and usability of the assessment process. The results demonstrate its effectiveness and usefulness in helping organizations prepare for quantum computing threats. The assessment tool is publicly available at (https://quantum-watch.soton.ac.uk).",
+      "publication_date": "2024-07-18T13:58:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.13523v1"
+    },
+    {
+      "title": "Quantum impossible differential and truncated differential cryptanalysis",
+      "authors": [
+        "Huiqin Xie",
+        "Li Yang"
+      ],
+      "abstract": "Traditional cryptography is suffering a huge threat from the development of quantum computing. While many currently used public-key cryptosystems would be broken by Shor's algorithm, the effect of quantum computing on symmetric ones is still unclear. The security of symmetric ciphers relies heavily on the development of cryptanalytic tools. Thus, in order to accurately evaluate the security of symmetric primitives in the post-quantum world, it is significant to improve classical cryptanalytic methods using quantum algorithms. In this paper, we focus on two variants of differential cryptanalysis: truncated differential cryptanalysis and impossible differential cryptanalysis. Based on the fact that Bernstein-Vazirani algorithm can be used to find the linear structures of Boolean functions, we propose two quantum algorithms that can be used to find high-probability truncated differentials and impossible differentials of block ciphers, respectively. We rigorously prove the validity of the algorithms and analyze their complexity. Our algorithms treat all rounds of the reduced cipher as a whole and only concerns the input and output differences at its both ends, instead of specific differential characteristics. Therefore, to a certain extent, they alleviate the weakness of conventional differential cryptanalysis, namely the difficulties in finding differential characteristics as the number of rounds increases.",
+      "publication_date": "2017-12-18T02:37:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1712.06997v2"
+    },
+    {
+      "title": "Applying Grover's Algorithm to Hash Functions: A Software Perspective",
+      "authors": [
+        "Richard Preston"
+      ],
+      "abstract": "Quantum software frameworks provide software engineers with the tools to study quantum algorithms as applied to practical problems. We implement classical hash functions MD5, SHA-1, SHA-2, and SHA-3 as quantum oracles to study the computational resource requirements of conducting a preimage attack with Grover's Algorithm. We introduce an improvement to the SHA-3 oracle that reduces the number of logical qubits required in the Keccak block permutation by 40%.",
+      "publication_date": "2022-02-22T15:38:04+00:00",
+      "doi": "10.1109/TQE.2022.3233526",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2202.10982v1"
+    },
+    {
+      "title": "Deploying hybrid quantum-secured infrastructure for applications: When   quantum and post-quantum can work together",
+      "authors": [
+        "Aleksey K. Fedorov"
+      ],
+      "abstract": "Most currently used cryptographic tools for protecting data are based on certain computational assumptions, which makes them vulnerable with respect to technological and algorithmic developments, such as quantum computing. One existing option to counter this potential threat is quantum key distribution, whose security is based on the laws of quantum physics. Quantum key distribution is secure against unforeseen technological developments. A second approach is post-quantum cryptography, which is a set of cryptographic primitives that are believed to be secure even against attacks with both classical and quantum computing technologies. From this perspective, this study reviews recent progress in the deployment of the quantum-secured infrastructure based on quantum key distribution, post-quantum cryptography, and their combinations. Various directions in the further development of the full-stack quantum-secured infrastructure are also indicated. Distributed applications, such as blockchains and distributed ledgers, are also discussed.",
+      "publication_date": "2023-04-10T13:44:21+00:00",
+      "doi": "10.3389/frqst.2023.1164428",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2304.04585v1"
+    },
+    {
+      "title": "Post Quantum Cryptography: Techniques, Challenges, Standardization, and   Directions for Future Research",
+      "authors": [
+        "Ritik Bavdekar",
+        "Eashan Jayant Chopde",
+        "Ashutosh Bhatia",
+        "Kamlesh Tiwari",
+        "Sandeep Joshua Daniel",
+        "Atul"
+      ],
+      "abstract": "The development of large quantum computers will have dire consequences for cryptography. Most of the symmetric and asymmetric cryptographic algorithms are vulnerable to quantum algorithms. Grover's search algorithm gives a square root time boost for the searching of the key in symmetric schemes like AES and 3DES. The security of asymmetric algorithms like RSA, Diffie Hellman, and ECC is based on the mathematical hardness of prime factorization and discrete logarithm. The best classical algorithms available take exponential time. Shor's factoring algorithm can solve the problems in polynomial time. Major breakthroughs in quantum computing will render all the present-day widely used asymmetric cryptosystems insecure. This paper analyzes the vulnerability of the classical cryptosystems in the context of quantum computers discusses various post-quantum cryptosystem families, discusses the status of the NIST post-quantum cryptography standardization process, and finally provides a couple of future research directions in this field.",
+      "publication_date": "2022-02-06T18:12:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2202.02826v1"
+    },
+    {
+      "title": "Quantum Attacks without Superposition Queries: the Offline Simon's   Algorithm",
+      "authors": [
+        "Xavier Bonnetain",
+        "Akinori Hosoyamada",
+        "María Naya-Plasencia",
+        "Yu Sasaki",
+        "André Schrottenloher"
+      ],
+      "abstract": "In symmetric cryptanalysis, the model of superposition queries has led to surprising results, with many constructions being broken in polynomial time thanks to Simon's period-finding algorithm. But the practical implications of these attacks remain blurry. In contrast, the results obtained so far for a quantum adversary making classical queries only are less impressive. In this paper, we introduce a new quantum algorithm which uses Simon's subroutines in a novel way. We manage to leverage the algebraic structure of cryptosystems in the context of a quantum attacker limited to classical queries and offline quantum computations. We obtain improved quantum-time/classical-data tradeoffs with respect to the current literature, while using only as much hardware requirements (quantum and classical) as a standard exhaustive search with Grover's algorithm. In particular, we are able to break the Even-Mansour construction in quantum time $\\tilde{O}(2^{n/3})$, with $O(2^{n/3})$ classical queries and $O(n^2)$ qubits only. In addition, we improve some previous superposition attacks by reducing the data complexity from exponential to polynomial, with the same time complexity. Our approach can be seen in two complementary ways: \\emph{reusing} superposition queries during the iteration of a search using Grover's algorithm, or alternatively, removing the memory requirement in some quantum attacks based on a collision search, thanks to their algebraic structure. We provide a list of cryptographic applications, including the Even-Mansour construction, the FX construction, some Sponge authenticated modes of encryption, and many more.",
+      "publication_date": "2020-02-27T21:05:54+00:00",
+      "doi": "10.1007/978-3-030-34578-5_20",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2002.12439v1"
+    },
+    {
+      "title": "Quantum speedup in stoquastic adiabatic quantum computation",
+      "authors": [
+        "Keisuke Fujii"
+      ],
+      "abstract": "Quantum computation provides exponential speedup for solving certain mathematical problems against classical computers. Motivated by current rapid experimental progress on quantum computing devices, various models of quantum computation have been investigated to show quantum computational supremacy. At a commercial side, quantum annealing machine realizes the quantum Ising model with a transverse field and heuristically solves combinatorial optimization problems. The computational power of this machine is closely related to adiabatic quantum computation (AQC) with a restricted type of Hamiltonians, namely stoquastic Hamiltonians, and has been thought to be relatively less powerful compared to universal quantum computers. Little is known about computational quantum speedup nor advantage in AQC with stoquastic Hamiltonians. Here we characterize computational capability of AQC with stoquastic Hamiltonians, which we call stoqAQC. We construct a concrete stoqAQC model, whose lowest energy gap is lower bounded polynomially, and hence the final state can be obtained in polynomial time. Then we show that it can simulate universal quantum computation if adaptive single-qubit measurements in non-standard bases are allowed on the final state. Even if the measurements are restricted to non-adaptive measurements to respect the robustness of AQC, the proposed model exhibits quantum computational supremacy; classical simulation is impossible under complexity theoretical conjectures. Moreover, it is found that such a stoqAQC model can simulate Shor's algorithm and solve the factoring problem in polynomial time. We also propose how to overcome the measurement imperfections via quantum error correction within the stoqAQC model and also an experimentally feasible verification scheme to test whether or not stoqAQC is done faithfully.",
+      "publication_date": "2018-03-27T08:28:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1803.09954v1"
+    }
+  ]
+}

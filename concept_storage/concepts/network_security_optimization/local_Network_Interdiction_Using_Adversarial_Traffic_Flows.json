@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Network_Interdiction_Using_Adversarial_Traffic_Flows",
+  "paper_title": "Network Interdiction Using Adversarial Traffic Flows",
+  "concepts": [
+    {
+      "text": "interdiction",
+      "frequency": 137,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.036617+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬂow",
+      "frequency": 114,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.046701+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 74,
+      "relevance_score": 0.714158851356959,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.036197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 1",
+      "frequency": 40,
+      "relevance_score": 0.6319777574902482,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.366513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬂow interdiction",
+      "frequency": 52,
+      "relevance_score": 0.6315710847373226,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.291891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 62,
+      "relevance_score": 0.6145655241098846,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.039695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x e0 f",
+      "frequency": 21,
+      "relevance_score": 0.5742883226823803,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.552110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 algorithms involved",
+      "frequency": 2,
+      "relevance_score": 0.5665988878745124,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.588364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimal",
+      "frequency": 55,
+      "relevance_score": 0.5564694165490912,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.063115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategy",
+      "frequency": 55,
+      "relevance_score": 0.5564694165490912,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.065142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 dlogde 1",
+      "frequency": 17,
+      "relevance_score": 0.5410905469333555,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.522654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 53,
+      "relevance_score": 0.5398705286745787,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.085752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paths",
+      "frequency": 53,
+      "relevance_score": 0.5398705286745787,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.086093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "greedy",
+      "frequency": 52,
+      "relevance_score": 0.5315710847373226,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.166154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 b 1",
+      "frequency": 15,
+      "relevance_score": 0.5244916590588431,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.569477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user paths",
+      "frequency": 39,
+      "relevance_score": 0.5236783135529919,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.302820+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dlogde 1",
+      "frequency": 26,
+      "relevance_score": 0.5157855423686613,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.367192+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 1 dlogde",
+      "frequency": 13,
+      "relevance_score": 0.5078927711843306,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.522295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 dlogde",
+      "frequency": 25,
+      "relevance_score": 0.5074860984314051,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.366851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 49,
+      "relevance_score": 0.5066727529255539,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.085411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e0 f p",
+      "frequency": 12,
+      "relevance_score": 0.4995933272470744,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.552588+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e p pj3e",
+      "frequency": 12,
+      "relevance_score": 0.4995933272470744,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.567082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f p",
+      "frequency": 36,
+      "relevance_score": 0.49877998174122334,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.317073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recursive greedy",
+      "frequency": 36,
+      "relevance_score": 0.49877998174122334,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.357633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p x e0",
+      "frequency": 11,
+      "relevance_score": 0.49129388330981827,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.554620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b 1",
+      "frequency": 23,
+      "relevance_score": 0.49088721055689266,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.411437+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deterministic ﬂow interdiction",
+      "frequency": 23,
+      "relevance_score": 0.49088721055689266,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.492419+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robust ﬂow interdiction",
+      "frequency": 23,
+      "relevance_score": 0.49088721055689266,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.493776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b 1 dlogde",
+      "frequency": 10,
+      "relevance_score": 0.48299443937256203,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.569850+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 1 dlogade",
+      "frequency": 10,
+      "relevance_score": 0.48299443937256203,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.607628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ef p 1",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.521755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f p 1",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.552931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ef 2 p",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.559878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e0 f ef",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.560217+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p pj3e j",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.567429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "min p2u w",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.581911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p2u w p",
+      "frequency": 9,
+      "relevance_score": 0.4746949954353058,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.582274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x e0",
+      "frequency": 21,
+      "relevance_score": 0.4742883226823803,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.395743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e0 f",
+      "frequency": 21,
+      "relevance_score": 0.4742883226823803,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.396080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬂow interdiction problem",
+      "frequency": 21,
+      "relevance_score": 0.4742883226823803,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.492759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inalgorithm 1",
+      "frequency": 2,
+      "relevance_score": 0.4665988878745124,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.410081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4665988878745124,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.440389+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robust optimization framework",
+      "frequency": 2,
+      "relevance_score": 0.4665988878745124,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.494114+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 dlogde x",
+      "frequency": 8,
+      "relevance_score": 0.46639555149804957,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.556755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 p x",
+      "frequency": 8,
+      "relevance_score": 0.46639555149804957,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.558115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 dlogade x",
+      "frequency": 8,
+      "relevance_score": 0.46639555149804957,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.609212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w p",
+      "frequency": 32,
+      "relevance_score": 0.4655822059921985,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.325619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 ef p",
+      "frequency": 7,
+      "relevance_score": 0.45809610756079344,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.523650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ef 1 p",
+      "frequency": 7,
+      "relevance_score": 0.45809610756079344,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.557775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n0 1 b",
+      "frequency": 7,
+      "relevance_score": 0.45809610756079344,
+      "source_papers": [
+        "local/Network_Interdiction_Using_Adversarial_Traffic_Flows"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:57.585451+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:39:57.628473+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:39:57.628666+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

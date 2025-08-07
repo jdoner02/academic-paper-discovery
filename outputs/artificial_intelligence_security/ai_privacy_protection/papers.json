@@ -1,0 +1,928 @@
+{
+  "config_name": "artificial_intelligence_security",
+  "strategy_name": "ai_privacy_protection",
+  "processed_at": "2025-08-07T09:18:50.435823+00:00",
+  "total_papers": 50,
+  "papers": [
+    {
+      "title": "A Privacy-Centric Approach: Scalable and Secure Federated Learning   Enabled by Hybrid Homomorphic Encryption",
+      "authors": [
+        "Khoa Nguyen",
+        "Tanveer Khan",
+        "Antonis Michalas"
+      ],
+      "abstract": "Federated Learning (FL) enables collaborative model training without sharing raw data, making it a promising approach for privacy-sensitive domains. Despite its potential, FL faces significant challenges, particularly in terms of communication overhead and data privacy. Privacy-preserving Techniques (PPTs) such as Homomorphic Encryption (HE) have been used to mitigate these concerns. However, these techniques introduce substantial computational and communication costs, limiting their practical deployment. In this work, we explore how Hybrid Homomorphic Encryption (HHE), a cryptographic protocol that combines symmetric encryption with HE, can be effectively integrated with FL to address both communication and privacy challenges, paving the way for scalable and secure decentralized learning system.",
+      "publication_date": "2025-07-20T07:46:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.14853v1.pdf"
+    },
+    {
+      "title": "FuSeFL: Fully Secure and Scalable Cross-Silo Federated Learning",
+      "authors": [
+        "Sahar Ghoflsaz Ghinani",
+        "Elaheh Sadredini"
+      ],
+      "abstract": "Federated Learning (FL) enables collaborative model training without centralizing client data, making it attractive for privacy-sensitive domains. While existing approaches employ cryptographic techniques such as homomorphic encryption, differential privacy, or secure multiparty computation to mitigate inference attacks-including model inversion, membership inference, and gradient leakage-they often suffer from high computational, communication, or memory overheads. Moreover, many methods overlook the confidentiality of the global model itself, which may be proprietary and sensitive. These challenges limit the practicality of secure FL, especially in cross-silo deployments involving large datasets and strict compliance requirements.   We present FuSeFL, a fully secure and scalable FL scheme designed for cross-silo settings. FuSeFL decentralizes training across client pairs using lightweight secure multiparty computation (MPC), while confining the server's role to secure aggregation. This design eliminates server bottlenecks, avoids data offloading, and preserves full confidentiality of data, model, and updates throughout training. FuSeFL defends against inference threats, achieves up to 95% lower communication latency and 50% lower server memory usage, and improves accuracy over prior secure FL solutions, demonstrating strong security and efficiency at scale.",
+      "publication_date": "2025-07-18T00:50:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.13591v1.pdf"
+    },
+    {
+      "title": "Federated Learning-Based Data Collaboration Method for Enhancing Edge   Cloud AI System Security Using Large Language Models",
+      "authors": [
+        "Huaiying Luo",
+        "Cheng Ji"
+      ],
+      "abstract": "With the widespread application of edge computing and cloud systems in AI-driven applications, how to maintain efficient performance while ensuring data privacy has become an urgent security issue. This paper proposes a federated learning-based data collaboration method to improve the security of edge cloud AI systems, and use large-scale language models (LLMs) to enhance data privacy protection and system robustness. Based on the existing federated learning framework, this method introduces a secure multi-party computation protocol, which optimizes the data aggregation and encryption process between distributed nodes by using LLM to ensure data privacy and improve system efficiency. By combining advanced adversarial training techniques, the model enhances the resistance of edge cloud AI systems to security threats such as data leakage and model poisoning. Experimental results show that the proposed method is 15% better than the traditional federated learning method in terms of data protection and model robustness.",
+      "publication_date": "2025-06-22T16:23:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2506.18087v1.pdf"
+    },
+    {
+      "title": "Differential Privacy in Machine Learning: From Symbolic AI to LLMs",
+      "authors": [
+        "Francisco Aguilera-Martínez",
+        "Fernando Berzal"
+      ],
+      "abstract": "Machine learning models should not reveal particular information that is not otherwise accessible. Differential privacy provides a formal framework to mitigate privacy risks by ensuring that the inclusion or exclusion of any single data point does not significantly alter the output of an algorithm, thus limiting the exposure of private information. This survey paper explores the foundational definitions of differential privacy, reviews its original formulations and tracing its evolution through key research contributions. It then provides an in-depth examination of how DP has been integrated into machine learning models, analyzing existing proposals and methods to preserve privacy when training ML models. Finally, it describes how DP-based ML techniques can be evaluated in practice. %Finally, it discusses the broader implications of DP, highlighting its potential for public benefit, its real-world applications, and the challenges it faces, including vulnerabilities to adversarial attacks. By offering a comprehensive overview of differential privacy in machine learning, this work aims to contribute to the ongoing development of secure and responsible AI systems.",
+      "publication_date": "2025-06-13T11:30:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2506.11687v1.pdf"
+    },
+    {
+      "title": "Efficient Full-Stack Private Federated Deep Learning with Post-Quantum   Security",
+      "authors": [
+        "Yiwei Zhang",
+        "Rouzbeh Behnia",
+        "Attila A. Yavuz",
+        "Reza Ebrahimi",
+        "Elisa Bertino"
+      ],
+      "abstract": "Federated learning (FL) enables collaborative model training while preserving user data privacy by keeping data local. Despite these advantages, FL remains vulnerable to privacy attacks on user updates and model parameters during training and deployment. Secure aggregation protocols have been proposed to protect user updates by encrypting them, but these methods often incur high computational costs and are not resistant to quantum computers. Additionally, differential privacy (DP) has been used to mitigate privacy leakages, but existing methods focus on secure aggregation or DP, neglecting their potential synergies. To address these gaps, we introduce Beskar, a novel framework that provides post-quantum secure aggregation, optimizes computational overhead for FL settings, and defines a comprehensive threat model that accounts for a wide spectrum of adversaries. We also integrate DP into different stages of FL training to enhance privacy protection in diverse scenarios. Our framework provides a detailed analysis of the trade-offs between security, performance, and model accuracy, representing the first thorough examination of secure aggregation protocols combined with various DP approaches for post-quantum secure FL. Beskar aims to address the pressing privacy and security issues FL while ensuring quantum-safety and robust performance.",
+      "publication_date": "2025-05-09T03:20:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2505.05751v1.pdf"
+    },
+    {
+      "title": "FLSSM: A Federated Learning Storage Security Model with Homomorphic   Encryption",
+      "authors": [
+        "Yang Li",
+        "Chunhe Xia",
+        "Chang Li",
+        "Xiaojian Li",
+        "Tianbo Wang"
+      ],
+      "abstract": "Federated learning based on homomorphic encryption has received widespread attention due to its high security and enhanced protection of user data privacy. However, the characteristics of encrypted computation lead to three challenging problems: ``computation-efficiency\", ``attack-tracing\" and ``contribution-assessment\". The first refers to the efficiency of encrypted computation during model aggregation, the second refers to tracing malicious attacks in an encrypted state, and the third refers to the fairness of contribution assessment for local models after encryption. This paper proposes a federated learning storage security model with homomorphic encryption (FLSSM) to protect federated learning model privacy and address the three issues mentioned above. First, we utilize different nodes to aggregate local models in parallel, thereby improving encrypted models' aggregation efficiency. Second, we introduce trusted supervise nodes to examine local models when the global model is attacked, enabling the tracing of malicious attacks under homomorphic encryption. Finally, we fairly reward local training nodes with encrypted local models based on trusted training time. Experiments on multiple real-world datasets show that our model significantly outperforms baseline models in terms of both efficiency and security metrics.",
+      "publication_date": "2025-04-15T11:33:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2504.11088v1.pdf"
+    },
+    {
+      "title": "Privacy Preservation in Gen AI Applications",
+      "authors": [
+        "Swetha S",
+        "Ram Sundhar K Shaju",
+        "Rakshana M",
+        "Ganesh R",
+        "Balavedhaa S",
+        "Thiruvaazhi U"
+      ],
+      "abstract": "The ability of machines to comprehend and produce language that is similar to that of humans has revolutionized sectors like customer service, healthcare, and finance thanks to the quick advances in Natural Language Processing (NLP), which are fueled by Generative Artificial Intelligence (AI) and Large Language Models (LLMs). However, because LLMs trained on large datasets may unintentionally absorb and reveal Personally Identifiable Information (PII) from user interactions, these capabilities also raise serious privacy concerns. Deep neural networks' intricacy makes it difficult to track down or stop the inadvertent storing and release of private information, which raises serious concerns about the privacy and security of AI-driven data. This study tackles these issues by detecting Generative AI weaknesses through attacks such as data extraction, model inversion, and membership inference. A privacy-preserving Generative AI application that is resistant to these assaults is then developed. It ensures privacy without sacrificing functionality by using methods to identify, alter, or remove PII before to dealing with LLMs. In order to determine how well cloud platforms like Microsoft Azure, Google Cloud, and AWS provide privacy tools for protecting AI applications, the study also examines these technologies. In the end, this study offers a fundamental privacy paradigm for generative AI systems, focusing on data security and moral AI implementation, and opening the door to a more secure and conscientious use of these tools.",
+      "publication_date": "2025-04-12T06:19:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2504.09095v1.pdf"
+    },
+    {
+      "title": "Quantum-Inspired Privacy-Preserving Federated Learning Framework for   Secure Dementia Classification",
+      "authors": [
+        "Gazi Tanbhir",
+        "Md. Farhan Shahriyar"
+      ],
+      "abstract": "Dementia, a neurological disorder impacting millions globally, presents significant challenges in diagnosis and patient care. With the rise of privacy concerns and security threats in healthcare, federated learning (FL) has emerged as a promising approach to enable collaborative model training across decentralized datasets without exposing sensitive patient information. However, FL remains vulnerable to advanced security breaches such as gradient inversion and eavesdropping attacks. This paper introduces a novel framework that integrates federated learning with quantum-inspired encryption techniques for dementia classification, emphasizing privacy preservation and security. Leveraging quantum key distribution (QKD), the framework ensures secure transmission of model weights, protecting against unauthorized access and interception during training. The methodology utilizes a convolutional neural network (CNN) for dementia classification, with federated training conducted across distributed healthcare nodes, incorporating QKD-encrypted weight sharing to secure the aggregation process. Experimental evaluations conducted on MRI data from the OASIS dataset demonstrate that the proposed framework achieves identical accuracy levels to a baseline model while enhancing data security and reducing loss by almost 1% compared to the classical baseline model. The framework offers significant implications for democratizing access to AI-driven dementia diagnostics in low- and middle-income countries, addressing critical resource and privacy constraints. This work contributes a robust, scalable, and secure federated learning solution for healthcare applications, paving the way for broader adoption of quantum-inspired techniques in AI-driven medical research.",
+      "publication_date": "2025-03-05T08:49:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2503.03267v1.pdf"
+    },
+    {
+      "title": "TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated   Learning",
+      "authors": [
+        "Runhua Xu",
+        "Bo Li",
+        "Chao Li",
+        "James B. D. Joshi",
+        "Shuai Ma",
+        "Jianxin Li"
+      ],
+      "abstract": "Federated learning is a computing paradigm that enhances privacy by enabling multiple parties to collaboratively train a machine learning model without revealing personal data. However, current research indicates that traditional federated learning platforms are unable to ensure privacy due to privacy leaks caused by the interchange of gradients. To achieve privacy-preserving federated learning, integrating secure aggregation mechanisms is essential. Unfortunately, existing solutions are vulnerable to recently demonstrated inference attacks such as the disaggregation attack. This paper proposes TAPFed, an approach for achieving privacy-preserving federated learning in the context of multiple decentralized aggregators with malicious actors. TAPFed uses a proposed threshold functional encryption scheme and allows for a certain number of malicious aggregators while maintaining security and privacy. We provide formal security and privacy analyses of TAPFed and compare it to various baselines through experimental evaluation. Our results show that TAPFed offers equivalent performance in terms of model quality compared to state-of-the-art approaches while reducing transmission overhead by 29%-45% across different model training scenarios. Most importantly, TAPFed can defend against recently demonstrated inference attacks caused by curious aggregators, which the majority of existing approaches are susceptible to.",
+      "publication_date": "2025-01-09T08:24:10+00:00",
+      "doi": "10.1109/TDSC.2024.3350206",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2501.05053v1.pdf"
+    },
+    {
+      "title": "Towards Privacy-Preserving Medical Imaging: Federated Learning with   Differential Privacy and Secure Aggregation Using a Modified ResNet   Architecture",
+      "authors": [
+        "Mohamad Haj Fares",
+        "Ahmed Mohamed Saad Emam Saad"
+      ],
+      "abstract": "With increasing concerns over privacy in healthcare, especially for sensitive medical data, this research introduces a federated learning framework that combines local differential privacy and secure aggregation using Secure Multi-Party Computation for medical image classification. Further, we propose DPResNet, a modified ResNet architecture optimized for differential privacy. Leveraging the BloodMNIST benchmark dataset, we simulate a realistic data-sharing environment across different hospitals, addressing the distinct privacy challenges posed by federated healthcare data. Experimental results indicate that our privacy-preserving federated model achieves accuracy levels close to non-private models, surpassing traditional approaches while maintaining strict data confidentiality. By enhancing the privacy, efficiency, and reliability of healthcare data management, our approach offers substantial benefits to patients, healthcare providers, and the broader healthcare ecosystem.",
+      "publication_date": "2024-12-01T05:52:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2412.00687v1.pdf"
+    },
+    {
+      "title": "Privacy-Preserving Federated Learning with Differentially Private   Hyperdimensional Computing",
+      "authors": [
+        "Fardin Jalil Piran",
+        "Zhiling Chen",
+        "Mohsen Imani",
+        "Farhad Imani"
+      ],
+      "abstract": "Federated Learning (FL) has become a key method for preserving data privacy in Internet of Things (IoT) environments, as it trains Machine Learning (ML) models locally while transmitting only model updates. Despite this design, FL remains susceptible to threats such as model inversion and membership inference attacks, which can reveal private training data. Differential Privacy (DP) techniques are often introduced to mitigate these risks, but simply injecting DP noise into black-box ML models can compromise accuracy, particularly in dynamic IoT contexts, where continuous, lifelong learning leads to excessive noise accumulation. To address this challenge, we propose Federated HyperDimensional computing with Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI) framework that integrates neuro-symbolic computing and DP. Unlike conventional approaches, FedHDPrivacy actively monitors the cumulative noise across learning rounds and adds only the additional noise required to satisfy privacy constraints. In a real-world application for monitoring manufacturing machining processes, FedHDPrivacy maintains high performance while surpassing standard FL frameworks - Federated Averaging (FedAvg), Federated Proximal (FedProx), Federated Normalized Averaging (FedNova), and Federated Optimization (FedOpt) - by up to 37%. Looking ahead, FedHDPrivacy offers a promising avenue for further enhancements, such as incorporating multimodal data fusion.",
+      "publication_date": "2024-11-02T05:00:44+00:00",
+      "doi": "10.1016/j.compeleceng.2025.110261",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2411.01140v3.pdf"
+    },
+    {
+      "title": "Balancing Innovation and Privacy: Data Security Strategies in Natural   Language Processing Applications",
+      "authors": [
+        "Shaobo Liu",
+        "Guiran Liu",
+        "Binrong Zhu",
+        "Yuanshuai Luo",
+        "Linxiao Wu",
+        "Rui Wang"
+      ],
+      "abstract": "This research addresses privacy protection in Natural Language Processing (NLP) by introducing a novel algorithm based on differential privacy, aimed at safeguarding user data in common applications such as chatbots, sentiment analysis, and machine translation. With the widespread application of NLP technology, the security and privacy protection of user data have become important issues that need to be solved urgently. This paper proposes a new privacy protection algorithm designed to effectively prevent the leakage of user sensitive information. By introducing a differential privacy mechanism, our model ensures the accuracy and reliability of data analysis results while adding random noise. This method not only reduces the risk caused by data leakage but also achieves effective processing of data while protecting user privacy. Compared to traditional privacy methods like data anonymization and homomorphic encryption, our approach offers significant advantages in terms of computational efficiency and scalability while maintaining high accuracy in data analysis. The proposed algorithm's efficacy is demonstrated through performance metrics such as accuracy (0.89), precision (0.85), and recall (0.88), outperforming other methods in balancing privacy and utility. As privacy protection regulations become increasingly stringent, enterprises and developers must take effective measures to deal with privacy risks. Our research provides an important reference for the application of privacy protection technology in the field of NLP, emphasizing the need to achieve a balance between technological innovation and user privacy. In the future, with the continuous advancement of technology, privacy protection will become a core element of data-driven applications and promote the healthy development of the entire industry.",
+      "publication_date": "2024-10-11T06:05:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2410.08553v1.pdf"
+    },
+    {
+      "title": "Camel: Communication-Efficient and Maliciously Secure Federated Learning   in the Shuffle Model of Differential Privacy",
+      "authors": [
+        "Shuangqing Xu",
+        "Yifeng Zheng",
+        "Zhongyun Hua"
+      ],
+      "abstract": "Federated learning (FL) has rapidly become a compelling paradigm that enables multiple clients to jointly train a model by sharing only gradient updates for aggregation, without revealing their local private data. In order to protect the gradient updates which could also be privacy-sensitive, there has been a line of work studying local differential privacy (LDP) mechanisms to provide a formal privacy guarantee. With LDP mechanisms, clients locally perturb their gradient updates before sharing them out for aggregation. However, such approaches are known for greatly degrading the model utility, due to heavy noise addition. To enable a better privacy-utility tradeoff, a recently emerging trend is to apply the shuffle model of DP in FL, which relies on an intermediate shuffling operation on the perturbed gradient updates to achieve privacy amplification. Following this trend, in this paper, we present Camel, a new communication-efficient and maliciously secure FL framework in the shuffle model of DP. Camel first departs from existing works by ambitiously supporting integrity check for the shuffle computation, achieving security against malicious adversary. Specifically, Camel builds on the trending cryptographic primitive of secret-shared shuffle, with custom techniques we develop for optimizing system-wide communication efficiency, and for lightweight integrity checks to harden the security of server-side computation. In addition, we also derive a significantly tighter bound on the privacy loss through analyzing the Renyi differential privacy (RDP) of the overall FL process. Extensive experiments demonstrate that Camel achieves better privacy-utility trade-offs than the state-of-the-art work, with promising performance.",
+      "publication_date": "2024-10-04T13:13:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2410.03407v1.pdf"
+    },
+    {
+      "title": "Benchmarking Secure Sampling Protocols for Differential Privacy",
+      "authors": [
+        "Yucheng Fu",
+        "Tianhao Wang"
+      ],
+      "abstract": "Differential privacy (DP) is widely employed to provide privacy protection for individuals by limiting information leakage from the aggregated data. Two well-known models of DP are the central model and the local model. The former requires a trustworthy server for data aggregation, while the latter requires individuals to add noise, significantly decreasing the utility of aggregated results. Recently, many studies have proposed to achieve DP with Secure Multi-party Computation (MPC) in distributed settings, namely, the distributed model, which has utility comparable to central model while, under specific security assumptions, preventing parties from obtaining others' information. One challenge of realizing DP in distributed model is efficiently sampling noise with MPC. Although many secure sampling methods have been proposed, they have different security assumptions and isolated theoretical analyses. There is a lack of experimental evaluations to measure and compare their performances. We fill this gap by benchmarking existing sampling protocols in MPC and performing comprehensive measurements of their efficiency. First, we present a taxonomy of the underlying techniques of these sampling protocols. Second, we extend widely used distributed noise generation protocols to be resilient against Byzantine attackers. Third, we implement discrete sampling protocols and align their security settings for a fair comparison. We then conduct an extensive evaluation to study their efficiency and utility.",
+      "publication_date": "2024-09-16T19:04:47+00:00",
+      "doi": "10.1145/3658644.3690257",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2409.10667v2.pdf"
+    },
+    {
+      "title": "Privacy in Federated Learning",
+      "authors": [
+        "Jaydip Sen",
+        "Hetvi Waghela",
+        "Sneha Rakshit"
+      ],
+      "abstract": "Federated Learning (FL) represents a significant advancement in distributed machine learning, enabling multiple participants to collaboratively train models without sharing raw data. This decentralized approach enhances privacy by keeping data on local devices. However, FL introduces new privacy challenges, as model updates shared during training can inadvertently leak sensitive information. This chapter delves into the core privacy concerns within FL, including the risks of data reconstruction, model inversion attacks, and membership inference. It explores various privacy-preserving techniques, such as Differential Privacy (DP) and Secure Multi-Party Computation (SMPC), which are designed to mitigate these risks. The chapter also examines the trade-offs between model accuracy and privacy, emphasizing the importance of balancing these factors in practical implementations. Furthermore, it discusses the role of regulatory frameworks, such as GDPR, in shaping the privacy standards for FL. By providing a comprehensive overview of the current state of privacy in FL, this chapter aims to equip researchers and practitioners with the knowledge necessary to navigate the complexities of secure federated learning environments. The discussion highlights both the potential and limitations of existing privacy-enhancing techniques, offering insights into future research directions and the development of more robust solutions.",
+      "publication_date": "2024-08-12T18:41:58+00:00",
+      "doi": "10.5772/intechopen.1003421",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2408.08904v1.pdf"
+    },
+    {
+      "title": "Attack-Aware Noise Calibration for Differential Privacy",
+      "authors": [
+        "Bogdan Kulynych",
+        "Juan Felipe Gomez",
+        "Georgios Kaissis",
+        "Flavio du Pin Calmon",
+        "Carmela Troncoso"
+      ],
+      "abstract": "Differential privacy (DP) is a widely used approach for mitigating privacy risks when training machine learning models on sensitive data. DP mechanisms add noise during training to limit the risk of information leakage. The scale of the added noise is critical, as it determines the trade-off between privacy and utility. The standard practice is to select the noise scale to satisfy a given privacy budget $\\varepsilon$. This privacy budget is in turn interpreted in terms of operational attack risks, such as accuracy, sensitivity, and specificity of inference attacks aimed to recover information about the training data records. We show that first calibrating the noise scale to a privacy budget $\\varepsilon$, and then translating {\\epsilon} to attack risk leads to overly conservative risk assessments and unnecessarily low utility. Instead, we propose methods to directly calibrate the noise scale to a desired attack risk level, bypassing the step of choosing $\\varepsilon$. For a given notion of attack risk, our approach significantly decreases noise scale, leading to increased utility at the same level of privacy. We empirically demonstrate that calibrating noise to attack sensitivity/specificity, rather than $\\varepsilon$, when training privacy-preserving ML models substantially improves model accuracy for the same risk level. Our work provides a principled and practical way to improve the utility of privacy-preserving ML without compromising on privacy. The code is available at https://github.com/Felipe-Gomez/riskcal",
+      "publication_date": "2024-07-02T11:49:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2407.02191v2.pdf"
+    },
+    {
+      "title": "Securing Health Data on the Blockchain: A Differential Privacy and   Federated Learning Framework",
+      "authors": [
+        "Daniel Commey",
+        "Sena Hounsinou",
+        "Garth V. Crosby"
+      ],
+      "abstract": "This study proposes a framework to enhance privacy in Blockchain-based Internet of Things (BIoT) systems used in the healthcare sector. The framework addresses the challenge of leveraging health data for analytics while protecting patient privacy. To achieve this, the study integrates Differential Privacy (DP) with Federated Learning (FL) to protect sensitive health data collected by IoT nodes. The proposed framework utilizes dynamic personalization and adaptive noise distribution strategies to balance privacy and data utility. Additionally, blockchain technology ensures secure and transparent aggregation and storage of model updates. Experimental results on the SVHN dataset demonstrate that the proposed framework achieves strong privacy guarantees against various attack scenarios while maintaining high accuracy in health analytics tasks. For 15 rounds of federated learning with an epsilon value of 8.0, the model obtains an accuracy of 64.50%. The blockchain integration, utilizing Ethereum, Ganache, Web3.py, and IPFS, exhibits an average transaction latency of around 6 seconds and consistent gas consumption across rounds, validating the practicality and feasibility of the proposed approach.",
+      "publication_date": "2024-05-19T15:15:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2405.11580v1.pdf"
+    },
+    {
+      "title": "Auditable Homomorphic-based Decentralized Collaborative AI with   Attribute-based Differential Privacy",
+      "authors": [
+        "Lo-Yao Yeh",
+        "Sheng-Po Tseng",
+        "Chia-Hsun Lu",
+        "Chih-Ya Shen"
+      ],
+      "abstract": "In recent years, the notion of federated learning (FL) has led to the new paradigm of distributed artificial intelligence (AI) with privacy preservation. However, most current FL systems suffer from data privacy issues due to the requirement of a trusted third party. Although some previous works introduce differential privacy to protect the data, however, it may also significantly deteriorate the model performance. To address these issues, we propose a novel decentralized collaborative AI framework, named Auditable Homomorphic-based Decentralised Collaborative AI (AerisAI), to improve security with homomorphic encryption and fine-grained differential privacy. Our proposed AerisAI directly aggregates the encrypted parameters with a blockchain-based smart contract to get rid of the need of a trusted third party. We also propose a brand-new concept for eliminating the negative impacts of differential privacy for model performance. Moreover, the proposed AerisAI also provides the broadcast-aware group key management based on ciphertext-policy attribute-based encryption (CPABE) to achieve fine-grained access control based on different service-level agreements. We provide a formal theoretical analysis of the proposed AerisAI as well as the functionality comparison with the other baselines. We also conduct extensive experiments on real datasets to evaluate the proposed approach. The experimental results indicate that our proposed AerisAI significantly outperforms the other state-of-the-art baselines.",
+      "publication_date": "2024-02-28T14:51:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2403.00023v1.pdf"
+    },
+    {
+      "title": "PPBFL: A Privacy Protected Blockchain-based Federated Learning Model",
+      "authors": [
+        "Yang Li",
+        "Chunhe Xia",
+        "Wanshuang Lin",
+        "Tianbo Wang"
+      ],
+      "abstract": "With the rapid development of machine learning and a growing concern for data privacy, federated learning has become a focal point of attention. However, attacks on model parameters and a lack of incentive mechanisms hinder the effectiveness of federated learning. Therefore, we propose A Privacy Protected Blockchain-based Federated Learning Model (PPBFL) to enhance the security of federated learning and encourage active participation of nodes in model training. Blockchain technology ensures the integrity of model parameters stored in the InterPlanetary File System (IPFS), providing protection against tampering. Within the blockchain, we introduce a Proof of Training Work (PoTW) consensus algorithm tailored for federated learning, aiming to incentive training nodes. This algorithm rewards nodes with greater computational power, promoting increased participation and effort in the federated learning process. A novel adaptive differential privacy algorithm is simultaneously applied to local and global models. This safeguards the privacy of local data at training clients, preventing malicious nodes from launching inference attacks. Additionally, it enhances the security of the global model, preventing potential security degradation resulting from the combination of numerous local models. The possibility of security degradation is derived from the composition theorem. By introducing reverse noise in the global model, a zero-bias estimate of differential privacy noise between local and global models is achieved. Furthermore, we propose a new mix transactions mechanism utilizing ring signature technology to better protect the identity privacy of local training clients. Security analysis and experimental results demonstrate that PPBFL, compared to baseline methods, not only exhibits superior model performance but also achieves higher security.",
+      "publication_date": "2024-01-02T13:13:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2401.01204v2.pdf"
+    },
+    {
+      "title": "Federated Quantum Machine Learning with Differential Privacy",
+      "authors": [
+        "Rod Rofougaran",
+        "Shinjae Yoo",
+        "Huan-Hsin Tseng",
+        "Samuel Yen-Chi Chen"
+      ],
+      "abstract": "The preservation of privacy is a critical concern in the implementation of artificial intelligence on sensitive training data. There are several techniques to preserve data privacy but quantum computations are inherently more secure due to the no-cloning theorem, resulting in a most desirable computational platform on top of the potential quantum advantages. There have been prior works in protecting data privacy by Quantum Federated Learning (QFL) and Quantum Differential Privacy (QDP) studied independently. However, to the best of our knowledge, no prior work has addressed both QFL and QDP together yet. Here, we propose to combine these privacy-preserving methods and implement them on the quantum platform, so that we can achieve comprehensive protection against data leakage (QFL) and model inversion attacks (QDP). This implementation promises more efficient and secure artificial intelligence. In this paper, we present a successful implementation of these privacy-preservation methods by performing the binary classification of the Cats vs Dogs dataset. Using our quantum-classical machine learning model, we obtained a test accuracy of over 0.98, while maintaining epsilon values less than 1.3. We show that federated differentially private training is a viable privacy preservation method for quantum machine learning on Noisy Intermediate-Scale Quantum (NISQ) devices.",
+      "publication_date": "2023-10-10T19:52:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "url": "http://arxiv.org/pdf/2310.06973v1.pdf"
+    },
+    {
+      "title": "Differential Privacy for Adaptive Weight Aggregation in Federated Tumor   Segmentation",
+      "authors": [
+        "Muhammad Irfan Khan",
+        "Esa Alhoniemi",
+        "Elina Kontio",
+        "Suleiman A. Khan",
+        "Mojtaba Jafaritadi"
+      ],
+      "abstract": "Federated Learning (FL) is a distributed machine learning approach that safeguards privacy by creating an impartial global model while respecting the privacy of individual client data. However, the conventional FL method can introduce security risks when dealing with diverse client data, potentially compromising privacy and data integrity. To address these challenges, we present a differential privacy (DP) federated deep learning framework in medical image segmentation. In this paper, we extend our similarity weight aggregation (SimAgg) method to DP-SimAgg algorithm, a differentially private similarity-weighted aggregation algorithm for brain tumor segmentation in multi-modal magnetic resonance imaging (MRI). Our DP-SimAgg method not only enhances model segmentation capabilities but also provides an additional layer of privacy preservation. Extensive benchmarking and evaluation of our framework, with computational performance as a key consideration, demonstrate that DP-SimAgg enables accurate and robust brain tumor segmentation while minimizing communication costs during model training. This advancement is crucial for preserving the privacy of medical image data and safeguarding sensitive information. In conclusion, adding a differential privacy layer in the global weight aggregation phase of the federated brain tumor segmentation provides a promising solution to privacy concerns without compromising segmentation model efficacy. By leveraging DP, we ensure the protection of client data against adversarial attacks and malicious participants.",
+      "publication_date": "2023-08-01T21:59:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2308.00856v1.pdf"
+    },
+    {
+      "title": "Security and Privacy Issues of Federated Learning",
+      "authors": [
+        "Jahid Hasan"
+      ],
+      "abstract": "Federated Learning (FL) has emerged as a promising approach to address data privacy and confidentiality concerns by allowing multiple participants to construct a shared model without centralizing sensitive data. However, this decentralized paradigm introduces new security challenges, necessitating a comprehensive identification and classification of potential risks to ensure FL's security guarantees. This paper presents a comprehensive taxonomy of security and privacy challenges in Federated Learning (FL) across various machine learning models, including large language models. We specifically categorize attacks performed by the aggregator and participants, focusing on poisoning attacks, backdoor attacks, membership inference attacks, generative adversarial network (GAN) based attacks, and differential privacy attacks. Additionally, we propose new directions for future research, seeking innovative solutions to fortify FL systems against emerging security risks and uphold sensitive data confidentiality in distributed learning environments.",
+      "publication_date": "2023-07-22T22:51:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2307.12181v1.pdf"
+    },
+    {
+      "title": "FheFL: Fully Homomorphic Encryption Friendly Privacy-Preserving   Federated Learning with Byzantine Users",
+      "authors": [
+        "Yogachandran Rahulamathavan",
+        "Charuka Herath",
+        "Xiaolan Liu",
+        "Sangarapillai Lambotharan",
+        "Carsten Maple"
+      ],
+      "abstract": "The federated learning (FL) technique was developed to mitigate data privacy issues in the traditional machine learning paradigm. While FL ensures that a user's data always remain with the user, the gradients are shared with the centralized server to build the global model. This results in privacy leakage, where the server can infer private information from the shared gradients. To mitigate this flaw, the next-generation FL architectures proposed encryption and anonymization techniques to protect the model updates from the server. However, this approach creates other challenges, such as malicious users sharing false gradients. Since the gradients are encrypted, the server is unable to identify rogue users. To mitigate both attacks, this paper proposes a novel FL algorithm based on a fully homomorphic encryption (FHE) scheme. We develop a distributed multi-key additive homomorphic encryption scheme that supports model aggregation in FL. We also develop a novel aggregation scheme within the encrypted domain, utilizing users' non-poisoning rates, to effectively address data poisoning attacks while ensuring privacy is preserved by the proposed encryption scheme. Rigorous security, privacy, convergence, and experimental analyses have been provided to show that FheFL is novel, secure, and private, and achieves comparable accuracy at reasonable computational cost.",
+      "publication_date": "2023-06-08T11:20:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2306.05112v3.pdf"
+    },
+    {
+      "title": "Fair Differentially Private Federated Learning Framework",
+      "authors": [
+        "Ayush K. Varshney",
+        "Sonakshi Garg",
+        "Arka Ghosh",
+        "Sargam Gupta"
+      ],
+      "abstract": "Federated learning (FL) is a distributed machine learning strategy that enables participants to collaborate and train a shared model without sharing their individual datasets. Privacy and fairness are crucial considerations in FL. While FL promotes privacy by minimizing the amount of user data stored on central servers, it still poses privacy risks that need to be addressed. Industry standards such as differential privacy, secure multi-party computation, homomorphic encryption, and secure aggregation protocols are followed to ensure privacy in FL. Fairness is also a critical issue in FL, as models can inherit biases present in local datasets, leading to unfair predictions. Balancing privacy and fairness in FL is a challenge, as privacy requires protecting user data while fairness requires representative training data. This paper presents a \"Fair Differentially Private Federated Learning Framework\" that addresses the challenges of generating a fair global model without validation data and creating a globally private differential model. The framework employs clipping techniques for biased model updates and Gaussian mechanisms for differential privacy. The paper also reviews related works on privacy and fairness in FL, highlighting recent advancements and approaches to mitigate bias and ensure privacy. Achieving privacy and fairness in FL requires careful consideration of specific contexts and requirements, taking into account the latest developments in industry standards and techniques.",
+      "publication_date": "2023-05-23T09:58:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2305.13878v1.pdf"
+    },
+    {
+      "title": "Privacy-Enhanced Living: A Local Differential Privacy Approach to Secure   Smart Home Data",
+      "authors": [
+        "Nazar Waheed",
+        "Fazlullah Khan",
+        "Spyridon Mastorakis",
+        "Mian Ahmad Jan",
+        "Abeer Z. Alalmaie",
+        "Priyadarsi Nanda"
+      ],
+      "abstract": "The rapid expansion of Internet of Things (IoT) devices in smart homes has significantly improved the quality of life, offering enhanced convenience, automation, and energy efficiency. However, this proliferation of connected devices raises critical concerns regarding security and privacy of the user data. In this paper, we propose a differential privacy-based system to ensure comprehensive security for data generated by smart homes. We employ the randomized response technique for the data and utilize Local Differential Privacy (LDP) to achieve data privacy. The data is then transmitted to an aggregator, where an obfuscation method is applied to ensure individual anonymity. Furthermore, we implement the Hidden Markov Model (HMM) technique at the aggregator level and apply differential privacy to the private data received from smart homes. Consequently, our approach achieves a dual layer of privacy protection, addressing the security concerns associated with IoT devices in smart cities.",
+      "publication_date": "2023-04-16T02:36:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2304.07676v3.pdf"
+    },
+    {
+      "title": "Balancing Privacy and Performance for Private Federated Learning   Algorithms",
+      "authors": [
+        "Xiangjian Hou",
+        "Sarit Khirirat",
+        "Mohammad Yaqub",
+        "Samuel Horvath"
+      ],
+      "abstract": "Federated learning (FL) is a distributed machine learning (ML) framework where multiple clients collaborate to train a model without exposing their private data. FL involves cycles of local computations and bi-directional communications between the clients and server. To bolster data security during this process, FL algorithms frequently employ a differential privacy (DP) mechanism that introduces noise into each client's model updates before sharing. However, while enhancing privacy, the DP mechanism often hampers convergence performance. In this paper, we posit that an optimal balance exists between the number of local steps and communication rounds, one that maximizes the convergence performance within a given privacy budget. Specifically, we present a proof for the optimal number of local steps and communication rounds that enhance the convergence bounds of the DP version of the ScaffNew algorithm. Our findings reveal a direct correlation between the optimal number of local steps, communication rounds, and a set of variables, e.g the DP privacy budget and other problem parameters, specifically in the context of strongly convex optimization. We furthermore provide empirical evidence to validate our theoretical findings.",
+      "publication_date": "2023-04-11T10:42:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2304.05127v2.pdf"
+    },
+    {
+      "title": "Reconstructing Individual Data Points in Federated Learning Hardened   with Differential Privacy and Secure Aggregation",
+      "authors": [
+        "Franziska Boenisch",
+        "Adam Dziedzic",
+        "Roei Schuster",
+        "Ali Shahin Shamsabadi",
+        "Ilia Shumailov",
+        "Nicolas Papernot"
+      ],
+      "abstract": "Federated learning (FL) is a framework for users to jointly train a machine learning model. FL is promoted as a privacy-enhancing technology (PET) that provides data minimization: data never \"leaves\" personal devices and users share only model updates with a server (e.g., a company) coordinating the distributed training. While prior work showed that in vanilla FL a malicious server can extract users' private data from the model updates, in this work we take it further and demonstrate that a malicious server can reconstruct user data even in hardened versions of the protocol. More precisely, we propose an attack against FL protected with distributed differential privacy (DDP) and secure aggregation (SA). Our attack method is based on the introduction of sybil devices that deviate from the protocol to expose individual users' data for reconstruction by the server. The underlying root cause for the vulnerability to our attack is a power imbalance: the server orchestrates the whole protocol and users are given little guarantees about the selection of other users participating in the protocol. Moving forward, we discuss requirements for privacy guarantees in FL. We conclude that users should only participate in the protocol when they trust the server or they apply local primitives such as local DP, shifting power away from the server. Yet, the latter approaches come at significant overhead in terms of performance degradation of the trained model, making them less likely to be deployed in practice.",
+      "publication_date": "2023-01-09T18:12:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2301.04017v2.pdf"
+    },
+    {
+      "title": "Privacy-preserving Security Inference Towards Cloud-Edge Collaborative   Using Differential Privacy",
+      "authors": [
+        "Yulong Wang",
+        "Xingshu Chen",
+        "Qixu Wang"
+      ],
+      "abstract": "Cloud-edge collaborative inference approach splits deep neural networks (DNNs) into two parts that run collaboratively on resource-constrained edge devices and cloud servers, aiming at minimizing inference latency and protecting data privacy. However, even if the raw input data from edge devices is not directly exposed to the cloud, state-of-the-art attacks targeting collaborative inference are still able to reconstruct the raw private data from the intermediate outputs of the exposed local models, introducing serious privacy risks. In this paper, a secure privacy inference framework for cloud-edge collaboration is proposed, termed CIS, which supports adaptively partitioning the network according to the dynamically changing network bandwidth and fully releases the computational power of edge devices. To mitigate the influence introduced by private perturbation, CIS provides a way to achieve differential privacy protection by adding refined noise to the intermediate layer feature maps offloaded to the cloud. Meanwhile, with a given total privacy budget, the budget is reasonably allocated by the size of the feature graph rank generated by different convolution filters, which makes the inference in the cloud robust to the perturbed data, thus effectively trade-off the conflicting problem between privacy and availability. Finally, we construct a real cloud-edge collaborative inference computing scenario to verify the effectiveness of inference latency and model partitioning on resource-constrained edge devices. Furthermore, the state-of-the-art cloud-edge collaborative reconstruction attack is used to evaluate the practical availability of the end-to-end privacy protection mechanism provided by CIS.",
+      "publication_date": "2022-12-13T08:36:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2212.06428v1.pdf"
+    },
+    {
+      "title": "Secure Aggregation Is Not All You Need: Mitigating Privacy Attacks with   Noise Tolerance in Federated Learning",
+      "authors": [
+        "John Reuben Gilbert"
+      ],
+      "abstract": "Federated learning is a collaborative method that aims to preserve data privacy while creating AI models. Current approaches to federated learning tend to rely heavily on secure aggregation protocols to preserve data privacy. However, to some degree, such protocols assume that the entity orchestrating the federated learning process (i.e., the server) is not fully malicious or dishonest. We investigate vulnerabilities to secure aggregation that could arise if the server is fully malicious and attempts to obtain access to private, potentially sensitive data. Furthermore, we provide a method to further defend against such a malicious server, and demonstrate effectiveness against known attacks that reconstruct data in a federated learning setting.",
+      "publication_date": "2022-11-10T05:13:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2211.06324v1.pdf"
+    },
+    {
+      "title": "How Much Privacy Does Federated Learning with Secure Aggregation   Guarantee?",
+      "authors": [
+        "Ahmed Roushdy Elkordy",
+        "Jiang Zhang",
+        "Yahya H. Ezzeldin",
+        "Konstantinos Psounis",
+        "Salman Avestimehr"
+      ],
+      "abstract": "Federated learning (FL) has attracted growing interest for enabling privacy-preserving machine learning on data stored at multiple users while avoiding moving the data off-device. However, while data never leaves users' devices, privacy still cannot be guaranteed since significant computations on users' training data are shared in the form of trained local models. These local models have recently been shown to pose a substantial privacy threat through different privacy attacks such as model inversion attacks. As a remedy, Secure Aggregation (SA) has been developed as a framework to preserve privacy in FL, by guaranteeing the server can only learn the global aggregated model update but not the individual model updates. While SA ensures no additional information is leaked about the individual model update beyond the aggregated model update, there are no formal guarantees on how much privacy FL with SA can actually offer; as information about the individual dataset can still potentially leak through the aggregated model computed at the server. In this work, we perform a first analysis of the formal privacy guarantees for FL with SA. Specifically, we use Mutual Information (MI) as a quantification metric and derive upper bounds on how much information about each user's dataset can leak through the aggregated model update. When using the FedSGD aggregation algorithm, our theoretical bounds show that the amount of privacy leakage reduces linearly with the number of users participating in FL with SA. To validate our theoretical bounds, we use an MI Neural Estimator to empirically evaluate the privacy leakage under different FL setups on both the MNIST and CIFAR10 datasets. Our experiments verify our theoretical bounds for FedSGD, which show a reduction in privacy leakage as the number of users and local batch size grow, and an increase in privacy leakage with the number of training rounds.",
+      "publication_date": "2022-08-03T18:44:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2208.02304v1.pdf"
+    },
+    {
+      "title": "Enhanced Security and Privacy via Fragmented Federated Learning",
+      "authors": [
+        "Najeeb Moharram Jebreel",
+        "Josep Domingo-Ferrer",
+        "Alberto Blanco-Justicia",
+        "David Sanchez"
+      ],
+      "abstract": "In federated learning (FL), a set of participants share updates computed on their local data with an aggregator server that combines updates into a global model. However, reconciling accuracy with privacy and security is a challenge to FL. On the one hand, good updates sent by honest participants may reveal their private local information, whereas poisoned updates sent by malicious participants may compromise the model's availability and/or integrity. On the other hand, enhancing privacy via update distortion damages accuracy, whereas doing so via update aggregation damages security because it does not allow the server to filter out individual poisoned updates. To tackle the accuracy-privacy-security conflict, we propose {\\em fragmented federated learning} (FFL), in which participants randomly exchange and mix fragments of their updates before sending them to the server. To achieve privacy, we design a lightweight protocol that allows participants to privately exchange and mix encrypted fragments of their updates so that the server can neither obtain individual updates nor link them to their originators. To achieve security, we design a reputation-based defense tailored for FFL that builds trust in participants and their mixed updates based on the quality of the fragments they exchange and the mixed updates they send. Since the exchanged fragments' parameters keep their original coordinates and attackers can be neutralized, the server can correctly reconstruct a global model from the received mixed updates without accuracy loss. Experiments on four real data sets show that FFL can prevent semi-honest servers from mounting privacy attacks, can effectively counter poisoning attacks and can keep the accuracy of the global model.",
+      "publication_date": "2022-07-13T06:25:19+00:00",
+      "doi": "10.1109/TNNLS.2022.3212627",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.05978v2.pdf"
+    },
+    {
+      "title": "Privacy and correctness trade-offs for information-theoretically secure   quantum homomorphic encryption",
+      "authors": [
+        "Yanglin Hu",
+        "Yingkai Ouyang",
+        "Marco Tomamichel"
+      ],
+      "abstract": "Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. By using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only the computation of Clifford circuits.",
+      "publication_date": "2022-05-24T15:02:34+00:00",
+      "doi": "10.22331/q-2023-04-13-976",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "url": "http://arxiv.org/pdf/2205.12127v2.pdf"
+    },
+    {
+      "title": "Secure & Private Federated Neuroimaging",
+      "authors": [
+        "Dimitris Stripelis",
+        "Umang Gupta",
+        "Hamza Saleem",
+        "Nikhil Dhinagar",
+        "Tanmay Ghai",
+        "Rafael Chrysovalantis Anastasiou",
+        "Armaghan Asghar",
+        "Greg Ver Steeg",
+        "Srivatsan Ravi",
+        "Muhammad Naveed",
+        "Paul M. Thompson",
+        "Jose Luis Ambite"
+      ],
+      "abstract": "The amount of biomedical data continues to grow rapidly. However, collecting data from multiple sites for joint analysis remains challenging due to security, privacy, and regulatory concerns. To overcome this challenge, we use Federated Learning, which enables distributed training of neural network models over multiple data sources without sharing data. Each site trains the neural network over its private data for some time, then shares the neural network parameters (i.e., weights, gradients) with a Federation Controller, which in turn aggregates the local models, sends the resulting community model back to each site, and the process repeats. Our Federated Learning architecture, MetisFL, provides strong security and privacy. First, sample data never leaves a site. Second, neural network parameters are encrypted before transmission and the global neural model is computed under fully-homomorphic encryption. Finally, we use information-theoretic methods to limit information leakage from the neural model to prevent a curious site from performing model inversion or membership attacks. We present a thorough evaluation of the performance of secure, private federated learning in neuroimaging tasks, including for predicting Alzheimer's disease and estimating BrainAGE from magnetic resonance imaging (MRI) studies, in challenging, heterogeneous federated environments where sites have different amounts of data and statistical distributions.",
+      "publication_date": "2022-05-11T03:36:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2205.05249v2.pdf"
+    },
+    {
+      "title": "Homomorphic Encryption and Federated Learning based Privacy-Preserving   CNN Training: COVID-19 Detection Use-Case",
+      "authors": [
+        "Febrianti Wibawa",
+        "Ferhat Ozgur Catak",
+        "Salih Sarp",
+        "Murat Kuzlu",
+        "Umit Cali"
+      ],
+      "abstract": "Medical data is often highly sensitive in terms of data privacy and security concerns. Federated learning, one type of machine learning techniques, has been started to use for the improvement of the privacy and security of medical data. In the federated learning, the training data is distributed across multiple machines, and the learning process is performed in a collaborative manner. There are several privacy attacks on deep learning (DL) models to get the sensitive information by attackers. Therefore, the DL model itself should be protected from the adversarial attack, especially for applications using medical data. One of the solutions for this problem is homomorphic encryption-based model protection from the adversary collaborator. This paper proposes a privacy-preserving federated learning algorithm for medical data using homomorphic encryption. The proposed algorithm uses a secure multi-party computation protocol to protect the deep learning model from the adversaries. In this study, the proposed algorithm using a real-world medical dataset is evaluated in terms of the model performance.",
+      "publication_date": "2022-04-16T08:38:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2204.07752v1.pdf"
+    },
+    {
+      "title": "Local Differential Privacy for Federated Learning",
+      "authors": [
+        "M. A. P. Chamikara",
+        "Dongxi Liu",
+        "Seyit Camtepe",
+        "Surya Nepal",
+        "Marthie Grobler",
+        "Peter Bertok",
+        "Ibrahim Khalil"
+      ],
+      "abstract": "Advanced adversarial attacks such as membership inference and model memorization can make federated learning (FL) vulnerable and potentially leak sensitive private data. Local differentially private (LDP) approaches are gaining more popularity due to stronger privacy notions and native support for data distribution compared to other differentially private (DP) solutions. However, DP approaches assume that the FL server (that aggregates the models) is honest (run the FL protocol honestly) or semi-honest (run the FL protocol honestly while also trying to learn as much information as possible). These assumptions make such approaches unrealistic and unreliable for real-world settings. Besides, in real-world industrial environments (e.g., healthcare), the distributed entities (e.g., hospitals) are already composed of locally running machine learning models (this setting is also referred to as the cross-silo setting). Existing approaches do not provide a scalable mechanism for privacy-preserving FL to be utilized under such settings, potentially with untrusted parties. This paper proposes a new local differentially private FL (named LDPFL) protocol for industrial settings. LDPFL can run in industrial settings with untrusted entities while enforcing stronger privacy guarantees than existing approaches. LDPFL shows high FL model performance (up to 98%) under small privacy budgets (e.g., epsilon = 0.5) in comparison to existing methods.",
+      "publication_date": "2022-02-12T12:40:47+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2202.06053v2.pdf"
+    },
+    {
+      "title": "Efficient Differentially Private Secure Aggregation for Federated   Learning via Hardness of Learning with Errors",
+      "authors": [
+        "Timothy Stevens",
+        "Christian Skalka",
+        "Christelle Vincent",
+        "John Ring",
+        "Samuel Clark",
+        "Joseph Near"
+      ],
+      "abstract": "Federated machine learning leverages edge computing to develop models from network user data, but privacy in federated learning remains a major challenge. Techniques using differential privacy have been proposed to address this, but bring their own challenges -- many require a trusted third party or else add too much noise to produce useful models. Recent advances in \\emph{secure aggregation} using multiparty computation eliminate the need for a third party, but are computationally expensive especially at scale. We present a new federated learning protocol that leverages a novel differentially private, malicious secure aggregation protocol based on techniques from Learning With Errors. Our protocol outperforms current state-of-the art techniques, and empirical results show that it scales to a large number of parties, with optimal accuracy for any differentially private federated learning scheme.",
+      "publication_date": "2021-12-13T18:31:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2112.06872v1.pdf"
+    },
+    {
+      "title": "On the Security & Privacy in Federated Learning",
+      "authors": [
+        "Gorka Abad",
+        "Stjepan Picek",
+        "Víctor Julio Ramírez-Durán",
+        "Aitor Urbieta"
+      ],
+      "abstract": "Recent privacy awareness initiatives such as the EU General Data Protection Regulation subdued Machine Learning (ML) to privacy and security assessments. Federated Learning (FL) grants a privacy-driven, decentralized training scheme that improves ML models' security. The industry's fast-growing adaptation and security evaluations of FL technology exposed various vulnerabilities that threaten FL's confidentiality, integrity, or availability (CIA). This work assesses the CIA of FL by reviewing the state-of-the-art (SoTA) and creating a threat model that embraces the attack's surface, adversarial actors, capabilities, and goals. We propose the first unifying taxonomy for attacks and defenses and provide promising future research directions.",
+      "publication_date": "2021-12-10T10:03:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2112.05423v2.pdf"
+    },
+    {
+      "title": "Towards Sparse Federated Analytics: Location Heatmaps under Distributed   Differential Privacy with Secure Aggregation",
+      "authors": [
+        "Eugene Bagdasaryan",
+        "Peter Kairouz",
+        "Stefan Mellem",
+        "Adrià Gascón",
+        "Kallista Bonawitz",
+        "Deborah Estrin",
+        "Marco Gruteser"
+      ],
+      "abstract": "We design a scalable algorithm to privately generate location heatmaps over decentralized data from millions of user devices. It aims to ensure differential privacy before data becomes visible to a service provider while maintaining high data accuracy and minimizing resource consumption on users' devices. To achieve this, we revisit distributed differential privacy based on recent results in secure multiparty computation, and we design a scalable and adaptive distributed differential privacy approach for location analytics. Evaluation on public location datasets shows that this approach successfully generates metropolitan-scale heatmaps from millions of user samples with a worst-case client communication overhead that is significantly smaller than existing state-of-the-art private protocols of similar accuracy.",
+      "publication_date": "2021-11-03T17:19:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2111.02356v2.pdf"
+    },
+    {
+      "title": "Federated Deep Learning with Bayesian Privacy",
+      "authors": [
+        "Hanlin Gu",
+        "Lixin Fan",
+        "Bowen Li",
+        "Yan Kang",
+        "Yuan Yao",
+        "Qiang Yang"
+      ],
+      "abstract": "Federated learning (FL) aims to protect data privacy by cooperatively learning a model without sharing private data among users. For Federated Learning of Deep Neural Network with billions of model parameters, existing privacy-preserving solutions are unsatisfactory. Homomorphic encryption (HE) based methods provide secure privacy protections but suffer from extremely high computational and communication overheads rendering it almost useless in practice . Deep learning with Differential Privacy (DP) was implemented as a practical learning algorithm at a manageable cost in complexity. However, DP is vulnerable to aggressive Bayesian restoration attacks as disclosed in the literature and demonstrated in experimental results of this work. To address the aforementioned perplexity, we propose a novel Bayesian Privacy (BP) framework which enables Bayesian restoration attacks to be formulated as the probability of reconstructing private data from observed public information. Specifically, the proposed BP framework accurately quantifies privacy loss by Kullback-Leibler (KL) Divergence between the prior distribution about the privacy data and the posterior distribution of restoration private data conditioning on exposed information}. To our best knowledge, this Bayesian Privacy analysis is the first to provides theoretical justification of secure privacy-preserving capabilities against Bayesian restoration attacks. As a concrete use case, we demonstrate that a novel federated deep learning method using private passport layers is able to simultaneously achieve high model performance, privacy-preserving capability and low computational complexity. Theoretical analysis is in accordance with empirical measurements of information leakage extensively experimented with a variety of DNN networks on image classification MNIST, CIFAR10, and CIFAR100 datasets.",
+      "publication_date": "2021-09-27T12:48:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2109.13012v1.pdf"
+    },
+    {
+      "title": "Privacy, Security, and Utility Analysis of Differentially Private CPES   Data",
+      "authors": [
+        "Md Tamjid Hossain",
+        "Shahriar Badsha",
+        "Haoting Shen"
+      ],
+      "abstract": "Differential privacy (DP) has been widely used to protect the privacy of confidential cyber physical energy systems (CPES) data. However, applying DP without analyzing the utility, privacy, and security requirements can affect the data utility as well as help the attacker to conduct integrity attacks (e.g., False Data Injection(FDI)) leveraging the differentially private data. Existing anomaly-detection-based defense strategies against data integrity attacks in DP-based smart grids fail to minimize the attack impact while maximizing data privacy and utility. To address this challenge, it is nontrivial to apply a defensive approach during the design process. In this paper, we formulate and develop the defense strategy as a part of the design process to investigate data privacy, security, and utility in a DP-based smart grid network. We have proposed a provable relationship among the DP-parameters that enables the defender to design a fault-tolerant system against FDI attacks. To experimentally evaluate and prove the effectiveness of our proposed design approach, we have simulated the FDI attack in a DP-based grid. The evaluation indicates that the attack impact can be minimized if the designer calibrates the privacy level according to the proposed correlation of the DP-parameters to design the grid network. Moreover, we analyze the feasibility of the DP mechanism and QoS of the smart grid network in an adversarial setting. Our analysis suggests that the DP mechanism is feasible over existing privacy-preserving mechanisms in the smart grid domain. Also, the QoS of the differentially private grid applications is found satisfactory in adversarial presence.",
+      "publication_date": "2021-09-21T05:03:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2109.09963v1.pdf"
+    },
+    {
+      "title": "Secure and Privacy-Preserving Federated Learning via Co-Utility",
+      "authors": [
+        "Josep Domingo-Ferrer",
+        "Alberto Blanco-Justicia",
+        "Jesús Manjón",
+        "David Sánchez"
+      ],
+      "abstract": "The decentralized nature of federated learning, that often leverages the power of edge devices, makes it vulnerable to attacks against privacy and security. The privacy risk for a peer is that the model update she computes on her private data may, when sent to the model manager, leak information on those private data. Even more obvious are security attacks, whereby one or several malicious peers return wrong model updates in order to disrupt the learning process and lead to a wrong model being learned. In this paper we build a federated learning framework that offers privacy to the participating peers as well as security against Byzantine and poisoning attacks. Our framework consists of several protocols that provide strong privacy to the participating peers via unlinkable anonymity and that are rationally sustainable based on the co-utility property. In other words, no rational party is interested in deviating from the proposed protocols. We leverage the notion of co-utility to build a decentralized co-utile reputation management system that provides incentives for parties to adhere to the protocols. Unlike privacy protection via differential privacy, our approach preserves the values of model updates and hence the accuracy of plain federated learning; unlike privacy protection via update aggregation, our approach preserves the ability to detect bad model updates while substantially reducing the computational overhead compared to methods based on homomorphic encryption.",
+      "publication_date": "2021-08-04T08:58:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2108.01913v1.pdf"
+    },
+    {
+      "title": "Privacy Threats Analysis to Secure Federated Learning",
+      "authors": [
+        "Yuchen Li",
+        "Yifan Bao",
+        "Liyao Xiang",
+        "Junhan Liu",
+        "Cen Chen",
+        "Li Wang",
+        "Xinbing Wang"
+      ],
+      "abstract": "Federated learning is emerging as a machine learning technique that trains a model across multiple decentralized parties. It is renowned for preserving privacy as the data never leaves the computational devices, and recent approaches further enhance its privacy by hiding messages transferred in encryption. However, we found that despite the efforts, federated learning remains privacy-threatening, due to its interactive nature across different parties. In this paper, we analyze the privacy threats in industrial-level federated learning frameworks with secure computation, and reveal such threats widely exist in typical machine learning models such as linear regression, logistic regression and decision tree. For the linear and logistic regression, we show through theoretical analysis that it is possible for the attacker to invert the entire private input of the victim, given very few information. For the decision tree model, we launch an attack to infer the range of victim's private inputs. All attacks are evaluated on popular federated learning frameworks and real-world datasets.",
+      "publication_date": "2021-06-24T15:02:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2106.13076v1.pdf"
+    },
+    {
+      "title": "DuetSGX: Differential Privacy with Secure Hardware",
+      "authors": [
+        "Phillip Nguyen",
+        "Alex Silence",
+        "David Darais",
+        "Joseph P. Near"
+      ],
+      "abstract": "Differential privacy offers a formal privacy guarantee for individuals, but many deployments of differentially private systems require a trusted third party (the data curator). We propose DuetSGX, a system that uses secure hardware (Intel's SGX) to eliminate the need for a trusted data curator. Data owners submit encrypted data that can be decrypted only within a secure enclave running the DuetSGX system, ensuring that sensitive data is never available to the data curator. Analysts submit queries written in the Duet language, which is specifically designed for verifying that programs satisfy differential privacy; DuetSGX uses the Duet typechecker to verify that each query satisfies differential privacy before running it. DuetSGX therefore provides the benefits of local differential privacy and central differential privacy simultaneously: noise is only added to final results, and there is no trusted third party. We have implemented a proof-of-concept implementation of DuetSGX and we release it as open-source.",
+      "publication_date": "2020-10-20T23:08:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2010.10664v1.pdf"
+    },
+    {
+      "title": "From Distributed Machine Learning To Federated Learning: In The View Of   Data Privacy And Security",
+      "authors": [
+        "Sheng Shen",
+        "Tianqing Zhu",
+        "Di Wu",
+        "Wei Wang",
+        "Wanlei Zhou"
+      ],
+      "abstract": "Federated learning is an improved version of distributed machine learning that further offloads operations which would usually be performed by a central server. The server becomes more like an assistant coordinating clients to work together rather than micro-managing the workforce as in traditional DML. One of the greatest advantages of federated learning is the additional privacy and security guarantees it affords. Federated learning architecture relies on smart devices, such as smartphones and IoT sensors, that collect and process their own data, so sensitive information never has to leave the client device. Rather, clients train a sub-model locally and send an encrypted update to the central server for aggregation into the global model. These strong privacy guarantees make federated learning an attractive choice in a world where data breaches and information theft are common and serious threats. This survey outlines the landscape and latest developments in data privacy and security for federated learning. We identify the different mechanisms used to provide privacy and security, such as differential privacy, secure multi-party computation and secure aggregation. We also survey the current attack models, identifying the areas of vulnerability and the strategies adversaries use to penetrate federated systems. The survey concludes with a discussion on the open challenges and potential directions of future work in this increasingly popular learning paradigm.",
+      "publication_date": "2020-10-19T07:00:29+00:00",
+      "doi": "10.1002/cpe.6002",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/2010.09258v1.pdf"
+    },
+    {
+      "title": "FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated   Learning",
+      "authors": [
+        "Swanand Kadhe",
+        "Nived Rajaraman",
+        "O. Ozan Koyluoglu",
+        "Kannan Ramchandran"
+      ],
+      "abstract": "Recent attacks on federated learning demonstrate that keeping the training data on clients' devices does not provide sufficient privacy, as the model parameters shared by clients can leak information about their training data. A 'secure aggregation' protocol enables the server to aggregate clients' models in a privacy-preserving manner. However, existing secure aggregation protocols incur high computation/communication costs, especially when the number of model parameters is larger than the number of clients participating in an iteration -- a typical scenario in federated learning.   In this paper, we propose a secure aggregation protocol, FastSecAgg, that is efficient in terms of computation and communication, and robust to client dropouts. The main building block of FastSecAgg is a novel multi-secret sharing scheme, FastShare, based on the Fast Fourier Transform (FFT), which may be of independent interest. FastShare is information-theoretically secure, and achieves a trade-off between the number of secrets, privacy threshold, and dropout tolerance. Riding on the capabilities of FastShare, we prove that FastSecAgg is (i) secure against the server colluding with 'any' subset of some constant fraction (e.g. $\\sim10\\%$) of the clients in the honest-but-curious setting; and (ii) tolerates dropouts of a 'random' subset of some constant fraction (e.g. $\\sim10\\%$) of the clients. FastSecAgg achieves significantly smaller computation cost than existing schemes while achieving the same (orderwise) communication cost. In addition, it guarantees security against adaptive adversaries, which can perform client corruptions dynamically during the execution of the protocol.",
+      "publication_date": "2020-09-23T16:49:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2009.11248v1.pdf"
+    },
+    {
+      "title": "Secure Metric Learning via Differential Pairwise Privacy",
+      "authors": [
+        "Jing Li",
+        "Yuangang Pan",
+        "Yulei Sui",
+        "Ivor W. Tsang"
+      ],
+      "abstract": "Distance Metric Learning (DML) has drawn much attention over the last two decades. A number of previous works have shown that it performs well in measuring the similarities of individuals given a set of correctly labeled pairwise data by domain experts. These important and precisely-labeled pairwise data are often highly sensitive in real world (e.g., patients similarity). This paper studies, for the first time, how pairwise information can be leaked to attackers during distance metric learning, and develops differential pairwise privacy (DPP), generalizing the definition of standard differential privacy, for secure metric learning. Unlike traditional differential privacy which only applies to independent samples, thus cannot be used for pairwise data, DPP successfully deals with this problem by reformulating the worst case. Specifically, given the pairwise data, we reveal all the involved correlations among pairs in the constructed undirected graph. DPP is then formalized that defines what kind of DML algorithm is private to preserve pairwise data. After that, a case study employing the contrastive loss is exhibited to clarify the details of implementing a DPP-DML algorithm. Particularly, the sensitivity reduction technique is proposed to enhance the utility of the output distance metric. Experiments both on a toy dataset and benchmarks demonstrate that the proposed scheme achieves pairwise data privacy without compromising the output performance much (Accuracy declines less than 0.01 throughout all benchmark datasets when the privacy budget is set at 4).",
+      "publication_date": "2020-03-30T12:47:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2003.13413v1.pdf"
+    },
+    {
+      "title": "PrivacyFL: A simulator for privacy-preserving and secure federated   learning",
+      "authors": [
+        "Vaikkunth Mugunthan",
+        "Anton Peraire-Bueno",
+        "Lalana Kagal"
+      ],
+      "abstract": "Federated learning is a technique that enables distributed clients to collaboratively learn a shared machine learning model while keeping their training data localized. This reduces data privacy risks, however, privacy concerns still exist since it is possible to leak information about the training dataset from the trained model's weights or parameters. Setting up a federated learning environment, especially with security and privacy guarantees, is a time-consuming process with numerous configurations and parameters that can be manipulated. In order to help clients ensure that collaboration is feasible and to check that it improves their model accuracy, a real-world simulator for privacy-preserving and secure federated learning is required. In this paper, we introduce PrivacyFL, which is an extensible, easily configurable and scalable simulator for federated learning environments. Its key features include latency simulation, robustness to client departure, support for both centralized and decentralized learning, and configurable privacy and security mechanisms based on differential privacy and secure multiparty computation. In this paper, we motivate our research, describe the architecture of the simulator and associated protocols, and discuss its evaluation in numerous scenarios that highlight its wide range of functionality and its advantages. Our paper addresses a significant real-world problem: checking the feasibility of participating in a federated learning environment under a variety of circumstances. It also has a strong practical impact because organizations such as hospitals, banks, and research institutes, which have large amounts of sensitive data and would like to collaborate, would greatly benefit from having a system that enables them to do so in a privacy-preserving and secure manner.",
+      "publication_date": "2020-02-19T20:16:13+00:00",
+      "doi": "10.1145/3340531.3412771",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2002.08423v2.pdf"
+    },
+    {
+      "title": "A Hybrid Approach to Privacy-Preserving Federated Learning",
+      "authors": [
+        "Stacey Truex",
+        "Nathalie Baracaldo",
+        "Ali Anwar",
+        "Thomas Steinke",
+        "Heiko Ludwig",
+        "Rui Zhang",
+        "Yi Zhou"
+      ],
+      "abstract": "Federated learning facilitates the collaborative training of models without the sharing of raw data. However, recent attacks demonstrate that simply maintaining data locality during training processes does not provide sufficient privacy guarantees. Rather, we need a federated learning system capable of preventing inference over both the messages exchanged during training and the final trained model while ensuring the resulting model also has acceptable predictive accuracy. Existing federated learning approaches either use secure multiparty computation (SMC) which is vulnerable to inference or differential privacy which can lead to low accuracy given a large number of parties with relatively small amounts of data each. In this paper, we present an alternative approach that utilizes both differential privacy and SMC to balance these trade-offs. Combining differential privacy with secure multiparty computation enables us to reduce the growth of noise injection as the number of parties increases without sacrificing privacy while maintaining a pre-defined rate of trust. Our system is therefore a scalable approach that protects against inference threats and produces models with high accuracy. Additionally, our system can be used to train a variety of machine learning models, which we validate with experimental results on 3 different machine learning algorithms. Our experiments demonstrate that our approach out-performs state of the art solutions.",
+      "publication_date": "2018-12-07T21:52:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/1812.03224v2.pdf"
+    },
+    {
+      "title": "Security and Privacy Issues in Deep Learning",
+      "authors": [
+        "Ho Bae",
+        "Jaehee Jang",
+        "Dahuin Jung",
+        "Hyemi Jang",
+        "Heonseok Ha",
+        "Hyungyu Lee",
+        "Sungroh Yoon"
+      ],
+      "abstract": "To promote secure and private artificial intelligence (SPAI), we review studies on the model security and data privacy of DNNs. Model security allows system to behave as intended without being affected by malicious external influences that can compromise its integrity and efficiency. Security attacks can be divided based on when they occur: if an attack occurs during training, it is known as a poisoning attack, and if it occurs during inference (after training) it is termed an evasion attack. Poisoning attacks compromise the training process by corrupting the data with malicious examples, while evasion attacks use adversarial examples to disrupt entire classification process. Defenses proposed against such attacks include techniques to recognize and remove malicious data, train a model to be insensitive to such data, and mask the model's structure and parameters to render attacks more challenging to implement. Furthermore, the privacy of the data involved in model training is also threatened by attacks such as the model-inversion attack, or by dishonest service providers of AI applications. To maintain data privacy, several solutions that combine existing data-privacy techniques have been proposed, including differential privacy and modern cryptography techniques. In this paper, we describe the notions of some of methods, e.g., homomorphic encryption, and review their advantages and challenges when implemented in deep-learning models.",
+      "publication_date": "2018-07-31T04:18:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1807.11655v4.pdf"
+    },
+    {
+      "title": "Achieving Secure and Differentially Private Computations in Multiparty   Settings",
+      "authors": [
+        "Abbas Acar",
+        "Z. Berkay Celik",
+        "Hidayet Aksu",
+        "A. Selcuk Uluagac",
+        "Patrick McDaniel"
+      ],
+      "abstract": "Sharing and working on sensitive data in distributed settings from healthcare to finance is a major challenge due to security and privacy concerns. Secure multiparty computation (SMC) is a viable panacea for this, allowing distributed parties to make computations while the parties learn nothing about their data, but the final result. Although SMC is instrumental in such distributed settings, it does not provide any guarantees not to leak any information about individuals to adversaries. Differential privacy (DP) can be utilized to address this; however, achieving SMC with DP is not a trivial task, either. In this paper, we propose a novel Secure Multiparty Distributed Differentially Private (SM-DDP) protocol to achieve secure and private computations in a multiparty environment. Specifically, with our protocol, we simultaneously achieve SMC and DP in distributed settings focusing on linear regression on horizontally distributed data. That is, parties do not see each others' data and further, can not infer information about individuals from the final constructed statistical model. Any statistical model function that allows independent calculation of local statistics can be computed through our protocol. The protocol implements homomorphic encryption for SMC and functional mechanism for DP to achieve the desired security and privacy guarantees. In this work, we first introduce the theoretical foundation for the SM-DDP protocol and then evaluate its efficacy and performance on two different datasets. Our results show that one can achieve individual-level privacy through the proposed protocol with distributed DP, which is independently applied by each party in a distributed fashion. Moreover, our results also show that the SM-DDP protocol incurs minimal computational overhead, is scalable, and provides security and privacy guarantees.",
+      "publication_date": "2017-07-06T17:18:47+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1707.01871v1.pdf"
+    }
+  ]
+}

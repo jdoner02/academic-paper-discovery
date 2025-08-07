@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M...",
+  "paper_title": "Observability and Incident Response in Managed Serverless Environments Using Ontology-Based Log M...",
+  "concepts": [
+    {
+      "text": "serverless",
+      "frequency": 114,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.132653+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "application",
+      "frequency": 111,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.138731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 54,
+      "relevance_score": 0.5943244232881728,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.145561+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 37,
+      "relevance_score": 0.5887037715122666,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.259430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "logs",
+      "frequency": 53,
+      "relevance_score": 0.5851702673013548,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.151388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "activity",
+      "frequency": 53,
+      "relevance_score": 0.5851702673013548,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.152371+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "function",
+      "frequency": 51,
+      "relevance_score": 0.5668619553277188,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.166722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "perimeterless",
+      "frequency": 45,
+      "relevance_score": 0.5119370194068107,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.174402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk assessment framework",
+      "frequency": 6,
+      "relevance_score": 0.504924935920908,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.563221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "log",
+      "frequency": 43,
+      "relevance_score": 0.49362870743317466,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.133299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ontology",
+      "frequency": 43,
+      "relevance_score": 0.49362870743317466,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.150734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 42,
+      "relevance_score": 0.48447455144635665,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.136367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "coa ranking framework",
+      "frequency": 3,
+      "relevance_score": 0.477462467960454,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.568367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "analytic hierarchy process",
+      "frequency": 3,
+      "relevance_score": 0.477462467960454,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.578188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "business process level",
+      "frequency": 3,
+      "relevance_score": 0.477462467960454,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.579162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "serverless security frameworks",
+      "frequency": 3,
+      "relevance_score": 0.477462467960454,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.585639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource",
+      "frequency": 41,
+      "relevance_score": 0.47532039545953864,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.200535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aws",
+      "frequency": 41,
+      "relevance_score": 0.47532039545953864,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.204738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph-based models",
+      "frequency": 2,
+      "relevance_score": 0.4683083119736361,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.529761+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing cybersecurity frameworks",
+      "frequency": 2,
+      "relevance_score": 0.468308311973636,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.559309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing security frameworks",
+      "frequency": 2,
+      "relevance_score": 0.468308311973636,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.559960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning production systems",
+      "frequency": 2,
+      "relevance_score": 0.468308311973636,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.578838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process compute servicestorage",
+      "frequency": 2,
+      "relevance_score": 0.468308311973636,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.582405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hierarchy process international",
+      "frequency": 2,
+      "relevance_score": 0.468308311973636,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.593714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resources",
+      "frequency": 39,
+      "relevance_score": 0.4570120834859026,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.168014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "business process",
+      "frequency": 11,
+      "relevance_score": 0.45069571585499824,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.468013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 21,
+      "relevance_score": 0.4422372757231784,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.160881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "event",
+      "frequency": 37,
+      "relevance_score": 0.4387037715122666,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.228846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 36,
+      "relevance_score": 0.42954961552544857,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.186825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 25,
+      "relevance_score": 0.4288538996704504,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.410231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "three-layer security scheme",
+      "frequency": 3,
+      "relevance_score": 0.42746246796045406,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.560611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2020 information flow",
+      "frequency": 3,
+      "relevance_score": 0.42746246796045406,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.583395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dashboard",
+      "frequency": 35,
+      "relevance_score": 0.42039545953863056,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.155309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 d 2",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.563883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strong kendall-w agreement",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.568689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kendall-w agreement score",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.569011+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "activ- ity logs",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.570633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "see 2 3",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.571611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 perimeterless stack",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.572262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "implicit relation- ships",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.574426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "serverless ser- vices",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.574772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csp-specific ontology construction",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.577208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 084 0",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.580135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 006 0",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.580458+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dashboard 0 873",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.581430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "baseline tool 0",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.581754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tool 0 772",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.582077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services sciences 1",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.594040+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sciences 1 83",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.594366+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 83 98",
+      "frequency": 2,
+      "relevance_score": 0.41830831197363605,
+      "source_papers": [
+        "local/Observability_and_Incident_Response_in_Managed_Serverless_Environments_Using_Ontology-Based_Log_M..."
+      ],
+      "source_domain": "small_water_utility_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:48.594708+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:31:48.598521+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:31:48.598707+00:00",
+    "repository_version": "1.0",
+    "domain": "small_water_utility_security"
+  }
+}

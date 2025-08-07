@@ -1,0 +1,258 @@
+{
+  "processing_metadata": {
+    "processed_at": "2025-08-07T16:25:55.225603+00:00",
+    "processor_version": "1.0.0",
+    "max_papers_limit": 50,
+    "deduplication_enabled": true,
+    "concept_extraction_enabled": true
+  },
+  "strategy_metadata": {
+    "config_name": "post_quantum_cryptography_readiness",
+    "strategy_name": "quantum_safe_protocols",
+    "papers_found": 46
+  },
+  "file_structure": {
+    "papers_file": "papers.json",
+    "metadata_file": "metadata.json",
+    "concepts_file": "concepts.json",
+    "hierarchy_file": "concept_hierarchy.json"
+  },
+  "last_download_date": "2025-08-07T16:25:55.225603+00:00",
+  "downloaded_papers": {
+    "10.1109/CCNC54725.2025.10975914": {
+      "title": "An Efficient TLS 1.3 Handshake Protocol with VC Certificate Type",
+      "download_date": "2025-08-07T09:31:29.664374+00:00",
+      "file_path": "pdfs/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type.pdf"
+    },
+    "title:ssh-passkeys: leveraging web authentication for passwordless ssh": {
+      "title": "SSH-Passkeys: Leveraging Web Authentication for Passwordless SSH",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/SSH-Passkeys:_Leveraging_Web_Authentication_for_Passwordless_SSH.pdf"
+    },
+    "title:building automotive security on internet standards: an integration of   dnssec, dane, and dance to authenticate and authorize in-car services": {
+      "title": "Building Automotive Security on Internet Standards: An Integration of   DNSSEC, DANE, and DANCE to Authenticate and Authorize In-Car Services",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Building_Automotive_Security_on_Internet_Standards:_An_Integration_of___DNSSEC,_DANE,_and_DANCE_to_Authenticate_and_Authorize_In-Car_Services.pdf"
+    },
+    "title:hybrid authentication protocols for advanced quantum networks": {
+      "title": "Hybrid Authentication Protocols for Advanced Quantum Networks",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Hybrid_Authentication_Protocols_for_Advanced_Quantum_Networks.pdf"
+    },
+    "10.1007/978-3-031-79007-2_4": {
+      "title": "Misbinding Raw Public Keys to Identities in TLS",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Misbinding_Raw_Public_Keys_to_Identities_in_TLS.pdf"
+    },
+    "title:an enhanced online certificate status protocol for public key   infrastructure with smart grid and energy storage system": {
+      "title": "An Enhanced Online Certificate Status Protocol for Public Key   Infrastructure with Smart Grid and Energy Storage System",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/An_Enhanced_Online_Certificate_Status_Protocol_for_Public_Key___Infrastructure_with_Smart_Grid_and_Energy_Storage_System.pdf"
+    },
+    "10.1109/PST62714.2024.10788053": {
+      "title": "DID Link: Authentication in TLS with Decentralized Identifiers and   Verifiable Credentials",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/DID_Link:_Authentication_in_TLS_with_Decentralized_Identifiers_and___Verifiable_Credentials.pdf"
+    },
+    "title:faster post-quantum tls 1.3 based on ml-kem: implementation and   assessment": {
+      "title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and   Assessment",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Faster_Post-Quantum_TLS_1.3_Based_on_ML-KEM:_Implementation_and___Assessment.pdf"
+    },
+    "title:a security enhanced authentication protocol": {
+      "title": "A Security Enhanced Authentication Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Security_Enhanced_Authentication_Protocol.pdf"
+    },
+    "title:cabba: compatible authenticated bandwidth-efficient broadcast protocol   for ads-b": {
+      "title": "CABBA: Compatible Authenticated Bandwidth-efficient Broadcast protocol   for ADS-B",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/CABBA:_Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol___for_ADS-B.pdf"
+    },
+    "title:a lightweight and secure puf-based authentication and key-exchange   protocol for iot devices": {
+      "title": "A Lightweight and Secure PUF-Based Authentication and Key-exchange   Protocol for IoT Devices",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Lightweight_and_Secure_PUF-Based_Authentication_and_Key-exchange___Protocol_for_IoT_Devices.pdf"
+    },
+    "10.1016/j.iot.2024.101103": {
+      "title": "On the Integration of Self-Sovereign Identity with TLS 1.3 Handshake to   Build Trust in IoT Systems",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/On_the_Integration_of_Self-Sovereign_Identity_with_TLS_1.3_Handshake_to___Build_Trust_in_IoT_Systems.pdf"
+    },
+    "title:authenticated and secure automotive service discovery with dnssec and   dane": {
+      "title": "Authenticated and Secure Automotive Service Discovery with DNSSEC and   DANE",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and___DANE.pdf"
+    },
+    "title:security analysis of the consumer remote sim provisioning protocol": {
+      "title": "Security Analysis of the Consumer Remote SIM Provisioning Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol.pdf"
+    },
+    "10.1007/978-3-031-20974-1_4": {
+      "title": "Oh SSH-it, what's my fingerprint? A Large-Scale Analysis of SSH Host Key   Fingerprint Verification Records in the DNS",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Oh_SSH-it,_what's_my_fingerprint?_A_Large-Scale_Analysis_of_SSH_Host_Key___Fingerprint_Verification_Records_in_the_DNS.pdf"
+    },
+    "title:secure email transmission protocols -- a new architecture design": {
+      "title": "Secure Email Transmission Protocols -- A New Architecture Design",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design.pdf"
+    },
+    "10.1007/978-3-031-23020-2_14": {
+      "title": "A Beyond-5G Authentication and Key Agreement Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Beyond-5G_Authentication_and_Key_Agreement_Protocol.pdf"
+    },
+    "title:security analysis of two recent pairing-free certificateless two-party   authenticated key agreement protocols for smart grid": {
+      "title": "Security Analysis of Two Recent Pairing-Free Certificateless Two-Party   Authenticated Key Agreement Protocols for Smart Grid",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Security_Analysis_of_Two_Recent_Pairing-Free_Certificateless_Two-Party___Authenticated_Key_Agreement_Protocols_for_Smart_Grid.pdf"
+    },
+    "title:security of ev-charging protocols": {
+      "title": "Security of EV-Charging Protocols",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Security_of_EV-Charging_Protocols.pdf"
+    },
+    "title:secure, anonymity-preserving and lightweight mutual authentication and   key agreement protocol for home automation iot networks": {
+      "title": "Secure, Anonymity-Preserving and Lightweight Mutual Authentication and   Key Agreement Protocol for Home Automation IoT Networks",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Secure,_Anonymity-Preserving_and_Lightweight_Mutual_Authentication_and___Key_Agreement_Protocol_for_Home_Automation_IoT_Networks.pdf"
+    },
+    "10.1016/j.cose.2021.102279": {
+      "title": "Formal Modelling and Security Analysis of Bitcoin's Payment Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Formal_Modelling_and_Security_Analysis_of_Bitcoin's_Payment_Protocol.pdf"
+    },
+    "title:masking host identity on internet: encrypted tls/ssl handshake": {
+      "title": "Masking Host Identity on Internet: Encrypted TLS/SSL Handshake",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Masking_Host_Identity_on_Internet:_Encrypted_TLS_SSL_Handshake.pdf"
+    },
+    "title:hardening x.509 certificate issuance using distributed ledger technology": {
+      "title": "Hardening X.509 Certificate Issuance using Distributed Ledger Technology",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Hardening_X.509_Certificate_Issuance_using_Distributed_Ledger_Technology.pdf"
+    },
+    "title:towards forward secure internet traffic": {
+      "title": "Towards Forward Secure Internet Traffic",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Towards_Forward_Secure_Internet_Traffic.pdf"
+    },
+    "title:cryptanalysis of the slap authentication protocol": {
+      "title": "Cryptanalysis of the SLAP Authentication Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Cryptanalysis_of_the_SLAP_Authentication_Protocol.pdf"
+    },
+    "title:symbolic abstractions for quantum protocol verification": {
+      "title": "Symbolic Abstractions for Quantum Protocol Verification",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Symbolic_Abstractions_for_Quantum_Protocol_Verification.pdf"
+    },
+    "10.1145/3243734.3243846": {
+      "title": "A Formal Analysis of 5G Authentication",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Formal_Analysis_of_5G_Authentication.pdf"
+    },
+    "10.1109/TVT.2016.2621354": {
+      "title": "A Secure and Authenticated Key Management Protocol (SA-KMP) for   Vehicular Networks",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Secure_and_Authenticated_Key_Management_Protocol_(SA-KMP)_for___Vehicular_Networks.pdf"
+    },
+    "10.3390/s17050979": {
+      "title": "An Authentication Protocol for Future Sensor Networks",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/An_Authentication_Protocol_for_Future_Sensor_Networks.pdf"
+    },
+    "10.1002/dac.3309": {
+      "title": "Time-Assisted Authentication Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Time-Assisted_Authentication_Protocol.pdf"
+    },
+    "title:a self-authentication and deniable efficient group key agreement   protocol for vanet": {
+      "title": "A Self-Authentication and Deniable Efficient Group Key Agreement   Protocol for VANET",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/A_Self-Authentication_and_Deniable_Efficient_Group_Key_Agreement___Protocol_for_VANET.pdf"
+    },
+    "title:autonomous collision attack on ocsp services": {
+      "title": "Autonomous collision attack on OCSP services",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Autonomous_collision_attack_on_OCSP_services.pdf"
+    },
+    "10.14722/ndss.2016.23055": {
+      "title": "TLS in the wild: an Internet-wide analysis of TLS-based protocols for   electronic communication",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/TLS_in_the_wild:_an_Internet-wide_analysis_of_TLS-based_protocols_for___electronic_communication.pdf"
+    },
+    "title:secure shell (ssh): public key authentication over hypertext transfer   protocol (http)": {
+      "title": "Secure Shell (SSH): Public Key Authentication over Hypertext Transfer   Protocol (HTTP)",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Secure_Shell_(SSH):_Public_Key_Authentication_over_Hypertext_Transfer___Protocol_(HTTP).pdf"
+    },
+    "10.5121/ijsptm.2014.3103": {
+      "title": "Analysis And Improvement of Pairing-Free Certificate-Less Two-Party   Authenticated Key Agreement Protocol For Grid Computing",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Analysis_And_Improvement_of_Pairing-Free_Certificate-Less_Two-Party___Authenticated_Key_Agreement_Protocol_For_Grid_Computing.pdf"
+    },
+    "title:stateful security protocol verification": {
+      "title": "Stateful Security Protocol Verification",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Stateful_Security_Protocol_Verification.pdf"
+    },
+    "title:cryptanalysis and improvement of two certificateless three-party   authenticated key agreement protocols": {
+      "title": "Cryptanalysis and improvement of two certificateless three-party   authenticated key agreement protocols",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Cryptanalysis_and_improvement_of_two_certificateless_three-party___authenticated_key_agreement_protocols.pdf"
+    },
+    "title:aprap: another privacy preserving rfid authentication protocol": {
+      "title": "APRAP: Another Privacy Preserving RFID Authentication Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/APRAP:_Another_Privacy_Preserving_RFID_Authentication_Protocol.pdf"
+    },
+    "title:security of the dns protocol - implementation and weaknesses analyses of   dnssec": {
+      "title": "Security of the DNS Protocol - Implementation and Weaknesses Analyses of   DNSSEC",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of___DNSSEC.pdf"
+    },
+    "title:securing binding update in mobile ipv6 using private key base binding   update protocol": {
+      "title": "Securing Binding Update in Mobile IPv6 Using Private Key Base Binding   Update Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Securing_Binding_Update_in_Mobile_IPv6_Using_Private_Key_Base_Binding___Update_Protocol.pdf"
+    },
+    "title:quantum key distribution in the classical authenticated key exchange   framework": {
+      "title": "Quantum Key Distribution in the Classical Authenticated Key Exchange   Framework",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Quantum_Key_Distribution_in_the_Classical_Authenticated_Key_Exchange___Framework.pdf"
+    },
+    "title:computational security analysis of the umts and lte authentication and   key agreement protocols": {
+      "title": "Computational Security Analysis of the UMTS and LTE Authentication and   Key Agreement Protocols",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Computational_Security_Analysis_of_the_UMTS_and_LTE_Authentication_and___Key_Agreement_Protocols.pdf"
+    },
+    "10.1016/j.mcm.2011.08.004": {
+      "title": "An efficient certificateless authenticated key agreement protocol   without bilinear pairings",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/An_efficient_certificateless_authenticated_key_agreement_protocol___without_bilinear_pairings.pdf"
+    },
+    "title:approaches to formal verification of security protocols": {
+      "title": "Approaches to Formal Verification of Security Protocols",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Approaches_to_Formal_Verification_of_Security_Protocols.pdf"
+    },
+    "title:towards public key infrastructure less authentication in session   initiation protocol": {
+      "title": "Towards Public Key Infrastructure less authentication in Session   Initiation Protocol",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Towards_Public_Key_Infrastructure_less_authentication_in_Session___Initiation_Protocol.pdf"
+    },
+    "title:q-esp: a qos-compliant security protocol to enrich ipsec framework": {
+      "title": "Q-ESP: a QoS-compliant Security Protocol to enrich IPSec Framework",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Q-ESP:_a_QoS-compliant_Security_Protocol_to_enrich_IPSec_Framework.pdf"
+    },
+    "title:formal verification of quantum protocols": {
+      "title": "Formal Verification of Quantum Protocols",
+      "download_date": "2025-08-07T16:25:55.225603+00:00",
+      "file_path": "pdfs/Formal_Verification_of_Quantum_Protocols.pdf"
+    }
+  }
+}

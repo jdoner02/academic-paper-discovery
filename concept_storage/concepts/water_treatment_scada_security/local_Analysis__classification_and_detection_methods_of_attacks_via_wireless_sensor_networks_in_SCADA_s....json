@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s...",
+  "paper_title": "Analysis  classification and detection methods of attacks via wireless sensor networks in SCADA s...",
+  "concepts": [
+    {
+      "text": "attacks",
+      "frequency": 42,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor",
+      "frequency": 32,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057555+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 52,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.061789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 23,
+      "relevance_score": 0.9647296457426973,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 22,
+      "relevance_score": 0.9336544437538844,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.061703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada",
+      "frequency": 26,
+      "relevance_score": 0.9079552517091362,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 25,
+      "relevance_score": 0.8768800497203232,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless",
+      "frequency": 22,
+      "relevance_score": 0.7836544437538844,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 22,
+      "relevance_score": 0.7836544437538844,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.063545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems",
+      "frequency": 13,
+      "relevance_score": 0.7539776258545682,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system",
+      "frequency": 12,
+      "relevance_score": 0.7229024238657552,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.086963+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor networks",
+      "frequency": 16,
+      "relevance_score": 0.6972032318210069,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless sensor networks",
+      "frequency": 12,
+      "relevance_score": 0.672902423865755,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.094052+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 18,
+      "relevance_score": 0.6593536357986327,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.059224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 17,
+      "relevance_score": 0.6282784338098197,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.059142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "frames",
+      "frequency": 17,
+      "relevance_score": 0.6282784338098197,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.068516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system 1",
+      "frequency": 2,
+      "relevance_score": 0.6121504039776259,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095126+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technical systems 10",
+      "frequency": 2,
+      "relevance_score": 0.6121504039776259,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.096460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless sensor",
+      "frequency": 13,
+      "relevance_score": 0.6039776258545682,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 16,
+      "relevance_score": 0.5972032318210068,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2014 11 11s",
+      "frequency": 6,
+      "relevance_score": 0.5864512119328775,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.093449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2",
+      "frequency": 9,
+      "relevance_score": 0.5796768178993164,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.088862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11 11s lifesciencej",
+      "frequency": 5,
+      "relevance_score": 0.5553760099440647,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.093531+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11s lifesciencej gmail",
+      "frequency": 5,
+      "relevance_score": 0.5553760099440647,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.093624+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information security",
+      "frequency": 11,
+      "relevance_score": 0.5418272218769422,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.085550+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 14,
+      "relevance_score": 0.535052827843381,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.069931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 1",
+      "frequency": 2,
+      "relevance_score": 0.5121504039776259,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system 1",
+      "frequency": 2,
+      "relevance_score": 0.5121504039776259,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.088123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 10",
+      "frequency": 2,
+      "relevance_score": 0.5121504039776259,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.092350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 2,
+      "relevance_score": 0.5121504039776258,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095045+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor network",
+      "frequency": 10,
+      "relevance_score": 0.5107520198881292,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.087046+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "finogeev",
+      "frequency": 13,
+      "relevance_score": 0.5039776258545681,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.058313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2014 11",
+      "frequency": 6,
+      "relevance_score": 0.48645121193287755,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.083982+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11 11s",
+      "frequency": 6,
+      "relevance_score": 0.48645121193287755,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technical systems",
+      "frequency": 4,
+      "relevance_score": 0.47430080795525176,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.090848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "traffic",
+      "frequency": 12,
+      "relevance_score": 0.4729024238657551,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.072488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lenina avenue 28",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.094217+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "avenue 28 volgograd",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.094299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "28 volgograd 400005",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.094382+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "volgograd 400005 russia",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.094465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack 2 2",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095379+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 1",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 2",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w asj 24",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.095877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g finogeev 2012",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.096704+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g deconinck 2012",
+      "frequency": 2,
+      "relevance_score": 0.46215040397762586,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.096867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11s lifesciencej",
+      "frequency": 5,
+      "relevance_score": 0.4553760099440647,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.084147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 attacks",
+      "frequency": 5,
+      "relevance_score": 0.4553760099440647,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.087960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lifesciencej gmail com",
+      "frequency": 5,
+      "relevance_score": 0.45537600994406463,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.093725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2014",
+      "frequency": 8,
+      "relevance_score": 0.4486016159105034,
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.056702+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:10.097034+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:10.097211+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning",
+  "paper_title": "Improving SIEM for Critical SCADA Water Infrastructures Using Machine Learning",
+  "concepts": [
+    {
+      "text": "scenarios",
+      "frequency": 50,
+      "relevance_score": 0.9488964346349745,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.322189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 36,
+      "relevance_score": 0.8612054329371817,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.302299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor",
+      "frequency": 36,
+      "relevance_score": 0.7112054329371816,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.304432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- -",
+      "frequency": 20,
+      "relevance_score": 0.6395585738539898,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.379084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "operator",
+      "frequency": 31,
+      "relevance_score": 0.6263157894736842,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.305352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 21,
+      "relevance_score": 0.6065365025466893,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.298425+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tank",
+      "frequency": 29,
+      "relevance_score": 0.5923599320882852,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.326973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scenario",
+      "frequency": 29,
+      "relevance_score": 0.5923599320882852,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.337298+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems technology 21",
+      "frequency": 2,
+      "relevance_score": 0.583955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.390264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 10,
+      "relevance_score": 0.5697792869269949,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.389120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "instances",
+      "frequency": 26,
+      "relevance_score": 0.5414261460101867,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.340056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada",
+      "frequency": 25,
+      "relevance_score": 0.5244482173174873,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.296112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 3,
+      "relevance_score": 0.5009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.364587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning techniques",
+      "frequency": 3,
+      "relevance_score": 0.5009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.385971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical",
+      "frequency": 23,
+      "relevance_score": 0.4904923599320883,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.295965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classi",
+      "frequency": 23,
+      "relevance_score": 0.4904923599320883,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.303996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems technology",
+      "frequency": 2,
+      "relevance_score": 0.4839558573853989,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.390122+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anomaly",
+      "frequency": 22,
+      "relevance_score": 0.47351443123938874,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.301512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 21,
+      "relevance_score": 0.4565365025466893,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.323048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical scada water",
+      "frequency": 9,
+      "relevance_score": 0.4528013582342954,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.385398+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada water infrastructures",
+      "frequency": 9,
+      "relevance_score": 0.4528013582342954,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.385541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems",
+      "frequency": 6,
+      "relevance_score": 0.451867572156197,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.362445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "85 con dence",
+      "frequency": 3,
+      "relevance_score": 0.4509337860780984,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.386399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discrete sensor 2",
+      "frequency": 3,
+      "relevance_score": 0.4509337860780984,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.386832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discrete sensor 1",
+      "frequency": 3,
+      "relevance_score": 0.4509337860780984,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.386974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 floating objects",
+      "frequency": 3,
+      "relevance_score": 0.4509337860780984,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di erent",
+      "frequency": 14,
+      "relevance_score": 0.43769100169779285,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.364015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modbus protocol",
+      "frequency": 5,
+      "relevance_score": 0.43488964346349746,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.368456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "register read-only access",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.386688+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "15 di erent",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blocked measure 2",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "register 4 value",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor 1 discrete",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 discrete sensor",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.387973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classi cation ac-",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.388834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cation ac- curacy",
+      "frequency": 2,
+      "relevance_score": 0.433955857385399,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.388977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 19,
+      "relevance_score": 0.42258064516129035,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.311563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 13,
+      "relevance_score": 0.42071307300509336,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.362157+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water",
+      "frequency": 18,
+      "relevance_score": 0.4056027164685908,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.296256+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classi cation",
+      "frequency": 12,
+      "relevance_score": 0.4037351443123939,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.374302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di erent scenarios",
+      "frequency": 6,
+      "relevance_score": 0.40186757215619695,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.386546+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-processing",
+      "frequency": 3,
+      "relevance_score": 0.4009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.339770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems",
+      "frequency": 3,
+      "relevance_score": 0.4009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.362588+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning techniques",
+      "frequency": 3,
+      "relevance_score": 0.4009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.363729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system",
+      "frequency": 3,
+      "relevance_score": 0.4009337860780985,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.381375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 17,
+      "relevance_score": 0.3886247877758914,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.301858+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 8,
+      "relevance_score": 0.38582342954159593,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.299727+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 64",
+      "frequency": 5,
+      "relevance_score": 0.3848896434634974,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.367240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "register 4",
+      "frequency": 5,
+      "relevance_score": 0.3848896434634974,
+      "source_papers": [
+        "local/Improving_SIEM_for_Critical_SCADA_Water_Infrastructures_Using_Machine_Learning"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.371446+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:03.390627+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:03.390804+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

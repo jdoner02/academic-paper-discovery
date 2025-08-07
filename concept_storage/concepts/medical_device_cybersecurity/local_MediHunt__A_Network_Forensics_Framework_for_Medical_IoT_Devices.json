@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices",
+  "paper_title": "MediHunt  A Network Forensics Framework for Medical IoT Devices",
+  "concepts": [
+    {
+      "text": "network",
+      "frequency": 43,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.574956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mqtt",
+      "frequency": 40,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.577047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 27,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.579372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 25,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.580821+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 20,
+      "relevance_score": 0.9863770250368188,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.575127+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 17,
+      "relevance_score": 0.875920471281296,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.577845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forensics",
+      "frequency": 19,
+      "relevance_score": 0.799558173784978,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.575046+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network forensics",
+      "frequency": 16,
+      "relevance_score": 0.7891016200294552,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.595142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network forensics framework",
+      "frequency": 9,
+      "relevance_score": 0.7813696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.607398+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 18,
+      "relevance_score": 0.7627393225331369,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.575368+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0",
+      "frequency": 12,
+      "relevance_score": 0.7418262150220912,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.605932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 1",
+      "frequency": 9,
+      "relevance_score": 0.7313696612665684,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.611760+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 9,
+      "relevance_score": 0.7313696612665684,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.611847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 13,
+      "relevance_score": 0.7286450662739323,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.579191+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 13,
+      "relevance_score": 0.7286450662739323,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.580993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 17,
+      "relevance_score": 0.725920471281296,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.578442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "traffic",
+      "frequency": 17,
+      "relevance_score": 0.725920471281296,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.582914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forensics framework",
+      "frequency": 10,
+      "relevance_score": 0.7181885125184094,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.595237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medihunt",
+      "frequency": 15,
+      "relevance_score": 0.6522827687776142,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.574866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "miot",
+      "frequency": 15,
+      "relevance_score": 0.6522827687776142,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.576567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml models",
+      "frequency": 8,
+      "relevance_score": 0.6445508100147276,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.597511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "flow-based",
+      "frequency": 12,
+      "relevance_score": 0.6418262150220913,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.580223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 5,
+      "relevance_score": 0.6340942562592047,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.608778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 9,
+      "relevance_score": 0.6313696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.606011+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9993 0",
+      "frequency": 6,
+      "relevance_score": 0.6209131075110456,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.610734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9993 0 9993",
+      "frequency": 6,
+      "relevance_score": 0.6209131075110456,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.610818+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection system",
+      "frequency": 7,
+      "relevance_score": 0.6077319587628865,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.600172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9993",
+      "frequency": 8,
+      "relevance_score": 0.5945508100147275,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.604885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 13,
+      "relevance_score": 0.5786450662739323,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.579552+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network traffic",
+      "frequency": 10,
+      "relevance_score": 0.5681885125184094,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.598072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack detection",
+      "frequency": 10,
+      "relevance_score": 0.5681885125184094,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.598696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network forensic framework",
+      "frequency": 3,
+      "relevance_score": 0.5604565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.608667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "precision recall f1-score",
+      "frequency": 4,
+      "relevance_score": 0.5472754050073637,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.609308+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recall f1-score dt",
+      "frequency": 4,
+      "relevance_score": 0.5472754050073637,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.609390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classification",
+      "frequency": 12,
+      "relevance_score": 0.5418262150220913,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.590591+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medihunt framework",
+      "frequency": 5,
+      "relevance_score": 0.5340942562592047,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.597591+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time",
+      "frequency": 9,
+      "relevance_score": 0.5313696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.578561+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mqtt network",
+      "frequency": 9,
+      "relevance_score": 0.5313696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.598490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "raspberry pi",
+      "frequency": 9,
+      "relevance_score": 0.5313696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.600073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection",
+      "frequency": 9,
+      "relevance_score": 0.5313696612665685,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.600597+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication protocols like",
+      "frequency": 2,
+      "relevance_score": 0.5236377025036819,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.607736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack detection systems",
+      "frequency": 2,
+      "relevance_score": 0.5236377025036819,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.608876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forensic framework medihunt",
+      "frequency": 2,
+      "relevance_score": 0.5236377025036819,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.608975+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9993 0",
+      "frequency": 6,
+      "relevance_score": 0.5209131075110457,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.604964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f1-score dt 0",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.609471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9995 0",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.610899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9995 0 9995",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.610980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9973 0",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.611061+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9973 0 9973",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.611141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9990 0",
+      "frequency": 3,
+      "relevance_score": 0.5104565537555228,
+      "source_papers": [
+        "local/MediHunt__A_Network_Forensics_Framework_for_Medical_IoT_Devices"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.611401+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:34.613082+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:34.613355+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

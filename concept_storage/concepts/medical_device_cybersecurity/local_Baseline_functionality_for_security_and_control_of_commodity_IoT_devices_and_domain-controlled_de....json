@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de...",
+  "paper_title": "Baseline functionality for security and control of commodity IoT devices and domain-controlled de...",
+  "concepts": [
+    {
+      "text": "iot",
+      "frequency": 139,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.589912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 177,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.590253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 150,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.590661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices",
+      "frequency": 72,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.799208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 60,
+      "relevance_score": 0.7697923643670462,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.599987+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domain",
+      "frequency": 54,
+      "relevance_score": 0.7028131279303416,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.597155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 53,
+      "relevance_score": 0.6916499218575575,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.597671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software",
+      "frequency": 49,
+      "relevance_score": 0.6469970975664211,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.597928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 40,
+      "relevance_score": 0.6465282429113641,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.805044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 47,
+      "relevance_score": 0.6246706854208529,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.589091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "updates",
+      "frequency": 38,
+      "relevance_score": 0.524201830765796,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.598184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "on-boarding",
+      "frequency": 27,
+      "relevance_score": 0.5014065639651708,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.598953+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "management",
+      "frequency": 35,
+      "relevance_score": 0.4907122125474437,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.591257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trust",
+      "frequency": 35,
+      "relevance_score": 0.4907122125474437,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.613496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trust domain",
+      "frequency": 25,
+      "relevance_score": 0.4790801518196026,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.804789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "on-boarding process",
+      "frequency": 2,
+      "relevance_score": 0.47232641214556825,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.848388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g algorithms",
+      "frequency": 2,
+      "relevance_score": 0.47232641214556814,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.899629+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot device",
+      "frequency": 24,
+      "relevance_score": 0.46791694574681847,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.804278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wifi",
+      "frequency": 32,
+      "relevance_score": 0.4572225943290913,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.645725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "de-",
+      "frequency": 23,
+      "relevance_score": 0.4567537396740343,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.632204+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 30,
+      "relevance_score": 0.4348961821835231,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.594069+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "guardian",
+      "frequency": 30,
+      "relevance_score": 0.4348961821835231,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.621270+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "password",
+      "frequency": 30,
+      "relevance_score": 0.4348961821835231,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.717119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edimax sp-2101w smart",
+      "frequency": 3,
+      "relevance_score": 0.4334896182183523,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.902324+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smarter ikettle 2",
+      "frequency": 3,
+      "relevance_score": 0.4334896182183523,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.902866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ikettle 2 0",
+      "frequency": 3,
+      "relevance_score": 0.4334896182183523,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.903137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 0 water",
+      "frequency": 3,
+      "relevance_score": 0.4334896182183523,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.903408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 water kettle",
+      "frequency": 3,
+      "relevance_score": 0.4334896182183523,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.903678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "update",
+      "frequency": 29,
+      "relevance_score": 0.423732976110739,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.670895+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "de- vices",
+      "frequency": 11,
+      "relevance_score": 0.4227952668006252,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.809218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices 1",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.884277+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-end mid-level low-end",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.885838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high- end mid-level",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.887680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "administra- tive access",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.888496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device ven- dor",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.891201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wi wi 1",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.897591+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "next on-boarding password",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.897845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ad-hoc key agreement",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.898354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d-link wifi day",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.904221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rt5350f cpu 360",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.904730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "flash linux 2",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.904984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux 2 6",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.905238+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 6 21",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.905492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sp-2101w smart plug",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.905747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d-link wifi motion",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.906259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "motion sensor dch-s150",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.906514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tp-link wifi smart",
+      "frequency": 2,
+      "relevance_score": 0.4223264121455682,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.907052+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commodity iot devices",
+      "frequency": 10,
+      "relevance_score": 0.41163206072784103,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.883998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software updates",
+      "frequency": 18,
+      "relevance_score": 0.40093770931011385,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.800946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-end",
+      "frequency": 17,
+      "relevance_score": 0.38977450323732976,
+      "source_papers": [
+        "local/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices_and_domain-controlled_de..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:11.625103+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:11.907787+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:11.907963+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

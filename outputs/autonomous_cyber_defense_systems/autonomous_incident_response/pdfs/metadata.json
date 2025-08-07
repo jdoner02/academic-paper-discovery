@@ -1,0 +1,196 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T15:56:31.496192+00:00",
+    "strategy_name": "Autonomous Incident Response and Containment",
+    "total_papers": 10,
+    "download_directory": "outputs/autonomous_cyber_defense_systems/autonomous_incident_response/pdfs"
+  },
+  "papers": [
+    {
+      "title": "REGARD: Rules of EngaGement for Automated cybeR Defense to aid in   Intrusion Response",
+      "authors": [
+        "Damodar Panigrahi",
+        "William Anderson",
+        "Joshua Whitman",
+        "Sudip Mittal",
+        "Benjamin A Blakely"
+      ],
+      "abstract": "Automated Intelligent Cyberdefense Agents (AICAs) that are part Intrusion Detection Systems (IDS) and part Intrusion Response Systems (IRS) are being designed to protect against sophisticated and automated cyber-attacks. An AICA based on the ideas of Self-Adaptive Autonomic Computing Systems (SA-ACS) can be considered as a managing system that protects a managed system like a personal computer, web application, critical infrastructure, etc. An AICA, specifically the IRS components, can compute a wide range of potential responses to meet its security goals and objectives, such as taking actions to prevent the attack from completing, restoring the system to comply with the organizational security policy, containing or confining an attack, attack eradication, deploying forensics measures to enable future attack analysis, counterattack, and so on. To restrict its activities in order to minimize collateral/organizational damage, such an automated system must have set Rules of Engagement (RoE). Automated systems must determine which operations can be completely automated (and when), which actions require human operator confirmation, and which actions must never be undertaken. In this paper, to enable this control functionality over an IRS, we create Rules of EngaGement for Automated cybeR Defense (REGARD) system which holds a set of Rules of Engagement (RoE) to protect the managed system according to the instructions provided by the human operator. These rules help limit the action of the IRS on the managed system in compliance with the recommendations of the domain expert. We provide details of execution, management, operation, and conflict resolution for Rules of Engagement (RoE) to constrain the actions of an automated IRS. We also describe REGARD system implementation, security case studies for cyber defense, and RoE demonstrations.",
+      "publication_date": "2023-05-23T11:52:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2305.13967v1"
+    },
+    {
+      "title": "IC-SECURE: Intelligent System for Assisting Security Experts in   Generating Playbooks for Automated Incident Response",
+      "authors": [
+        "Ryuta Kremer",
+        "Prasanna N. Wudali",
+        "Satoru Momiyama",
+        "Toshinori Araki",
+        "Jun Furukawa",
+        "Yuval Elovici",
+        "Asaf Shabtai"
+      ],
+      "abstract": "Security orchestration, automation, and response (SOAR) systems ingest alerts from security information and event management (SIEM) system, and then trigger relevant playbooks that automate and orchestrate the execution of a sequence of security activities. SOAR systems have two major limitations: (i) security analysts need to define, create and change playbooks manually, and (ii) the choice between multiple playbooks that could be triggered is based on rules defined by security analysts. To address these limitations, recent studies in the field of artificial intelligence for cybersecurity suggested the task of interactive playbook creation. In this paper, we propose IC-SECURE, an interactive playbook creation solution based on a novel deep learning-based approach that provides recommendations to security analysts during the playbook creation process. IC-SECURE captures the context in the form of alert data and current status of incomplete playbook, required to make reasonable recommendation for next module that should be included in the new playbook being created. We created three evaluation datasets, each of which involved a combination of a set of alert rules and a set of playbooks from a SOAR platform. We evaluated IC-SECURE under various settings, and compared our results with two state-of-the-art recommender system methods. In our evaluation IC-SECURE demonstrated superior performance compared to other methods by consistently recommending the correct security module, achieving precision@1 > 0.8 and recall@3 > 0.92",
+      "publication_date": "2023-11-07T09:13:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.03825v1"
+    },
+    {
+      "title": "Toward an Intent-Based and Ontology-Driven Autonomic Security Response   in Security Orchestration Automation and Response",
+      "authors": [
+        "Zequan Huang",
+        "Jacques Robin",
+        "Nicolas Herbaut",
+        "Nourhène Ben Rabah",
+        "Bénédicte Le Grand"
+      ],
+      "abstract": "Modern Security Orchestration, Automation, and Response (SOAR) platforms must rapidly adapt to continuously evolving cyber attacks. Intent-Based Networking has emerged as a promising paradigm for cyber attack mitigation through high-level declarative intents, which offer greater flexibility and persistency than procedural actions. In this paper, we bridge the gap between two active research directions: Intent-Based Cyber Defense and Autonomic Cyber Defense, by proposing a unified, ontology-driven security intent definition leveraging the MITRE-D3FEND cybersecurity ontology. We also propose a general two-tiered methodology for integrating such security intents into decision-theoretic Autonomic Cyber Defense systems, enabling hierarchical and context-aware automated response capabilities. The practicality of our approach is demonstrated through a concrete use case, showcasing its integration within next-generation Security Orchestration, Automation, and Response platforms.",
+      "publication_date": "2025-07-16T09:17:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.12061v1"
+    },
+    {
+      "title": "Towards Incident Response Orchestration and Automation for the Advanced   Metering Infrastructure",
+      "authors": [
+        "Alexios Lekidis",
+        "Vasileios Mavroeidis",
+        "Konstantinos Fysarakis"
+      ],
+      "abstract": "The threat landscape of industrial infrastructures has expanded exponentially over the last few years. Such infrastructures include services such as the smart meter data exchange that should have real-time availability. Smart meters constitute the main component of the Advanced Metering Infrastructure, and their measurements are also used as historical data for forecasting the energy demand to avoid load peaks that could lead to blackouts within specific areas. Hence, a comprehensive Incident Response plan must be in place to ensure high service availability in case of cyber-attacks or operational errors. Currently, utility operators execute such plans mostly manually, requiring extensive time, effort, and domain expertise, and they are prone to human errors. In this paper, we present a method to provide an orchestrated and highly automated Incident Response plan targeting specific use cases and attack scenarios in the energy sector, including steps for preparedness, detection and analysis, containment, eradication, recovery, and post-incident activity through the use of playbooks. In particular, we use the OASIS Collaborative Automated Course of Action Operations (CACAO) standard to define highly automatable workflows in support of cyber security operations for the Advanced Metering Infrastructure. The proposed method is validated through an Advanced Metering Infrastructure testbed where the most prominent cyber-attacks are emulated, and playbooks are instantiated to ensure rapid response for the containment and eradication of the threat, business continuity on the smart meter data exchange service, and compliance with incident reporting requirements.",
+      "publication_date": "2024-03-11T16:58:13+00:00",
+      "doi": "10.1109/WFCS60972.2024.10540775",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.06907v1"
+    },
+    {
+      "title": "A Model-Based, Decision-Theoretic Perspective on Automated Cyber   Response",
+      "authors": [
+        "Lashon B. Booker",
+        "Scott A. Musman"
+      ],
+      "abstract": "Cyber-attacks can occur at machine speeds that are far too fast for human-in-the-loop (or sometimes on-the-loop) decision making to be a viable option. Although human inputs are still important, a defensive Artificial Intelligence (AI) system must have considerable autonomy in these circumstances. When the AI system is model-based, its behavior responses can be aligned with risk-aware cost/benefit tradeoffs that are defined by user-supplied preferences that capture the key aspects of how human operators understand the system, the adversary and the mission. This paper describes an approach to automated cyber response that is designed along these lines. We combine a simulation of the system to be defended with an anytime online planner to solve cyber defense problems characterized as partially observable Markov decision problems (POMDPs).",
+      "publication_date": "2020-02-20T15:30:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2002.08957v1"
+    },
+    {
+      "title": "Automated Cyber Defence: A Review",
+      "authors": [
+        "Sanyam Vyas",
+        "John Hannay",
+        "Andrew Bolton",
+        "Professor Pete Burnap"
+      ],
+      "abstract": "Within recent times, cybercriminals have curated a variety of organised and resolute cyber attacks within a range of cyber systems, leading to consequential ramifications to private and governmental institutions. Current security-based automation and orchestrations focus on automating fixed purpose and hard-coded solutions, which are easily surpassed by modern-day cyber attacks. Research within Automated Cyber Defence will allow the development and enabling intelligence response by autonomously defending networked systems through sequential decision-making agents. This article comprehensively elaborates the developments within Automated Cyber Defence through a requirement analysis divided into two sub-areas, namely, automated defence and attack agents and Autonomous Cyber Operation (ACO) Gyms. The requirement analysis allows the comparison of automated agents and highlights the importance of ACO Gyms for their continual development. The requirement analysis is also used to critique ACO Gyms with an overall aim to develop them for deploying automated agents within real-world networked systems. Relevant future challenges were addressed from the overall analysis to accelerate development within the area of Automated Cyber Defence.",
+      "publication_date": "2023-03-08T22:37:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.04926v1"
+    },
+    {
+      "title": "Transforming Cyber Defense: Harnessing Agentic and Frontier AI for   Proactive, Ethical Threat Intelligence",
+      "authors": [
+        "Krti Tallam"
+      ],
+      "abstract": "In an era marked by unprecedented digital complexity, the cybersecurity landscape is evolving at a breakneck pace, challenging traditional defense paradigms. Advanced Persistent Threats (APTs) reveal inherent vulnerabilities in conventional security measures and underscore the urgent need for continuous, adaptive, and proactive strategies that seamlessly integrate human insight with cutting edge AI technologies. This manuscript explores how the convergence of agentic AI and Frontier AI is transforming cybersecurity by reimagining frameworks such as the cyber kill chain, enhancing threat intelligence processes, and embedding robust ethical governance within automated response systems. Drawing on real-world data and forward looking perspectives, we examine the roles of real time monitoring, automated incident response, and perpetual learning in forging a resilient, dynamic defense ecosystem. Our vision is to harmonize technological innovation with unwavering ethical oversight, ensuring that future AI driven security solutions uphold core human values of fairness, transparency, and accountability while effectively countering emerging cyber threats.",
+      "publication_date": "2025-02-28T20:23:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.00164v1"
+    },
+    {
+      "title": "Large Language Models are Autonomous Cyber Defenders",
+      "authors": [
+        "Sebastián R. Castro",
+        "Roberto Campbell",
+        "Nancy Lau",
+        "Octavio Villalobos",
+        "Jiaqi Duan",
+        "Alvaro A. Cardenas"
+      ],
+      "abstract": "Fast and effective incident response is essential to prevent adversarial cyberattacks. Autonomous Cyber Defense (ACD) aims to automate incident response through Artificial Intelligence (AI) agents that plan and execute actions. Most ACD approaches focus on single-agent scenarios and leverage Reinforcement Learning (RL). However, ACD RL-trained agents depend on costly training, and their reasoning is not always explainable or transferable. Large Language Models (LLMs) can address these concerns by providing explainable actions in general security contexts. Researchers have explored LLM agents for ACD but have not evaluated them on multi-agent scenarios or interacting with other ACD agents. In this paper, we show the first study on how LLMs perform in multi-agent ACD environments by proposing a new integration to the CybORG CAGE 4 environment. We examine how ACD teams of LLM and RL agents can interact by proposing a novel communication protocol. Our results highlight the strengths and weaknesses of LLMs and RL and help us identify promising research directions to create, train, and deploy future teams of ACD agents.",
+      "publication_date": "2025-05-07T22:42:37+00:00",
+      "doi": "10.1109/CAI64502.2025.00195",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2505.04843v2"
+    },
+    {
+      "title": "Security Orchestration, Automation, and Response Engine for Deployment   of Behavioural Honeypots",
+      "authors": [
+        "Upendra Bartwal",
+        "Subhasis Mukhopadhyay",
+        "Rohit Negi",
+        "Sandeep Shukla"
+      ],
+      "abstract": "Cyber Security is a critical topic for organizations with IT/OT networks as they are always susceptible to attack, whether insider or outsider. Since the cyber landscape is an ever-evolving scenario, one must keep upgrading its security systems to enhance the security of the infrastructure. Tools like Security Information and Event Management (SIEM), Endpoint Detection and Response (EDR), Threat Intelligence Platform (TIP), Information Technology Service Management (ITSM), along with other defensive techniques like Intrusion Detection System (IDS), Intrusion Protection System (IPS), and many others enhance the cyber security posture of the infrastructure. However, the proposed protection mechanisms have their limitations, they are insufficient to ensure security, and the attacker penetrates the network. Deception technology, along with Honeypots, provides a false sense of vulnerability in the target systems to the attackers. The attacker deceived reveals threat intel about their modus operandi. We have developed a Security Orchestration, Automation, and Response (SOAR) Engine that dynamically deploys custom honeypots inside the internal network infrastructure based on the attacker's behavior. The architecture is robust enough to support multiple VLANs connected to the system and used for orchestration. The presence of botnet traffic and DDOS attacks on the honeypots in the network is detected, along with a malware collection system. After being exposed to live traffic for four days, our engine dynamically orchestrated the honeypots 40 times, detected 7823 attacks, 965 DDOS attack packets, and three malicious samples. While our experiments with static honeypots show an average attacker engagement time of 102 seconds per instance, our SOAR Engine-based dynamic honeypots engage attackers on average 3148 seconds.",
+      "publication_date": "2022-01-14T07:57:12+00:00",
+      "doi": "10.1109/DSC54232.2022.9888808",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2201.05326v1"
+    },
+    {
+      "title": "IRCopilot: Automated Incident Response with Large Language Models",
+      "authors": [
+        "Xihuan Lin",
+        "Jie Zhang",
+        "Gelei Deng",
+        "Tianzhe Liu",
+        "Xiaolong Liu",
+        "Changcai Yang",
+        "Tianwei Zhang",
+        "Qing Guo",
+        "Riqing Chen"
+      ],
+      "abstract": "Incident response plays a pivotal role in mitigating the impact of cyber attacks. In recent years, the intensity and complexity of global cyber threats have grown significantly, making it increasingly challenging for traditional threat detection and incident response methods to operate effectively in complex network environments. While Large Language Models (LLMs) have shown great potential in early threat detection, their capabilities remain limited when it comes to automated incident response after an intrusion. To address this gap, we construct an incremental benchmark based on real-world incident response tasks to thoroughly evaluate the performance of LLMs in this domain. Our analysis reveals several key challenges that hinder the practical application of contemporary LLMs, including context loss, hallucinations, privacy protection concerns, and their limited ability to provide accurate, context-specific recommendations. In response to these challenges, we propose IRCopilot, a novel framework for automated incident response powered by LLMs. IRCopilot mimics the three dynamic phases of a real-world incident response team using four collaborative LLM-based session components. These components are designed with clear divisions of responsibility, reducing issues such as hallucinations and context loss. Our method leverages diverse prompt designs and strategic responsibility segmentation, significantly improving the system's practicality and efficiency. Experimental results demonstrate that IRCopilot outperforms baseline LLMs across key benchmarks, achieving sub-task completion rates of 150%, 138%, 136%, 119%, and 114% for various response tasks. Moreover, IRCopilot exhibits robust performance on public incident response platforms and in real-world attack scenarios, showcasing its strong applicability.",
+      "publication_date": "2025-05-27T09:29:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.20945v1"
+    }
+  ]
+}

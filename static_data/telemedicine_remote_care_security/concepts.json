@@ -1,0 +1,1695 @@
+{
+  "domain": "telemedicine_remote_care_security",
+  "concepts": [
+    {
+      "text": "security",
+      "total_frequency": 3258,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_mobile_learning_security",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "health",
+      "total_frequency": 1291,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "app",
+      "total_frequency": 1244,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Enhancing_mobile_learning_security",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "apps",
+      "total_frequency": 1236,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 1014,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "healthcare",
+      "total_frequency": 1000,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "blockchain",
+      "total_frequency": 963,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "privacy",
+      "total_frequency": 949,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mobile",
+      "total_frequency": 947,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Enhancing_mobile_learning_security",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/The_Future_of_Mobile_Security",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mhealth",
+      "total_frequency": 923,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "patient",
+      "total_frequency": 834,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "access",
+      "total_frequency": 746,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/The_Future_of_Mobile_Security",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "secure",
+      "total_frequency": 714,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/The_Future_of_Mobile_Security",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "devices",
+      "total_frequency": 677,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Enhancing_mobile_learning_security",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 523,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/The_Future_of_Mobile_Security",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mhealth apps",
+      "total_frequency": 522,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "information",
+      "total_frequency": 489,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "device",
+      "total_frequency": 478,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_mobile_learning_security",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "authentication",
+      "total_frequency": 476,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 473,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "medical",
+      "total_frequency": 461,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 441,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "smart",
+      "total_frequency": 440,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "key",
+      "total_frequency": 415,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "developers",
+      "total_frequency": 412,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "users",
+      "total_frequency": 410,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Enhancing_mobile_learning_security",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/The_Future_of_Mobile_Security",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "server",
+      "total_frequency": 382,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "protocol",
+      "total_frequency": 338,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "participants",
+      "total_frequency": 324,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_mobile_learning_security",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot",
+      "total_frequency": 323,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "knowledge",
+      "total_frequency": 313,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "e g",
+      "total_frequency": 310,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "learning",
+      "total_frequency": 310,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+        "local/Enhancing_mobile_learning_security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "encryption",
+      "total_frequency": 309,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "remote",
+      "total_frequency": 283,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "patients",
+      "total_frequency": 264,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "development",
+      "total_frequency": 261,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "android",
+      "total_frequency": 260,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "end",
+      "total_frequency": 256,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "software",
+      "total_frequency": 245,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "awareness",
+      "total_frequency": 236,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_mobile_learning_security",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "control",
+      "total_frequency": 232,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "applications",
+      "total_frequency": 223,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "-users",
+      "total_frequency": 223,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "end -users",
+      "total_frequency": 221,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "euicc",
+      "total_frequency": 215,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "networks",
+      "total_frequency": 214,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "consent",
+      "total_frequency": 204,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "profile",
+      "total_frequency": 204,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensor",
+      "total_frequency": 202,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cloud",
+      "total_frequency": 200,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "framework",
+      "total_frequency": 176,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "home",
+      "total_frequency": 176,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "permissions",
+      "total_frequency": 174,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "features",
+      "total_frequency": 173,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Enhancing_mobile_learning_security",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "monitoring",
+      "total_frequency": 171,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/Secure_Non-public_Health_Enterprise_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "respondents",
+      "total_frequency": 170,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security awareness",
+      "total_frequency": 166,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+        "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 160,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "challenges",
+      "total_frequency": 159,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "scheme",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+        "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "survey",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hchain",
+      "total_frequency": 136,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "block",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rpm",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sharing",
+      "total_frequency": 133,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "technology",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_mobile_learning_security",
+        "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "application",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "7 7",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "communication",
+      "total_frequency": 123,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "techniques",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "layer",
+      "total_frequency": 117,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mobile app",
+      "total_frequency": 116,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "phone",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+        "local/The_Future_of_Mobile_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "questions",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "router",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rsp",
+      "total_frequency": 112,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ehr",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensor networks",
+      "total_frequency": 108,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "management",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless sensor",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wireless sensor networks",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sim",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cert",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "use",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+        "local/Secure_Non-public_Health_Enterprise_Networks",
+        "local/The_Future_of_Mobile_Security",
+        "local/Remote_Control_of_Mobile_Devices_in_Android_Platform"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "phi",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+        "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ieee",
+      "total_frequency": 101,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+        "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+        "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "fog",
+      "total_frequency": 100,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "secure mhealth",
+      "total_frequency": 100,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tpm",
+      "total_frequency": 98,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "practices",
+      "total_frequency": 95,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+        "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "including",
+      "total_frequency": 94,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "7 7 7",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+        "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tls",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sensors",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+        "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+        "local/Secure_Non-public_Health_Enterprise_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "adversary",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "lpa",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2019",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "mno",
+      "total_frequency": 89,
+      "avg_relevance": 0.89,
+      "source_papers": [
+        "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices": {
+      "id": "local/A_Security_Protocol_for_the_Identification_and_Data_Encrypt_Key_Management_of_Secure_Mobile_Devices",
+      "title": "A Security Protocol for the Identification and Data Encrypt Key Management of Secure Mobile Devices",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures": {
+      "id": "local/An_Approach_to_Secure_Mobile_Enterprise_Architectures",
+      "title": "An Approach to Secure Mobile Enterprise Architectures",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare": {
+      "id": "local/hChain_4.0__A_Secure_and_Scalable_Permissioned_Blockchain_for_EHR_Management_in_Smart_Healthcare",
+      "title": "hChain 4.0  A Secure and Scalable Permissioned Blockchain for EHR Management in Smart Healthcare",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...": {
+      "id": "local/Precision_Health_Data__Requirements__Challenges_and_Existing_Techniques_for_Data_Security_and_Pri...",
+      "title": "Precision Health Data  Requirements  Challenges and Existing Techniques for Data Security and Pri...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption": {
+      "id": "local/Advancing_Biomedical_Signal_Security__Real-Time_ECG_Monitoring_with_Chaotic_Encryption",
+      "title": "Advancing Biomedical Signal Security  Real-Time ECG Monitoring with Chaotic Encryption",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS": {
+      "id": "local/Cryptanalysis_on_Secure_ECC_based_Mutual_Authentication_Protocol_for_Cloud-Assisted_TMIS",
+      "title": "Cryptanalysis on Secure ECC based Mutual Authentication Protocol for Cloud-Assisted TMIS",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy": {
+      "id": "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+      "title": "BYOD  Personal Area Networks  PANs  and IOT  Threats to Patients Privacy",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...": {
+      "id": "local/Enhancing_Data_Privacy_In_Wireless_Sensor_Networks__Investigating_Techniques_And_Protocols_To_Pro...",
+      "title": "Enhancing Data Privacy In Wireless Sensor Networks  Investigating Techniques And Protocols To Pro...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud": {
+      "id": "local/Health_Access_Broker__Secure__Patient-Controlled_Management_of_Personal_Health_Records_in_the_Cloud",
+      "title": "Health Access Broker  Secure  Patient-Controlled Management of Personal Health Records in the Cloud",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy": {
+      "id": "local/hChain__Blockchain_Based_Large_Scale_EHR_Data_Sharing_with_Enhanced_Security_and_Privacy",
+      "title": "hChain  Blockchain Based Large Scale EHR Data Sharing with Enhanced Security and Privacy",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...": {
+      "id": "local/Enabling_Secure_and_Usable_Mobile_Application__Revealing_the_Nuts_and_Bolts_of_software_TPM_in_to...",
+      "title": "Enabling Secure and Usable Mobile Application  Revealing the Nuts and Bolts of software TPM in to...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...": {
+      "id": "local/Lightweight_Electronic_Signatures_and_Reliable_Access_Control_Included_in_Sensor_Networks_to_Prev...",
+      "title": "Lightweight Electronic Signatures and Reliable Access Control Included in Sensor Networks to Prev...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_mobile_learning_security": {
+      "id": "local/Enhancing_mobile_learning_security",
+      "title": "Enhancing mobile learning security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing": {
+      "id": "local/S3PHER__Secure_and_Searchable_System_for_Patient-driven_HEalth_data_shaRing",
+      "title": "S3PHER  Secure and Searchable System for Patient-driven HEalth data shaRing",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy": {
+      "id": "local/Safeguarding_Virtual_Healthcare__A_Novel_Attacker-Centric_Model_for_Data_Security_and_Privacy",
+      "title": "Safeguarding Virtual Healthcare  A Novel Attacker-Centric Model for Data Security and Privacy",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications": {
+      "id": "local/Design_of_an_Edge-based_Portable_EHR_System_for_Anemia_Screening_in_Remote_Health_Applications",
+      "title": "Design of an Edge-based Portable EHR System for Anemia Screening in Remote Health Applications",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol": {
+      "id": "local/Security_Analysis_of_the_Consumer_Remote_SIM_Provisioning_Protocol",
+      "title": "Security Analysis of the Consumer Remote SIM Provisioning Protocol",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System": {
+      "id": "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+      "title": "A Lightweight Blockchain and Fog-enabled Secure Remote Patient Monitoring System",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...": {
+      "id": "local/Secure_and_Efficient_Privacy-preserving_Authentication_Scheme_using_Cuckoo_Filter_in_Remote_Patie...",
+      "title": "Secure and Efficient Privacy-preserving Authentication Scheme using Cuckoo Filter in Remote Patie...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...": {
+      "id": "local/End-Users__Knowledge_and_Perception_about_Security_of_Mobile_Health_Apps__A_Case_Study_with_Two_S...",
+      "title": "End-Users  Knowledge and Perception about Security of Mobile Health Apps  A Case Study with Two S...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders": {
+      "id": "local/Towards_Blockchain-based_Remote_Management_Systems_for_Patients_with_Movement_Disorders",
+      "title": "Towards Blockchain-based Remote Management Systems for Patients with Movement Disorders",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring": {
+      "id": "local/Towards_Blockchain-Based_Secure_Data_Management_for_Remote_Patient_Monitoring",
+      "title": "Towards Blockchain-Based Secure Data Management for Remote Patient Monitoring",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces": {
+      "id": "local/Enhancing_the_Security___Privacy_of_Wearable_Brain-Computer_Interfaces",
+      "title": "Enhancing the Security   Privacy of Wearable Brain-Computer Interfaces",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring": {
+      "id": "local/Detecting_Anomalous_User_Behavior_in_Remote_Patient_Monitoring",
+      "title": "Detecting Anomalous User Behavior in Remote Patient Monitoring",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Secure_Non-public_Health_Enterprise_Networks": {
+      "id": "local/Secure_Non-public_Health_Enterprise_Networks",
+      "title": "Secure Non-public Health Enterprise Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine": {
+      "id": "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine",
+      "title": "SRACARE  Secure Remote Attestation with Code Authentication and Resilience Engine",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems": {
+      "id": "local/Privacy-Preserving_Edge_Federated_Learning_for_Intelligent_Mobile-Health_Systems",
+      "title": "Privacy-Preserving Edge Federated Learning for Intelligent Mobile-Health Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics": {
+      "id": "local/LightIoT__Lightweight_and_Secure_Communication_for_Energy-Efficient_IoT_in_Health_Informatics",
+      "title": "LightIoT  Lightweight and Secure Communication for Energy-Efficient IoT in Health Informatics",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow": {
+      "id": "local/Mobile_App_Security_Trends_and_Topics__An_Examination_of_Questions_From_Stack_Overflow",
+      "title": "Mobile App Security Trends and Topics  An Examination of Questions From Stack Overflow",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study": {
+      "id": "local/Security_Awareness_of_End-Users_of_Mobile_Health_Applications__An_Empirical_Study",
+      "title": "Security Awareness of End-Users of Mobile Health Applications  An Empirical Study",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Disease_Insight_through_Digital_Biomarkers_Developed_by_Remotely_Collected_Wearables_and_Smartpho...": {
+      "id": "local/Disease_Insight_through_Digital_Biomarkers_Developed_by_Remotely_Collected_Wearables_and_Smartpho...",
+      "title": "Disease Insight through Digital Biomarkers Developed by Remotely Collected Wearables and Smartpho...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_": {
+      "id": "local/Mobile_Mental_Health_Apps__Alternative_Intervention_or_Intrusion_",
+      "title": "Mobile Mental Health Apps  Alternative Intervention or Intrusion ",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach": {
+      "id": "local/An_Empirical_Study_on_Secure_Usage_of_Mobile_Health_Apps__The_Attack_Simulation_Approach",
+      "title": "An Empirical Study on Secure Usage of Mobile Health Apps  The Attack Simulation Approach",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...": {
+      "id": "local/Balancing_Patient_Privacy_and_Health_Data_Security__The_Role_of_Compliance_in_Protected_Health_In...",
+      "title": "Balancing Patient Privacy and Health Data Security  The Role of Compliance in Protected Health In...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Remote_Control_of_Mobile_Devices_in_Android_Platform": {
+      "id": "local/Remote_Control_of_Mobile_Devices_in_Android_Platform",
+      "title": "Remote Control of Mobile Devices in Android Platform",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...": {
+      "id": "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+      "title": "Guardian of the HAN  Thwarting Mobile Attacks on Smart-Home Devices Using OS-level Situation Awar...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...": {
+      "id": "local/Harnessing_the_Digital_Revolution__A_Comprehensive_Review_of_mHealth_Applications_for_Remote_Moni...",
+      "title": "Harnessing the Digital Revolution  A Comprehensive Review of mHealth Applications for Remote Moni...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...": {
+      "id": "local/Blockchain_inspired_secure_and_reliable_data_exchange_architecture_for_cyber-physical_healthcare_...",
+      "title": "Blockchain inspired secure and reliable data exchange architecture for cyber-physical healthcare ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review": {
+      "id": "local/Challenges_in_Developing_Secure_Mobile_Health_Applications__A_Systematic_Review",
+      "title": "Challenges in Developing Secure Mobile Health Applications  A Systematic Review",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain": {
+      "id": "local/Automated_Remote_Patient_Monitoring__Data_Sharing_and_Privacy_Using_Blockchain",
+      "title": "Automated Remote Patient Monitoring  Data Sharing and Privacy Using Blockchain",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective": {
+      "id": "local/An_Empirical_Study_on_Developing_Secure_Mobile_Health_Apps__The_Developers_Perspective",
+      "title": "An Empirical Study on Developing Secure Mobile Health Apps  The Developers Perspective",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...": {
+      "id": "local/The_Telehealth_Chain__a_protocol_for_secure_and_transparent_telemedicine_transactions_on_the_bloc...",
+      "title": "The Telehealth Chain  a protocol for secure and transparent telemedicine transactions on the bloc...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges": {
+      "id": "local/A_Developer-Centric_Study_Exploring_Mobile_Application_Security_Practices_and_Challenges",
+      "title": "A Developer-Centric Study Exploring Mobile Application Security Practices and Challenges",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/The_Future_of_Mobile_Security": {
+      "id": "local/The_Future_of_Mobile_Security",
+      "title": "The Future of Mobile Security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...": {
+      "id": "local/Controlling_and_securing_a_Digital_Home_using_Multiple_Sensor_Based_Perception_system_Integrated_...",
+      "title": "Controlling and securing a Digital Home using Multiple Sensor Based Perception system Integrated ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography": {
+      "id": "local/Secure_Wearable_Apps_for_Remote_Healthcare_Through_Modern_Cryptography",
+      "title": "Secure Wearable Apps for Remote Healthcare Through Modern Cryptography",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1635,
+    "total_papers": 46,
+    "avg_concepts_per_paper": 35.54347826086956
+  }
+}

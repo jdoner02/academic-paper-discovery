@@ -1,0 +1,896 @@
+{
+  "config_name": "artificial_intelligence_security",
+  "strategy_name": "explainable_ai_security",
+  "processed_at": "2025-08-07T09:19:31.084877+00:00",
+  "total_papers": 50,
+  "papers": [
+    {
+      "title": "Explainable AI for Radar Resource Management: Modified LIME in Deep   Reinforcement Learning",
+      "authors": [
+        "Ziyang Lu",
+        "M. Cenk Gursoy",
+        "Chilukuri K. Mohan",
+        "Pramod K. Varshney"
+      ],
+      "abstract": "Deep reinforcement learning has been extensively studied in decision-making processes and has demonstrated superior performance over conventional approaches in various fields, including radar resource management (RRM). However, a notable limitation of neural networks is their ``black box\" nature and recent research work has increasingly focused on explainable AI (XAI) techniques to describe the rationale behind neural network decisions. One promising XAI method is local interpretable model-agnostic explanations (LIME). However, the sampling process in LIME ignores the correlations between features. In this paper, we propose a modified LIME approach that integrates deep learning (DL) into the sampling process, which we refer to as DL-LIME. We employ DL-LIME within deep reinforcement learning for radar resource management. Numerical results show that DL-LIME outperforms conventional LIME in terms of both fidelity and task performance, demonstrating superior performance with both metrics. DL-LIME also provides insights on which factors are more important in decision making for radar resource management.",
+      "publication_date": "2025-06-26T00:49:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2506.20916v1.pdf"
+    },
+    {
+      "title": "BACON: A fully explainable AI model with graded logic for decision   making problems",
+      "authors": [
+        "Haishi Bai",
+        "Jozo Dujmovic",
+        "Jianwu Wang"
+      ],
+      "abstract": "As machine learning models and autonomous agents are increasingly deployed in high-stakes, real-world domains such as healthcare, security, finance, and robotics, the need for transparent and trustworthy explanations has become critical. To ensure end-to-end transparency of AI decisions, we need models that are not only accurate but also fully explainable and human-tunable. We introduce BACON, a novel framework for automatically training explainable AI models for decision making problems using graded logic. BACON achieves high predictive accuracy while offering full structural transparency and precise, logic-based symbolic explanations, enabling effective human-AI collaboration and expert-guided refinement. We evaluate BACON with a diverse set of scenarios: classic Boolean approximation, Iris flower classification, house purchasing decisions and breast cancer diagnosis. In each case, BACON provides high-performance models while producing compact, human-verifiable decision logic. These results demonstrate BACON's potential as a practical and principled approach for delivering crisp, trustworthy explainable AI.",
+      "publication_date": "2025-05-20T15:39:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2505.14510v3.pdf"
+    },
+    {
+      "title": "Explainable Artificial Intelligence Techniques for Software Development   Lifecycle: A Phase-specific Survey",
+      "authors": [
+        "Lakshit Arora",
+        "Sanjay Surendranath Girija",
+        "Shashank Kapoor",
+        "Aman Raj",
+        "Dipen Pradhan",
+        "Ankit Shetgaonkar"
+      ],
+      "abstract": "Artificial Intelligence (AI) is rapidly expanding and integrating more into daily life to automate tasks, guide decision making, and enhance efficiency. However, complex AI models, which make decisions without providing clear explanations (known as the \"black-box problem\"), currently restrict trust and widespread adoption of AI. Explainable Artificial Intelligence (XAI) has emerged to address the black-box problem of making AI systems more interpretable and transparent so stakeholders can trust, verify, and act upon AI-based outcomes. Researchers have developed various techniques to foster XAI in the Software Development Lifecycle. However, there are gaps in applying XAI techniques in the Software Engineering phases. Literature review shows that 68% of XAI in Software Engineering research is focused on maintenance as opposed to 8% on software management and requirements. In this paper, we present a comprehensive survey of the applications of XAI methods such as concept-based explanations, Local Interpretable Model-agnostic Explanations (LIME), SHapley Additive exPlanations (SHAP), rule extraction, attention mechanisms, counterfactual explanations, and example-based explanations to the different phases of the Software Development Life Cycle (SDLC), including requirements elicitation, design and development, testing and deployment, and evolution. To the best of our knowledge, this paper presents the first comprehensive survey of XAI techniques for every phase of the Software Development Life Cycle (SDLC). This survey aims to promote explainable AI in Software Engineering and facilitate the practical application of complex AI models in AI-driven software development.",
+      "publication_date": "2025-05-11T17:09:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/pdf/2505.07058v1.pdf"
+    },
+    {
+      "title": "Security-First AI: Foundations for Robust and Trustworthy Systems",
+      "authors": [
+        "Krti Tallam"
+      ],
+      "abstract": "The conversation around artificial intelligence (AI) often focuses on safety, transparency, accountability, alignment, and responsibility. However, AI security (i.e., the safeguarding of data, models, and pipelines from adversarial manipulation) underpins all of these efforts. This manuscript posits that AI security must be prioritized as a foundational layer. We present a hierarchical view of AI challenges, distinguishing security from safety, and argue for a security-first approach to enable trustworthy and resilient AI systems. We discuss core threat models, key attack vectors, and emerging defense mechanisms, concluding that a metric-driven approach to AI security is essential for robust AI safety, transparency, and accountability.",
+      "publication_date": "2025-04-17T22:53:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2504.16110v1.pdf"
+    },
+    {
+      "title": "Building Trustworthy Multimodal AI: A Review of Fairness, Transparency,   and Ethics in Vision-Language Tasks",
+      "authors": [
+        "Mohammad Saleh",
+        "Azadeh Tabatabaei"
+      ],
+      "abstract": "Objective: This review explores the trustworthiness of multimodal artificial intelligence (AI) systems, specifically focusing on vision-language tasks. It addresses critical challenges related to fairness, transparency, and ethical implications in these systems, providing a comparative analysis of key tasks such as Visual Question Answering (VQA), image captioning, and visual dialogue. Background: Multimodal models, particularly vision-language models, enhance artificial intelligence (AI) capabilities by integrating visual and textual data, mimicking human learning processes. Despite significant advancements, the trustworthiness of these models remains a crucial concern, particularly as AI systems increasingly confront issues regarding fairness, transparency, and ethics. Methods: This review examines research conducted from 2017 to 2024 focusing on forenamed core vision-language tasks. It employs a comparative approach to analyze these tasks through the lens of trustworthiness, underlining fairness, explainability, and ethics. This study synthesizes findings from recent literature to identify trends, challenges, and state-of-the-art solutions. Results: Several key findings were highlighted. Transparency: Explainability of vision language tasks is important for user trust. Techniques, such as attention maps and gradient-based methods, have successfully addressed this issue. Fairness: Bias mitigation in VQA and visual dialogue systems is essential for ensuring unbiased outcomes across diverse demographic groups. Ethical Implications: Addressing biases in multilingual models and ensuring ethical data handling is critical for the responsible deployment of vision-language systems. Conclusion: This study underscores the importance of integrating fairness, transparency, and ethical considerations in developing vision-language models within a unified framework.",
+      "publication_date": "2025-04-14T21:10:25+00:00",
+      "doi": "10.22133/ijwr.2025.503147.1264",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2504.13199v3.pdf"
+    },
+    {
+      "title": "EXPLICATE: Enhancing Phishing Detection through Explainable AI and   LLM-Powered Interpretability",
+      "authors": [
+        "Bryan Lim",
+        "Roman Huerta",
+        "Alejandro Sotelo",
+        "Anthonie Quintela",
+        "Priyanka Kumar"
+      ],
+      "abstract": "Sophisticated phishing attacks have emerged as a major cybersecurity threat, becoming more common and difficult to prevent. Though machine learning techniques have shown promise in detecting phishing attacks, they function mainly as \"black boxes\" without revealing their decision-making rationale. This lack of transparency erodes the trust of users and diminishes their effective threat response. We present EXPLICATE: a framework that enhances phishing detection through a three-component architecture: an ML-based classifier using domain-specific features, a dual-explanation layer combining LIME and SHAP for complementary feature-level insights, and an LLM enhancement using DeepSeek v3 to translate technical explanations into accessible natural language. Our experiments show that EXPLICATE attains 98.4 % accuracy on all metrics, which is on par with existing deep learning techniques but has better explainability. High-quality explanations are generated by the framework with an accuracy of 94.2 % as well as a consistency of 96.8\\% between the LLM output and model prediction. We create EXPLICATE as a fully usable GUI application and a light Chrome extension, showing its applicability in many deployment situations. The research shows that high detection performance can go hand-in-hand with meaningful explainability in security applications. Most important, it addresses the critical divide between automated AI and user trust in phishing detection systems.",
+      "publication_date": "2025-03-22T23:37:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2503.20796v1.pdf"
+    },
+    {
+      "title": "Counterfactual Language Reasoning for Explainable Recommendation Systems",
+      "authors": [
+        "Guanrong Li",
+        "Haolin Yang",
+        "Xinyu Liu",
+        "Zhen Wu",
+        "Xinyu Dai"
+      ],
+      "abstract": "Explainable recommendation systems leverage transparent reasoning to foster user trust and improve decision-making processes. Current approaches typically decouple recommendation generation from explanation creation, violating causal precedence principles where explanatory factors should logically precede outcomes. This paper introduces a novel framework integrating structural causal models with large language models to establish causal consistency in recommendation pipelines. Our methodology enforces explanation factors as causal antecedents to recommendation predictions through causal graph construction and counterfactual adjustment. We particularly address the confounding effect of item popularity that distorts personalization signals in explanations, developing a debiasing mechanism that disentangles genuine user preferences from conformity bias. Through comprehensive experiments across multiple recommendation scenarios, we demonstrate that CausalX achieves superior performance in recommendation accuracy, explanation plausibility, and bias mitigation compared to baselines.",
+      "publication_date": "2025-03-11T05:15:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2503.08051v1.pdf"
+    },
+    {
+      "title": "Explainable AI in Time-Sensitive Scenarios: Prefetched Offline   Explanation Model",
+      "authors": [
+        "Fabio Michele Russo",
+        "Carlo Metta",
+        "Anna Monreale",
+        "Salvatore Rinzivillo",
+        "Fabio Pinelli"
+      ],
+      "abstract": "As predictive machine learning models become increasingly adopted and advanced, their role has evolved from merely predicting outcomes to actively shaping them. This evolution has underscored the importance of Trustworthy AI, highlighting the necessity to extend our focus beyond mere accuracy and toward a comprehensive understanding of these models' behaviors within the specific contexts of their applications. To further progress in explainability, we introduce Poem, Prefetched Offline Explanation Model, a model-agnostic, local explainability algorithm for image data. The algorithm generates exemplars, counterexemplars and saliency maps to provide quick and effective explanations suitable for time-sensitive scenarios. Leveraging an existing local algorithm, \\poem{} infers factual and counterfactual rules from data to create illustrative examples and opposite scenarios with an enhanced stability by design. A novel mechanism then matches incoming test points with an explanation base and produces diverse exemplars, informative saliency maps and believable counterexemplars. Experimental results indicate that Poem outperforms its predecessor Abele in speed and ability to generate more nuanced and varied exemplars alongside more insightful saliency maps and valuable counterexemplars.",
+      "publication_date": "2025-03-06T10:09:20+00:00",
+      "doi": "10.1007/978-3-031-78980-9_11",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2503.04283v1.pdf"
+    },
+    {
+      "title": "Green LIME: Improving AI Explainability through Design of Experiments",
+      "authors": [
+        "Alexandra Stadler",
+        "Werner G. Müller",
+        "Radoslav Harman"
+      ],
+      "abstract": "In artificial intelligence (AI), the complexity of many models and processes surpasses human understanding, making it challenging to determine why a specific prediction is made. This lack of transparency is particularly problematic in critical fields like healthcare, where trust in a model's predictions is paramount. As a result, the explainability of machine learning (ML) and other complex models has become a key area of focus. Efforts to improve model explainability often involve experimenting with AI systems and approximating their behavior through interpretable surrogate mechanisms. However, these procedures can be resource-intensive. Optimal design of experiments, which seeks to maximize the information obtained from a limited number of observations, offers promising methods for improving the efficiency of these explainability techniques. To demonstrate this potential, we explore Local Interpretable Model-agnostic Explanations (LIME), a widely used method introduced by Ribeiro et al. (2016). LIME provides explanations by generating new data points near the instance of interest and passing them through the model. While effective, this process can be computationally expensive, especially when predictions are costly or require many samples. LIME is highly versatile and can be applied to a wide range of models and datasets. In this work, we focus on models involving tabular data, regression tasks, and linear models as interpretable local approximations. By utilizing optimal design of experiments' techniques, we reduce the number of function evaluations of the complex model, thereby reducing the computational effort of LIME by a significant amount. We consider this modified version of LIME to be energy-efficient or \"green\".",
+      "publication_date": "2025-02-18T11:15:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.ML"
+      ],
+      "url": "http://arxiv.org/pdf/2502.12753v2.pdf"
+    },
+    {
+      "title": "Building Trustworthy AI: Transparent AI Systems via Large Language   Models, Ontologies, and Logical Reasoning (TranspNet)",
+      "authors": [
+        "Fadi Al Machot",
+        "Martin Thomas Horsch",
+        "Habib Ullah"
+      ],
+      "abstract": "Growing concerns over the lack of transparency in AI, particularly in high-stakes fields like healthcare and finance, drive the need for explainable and trustworthy systems. While Large Language Models (LLMs) perform exceptionally well in generating accurate outputs, their \"black box\" nature poses significant challenges to transparency and trust. To address this, the paper proposes the TranspNet pipeline, which integrates symbolic AI with LLMs. By leveraging domain expert knowledge, retrieval-augmented generation (RAG), and formal reasoning frameworks like Answer Set Programming (ASP), TranspNet enhances LLM outputs with structured reasoning and verification.This approach strives to help AI systems deliver results that are as accurate, explainable, and trustworthy as possible, aligning with regulatory expectations for transparency and accountability. TranspNet provides a solution for developing AI systems that are reliable and interpretable, making it suitable for real-world applications where trust is critical.",
+      "publication_date": "2024-11-13T09:40:37+00:00",
+      "doi": "10.1007/978-3-031-89274-5_3",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2411.08469v2.pdf"
+    },
+    {
+      "title": "CoGS: Model Agnostic Causality Constrained Counterfactual Explanations   using goal-directed ASP",
+      "authors": [
+        "Sopam Dasgupta",
+        "Joaquín Arias",
+        "Elmer Salazar",
+        "Gopal Gupta"
+      ],
+      "abstract": "Machine learning models are increasingly used in critical areas such as loan approvals and hiring, yet they often function as black boxes, obscuring their decision-making processes. Transparency is crucial, as individuals need explanations to understand decisions, primarily if the decisions result in an undesired outcome. Our work introduces CoGS (Counterfactual Generation with s(CASP)), a model-agnostic framework capable of generating counterfactual explanations for classification models. CoGS leverages the goal-directed Answer Set Programming system s(CASP) to compute realistic and causally consistent modifications to feature values, accounting for causal dependencies between them. By using rule-based machine learning algorithms (RBML), notably the FOLD-SE algorithm, CoGS extracts the underlying logic of a statistical model to generate counterfactual solutions. By tracing a step-by-step path from an undesired outcome to a desired one, CoGS offers interpretable and actionable explanations of the changes required to achieve the desired outcome. We present details of the CoGS framework along with its evaluation.",
+      "publication_date": "2024-10-30T00:43:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2410.22615v1.pdf"
+    },
+    {
+      "title": "Info-CELS: Informative Saliency Map Guided Counterfactual Explanation",
+      "authors": [
+        "Peiyu Li",
+        "Omar Bahri",
+        "Pouya Hosseinzadeh",
+        "Soukaïna Filali Boubrahimi",
+        "Shah Muhammad Hamdi"
+      ],
+      "abstract": "As the demand for interpretable machine learning approaches continues to grow, there is an increasing necessity for human involvement in providing informative explanations for model decisions. This is necessary for building trust and transparency in AI-based systems, leading to the emergence of the Explainable Artificial Intelligence (XAI) field. Recently, a novel counterfactual explanation model, CELS, has been introduced. CELS learns a saliency map for the interest of an instance and generates a counterfactual explanation guided by the learned saliency map. While CELS represents the first attempt to exploit learned saliency maps not only to provide intuitive explanations for the reason behind the decision made by the time series classifier but also to explore post hoc counterfactual explanations, it exhibits limitations in terms of high validity for the sake of ensuring high proximity and sparsity. In this paper, we present an enhanced approach that builds upon CELS. While the original model achieved promising results in terms of sparsity and proximity, it faced limitations in validity. Our proposed method addresses this limitation by removing mask normalization to provide more informative and valid counterfactual explanations. Through extensive experimentation on datasets from various domains, we demonstrate that our approach outperforms the CELS model, achieving higher validity and producing more informative explanations.",
+      "publication_date": "2024-10-27T18:12:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2410.20539v1.pdf"
+    },
+    {
+      "title": "Transforming In-Vehicle Network Intrusion Detection: VAE-based Knowledge   Distillation Meets Explainable AI",
+      "authors": [
+        "Muhammet Anil Yagiz",
+        "Pedram MohajerAnsari",
+        "Mert D. Pese",
+        "Polat Goktas"
+      ],
+      "abstract": "In the evolving landscape of autonomous vehicles, ensuring robust in-vehicle network (IVN) security is paramount. This paper introduces an advanced intrusion detection system (IDS) called KD-XVAE that uses a Variational Autoencoder (VAE)-based knowledge distillation approach to enhance both performance and efficiency. Our model significantly reduces complexity, operating with just 1669 parameters and achieving an inference time of 0.3 ms per batch, making it highly suitable for resource-constrained automotive environments. Evaluations in the HCRL Car-Hacking dataset demonstrate exceptional capabilities, attaining perfect scores (Recall, Precision, F1 Score of 100%, and FNR of 0%) under multiple attack types, including DoS, Fuzzing, Gear Spoofing, and RPM Spoofing. Comparative analysis on the CICIoV2024 dataset further underscores its superiority over traditional machine learning models, achieving perfect detection metrics. We furthermore integrate Explainable AI (XAI) techniques to ensure transparency in the model's decisions. The VAE compresses the original feature space into a latent space, on which the distilled model is trained. SHAP(SHapley Additive exPlanations) values provide insights into the importance of each latent dimension, mapped back to original features for intuitive understanding. Our paper advances the field by integrating state-of-the-art techniques, addressing critical challenges in the deployment of efficient, trustworthy, and reliable IDSes for autonomous vehicles, ensuring enhanced protection against emerging cyber threats.",
+      "publication_date": "2024-10-11T17:57:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2410.09043v2.pdf"
+    },
+    {
+      "title": "An Adaptive End-to-End IoT Security Framework Using Explainable AI and   LLMs",
+      "authors": [
+        "Sudipto Baral",
+        "Sajal Saha",
+        "Anwar Haque"
+      ],
+      "abstract": "The exponential growth of the Internet of Things (IoT) has significantly increased the complexity and volume of cybersecurity threats, necessitating the development of advanced, scalable, and interpretable security frameworks. This paper presents an innovative, comprehensive framework for real-time IoT attack detection and response that leverages Machine Learning (ML), Explainable AI (XAI), and Large Language Models (LLM). By integrating XAI techniques such as SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model-agnostic Explanations) with a model-independent architecture, we ensure our framework's adaptability across various ML algorithms. Additionally, the incorporation of LLMs enhances the interpretability and accessibility of detection decisions, providing system administrators with actionable, human-understandable explanations of detected threats. Our end-to-end framework not only facilitates a seamless transition from model development to deployment but also represents a real-world application capability that is often lacking in existing research. Based on our experiments with the CIC-IOT-2023 dataset \\cite{neto2023ciciot2023}, Gemini and OPENAI LLMS demonstrate unique strengths in attack mitigation: Gemini offers precise, focused strategies, while OPENAI provides extensive, in-depth security measures. Incorporating SHAP and LIME algorithms within XAI provides comprehensive insights into attack detection, emphasizing opportunities for model improvement through detailed feature analysis, fine-tuning, and the adaptation of misclassifications to enhance accuracy.",
+      "publication_date": "2024-09-20T03:09:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2409.13177v1.pdf"
+    },
+    {
+      "title": "Underwater SONAR Image Classification and Analysis using LIME-based   Explainable Artificial Intelligence",
+      "authors": [
+        "Purushothaman Natarajan",
+        "Athira Nambiar"
+      ],
+      "abstract": "Deep learning techniques have revolutionized image classification by mimicking human cognition and automating complex decision-making processes. However, the deployment of AI systems in the wild, especially in high-security domains such as defence, is curbed by the lack of explainability of the model. To this end, eXplainable AI (XAI) is an emerging area of research that is intended to explore the unexplained hidden black box nature of deep neural networks. This paper explores the application of the eXplainable Artificial Intelligence (XAI) tool to interpret the underwater image classification results, one of the first works in the domain to the best of our knowledge. Our study delves into the realm of SONAR image classification using a custom dataset derived from diverse sources, including the Seabed Objects KLSG dataset, the camera SONAR dataset, the mine SONAR images dataset, and the SCTD dataset. An extensive analysis of transfer learning techniques for image classification using benchmark Convolutional Neural Network (CNN) architectures such as VGG16, ResNet50, InceptionV3, DenseNet121, etc. is carried out. On top of this classification model, a post-hoc XAI technique, viz. Local Interpretable Model-Agnostic Explanations (LIME) are incorporated to provide transparent justifications for the model's decisions by perturbing input data locally to see how predictions change. Furthermore, Submodular Picks LIME (SP-LIME) a version of LIME particular to images, that perturbs the image based on the submodular picks is also extensively studied. To this end, two submodular optimization algorithms i.e. Quickshift and Simple Linear Iterative Clustering (SLIC) are leveraged towards submodular picks. The extensive analysis of XAI techniques highlights interpretability of the results in a more human-compliant way, thus boosting our confidence and reliability.",
+      "publication_date": "2024-08-23T04:54:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/pdf/2408.12837v2.pdf"
+    },
+    {
+      "title": "Fooling SHAP with Output Shuffling Attacks",
+      "authors": [
+        "Jun Yuan",
+        "Aritra Dasgupta"
+      ],
+      "abstract": "Explainable AI~(XAI) methods such as SHAP can help discover feature attributions in black-box models. If the method reveals a significant attribution from a ``protected feature'' (e.g., gender, race) on the model output, the model is considered unfair. However, adversarial attacks can subvert the detection of XAI methods. Previous approaches to constructing such an adversarial model require access to underlying data distribution, which may not be possible in many practical scenarios. We relax this constraint and propose a novel family of attacks, called shuffling attacks, that are data-agnostic. The proposed attack strategies can adapt any trained machine learning model to fool Shapley value-based explanations. We prove that Shapley values cannot detect shuffling attacks. However, algorithms that estimate Shapley values, such as linear SHAP and SHAP, can detect these attacks with varying degrees of effectiveness. We demonstrate the efficacy of the attack strategies by comparing the performance of linear SHAP and SHAP using real-world datasets.",
+      "publication_date": "2024-08-12T21:57:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2408.06509v1.pdf"
+    },
+    {
+      "title": "SCENE: Evaluating Explainable AI Techniques Using Soft Counterfactuals",
+      "authors": [
+        "Haoran Zheng",
+        "Utku Pamuksuz"
+      ],
+      "abstract": "Explainable Artificial Intelligence (XAI) plays a crucial role in enhancing the transparency and accountability of AI models, particularly in natural language processing (NLP) tasks. However, popular XAI methods such as LIME and SHAP have been found to be unstable and potentially misleading, underscoring the need for a standardized evaluation approach. This paper introduces SCENE (Soft Counterfactual Evaluation for Natural language Explainability), a novel evaluation method that leverages large language models (LLMs) to generate Soft Counterfactual explanations in a zero-shot manner. By focusing on token-based substitutions, SCENE creates contextually appropriate and semantically meaningful Soft Counterfactuals without extensive fine-tuning. SCENE adopts Validitysoft and Csoft metrics to assess the effectiveness of model-agnostic XAI methods in text classification tasks. Applied to CNN, RNN, and Transformer architectures, SCENE provides valuable insights into the strengths and limitations of various XAI techniques.",
+      "publication_date": "2024-08-08T16:36:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2408.04575v2.pdf"
+    },
+    {
+      "title": "Methodological Explainability Evaluation of an Interpretable Deep   Learning Model for Post-Hepatectomy Liver Failure Prediction Incorporating   Counterfactual Explanations and Layerwise Relevance Propagation: A   Prospective In Silico Trial",
+      "authors": [
+        "Xian Zhong",
+        "Zohaib Salahuddin",
+        "Yi Chen",
+        "Henry C Woodruff",
+        "Haiyi Long",
+        "Jianyun Peng",
+        "Nuwan Udawatte",
+        "Roberto Casale",
+        "Ayoub Mokhtari",
+        "Xiaoer Zhang",
+        "Jiayao Huang",
+        "Qingyu Wu",
+        "Li Tan",
+        "Lili Chen",
+        "Dongming Li",
+        "Xiaoyan Xie",
+        "Manxia Lin",
+        "Philippe Lambin"
+      ],
+      "abstract": "Artificial intelligence (AI)-based decision support systems have demonstrated value in predicting post-hepatectomy liver failure (PHLF) in hepatocellular carcinoma (HCC). However, they often lack transparency, and the impact of model explanations on clinicians' decisions has not been thoroughly evaluated. Building on prior research, we developed a variational autoencoder-multilayer perceptron (VAE-MLP) model for preoperative PHLF prediction. This model integrated counterfactuals and layerwise relevance propagation (LRP) to provide insights into its decision-making mechanism. Additionally, we proposed a methodological framework for evaluating the explainability of AI systems. This framework includes qualitative and quantitative assessments of explanations against recognized biomarkers, usability evaluations, and an in silico clinical trial. Our evaluations demonstrated that the model's explanation correlated with established biomarkers and exhibited high usability at both the case and system levels. Furthermore, results from the three-track in silico clinical trial showed that clinicians' prediction accuracy and confidence increased when AI explanations were provided.",
+      "publication_date": "2024-08-07T13:47:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/pdf/2408.03771v1.pdf"
+    },
+    {
+      "title": "Privacy Implications of Explainable AI in Data-Driven Systems",
+      "authors": [
+        "Fatima Ezzeddine"
+      ],
+      "abstract": "Machine learning (ML) models, demonstrably powerful, suffer from a lack of interpretability. The absence of transparency, often referred to as the black box nature of ML models, undermines trust and urges the need for efforts to enhance their explainability. Explainable AI (XAI) techniques address this challenge by providing frameworks and methods to explain the internal decision-making processes of these complex models. Techniques like Counterfactual Explanations (CF) and Feature Importance play a crucial role in achieving this goal. Furthermore, high-quality and diverse data remains the foundational element for robust and trustworthy ML applications. In many applications, the data used to train ML and XAI explainers contain sensitive information. In this context, numerous privacy-preserving techniques can be employed to safeguard sensitive information in the data, such as differential privacy. Subsequently, a conflict between XAI and privacy solutions emerges due to their opposing goals. Since XAI techniques provide reasoning for the model behavior, they reveal information relative to ML models, such as their decision boundaries, the values of features, or the gradients of deep learning models when explanations are exposed to a third entity. Attackers can initiate privacy breaching attacks using these explanations, to perform model extraction, inference, and membership attacks. This dilemma underscores the challenge of finding the right equilibrium between understanding ML decision-making and safeguarding privacy.",
+      "publication_date": "2024-06-22T08:51:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2406.15789v1.pdf"
+    },
+    {
+      "title": "Novel Approach to Intrusion Detection: Introducing GAN-MSCNN-BILSTM with   LIME Predictions",
+      "authors": [
+        "Asmaa Benchama",
+        "Khalid Zebbara"
+      ],
+      "abstract": "This paper introduces an innovative intrusion detection system that harnesses Generative Adversarial Networks (GANs), Multi-Scale Convolutional Neural Networks (MSCNNs), and Bidirectional Long Short-Term Memory (BiLSTM) networks, supplemented by Local Interpretable Model-Agnostic Explanations (LIME) for interpretability. Employing a GAN, the system generates realistic network traffic data, encompassing both normal and attack patterns. This synthesized data is then fed into an MSCNN-BiLSTM architecture for intrusion detection. The MSCNN layer extracts features from the network traffic data at different scales, while the BiLSTM layer captures temporal dependencies within the traffic sequences. Integration of LIME allows for explaining the model's decisions. Evaluation on the Hogzilla dataset, a standard benchmark, showcases an impressive accuracy of 99.16\\% for multi-class classification and 99.10\\% for binary classification, while ensuring interpretability through LIME. This fusion of deep learning and interpretability presents a promising avenue for enhancing intrusion detection systems by improving transparency and decision support in network security.",
+      "publication_date": "2024-06-08T11:26:44+00:00",
+      "doi": "10.56294/dm2023202",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2406.05443v1.pdf"
+    },
+    {
+      "title": "Overlap Number of Balls Model-Agnostic CounterFactuals (ONB-MACF): A   Data-Morphology-based Counterfactual Generation Method for Trustworthy   Artificial Intelligence",
+      "authors": [
+        "José Daniel Pascual-Triana",
+        "Alberto Fernández",
+        "Javier Del Ser",
+        "Francisco Herrera"
+      ],
+      "abstract": "Explainable Artificial Intelligence (XAI) is a pivotal research domain aimed at understanding the operational mechanisms of AI systems, particularly those considered ``black boxes'' due to their complex, opaque nature. XAI seeks to make these AI systems more understandable and trustworthy, providing insight into their decision-making processes. By producing clear and comprehensible explanations, XAI enables users, practitioners, and stakeholders to trust a model's decisions. This work analyses the value of data morphology strategies in generating counterfactual explanations. It introduces the Overlap Number of Balls Model-Agnostic CounterFactuals (ONB-MACF) method, a model-agnostic counterfactual generator that leverages data morphology to estimate a model's decision boundaries. The ONB-MACF method constructs hyperspheres in the data space whose covered points share a class, mapping the decision boundary. Counterfactuals are then generated by incrementally adjusting an instance's attributes towards the nearest alternate-class hypersphere, crossing the decision boundary with minimal modifications. By design, the ONB-MACF method generates feasible and sparse counterfactuals that follow the data distribution. Our comprehensive benchmark from a double perspective (quantitative and qualitative) shows that the ONB-MACF method outperforms existing state-of-the-art counterfactual generation methods across multiple quality metrics on diverse tabular datasets. This supports our hypothesis, showcasing the potential of data-morphology-based explainability strategies for trustworthy AI.",
+      "publication_date": "2024-05-20T18:51:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2405.12326v1.pdf"
+    },
+    {
+      "title": "Causal Generative Explainers using Counterfactual Inference: A Case   Study on the Morpho-MNIST Dataset",
+      "authors": [
+        "Will Taylor-Melanson",
+        "Zahra Sadeghi",
+        "Stan Matwin"
+      ],
+      "abstract": "In this paper, we propose leveraging causal generative learning as an interpretable tool for explaining image classifiers. Specifically, we present a generative counterfactual inference approach to study the influence of visual features (i.e., pixels) as well as causal factors through generative learning. To this end, we first uncover the most influential pixels on a classifier's decision by varying the value of a causal attribute via counterfactual inference and computing both Shapely and contrastive explanations for counterfactual images with these different attribute values. We then establish a Monte-Carlo mechanism using the generator of a causal generative model in order to adapt Shapley explainers to produce feature importances for the human-interpretable attributes of a causal dataset in the case where a classifier has been trained exclusively on the images of the dataset. Finally, we present optimization methods for creating counterfactual explanations of classifiers by means of counterfactual inference, proposing straightforward approaches for both differentiable and arbitrary classifiers. We exploit the Morpho-MNIST causal dataset as a case study for exploring our proposed methods for generating counterfacutl explantions. We employ visual explanation methods from OmnixAI open source toolkit to compare them with our proposed methods. By employing quantitative metrics to measure the interpretability of counterfactual explanations, we find that our proposed methods of counterfactual explanation offer more interpretable explanations compared to those generated from OmnixAI. This finding suggests that our methods are well-suited for generating highly interpretable counterfactual explanations on causal datasets.",
+      "publication_date": "2024-01-21T04:07:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2401.11394v1.pdf"
+    },
+    {
+      "title": "Eclectic Rule Extraction for Explainability of Deep Neural Network based   Intrusion Detection Systems",
+      "authors": [
+        "Jesse Ables",
+        "Nathaniel Childers",
+        "William Anderson",
+        "Sudip Mittal",
+        "Shahram Rahimi",
+        "Ioana Banicescu",
+        "Maria Seale"
+      ],
+      "abstract": "This paper addresses trust issues created from the ubiquity of black box algorithms and surrogate explainers in Explainable Intrusion Detection Systems (X-IDS). While Explainable Artificial Intelligence (XAI) aims to enhance transparency, black box surrogate explainers, such as Local Interpretable Model-Agnostic Explanation (LIME) and SHapley Additive exPlanation (SHAP), are difficult to trust. The black box nature of these surrogate explainers makes the process behind explanation generation opaque and difficult to understand. To avoid this problem, one can use transparent white box algorithms such as Rule Extraction (RE). There are three types of RE algorithms: pedagogical, decompositional, and eclectic. Pedagogical methods offer fast but untrustworthy white-box explanations, while decompositional RE provides trustworthy explanations with poor scalability. This work explores eclectic rule extraction, which strikes a balance between scalability and trustworthiness. By combining techniques from pedagogical and decompositional approaches, eclectic rule extraction leverages the advantages of both, while mitigating some of their drawbacks. The proposed Hybrid X-IDS architecture features eclectic RE as a white box surrogate explainer for black box Deep Neural Networks (DNN). The presented eclectic RE algorithm extracts human-readable rules from hidden layers, facilitating explainable and trustworthy rulesets. Evaluations on UNSW-NB15 and CIC-IDS-2017 datasets demonstrate the algorithm's ability to generate rulesets with 99.9% accuracy, mimicking DNN outputs. The contributions of this work include the hybrid X-IDS architecture, the eclectic rule extraction algorithm applicable to intrusion detection datasets, and a thorough analysis of performance and explainability, demonstrating the trade-offs involved in rule extraction speed and accuracy.",
+      "publication_date": "2024-01-18T18:45:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2401.10207v1.pdf"
+    },
+    {
+      "title": "Explainable artificial intelligence for Healthcare applications using   Random Forest Classifier with LIME and SHAP",
+      "authors": [
+        "Mrutyunjaya Panda",
+        "Soumya Ranjan Mahanta"
+      ],
+      "abstract": "With the advances in computationally efficient artificial Intelligence (AI) techniques and their numerous applications in our everyday life, there is a pressing need to understand the computational details hidden in black box AI techniques such as most popular machine learning and deep learning techniques; through more detailed explanations. The origin of explainable AI (xAI) is coined from these challenges and recently gained more attention by the researchers by adding explainability comprehensively in traditional AI systems. This leads to develop an appropriate framework for successful applications of xAI in real life scenarios with respect to innovations, risk mitigation, ethical issues and logical values to the users. In this book chapter, an in-depth analysis of several xAI frameworks and methods including LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) are provided. Random Forest Classifier as black box AI is used on a publicly available Diabetes symptoms dataset with LIME and SHAP for better interpretations. The results obtained are interesting in terms of transparency, valid and trustworthiness in diabetes disease prediction.",
+      "publication_date": "2023-11-09T11:43:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2311.05665v1.pdf"
+    },
+    {
+      "title": "Counterfactual Collaborative Reasoning",
+      "authors": [
+        "Jianchao Ji",
+        "Zelong Li",
+        "Shuyuan Xu",
+        "Max Xiong",
+        "Juntao Tan",
+        "Yingqiang Ge",
+        "Hao Wang",
+        "Yongfeng Zhang"
+      ],
+      "abstract": "Causal reasoning and logical reasoning are two important types of reasoning abilities for human intelligence. However, their relationship has not been extensively explored under machine intelligence context. In this paper, we explore how the two reasoning abilities can be jointly modeled to enhance both accuracy and explainability of machine learning models. More specifically, by integrating two important types of reasoning ability -- counterfactual reasoning and (neural) logical reasoning -- we propose Counterfactual Collaborative Reasoning (CCR), which conducts counterfactual logic reasoning to improve the performance. In particular, we use recommender system as an example to show how CCR alleviate data scarcity, improve accuracy and enhance transparency. Technically, we leverage counterfactual reasoning to generate \"difficult\" counterfactual training examples for data augmentation, which -- together with the original training examples -- can enhance the model performance. Since the augmented data is model irrelevant, they can be used to enhance any model, enabling the wide applicability of the technique. Besides, most of the existing data augmentation methods focus on \"implicit data augmentation\" over users' implicit feedback, while our framework conducts \"explicit data augmentation\" over users explicit feedback based on counterfactual logic reasoning. Experiments on three real-world datasets show that CCR achieves better performance than non-augmented models and implicitly augmented models, and also improves model transparency by generating counterfactual explanations.",
+      "publication_date": "2023-06-30T23:01:10+00:00",
+      "doi": "10.1145/3539597.3570464",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IR"
+      ],
+      "url": "http://arxiv.org/pdf/2307.00165v1.pdf"
+    },
+    {
+      "title": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and   LIME",
+      "authors": [
+        "Ahmed Salih",
+        "Zahra Raisi-Estabragh",
+        "Ilaria Boscolo Galazzo",
+        "Petia Radeva",
+        "Steffen E. Petersen",
+        "Gloria Menegaz",
+        "Karim Lekadir"
+      ],
+      "abstract": "eXplainable artificial intelligence (XAI) methods have emerged to convert the black box of machine learning (ML) models into a more digestible form. These methods help to communicate how the model works with the aim of making ML models more transparent and increasing the trust of end-users into their output. SHapley Additive exPlanations (SHAP) and Local Interpretable Model Agnostic Explanation (LIME) are two widely used XAI methods, particularly with tabular data. In this perspective piece, we discuss the way the explainability metrics of these two methods are generated and propose a framework for interpretation of their outputs, highlighting their weaknesses and strengths. Specifically, we discuss their outcomes in terms of model-dependency and in the presence of collinearity among the features, relying on a case study from the biomedical domain (classification of individuals with or without myocardial infarction). The results indicate that SHAP and LIME are highly affected by the adopted ML model and feature collinearity, raising a note of caution on their usage and interpretation.",
+      "publication_date": "2023-05-03T10:04:46+00:00",
+      "doi": "10.1002/aisy.202400304",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.ML"
+      ],
+      "url": "http://arxiv.org/pdf/2305.02012v3.pdf"
+    },
+    {
+      "title": "AUTOLYCUS: Exploiting Explainable AI (XAI) for Model Extraction Attacks   against Interpretable Models",
+      "authors": [
+        "Abdullah Caglar Oksuz",
+        "Anisa Halimi",
+        "Erman Ayday"
+      ],
+      "abstract": "Explainable Artificial Intelligence (XAI) aims to uncover the decision-making processes of AI models. However, the data used for such explanations can pose security and privacy risks. Existing literature identifies attacks on machine learning models, including membership inference, model inversion, and model extraction attacks. These attacks target either the model or the training data, depending on the settings and parties involved.   XAI tools can increase the vulnerability of model extraction attacks, which is a concern when model owners prefer black-box access, thereby keeping model parameters and architecture private. To exploit this risk, we propose AUTOLYCUS, a novel retraining (learning) based model extraction attack framework against interpretable models under black-box settings. As XAI tools, we exploit Local Interpretable Model-Agnostic Explanations (LIME) and Shapley values (SHAP) to infer decision boundaries and create surrogate models that replicate the functionality of the target model. LIME and SHAP are mainly chosen for their realistic yet information-rich explanations, coupled with their extensive adoption, simplicity, and usability.   We evaluate AUTOLYCUS on six machine learning datasets, measuring the accuracy and similarity of the surrogate model to the target model. The results show that AUTOLYCUS is highly effective, requiring significantly fewer queries compared to state-of-the-art attacks, while maintaining comparable accuracy and similarity. We validate its performance and transferability on multiple interpretable ML models, including decision trees, logistic regression, naive bayes, and k-nearest neighbor. Additionally, we show the resilience of AUTOLYCUS against proposed countermeasures.",
+      "publication_date": "2023-02-04T13:23:39+00:00",
+      "doi": "10.56553/popets-2024-0137",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2302.02162v3.pdf"
+    },
+    {
+      "title": "Explainable, Interpretable & Trustworthy AI for Intelligent Digital   Twin: Case Study on Remaining Useful Life",
+      "authors": [
+        "Kazuma Kobayashi",
+        "Syed Bahauddin Alam"
+      ],
+      "abstract": "Artificial intelligence (AI) and Machine learning (ML) are increasingly used in energy and engineering systems, but these models must be fair, unbiased, and explainable. It is critical to have confidence in AI's trustworthiness. ML techniques have been useful in predicting important parameters and in improving model performance. However, for these AI techniques to be useful for making decisions, they need to be audited, accounted for, and easy to understand. Therefore, the use of explainable AI (XAI) and interpretable machine learning (IML) is crucial for the accurate prediction of prognostics, such as remaining useful life (RUL), in a digital twin system, to make it intelligent while ensuring that the AI model is transparent in its decision-making processes and that the predictions it generates can be understood and trusted by users. By using AI that is explainable, interpretable, and trustworthy, intelligent digital twin systems can make more accurate predictions of RUL, leading to better maintenance and repair planning, and ultimately, improved system performance. The objective of this paper is to explain the ideas of XAI and IML and to justify the important role of AI/ML in the digital twin framework and components, which requires XAI to understand the prediction better. This paper explains the importance of XAI and IML in both local and global aspects to ensure the use of trustworthy AI/ML applications for RUL prediction. We used the RUL prediction for the XAI and IML studies and leveraged the integrated Python toolbox for interpretable machine learning~(PiML).",
+      "publication_date": "2023-01-17T03:17:07+00:00",
+      "doi": "10.1016/j.engappai.2023.107620",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2301.06676v2.pdf"
+    },
+    {
+      "title": "Motif-guided Time Series Counterfactual Explanations",
+      "authors": [
+        "Peiyu Li",
+        "Soukaina Filali Boubrahimi",
+        "Shah Muhammad Hamdi"
+      ],
+      "abstract": "With the rising need of interpretable machine learning methods, there is a necessity for a rise in human effort to provide diverse explanations of the influencing factors of the model decisions. To improve the trust and transparency of AI-based systems, the EXplainable Artificial Intelligence (XAI) field has emerged. The XAI paradigm is bifurcated into two main categories: feature attribution and counterfactual explanation methods. While feature attribution methods are based on explaining the reason behind a model decision, counterfactual explanation methods discover the smallest input changes that will result in a different decision. In this paper, we aim at building trust and transparency in time series models by using motifs to generate counterfactual explanations. We propose Motif-Guided Counterfactual Explanation (MG-CF), a novel model that generates intuitive post-hoc counterfactual explanations that make full use of important motifs to provide interpretive information in decision-making processes. To the best of our knowledge, this is the first effort that leverages motifs to guide the counterfactual explanation generation. We validated our model using five real-world time-series datasets from the UCR repository. Our experimental results show the superiority of MG-CF in balancing all the desirable counterfactual explanations properties in comparison with other competing state-of-the-art baselines.",
+      "publication_date": "2022-11-08T17:56:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2211.04411v3.pdf"
+    },
+    {
+      "title": "Local Interpretable Model Agnostic Shap Explanations for machine   learning models",
+      "authors": [
+        "P. Sai Ram Aditya",
+        "Mayukha Pal"
+      ],
+      "abstract": "With the advancement of technology for artificial intelligence (AI) based solutions and analytics compute engines, machine learning (ML) models are getting more complex day by day. Most of these models are generally used as a black box without user interpretability. Such complex ML models make it more difficult for people to understand or trust their predictions. There are variety of frameworks using explainable AI (XAI) methods to demonstrate explainability and interpretability of ML models to make their predictions more trustworthy. In this manuscript, we propose a methodology that we define as Local Interpretable Model Agnostic Shap Explanations (LIMASE). This proposed ML explanation technique uses Shapley values under the LIME paradigm to achieve the following (a) explain prediction of any model by using a locally faithful and interpretable decision tree model on which the Tree Explainer is used to calculate the shapley values and give visually interpretable explanations. (b) provide visually interpretable global explanations by plotting local explanations of several data points. (c) demonstrate solution for the submodular optimization problem. (d) also bring insight into regional interpretation e) faster computation compared to use of kernel explainer.",
+      "publication_date": "2022-10-10T10:07:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2210.04533v1.pdf"
+    },
+    {
+      "title": "Explainable AI based Glaucoma Detection using Transfer Learning and LIME",
+      "authors": [
+        "Touhidul Islam Chayan",
+        "Anita Islam",
+        "Eftykhar Rahman",
+        "Md. Tanzim Reza",
+        "Tasnim Sakib Apon",
+        "MD. Golam Rabiul Alam"
+      ],
+      "abstract": "Glaucoma is the second driving reason for partial or complete blindness among all the visual deficiencies which mainly occurs because of excessive pressure in the eye due to anxiety or depression which damages the optic nerve and creates complications in vision. Traditional glaucoma screening is a time-consuming process that necessitates the medical professionals' constant attention, and even so time to time due to the time constrains and pressure they fail to classify correctly that leads to wrong treatment. Numerous efforts have been made to automate the entire glaucoma classification procedure however, these existing models in general have a black box characteristics that prevents users from understanding the key reasons behind the prediction and thus medical practitioners generally can not rely on these system. In this article after comparing with various pre-trained models, we propose a transfer learning model that is able to classify Glaucoma with 94.71\\% accuracy. In addition, we have utilized Local Interpretable Model-Agnostic Explanations(LIME) that introduces explainability in our system. This improvement enables medical professionals obtain important and comprehensive information that aid them in making judgments. It also lessen the opacity and fragility of the traditional deep learning models.",
+      "publication_date": "2022-10-07T05:36:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/pdf/2210.03332v1.pdf"
+    },
+    {
+      "title": "PhilaeX: Explaining the Failure and Success of AI Models in Malware   Detection",
+      "authors": [
+        "Zhi Lu",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "The explanation to an AI model's prediction used to support decision making in cyber security, is of critical importance. It is especially so when the model's incorrect prediction can lead to severe damages or even losses to lives and critical assets. However, most existing AI models lack the ability to provide explanations on their prediction results, despite their strong performance in most scenarios. In this work, we propose a novel explainable AI method, called PhilaeX, that provides the heuristic means to identify the optimized subset of features to form the complete explanations of AI models' predictions. It identifies the features that lead to the model's borderline prediction, and those with positive individual contributions are extracted. The feature attributions are then quantified through the optimization of a Ridge regression model. We verify the explanation fidelity through two experiments. First, we assess our method's capability in correctly identifying the activated features in the adversarial samples of Android malwares, through the features attribution values from PhilaeX. Second, the deduction and augmentation tests, are used to assess the fidelity of the explanations. The results show that PhilaeX is able to explain different types of classifiers correctly, with higher fidelity explanations, compared to the state-of-the-arts methods such as LIME and SHAP.",
+      "publication_date": "2022-07-02T05:06:24+00:00",
+      "doi": "10.5220/0010986700003194",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.00740v1.pdf"
+    },
+    {
+      "title": "ExMo: Explainable AI Model using Inverse Frequency Decision Rules",
+      "authors": [
+        "Pradip Mainali",
+        "Ismini Psychoula",
+        "Fabien A. P. Petitcolas"
+      ],
+      "abstract": "In this paper, we present a novel method to compute decision rules to build a more accurate interpretable machine learning model, denoted as ExMo. The ExMo interpretable machine learning model consists of a list of IF...THEN... statements with a decision rule in the condition. This way, ExMo naturally provides an explanation for a prediction using the decision rule that was triggered. ExMo uses a new approach to extract decision rules from the training data using term frequency-inverse document frequency (TF-IDF) features. With TF-IDF, decision rules with feature values that are more relevant to each class are extracted. Hence, the decision rules obtained by ExMo can distinguish the positive and negative classes better than the decision rules used in the existing Bayesian Rule List (BRL) algorithm, obtained using the frequent pattern mining approach. The paper also shows that ExMo learns a qualitatively better model than BRL. Furthermore, ExMo demonstrates that the textual explanation can be provided in a human-friendly way so that the explanation can be easily understood by non-expert users. We validate ExMo on several datasets with different sizes to evaluate its efficacy. Experimental validation on a real-world fraud detection application shows that ExMo is 20% more accurate than BRL and that it achieves accuracy similar to those of deep learning models.",
+      "publication_date": "2022-05-20T09:36:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2205.10045v1.pdf"
+    },
+    {
+      "title": "Features of Explainability: How users understand counterfactual and   causal explanations for categorical and continuous features in XAI",
+      "authors": [
+        "Greta Warren",
+        "Mark T Keane",
+        "Ruth M J Byrne"
+      ],
+      "abstract": "Counterfactual explanations are increasingly used to address interpretability, recourse, and bias in AI decisions. However, we do not know how well counterfactual explanations help users to understand a systems decisions, since no large scale user studies have compared their efficacy to other sorts of explanations such as causal explanations (which have a longer track record of use in rule based and decision tree models). It is also unknown whether counterfactual explanations are equally effective for categorical as for continuous features, although current methods assume they do. Hence, in a controlled user study with 127 volunteer participants, we tested the effects of counterfactual and causal explanations on the objective accuracy of users predictions of the decisions made by a simple AI system, and participants subjective judgments of satisfaction and trust in the explanations. We discovered a dissociation between objective and subjective measures: counterfactual explanations elicit higher accuracy of predictions than no-explanation control descriptions but no higher accuracy than causal explanations, yet counterfactual explanations elicit greater satisfaction and trust than causal explanations. We also found that users understand explanations referring to categorical features more readily than those referring to continuous features. We discuss the implications of these findings for current and future counterfactual methods in XAI.",
+      "publication_date": "2022-04-21T15:01:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/pdf/2204.10152v1.pdf"
+    },
+    {
+      "title": "CausalKG: Causal Knowledge Graph Explainability using interventional and   counterfactual reasoning",
+      "authors": [
+        "Utkarshani Jaimini",
+        "Amit Sheth"
+      ],
+      "abstract": "Humans use causality and hypothetical retrospection in their daily decision-making, planning, and understanding of life events. The human mind, while retrospecting a given situation, think about questions such as \"What was the cause of the given situation?\", \"What would be the effect of my action?\", or \"Which action led to this effect?\". It develops a causal model of the world, which learns with fewer data points, makes inferences, and contemplates counterfactual scenarios. The unseen, unknown, scenarios are known as counterfactuals. AI algorithms use a representation based on knowledge graphs (KG) to represent the concepts of time, space, and facts. A KG is a graphical data model which captures the semantic relationships between entities such as events, objects, or concepts. The existing KGs represent causal relationships extracted from texts based on linguistic patterns of noun phrases for causes and effects as in ConceptNet and WordNet. The current causality representation in KGs makes it challenging to support counterfactual reasoning. A richer representation of causality in AI systems using a KG-based approach is needed for better explainability, and support for intervention and counterfactuals reasoning, leading to improved understanding of AI systems by humans. The causality representation requires a higher representation framework to define the context, the causal information, and the causal effects. The proposed Causal Knowledge Graph (CausalKG) framework, leverages recent progress of causality and KG towards explainability. CausalKG intends to address the lack of a domain adaptable causal model and represent the complex causal relations using the hyper-relational graph representation in the KG. We show that the CausalKG's interventional and counterfactual reasoning can be used by the AI system for the domain explainability.",
+      "publication_date": "2022-01-06T20:27:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2201.03647v1.pdf"
+    },
+    {
+      "title": "\"How Does It Detect A Malicious App?\" Explaining the Predictions of   AI-based Android Malware Detector",
+      "authors": [
+        "Zhi Lu",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "AI methods have been proven to yield impressive performance on Android malware detection. However, most AI-based methods make predictions of suspicious samples in a black-box manner without transparency on models' inference. The expectation on models' explainability and transparency by cyber security and AI practitioners to assure the trustworthiness increases. In this article, we present a novel model-agnostic explanation method for AI models applied for Android malware detection. Our proposed method identifies and quantifies the data features relevance to the predictions by two steps: i) data perturbation that generates the synthetic data by manipulating features' values; and ii) optimization of features attribution values to seek significant changes of prediction scores on the perturbed data with minimal feature values changes. The proposed method is validated by three experiments. We firstly demonstrate that our proposed model explanation method can aid in discovering how AI models are evaded by adversarial samples quantitatively. In the following experiments, we compare the explainability and fidelity of our proposed method with state-of-the-arts, respectively.",
+      "publication_date": "2021-11-06T11:25:24+00:00",
+      "doi": "10.1109/BigDataSecurityHPSCIDS54978.2022.00045",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2111.05108v1.pdf"
+    },
+    {
+      "title": "Counterfactual Evaluation for Explainable AI",
+      "authors": [
+        "Yingqiang Ge",
+        "Shuchang Liu",
+        "Zelong Li",
+        "Shuyuan Xu",
+        "Shijie Geng",
+        "Yunqi Li",
+        "Juntao Tan",
+        "Fei Sun",
+        "Yongfeng Zhang"
+      ],
+      "abstract": "While recent years have witnessed the emergence of various explainable methods in machine learning, to what degree the explanations really represent the reasoning process behind the model prediction -- namely, the faithfulness of explanation -- is still an open problem. One commonly used way to measure faithfulness is \\textit{erasure-based} criteria. Though conceptually simple, erasure-based criterion could inevitably introduce biases and artifacts. We propose a new methodology to evaluate the faithfulness of explanations from the \\textit{counterfactual reasoning} perspective: the model should produce substantially different outputs for the original input and its corresponding counterfactual edited on a faithful feature. Specially, we introduce two algorithms to find the proper counterfactuals in both discrete and continuous scenarios and then use the acquired counterfactuals to measure faithfulness. Empirical results on several datasets show that compared with existing metrics, our proposed counterfactual evaluation method can achieve top correlation with the ground truth under diffe",
+      "publication_date": "2021-09-05T01:38:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/pdf/2109.01962v1.pdf"
+    },
+    {
+      "title": "Counterfactual Explainable Recommendation",
+      "authors": [
+        "Juntao Tan",
+        "Shuyuan Xu",
+        "Yingqiang Ge",
+        "Yunqi Li",
+        "Xu Chen",
+        "Yongfeng Zhang"
+      ],
+      "abstract": "By providing explanations for users and system designers to facilitate better understanding and decision making, explainable recommendation has been an important research problem. In this paper, we propose Counterfactual Explainable Recommendation (CountER), which takes the insights of counterfactual reasoning from causal inference for explainable recommendation. CountER is able to formulate the complexity and the strength of explanations, and it adopts a counterfactual learning framework to seek simple (low complexity) and effective (high strength) explanations for the model decision. Technically, for each item recommended to each user, CountER formulates a joint optimization problem to generate minimal changes on the item aspects so as to create a counterfactual item, such that the recommendation decision on the counterfactual item is reversed. These altered aspects constitute the explanation of why the original item is recommended. The counterfactual explanation helps both the users for better understanding and the system designers for better model debugging. Another contribution of the work is the evaluation of explainable recommendation, which has been a challenging task. Fortunately, counterfactual explanations are very suitable for standard quantitative evaluation. To measure the explanation quality, we design two types of evaluation metrics, one from user's perspective (i.e. why the user likes the item), and the other from model's perspective (i.e. why the item is recommended by the model). We apply our counterfactual learning algorithm on a black-box recommender system and evaluate the generated explanations on five real-world datasets. Results show that our model generates more accurate and effective explanations than state-of-the-art explainable recommendation models.",
+      "publication_date": "2021-08-24T06:37:57+00:00",
+      "doi": "10.1145/3459637.3482420",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IR"
+      ],
+      "url": "http://arxiv.org/pdf/2108.10539v3.pdf"
+    },
+    {
+      "title": "Extending LIME for Business Process Automation",
+      "authors": [
+        "Sohini Upadhyay",
+        "Vatche Isahagian",
+        "Vinod Muthusamy",
+        "Yara Rizk"
+      ],
+      "abstract": "AI business process applications automate high-stakes business decisions where there is an increasing demand to justify or explain the rationale behind algorithmic decisions. Business process applications have ordering or constraints on tasks and feature values that cause lightweight, model-agnostic, existing explanation methods like LIME to fail. In response, we propose a local explanation framework extending LIME for explaining AI business process applications. Empirical evaluation of our extension underscores the advantage of our approach in the business process setting.",
+      "publication_date": "2021-08-09T21:30:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2108.04371v1.pdf"
+    },
+    {
+      "title": "Explaining Black-Box Algorithms Using Probabilistic Contrastive   Counterfactuals",
+      "authors": [
+        "Sainyam Galhotra",
+        "Romila Pradhan",
+        "Babak Salimi"
+      ],
+      "abstract": "There has been a recent resurgence of interest in explainable artificial intelligence (XAI) that aims to reduce the opaqueness of AI-based decision-making systems, allowing humans to scrutinize and trust them. Prior work in this context has focused on the attribution of responsibility for an algorithm's decisions to its inputs wherein responsibility is typically approached as a purely associational concept. In this paper, we propose a principled causality-based approach for explaining black-box decision-making systems that addresses limitations of existing methods in XAI. At the core of our framework lies probabilistic contrastive counterfactuals, a concept that can be traced back to philosophical, cognitive, and social foundations of theories on how humans generate and select explanations. We show how such counterfactuals can quantify the direct and indirect influences of a variable on decisions made by an algorithm, and provide actionable recourse for individuals negatively affected by the algorithm's decision. Unlike prior work, our system, LEWIS: (1)can compute provably effective explanations and recourse at local, global and contextual levels (2)is designed to work with users with varying levels of background knowledge of the underlying causal model and (3)makes no assumptions about the internals of an algorithmic system except for the availability of its input-output data. We empirically evaluate LEWIS on three real-world datasets and show that it generates human-understandable explanations that improve upon state-of-the-art approaches in XAI, including the popular LIME and SHAP. Experiments on synthetic data further demonstrate the correctness of LEWIS's explanations and the scalability of its recourse algorithm.",
+      "publication_date": "2021-03-22T16:20:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2103.11972v2.pdf"
+    },
+    {
+      "title": "Explaining Network Intrusion Detection System Using Explainable AI   Framework",
+      "authors": [
+        "Shraddha Mane",
+        "Dattaraj Rao"
+      ],
+      "abstract": "Cybersecurity is a domain where the data distribution is constantly changing with attackers exploring newer patterns to attack cyber infrastructure. Intrusion detection system is one of the important layers in cyber safety in today's world. Machine learning based network intrusion detection systems started showing effective results in recent years. With deep learning models, detection rates of network intrusion detection system are improved. More accurate the model, more the complexity and hence less the interpretability. Deep neural networks are complex and hard to interpret which makes difficult to use them in production as reasons behind their decisions are unknown. In this paper, we have used deep neural network for network intrusion detection and also proposed explainable AI framework to add transparency at every stage of machine learning pipeline. This is done by leveraging Explainable AI algorithms which focus on making ML models less of black boxes by providing explanations as to why a prediction is made. Explanations give us measurable factors as to what features influence the prediction of a cyberattack and to what degree. These explanations are generated from SHAP, LIME, Contrastive Explanations Method, ProtoDash and Boolean Decision Rules via Column Generation. We apply these approaches to NSL KDD dataset for intrusion detection system and demonstrate results.",
+      "publication_date": "2021-03-12T07:15:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2103.07110v1.pdf"
+    },
+    {
+      "title": "Explainable AI in Credit Risk Management",
+      "authors": [
+        "Branka Hadji Misheva",
+        "Joerg Osterrieder",
+        "Ali Hirsa",
+        "Onkar Kulkarni",
+        "Stephen Fung Lin"
+      ],
+      "abstract": "Artificial Intelligence (AI) has created the single biggest technology revolution the world has ever seen. For the finance sector, it provides great opportunities to enhance customer experience, democratize financial services, ensure consumer protection and significantly improve risk management. While it is easier than ever to run state-of-the-art machine learning models, designing and implementing systems that support real-world finance applications have been challenging. In large part because they lack transparency and explainability which are important factors in establishing reliable technology and the research on this topic with a specific focus on applications in credit risk management. In this paper, we implement two advanced post-hoc model agnostic explainability techniques called Local Interpretable Model Agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP) to machine learning (ML)-based credit scoring models applied to the open-access data set offered by the US-based P2P Lending Platform, Lending Club. Specifically, we use LIME to explain instances locally and SHAP to get both local and global explanations. We discuss the results in detail and present multiple comparison scenarios by using various kernels available for explaining graphs generated using SHAP values. We also discuss the practical challenges associated with the implementation of these state-of-art eXplainabale AI (XAI) methods and document them for future reference. We have made an effort to document every technical aspect of this research, while at the same time providing a general summary of the conclusions.",
+      "publication_date": "2021-03-01T12:23:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.RM"
+      ],
+      "url": "http://arxiv.org/pdf/2103.00949v1.pdf"
+    },
+    {
+      "title": "Trustworthy AI",
+      "authors": [
+        "Richa Singh",
+        "Mayank Vatsa",
+        "Nalini Ratha"
+      ],
+      "abstract": "Modern AI systems are reaping the advantage of novel learning methods. With their increasing usage, we are realizing the limitations and shortfalls of these systems. Brittleness to minor adversarial changes in the input data, ability to explain the decisions, address the bias in their training data, high opacity in terms of revealing the lineage of the system, how they were trained and tested, and under which parameters and conditions they can reliably guarantee a certain level of performance, are some of the most prominent limitations. Ensuring the privacy and security of the data, assigning appropriate credits to data sources, and delivering decent outputs are also required features of an AI system. We propose the tutorial on Trustworthy AI to address six critical issues in enhancing user and public trust in AI systems, namely: (i) bias and fairness, (ii) explainability, (iii) robust mitigation of adversarial attacks, (iv) improved privacy and security in model building, (v) being decent, and (vi) model attribution, including the right level of credit assignment to the data sources, model architectures, and transparency in lineage.",
+      "publication_date": "2020-11-02T20:04:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2011.02272v1.pdf"
+    },
+    {
+      "title": "Explainable AI without Interpretable Model",
+      "authors": [
+        "Kary Främling"
+      ],
+      "abstract": "Explainability has been a challenge in AI for as long as AI has existed. With the recently increased use of AI in society, it has become more important than ever that AI systems would be able to explain the reasoning behind their results also to end-users in situations such as being eliminated from a recruitment process or having a bank loan application refused by an AI system. Especially if the AI system has been trained using Machine Learning, it tends to contain too many parameters for them to be analysed and understood, which has caused them to be called `black-box' systems. Most Explainable AI (XAI) methods are based on extracting an interpretable model that can be used for producing explanations. However, the interpretable model does not necessarily map accurately to the original black-box model. Furthermore, the understandability of interpretable models for an end-user remains questionable. The notions of Contextual Importance and Utility (CIU) presented in this paper make it possible to produce human-like explanations of black-box outcomes directly, without creating an interpretable model. Therefore, CIU explanations map accurately to the black-box model itself. CIU is completely model-agnostic and can be used with any black-box system. In addition to feature importance, the utility concept that is well-known in Decision Theory provides a new dimension to explanations compared to most existing XAI methods. Finally, CIU can produce explanations at any level of abstraction and using different vocabularies and other means of interaction, which makes it possible to adjust explanations and interaction according to the context and to the target users.",
+      "publication_date": "2020-09-29T13:29:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2009.13996v1.pdf"
+    },
+    {
+      "title": "On the Tractability of SHAP Explanations",
+      "authors": [
+        "Guy Van den Broeck",
+        "Anton Lykov",
+        "Maximilian Schleich",
+        "Dan Suciu"
+      ],
+      "abstract": "SHAP explanations are a popular feature-attribution mechanism for explainable AI. They use game-theoretic notions to measure the influence of individual features on the prediction of a machine learning model. Despite a lot of recent interest from both academia and industry, it is not known whether SHAP explanations of common machine learning models can be computed efficiently. In this paper, we establish the complexity of computing the SHAP explanation in three important settings. First, we consider fully-factorized data distributions, and show that the complexity of computing the SHAP explanation is the same as the complexity of computing the expected value of the model. This fully-factorized setting is often used to simplify the SHAP computation, yet our results show that the computation can be intractable for commonly used models such as logistic regression. Going beyond fully-factorized distributions, we show that computing SHAP explanations is already intractable for a very simple setting: computing SHAP explanations of trivial classifiers over naive Bayes distributions. Finally, we show that even computing SHAP over the empirical distribution is #P-hard.",
+      "publication_date": "2020-09-18T05:48:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2009.08634v2.pdf"
+    },
+    {
+      "title": "An Extension of LIME with Improvement of Interpretability and Fidelity",
+      "authors": [
+        "Sheng Shi",
+        "Yangzhou Du",
+        "Wei Fan"
+      ],
+      "abstract": "While deep learning makes significant achievements in Artificial Intelligence (AI), the lack of transparency has limited its broad application in various vertical domains. Explainability is not only a gateway between AI and real world, but also a powerful feature to detect flaw of the models and bias of the data. Local Interpretable Model-agnostic Explanation (LIME) is a widely-accepted technique that explains the prediction of any classifier faithfully by learning an interpretable model locally around the predicted instance. As an extension of LIME, this paper proposes an high-interpretability and high-fidelity local explanation method, known as Local Explanation using feature Dependency Sampling and Nonlinear Approximation (LEDSNA). Given an instance being explained, LEDSNA enhances interpretability by feature sampling with intrinsic dependency. Besides, LEDSNA improves the local explanation fidelity by approximating nonlinear boundary of local decision. We evaluate our method with classification tasks in both image domain and text domain. Experiments show that LEDSNA's explanation of the back-box model achieves much better performance than original LIME in terms of interpretability and fidelity.",
+      "publication_date": "2020-04-26T02:54:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2004.12277v1.pdf"
+    },
+    {
+      "title": "Self-explaining AI as an alternative to interpretable AI",
+      "authors": [
+        "Daniel C. Elton"
+      ],
+      "abstract": "The ability to explain decisions made by AI systems is highly sought after, especially in domains where human lives are at stake such as medicine or autonomous vehicles. While it is often possible to approximate the input-output relations of deep neural networks with a few human-understandable rules, the discovery of the double descent phenomena suggests that such approximations do not accurately capture the mechanism by which deep neural networks work. Double descent indicates that deep neural networks typically operate by smoothly interpolating between data points rather than by extracting a few high level rules. As a result, neural networks trained on complex real world data are inherently hard to interpret and prone to failure if asked to extrapolate. To show how we might be able to trust AI despite these problems we introduce the concept of self-explaining AI. Self-explaining AIs are capable of providing a human-understandable explanation of each decision along with confidence levels for both the decision and explanation. For this approach to work, it is important that the explanation actually be related to the decision, ideally capturing the mechanism used to arrive at the explanation. Finally, we argue it is important that deep learning based systems include a \"warning light\" based on techniques from applicability domain analysis to warn the user if a model is asked to extrapolate outside its training distribution. For a video presentation of this talk see https://www.youtube.com/watch?v=Py7PVdcu7WY& .",
+      "publication_date": "2020-02-12T18:50:11+00:00",
+      "doi": "10.1007/978-3-030-52152-3_10",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2002.05149v6.pdf"
+    },
+    {
+      "title": "Explaining Data-Driven Decisions made by AI Systems: The Counterfactual   Approach",
+      "authors": [
+        "Carlos Fernández-Loría",
+        "Foster Provost",
+        "Xintian Han"
+      ],
+      "abstract": "We examine counterfactual explanations for explaining the decisions made by model-based AI systems. The counterfactual approach we consider defines an explanation as a set of the system's data inputs that causally drives the decision (i.e., changing the inputs in the set changes the decision) and is irreducible (i.e., changing any subset of the inputs does not change the decision). We (1) demonstrate how this framework may be used to provide explanations for decisions made by general, data-driven AI systems that may incorporate features with arbitrary data types and multiple predictive models, and (2) propose a heuristic procedure to find the most useful explanations depending on the context. We then contrast counterfactual explanations with methods that explain model predictions by weighting features according to their importance (e.g., SHAP, LIME) and present two fundamental reasons why we should carefully consider whether importance-weight explanations are well-suited to explain system decisions. Specifically, we show that (i) features that have a large importance weight for a model prediction may not affect the corresponding decision, and (ii) importance weights are insufficient to communicate whether and how features influence decisions. We demonstrate this with several concise examples and three detailed case studies that compare the counterfactual approach with SHAP to illustrate various conditions under which counterfactual explanations explain data-driven decisions better than importance weights.",
+      "publication_date": "2020-01-21T09:58:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2001.07417v5.pdf"
+    },
+    {
+      "title": "bLIMEy: Surrogate Prediction Explanations Beyond LIME",
+      "authors": [
+        "Kacper Sokol",
+        "Alexander Hepburn",
+        "Raul Santos-Rodriguez",
+        "Peter Flach"
+      ],
+      "abstract": "Surrogate explainers of black-box machine learning predictions are of paramount importance in the field of eXplainable Artificial Intelligence since they can be applied to any type of data (images, text and tabular), are model-agnostic and are post-hoc (i.e., can be retrofitted). The Local Interpretable Model-agnostic Explanations (LIME) algorithm is often mistakenly unified with a more general framework of surrogate explainers, which may lead to a belief that it is the solution to surrogate explainability. In this paper we empower the community to \"build LIME yourself\" (bLIMEy) by proposing a principled algorithmic framework for building custom local surrogate explainers of black-box model predictions, including LIME itself. To this end, we demonstrate how to decompose the surrogate explainers family into algorithmically independent and interoperable modules and discuss the influence of these component choices on the functional capabilities of the resulting explainer, using the example of LIME.",
+      "publication_date": "2019-10-29T00:21:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/1910.13016v1.pdf"
+    },
+    {
+      "title": "Generating Counterfactual and Contrastive Explanations using SHAP",
+      "authors": [
+        "Shubham Rathi"
+      ],
+      "abstract": "With the advent of GDPR, the domain of explainable AI and model interpretability has gained added impetus. Methods to extract and communicate visibility into decision-making models have become legal requirement. Two specific types of explanations, contrastive and counterfactual have been identified as suitable for human understanding. In this paper, we propose a model agnostic method and its systemic implementation to generate these explanations using shapely additive explanations (SHAP). We discuss a generative pipeline to create contrastive explanations and use it to further to generate counterfactual datapoints. This pipeline is tested and discussed on the IRIS, Wine Quality & Mobile Features dataset. Analysis of the results obtained follows.",
+      "publication_date": "2019-06-21T19:13:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/1906.09293v1.pdf"
+    }
+  ]
+}

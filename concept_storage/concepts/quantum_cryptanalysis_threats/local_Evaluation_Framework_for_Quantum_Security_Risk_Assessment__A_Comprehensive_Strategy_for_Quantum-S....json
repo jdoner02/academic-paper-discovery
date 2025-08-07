@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S...",
+  "paper_title": "Evaluation Framework for Quantum Security Risk Assessment  A Comprehensive Strategy for Quantum-S...",
+  "concepts": [
+    {
+      "text": "quantum",
+      "frequency": 277,
+      "relevance_score": 0.9915065495156254,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.323597+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 226,
+      "relevance_score": 0.8273663544784526,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.324601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 174,
+      "relevance_score": 0.8100077242444723,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.402506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 198,
+      "relevance_score": 0.7372501689678478,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.360436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 132,
+      "relevance_score": 0.6748334459785653,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.354689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 175,
+      "relevance_score": 0.6632261594412796,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.349060+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk",
+      "frequency": 154,
+      "relevance_score": 0.595639020308326,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.325514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate",
+      "frequency": 148,
+      "relevance_score": 0.5763284091274823,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.401527+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum cryptographic algorithms",
+      "frequency": 6,
+      "relevance_score": 0.5693106111808439,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.372404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qc- resistant protocol",
+      "frequency": 5,
+      "relevance_score": 0.5660921759840366,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.812164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol version 1",
+      "frequency": 5,
+      "relevance_score": 0.5660921759840366,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:19.163839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-migration algorithmic level",
+      "frequency": 4,
+      "relevance_score": 0.5628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.307487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryp- tographic algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.364207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-migration protocol level",
+      "frequency": 4,
+      "relevance_score": 0.5628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.615177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-migration protocol level",
+      "frequency": 4,
+      "relevance_score": 0.5628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.791822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "through-migration algorithmic level",
+      "frequency": 3,
+      "relevance_score": 0.559655305590422,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.369329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-migration algorithmic level",
+      "frequency": 3,
+      "relevance_score": 0.559655305590422,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.421358+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "through-migration protocol level",
+      "frequency": 3,
+      "relevance_score": 0.559655305590422,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.759615+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol version 2",
+      "frequency": 3,
+      "relevance_score": 0.559655305590422,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:19.178795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "crypto- graphic systems",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.231076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "migration process pre-",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.235977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process pre- migration",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.237111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certifi- cate protocol",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.243251+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithmic level miti-",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.247254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum-resistant cryptographic systems",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.262057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "target system 34",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.282318+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system 34 35",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.283369+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum-resistant systems segmentation",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.284291+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "crypto- graphic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.309470+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum-safe cryptographic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.311454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post- quantum algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.573990+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 pre-migration protocol",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.614199+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol fields andmes-",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.783605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utilizes single-algorithm schemes",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.786337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols possible qc-resistant",
+      "frequency": 2,
+      "relevance_score": 0.5564368703936147,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.798263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 95,
+      "relevance_score": 0.5057513436966946,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.695035+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m m",
+      "frequency": 92,
+      "relevance_score": 0.49609603810627273,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:16.752307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 121,
+      "relevance_score": 0.48943065881368475,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.551024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic",
+      "frequency": 119,
+      "relevance_score": 0.4829937884200701,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.347223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum algorithms",
+      "frequency": 8,
+      "relevance_score": 0.47574748157445856,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:17.170408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single-algorithm schemes",
+      "frequency": 7,
+      "relevance_score": 0.47252904637765125,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:17.536674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat",
+      "frequency": 115,
+      "relevance_score": 0.4701200476328409,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:14.345364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk assessment framework",
+      "frequency": 6,
+      "relevance_score": 0.46931061118084383,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.217209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key cryptographic algorithms",
+      "frequency": 5,
+      "relevance_score": 0.4660921759840365,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.226068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls protocol version",
+      "frequency": 5,
+      "relevance_score": 0.4660921759840365,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:19.162936+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-migration algorithmic",
+      "frequency": 4,
+      "relevance_score": 0.4628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:16.668669+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-migration protocol",
+      "frequency": 4,
+      "relevance_score": 0.4628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:17.256762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-migration protocol",
+      "frequency": 4,
+      "relevance_score": 0.4628737407872293,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:17.590166+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "entire migration process",
+      "frequency": 4,
+      "relevance_score": 0.4628737407872292,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.269102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithmic level risk",
+      "frequency": 4,
+      "relevance_score": 0.4628737407872292,
+      "source_papers": [
+        "local/Evaluation_Framework_for_Quantum_Security_Risk_Assessment__A_Comprehensive_Strategy_for_Quantum-S..."
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:18.361335+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:22:19.206741+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:22:19.206929+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_cryptanalysis_threats"
+  }
+}

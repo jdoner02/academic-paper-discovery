@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Reinforcement_Nash_Equilibrium_Solver",
+  "paper_title": "Reinforcement Nash Equilibrium Solver",
+  "concepts": [
+    {
+      "text": "games",
+      "frequency": 186,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.557759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "renes",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.565548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 82,
+      "relevance_score": 0.8441016333938294,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.552068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α-rank",
+      "frequency": 47,
+      "relevance_score": 0.6264972776769511,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.569923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solvers",
+      "frequency": 45,
+      "relevance_score": 0.5083484573502722,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.562492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 33,
+      "relevance_score": 0.49945553539019966,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.836792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 44,
+      "relevance_score": 0.4992740471869328,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.559700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 44,
+      "relevance_score": 0.4992740471869328,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.633077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α-rank response graph",
+      "frequency": 10,
+      "relevance_score": 0.49074410163339377,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.043429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 100000 200000",
+      "frequency": 10,
+      "relevance_score": 0.49074410163339377,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.065753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100000 200000 300000",
+      "frequency": 10,
+      "relevance_score": 0.49074410163339377,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.066082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "200000 300000 400000",
+      "frequency": 10,
+      "relevance_score": 0.49074410163339377,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.066549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "300000 400000 5000000",
+      "frequency": 10,
+      "relevance_score": 0.49074410163339377,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.066881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α-rank ce fp",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.032113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 -1 0",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.046532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-1 0 0",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.046988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 1",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.047319+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.047769+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 2",
+      "frequency": 8,
+      "relevance_score": 0.472595281306715,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.048087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "natural language processing",
+      "frequency": 2,
+      "relevance_score": 0.4681488203266787,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.094973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms e g",
+      "frequency": 2,
+      "relevance_score": 0.4681488203266787,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.095289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α-rank response graphs",
+      "frequency": 6,
+      "relevance_score": 0.45444646098003627,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.026637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α-rank response",
+      "frequency": 16,
+      "relevance_score": 0.44519056261343015,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.841791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "two-player zero-sum games",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.033151+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-2 0 -1",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.046213+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 2 0-2",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.048537+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 0-2 0",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.048856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0-2 0 -1",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.049305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 2 0",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.049622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sample 3000 games",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.063704+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 010 0",
+      "frequency": 4,
+      "relevance_score": 0.4362976406533575,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.076625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 37,
+      "relevance_score": 0.4357531760435571,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.544708+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e α-rank ce",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.031708+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nash jr 1950",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.032429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1974 aumann 1987",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.035011+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 0 0",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.050071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "theα-rank response graph",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.057575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nc πt 1",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.060429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "πt 1 nc",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.060747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 nc πt",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.061064+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "randomly sample 3000",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.063373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 007 0",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.075280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 003 0",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.075627+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 002 0",
+      "frequency": 3,
+      "relevance_score": 0.4272232304900181,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.078208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2020",
+      "frequency": 25,
+      "relevance_score": 0.4268602540834846,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:03.609135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modi- fied games",
+      "frequency": 2,
+      "relevance_score": 0.41814882032667877,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.026318+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "widely-used proximal policy",
+      "frequency": 2,
+      "relevance_score": 0.41814882032667877,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.030258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-player general-sum games",
+      "frequency": 2,
+      "relevance_score": 0.41814882032667877,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.032833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ce aumann 1974",
+      "frequency": 2,
+      "relevance_score": 0.41814882032667877,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.034281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aumann 1974 aumann",
+      "frequency": 2,
+      "relevance_score": 0.41814882032667877,
+      "source_papers": [
+        "local/Reinforcement_Nash_Equilibrium_Solver"
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:35:04.034598+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:35:04.096863+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:35:04.097056+00:00",
+    "repository_version": "1.0",
+    "domain": "cybersecurity_game_theory"
+  }
+}

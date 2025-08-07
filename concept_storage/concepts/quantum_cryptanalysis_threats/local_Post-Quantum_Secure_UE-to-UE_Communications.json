@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Post-Quantum_Secure_UE-to-UE_Communications",
+  "paper_title": "Post-Quantum Secure UE-to-UE Communications",
+  "concepts": [
+    {
+      "text": "network",
+      "frequency": 22,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.030473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 29,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.032482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 20,
+      "relevance_score": 0.919672131147541,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ue2",
+      "frequency": 17,
+      "relevance_score": 0.8967213114754098,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.035788+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 18,
+      "relevance_score": 0.8377049180327869,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.027454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 17,
+      "relevance_score": 0.7967213114754098,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.030098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ue1",
+      "frequency": 14,
+      "relevance_score": 0.7737704918032786,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.035662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ues",
+      "frequency": 16,
+      "relevance_score": 0.7557377049180327,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.029787+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kyber",
+      "frequency": 16,
+      "relevance_score": 0.7557377049180327,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.032418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gnb",
+      "frequency": 15,
+      "relevance_score": 0.7147540983606557,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.033985+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2024",
+      "frequency": 12,
+      "relevance_score": 0.6918032786885246,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.035068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exchange",
+      "frequency": 13,
+      "relevance_score": 0.6327868852459015,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.038602+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 9,
+      "relevance_score": 0.6188524590163935,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.029037+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 10,
+      "relevance_score": 0.6098360655737705,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.027378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure communication",
+      "frequency": 9,
+      "relevance_score": 0.5688524590163935,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.043823+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available july 2024",
+      "frequency": 4,
+      "relevance_score": 0.5639344262295082,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047522+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic",
+      "frequency": 11,
+      "relevance_score": 0.5508196721311476,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028597+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc",
+      "frequency": 11,
+      "relevance_score": 0.5508196721311476,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.029973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available",
+      "frequency": 11,
+      "relevance_score": 0.5508196721311476,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.035131+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 11,
+      "relevance_score": 0.5508196721311476,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.039687+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 7,
+      "relevance_score": 0.5368852459016393,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.032738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic systems including",
+      "frequency": 2,
+      "relevance_score": 0.531967213114754,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5139344262295082,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.043066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 10,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028788+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls",
+      "frequency": 10,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.030035+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared",
+      "frequency": 10,
+      "relevance_score": 0.5098360655737705,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.039885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum computing",
+      "frequency": 7,
+      "relevance_score": 0.48688524590163934,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.042626+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5g core 5gc",
+      "frequency": 2,
+      "relevance_score": 0.4819672131147541,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5g core network",
+      "frequency": 2,
+      "relevance_score": 0.4819672131147541,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2024 online available",
+      "frequency": 2,
+      "relevance_score": 0.4819672131147541,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "registration process",
+      "frequency": 3,
+      "relevance_score": 0.47295081967213115,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.045266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ueransim",
+      "frequency": 9,
+      "relevance_score": 0.4688524590163935,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.033064+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 9,
+      "relevance_score": 0.4688524590163935,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.038469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5g core",
+      "frequency": 4,
+      "relevance_score": 0.4639344262295082,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.044198+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "july 2024",
+      "frequency": 4,
+      "relevance_score": 0.4639344262295082,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.044449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure communication channel",
+      "frequency": 4,
+      "relevance_score": 0.4639344262295082,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.047899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "core network",
+      "frequency": 6,
+      "relevance_score": 0.4459016393442623,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.044638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key exchange",
+      "frequency": 6,
+      "relevance_score": 0.4459016393442623,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.045141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared secret",
+      "frequency": 6,
+      "relevance_score": 0.4459016393442623,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.045768+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 6,
+      "relevance_score": 0.4459016393442623,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.045830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic systems",
+      "frequency": 2,
+      "relevance_score": 0.43196721311475406,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.042752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems including",
+      "frequency": 2,
+      "relevance_score": 0.43196721311475406,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.042815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 8,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile",
+      "frequency": 8,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "core",
+      "frequency": 8,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.034240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forward",
+      "frequency": 8,
+      "relevance_score": 0.4278688524590164,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.040899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum cryptography",
+      "frequency": 3,
+      "relevance_score": 0.4229508196721312,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.043508+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available july",
+      "frequency": 5,
+      "relevance_score": 0.40491803278688526,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.044387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 7,
+      "relevance_score": 0.3868852459016393,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.028534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 7,
+      "relevance_score": 0.3868852459016393,
+      "source_papers": [
+        "local/Post-Quantum_Secure_UE-to-UE_Communications"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:20.029661+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:22:20.048077+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:22:20.048241+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_cryptanalysis_threats"
+  }
+}

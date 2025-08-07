@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids",
+  "paper_title": "Multilayer GNN for Predictive Maintenance and Clustering in Power Grids",
+  "concepts": [
+    {
+      "text": "clustering",
+      "frequency": 55,
+      "relevance_score": 0.6947874986482102,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.487564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "temporal",
+      "frequency": 51,
+      "relevance_score": 0.6515302260192495,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.496134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 49,
+      "relevance_score": 0.6299015897047691,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.497519+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multilayer",
+      "frequency": 48,
+      "relevance_score": 0.619087271547529,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.486253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spatial",
+      "frequency": 44,
+      "relevance_score": 0.5758299989185682,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.495859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster",
+      "frequency": 44,
+      "relevance_score": 0.5758299989185682,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.515182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "causal",
+      "frequency": 42,
+      "relevance_score": 0.5542013626040878,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.505093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maintenance",
+      "frequency": 40,
+      "relevance_score": 0.5325727262896074,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.487285+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gnn",
+      "frequency": 36,
+      "relevance_score": 0.48931545366064666,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.486648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clusters",
+      "frequency": 36,
+      "relevance_score": 0.48931545366064666,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.517914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network gnn framework",
+      "frequency": 3,
+      "relevance_score": 0.4824429544717206,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.864905+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 21,
+      "relevance_score": 0.47710068130204397,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.498340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single-layer models",
+      "frequency": 2,
+      "relevance_score": 0.4716286363144804,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.844792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy system management",
+      "frequency": 2,
+      "relevance_score": 0.4716286363144804,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.872156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system average interruption",
+      "frequency": 2,
+      "relevance_score": 0.4716286363144804,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.878582+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 34,
+      "relevance_score": 0.46768681734616635,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.487842+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk",
+      "frequency": 34,
+      "relevance_score": 0.46768681734616635,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.514636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 0 0001",
+      "frequency": 6,
+      "relevance_score": 0.46488590894344106,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.868724+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 19,
+      "relevance_score": 0.45547204498756355,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.492567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8935 0 0258",
+      "frequency": 4,
+      "relevance_score": 0.44325727262896075,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.866540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "precision recall f1-score",
+      "frequency": 4,
+      "relevance_score": 0.44325727262896075,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.882234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random forest 0",
+      "frequency": 4,
+      "relevance_score": 0.44325727262896075,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.895161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 22,
+      "relevance_score": 0.43791499945928414,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.757731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "predictive",
+      "frequency": 31,
+      "relevance_score": 0.4352438628744457,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.486986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "substation",
+      "frequency": 31,
+      "relevance_score": 0.4352438628744457,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.499168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 8935 0",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.866270+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7354 0 0418",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.867363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "602 6 minutes",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.867909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sec- tion 2",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.875292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tion 2 3",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.875564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 8444 0",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.881399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8472 0 0179",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.881944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recall f1-score multi_gnn",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.882513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f1-score multi_gnn 0",
+      "frequency": 3,
+      "relevance_score": 0.43244295447172054,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.882787+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster 5",
+      "frequency": 12,
+      "relevance_score": 0.42977181788688223,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.755543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3",
+      "frequency": 12,
+      "relevance_score": 0.42977181788688223,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.784239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "150 billion annually",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.863264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "292 830 records",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.865449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 7354 0",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.867082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spatial tempo- ral",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.869549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mul- tilayer gnns",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.870115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre- dictive maintenance",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.870405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer-specific message passing",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.870985+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spanning 2015 2021",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.873619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "see sec- tion",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.875017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 1",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.875835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 2",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.876109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 3",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.876652+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "19 4 positive",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.878853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 positive labels",
+      "frequency": 2,
+      "relevance_score": 0.42162863631448033,
+      "source_papers": [
+        "local/Multilayer_GNN_for_Predictive_Maintenance_and_Clustering_in_Power_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:15.879125+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:04:15.901591+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:04:15.901777+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

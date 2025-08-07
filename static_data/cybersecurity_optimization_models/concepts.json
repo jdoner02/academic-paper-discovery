@@ -1,0 +1,1413 @@
+{
+  "domain": "cybersecurity_optimization_models",
+  "concepts": [
+    {
+      "text": "problem",
+      "total_frequency": 1005,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/Integer_linear_programming_supporting_portfolio_design",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "risk",
+      "total_frequency": 846,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/Compact_Securities_Markets_for_Pareto_Optimal_Reallocation_of_Risk",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "optimal",
+      "total_frequency": 810,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks",
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "portfolio",
+      "total_frequency": 743,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Integer_linear_programming_supporting_portfolio_design",
+        "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/On_Cost-Sensitive_Distributionally_Robust_Log-Optimal_Portfolio",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "solution",
+      "total_frequency": 708,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber",
+      "total_frequency": 690,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uncertainty",
+      "total_frequency": 666,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "optimization",
+      "total_frequency": 612,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "robust",
+      "total_frequency": 531,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/On_Cost-Sensitive_Distributionally_Robust_Log-Optimal_Portfolio",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "set",
+      "total_frequency": 528,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 1",
+      "total_frequency": 462,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "insurance",
+      "total_frequency": 444,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 1",
+      "total_frequency": 425,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "loss",
+      "total_frequency": 424,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/Cyber_Risk_Assessment_for_Capital_Management"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "investment",
+      "total_frequency": 418,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...",
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/Cyber_Risk_Assessment_for_Capital_Management"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t 1",
+      "total_frequency": 416,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 2",
+      "total_frequency": 394,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+        "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cost",
+      "total_frequency": 394,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users",
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "defender",
+      "total_frequency": 387,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 377,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/Compact_Securities_Markets_for_Pareto_Optimal_Reallocation_of_Risk",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users",
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 375,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Optimization_in_Categories",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "summationdisplay",
+      "total_frequency": 362,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+        "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "vector",
+      "total_frequency": 356,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "allocation",
+      "total_frequency": 350,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "budget",
+      "total_frequency": 322,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 304,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t t",
+      "total_frequency": 298,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 298,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/Efficient_Traffic_Classification_using_HW-NAS__Advanced_Analysis_and_Optimization_for_Cybersecuri..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "power",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/Learning_Optimization_Proxies_for_Large-Scale_Security-Constrained_Economic_Dispatch",
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cybersecurity",
+      "total_frequency": 294,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacker",
+      "total_frequency": 266,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 t",
+      "total_frequency": 257,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "integraldisplay",
+      "total_frequency": 253,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenleftbig",
+      "total_frequency": 249,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenrightbig",
+      "total_frequency": 246,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "constraints",
+      "total_frequency": 245,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "k 1",
+      "total_frequency": 239,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 t",
+      "total_frequency": 236,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber risk",
+      "total_frequency": 232,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "resource",
+      "total_frequency": 227,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 225,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Learning_Optimization_Proxies_for_Large-Scale_Security-Constrained_Economic_Dispatch",
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ieee",
+      "total_frequency": 224,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Efficient_Traffic_Classification_using_HW-NAS__Advanced_Analysis_and_Optimization_for_Cybersecuri...",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "users",
+      "total_frequency": 221,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 208,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Learning_Optimization_Proxies_for_Large-Scale_Security-Constrained_Economic_Dispatch",
+        "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+        "local/LENS-XAI__Redefining_Lightweight_and_Explainable_Network_Security_through_Knowledge_Distillation_...",
+        "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+        "local/Efficient_Traffic_Classification_using_HW-NAS__Advanced_Analysis_and_Optimization_for_Cybersecuri...",
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "game",
+      "total_frequency": 202,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "objective",
+      "total_frequency": 202,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "solutions",
+      "total_frequency": 199,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "treatment",
+      "total_frequency": 192,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "control",
+      "total_frequency": 191,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2 1",
+      "total_frequency": 184,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+        "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cpa",
+      "total_frequency": 180,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "y s",
+      "total_frequency": 180,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 0",
+      "total_frequency": 178,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/Pareto_Optimization_in_Categories",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "node",
+      "total_frequency": 176,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+        "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "j 1",
+      "total_frequency": 174,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t v",
+      "total_frequency": 174,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "paro",
+      "total_frequency": 173,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ˆρλ",
+      "total_frequency": 172,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ective",
+      "total_frequency": 165,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "aro",
+      "total_frequency": 164,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "x y",
+      "total_frequency": 164,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "internet",
+      "total_frequency": 161,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nγ x0",
+      "total_frequency": 159,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "u 1",
+      "total_frequency": 159,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "costs",
+      "total_frequency": 157,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_Cost-Sensitive_Distributionally_Robust_Log-Optimal_Portfolio",
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 γ",
+      "total_frequency": 157,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "worst-case",
+      "total_frequency": 157,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+        "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "decision",
+      "total_frequency": 149,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "v y",
+      "total_frequency": 149,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "networks",
+      "total_frequency": 148,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2 0",
+      "total_frequency": 146,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber-insurance",
+      "total_frequency": 145,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "α β",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "theorem",
+      "total_frequency": 143,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+        "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs",
+        "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+        "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "byi",
+      "total_frequency": 143,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "θ dρ",
+      "total_frequency": 143,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "strategy",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bracketrightbigg",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 0",
+      "total_frequency": 140,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+        "local/Cyber_Risk_Assessment_for_Capital_Management",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "wind",
+      "total_frequency": 139,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "detection",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/LENS-XAI__Redefining_Lightweight_and_Explainable_Network_Security_through_Knowledge_Distillation_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "e ective",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "conditional",
+      "total_frequency": 137,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "level",
+      "total_frequency": 135,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+        "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "yt y",
+      "total_frequency": 135,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "planning",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...",
+        "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+        "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "function",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs",
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "λ u",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "summationdisplay j",
+      "total_frequency": 130,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ilp",
+      "total_frequency": 130,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+        "local/Integer_linear_programming_supporting_portfolio_design"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "resource allocation",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "y α",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t 0",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "year",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+        "local/Integer_linear_programming_supporting_portfolio_design"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "j t",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+        "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "rules",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bracketleftbigg",
+      "total_frequency": 124,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pareto",
+      "total_frequency": 123,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs",
+        "local/Pareto_Optimization_in_Categories",
+        "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "teacher",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/LENS-XAI__Redefining_Lightweight_and_Explainable_Network_Security_through_Knowledge_Distillation_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "implementation",
+      "total_frequency": 121,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+        "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/LENS-XAI__Redefining_Lightweight_and_Explainable_Network_Security_through_Knowledge_Distillation_...": {
+      "id": "local/LENS-XAI__Redefining_Lightweight_and_Explainable_Network_Security_through_Knowledge_Distillation_...",
+      "title": "LENS-XAI  Redefining Lightweight and Explainable Network Security through Knowledge Distillation ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games": {
+      "id": "local/A_Quantal_Response_Analysis_of_Defender-Attacker_Sequential_Security_Games",
+      "title": "A Quantal Response Analysis of Defender-Attacker Sequential Security Games",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs": {
+      "id": "local/Pareto_Optima_of_Multicriteria_Integer_Linear_Programs",
+      "title": "Pareto Optima of Multicriteria Integer Linear Programs",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/On_Cost-Sensitive_Distributionally_Robust_Log-Optimal_Portfolio": {
+      "id": "local/On_Cost-Sensitive_Distributionally_Robust_Log-Optimal_Portfolio",
+      "title": "On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem": {
+      "id": "local/Replica_Analysis_for_the_Duality_of_the_Portfolio_Optimization_Problem",
+      "title": "Replica Analysis for the Duality of the Portfolio Optimization Problem",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cyber_Risk_Assessment_for_Capital_Management": {
+      "id": "local/Cyber_Risk_Assessment_for_Capital_Management",
+      "title": "Cyber Risk Assessment for Capital Management",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility": {
+      "id": "local/Robust_portfolio_optimization_with_multi-factor_stochastic_volatility",
+      "title": "Robust portfolio optimization with multi-factor stochastic volatility",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization": {
+      "id": "local/Cardinality-constrained_Distributionally_Robust_Portfolio_Optimization",
+      "title": "Cardinality-constrained Distributionally Robust Portfolio Optimization",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks": {
+      "id": "local/A_stochastic_Gordon-Loeb_model_for_optimal_cybersecurity_investment_under_clustered_attacks",
+      "title": "A stochastic Gordon-Loeb model for optimal cybersecurity investment under clustered attacks",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning": {
+      "id": "local/A_Bonus-Malus_Framework_for_Cyber_Risk_Insurance_and_Optimal_Cybersecurity_Provisioning",
+      "title": "A Bonus-Malus Framework for Cyber Risk Insurance and Optimal Cybersecurity Provisioning",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens": {
+      "id": "local/Pareto_Adaptive_Robust_Optimality_via_a_Fourier-Motzkin_Elimination_Lens",
+      "title": "Pareto Adaptive Robust Optimality via a Fourier-Motzkin Elimination Lens",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty": {
+      "id": "local/Risk_management_in_multi-objective_portfolio_optimization_under_uncertainty",
+      "title": "Risk management in multi-objective portfolio optimization under uncertainty",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users": {
+      "id": "local/Optimizing_Investments_in_Cyber_Hygiene_for_Protecting_Healthcare_Users",
+      "title": "Optimizing Investments in Cyber Hygiene for Protecting Healthcare Users",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty": {
+      "id": "local/Robust_Binary_Linear_Programming_Under_Implementation_Uncertainty",
+      "title": "Robust Binary Linear Programming Under Implementation Uncertainty",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport": {
+      "id": "local/Robustifying_Conditional_Portfolio_Decisions_via_Optimal_Transport",
+      "title": "Robustifying Conditional Portfolio Decisions via Optimal Transport",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...": {
+      "id": "local/Security_of_Distributed_Parameter_Cyber-Physical_Systems__Cyber-Attack_Detection_in_Linear_Parabo...",
+      "title": "Security of Distributed Parameter Cyber-Physical Systems  Cyber-Attack Detection in Linear Parabo...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty": {
+      "id": "local/Robust_Combinatorial_Optimization_with_Locally_Budgeted_Uncertainty",
+      "title": "Robust Combinatorial Optimization with Locally Budgeted Uncertainty",
+      "pdf_url": "",
+      "concept_count": 48
+    },
+    "local/Learning_Optimization_Proxies_for_Large-Scale_Security-Constrained_Economic_Dispatch": {
+      "id": "local/Learning_Optimization_Proxies_for_Large-Scale_Security-Constrained_Economic_Dispatch",
+      "title": "Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization": {
+      "id": "local/Effective_Budget_of_Uncertainty_for_Classes_of_Robust_Optimization",
+      "title": "Effective Budget of Uncertainty for Classes of Robust Optimization",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission": {
+      "id": "local/Enhancing_Physical_Layer_Security_in_Dual-Hop_Multiuser_Transmission",
+      "title": "Enhancing Physical Layer Security in Dual-Hop Multiuser Transmission",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection": {
+      "id": "local/A_Convex_Stochastic_Optimization_Problem_Arising_from_Portfolio_Selection",
+      "title": "A Convex Stochastic Optimization Problem Arising from Portfolio Selection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty": {
+      "id": "local/Robust_Deterministic_Policies_for_Markov_Decision_Processes_under_Budgeted_Uncertainty",
+      "title": "Robust Deterministic Policies for Markov Decision Processes under Budgeted Uncertainty",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty": {
+      "id": "local/Portfolio_choice__portfolio_liquidation__and_portfolio_transition_under_drift_uncertainty",
+      "title": "Portfolio choice  portfolio liquidation  and portfolio transition under drift uncertainty",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...": {
+      "id": "local/Hierarchical_Deep_Reinforcement_Learning_Framework_for_Multi-Year_Asset_Management_Under_Budget_C...",
+      "title": "Hierarchical Deep Reinforcement Learning Framework for Multi-Year Asset Management Under Budget C...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Compact_Securities_Markets_for_Pareto_Optimal_Reallocation_of_Risk": {
+      "id": "local/Compact_Securities_Markets_for_Pareto_Optimal_Reallocation_of_Risk",
+      "title": "Compact Securities Markets for Pareto Optimal Reallocation of Risk",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems": {
+      "id": "local/A_Robust_Stackelberg_Game_for_Cyber-Security_Investment_in_Networked_Control_Systems",
+      "title": "A Robust Stackelberg Game for Cyber-Security Investment in Networked Control Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities": {
+      "id": "local/A_Risk-Sensitive_Portfolio_Optimization_Problem_with_Fixed_Incomes_Securities",
+      "title": "A Risk-Sensitive Portfolio Optimization Problem with Fixed Incomes Securities",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints": {
+      "id": "local/PAC-Bayesian_Treatment_Allocation_Under_Budget_Constraints",
+      "title": "PAC-Bayesian Treatment Allocation Under Budget Constraints",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...": {
+      "id": "local/A_Stochastic-Robust_Approach_for_Resilient_Microgrid_Investment_Planning_Under_Static_and_Transie...",
+      "title": "A Stochastic-Robust Approach for Resilient Microgrid Investment Planning Under Static and Transie...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective": {
+      "id": "local/Pricing_and_Investments_in_Internet_Security__A_Cyber-Insurance_Perspective",
+      "title": "Pricing and Investments in Internet Security  A Cyber-Insurance Perspective",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm": {
+      "id": "local/GMA__A_Pareto_Optimal_Distributed_Resource-Allocation_Algorithm",
+      "title": "GMA  A Pareto Optimal Distributed Resource-Allocation Algorithm",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Integer_linear_programming_supporting_portfolio_design": {
+      "id": "local/Integer_linear_programming_supporting_portfolio_design",
+      "title": "Integer linear programming supporting portfolio design",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching": {
+      "id": "local/Dynamic_Portfolio_Optimization_with_a_Defaultable_Security_and_Regime_Switching",
+      "title": "Dynamic Portfolio Optimization with a Defaultable Security and Regime Switching",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment": {
+      "id": "local/Comparing_Decision_Support_Approaches_for_Cyber_Security_Investment",
+      "title": "Comparing Decision Support Approaches for Cyber Security Investment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty": {
+      "id": "local/Robust_Combinatorial_Optimization_Problems_Under_Budgeted_Interdiction_Uncertainty",
+      "title": "Robust Combinatorial Optimization Problems Under Budgeted Interdiction Uncertainty",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles": {
+      "id": "local/Constrained_Risk_Budgeting_Portfolios__Theory__Algorithms__Applications___Puzzles",
+      "title": "Constrained Risk Budgeting Portfolios  Theory  Algorithms  Applications   Puzzles",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Novel_Cyber-Insurance_for_Internet_Security": {
+      "id": "local/A_Novel_Cyber-Insurance_for_Internet_Security",
+      "title": "A Novel Cyber-Insurance for Internet Security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach": {
+      "id": "local/Constrained_Max_Drawdown__a_Fast_and_Robust_Portfolio_Optimization_Approach",
+      "title": "Constrained Max Drawdown  a Fast and Robust Portfolio Optimization Approach",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation": {
+      "id": "local/Hierarchical_Constrained_Stochastic_Shortest_Path_Planning_via_Cost_Budget_Allocation",
+      "title": "Hierarchical Constrained Stochastic Shortest Path Planning via Cost Budget Allocation",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...": {
+      "id": "local/A_Comprehensive_Survey_of_Linear__Integer__and_Mixed-Integer_Programming_Approaches_for_Optimizin...",
+      "title": "A Comprehensive Survey of Linear  Integer  and Mixed-Integer Programming Approaches for Optimizin...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Efficient_Traffic_Classification_using_HW-NAS__Advanced_Analysis_and_Optimization_for_Cybersecuri...": {
+      "id": "local/Efficient_Traffic_Classification_using_HW-NAS__Advanced_Analysis_and_Optimization_for_Cybersecuri...",
+      "title": "Efficient Traffic Classification using HW-NAS  Advanced Analysis and Optimization for Cybersecuri...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Pareto_Optimization_in_Categories": {
+      "id": "local/Pareto_Optimization_in_Categories",
+      "title": "Pareto Optimization in Categories",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1747,
+    "total_papers": 42,
+    "avg_concepts_per_paper": 41.595238095238095
+  }
+}

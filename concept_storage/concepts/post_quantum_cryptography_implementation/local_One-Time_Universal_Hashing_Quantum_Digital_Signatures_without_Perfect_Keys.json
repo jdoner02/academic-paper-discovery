@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys",
+  "paper_title": "One-Time Universal Hashing Quantum Digital Signatures without Perfect Keys",
+  "concepts": [
+    {
+      "text": "quantum",
+      "frequency": 114,
+      "relevance_score": 0.8354838709677419,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.340439+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob",
+      "frequency": 113,
+      "relevance_score": 0.8290322580645161,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.493983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alice",
+      "frequency": 97,
+      "relevance_score": 0.7258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.493335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 73,
+      "relevance_score": 0.720967741935484,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.390099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "charlie",
+      "frequency": 81,
+      "relevance_score": 0.6225806451612903,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.494437+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 77,
+      "relevance_score": 0.5967741935483871,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.364646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 76,
+      "relevance_score": 0.5903225806451613,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.360817+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single-bit qds protocols",
+      "frequency": 5,
+      "relevance_score": 0.582258064516129,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.377056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 74,
+      "relevance_score": 0.5774193548387097,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.343545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inf process 16",
+      "frequency": 2,
+      "relevance_score": 0.5629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.572376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inf process 18",
+      "frequency": 2,
+      "relevance_score": 0.5629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.598194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 69,
+      "relevance_score": 0.5451612903225806,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.384810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qds",
+      "frequency": 62,
+      "relevance_score": 0.5,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.351756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h -l yin",
+      "frequency": 14,
+      "relevance_score": 0.4903225806451613,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.565552+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z -b chen",
+      "frequency": 14,
+      "relevance_score": 0.4903225806451613,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.566896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate",
+      "frequency": 60,
+      "relevance_score": 0.48709677419354835,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.361428+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum inf process",
+      "frequency": 5,
+      "relevance_score": 0.48225806451612907,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.571918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "postprocess- ing",
+      "frequency": 3,
+      "relevance_score": 0.4693548387096774,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.143635+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key generation protocol",
+      "frequency": 3,
+      "relevance_score": 0.4693548387096774,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.373867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bit qds protocols",
+      "frequency": 3,
+      "relevance_score": 0.4693548387096774,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.375995+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process 16",
+      "frequency": 2,
+      "relevance_score": 0.4629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.302835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process 18",
+      "frequency": 2,
+      "relevance_score": 0.4629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.353938+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum communication protocols",
+      "frequency": 2,
+      "relevance_score": 0.4629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.383136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generation protocol kgp",
+      "frequency": 2,
+      "relevance_score": 0.4629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.389920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "improved cascade protocol",
+      "frequency": 2,
+      "relevance_score": 0.4629032258064516,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.558359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lfsr-based toeplitz hashing",
+      "frequency": 8,
+      "relevance_score": 0.4516129032258065,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.411852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c -x weng",
+      "frequency": 8,
+      "relevance_score": 0.4516129032258065,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.576310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bit",
+      "frequency": 54,
+      "relevance_score": 0.4483870967741935,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.353137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash",
+      "frequency": 54,
+      "relevance_score": 0.4483870967741935,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.358659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lfsr-based toeplitz hash",
+      "frequency": 7,
+      "relevance_score": 0.44516129032258067,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.433311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 7,
+      "relevance_score": 0.44516129032258067,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.495630+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1 pd",
+      "frequency": 7,
+      "relevance_score": 0.44516129032258067,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.498357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y -s lu",
+      "frequency": 7,
+      "relevance_score": 0.44516129032258067,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.574567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x -y cao",
+      "frequency": 7,
+      "relevance_score": 0.44516129032258067,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.575212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "error",
+      "frequency": 53,
+      "relevance_score": 0.4419354838709677,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.431692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stage",
+      "frequency": 53,
+      "relevance_score": 0.4419354838709677,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.490654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 pd 2e",
+      "frequency": 6,
+      "relevance_score": 0.43870967741935485,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.547637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c -m zhang",
+      "frequency": 6,
+      "relevance_score": 0.43870967741935485,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.573479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y -m xie",
+      "frequency": 6,
+      "relevance_score": 0.43870967741935485,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.579050+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eph 1 2",
+      "frequency": 5,
+      "relevance_score": 0.432258064516129,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.554740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x -b wang",
+      "frequency": 5,
+      "relevance_score": 0.432258064516129,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.585761+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distribution",
+      "frequency": 51,
+      "relevance_score": 0.42903225806451617,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:27.365130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single- bit qds",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.375378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single-bit qds schemes",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.376443+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lfsr-based toeplitz matrix",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.391702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n-bit hash value",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.392800+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2n 1 n",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.463068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "200 300 400",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.468583+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "300 400 500",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.469284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "400 500 600",
+      "frequency": 4,
+      "relevance_score": 0.4258064516129032,
+      "source_papers": [
+        "local/One-Time_Universal_Hashing_Quantum_Digital_Signatures_without_Perfect_Keys"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:28.469742+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:28.618230+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:28.618434+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B",
+  "paper_title": "CABBA  Compatible Authenticated Bandwidth-efficient Broadcast protocol for ADS-B",
+  "concepts": [
+    {
+      "text": "ads-b",
+      "frequency": 167,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.282495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits",
+      "frequency": 105,
+      "relevance_score": 0.7765028026544681,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.368619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aircraft",
+      "frequency": 88,
+      "relevance_score": 0.6669737774627923,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.303556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cabba",
+      "frequency": 86,
+      "relevance_score": 0.6540880097931834,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.279237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 83,
+      "relevance_score": 0.63475935828877,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.416928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 77,
+      "relevance_score": 0.5961020552799433,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.321491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type",
+      "frequency": 77,
+      "relevance_score": 0.5961020552799433,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.578987+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packets",
+      "frequency": 73,
+      "relevance_score": 0.5703305199407255,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.472001+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bandwidth-efficient broadcast protocol",
+      "frequency": 3,
+      "relevance_score": 0.5693286515044134,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.236128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet",
+      "frequency": 70,
+      "relevance_score": 0.5510018684363122,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.469221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 68,
+      "relevance_score": 0.5381161007667031,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.373760+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "interval",
+      "frequency": 63,
+      "relevance_score": 0.5059016815926809,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.605265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "messages",
+      "frequency": 62,
+      "relevance_score": 0.4994587977578765,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.343578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overlay modulation techniques",
+      "frequency": 7,
+      "relevance_score": 0.4951001868436312,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.240233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptography-based protocols",
+      "frequency": 3,
+      "relevance_score": 0.4693286515044134,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.955311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ads-b system",
+      "frequency": 3,
+      "relevance_score": 0.4693286515044134,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.971565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 10,
+      "relevance_score": 0.4644288383480446,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.271309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ads-b protocol",
+      "frequency": 2,
+      "relevance_score": 0.462885767669609,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.968948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "surveillance-broadcast system",
+      "frequency": 2,
+      "relevance_score": 0.462885767669609,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.210747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tesla authentication protocol",
+      "frequency": 2,
+      "relevance_score": 0.46288576766960887,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.255504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase overlay techniques",
+      "frequency": 2,
+      "relevance_score": 0.46288576766960887,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.260173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "broadcast authentication protocol",
+      "frequency": 2,
+      "relevance_score": 0.46288576766960887,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.262394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital avionics systems",
+      "frequency": 2,
+      "relevance_score": 0.46288576766960887,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.335494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type b1 packets",
+      "frequency": 9,
+      "relevance_score": 0.4579859545132401,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.277705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- -",
+      "frequency": 23,
+      "relevance_score": 0.4481863282005025,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.017865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 53,
+      "relevance_score": 0.4414728432446363,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.347657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "automatic dependent surveillance-broadcast",
+      "frequency": 6,
+      "relevance_score": 0.43865730300882677,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.239214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type b2 packets",
+      "frequency": 6,
+      "relevance_score": 0.43865730300882677,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.278308+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ads-b messages",
+      "frequency": 21,
+      "relevance_score": 0.4353005605308936,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.904758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compatible authenticated bandwidth-efficient",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.235095+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dependent surveillance-broadcast ads-b",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.239672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ads-b ground station",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.278940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "df 5 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.285662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 bits ca",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.286239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits ca 3",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.286711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ca 3 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.287317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 bits icao",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.287778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "icao id 24",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.288806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id 24 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.289369+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits crc 24",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.290393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "crc 24 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.290854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "24 bits synchronisation",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.291431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits synchronisation 12",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.291902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "synchronisation 12 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.292465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parity bits 120",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.293965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits 120 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.294592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "120 bits type",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.295050+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits type 5",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.295616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type 5 bits",
+      "frequency": 4,
+      "relevance_score": 0.42577153533921785,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:15.296073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 50,
+      "relevance_score": 0.4221441917402229,
+      "source_papers": [
+        "local/CABBA__Compatible_Authenticated_Bandwidth-efficient_Broadcast_protocol_for_ADS-B"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:14.349033+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:15.354643+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:15.354832+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

@@ -1,0 +1,1500 @@
+{
+  "domain": "incident_response_optimization",
+  "concepts": [
+    {
+      "text": "scheduling",
+      "total_frequency": 1328,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Staff_Scheduling_for_Demand-Responsive_Services",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos",
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 1318,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "task",
+      "total_frequency": 1229,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/Adversarial_Task_Assignment",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin...",
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 0",
+      "total_frequency": 917,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "problem",
+      "total_frequency": 862,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment",
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tasks",
+      "total_frequency": 838,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment",
+        "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 1",
+      "total_frequency": 802,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "policy",
+      "total_frequency": 694,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_...",
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cost",
+      "total_frequency": 674,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Scheduling_with_Outliers",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "charging",
+      "total_frequency": 674,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 645,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_...",
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 1 1",
+      "total_frequency": 625,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "optimal",
+      "total_frequency": 570,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment",
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni00000013",
+      "total_frequency": 560,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "job",
+      "total_frequency": 531,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Scheduling_with_Outliers",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "resource",
+      "total_frequency": 527,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "priority",
+      "total_frequency": 507,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing",
+        "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "jobs",
+      "total_frequency": 404,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Scheduling_with_Outliers",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 402,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine",
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "solution",
+      "total_frequency": 393,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/Scheduling_with_Outliers",
+        "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "assignment",
+      "total_frequency": 390,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Adversarial_Task_Assignment",
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "execution",
+      "total_frequency": 347,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "vehicle",
+      "total_frequency": 327,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "k 1",
+      "total_frequency": 325,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machine",
+      "total_frequency": 321,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine",
+        "local/Scheduling_with_Outliers"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "response",
+      "total_frequency": 316,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 1",
+      "total_frequency": 312,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Adversarial_Task_Assignment",
+        "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...",
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "route",
+      "total_frequency": 307,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "queue",
+      "total_frequency": 296,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+        "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "service",
+      "total_frequency": 290,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "work",
+      "total_frequency": 278,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "demand",
+      "total_frequency": 277,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Staff_Scheduling_for_Demand-Responsive_Services",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 260,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+        "local/Optimal_Design_of_Queuing_Systems_via_Compositional_Stochastic_Programming",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni00000013 uni00000013",
+      "total_frequency": 258,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "algorithms",
+      "total_frequency": 238,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/Joint_Data_Compression__Secure_Multi-Part_Collaborative_Task_Offloading_and_Resource_Assignment_i...",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "incident",
+      "total_frequency": 235,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "computing",
+      "total_frequency": 234,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "gradient",
+      "total_frequency": 231,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "function",
+      "total_frequency": 221,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Design_of_Queuing_Systems_via_Compositional_Stochastic_Programming",
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Staff_Scheduling_for_Demand-Responsive_Services",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cloud",
+      "total_frequency": 214,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "workflow",
+      "total_frequency": 212,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin...",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "k k",
+      "total_frequency": 211,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "traffic",
+      "total_frequency": 200,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 0",
+      "total_frequency": 189,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "shift",
+      "total_frequency": 188,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Staff_Scheduling_for_Demand-Responsive_Services"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "workﬂow",
+      "total_frequency": 188,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "optimization",
+      "total_frequency": 186,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "s48",
+      "total_frequency": 185,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "waiting",
+      "total_frequency": 181,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "schedule",
+      "total_frequency": 180,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Scheduling_with_Outliers",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "processing",
+      "total_frequency": 179,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Scheduling_with_Outliers"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "costs",
+      "total_frequency": 179,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "thermal",
+      "total_frequency": 175,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "queuing",
+      "total_frequency": 172,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing",
+        "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "epoch",
+      "total_frequency": 171,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "vehicles",
+      "total_frequency": 171,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "deadline",
+      "total_frequency": 168,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "completion",
+      "total_frequency": 166,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "resources",
+      "total_frequency": 162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "total",
+      "total_frequency": 162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Staff_Scheduling_for_Demand-Responsive_Services",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "capacity",
+      "total_frequency": 161,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "query",
+      "total_frequency": 154,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "operator",
+      "total_frequency": 152,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "temperature",
+      "total_frequency": 151,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t k",
+      "total_frequency": 151,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "travel time",
+      "total_frequency": 151,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hhmod",
+      "total_frequency": 146,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 145,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+        "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "core",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "completion time",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni00000048",
+      "total_frequency": 143,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machines",
+      "total_frequency": 142,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "site",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/Data-Aware_Approximate_Workflow_Scheduling"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "set",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Adversarial_Task_Assignment",
+        "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni0000004c",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 140,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nodes",
+      "total_frequency": 137,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+        "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "emergent",
+      "total_frequency": 137,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 136,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...",
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing",
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "energy",
+      "total_frequency": 136,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni00000003",
+      "total_frequency": 134,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "j k",
+      "total_frequency": 133,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Joint_Data_Compression__Secure_Multi-Part_Collaborative_Task_Offloading_and_Resource_Assignment_i..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "s32",
+      "total_frequency": 132,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "packet",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "travel",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+        "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parallel",
+      "total_frequency": 130,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 t",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+        "local/Adversarial_Task_Assignment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "routes",
+      "total_frequency": 129,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "charging station",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...",
+        "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "pathwise",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "incident response",
+      "total_frequency": 124,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "video",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "project",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 1",
+      "total_frequency": 121,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+        "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+        "local/Delay-Constrained_Input-Queued_Switch",
+        "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+        "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "uni00000044",
+      "total_frequency": 121,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "heuristic",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...",
+        "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 00",
+      "total_frequency": 117,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 2",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Scheduling_with_Outliers",
+        "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...",
+        "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+        "local/Data-Aware_Approximate_Workflow_Scheduling",
+        "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ua v",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...",
+        "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cores",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards": {
+      "id": "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+      "title": "Optimal Stochastic Dynamic Scheduling for Managing Community Recovery from Natural Hazards",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...": {
+      "id": "local/Optimizing_UAV_Trajectory_for_Emergency_Response_Operations_under_Real_3D_Environments__Integrati...",
+      "title": "Optimizing UAV Trajectory for Emergency Response Operations under Real 3D Environments  Integrati...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...": {
+      "id": "local/Markov_Decision_Process_and_Approximate_Dynamic_Programming_for_a_Patient_Assignment_Scheduling_p...",
+      "title": "Markov Decision Process and Approximate Dynamic Programming for a Patient Assignment Scheduling p...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery": {
+      "id": "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+      "title": "Facility Location with Congestion and Priority in Drone-Based Emergency Delivery",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...": {
+      "id": "local/Adaptive_large_neighborhood_search_for_a_personnel_task_scheduling_problem_with_task_selection_an...",
+      "title": "Adaptive large neighborhood search for a personnel task scheduling problem with task selection an...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE": {
+      "id": "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+      "title": "An Optimal Application-Aware Resource Block Scheduling in LTE",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...": {
+      "id": "local/Joint_Optimization_of_Continuous_Variables_and_Priority_Assignments_for_Real-Time_Systems_with_Bl...",
+      "title": "Joint Optimization of Continuous Variables and Priority Assignments for Real-Time Systems with Bl...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times": {
+      "id": "local/Capacity_Allocation_in_Queuing_Systems_with_Preferred_Service_Completion_Times",
+      "title": "Capacity Allocation in Queuing Systems with Preferred Service Completion Times",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos": {
+      "id": "local/A_Markov_Decision_Model_for_Adaptive_Scheduling_of_Stored_Scalable_Videos",
+      "title": "A Markov Decision Model for Adaptive Scheduling of Stored Scalable Videos",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Data-Aware_Approximate_Workflow_Scheduling": {
+      "id": "local/Data-Aware_Approximate_Workflow_Scheduling",
+      "title": "Data-Aware Approximate Workflow Scheduling",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms": {
+      "id": "local/An_SMDP-Based_Approach_to_Thermal-Aware_Task_Scheduling_in_NoC-based_MPSoC_platforms",
+      "title": "An SMDP-Based Approach to Thermal-Aware Task Scheduling in NoC-based MPSoC platforms",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments": {
+      "id": "local/Dynamic_Scheduling_Strategies_for_Resource_Optimization_in_Computing_Environments",
+      "title": "Dynamic Scheduling Strategies for Resource Optimization in Computing Environments",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Fair_Scheduling_in_Networks_Through_Packet_Election": {
+      "id": "local/Fair_Scheduling_in_Networks_Through_Packet_Election",
+      "title": "Fair Scheduling in Networks Through Packet Election",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique": {
+      "id": "local/Scheduling_of_Dependent_Tasks_Application_using_Random_Search_Technique",
+      "title": "Scheduling of Dependent Tasks Application using Random Search Technique",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints": {
+      "id": "local/Cost_and_Reliability_Aware_Scheduling_of_Workflows_Across_Multiple_Clouds_with_Security_Constraints",
+      "title": "Cost and Reliability Aware Scheduling of Workflows Across Multiple Clouds with Security Constraints",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing": {
+      "id": "local/Scheduling_Deep_Learning_Jobs_in_Multi-Tenant_GPU_Clusters_via_Wise_Resource_Sharing",
+      "title": "Scheduling Deep Learning Jobs in Multi-Tenant GPU Clusters via Wise Resource Sharing",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems": {
+      "id": "local/Optimal_Fixed_Priority_Scheduling_in_Multi-Stage_Multi-Resource_Distributed_Real-Time_Systems",
+      "title": "Optimal Fixed Priority Scheduling in Multi-Stage Multi-Resource Distributed Real-Time Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...": {
+      "id": "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+      "title": "Resource Provisioning and Scheduling Algorithm for Meeting Cost and Deadline-Constraints of Scien...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Delay-Constrained_Input-Queued_Switch": {
+      "id": "local/Delay-Constrained_Input-Queued_Switch",
+      "title": "Delay-Constrained Input-Queued Switch",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Staff_Scheduling_for_Demand-Responsive_Services": {
+      "id": "local/Staff_Scheduling_for_Demand-Responsive_Services",
+      "title": "Staff Scheduling for Demand-Responsive Services",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_": {
+      "id": "local/Emergent_Incident_Response_for_Unmanned_Warehouses_with_Multi-agent_Systems_",
+      "title": "Emergent Incident Response for Unmanned Warehouses with Multi-agent Systems ",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...": {
+      "id": "local/Optimal_fast_charging_station_locations_for_electric_ridesharing_service_with_online_vehicle-char...",
+      "title": "Optimal fast charging station locations for electric ridesharing service with online vehicle-char...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing": {
+      "id": "local/Joint_Task_Assignment_and_Resource_Allocation_for_D2D-Enabled_Mobile-Edge_Computing",
+      "title": "Joint Task Assignment and Resource Allocation for D2D-Enabled Mobile-Edge Computing",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices": {
+      "id": "local/Optimal_Task_Assignment_to_Heterogeneous_Federated_Learning_Devices",
+      "title": "Optimal Task Assignment to Heterogeneous Federated Learning Devices",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches": {
+      "id": "local/Optimal_Scheduling_Control_in_Fluid_Models_of_General__n_times_n__Input-Queued_Switches",
+      "title": "Optimal Scheduling Control in Fluid Models of General  n times n  Input-Queued Switches",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Optimal_Design_of_Queuing_Systems_via_Compositional_Stochastic_Programming": {
+      "id": "local/Optimal_Design_of_Queuing_Systems_via_Compositional_Stochastic_Programming",
+      "title": "Optimal Design of Queuing Systems via Compositional Stochastic Programming",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...": {
+      "id": "local/A_Cost-Driven_Fuzzy_Scheduling_Strategy_for_Intelligent_Workflow_Decision_Making_Systems_in_Uncer...",
+      "title": "A Cost-Driven Fuzzy Scheduling Strategy for Intelligent Workflow Decision Making Systems in Uncer...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing": {
+      "id": "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing",
+      "title": "LSTFCoDel  CoDel with LSTF-Style Priority Queuing",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments": {
+      "id": "local/Target-Following_Online_Resource_Allocation_Using_Proxy_Assignments",
+      "title": "Target-Following Online Resource Allocation Using Proxy Assignments",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control": {
+      "id": "local/Differentiable_Discrete_Event_Simulation_for_Queuing_Network_Control",
+      "title": "Differentiable Discrete Event Simulation for Queuing Network Control",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures": {
+      "id": "local/Reshi__Recommending_Resources_for_Scientific_Workflow_Tasks_on_Heterogeneous_Infrastructures",
+      "title": "Reshi  Recommending Resources for Scientific Workflow Tasks on Heterogeneous Infrastructures",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin...": {
+      "id": "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin...",
+      "title": "How Workflow Engines Should Talk to Resource Managers  A Proposal for a Common Workflow Schedulin...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Scheduling_with_Outliers": {
+      "id": "local/Scheduling_with_Outliers",
+      "title": "Scheduling with Outliers",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...": {
+      "id": "local/Joint_QoS-aware_and_Cost-efficient_Task_Scheduling_for_Fog-Cloud_Resources_in_a_Volunteer_Computi...",
+      "title": "Joint QoS-aware and Cost-efficient Task Scheduling for Fog-Cloud Resources in a Volunteer Computi...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment": {
+      "id": "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+      "title": "An Efficient Max-Min Resource Allocator and Task Scheduling Algorithm in Cloud Computing Environment",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine": {
+      "id": "local/Tracking_and_Assigning_Jobs_to_a_Markov_Machine",
+      "title": "Tracking and Assigning Jobs to a Markov Machine",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics": {
+      "id": "local/Flowshop_Machine_Scheduling__Markov_Modeling__Optimal_Schedules_and_Heuristics",
+      "title": "Flowshop Machine Scheduling  Markov Modeling  Optimal Schedules and Heuristics",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Adversarial_Task_Assignment": {
+      "id": "local/Adversarial_Task_Assignment",
+      "title": "Adversarial Task Assignment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...": {
+      "id": "local/IncidentResponseGPT__Generating_Traffic_Incident_Response_Plans_with_Generative_Artificial_Intell...",
+      "title": "IncidentResponseGPT  Generating Traffic Incident Response Plans with Generative Artificial Intell...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model": {
+      "id": "local/Numerical_study_on_the_deadline-concerning_priority_queuing_model",
+      "title": "Numerical study on the deadline-concerning priority queuing model",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning": {
+      "id": "local/Dependency-Aware_CAV_Task_Scheduling_via_Diffusion-Based_Reinforcement_Learning",
+      "title": "Dependency-Aware CAV Task Scheduling via Diffusion-Based Reinforcement Learning",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization": {
+      "id": "local/Multi-Resource_Parallel_Query_Scheduling_and_Optimization",
+      "title": "Multi-Resource Parallel Query Scheduling and Optimization",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...": {
+      "id": "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+      "title": "An optimization and simulation method for the home service assignment  routing  and scheduling pr...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_...": {
+      "id": "local/Two-stage_battery_recharge_scheduling_and_vehicle-charger_assignment_policy_for_dynamic_electric_...",
+      "title": "Two-stage battery recharge scheduling and vehicle-charger assignment policy for dynamic electric ...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Joint_Data_Compression__Secure_Multi-Part_Collaborative_Task_Offloading_and_Resource_Assignment_i...": {
+      "id": "local/Joint_Data_Compression__Secure_Multi-Part_Collaborative_Task_Offloading_and_Resource_Assignment_i...",
+      "title": "Joint Data Compression  Secure Multi-Part Collaborative Task Offloading and Resource Assignment i...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...": {
+      "id": "local/Demand-Adaptive_Route_Planning_and_Scheduling_for_Urban_Hub-based_High-Capacity_Mobility-on-Deman...",
+      "title": "Demand-Adaptive Route Planning and Scheduling for Urban Hub-based High-Capacity Mobility-on-Deman...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...": {
+      "id": "local/Multi-agricultural_Machinery_Collaborative_Task_Assignment_Based_on_Improved_Genetic_Hybrid_Optim...",
+      "title": "Multi-agricultural Machinery Collaborative Task Assignment Based on Improved Genetic Hybrid Optim...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...": {
+      "id": "local/Deployment_of_Leader-Follower_Automated_Vehicle_Systems_for_Smart_Work_Zone_Applications_with_a_Q...",
+      "title": "Deployment of Leader-Follower Automated Vehicle Systems for Smart Work Zone Applications with a Q...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources": {
+      "id": "local/Stochastic_project_management__Multiple_projects_with_multi-skilled_human_resources",
+      "title": "Stochastic project management  Multiple projects with multi-skilled human resources",
+      "pdf_url": "",
+      "concept_count": 48
+    }
+  },
+  "statistics": {
+    "total_concepts": 1994,
+    "total_papers": 49,
+    "avg_concepts_per_paper": 40.69387755102041
+  }
+}

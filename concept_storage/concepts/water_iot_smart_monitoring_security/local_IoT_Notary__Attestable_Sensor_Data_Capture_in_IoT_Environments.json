@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments",
+  "paper_title": "IoT Notary  Attestable Sensor Data Capture in IoT Environments",
+  "concepts": [
+    {
+      "text": "sensor",
+      "frequency": 261,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.543821+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 115,
+      "relevance_score": 0.8085207319327213,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.563677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 110,
+      "relevance_score": 0.7777154827182552,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.541776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "data-capture",
+      "frequency": 86,
+      "relevance_score": 0.7298502864888177,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.630913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "data-capture rules",
+      "frequency": 65,
+      "relevance_score": 0.7004682397880598,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.024096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "users",
+      "frequency": 94,
+      "relevance_score": 0.6791386852319635,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.586494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rules",
+      "frequency": 90,
+      "relevance_score": 0.6544944858603906,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.560852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "chunk",
+      "frequency": 82,
+      "relevance_score": 0.6052060871172448,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.805578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot notary",
+      "frequency": 64,
+      "relevance_score": 0.5943071899451666,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.991743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sealing",
+      "frequency": 74,
+      "relevance_score": 0.5559176883740989,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.572350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor readings",
+      "frequency": 56,
+      "relevance_score": 0.5450187912020208,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.076878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 2",
+      "frequency": 39,
+      "relevance_score": 0.540280943872836,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.040672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state",
+      "frequency": 70,
+      "relevance_score": 0.531273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.605928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "notary",
+      "frequency": 67,
+      "relevance_score": 0.5127903394738463,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.542304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "verification",
+      "frequency": 67,
+      "relevance_score": 0.5127903394738463,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.648549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "readings",
+      "frequency": 64,
+      "relevance_score": 0.49430718994516665,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.741925+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "function",
+      "frequency": 64,
+      "relevance_score": 0.49430718994516665,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.744254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "log",
+      "frequency": 63,
+      "relevance_score": 0.4881461401022734,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.571837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑑1 𝑠1 1",
+      "frequency": 14,
+      "relevance_score": 0.48625469780050523,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.337795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 2 1",
+      "frequency": 13,
+      "relevance_score": 0.480093647957612,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.326407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "enclave",
+      "frequency": 61,
+      "relevance_score": 0.47582404041648696,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.749166+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 2 3",
+      "frequency": 12,
+      "relevance_score": 0.4739325981147188,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.306782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠1 1",
+      "frequency": 28,
+      "relevance_score": 0.47250939560101046,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.142250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy-preserving system",
+      "frequency": 2,
+      "relevance_score": 0.4623220996857865,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.047542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "misplaced iot systems",
+      "frequency": 2,
+      "relevance_score": 0.4623220996857864,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.298460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot notary system",
+      "frequency": 2,
+      "relevance_score": 0.4623220996857864,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.413837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "notary system works",
+      "frequency": 2,
+      "relevance_score": 0.4623220996857864,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.414300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sealing function",
+      "frequency": 42,
+      "relevance_score": 0.45876409340151564,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.077351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-notified data-capture rules",
+      "frequency": 7,
+      "relevance_score": 0.4431273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.303729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 2 4",
+      "frequency": 7,
+      "relevance_score": 0.4431273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.307276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠1 1 𝑡1",
+      "frequency": 7,
+      "relevance_score": 0.4431273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.338302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑑3 𝑠1 1",
+      "frequency": 7,
+      "relevance_score": 0.4431273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.341109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "example 4 2",
+      "frequency": 7,
+      "relevance_score": 0.4431273489002526,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.363590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠2 0 𝑡2",
+      "frequency": 6,
+      "relevance_score": 0.4369662990573594,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.365454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐻 𝑑1 𝑠1",
+      "frequency": 6,
+      "relevance_score": 0.4369662990573594,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.376106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 30,
+      "relevance_score": 0.4348314952867969,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.578057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "verify",
+      "frequency": 54,
+      "relevance_score": 0.43269669151623436,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:48.586960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠1 1 𝑡3",
+      "frequency": 5,
+      "relevance_score": 0.43080524921446617,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.341740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐻 𝑠2 0",
+      "frequency": 5,
+      "relevance_score": 0.43080524921446617,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.378430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1-core 1gb ram",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.307747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "valid data-capture rules",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.312458+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sealing pr𝐸 𝑑𝑖",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.319173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pr𝐸 𝑑𝑖 𝑠𝑗",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.319689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "see 4 2",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.325940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encrypted data-capture rule",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.331082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑑2 𝑠2 1",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.339788+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑑4 𝑠1 1",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.342216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠1 1 𝑡5",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.359837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑠1 1 𝑡7",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.360301+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret string signpr𝐸",
+      "frequency": 4,
+      "relevance_score": 0.42464419937157294,
+      "source_papers": [
+        "local/IoT_Notary__Attestable_Sensor_Data_Capture_in_IoT_Environments"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:49.382688+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:32:49.415492+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:32:49.415683+00:00",
+    "repository_version": "1.0",
+    "domain": "water_iot_smart_monitoring_security"
+  }
+}

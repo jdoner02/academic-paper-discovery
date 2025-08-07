@@ -1,0 +1,902 @@
+{
+  "config_name": "smart_grid_power_infrastructure_security",
+  "strategy_name": "smart_grid_cybersecurity",
+  "processed_at": "2025-08-07T09:20:32.055883+00:00",
+  "total_papers": 50,
+  "papers": [
+    {
+      "title": "Auto-SGCR: Automated Generation of Smart Grid Cyber Range Using IEC   61850 Standard Models",
+      "authors": [
+        "Muhammad M. Roomi",
+        "S. M. Suhail Hussain",
+        "Ee-Chien Chang",
+        "David M. Nicol",
+        "Daisuke Mashima"
+      ],
+      "abstract": "Digitalization of power grids have made them increasingly susceptible to cyber-attacks in the past decade. Iterative cybersecurity testing is indispensable to counter emerging attack vectors and to ensure dependability of critical infrastructure. Furthermore, these can be used to evaluate cybersecurity configuration, effectiveness of the cybersecurity measures against various attack vectors, as well as to train smart grid cybersecurity experts defending the system. Enabling extensive experiments narrows the gap between academic research and production environment. A high-fidelity cyber range is vital as it is often infeasible to conduct such experiments and training using production environment. However, the design and implementation of cyber range requires extensive domain knowledge of physical and cyber aspect of the infrastructure. Furthermore, costs incurred for setup and maintenance of cyber range are significant. Moreover, most existing smart grid cyber ranges are designed as a one-off, proprietary system, and are limited in terms of configurability, accessibility, portability, and reproducibility. To address these challenges, an automated Smart grid Cyber Range generation framework is presented in this paper. Initially a human-/machine-friendly, XML-based modeling language called Smart Grid Modeling Language was defined, which incorporates IEC 61850 System Configuration Language files. Subsequently, a toolchain to parse SG-ML model files and automatically instantiate a functional smart grid cyber range was developed. The developed SG-ML models can be easily shared and/or modified to reproduce or customize for any cyber range. The application of Auto-SGCR is demonstrated through case studies with large-scale substation models. The toolchain along with example SG-ML models have been open-sourced.",
+      "publication_date": "2025-07-24T09:44:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.18249v1.pdf"
+    },
+    {
+      "title": "Assessment of Quantitative Cyber-Physical Reliability of SCADA Systems   in Autonomous Vehicle to Grid (V2G) Capable Smart Grids",
+      "authors": [
+        "Md Abdul Gaffar"
+      ],
+      "abstract": "The integration of electric vehicles (EVs) into power grids via Vehicle-to-Grid (V2G) system technology is increasing day by day, but these phenomena present both advantages and disadvantages. V2G can increase grid reliability by providing distributed energy storage and ancillary services. However, on the other hand, it has a scope that encompasses the cyber-physical attack surface of the national power grid, introducing new vulnerabilities in monitoring and supervisory control and data acquisition (SCADA) systems. This paper investigates the maliciousness caused by Autonomous Vehicle to Grid (AV2G) communication infrastructures and assesses their impacts on SCADA system reliability. This paper presents a quantitative reliability assessment using Bayesian attack graph combined with probabilistic capacity outage modeling based on IEEE RTS-79 system data. This work presents how AV2G-based attacks degrade system performance by using Monte Carlo simulations method, highlighting the need for cybersecurity-hardening strategies in smart grid design.",
+      "publication_date": "2025-07-24T06:57:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.21154v1.pdf"
+    },
+    {
+      "title": "Destabilizing Power Grid and Energy Market by Cyberattacks on Smart   Inverters",
+      "authors": [
+        "Xiangyu Hui",
+        "Samuel Karumba",
+        "Sid Chi-Kin Chau",
+        "Mohiuddin Ahmed"
+      ],
+      "abstract": "Cyberattacks on smart inverters and distributed PV are becoming an imminent threat, because of the recent well-documented vulnerabilities and attack incidents. Particularly, the long lifespan of inverter devices, users' oblivion of cybersecurity compliance, and the lack of cyber regulatory frameworks exacerbate the prospect of cyberattacks on smart inverters. As a result, this raises a question -- \"do cyberattacks on smart inverters, if orchestrated on a large scale, pose a genuine threat of wide-scale instability to the power grid and energy market\"? This paper provides a realistic assessment on the plausibility and impacts of wide-scale power instability caused by cyberattacks on smart inverters. We conduct an in-depth study based on the electricity market data of Australia and the knowledge of practical contingency mechanisms. Our key findings reveal: (1) Despite the possibility of disruption to the grid by cyberattacks on smart inverters, the impact is only significant under careful planning and orchestration. (2) While the grid can assure certain power system security to survive inadvertent contingency events, it is insufficient to defend against savvy attackers who can orchestrate attacks in an adversarial manner. Our data analysis of Australia's electricity grid also reveals that a relatively low percentage of distributed PV would be sufficient to launch an impactful concerted attack on the grid. Our study casts insights on robust strategies for defending the grid in the presence of cyberattacks for places with high penetration of distributed PV.",
+      "publication_date": "2025-05-20T10:28:49+00:00",
+      "doi": "10.1145/3679240.3734613",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2505.14175v1.pdf"
+    },
+    {
+      "title": "An Efficiency Firmware Verification Framework for Public Key   Infrastructure with Smart Grid and Energy Storage System",
+      "authors": [
+        "Jhih-Zen Shih",
+        "Cheng-Che Chuang",
+        "Hong-Sheng Huang",
+        "Hsuan-Tung Chen",
+        "Hung-Min Sun"
+      ],
+      "abstract": "As a critical component of electrical energy infrastructure, the smart grid system has become indispensable to the energy sector. However, the rapid evolution of smart grids has attracted numerous nation-state actors seeking to disrupt the power infrastructure of adversarial nations. This development underscores the urgent need to establish secure mechanisms for firmware updates, with firmware signing and verification serving as pivotal elements in safeguarding system integrity. In this work, we propose a digital signing and verification framework grounded in Public Key Infrastructure (PKI), specifically tailored for resource-constrained devices such as smart meters. The framework utilizes the Concise Binary Object Representation (CBOR) and Object Signing and Encryption (COSE) formats to achieve efficient da-ta encapsulation and robust security features. Our approach not only en-sures the secure deployment of firmware updates against the convergence of information technology (IT) and operational technology (OT) attacks but also addresses performance bottlenecks stemming from device limitations, thereby enhancing the overall reliability and stability of the smart grid sys-tem.",
+      "publication_date": "2025-01-10T05:43:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2501.05722v1.pdf"
+    },
+    {
+      "title": "Distributed Intrusion Detection System using Semantic-based Rules for   SCADA in Smart Grid",
+      "authors": [
+        "Sathya Narayana Mohan",
+        "Gelli Ravikumar",
+        "Manimaran Govindarasu"
+      ],
+      "abstract": "Cyber-physical system (CPS) security for the smart grid enables secure communication for the SCADA and wide-area measurement system data. Power utilities world-wide use various SCADA protocols, namely DNP3, Modbus, and IEC 61850, for the data exchanges across substation field devices, remote terminal units (RTUs), and control center applications. Adversaries may exploit compromised SCADA protocols for the reconnaissance, data exfiltration, vulnerability assessment, and injection of stealthy cyberattacks to affect power system operation. In this paper, we propose an efficient algorithm to generate robust rule sets. We integrate the rule sets into an intrusion detection system (IDS), which continuously monitors the DNP3 data traffic at a substation network and detects intrusions and anomalies in real-time. To enable CPS-aware wide-area situational awareness, we integrated the methodology into an open-source distributed-IDS (D-IDS) framework. The D-IDS facilitates central monitoring of the detected anomalies from the geographically distributed substations and to the control center. The proposed algorithm provides an optimal solution to detect network intrusions and abnormal behavior. Different types of IDS rules based on packet payload, packet flow, and time threshold are generated. Further, IDS testing and evaluation is performed with a set of rules in different sequences. The detection time is measured for different IDS rules, and the results are plotted. All the experiments are conducted at Power Cyber Lab, Iowa State University, for multiple power grid models. After successful testing and evaluation, knowledge and implementation are transferred to field deployment.",
+      "publication_date": "2024-12-10T20:57:43+00:00",
+      "doi": "10.1109/TD39804.2020.9299960",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2412.07917v1.pdf"
+    },
+    {
+      "title": "Towards a Comprehensive Framework for Cyber-Incident Response Decision   Support in Smart Grids",
+      "authors": [
+        "Omer Sen",
+        "Yanico Aust",
+        "Martin Neumuller",
+        "Immanuel Hacker",
+        "Andreas Ulbig"
+      ],
+      "abstract": "The modernization of power grid infrastructures necessitates the incorporation of decision support systems to effectively mitigate cybersecurity threats. This paper presents a comprehensive framework based on integrating Attack-Defense Trees and the Multi-Criteria Decision Making method to enhance smart grid cybersecurity. By analyzing risk attributes and optimizing defense strategies, this framework enables grid operators to prioritize critical security measures. Additionally, this paper incorporates findings on decision-making processes in intelligent power systems to present a comprehensive approach to grid cybersecurity. The proposed model aims to optimize the effectiveness and efficiency of grid cybersecurity efforts while offering insights into future grid management challenges.",
+      "publication_date": "2024-12-09T07:07:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2412.06254v2.pdf"
+    },
+    {
+      "title": "A cyber-physical digital twin approach to replicating realistic   multi-stage cyberattacks on smart grids",
+      "authors": [
+        "Omer Sen",
+        "Nathalie Bleser",
+        "Martin Henze",
+        "Andreas Ulbig"
+      ],
+      "abstract": "The integration of information and communication technology in distribution grids presents opportunities for active grid operation management, but also increases the need for security against power outages and cyberattacks. This paper examines the impact of cyberattacks on smart grids by replicating the power grid in a secure laboratory environment as a cyber-physical digital twin. A simulation is used to study communication infrastructures for secure operation of smart grids. The cyber-physical digital twin approach combines communication network emulation and power grid simulation in a common modular environment, and is demonstrated through laboratory tests and attack replications.",
+      "publication_date": "2024-12-06T09:58:51+00:00",
+      "doi": "10.1049/icp.2023.0614",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2412.04900v1.pdf"
+    },
+    {
+      "title": "Digital Twin for Evaluating Detective Countermeasures in Smart Grid   Cybersecurity",
+      "authors": [
+        "Omer Sen",
+        "Nathalie Bleser",
+        "Andreas Ulbig"
+      ],
+      "abstract": "As the integration of digital technologies and communication systems continues within distribution grids, new avenues emerge to tackle energy transition challenges. Nevertheless, this deeper technological immersion amplifies the necessity for resilience against threats, encompassing both systemic outages and targeted cyberattacks. To ensure the robustness and safeguarding of vital infrastructure, a thorough examination of potential smart grid vulnerabilities and subsequent countermeasure development is essential. This study delves into the potential of digital twins, replicating a smart grid's cyber-physical laboratory environment, thereby enabling focused cybersecurity assessments. Merging the nuances of communication network emulation and power network simulation, we introduce a flexible, comprehensive digital twin model equipped for hardware-in-the-loop evaluations. Through this innovative framework, we not only verify and refine security countermeasures but also underscore their role in maintaining grid stability and trustworthiness.",
+      "publication_date": "2024-12-05T08:41:08+00:00",
+      "doi": "10.1109/SmartGridComm57358.2023.10333871",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2412.03973v1.pdf"
+    },
+    {
+      "title": "SDN-Based Smart Cyber Switching (SCS) for Cyber Restoration of a Digital   Substation",
+      "authors": [
+        "Mansi Girdhar",
+        "Kuchan Park",
+        "Wencong Su",
+        "Junho Hong",
+        "Akila Herath",
+        "Chen-Ching Liu"
+      ],
+      "abstract": "In recent years, critical infrastructure and power grids have increasingly been targets of cyber-attacks, causing widespread and extended blackouts. Digital substations are particularly vulnerable to such cyber incursions, jeopardizing grid stability. This paper addresses these risks by proposing a cybersecurity framework that leverages software-defined networking (SDN) to bolster the resilience of substations based on the IEC-61850 standard. The research introduces a strategy involving smart cyber switching (SCS) for mitigation and concurrent intelligent electronic device (CIED) for restoration, ensuring ongoing operational integrity and cybersecurity within a substation. The SCS framework improves the physical network's behavior (i.e., leveraging commercial SDN capabilities) by incorporating an adaptive port controller (APC) module for dynamic port management and an intrusion detection system (IDS) to detect and counteract malicious IEC-61850-based sampled value (SV) and generic object-oriented system event (GOOSE) messages within the substation's communication network. The framework's effectiveness is validated through comprehensive simulations and a hardware-in-the-loop (HIL) testbed, demonstrating its ability to sustain substation operations during cyber-attacks and significantly improve the overall resilience of the power grid.",
+      "publication_date": "2024-11-11T23:22:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2411.07433v1.pdf"
+    },
+    {
+      "title": "Towards Secured Smart Grid 2.0: Exploring Security Threats, Protection   Models, and Challenges",
+      "authors": [
+        "Lan-Huong Nguyen",
+        "Van-Linh Nguyen",
+        "Ren-Hung Hwang",
+        "Jian-Jhih Kuo",
+        "Yu-Wen Chen",
+        "Chien-Chung Huang",
+        "Ping-I Pan"
+      ],
+      "abstract": "Many nations are promoting the green transition in the energy sector to attain neutral carbon emissions by 2050. Smart Grid 2.0 (SG2) is expected to explore data-driven analytics and enhance communication technologies to improve the efficiency and sustainability of distributed renewable energy systems. These features are beyond smart metering and electric surplus distribution in conventional smart grids. Given the high dependence on communication networks to connect distributed microgrids in SG2, potential cascading failures of connectivity can cause disruption to data synchronization to the remote control systems. This paper reviews security threats and defense tactics for three stakeholders: power grid operators, communication network providers, and consumers. Through the survey, we found that SG2's stakeholders are particularly vulnerable to substation attacks/vandalism, malware/ransomware threats, blockchain vulnerabilities and supply chain breakdowns. Furthermore, incorporating artificial intelligence (AI) into autonomous energy management in distributed energy resources of SG2 creates new challenges. Accordingly, adversarial samples and false data injection on electricity reading and measurement sensors at power plants can fool AI-powered control functions and cause messy error-checking operations in energy storage, wrong energy estimation in electric vehicle charging, and even fraudulent transactions in peer-to-peer energy trading models. Scalable blockchain-based models, physical unclonable function, interoperable security protocols, and trustworthy AI models designed for managing distributed microgrids in SG2 are typical promising protection models for future research.",
+      "publication_date": "2024-11-07T01:52:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2411.04365v2.pdf"
+    },
+    {
+      "title": "Power Plays: Unleashing Machine Learning Magic in Smart Grids",
+      "authors": [
+        "Abdur Rashid",
+        "Parag Biswas",
+        "abdullah al masum",
+        "MD Abdullah Al Nasim",
+        "Kishor Datta Gupta"
+      ],
+      "abstract": "The integration of machine learning into smart grid systems represents a transformative step in enhancing the efficiency, reliability, and sustainability of modern energy networks. By adding advanced data analytics, these systems can better manage the complexities of renewable energy integration, demand response, and predictive maintenance. Machine learning algorithms analyze vast amounts of data from smart meters, sensors, and other grid components to optimize energy distribution, forecast demand, and detect irregularities that could indicate potential failures. This enables more precise load balancing, reduces operational costs, and enhances the resilience of the grid against disturbances. Furthermore, the use of predictive models helps in anticipating equipment failures, thereby improving the reliability of the energy supply. As smart grids continue to evolve, the role of machine learning in managing decentralized energy sources and enabling real-time decision-making will become increasingly critical. However, the deployment of these technologies also raises challenges related to data privacy, security, and the need for robust infrastructure. Addressing these issues in this research authors will focus on realizing the full potential of smart grids, ensuring they meet the growing energy demands while maintaining a focus on sustainability and efficiency using Machine Learning techniques. Furthermore, this research will help determine the smart grid's essentiality with the aid of Machine Learning. Multiple ML algorithms have been integrated along with their pros and cons. The future scope of these algorithms are also integrated.",
+      "publication_date": "2024-10-20T15:39:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2410.15423v1.pdf"
+    },
+    {
+      "title": "Anomaly-based Framework for Detecting Power Overloading Cyberattacks in   Smart Grid AMI",
+      "authors": [
+        "Abdelaziz Amara Korba",
+        "Nouredine Tamani",
+        "Yacine Ghamri-Doudane",
+        "Nour El Islem karabadji"
+      ],
+      "abstract": "The Advanced Metering Infrastructure (AMI) is one of the key components of the smart grid. It provides interactive services for managing billing and electricity consumption, but it also introduces new vectors for cyberattacks. Although, the devastating and severe impact of power overloading cyberattacks on smart grid AMI, few researches in the literature have addressed them. In the present paper, we propose a two-level anomaly detection framework based on regression decision trees. The introduced detection approach leverages the regularity and predictability of energy consumption to build reference consumption patterns for the whole neighborhood and each household within it. Using a reference consumption pattern enables detecting power overloading cyberattacks regardless of the attacker's strategy as they cause a drastic change in the consumption pattern. The continuous two-level monitoring of energy consumption load allows efficient and early detection of cyberattacks. We carried out an extensive experiment on a real-world publicly available energy consumption dataset of 500 customers in Ireland. We extracted, from the raw data, the relevant attributes for training the energy consumption patterns. The evaluation shows that our approach achieves a high detection rate, a low false alarm rate, and superior performances compared to existing solutions.",
+      "publication_date": "2024-07-03T16:52:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2407.03264v1.pdf"
+    },
+    {
+      "title": "Simple Cracking of (Noise-Based) Dynamic Watermarking in Smart Grids",
+      "authors": [
+        "Mehmet Yildirim",
+        "Nasir Kenarangui",
+        "Robert Balog",
+        "Laszlo B. Kish",
+        "Chanan Singh"
+      ],
+      "abstract": "Previous research employing a conceptual approach with a digital twin has demonstrated that (noise-based) dynamic watermarking is incapable of providing unconditional security in smart electrical grid systems. However, the implementation of digital twins can be prohibitively costly or infeasible due to limited available data on critical infrastructure. In this study, we first analyze the spectral properties of dynamic watermarking and its associated protocol. Subsequently, we present a straightforward attack inspired by the digital twin method, which extracts and utilizes the grid noises and completely breaches the security of dynamic watermarking without requiring knowledge of the private watermarking signal. The attacker can fully expose the grid while evading detection by the controller. Our findings indicate that in the absence of secure and authenticated communications, dynamic watermarking offers neither conditional nor unconditional security. Conversely, when communication lines, sensors, and communicators are equipped with tamper-resistant and secure/authenticated links, dynamic watermarking becomes redundant for grid security.",
+      "publication_date": "2024-06-18T23:24:22+00:00",
+      "doi": "10.1142/S0219477524500597",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2406.15494v3.pdf"
+    },
+    {
+      "title": "Cybersecurity for Modern Smart Grid against Emerging Threats",
+      "authors": [
+        "Daisuke Mashima",
+        "Yao Chen",
+        "Muhammad M. Roomi",
+        "Subhash Lakshminarayana",
+        "Deming Chen"
+      ],
+      "abstract": "Smart Grid is a power grid system that uses digital communication technologies. By deploying intelligent devices throughout the power grid infrastructure,from power generation to consumption, and enabling communication among them, it revolutionizes the modern power grid industry with increased efficiency, reliability, and availability. However, reliance on information and communication technologies has also made the smart grids exposed to new vulnerabilities and complications that may negatively impact the availability and stability of electricity services, which are vital for people's daily lives. The purpose of this monograph is to provide an up-to-date and comprehensive survey and tutorial on the cybersecurity aspect of smart grids. The book focuses on the sources of the cybersecurity issues, the taxonomy of threats, and the survey of various approaches to overcome or mitigate such threats. It covers the state-of-the-art research results in recent years, along with remaining open challenges. We hope that this monograph can be used both as learning materials for beginners who are embarking on research in this area and as a useful reference for established researchers in this field.",
+      "publication_date": "2024-04-06T01:31:33+00:00",
+      "doi": "10.1561/3300000035",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2404.04466v1.pdf"
+    },
+    {
+      "title": "Towards Automated Generation of Smart Grid Cyber Range for Cybersecurity   Experiments and Training",
+      "authors": [
+        "Daisuke Mashima",
+        "Muhammad M. Roomi",
+        "Bennet Ng",
+        "Zbigniew Kalbarczyk",
+        "S. M. Suhail Hussain",
+        "Ee-chien Chang"
+      ],
+      "abstract": "Assurance of cybersecurity is crucial to ensure dependability and resilience of smart power grid systems. In order to evaluate the impact of potential cyber attacks, to assess deployability and effectiveness of cybersecurity measures, and to enable hands-on exercise and training of personals, an interactive, virtual environment that emulates the behaviour of a smart grid system, namely smart grid cyber range, has been demanded by industry players as well as academia. A smart grid cyber range is typically implemented as a combination of cyber system emulation, which allows interactivity, and physical system (i.e., power grid) simulation that are tightly coupled for consistent cyber and physical behaviours. However, its design and implementation require intensive expertise and efforts in cyber and physical aspects of smart power systems as well as software/system engineering. While many industry players, including power grid operators, device vendors, research and education sectors are interested, availability of the smart grid cyber range is limited to a small number of research labs. To address this challenge, we have developed a framework for modelling a smart grid cyber range using an XML-based language, called SG-ML, and for \"compiling\" the model into an operational cyber range with minimal engineering efforts. The modelling language includes standardized schema from IEC 61850 and IEC 61131, which allows industry players to utilize their existing configurations. The SG-ML framework aims at making a smart grid cyber range available to broader user bases to facilitate cybersecurity R\\&D and hands-on exercises.",
+      "publication_date": "2024-04-01T02:34:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2404.00869v1.pdf"
+    },
+    {
+      "title": "Smart Grids Secured By Dynamic Watermarking: How Secure?",
+      "authors": [
+        "Kate Davis",
+        "Laszlo B. Kish",
+        "Chanan Singh"
+      ],
+      "abstract": "Unconditional security for smart grids is defined. Cryptanalyses of the watermarked security of smart grids indicate that watermarking cannot guarantee unconditional security unless the communication within the grid system is unconditionally secure. The successful attack against the dynamically watermarked smart grid remains valid even with the presence of internal noise from the grid. An open question arises: if unconditionally authenticated secure communications within the grid, together with tamper resistance of the critical elements, are satisfactory conditions to provide unconditional security for the grid operation.",
+      "publication_date": "2024-03-05T18:51:50+00:00",
+      "doi": "10.1142/S0219477524500433",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2404.16849v1.pdf"
+    },
+    {
+      "title": "The Role of Deep Learning in Advancing Proactive Cybersecurity Measures   for Smart Grid Networks: A Survey",
+      "authors": [
+        "Nima Abdi",
+        "Abdullatif Albaseer",
+        "Mohamed Abdallah"
+      ],
+      "abstract": "As smart grids (SG) increasingly rely on advanced technologies like sensors and communication systems for efficient energy generation, distribution, and consumption, they become enticing targets for sophisticated cyberattacks. These evolving threats demand robust security measures to maintain the stability and resilience of modern energy systems. While extensive research has been conducted, a comprehensive exploration of proactive cyber defense strategies utilizing Deep Learning (DL) in {SG} remains scarce in the literature. This survey bridges this gap, studying the latest DL techniques for proactive cyber defense. The survey begins with an overview of related works and our distinct contributions, followed by an examination of SG infrastructure. Next, we classify various cyber defense techniques into reactive and proactive categories. A significant focus is placed on DL-enabled proactive defenses, where we provide a comprehensive taxonomy of DL approaches, highlighting their roles and relevance in the proactive security of SG. Subsequently, we analyze the most significant DL-based methods currently in use. Further, we explore Moving Target Defense, a proactive defense strategy, and its interactions with DL methodologies. We then provide an overview of benchmark datasets used in this domain to substantiate the discourse.{ This is followed by a critical discussion on their practical implications and broader impact on cybersecurity in Smart Grids.} The survey finally lists the challenges associated with deploying DL-based security systems within SG, followed by an outlook on future developments in this key field.",
+      "publication_date": "2024-01-11T13:14:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2401.05896v1.pdf"
+    },
+    {
+      "title": "SDN-Based Dynamic Cybersecurity Framework of IEC-61850 Communications in   Smart Grid",
+      "authors": [
+        "Mansi Girdhar",
+        "Junho Hong",
+        "Wencong Su",
+        "Akila Herath",
+        "Chen-Ching Liu"
+      ],
+      "abstract": "In recent years, critical infrastructure and power grids have experienced a series of cyber-attacks, leading to temporary, widespread blackouts of considerable magnitude. Since most substations are unmanned and have limited physical security protection, cyber breaches into power grid substations present a risk. Nowadays, software-defined network (SDN), a popular virtual network technology based on the OpenFlow protocol is being widely used in the substation automation system. However, the susceptibility of SDN architecture to cyber-attacks has exhibited a notable increase in recent years, as indicated by research findings. This suggests a growing concern regarding the potential for cybersecurity breaches within the SDN framework. In this paper, we propose a hybrid intrusion detection system (IDS)-integrated SDN architecture for detecting and preventing the injection of malicious IEC 61850-based generic object-oriented substation event (GOOSE) messages in a digital substation. Additionally, this program locates the fault's location and, as a form of mitigation, disables a certain port. Furthermore, implementation examples are demonstrated and verified using a hardware-in-the-loop (HIL) testbed that mimics the functioning of a digital substation.",
+      "publication_date": "2023-11-20T21:49:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2311.12205v2.pdf"
+    },
+    {
+      "title": "ChatGPT and Other Large Language Models for Cybersecurity of Smart Grid   Applications",
+      "authors": [
+        "Aydin Zaboli",
+        "Seong Lok Choi",
+        "Tai-Jin Song",
+        "Junho Hong"
+      ],
+      "abstract": "Cybersecurity breaches targeting electrical substations constitute a significant threat to the integrity of the power grid, necessitating comprehensive defense and mitigation strategies. Any anomaly in information and communication technology (ICT) should be detected for secure communications between devices in digital substations. This paper proposes large language models (LLM), e.g., ChatGPT, for the cybersecurity of IEC 61850-based digital substation communications. Multicast messages such as generic object oriented system event (GOOSE) and sampled value (SV) are used for case studies. The proposed LLM-based cybersecurity framework includes, for the first time, data pre-processing of communication systems and human-in-the-loop (HITL) training (considering the cybersecurity guidelines recommended by humans). The results show a comparative analysis of detected anomaly data carried out based on the performance evaluation metrics for different LLMs. A hardware-in-the-loop (HIL) testbed is used to generate and extract dataset of IEC 61850 communications.",
+      "publication_date": "2023-11-09T15:50:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2311.05462v2.pdf"
+    },
+    {
+      "title": "Cybersecurity Threats to Power Grid Operations from the Demand-Side   Response Ecosystem",
+      "authors": [
+        "Subhash Lakshminarayana",
+        "Carsten Maple",
+        "Andrew Larkins",
+        "Daryl Flack",
+        "Christopher Few",
+        "Kenny-Awuson David",
+        "Anurag. K. Srivastava"
+      ],
+      "abstract": "This article focuses on cyber security threats from IoT-enabled energy smart appliances (ESAs) such as smart heat pumps, electric vehicle chargers, etc., to power grid operations. It presents an in-depth analysis of the demand side threats, including (i) an overview of the vulnerabilities in ESAs and the wider risk from the demand-side response (DSR) ecosystem, (ii) key factors influencing the attack impact on power grid operations, (iii) measures to improve the cyber-physical resilience of power grids, putting them in the context of ongoing efforts from the industry and regulatory bodies worldwide.",
+      "publication_date": "2023-10-28T20:56:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2310.18820v2.pdf"
+    },
+    {
+      "title": "RETINA: Distributed and Secure Trust Management for Smart Grid   Applications and Energy Trading",
+      "authors": [
+        "Vaios Boulgourasa",
+        "Thodoris Ioannidis",
+        "Ilias Politis",
+        "Christos Xenakis"
+      ],
+      "abstract": "The rapid adoption of smart grids demands robust security and efficiency measures due to their critical role in delivering electricity and their potential for customer-oriented benefits. This paper presents an innovative framework, named RETINA, which provides a resilient and secure energy trading mechanism within smart grid systems. RETINA tackles the inherent security and infrastructure challenges in smart grids by establishing a trust-based security layer and facilitating energy transactions through blockchain technology. Our proposed solution integrates Public Key Infrastructure (PKI) and the Web of Trust (WoT) concepts, promoting decentralized communication channels and robust key management. We further introduce a smart contract-based energy trading mechanism that factors in trust, distance, and energy type (green or non-green) in cost calculation. The utility and robustness of RETINA have been validated in a virtualized testbed environment with 500 nodes, demonstrating superior performance in terms of scalability and resilience compared to the existing WoT scheme. Furthermore, RETINA successfully enables a secure and efficient energy trading scheme, promoting the use of renewable energy sources. Future enhancements will include application to a realistic smart grid deployment and the integration of additional functionalities. This groundbreaking solution has the potential to revolutionize the smart grid ecosystem, addressing its current limitations and propelling the industry towards a future of advanced and secure energy exchange.",
+      "publication_date": "2023-06-13T18:42:41+00:00",
+      "doi": "10.1016/j.segan.2024.101274",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2306.08074v1.pdf"
+    },
+    {
+      "title": "A Review On Game Theory With Smart Grid Security",
+      "authors": [
+        "Rahat Masum"
+      ],
+      "abstract": "Smart grid is the modern two way mechanism combining the power grid, control center, smart metering facility, energy routing and customer demand response services. The system being complicated, security vulnerabilities are paramount for the sound operation and process continuation. Since smart grid connects with the end user to the energy providers, these two parties can interact with each other within the whole energy management work flow. In this regard, game theory provides effective insights in the analysis of security measures for smart grid. The mentioned parties will be the players in the game model to provide a solution for the various threats to the grid aspects. In this work, a brief review has presented with the existing approaches to the threat models for divergent sectors of the smart grid. The solution approaches to these threats are based on the game theoretical approaches that connect the attackers and defenders in the scenarios.",
+      "publication_date": "2023-04-23T20:06:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2304.11738v1.pdf"
+    },
+    {
+      "title": "Investigating the Cybersecurity of Smart Grids Based on Cyber-Physical   Twin Approach",
+      "authors": [
+        "Ömer Sen",
+        "Florian Schmidtke",
+        "Federico Carere",
+        "Francesca Santori",
+        "Andreas Ulbig",
+        "Antonello Monti"
+      ],
+      "abstract": "While the increasing penetration of information and communication technology into distribution grid brings numerous benefits, it also opens up a new threat landscape, particularly through cyberattacks. To provide a basis for countermeasures against such threats, this paper addresses the investigation of the impact and manifestations of cyberattacks on smart grids by replicating the power grid in a secure, isolated, and controlled laboratory environment as a cyber-physical twin. Currently, detecting intrusions by unauthorized third parties into the central monitoring and control system of grid operators, especially attacks within the grid perimeter, is a major challenge. The development and validation of methods to detect and prevent coordinated and timed attacks on electric power systems depends not only on the availability and quality of data from such attack scenarios, but also on suitable realistic investigation environments. However, to create a comprehensive investigation environment, a realistic representation of the study object is required to thoroughly investigate critical cyberattacks on grid operations and evaluate their impact on the power grid using real data. In this paper, we demonstrate our cyber-physical twin approach using a microgrid in the context of a cyberattack case study.",
+      "publication_date": "2022-11-20T13:03:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2211.10974v1.pdf"
+    },
+    {
+      "title": "Cybersecurity in the Smart Grid: Practitioners' Perspective",
+      "authors": [
+        "Jacqueline Meyer",
+        "Giovanni Apruzzese"
+      ],
+      "abstract": "The Smart Grid (SG) is a cornerstone of modern society, providing the energy required to sustain billions of lives and thousands of industries. Unfortunately, as one of the most critical infrastructures of our World, the SG is an attractive target for attackers. The problem is aggravated by the increasing adoption of digitalisation, which further increases the SG's exposure to cyberthreats. Successful exploitation of such exposure leads to entire countries being paralysed, which is an unacceptable -- but ultimately inescapable -- risk.   This paper aims to mitigate this risk by elucidating the perspective of real practitioners on the cybersecurity of the SG. We interviewed 18 entities, operating in diverse countries in Europe and covering all domains of the SG -- from energy generation, to its delivery. Our analysis highlights a stark contrast between (a)research and practice, but also between (b) public and private entities. For instance: some threats appear to be much less dangerous than what is claimed in related papers; some technological paradigms have dubious utility for practitioners, but are actively promoted by literature; finally, practitioners may either under- or over-estimate their own cybersecurity capabilities. We derive four takeaways that enable future endeavours to improve the overall cybersecurity in the SG. We conjecture that most of the problems are due to an improper communication between researchers, practitioners and regulatory bodies -- which, despite sharing a common goal, tend to neglect the viewpoint of the other `spheres'.",
+      "publication_date": "2022-10-24T11:09:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2210.13119v1.pdf"
+    },
+    {
+      "title": "Smart Grid: Cyber Attacks, Critical Defense Approaches, and Digital Twin",
+      "authors": [
+        "Tianming Zheng",
+        "Ping Yi",
+        "Yue Wu"
+      ],
+      "abstract": "As a national critical infrastructure, the smart grid has attracted widespread attention for its cybersecurity issues. The development towards an intelligent, digital, and Internet-connected smart grid has attracted external adversaries for malicious activities. It is necessary to enhance its cybersecurity by both improving the existing defense approaches and introducing novel developed technologies to the smart grid context. As an emerging technology, digital twin (DT) is considered as an enabler for enhanced security. However, the practical implementation is quite challenging. This is due to the knowledge barriers among smart grid designers, security experts, and DT developers. Each single domain is a complicated system covering various components and technologies. As a result, works are needed to sort out relevant contents so that DT can be better embedded in the security architecture design of smart grid.   In order to meet this demand, our paper covers the above three domains, i.e., smart grid, cybersecurity, and DT. Specifically, the paper i) introduces the background of the smart grid; ii) reviews external cyber attacks from attack incidents and attack methods; iii) introduces critical defense approaches in industrial cyber systems, which include device identification, vulnerability discovery, intrusion detection systems (IDSs), honeypots, attribution, and threat intelligence (TI); iv) reviews the relevant content of DT, including its basic concepts, applications in the smart grid, and how DT enhances the security. In the end, the paper puts forward our security considerations on the future development of DT-based smart grid. The survey is expected to help developers break knowledge barriers among smart grid, cybersecurity, and DT, and provide guidelines for future security design of DT-based smart grid.",
+      "publication_date": "2022-05-24T04:46:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2205.11783v2.pdf"
+    },
+    {
+      "title": "Authentication of Smart Grid Communications using Quantum Key   Distribution",
+      "authors": [
+        "Muneer Alshowkan",
+        "Philip Evans",
+        "Michael Starke",
+        "Duncan Earl",
+        "Nicholas Peters"
+      ],
+      "abstract": "Smart grid solutions enable utilities and customers to better monitor and control energy use via information and communications technology. Information technology is intended to improve the future electric grid's reliability, efficiency, and sustainability by implementing advanced monitoring and control systems. However, leveraging modern communications systems also makes the grid vulnerable to cyberattacks. Here we report the first use of quantum key distribution (QKD) keys in the authentication of smart grid communications. In particular, we make such demonstration on a deployed electric utility fiber network. The developed method was prototyped in a software package to manage and utilize cryptographic keys to authenticate machine-to-machine communications used for supervisory control and data acquisition (SCADA). This demonstration showcases the feasibility of using QKD to improve the security of critical infrastructure, including future distributed energy resources (DERs), such as energy storage.",
+      "publication_date": "2021-10-07T14:50:46+00:00",
+      "doi": "10.1038/s41598-022-16090-w",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "url": "http://arxiv.org/pdf/2110.03516v2.pdf"
+    },
+    {
+      "title": "A Characterisation of Smart Grid DoS Attacks",
+      "authors": [
+        "Dilara Acarali",
+        "Muttukrishnan Rajarajan",
+        "Doron Chema",
+        "Mark Ginzburg"
+      ],
+      "abstract": "Traditional power grids are evolving to keep pace with the demands of the modern age. Smart grids contain integrated IT systems for better management and efficiency, but in doing so, also inherit a plethora of cyber-security threats and vulnerabilities. Denial-of-Service (DoS) is one such threat. At the same time, the smart grid has particular characteristics (e.g. minimal delay tolerance), which can influence the nature of threats and so require special consideration. In this paper, we identify a set of possible smart grid-specific DoS scenarios based on current research, and analyse them in the context of the grid components they target. Based on this, we propose a novel target-based classification scheme and further characterise each scenario by qualitatively exploring it in the context of the underlying grid infrastructure. This culminates in a smart grid-centric analysis of the threat to reveal the nature of DoS in this environment.",
+      "publication_date": "2021-07-23T13:00:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2107.11202v1.pdf"
+    },
+    {
+      "title": "Toward Safe Integration of Legacy SCADA Systems in the Smart Grid",
+      "authors": [
+        "Aldar C-F. Chan",
+        "Jianying Zhou"
+      ],
+      "abstract": "A SCADA system is a distributed network of cyber-physical devices used for instrumentation and control of critical infrastructures such as an electric power grid. With the emergence of the smart grid, SCADA systems are increasingly required to be connected to more open systems and security becomes crucial. However, many of these SCADA systems have been deployed for decades and were initially not designed with security in mind. In particular, the field devices in these systems are vulnerable to false command injection from an intruding or compromised device. But implementing cryptographic defence on these old-generation devices is challenging due to their computation constraints. As a key requirement, solutions to protect legacy SCADA systems have to be an add-on. This paper discusses two add-on defence strategies for legacy SCADA systems -- the data diode and the detect-and-respond approach -- and compares their security guarantees and applicable scenarios. A generic architectural framework is also proposed to implement the detect-and-respond strategy, with an instantiation to demonstrate its practicality.",
+      "publication_date": "2021-07-13T06:00:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2107.05863v2.pdf"
+    },
+    {
+      "title": "Towards anomaly detection in smart grids by combining Complex Events   Processing and SNMP objects",
+      "authors": [
+        "Massimiliano Leone Itria",
+        "Enrico Schiavone",
+        "Nicola Nostro"
+      ],
+      "abstract": "This paper describes the architecture and the fundamental methodology of an anomaly detector, which by continuously monitoring Simple Network Management Protocol data and by processing it as complex-events, is able to timely recognize patterns of faults and relevant cyber-attacks. This solution has been applied in the context of smart grids, and in particular as part of a security and resilience component of the Information and Communication Technologies (ICT) Gateway, a middleware-based architecture that correlates and fuses measurement data from different sources (e.g., Inverters, Smart Meters) to provide control coordination and to enable grid observability applications. The detector has been evaluated through experiments, where we selected some representative anomalies that can occur on the ICT side of the energy distribution infrastructure: non-malicious faults (indicated by patterns in the system resources usage), as well as effects of typical cyber-attacks directed to the smart grid infrastructure. The results show that the detection is promisingly fast and efficient.",
+      "publication_date": "2021-06-28T09:46:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2106.14508v1.pdf"
+    },
+    {
+      "title": "Threat Landscape for Smart Grid Systems",
+      "authors": [
+        "Christos-Minas Mathas",
+        "Konstantinos-Panagiotis Grammatikakis",
+        "Costas Vassilakis",
+        "Nicholas Kolokotronis",
+        "Vasiliki-Georgia Bilali",
+        "Dimitris Kavallieros"
+      ],
+      "abstract": "Smart Grids are energy delivery networks, constituting an evolution of power grids, in which a bidirectional flow between power providers and consumers is established. These flows support the transfer of electricity and information, in order to support automation actions in the context of the energy delivery network. Insofar, many smart grid implementations and implementation proposals have emerged, with varying degrees of feature delivery and sophistication. While smart grids offer many advantages, their distributed nature and information flow streams between energy producers and consumers enable the launching of a number of attacks against the smart grid infrastructure, where the related consequences may range from economic loss to complete failure of the smart grid. In this paper, we survey the threat landscape of smart grids, identifying threats that are specific to this infrastructure, providing an assessment of the severity of the consequences of each attack type, discerning features that can be utilized to detect attacks and listing methods that can be used to mitigate them.",
+      "publication_date": "2021-05-10T11:03:05+00:00",
+      "doi": "10.1145/3407023.3409229",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2105.04264v1.pdf"
+    },
+    {
+      "title": "Cybersecurity in Power Grids: Challenges and Opportunities",
+      "authors": [
+        "Tim Krause",
+        "Raphael Ernst",
+        "Benedikt Klaer",
+        "Immanuel Hacker",
+        "Martin Henze"
+      ],
+      "abstract": "Increasing volatilities within power transmission and distribution force power grid operators to amplify their use of communication infrastructure to monitor and control their grid. The resulting increase in communication creates a larger attack surface for malicious actors. Indeed, cyber attacks on power grids have already succeeded in causing temporary, large-scale blackouts in the recent past. In this paper, we analyze the communication infrastructure of power grids to derive resulting fundamental challenges of power grids with respect to cybersecurity. Based on these challenges, we identify a broad set of resulting attack vectors and attack scenarios that threaten the security of power grids. To address these challenges, we propose to rely on a defense-in-depth strategy, which encompasses measures for (i) device and application security, (ii) network security, (iii) physical security, as well as (iv) policies, procedures, and awareness. For each of these categories, we distill and discuss a comprehensive set of state-of-the art approaches, and identify further opportunities to strengthen cybersecurity in interconnected power grids.",
+      "publication_date": "2021-04-30T18:00:09+00:00",
+      "doi": "10.3390/s21186225",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2105.00013v2.pdf"
+    },
+    {
+      "title": "A Taxonomy of Cyber Defence Strategies Against False Data Attacks in   Smart Grid",
+      "authors": [
+        "Haftu Tasew Reda",
+        "Adnan Anwar",
+        "Abdun Naser Mahmood",
+        "Zahir Tari"
+      ],
+      "abstract": "Modern electric power grid, known as the Smart Grid, has fast transformed the isolated and centrally controlled power system to a fast and massively connected cyber-physical system that benefits from the revolutions happening in the communications and the fast adoption of Internet of Things devices. While the synergy of a vast number of cyber-physical entities has allowed the Smart Grid to be much more effective and sustainable in meeting the growing global energy challenges, it has also brought with it a large number of vulnerabilities resulting in breaches of data integrity, confidentiality and availability. False data injection (FDI) appears to be among the most critical cyberattacks and has been a focal point interest for both research and industry. To this end, this paper presents a comprehensive review in the recent advances of the defence countermeasures of the FDI attacks in the Smart Grid infrastructure. Relevant existing literature are evaluated and compared in terms of their theoretical and practical significance to the Smart Grid cybersecurity. In conclusion, a range of technical limitations of existing false data attack detection researches are identified, and a number of future research directions are recommended.",
+      "publication_date": "2021-03-30T05:36:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2103.16085v1.pdf"
+    },
+    {
+      "title": "Comprehensive Survey and Taxonomies of False Injection Attacks in Smart   Grid: Attack Models, Targets, and Impacts",
+      "authors": [
+        "Haftu Tasew Reda",
+        "Adnan Anwar",
+        "Abdun Mahmood"
+      ],
+      "abstract": "Smart Grid has rapidly transformed the centrally controlled power system into a massively interconnected cyber-physical system that benefits from the revolutions happening in the communications (e.g. 5G) and the growing proliferation of the Internet of Things devices (such as smart metres and intelligent electronic devices). While the convergence of a significant number of cyber-physical elements has enabled the Smart Grid to be far more efficient and competitive in addressing the growing global energy challenges, it has also introduced a large number of vulnerabilities culminating in violations of data availability, integrity, and confidentiality. Recently, false data injection (FDI) has become one of the most critical cyberattacks, and appears to be a focal point of interest for both research and industry. To this end, this paper presents a comprehensive review in the recent advances of the FDI attacks, with particular emphasis on 1) adversarial models, 2) attack targets, and 3) impacts in the Smart Grid infrastructure. This review paper aims to provide a thorough understanding of the incumbent threats affecting the entire spectrum of the Smart Grid. Related literature are analysed and compared in terms of their theoretical and practical implications to the Smart Grid cybersecurity. In conclusion, a range of technical limitations of existing false data attack research is identified, and a number of future research directions is recommended.",
+      "publication_date": "2021-03-19T02:15:11+00:00",
+      "doi": "10.1016/j.rser.2022.112423",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2103.10594v1.pdf"
+    },
+    {
+      "title": "Real-time Power System Simulation with Hardware Devices through DNP3 in   Cyber-Physical Testbed",
+      "authors": [
+        "Hao Huang",
+        "C. Matthew Davis",
+        "Katherine R. Davis"
+      ],
+      "abstract": "Modern power grids are dependent on communication systems for data collection, visualization, and control. Distributed Network Protocol 3 (DNP3) is commonly used in supervisory control and data acquisition (SCADA) systems in power systems to allow control system software and hardware to communicate. To study the dependencies between communication network security, power system data collection, and industrial hardware, it is important to enable communication capabilities with real-time power system simulation. In this paper, we present the integration of new functionality of a power systems dynamic simulation package into our cyber-physical power system testbed that supports real-time power system data transfer using DNP3, demonstrated with an industrial real-time automation controller (RTAC). The usage and configuration of DNP3 with real-world equipment in to achieve power system monitoring and control of a large-scale synthetic electric grid via this DNP3 communication is presented. Then, an exemplar of DNP3 data collection and control is achieved in software and hardware using the 2000-bus Texas synthetic grid.",
+      "publication_date": "2021-01-15T04:47:06+00:00",
+      "doi": "10.1109/TPEC51183.2021.9384947",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2101.05965v2.pdf"
+    },
+    {
+      "title": "Graph-based Model of Smart Grid Architectures",
+      "authors": [
+        "Benedikt Klaer",
+        "Ömer Sen",
+        "Dennis van der Velde",
+        "Immanuel Hacker",
+        "Michael Andres",
+        "Martin Henze"
+      ],
+      "abstract": "The rising use of information and communication technology in smart grids likewise increases the risk of failures that endanger the security of power supply, e.g., due to errors in the communication configuration, faulty control algorithms, or cyber-attacks. Co-simulations can be used to investigate such effects, but require precise modeling of the energy, communication, and information domain within an integrated smart grid infrastructure model. Given the complexity and lack of detailed publicly available communication network models for smart grid scenarios, there is a need for an automated and systematic approach to creating such coupled models. In this paper, we present an approach to automatically generate smart grid infrastructure models based on an arbitrary electrical distribution grid model using a generic architectural template. We demonstrate the applicability and unique features of our approach alongside examples concerning network planning, co-simulation setup, and specification of domain-specific intrusion detection systems.",
+      "publication_date": "2020-09-01T07:32:19+00:00",
+      "doi": "10.1109/SEST48500.2020.9203113",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/pdf/2009.00273v1.pdf"
+    },
+    {
+      "title": "Defensive Cost-Benefit Analysis of Smart Grid Digital Functionalities",
+      "authors": [
+        "Jim Stright",
+        "Peter Cheetham",
+        "Charalambos Konstantinou"
+      ],
+      "abstract": "Modern smart grids offer several types of digital control and monitoring of electric power transmission and distribution that enable greater efficiency and integrative functionality than traditional power grids. These benefits, however, introduce greater complexity and greatly disrupt and expand the threat landscape. The number of vulnerabilities is increasing as grid-connected devices proliferate. The potential costs to society of these vulnerabilities are difficult to determine, as are their likelihoods of successful exploitation. In this article, we present a method for comparing the net economic benefits and costs of the various cyber-functionalities associated with smart grids from the perspective of cyberattack vulnerabilities and defending against them. The economic considerations of cyber defense spending suggest the existence of optimal levels of expenditures, which might vary among digital functionalities. We illustrate hypothetical case studies on how digital functionalities can be assessed and compared with respect to the costs of defending them from cyberattacks.",
+      "publication_date": "2020-08-28T20:55:23+00:00",
+      "doi": "10.1016/j.ijcip.2021.100489",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2008.12843v2.pdf"
+    },
+    {
+      "title": "Secure and Energy Efficient Remote Monitoring Technique (SERMT) for   Smart Grid",
+      "authors": [
+        "Sohini Roy",
+        "Arunabha Sen"
+      ],
+      "abstract": "Monitoring and automation of the critical infrastructures like the power grid is improvised by the support of an efficient and secure communication net-work. Due to the low cost, low power profile, dynamic nature, improved ac-curacy and scalability, wireless sensor networks (WSN) became an attractive choice for the Information and Communication Technology (ICT) system of the smart grid. However, the energy efficiency and security of WSN depends highly on the network design and routing scheme. In this paper, a WSN based Secure and Energy Efficient Remote Monitoring Technique (SERMT) is proposed by demonstrating a WSN based ICT network model for perva-sive monitoring of the generation and transmission part of the power network in a smart grid system. The performance of the proposed network model de-signed for a smart grid of IEEE 118-Bus system coupled with the secure routing technique is tested during cyber-attacks by means of NS2 and the simulation results indicate that it performs better than existing smart grid monitoring methods like Lo-ADI [1] with respect to packet drop count and throughput.",
+      "publication_date": "2020-05-27T00:13:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2005.13093v1.pdf"
+    },
+    {
+      "title": "SecGrid: A Secure and Efficient SGX-enabled Smart Grid System with Rich   Functionalities",
+      "authors": [
+        "Shaohua Li",
+        "Kaiping Xue"
+      ],
+      "abstract": "Smart grid adopts two-way communication and rich functionalities to gain a positive impact on the sustainability and efficiency of power usage, but on the other hand, also poses serious challenges to customers' privacy. Existing solutions in smart grid usually use cryptographic tools, such as homomorphic encryption, to protect individual privacy, which, however, can only support limited and simple functionalities. Moreover, the resource-constrained smart meters need to perform heavy asymmetric cryptography in these solutions, which is not applied to smart grid. In this paper, we present a practical and secure SGX-enabled smart grid system, named SecGrid. Our system leverage trusted hardware SGX to ensure that grid utilities can efficiently execute rich functionalities on customers' private data, while guaranteeing their privacy. With the designed security protocols, the SecGrid only require the smart meters to perform AES encryption. Security analysis shows that SecGrid can thwart various attacks from malicious adversaries. Experimental results show that SecGrid is much faster than the existing privacy-preserving schemes in smart grid.",
+      "publication_date": "2018-10-03T09:21:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1810.01651v1.pdf"
+    },
+    {
+      "title": "Key Management Systems for Smart Grid Advanced Metering Infrastructure:   A Survey",
+      "authors": [
+        "Amrita Ghosal",
+        "Mauro Conti"
+      ],
+      "abstract": "Smart Grids are evolving as the next generation power systems that involve changes in the traditional ways of generation, transmission and distribution of power. Advanced Metering Infrastructure (AMI) is one of the key components in smart grids. An AMI comprises of systems and networks, that collects and analyzes data received from smart meters. In addition, AMI also provides intelligent management of various power-related applications and services based on the data collected from smart meters. Thus, AMI plays a significant role in the smooth functioning of smart grids.   AMI is a privileged target for security attacks as it is made up of systems that are highly vulnerable to such attacks. Providing security to AMI is necessary as adversaries can cause potential damage against infrastructures and privacy in smart grid. One of the most effective and challenging topic's identified, is the Key Management System (KMS), for sustaining the security concerns in AMI. Therefore, KMS seeks to be a promising research area for future development of AMI. This survey work highlights the key security issues of advanced metering infrastructures and focuses on how key management techniques can be utilized for safeguarding AMI. First of all, we explore the main features of advanced metering infrastructures and identify the relationship between smart grid and AMI. Then, we introduce the security issues and challenges of AMI. We also provide a classification of the existing works in literature that deal with secure key management system in AMI. Finally, we identify possible future research directions of KMS in AMI.",
+      "publication_date": "2018-05-31T22:29:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1806.00121v1.pdf"
+    },
+    {
+      "title": "Review of Cyber-Physical Attacks and Counter Defense Mechanisms for   Advanced Metering Infrastructure in Smart Grid",
+      "authors": [
+        "Longfei Wei",
+        "Luis Puche Rondon",
+        "Amir Moghadasi",
+        "Arif I. Sarwat"
+      ],
+      "abstract": "The Advanced Metering Infrastructure (AMI) is a vital element in the current development of the smart grid. AMI technologies provide electric utilities with an effective way of continuous monitoring and remote control of smart grid components. However, owing to its increasing scale and cyber-physical nature, the AMI has been faced with security threats in both cyber and physical domains. This paper provides a comprehensive review of the crucial cyber-physical attacks and counter defense mechanisms in the AMI. First, two attack surfaces are surveyed in the AMI including the communication network and smart meters. The potential cyber-physical attacks are then reviewed for each attack surface. Next, the attack models and their cyber and physical impacts on the smart grid are studied for comparison. Counter defense mechanisms that help mitigate these security threats are discussed. Finally, several mathematical tools which may help in analysis and implementation of security solutions are summarized.",
+      "publication_date": "2018-05-18T20:01:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1805.07422v1.pdf"
+    },
+    {
+      "title": "Detection of Compromised Smart Grid Devices with Machine Learning and   Convolution Techniques",
+      "authors": [
+        "Cengiz Kaygusuz",
+        "Leonardo Babun",
+        "Hidayet Aksu",
+        "A. Selcuk Uluagac"
+      ],
+      "abstract": "The smart grid concept has transformed the traditional power grid into a massive cyber-physical system that depends on advanced two-way communication infrastructure to integrate a myriad of different smart devices. While the introduction of the cyber component has made the grid much more flexible and efficient with so many smart devices, it also broadened the attack surface of the power grid. Particularly, compromised devices pose a great danger to the healthy operations of the smart-grid. For instance, the attackers can control the devices to change the behaviour of the grid and can impact the measurements. In this paper, to detect such misbehaving malicious smart grid devices, we propose a machine learning and convolution-based classification framework. Our framework specifically utilizes system and library call lists at the kernel level of the operating system on both resource-limited and resource-rich smart grid devices such as RTUs, PLCs, PMUs, and IEDs. Focusing on the types and other valuable features extracted from the system calls, the framework can successfully identify malicious smart-grid devices. In order to test the efficacy of the proposed framework, we built a representative testbed conforming to the IEC-61850 protocol suite and evaluated its performance with different system calls. The proposed framework in different evaluation scenarios yields very high accuracy (avg. 91%) which reveals that the framework is effective to overcome compromised smart grid devices problem.",
+      "publication_date": "2018-04-13T20:11:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1804.05106v1.pdf"
+    },
+    {
+      "title": "Graph-based Cyber Security Analysis of State Estimation in Smart Power   Grid",
+      "authors": [
+        "Suzhi Bi",
+        "Ying Jun Zhang"
+      ],
+      "abstract": "Smart power grid enables intelligent automation at all levels of power system operation, from electricity generation at power plants to power usage at households. The key enabling factor of an efficient smart grid is its built-in information and communication technology (ICT) that monitors the real-time system operating state and makes control decisions accordingly. As an important building block of the ICT system, power system state estimation is of critical importance to maintain normal operation of the smart grid, which, however, is under mounting threat from potential cyber attacks. In this article, we introduce a graph-based framework for performing cyber-security analysis in power system state estimation. Compared to conventional arithmetic-based security analysis, the graphical characterization of state estimation security provides intuitive visualization of some complex problem structures and enables efficient graphical solution algorithms, which are useful for both defending and attacking the ICT system of smart grid. We also highlight several promising future research directions on graph-based security analysis and its applications in smart power grid.",
+      "publication_date": "2016-12-18T09:27:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "url": "http://arxiv.org/pdf/1612.05878v1.pdf"
+    },
+    {
+      "title": "A Survey on Privacy-preserving Schemes for Smart Grid Communications",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Leandros A. Maglaras",
+        "Helge Janicke",
+        "Jianmin Jiang"
+      ],
+      "abstract": "In this paper, we present a comprehensive survey of privacy-preserving schemes for Smart Grid communications. Specifically, we select and in-detail examine thirty privacy preserving schemes developed for or applied in the context of Smart Grids. Based on the communication and system models, we classify these schemes that are published between 2013 and 2016, in five categories, including, 1) Smart grid with the advanced metering infrastructure, 2) Data aggregation communications, 3) Smart grid marketing architecture, 4) Smart community of home gateways, and 5) Vehicle-to grid architecture. For each scheme, we survey the attacks of leaking privacy, countermeasures, and game theoretic approaches. In addition, we review the survey articles published in the recent years that deal with Smart Grids communications, applications, standardization, and security. Based on the current survey, several recommendations for further research are discussed at the end of this paper.",
+      "publication_date": "2016-11-23T10:20:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1611.07722v1.pdf"
+    },
+    {
+      "title": "Adaptive Data Collection Mechanisms for Smart Monitoring of Distribution   Grids",
+      "authors": [
+        "Mohammed S. Kemal",
+        "Rasmus L. Olsen"
+      ],
+      "abstract": "Smart Grid systems not only transport electric energy but also information which will be active part of the electricity supply system. This has led to the introduction of intelligent components on all layers of the electrical grid in power generation, transmission, distribution and consumption units. For electric distribution systems, Information from Smart Meters can be utilized to monitor and control the state of the grid. Hence, it is indeed inherent that data from Smart Meters should be collected in a resilient, reliable, secure and timely manner fulfilling all the communication requirements and standards. This paper presents a proposal for smart data collection mechanisms to monitor electrical grids with adaptive smart metering infrastructures. A general overview of a platform is given for testing, evaluating and implementing mechanisms to adapt Smart Meter data aggregation. Three main aspects of adaptiveness of the system are studied, adaptiveness to smart metering application needs, adaptiveness to changing communication network dynamics and adaptiveness to security attacks. Execution of tests will be conducted in real field experimental set-up and in an advanced hardware in the loop test-bed with power and communication co-simulation for validation purposes.",
+      "publication_date": "2016-08-22T08:11:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "url": "http://arxiv.org/pdf/1608.06510v1.pdf"
+    },
+    {
+      "title": "Cyber Security of Smart Grid Infrastructure",
+      "authors": [
+        "Adnan Anwar",
+        "Abdun Naser Mahmood"
+      ],
+      "abstract": "Smart grid security is crucial to maintain stable and reliable power system operation during the contingency situation due to the failure of any critical power system component. Ensuring a secured smart grid involves with a less possibility of power grid collapse or equipment malfunction. Due to lack of the proper security measures, a major blackout may occur which can even lead to a cascading failure. Therefore, to protect this critical power system infrastructure and to ensure a reliable and an uninterrupted power supply to the end users, smart grid security issues must be addressed with high priority. In a smart grid environment, electric power infrastructure is modernized by incorporating the current and future requirements and advanced functionalities to its consumers. To make the smart grid happen, cyber system is integrated with the physical power system. Although adoption of cyber system has made the grid more energy efficient and modernized, it has introduced cyber-attack issues which are critical for national infrastructure security and customer satisfaction. Due to the cyber-attack, power grid may face operational failures and loss of synchronization. This operational failure may damage critical power system components which may interrupt the power supply and make the system unstable resulting high financial penalties. In this chapter, some recent cyber attack related incidents into a smart grid environment are discussed. The requirements and the state of the art of cyber security issues of a critical power system infrastructure are illustrated elaborately.",
+      "publication_date": "2014-01-16T08:53:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1401.3936v2.pdf"
+    },
+    {
+      "title": "Highly Available Smart Grid Control Centers through Intrusion Tolerance",
+      "authors": [
+        "Maryam Tanha",
+        "Fazirulhisyam Hashima",
+        "S. Shamalab",
+        "Khairulmizam Samsudin"
+      ],
+      "abstract": "Societies' norms of operation relies on the proper and secure functioning of several critical infrastructures, particularly modern power grid which is also known as smart grid. Smart grid is interwoven with the information and communication technology infrastructure, and thus it is exposed to cyber security threats. Intrusion tolerance proves a promising security approach against malicious attacks and contributes to enhance the resilience and security of the key components of smart grid, mainly SCADA and control centers. Hence, an intrusion tolerant system architecture for smart grid control centers is proposed in this paper. The proposed architecture consists of several modules namely, replication & diversity, compromised/faulty replica detector, reconfiuration, auditing and proxy. Some of distinctive features of the proposed ITS are diversity as well as the combined and fine-grained rejuvenation approach. The security of the proposed architecture is evaluated with regard to availability and mean time to security failure as performance measures. The analysis is conducted using a Discrete Time Semi Markov Model and the acquired results show improvements compared to two established intrusion tolerant architectures. The viability of SLA as another performance metric is also investigated.",
+      "publication_date": "2012-09-26T16:12:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1209.6228v1.pdf"
+    },
+    {
+      "title": "Cryptographic Key Management for Smart Power Grids - Approaches and   Issues",
+      "authors": [
+        "M. Nabeel",
+        "J. Zage",
+        "S. Kerr",
+        "E. Bertino",
+        "N. Athula. Kulatunga",
+        "U. Sudheera Navaratne",
+        "M. Duren"
+      ],
+      "abstract": "The smart power grid promises to improve efficiency and reliability of power delivery. This report introduces the logical components, associated technologies, security protocols, and network designs of the system. Undermining the potential benefits are security threats, and those threats related to cyber security are described in this report. Concentrating on the design of the smart meter and its communication links, this report describes the ZigBee technology and implementation, and the communication between the smart meter and the collector node, with emphasis on security attributes. It was observed that many of the secure features are based on keys that must be maintained; therefore, secure key management techniques become the basis to securing the entire grid. The descriptions of current key management techniques are delineated, highlighting their weaknesses. Finally some initial research directions are outlined.",
+      "publication_date": "2012-06-18T10:32:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1206.3880v1.pdf"
+    },
+    {
+      "title": "Secure Compressed Reading in Smart Grids",
+      "authors": [
+        "Sheng Cai",
+        "Jihang Ye",
+        "Minghua Chen",
+        "Jianxin Yan",
+        "Sidharth Jaggi"
+      ],
+      "abstract": "Smart Grids measure energy usage in real-time and tailor supply and delivery accordingly, in order to improve power transmission and distribution. For the grids to operate effectively, it is critical to collect readings from massively-installed smart meters to control centers in an efficient and secure manner. In this paper, we propose a secure compressed reading scheme to address this critical issue. We observe that our collected real-world meter data express strong temporal correlations, indicating they are sparse in certain domains. We adopt Compressed Sensing technique to exploit this sparsity and design an efficient meter data transmission scheme. Our scheme achieves substantial efficiency offered by compressed sensing, without the need to know beforehand in which domain the meter data are sparse. This is in contrast to traditional compressed-sensing based scheme where such sparse-domain information is required a priori. We then design specific dependable scheme to work with our compressed sensing based data transmission scheme to make our meter reading reliable and secure. We provide performance guarantee for the correctness, efficiency, and security of our proposed scheme. Through analysis and simulations, we demonstrate the effectiveness of our schemes and compare their performance to prior arts.",
+      "publication_date": "2012-02-22T11:12:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IT"
+      ],
+      "url": "http://arxiv.org/pdf/1202.5202v1.pdf"
+    },
+    {
+      "title": "Smart Grid Information Security (IS) Functional Requirement",
+      "authors": [
+        "Amy Poh Ai Ling",
+        "Mukaidono Masao"
+      ],
+      "abstract": "It is important to implement safe smart grid environment to enhance people's lives and livelihoods. This paper provides information on smart grid IS functional requirement by illustrating some discussion points to the sixteen identified requirements. This paper introduces the smart grid potential hazards that can be referred as a triggering factor to improve the system and security of the entire grid. The background of smart information infrastructure and the needs for smart grid IS is described with the adoption of hermeneutic circle as methodology. Grid information technology and security-s session discusses that grid provides the chance of a simple and transparent access to different information sources. In addition, the transformation between traditional versus smart grid networking trend and the IS importance on the communication field reflects the criticality of grid IS functional requirement identification is introduces. The smart grid IS functional requirements described in this paper are general and can be adopted or modified to suit any smart grid system. This paper has tutorial contents where some related backgrounds were provided, especially for networking community, covering the cyber security requirement of smart grid information infrastructure.",
+      "publication_date": "2011-09-21T04:33:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "url": "http://arxiv.org/pdf/1109.4474v1.pdf"
+    },
+    {
+      "title": "Grid Information Security Functional Requirement - Fulfilling   Information Security of a Smart Grid System",
+      "authors": [
+        "Amy Poh Ai Ling",
+        "Mukaidono Masao"
+      ],
+      "abstract": "This paper describes the background of smart information infrastructure and the needs for smart grid information security. It introduces the conceptual analysis to the methodology with the application of hermeneutic circle and information security functional requirement identification. Information security for the grid market cover matters includes automation and communications industry that affects the operation of electric power systems and the functioning of the utilities that manage them and its awareness of this information infrastructure has become critical to the reliability of the power system. Community benefits from of cost savings, flexibility and deployment along with the establishment of wireless communications. However, concern revolves around the security protections for easily accessible devices such as the smart meter and the related communications hardware. On the other hand, the changing points between traditional versus smart grid networking trend and the information security importance on the communication field reflects the criticality of grid information security functional requirement identification. The goal of this paper is to identify the functional requirement and relate its significance addresses to the consumer requirement of an information security of a smart grid. Vulnerabilities may bring forth possibility for an attacker to penetrate a network, make headway admission to control software, alter it to load conditions that destabilize the grid in unpredictable ways. Focusing on the grid information security functional requirement is stepping ahead in developing consumer trust and satisfaction toward smart grid completeness.",
+      "publication_date": "2011-08-01T09:37:45+00:00",
+      "doi": "10.5121/ijgca.2011.2201",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1108.0267v1.pdf"
+    }
+  ]
+}

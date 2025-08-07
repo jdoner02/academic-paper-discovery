@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer",
+  "paper_title": "Verifiable Elections with Commitment Consistent Encryption -- A Primer",
+  "concepts": [
+    {
+      "text": "commitment",
+      "frequency": 30,
+      "relevance_score": 0.8246376811594203,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.708700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election",
+      "frequency": 25,
+      "relevance_score": 0.7038647342995169,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.713157+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheme",
+      "frequency": 24,
+      "relevance_score": 0.6797101449275362,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.709712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 21,
+      "relevance_score": 0.6072463768115941,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.708827+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ppats",
+      "frequency": 21,
+      "relevance_score": 0.6072463768115941,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.709452+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hiding",
+      "frequency": 19,
+      "relevance_score": 0.5589371980676329,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.715488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "votes",
+      "frequency": 18,
+      "relevance_score": 0.5347826086956522,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.714055+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "opening",
+      "frequency": 17,
+      "relevance_score": 0.5106280193236715,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.733639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 16,
+      "relevance_score": 0.48647342995169085,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.712758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h1 e g1",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c1 c2 d",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769537+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gs 1 gr",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 gr 1gs",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gr 1gs 2",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.770031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1gs 2 hr",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.770153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 hr 1hv",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.770276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hr 1hv 2",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.770398+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 c 2",
+      "frequency": 3,
+      "relevance_score": 0.47246376811594204,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.771258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "schemes",
+      "frequency": 15,
+      "relevance_score": 0.4623188405797102,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.715363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c gr 1gv",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c2 d σcc",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.769664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g1 d",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.770766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c c 1",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.771014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 1 c",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.771136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 2 d",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.771380+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "σ0 1 1",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.772252+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "σ0 1 2",
+      "frequency": 2,
+      "relevance_score": 0.44830917874396137,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.772375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "σ0 1",
+      "frequency": 6,
+      "relevance_score": 0.4449275362318841,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.765966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "end-to-end veriﬁable",
+      "frequency": 5,
+      "relevance_score": 0.4207729468599034,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.749808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "audit",
+      "frequency": 13,
+      "relevance_score": 0.41400966183574883,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.710859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proof",
+      "frequency": 13,
+      "relevance_score": 0.41400966183574883,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.741218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "veriﬁable systems",
+      "frequency": 2,
+      "relevance_score": 0.3983091787439613,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.751676+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g1",
+      "frequency": 4,
+      "relevance_score": 0.39661835748792273,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.758363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h1 e",
+      "frequency": 4,
+      "relevance_score": 0.39661835748792273,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.758610+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "perfectly hiding",
+      "frequency": 8,
+      "relevance_score": 0.39323671497584545,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.754299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "groups",
+      "frequency": 12,
+      "relevance_score": 0.38985507246376816,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.729183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commitment-consistent encryption",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.754042+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g1 g2",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.758487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c1 c2",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.761866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c2 d",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.761988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gs 1",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 gr",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gr 1gs",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762481+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1gs 2",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 hr",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hr 1hv",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.762889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1hv 2",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.763014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 1",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.764309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 c",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.764432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 2",
+      "frequency": 3,
+      "relevance_score": 0.37246376811594206,
+      "source_papers": [
+        "local/Verifiable_Elections_with_Commitment_Consistent_Encryption_--_A_Primer"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:45.764557+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:09:45.772681+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:09:45.772867+00:00",
+    "repository_version": "1.0",
+    "domain": "election_voting_system_security"
+  }
+}

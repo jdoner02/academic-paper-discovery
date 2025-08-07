@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks",
+  "paper_title": "Protecting RESTful IoT Devices from Battery Exhaustion DoS Attacks",
+  "concepts": [
+    {
+      "text": "requester",
+      "frequency": 79,
+      "relevance_score": 0.868407742437506,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.683714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "provider",
+      "frequency": 74,
+      "relevance_score": 0.8197743410174108,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.676609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "backend",
+      "frequency": 67,
+      "relevance_score": 0.7516875790292773,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.669842+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 50,
+      "relevance_score": 0.7363340142009532,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.672421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "battery",
+      "frequency": 64,
+      "relevance_score": 0.7225075381772201,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.649266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 45,
+      "relevance_score": 0.6877006127808579,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.670163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "battery exhaustion",
+      "frequency": 46,
+      "relevance_score": 0.647427293064877,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.886434+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 54,
+      "relevance_score": 0.6252407353370294,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.660735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authen- tication protocols",
+      "frequency": 2,
+      "relevance_score": 0.5694533605680382,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.026758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exhaustion",
+      "frequency": 47,
+      "relevance_score": 0.557153973348896,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.649566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 45,
+      "relevance_score": 0.5377006127808579,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.650166+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request",
+      "frequency": 43,
+      "relevance_score": 0.5182472522128198,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.712666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1",
+      "frequency": 7,
+      "relevance_score": 0.5180867619881335,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.947681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols 1",
+      "frequency": 7,
+      "relevance_score": 0.5180867619881335,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.963753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019 online accessed",
+      "frequency": 12,
+      "relevance_score": 0.5167201634082288,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.057457+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 2",
+      "frequency": 6,
+      "relevance_score": 0.5083600817041144,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.956902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "requests",
+      "frequency": 39,
+      "relevance_score": 0.47934053107674346,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.706279+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy",
+      "frequency": 39,
+      "relevance_score": 0.47934053107674346,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.724048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate limitation algorithms",
+      "frequency": 3,
+      "relevance_score": 0.4791800408520571,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.021144+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic protocol veriﬁer",
+      "frequency": 3,
+      "relevance_score": 0.4791800408520571,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.027058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "battery exhaustion attacks",
+      "frequency": 18,
+      "relevance_score": 0.47508024511234315,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.024581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 23,
+      "relevance_score": 0.4737136465324385,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.671125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "use",
+      "frequency": 38,
+      "relevance_score": 0.46961385079272444,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.652574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 38,
+      "relevance_score": 0.46961385079272444,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.668231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication protocols suitable",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.021446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols ensure service",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.022057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "constrained application protocol",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.023337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "application protocol coap",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.023646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "locating systems rtls",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.023956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms leaky bucket",
+      "frequency": 2,
+      "relevance_score": 0.4694533605680381,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.025547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service",
+      "frequency": 37,
+      "relevance_score": 0.4598871705087054,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.657875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 36,
+      "relevance_score": 0.4501604902246863,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.663028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "requesters",
+      "frequency": 36,
+      "relevance_score": 0.4501604902246863,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.665798+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 36,
+      "relevance_score": 0.4501604902246863,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.792085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "battery exhaustion attack",
+      "frequency": 15,
+      "relevance_score": 0.445900204260286,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.023005+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "leaky bucket",
+      "frequency": 25,
+      "relevance_score": 0.44316700710047663,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.910209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 35,
+      "relevance_score": 0.4404338099406673,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.648660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 24,
+      "relevance_score": 0.4334403268164575,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.889584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nrf51422 ble soc",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.028004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "elb n 0",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.032681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 024 j",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.042574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "12 38 mj",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.044682+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 20 40",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.048980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 40 60",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.049296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 60 80",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.049604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pdf 2019 online",
+      "frequency": 3,
+      "relevance_score": 0.4291800408520572,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.058357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ewma algorithms",
+      "frequency": 8,
+      "relevance_score": 0.42781344227215257,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:37.916456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "requiring pre-shared keys",
+      "frequency": 2,
+      "relevance_score": 0.41945336056803817,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.020845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "establish pre-shared keys",
+      "frequency": 2,
+      "relevance_score": 0.41945336056803817,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.024941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "elb n 1",
+      "frequency": 2,
+      "relevance_score": 0.41945336056803817,
+      "source_papers": [
+        "local/Protecting_RESTful_IoT_Devices_from_Battery_Exhaustion_DoS_Attacks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:38.032384+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:38.062900+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:38.063107+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

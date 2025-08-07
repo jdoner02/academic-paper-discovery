@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic...",
+  "paper_title": "A Biomechatronic Approach to Evaluating the Security of Wearable Devices in the Internet of Medic...",
+  "concepts": [
+    {
+      "text": "infusion",
+      "frequency": 62,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.333966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 42,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.346980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pump",
+      "frequency": 27,
+      "relevance_score": 0.6681818181818182,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.337769+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate",
+      "frequency": 25,
+      "relevance_score": 0.6260942760942761,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.339471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot-based healthcare systems",
+      "frequency": 2,
+      "relevance_score": 0.5920875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.407883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer",
+      "frequency": 23,
+      "relevance_score": 0.584006734006734,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.354974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infusion pump",
+      "frequency": 18,
+      "relevance_score": 0.5787878787878789,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.387354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 15,
+      "relevance_score": 0.5656565656565656,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 21,
+      "relevance_score": 0.5419191919191919,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.328977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response",
+      "frequency": 20,
+      "relevance_score": 0.5208754208754208,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.350897+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 12,
+      "relevance_score": 0.5025252525252526,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.353578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical",
+      "frequency": 19,
+      "relevance_score": 0.49983164983164985,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "closed-loop system",
+      "frequency": 2,
+      "relevance_score": 0.49208754208754213,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.390507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key establishment protocol",
+      "frequency": 2,
+      "relevance_score": 0.492087542087542,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.408163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drug delivery system",
+      "frequency": 2,
+      "relevance_score": 0.492087542087542,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.411122+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 18,
+      "relevance_score": 0.47878787878787876,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329301+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet",
+      "frequency": 18,
+      "relevance_score": 0.47878787878787876,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 18,
+      "relevance_score": 0.47878787878787876,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.336435+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s",
+      "frequency": 6,
+      "relevance_score": 0.4762626262626263,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.395118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 ml",
+      "frequency": 8,
+      "relevance_score": 0.4683501683501683,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.388616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate 4 ml",
+      "frequency": 3,
+      "relevance_score": 0.46313131313131317,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.409839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 ml h",
+      "frequency": 3,
+      "relevance_score": 0.46313131313131317,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.409978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate 5 ml",
+      "frequency": 3,
+      "relevance_score": 0.46313131313131317,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.410567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 ml h",
+      "frequency": 3,
+      "relevance_score": 0.46313131313131317,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.410706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient",
+      "frequency": 17,
+      "relevance_score": 0.4577441077441078,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.333264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infusion rate",
+      "frequency": 12,
+      "relevance_score": 0.45252525252525255,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.388757+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response time",
+      "frequency": 12,
+      "relevance_score": 0.45252525252525255,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.391818+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-layer security scheme",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.408022+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lithium-ion rechargeable battery",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.408302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 ml desired",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.409422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "desired rate 4",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.409701+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "desired rate 5",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.410396+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infusion duration 3600",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.410845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "duration 3600 s",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.410983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml h 1",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.411261+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 03 0",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.411399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "03 0 6",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.411538+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 4 5",
+      "frequency": 2,
+      "relevance_score": 0.4420875420875421,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.411676+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 16,
+      "relevance_score": 0.4367003367003367,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.332643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architecture",
+      "frequency": 4,
+      "relevance_score": 0.4341750841750842,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.391959+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k n toosi",
+      "frequency": 6,
+      "relevance_score": 0.42626262626262623,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.405740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "implantable medical devices",
+      "frequency": 6,
+      "relevance_score": 0.42626262626262623,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.407601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patients",
+      "frequency": 15,
+      "relevance_score": 0.4156565656565656,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.335691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication process",
+      "frequency": 3,
+      "relevance_score": 0.4131313131313131,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.397696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "infusion process",
+      "frequency": 3,
+      "relevance_score": 0.4131313131313131,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.398971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average response time",
+      "frequency": 5,
+      "relevance_score": 0.4052188552188552,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.407321+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 7,
+      "relevance_score": 0.3973063973063973,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.362478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wearable",
+      "frequency": 14,
+      "relevance_score": 0.39461279461279464,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "things",
+      "frequency": 14,
+      "relevance_score": 0.39461279461279464,
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.329743+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:37.411895+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:37.412083+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

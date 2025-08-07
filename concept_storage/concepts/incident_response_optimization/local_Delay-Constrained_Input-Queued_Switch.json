@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Delay-Constrained_Input-Queued_Switch",
+  "paper_title": "Delay-Constrained Input-Queued Switch",
+  "concepts": [
+    {
+      "text": "0 0",
+      "frequency": 169,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.241620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 134,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.466138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 54,
+      "relevance_score": 0.762368353454919,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.261145+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0",
+      "frequency": 52,
+      "relevance_score": 0.7452435996232555,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.243295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 36,
+      "relevance_score": 0.7082455689699461,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.433437+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 69,
+      "relevance_score": 0.6908040071923965,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.908429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matrix",
+      "frequency": 69,
+      "relevance_score": 0.6908040071923965,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.978174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 0",
+      "frequency": 33,
+      "relevance_score": 0.6825584382224504,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.465806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 1",
+      "frequency": 30,
+      "relevance_score": 0.656871307474955,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.466471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "policy",
+      "frequency": 63,
+      "relevance_score": 0.6394297456974056,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.908776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling policy",
+      "frequency": 50,
+      "relevance_score": 0.6281188457915918,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.162086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "throughput",
+      "frequency": 59,
+      "relevance_score": 0.6051802380340783,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.906082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "timely throughput",
+      "frequency": 47,
+      "relevance_score": 0.6024317150440962,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.160734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "capacity region",
+      "frequency": 44,
+      "relevance_score": 0.5767445842966008,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.161080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1",
+      "frequency": 31,
+      "relevance_score": 0.5654336843907869,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.201467+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "timely",
+      "frequency": 51,
+      "relevance_score": 0.5366812227074236,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.905746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "switch",
+      "frequency": 50,
+      "relevance_score": 0.5281188457915917,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.890503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "delay-constrained",
+      "frequency": 38,
+      "relevance_score": 0.5253703228016098,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.889781+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8i j2 n¼",
+      "frequency": 13,
+      "relevance_score": 0.5113108999058138,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.394723+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 1",
+      "frequency": 13,
+      "relevance_score": 0.5113108999058138,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.468201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "input-queued",
+      "frequency": 36,
+      "relevance_score": 0.5082455689699461,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.890148+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 1",
+      "frequency": 12,
+      "relevance_score": 0.502748522989982,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.434102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 0",
+      "frequency": 12,
+      "relevance_score": 0.502748522989982,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.467863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 29,
+      "relevance_score": 0.4983089305591232,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.947771+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1",
+      "frequency": 23,
+      "relevance_score": 0.4969346690641322,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.214280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "capacity",
+      "frequency": 46,
+      "relevance_score": 0.4938693381282644,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.906753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "input-queued switch",
+      "frequency": 22,
+      "relevance_score": 0.48837229214830036,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.152956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 1",
+      "frequency": 10,
+      "relevance_score": 0.4856237691583183,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.467531+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "region",
+      "frequency": 45,
+      "relevance_score": 0.48530696121243255,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.907088+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1nõ j 1qi",
+      "frequency": 9,
+      "relevance_score": 0.47706139224248656,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.445646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matching",
+      "frequency": 44,
+      "relevance_score": 0.4767445842966007,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:27.981206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networked control systems",
+      "frequency": 3,
+      "relevance_score": 0.47568713074749547,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.463800+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "feasibility-optimal scheduling policy",
+      "frequency": 8,
+      "relevance_score": 0.4684990153266547,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.381330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166374,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.159391+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time systems",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166374,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.351695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multimedia communication systems",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166363,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.367118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networked controlled systems",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166363,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.368131+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov decision process",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166363,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.369224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision process mdp",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166363,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.369581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process mdp theory",
+      "frequency": 2,
+      "relevance_score": 0.46712475383166363,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.369969+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "frame-synchronized trafﬁc pattern",
+      "frequency": 7,
+      "relevance_score": 0.4599366384108229,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.371403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "delay-constrained input-queued switches",
+      "frequency": 7,
+      "relevance_score": 0.4599366384108229,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.377516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "delay-constrained input- queued",
+      "frequency": 6,
+      "relevance_score": 0.45137426149499105,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.366450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n n1 t-bounded",
+      "frequency": 6,
+      "relevance_score": 0.45137426149499105,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.430407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n1 t-bounded doubly",
+      "frequency": 6,
+      "relevance_score": 0.45137426149499105,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.430749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n¼ t2 t¼",
+      "frequency": 6,
+      "relevance_score": 0.45137426149499105,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.447647+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "input- queued switches",
+      "frequency": 5,
+      "relevance_score": 0.4428118845791592,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.379607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1 8i2",
+      "frequency": 5,
+      "relevance_score": 0.4428118845791592,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.392650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 8i2 n¼",
+      "frequency": 5,
+      "relevance_score": 0.4428118845791592,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.392997+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1 8j2",
+      "frequency": 5,
+      "relevance_score": 0.4428118845791592,
+      "source_papers": [
+        "local/Delay-Constrained_Input-Queued_Switch"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:28.393341+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:28.474978+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:28.475181+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

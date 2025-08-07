@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems",
+  "paper_title": "A Game-theoretic Framework for Security-aware Sensor Placement Problem in Networked Control Systems",
+  "concepts": [
+    {
+      "text": "game",
+      "frequency": 94,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.308667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1",
+      "frequency": 47,
+      "relevance_score": 0.9216108980293612,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.437658+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "leader",
+      "frequency": 58,
+      "relevance_score": 0.8670942996958074,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.316787+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 56,
+      "relevance_score": 0.84064277212009,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.308878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker-detector game",
+      "frequency": 33,
+      "relevance_score": 0.7364502049993388,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.417188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detector",
+      "frequency": 48,
+      "relevance_score": 0.73483666181722,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.309091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "directed",
+      "frequency": 46,
+      "relevance_score": 0.7083851342415024,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.315734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 42,
+      "relevance_score": 0.6554820790900674,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.305515+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "undirected",
+      "frequency": 42,
+      "relevance_score": 0.6554820790900674,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.315944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker-detector",
+      "frequency": 34,
+      "relevance_score": 0.6496759687871975,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.314681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1 g",
+      "frequency": 18,
+      "relevance_score": 0.6380637481814574,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.489012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 27,
+      "relevance_score": 0.6070956222721863,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.305776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 25,
+      "relevance_score": 0.5806440946964687,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.307609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 g",
+      "frequency": 20,
+      "relevance_score": 0.564515275757175,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.440404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system l2gain",
+      "frequency": 7,
+      "relevance_score": 0.5425803465150113,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.416344+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 33,
+      "relevance_score": 0.5364502049993387,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.310212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networked control system",
+      "frequency": 5,
+      "relevance_score": 0.5161288189392937,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.482890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cl 1 gb",
+      "frequency": 8,
+      "relevance_score": 0.5058061103028699,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.488459+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 gb",
+      "frequency": 15,
+      "relevance_score": 0.4983864568178812,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.439349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max cl 1",
+      "frequency": 7,
+      "relevance_score": 0.49258034651501126,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.488115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 g ij",
+      "frequency": 7,
+      "relevance_score": 0.49258034651501126,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.489233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1 gd",
+      "frequency": 7,
+      "relevance_score": 0.49258034651501126,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.505507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 3,
+      "relevance_score": 0.4896772913635763,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.479505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networked control systems",
+      "frequency": 3,
+      "relevance_score": 0.4896772913635762,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.482679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems",
+      "frequency": 10,
+      "relevance_score": 0.48225763787858755,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.414657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1 gis",
+      "frequency": 6,
+      "relevance_score": 0.4793545827271525,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.487887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game-theoretic approaches",
+      "frequency": 2,
+      "relevance_score": 0.4764515275757175,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.420857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f 1",
+      "frequency": 13,
+      "relevance_score": 0.47193492924216374,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.425205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 28,
+      "relevance_score": 0.47032138606004503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.313185+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tree",
+      "frequency": 28,
+      "relevance_score": 0.47032138606004503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.316155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker- detector game",
+      "frequency": 5,
+      "relevance_score": 0.4661288189392937,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.484624+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 27,
+      "relevance_score": 0.45709562227218625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.315524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "matrix",
+      "frequency": 27,
+      "relevance_score": 0.45709562227218625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.347941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "case",
+      "frequency": 27,
+      "relevance_score": 0.45709562227218625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.364919+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 4",
+      "frequency": 4,
+      "relevance_score": 0.45290305515143503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.498123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 n",
+      "frequency": 4,
+      "relevance_score": 0.45290305515143503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.498864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1 gb",
+      "frequency": 4,
+      "relevance_score": 0.45290305515143503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.501498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a1 ij a2",
+      "frequency": 4,
+      "relevance_score": 0.45290305515143503,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.502563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cl 1",
+      "frequency": 11,
+      "relevance_score": 0.4454834016664463,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.439138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system",
+      "frequency": 7,
+      "relevance_score": 0.4425803465150112,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.415079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 gb max",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.492476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 3",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.493534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stackelberg attacker-detector game",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.494932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "satisfying assumption 1",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.497596+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c l 1",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.501286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a1 ijis chosen",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.503565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l 1 gu",
+      "frequency": 3,
+      "relevance_score": 0.43967729136357625,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.504879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vi vj 2e",
+      "frequency": 2,
+      "relevance_score": 0.42645152757571747,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.484387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t x vi2nj",
+      "frequency": 2,
+      "relevance_score": 0.42645152757571747,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.485079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x vi2nj xi",
+      "frequency": 2,
+      "relevance_score": 0.42645152757571747,
+      "source_papers": [
+        "local/A_Game-theoretic_Framework_for_Security-aware_Sensor_Placement_Problem_in_Networked_Control_Systems"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:40:09.485303+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:40:09.506711+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:40:09.506881+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

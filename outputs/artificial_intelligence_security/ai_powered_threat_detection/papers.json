@@ -1,0 +1,58 @@
+{
+  "config_name": "artificial_intelligence_security",
+  "strategy_name": "ai_powered_threat_detection",
+  "processed_at": "2025-08-07T09:34:26.244480+00:00",
+  "total_papers": 3,
+  "papers": [
+    {
+      "title": "Enhancing Phishing Detection through Feature Importance Analysis and   Explainable AI: A Comparative Study of CatBoost, XGBoost, and EBM Models",
+      "authors": [
+        "Abdullah Fajar",
+        "Setiadi Yazid",
+        "Indra Budi"
+      ],
+      "abstract": "Phishing attacks remain a persistent threat to online security, demanding robust detection methods. This study investigates the use of machine learning to identify phishing URLs, emphasizing the crucial role of feature selection and model interpretability for improved performance. Employing Recursive Feature Elimination, the research pinpointed key features like \"length_url,\" \"time_domain_activation\" and \"Page_rank\" as strong indicators of phishing attempts. The study evaluated various algorithms, including CatBoost, XGBoost, and Explainable Boosting Machine, assessing their robustness and scalability. XGBoost emerged as highly efficient in terms of runtime, making it well-suited for large datasets. CatBoost, on the other hand, demonstrated resilience by maintaining high accuracy even with reduced features. To enhance transparency and trustworthiness, Explainable AI techniques, such as SHAP, were employed to provide insights into feature importance. The study's findings highlight that effective feature selection and model interpretability can significantly bolster phishing detection systems, paving the way for more efficient and adaptable defenses against evolving cyber threats",
+      "publication_date": "2024-11-11T10:49:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2411.06860v1.pdf"
+    },
+    {
+      "title": "A Hybrid Deep Learning Anomaly Detection Framework for Intrusion   Detection",
+      "authors": [
+        "Rahul Kale",
+        "Zhi Lu",
+        "Kar Wai Fok",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "Cyber intrusion attacks that compromise the users' critical and sensitive data are escalating in volume and intensity, especially with the growing connections between our daily life and the Internet. The large volume and high complexity of such intrusion attacks have impeded the effectiveness of most traditional defence techniques. While at the same time, the remarkable performance of the machine learning methods, especially deep learning, in computer vision, had garnered research interests from the cyber security community to further enhance and automate intrusion detections. However, the expensive data labeling and limitation of anomalous data make it challenging to train an intrusion detector in a fully supervised manner. Therefore, intrusion detection based on unsupervised anomaly detection is an important feature too. In this paper, we propose a three-stage deep learning anomaly detection based network intrusion attack detection framework. The framework comprises an integration of unsupervised (K-means clustering), semi-supervised (GANomaly) and supervised learning (CNN) algorithms. We then evaluated and showed the performance of our implemented framework on three benchmark datasets: NSL-KDD, CIC-IDS2018, and TON_IoT.",
+      "publication_date": "2022-12-02T04:40:54+00:00",
+      "doi": "10.1109/BigDataSecurityHPSCIDS54978.2022.00034",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2212.00966v1.pdf"
+    },
+    {
+      "title": "CyberLearning: Effectiveness Analysis of Machine Learning Security   Modeling to Detect Cyber-Anomalies and Multi-Attacks",
+      "authors": [
+        "Iqbal H. Sarker"
+      ],
+      "abstract": "Detecting cyber-anomalies and attacks are becoming a rising concern these days in the domain of cybersecurity. The knowledge of artificial intelligence, particularly, the machine learning techniques can be used to tackle these issues. However, the effectiveness of a learning-based security model may vary depending on the security features and the data characteristics. In this paper, we present \"CyberLearning\", a machine learning-based cybersecurity modeling with correlated-feature selection, and a comprehensive empirical analysis on the effectiveness of various machine learning based security models. In our CyberLearning modeling, we take into account a binary classification model for detecting anomalies, and multi-class classification model for various types of cyber-attacks. To build the security model, we first employ the popular ten machine learning classification techniques, such as naive Bayes, Logistic regression, Stochastic gradient descent, K-nearest neighbors, Support vector machine, Decision Tree, Random Forest, Adaptive Boosting, eXtreme Gradient Boosting, as well as Linear discriminant analysis. We then present the artificial neural network-based security model considering multiple hidden layers. The effectiveness of these learning-based security models is examined by conducting a range of experiments utilizing the two most popular security datasets, UNSW-NB15 and NSL-KDD. Overall, this paper aims to serve as a reference point for data-driven security modeling through our experimental analysis and findings in the context of cybersecurity.",
+      "publication_date": "2021-03-28T18:47:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2104.08080v1.pdf"
+    }
+  ]
+}
