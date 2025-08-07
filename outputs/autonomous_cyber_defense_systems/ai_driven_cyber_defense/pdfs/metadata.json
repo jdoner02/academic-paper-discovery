@@ -1,0 +1,799 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T15:56:58.230648+00:00",
+    "strategy_name": "AI-Driven Cyber Defense and Adaptive Security",
+    "total_papers": 45,
+    "download_directory": "outputs/autonomous_cyber_defense_systems/ai_driven_cyber_defense/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Use of Artificial Intelligence Techniques / Applications in Cyber   Defense",
+      "authors": [
+        "Ensar Şeker"
+      ],
+      "abstract": "Nowadays, considering the speed of the processes and the amount of data used in cyber defense, it cannot be expected to have an effective defense by using only human power without the help of automation systems. However, for the effective defense against dynamically evolving attacks on networks, it is difficult to develop software with conventional fixed algorithms. This can be achieved by using artificial intelligence methods that provide flexibility and learning capability. The likelihood of developing cyber defense capabilities through increased intelligence of defense systems is quite high. Given the problems associated with cyber defense in real life, it is clear that many cyber defense problems can be successfully solved only when artificial intelligence methods are used. In this article, the current artificial intelligence practices and techniques are reviewed and the use and importance of artificial intelligence in cyber defense systems is mentioned. The aim of this article is to be able to explain the use of these methods in the field of cyber defense with current examples by considering and analyzing the artificial intelligence technologies and methodologies that are currently being developed and integrating them with the role and adaptation of the technology and methodology in the defense of cyberspace.",
+      "publication_date": "2019-05-24T13:22:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "1905.12556v1"
+    },
+    {
+      "title": "Autonomous Cyber Defense Introduces Risk: Can We Manage the Risk?",
+      "authors": [
+        "Alexandre K. Ligo",
+        "Alexander Kott",
+        "Igor Linkov"
+      ],
+      "abstract": "From denial-of-service attacks to spreading of ransomware or other malware across an organization's network, it is possible that manually operated defenses are not able to respond in real time at the scale required, and when a breach is detected and remediated the damage is already made. Autonomous cyber defenses therefore become essential to mitigate the risk of successful attacks and their damage, especially when the response time, effort and accuracy required in those defenses is impractical or impossible through defenses operated exclusively by humans. Autonomous agents have the potential to use ML with large amounts of data about known cyberattacks as input, in order to learn patterns and predict characteristics of future attacks. Moreover, learning from past and present attacks enable defenses to adapt to new threats that share characteristics with previous attacks. On the other hand, autonomous cyber defenses introduce risks of unintended harm. Actions arising from autonomous defense agents may have harmful consequences of functional, safety, security, ethical, or moral nature. Here we focus on machine learning training, algorithmic feedback, and algorithmic constraints, with the aim of motivating a discussion on achieving trust in autonomous cyber defenses.",
+      "publication_date": "2022-01-26T19:08:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2201.11148v1"
+    },
+    {
+      "title": "Deep Reinforcement Learning for Cyber Security",
+      "authors": [
+        "Thanh Thi Nguyen",
+        "Vijay Janapa Reddi"
+      ],
+      "abstract": "The scale of Internet-connected systems has increased considerably, and these systems are being exposed to cyber attacks more than ever. The complexity and dynamics of cyber attacks require protecting mechanisms to be responsive, adaptive, and scalable. Machine learning, or more specifically deep reinforcement learning (DRL), methods have been proposed widely to address these issues. By incorporating deep learning into traditional RL, DRL is highly capable of solving complex, dynamic, and especially high-dimensional cyber defense problems. This paper presents a survey of DRL approaches developed for cyber security. We touch on different vital aspects, including DRL-based security methods for cyber-physical systems, autonomous intrusion detection techniques, and multiagent DRL-based game theory simulations for defense strategies against cyber attacks. Extensive discussions and future research directions on DRL-based cyber security are also given. We expect that this comprehensive review provides the foundations for and facilitates future studies on exploring the potential of emerging DRL to cope with increasingly complex cyber security problems.",
+      "publication_date": "2019-06-13T16:34:12+00:00",
+      "doi": "10.1109/TNNLS.2021.3121870",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1906.05799v4"
+    },
+    {
+      "title": "Autonomous Threat Hunting: A Future Paradigm for AI-Driven Threat   Intelligence",
+      "authors": [
+        "Siva Raja Sindiramutty"
+      ],
+      "abstract": "The evolution of cybersecurity has spurred the emergence of autonomous threat hunting as a pivotal paradigm in the realm of AI-driven threat intelligence. This review navigates through the intricate landscape of autonomous threat hunting, exploring its significance and pivotal role in fortifying cyber defense mechanisms. Delving into the amalgamation of artificial intelligence (AI) and traditional threat intelligence methodologies, this paper delineates the necessity and evolution of autonomous approaches in combating contemporary cyber threats. Through a comprehensive exploration of foundational AI-driven threat intelligence, the review accentuates the transformative influence of AI and machine learning on conventional threat intelligence practices. It elucidates the conceptual framework underpinning autonomous threat hunting, spotlighting its components, and the seamless integration of AI algorithms within threat hunting processes.. Insightful discussions on challenges encompassing scalability, interpretability, and ethical considerations in AI-driven models enrich the discourse. Moreover, through illuminating case studies and evaluations, this paper showcases real-world implementations, underscoring success stories and lessons learned by organizations adopting AI-driven threat intelligence. In conclusion, this review consolidates key insights, emphasizing the substantial implications of autonomous threat hunting for the future of cybersecurity. It underscores the significance of continual research and collaborative efforts in harnessing the potential of AI-driven approaches to fortify cyber defenses against evolving threats.",
+      "publication_date": "2023-12-30T17:36:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2401.00286v1"
+    },
+    {
+      "title": "CyberLearning: Effectiveness Analysis of Machine Learning Security   Modeling to Detect Cyber-Anomalies and Multi-Attacks",
+      "authors": [
+        "Iqbal H. Sarker"
+      ],
+      "abstract": "Detecting cyber-anomalies and attacks are becoming a rising concern these days in the domain of cybersecurity. The knowledge of artificial intelligence, particularly, the machine learning techniques can be used to tackle these issues. However, the effectiveness of a learning-based security model may vary depending on the security features and the data characteristics. In this paper, we present \"CyberLearning\", a machine learning-based cybersecurity modeling with correlated-feature selection, and a comprehensive empirical analysis on the effectiveness of various machine learning based security models. In our CyberLearning modeling, we take into account a binary classification model for detecting anomalies, and multi-class classification model for various types of cyber-attacks. To build the security model, we first employ the popular ten machine learning classification techniques, such as naive Bayes, Logistic regression, Stochastic gradient descent, K-nearest neighbors, Support vector machine, Decision Tree, Random Forest, Adaptive Boosting, eXtreme Gradient Boosting, as well as Linear discriminant analysis. We then present the artificial neural network-based security model considering multiple hidden layers. The effectiveness of these learning-based security models is examined by conducting a range of experiments utilizing the two most popular security datasets, UNSW-NB15 and NSL-KDD. Overall, this paper aims to serve as a reference point for data-driven security modeling through our experimental analysis and findings in the context of cybersecurity.",
+      "publication_date": "2021-03-28T18:47:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2104.08080v1"
+    },
+    {
+      "title": "Adaptive Attack Detection in Text Classification: Leveraging Space   Exploration Features for Text Sentiment Classification",
+      "authors": [
+        "Atefeh Mahdavi",
+        "Neda Keivandarian",
+        "Marco Carvalho"
+      ],
+      "abstract": "Adversarial example detection plays a vital role in adaptive cyber defense, especially in the face of rapidly evolving attacks. In adaptive cyber defense, the nature and characteristics of attacks continuously change, making it crucial to have robust mechanisms in place to detect and counter these threats effectively. By incorporating adversarial example detection techniques, adaptive cyber defense systems can enhance their ability to identify and mitigate attacks that attempt to exploit vulnerabilities in machine learning models or other systems. Adversarial examples are inputs that are crafted by applying intentional perturbations to natural inputs that result in incorrect classification. In this paper, we propose a novel approach that leverages the power of BERT (Bidirectional Encoder Representations from Transformers) and introduces the concept of Space Exploration Features. We utilize the feature vectors obtained from the BERT model's output to capture a new representation of feature space to improve the density estimation method.",
+      "publication_date": "2023-08-29T23:02:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2308.15663v1"
+    },
+    {
+      "title": "A Survey on Explainable Artificial Intelligence for Cybersecurity",
+      "authors": [
+        "Gaith Rjoub",
+        "Jamal Bentahar",
+        "Omar Abdel Wahab",
+        "Rabeb Mizouni",
+        "Alyssa Song",
+        "Robin Cohen",
+        "Hadi Otrok",
+        "Azzam Mourad"
+      ],
+      "abstract": "The black-box nature of artificial intelligence (AI) models has been the source of many concerns in their use for critical applications. Explainable Artificial Intelligence (XAI) is a rapidly growing research field that aims to create machine learning models that can provide clear and interpretable explanations for their decisions and actions. In the field of network cybersecurity, XAI has the potential to revolutionize the way we approach network security by enabling us to better understand the behavior of cyber threats and to design more effective defenses. In this survey, we review the state of the art in XAI for cybersecurity in network systems and explore the various approaches that have been proposed to address this important problem. The review follows a systematic classification of network-driven cybersecurity threats and issues. We discuss the challenges and limitations of current XAI methods in the context of cybersecurity and outline promising directions for future research.",
+      "publication_date": "2023-03-07T22:54:18+00:00",
+      "doi": "10.1109/TNSM.2023.3282740",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.12942v2"
+    },
+    {
+      "title": "Designing Robust Cyber-Defense Agents with Evolving Behavior Trees",
+      "authors": [
+        "Nicholas Potteiger",
+        "Ankita Samaddar",
+        "Hunter Bergstrom",
+        "Xenofon Koutsoukos"
+      ],
+      "abstract": "Modern network defense can benefit from the use of autonomous systems, offloading tedious and time-consuming work to agents with standard and learning-enabled components. These agents, operating on critical network infrastructure, need to be robust and trustworthy to ensure defense against adaptive cyber-attackers and, simultaneously, provide explanations for their actions and network activity. However, learning-enabled components typically use models, such as deep neural networks, that are not transparent in their high-level decision-making leading to assurance challenges. Additionally, cyber-defense agents must execute complex long-term defense tasks in a reactive manner that involve coordination of multiple interdependent subtasks. Behavior trees are known to be successful in modelling interpretable, reactive, and modular agent policies with learning-enabled components. In this paper, we develop an approach to design autonomous cyber defense agents using behavior trees with learning-enabled components, which we refer to as Evolving Behavior Trees (EBTs). We learn the structure of an EBT with a novel abstract cyber environment and optimize learning-enabled components for deployment. The learning-enabled components are optimized for adapting to various cyber-attacks and deploying security mechanisms. The learned EBT structure is evaluated in a simulated cyber environment, where it effectively mitigates threats and enhances network visibility. For deployment, we develop a software architecture for evaluating EBT-based agents in computer network defense scenarios. Our results demonstrate that the EBT-based agent is robust to adaptive cyber-attacks and provides high-level explanations for interpreting its decisions and actions.",
+      "publication_date": "2024-10-21T18:00:38+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2410.16383v1"
+    },
+    {
+      "title": "Human-AI Collaboration in Cloud Security: Cognitive Hierarchy-Driven   Deep Reinforcement Learning",
+      "authors": [
+        "Zahra Aref",
+        "Sheng Wei",
+        "Narayan B. Mandayam"
+      ],
+      "abstract": "Given the complexity of multi-tenant cloud environments and the growing need for real-time threat mitigation, Security Operations Centers (SOCs) must adopt AI-driven adaptive defense mechanisms to counter Advanced Persistent Threats (APTs). However, SOC analysts face challenges in handling adaptive adversarial tactics, requiring intelligent decision-support frameworks. We propose a Cognitive Hierarchy Theory-driven Deep Q-Network (CHT-DQN) framework that models interactive decision-making between SOC analysts and AI-driven APT bots. The SOC analyst (defender) operates at cognitive level-1, anticipating attacker strategies, while the APT bot (attacker) follows a level-0 policy. By incorporating CHT into DQN, our framework enhances adaptive SOC defense using Attack Graph (AG)-based reinforcement learning. Simulation experiments across varying AG complexities show that CHT-DQN consistently achieves higher data protection and lower action discrepancies compared to standard DQN. A theoretical lower bound further confirms its superiority as AG complexity increases. A human-in-the-loop (HITL) evaluation on Amazon Mechanical Turk (MTurk) reveals that SOC analysts using CHT-DQN-derived transition probabilities align more closely with adaptive attackers, leading to better defense outcomes. Moreover, human behavior aligns with Prospect Theory (PT) and Cumulative Prospect Theory (CPT): participants are less likely to reselect failed actions and more likely to persist with successful ones. This asymmetry reflects amplified loss sensitivity and biased probability weighting -- underestimating gains after failure and overestimating continued success. Our findings highlight the potential of integrating cognitive models into deep reinforcement learning to improve real-time SOC decision-making for cloud security.",
+      "publication_date": "2025-02-22T03:19:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.16054v2"
+    },
+    {
+      "title": "Towards Adversarial Realism and Robust Learning for IoT Intrusion   Detection and Classification",
+      "authors": [
+        "João Vitorino",
+        "Isabel Praça",
+        "Eva Maia"
+      ],
+      "abstract": "The Internet of Things (IoT) faces tremendous security challenges. Machine learning models can be used to tackle the growing number of cyber-attack variations targeting IoT systems, but the increasing threat posed by adversarial attacks restates the need for reliable defense strategies. This work describes the types of constraints required for a realistic adversarial cyber-attack example and proposes a methodology for a trustworthy adversarial robustness analysis with a realistic adversarial evasion attack vector. The proposed methodology was used to evaluate three supervised algorithms, Random Forest (RF), Extreme Gradient Boosting (XGB), and Light Gradient Boosting Machine (LGBM), and one unsupervised algorithm, Isolation Forest (IFOR). Constrained adversarial examples were generated with the Adaptative Perturbation Pattern Method (A2PM), and evasion attacks were performed against models created with regular and adversarial training. Even though RF was the least affected in binary classification, XGB consistently achieved the highest accuracy in multi-class classification. The obtained results evidence the inherent susceptibility of tree-based algorithms and ensembles to adversarial evasion attacks and demonstrates the benefits of adversarial training and a security by design approach for a more robust IoT network intrusion detection and cyber-attack classification.",
+      "publication_date": "2023-01-30T18:00:28+00:00",
+      "doi": "10.1007/s12243-023-00953-y",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2301.13122v3"
+    },
+    {
+      "title": "Out-of-Distribution Detection for Neurosymbolic Autonomous Cyber Agents",
+      "authors": [
+        "Ankita Samaddar",
+        "Nicholas Potteiger",
+        "Xenofon Koutsoukos"
+      ],
+      "abstract": "Autonomous agents for cyber applications take advantage of modern defense techniques by adopting intelligent agents with conventional and learning-enabled components. These intelligent agents are trained via reinforcement learning (RL) algorithms, and can learn, adapt to, reason about and deploy security rules to defend networked computer systems while maintaining critical operational workflows. However, the knowledge available during training about the state of the operational network and its environment may be limited. The agents should be trustworthy so that they can reliably detect situations they cannot handle, and hand them over to cyber experts. In this work, we develop an out-of-distribution (OOD) Monitoring algorithm that uses a Probabilistic Neural Network (PNN) to detect anomalous or OOD situations of RL-based agents with discrete states and discrete actions. To demonstrate the effectiveness of the proposed approach, we integrate the OOD monitoring algorithm with a neurosymbolic autonomous cyber agent that uses behavior trees with learning-enabled components. We evaluate the proposed approach in a simulated cyber environment under different adversarial strategies. Experimental results over a large number of episodes illustrate the overall efficiency of our proposed approach.",
+      "publication_date": "2024-12-03T22:20:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2412.02875v1"
+    },
+    {
+      "title": "Software Repositories and Machine Learning Research in Cyber Security",
+      "authors": [
+        "Mounika Vanamala",
+        "Keith Bryant",
+        "Alex Caravella"
+      ],
+      "abstract": "In today's rapidly evolving technological landscape and advanced software development, the rise in cyber security attacks has become a pressing concern. The integration of robust cyber security defenses has become essential across all phases of software development. It holds particular significance in identifying critical cyber security vulnerabilities at the initial stages of the software development life cycle, notably during the requirement phase. Through the utilization of cyber security repositories like The Common Attack Pattern Enumeration and Classification (CAPEC) from MITRE and the Common Vulnerabilities and Exposures (CVE) databases, attempts have been made to leverage topic modeling and machine learning for the detection of these early-stage vulnerabilities in the software requirements process. Past research themes have returned successful outcomes in attempting to automate vulnerability identification for software developers, employing a mixture of unsupervised machine learning methodologies such as LDA and topic modeling. Looking ahead, in our pursuit to improve automation and establish connections between software requirements and vulnerabilities, our strategy entails adopting a variety of supervised machine learning techniques. This array encompasses Support Vector Machines (SVM), Na\\\"ive Bayes, random forest, neural networking and eventually transitioning into deep learning for our investigation. In the face of the escalating complexity of cyber security, the question of whether machine learning can enhance the identification of vulnerabilities in diverse software development scenarios is a paramount consideration, offering crucial assistance to software developers in developing secure software.",
+      "publication_date": "2023-11-01T17:46:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "2311.00691v1"
+    },
+    {
+      "title": "Deep Q-Learning based Reinforcement Learning Approach for Network   Intrusion Detection",
+      "authors": [
+        "Hooman Alavizadeh",
+        "Julian Jang-Jaccard",
+        "Hootan Alavizadeh"
+      ],
+      "abstract": "The rise of the new generation of cyber threats demands more sophisticated and intelligent cyber defense solutions equipped with autonomous agents capable of learning to make decisions without the knowledge of human experts. Several reinforcement learning methods (e.g., Markov) for automated network intrusion tasks have been proposed in recent years. In this paper, we introduce a new generation of network intrusion detection methods that combines a Q-learning-based reinforcement learning with a deep-feed forward neural network method for network intrusion detection. Our proposed Deep Q-Learning (DQL) model provides an ongoing auto-learning capability for a network environment that can detect different types of network intrusions using an automated trial-error approach and continuously enhance its detection capabilities. We provide the details of fine-tuning different hyperparameters involved in the DQL model for more effective self-learning. According to our extensive experimental results based on the NSL-KDD dataset, we confirm that the lower discount factor which is set as 0.001 under 250 episodes of training yields the best performance results. Our experimental results also show that our proposed DQL is highly effective in detecting different intrusion classes and outperforms other similar machine learning approaches.",
+      "publication_date": "2021-11-27T20:18:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2111.13978v1"
+    },
+    {
+      "title": "Using a Collated Cybersecurity Dataset for Machine Learning and   Artificial Intelligence",
+      "authors": [
+        "Erik Hemberg",
+        "Una-May O'Reilly"
+      ],
+      "abstract": "Artificial Intelligence (AI) and Machine Learning (ML) algorithms can support the span of indicator-level, e.g. anomaly detection, to behavioral level cyber security modeling and inference. This contribution is based on a dataset named BRON which is amalgamated from public threat and vulnerability behavioral sources. We demonstrate how BRON can support prediction of related threat techniques and attack patterns. We also discuss other AI and ML uses of BRON to exploit its behavioral knowledge.",
+      "publication_date": "2021-08-05T13:52:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2108.02618v1"
+    },
+    {
+      "title": "Multi-Agent Actor-Critics in Autonomous Cyber Defense",
+      "authors": [
+        "Mingjun Wang",
+        "Remington Dechene"
+      ],
+      "abstract": "The need for autonomous and adaptive defense mechanisms has become paramount in the rapidly evolving landscape of cyber threats. Multi-Agent Deep Reinforcement Learning (MADRL) presents a promising approach to enhancing the efficacy and resilience of autonomous cyber operations. This paper explores the application of Multi-Agent Actor-Critic algorithms which provides a general form in Multi-Agent learning to cyber defense, leveraging the collaborative interactions among multiple agents to detect, mitigate, and respond to cyber threats. We demonstrate each agent is able to learn quickly and counter act on the threats autonomously using MADRL in simulated cyber-attack scenarios. The results indicate that MADRL can significantly enhance the capability of autonomous cyber defense systems, paving the way for more intelligent cybersecurity strategies. This study contributes to the growing body of knowledge on leveraging artificial intelligence for cybersecurity and sheds light for future research and development in autonomous cyber operations.",
+      "publication_date": "2024-10-11T15:15:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.09134v1"
+    },
+    {
+      "title": "siForest: Detecting Network Anomalies with Set-Structured Isolation   Forest",
+      "authors": [
+        "Christie Djidjev"
+      ],
+      "abstract": "As cyber threats continue to evolve in sophistication and scale, the ability to detect anomalous network behavior has become critical for maintaining robust cybersecurity defenses. Modern cybersecurity systems face the overwhelming challenge of analyzing billions of daily network interactions to identify potential threats, making efficient and accurate anomaly detection algorithms crucial for network defense. This paper investigates the use of variations of the Isolation Forest (iForest) machine learning algorithm for detecting anomalies in internet scan data. In particular, it presents the Set-Partitioned Isolation Forest (siForest), a novel extension of the iForest method designed to detect anomalies in set-structured data. By treating instances such as sets of multiple network scans with the same IP address as cohesive units, siForest effectively addresses some challenges of analyzing complex, multidimensional datasets. Extensive experiments on synthetic datasets simulating diverse anomaly scenarios in network traffic demonstrate that siForest has the potential to outperform traditional approaches on some types of internet scan data.",
+      "publication_date": "2024-12-08T18:18:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2412.06015v1"
+    },
+    {
+      "title": "Transforming Cyber Defense: Harnessing Agentic and Frontier AI for   Proactive, Ethical Threat Intelligence",
+      "authors": [
+        "Krti Tallam"
+      ],
+      "abstract": "In an era marked by unprecedented digital complexity, the cybersecurity landscape is evolving at a breakneck pace, challenging traditional defense paradigms. Advanced Persistent Threats (APTs) reveal inherent vulnerabilities in conventional security measures and underscore the urgent need for continuous, adaptive, and proactive strategies that seamlessly integrate human insight with cutting edge AI technologies. This manuscript explores how the convergence of agentic AI and Frontier AI is transforming cybersecurity by reimagining frameworks such as the cyber kill chain, enhancing threat intelligence processes, and embedding robust ethical governance within automated response systems. Drawing on real-world data and forward looking perspectives, we examine the roles of real time monitoring, automated incident response, and perpetual learning in forging a resilient, dynamic defense ecosystem. Our vision is to harmonize technological innovation with unwavering ethical oversight, ensuring that future AI driven security solutions uphold core human values of fairness, transparency, and accountability while effectively countering emerging cyber threats.",
+      "publication_date": "2025-02-28T20:23:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.00164v1"
+    },
+    {
+      "title": "A Hybrid Deep Learning Anomaly Detection Framework for Intrusion   Detection",
+      "authors": [
+        "Rahul Kale",
+        "Zhi Lu",
+        "Kar Wai Fok",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "Cyber intrusion attacks that compromise the users' critical and sensitive data are escalating in volume and intensity, especially with the growing connections between our daily life and the Internet. The large volume and high complexity of such intrusion attacks have impeded the effectiveness of most traditional defence techniques. While at the same time, the remarkable performance of the machine learning methods, especially deep learning, in computer vision, had garnered research interests from the cyber security community to further enhance and automate intrusion detections. However, the expensive data labeling and limitation of anomalous data make it challenging to train an intrusion detector in a fully supervised manner. Therefore, intrusion detection based on unsupervised anomaly detection is an important feature too. In this paper, we propose a three-stage deep learning anomaly detection based network intrusion attack detection framework. The framework comprises an integration of unsupervised (K-means clustering), semi-supervised (GANomaly) and supervised learning (CNN) algorithms. We then evaluated and showed the performance of our implemented framework on three benchmark datasets: NSL-KDD, CIC-IDS2018, and TON_IoT.",
+      "publication_date": "2022-12-02T04:40:54+00:00",
+      "doi": "10.1109/BigDataSecurityHPSCIDS54978.2022.00034",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2212.00966v1"
+    },
+    {
+      "title": "Adversarial Deep Ensemble: Evasion Attacks and Defenses for Malware   Detection",
+      "authors": [
+        "Deqiang Li",
+        "Qianmu Li"
+      ],
+      "abstract": "Malware remains a big threat to cyber security, calling for machine learning based malware detection. While promising, such detectors are known to be vulnerable to evasion attacks. Ensemble learning typically facilitates countermeasures, while attackers can leverage this technique to improve attack effectiveness as well. This motivates us to investigate which kind of robustness the ensemble defense or effectiveness the ensemble attack can achieve, particularly when they combat with each other. We thus propose a new attack approach, named mixture of attacks, by rendering attackers capable of multiple generative methods and multiple manipulation sets, to perturb a malware example without ruining its malicious functionality. This naturally leads to a new instantiation of adversarial training, which is further geared to enhancing the ensemble of deep neural networks. We evaluate defenses using Android malware detectors against 26 different attacks upon two practical datasets. Experimental results show that the new adversarial training significantly enhances the robustness of deep neural networks against a wide range of attacks, ensemble methods promote the robustness when base classifiers are robust enough, and yet ensemble attacks can evade the enhanced malware detectors effectively, even notably downgrading the VirusTotal service.",
+      "publication_date": "2020-06-30T05:56:33+00:00",
+      "doi": "10.1109/TIFS.2020.3003571",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2006.16545v1"
+    },
+    {
+      "title": "Review: Deep Learning Methods for Cybersecurity and Intrusion Detection   Systems",
+      "authors": [
+        "Mayra Macas",
+        "Chunming Wu"
+      ],
+      "abstract": "As the number of cyber-attacks is increasing, cybersecurity is evolving to a key concern for any business. Artificial Intelligence (AI) and Machine Learning (ML) (in particular Deep Learning - DL) can be leveraged as key enabling technologies for cyber-defense, since they can contribute in threat detection and can even provide recommended actions to cyber analysts. A partnership of industry, academia, and government on a global scale is necessary in order to advance the adoption of AI/ML to cybersecurity and create efficient cyber defense systems. In this paper, we are concerned with the investigation of the various deep learning techniques employed for network intrusion detection and we introduce a DL framework for cybersecurity applications.",
+      "publication_date": "2020-12-04T23:09:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2012.02891v1"
+    },
+    {
+      "title": "Generating Cyber Threat Intelligence to Discover Potential Security   Threats Using Classification and Topic Modeling",
+      "authors": [
+        "Md Imran Hossen",
+        "Ashraful Islam",
+        "Farzana Anowar",
+        "Eshtiak Ahmed",
+        "Mohammad Masudur Rahman",
+        "Xiali",
+        "Hei"
+      ],
+      "abstract": "Due to the variety of cyber-attacks or threats, the cybersecurity community enhances the traditional security control mechanisms to an advanced level so that automated tools can encounter potential security threats. Very recently, Cyber Threat Intelligence (CTI) has been presented as one of the proactive and robust mechanisms because of its automated cybersecurity threat prediction. Generally, CTI collects and analyses data from various sources e.g., online security forums, social media where cyber enthusiasts, analysts, even cybercriminals discuss cyber or computer security-related topics and discovers potential threats based on the analysis. As the manual analysis of every such discussion (posts on online platforms) is time-consuming, inefficient, and susceptible to errors, CTI as an automated tool can perform uniquely to detect cyber threats. In this paper, we identify and explore relevant CTI from hacker forums utilizing different supervised (classification) and unsupervised learning (topic modeling) techniques. To this end, we collect data from a real hacker forum and constructed two datasets: a binary dataset and a multi-class dataset. We then apply several classifiers along with deep neural network-based classifiers and use them on the datasets to compare their performances. We also employ the classifiers on a labeled leaked dataset as our ground truth. We further explore the datasets using unsupervised techniques. For this purpose, we leverage two topic modeling algorithms namely Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NMF).",
+      "publication_date": "2021-08-16T02:30:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2108.06862v3"
+    },
+    {
+      "title": "Deepfakes, Misinformation, and Disinformation in the Era of Frontier AI,   Generative AI, and Large AI Models",
+      "authors": [
+        "Mohamed R. Shoaib",
+        "Zefan Wang",
+        "Milad Taleby Ahvanooey",
+        "Jun Zhao"
+      ],
+      "abstract": "With the advent of sophisticated artificial intelligence (AI) technologies, the proliferation of deepfakes and the spread of m/disinformation have emerged as formidable threats to the integrity of information ecosystems worldwide. This paper provides an overview of the current literature. Within the frontier AI's crucial application in developing defense mechanisms for detecting deepfakes, we highlight the mechanisms through which generative AI based on large models (LM-based GenAI) craft seemingly convincing yet fabricated contents. We explore the multifaceted implications of LM-based GenAI on society, politics, and individual privacy violations, underscoring the urgent need for robust defense strategies. To address these challenges, in this study, we introduce an integrated framework that combines advanced detection algorithms, cross-platform collaboration, and policy-driven initiatives to mitigate the risks associated with AI-Generated Content (AIGC). By leveraging multi-modal analysis, digital watermarking, and machine learning-based authentication techniques, we propose a defense mechanism adaptable to AI capabilities of ever-evolving nature. Furthermore, the paper advocates for a global consensus on the ethical usage of GenAI and implementing cyber-wellness educational programs to enhance public awareness and resilience against m/disinformation. Our findings suggest that a proactive and collaborative approach involving technological innovation and regulatory oversight is essential for safeguarding netizens while interacting with cyberspace against the insidious effects of deepfakes and GenAI-enabled m/disinformation campaigns.",
+      "publication_date": "2023-11-29T06:47:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.17394v1"
+    },
+    {
+      "title": "Generating Fake Cyber Threat Intelligence Using Transformer-Based Models",
+      "authors": [
+        "Priyanka Ranade",
+        "Aritran Piplai",
+        "Sudip Mittal",
+        "Anupam Joshi",
+        "Tim Finin"
+      ],
+      "abstract": "Cyber-defense systems are being developed to automatically ingest Cyber Threat Intelligence (CTI) that contains semi-structured data and/or text to populate knowledge graphs. A potential risk is that fake CTI can be generated and spread through Open-Source Intelligence (OSINT) communities or on the Web to effect a data poisoning attack on these systems. Adversaries can use fake CTI examples as training input to subvert cyber defense systems, forcing the model to learn incorrect inputs to serve their malicious needs.   In this paper, we automatically generate fake CTI text descriptions using transformers. We show that given an initial prompt sentence, a public language model like GPT-2 with fine-tuning, can generate plausible CTI text with the ability of corrupting cyber-defense systems. We utilize the generated fake CTI text to perform a data poisoning attack on a Cybersecurity Knowledge Graph (CKG) and a cybersecurity corpus. The poisoning attack introduced adverse impacts such as returning incorrect reasoning outputs, representation poisoning, and corruption of other dependent AI-based cyber defense systems. We evaluate with traditional approaches and conduct a human evaluation study with cybersecurity professionals and threat hunters. Based on the study, professional threat hunters were equally likely to consider our fake generated CTI as true.",
+      "publication_date": "2021-02-08T16:54:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2102.04351v3"
+    },
+    {
+      "title": "Few-shot Weakly-supervised Cybersecurity Anomaly Detection",
+      "authors": [
+        "Rahul Kale",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "With increased reliance on Internet based technologies, cyberattacks compromising users' sensitive data are becoming more prevalent. The scale and frequency of these attacks are escalating rapidly, affecting systems and devices connected to the Internet. The traditional defense mechanisms may not be sufficiently equipped to handle the complex and ever-changing new threats. The significant breakthroughs in the machine learning methods including deep learning, had attracted interests from the cybersecurity research community for further enhancements in the existing anomaly detection methods. Unfortunately, collecting labelled anomaly data for all new evolving and sophisticated attacks is not practical. Training and tuning the machine learning model for anomaly detection using only a handful of labelled data samples is a pragmatic approach. Therefore, few-shot weakly supervised anomaly detection is an encouraging research direction. In this paper, we propose an enhancement to an existing few-shot weakly-supervised deep learning anomaly detection framework. This framework incorporates data augmentation, representation learning and ordinal regression. We then evaluated and showed the performance of our implemented framework on three benchmark datasets: NSL-KDD, CIC-IDS2018, and TON_IoT.",
+      "publication_date": "2023-04-15T04:37:54+00:00",
+      "doi": "10.1016/j.cose.2023.103194",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2304.07470v1"
+    },
+    {
+      "title": "Markov Decision Process For Automatic Cyber Defense",
+      "authors": [
+        "Xiaofan Zhou",
+        "Simon Yusuf Enoch",
+        "Dong Seong Kim"
+      ],
+      "abstract": "It is challenging for a security analyst to detect or defend against cyber-attacks. Moreover, traditional defense deployment methods require the security analyst to manually enforce the defenses in the presence of uncertainties about the defense to deploy. As a result, it is essential to develop an automated and resilient defense deployment mechanism to thwart the new generation of attacks. In this paper, we propose a framework based on Markov Decision Process (MDP) and Q-learning to automatically generate optimal defense solutions for networked system states. The framework consists of four phases namely; the model initialization phase, model generation phase, Q-learning phase, and the conclusion phase. The proposed model collects real network information as inputs and then builds them into structural data. We implement a Q-learning process in the model to learn the quality of a defense action in a particular state. To investigate the feasibility of the proposed model, we perform simulation experiments and the result reveals that the model can reduce the risk of network systems from cyber attacks. Furthermore, the experiment shows that the model has shown a certain level of flexibility when different parameters are used for Q-learning.",
+      "publication_date": "2022-07-12T09:58:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2207.05436v2"
+    },
+    {
+      "title": "Game Theory Meets LLM and Agentic AI: Reimagining Cybersecurity for the   Age of Intelligent Threats",
+      "authors": [
+        "Quanyan Zhu"
+      ],
+      "abstract": "Protecting cyberspace requires not only advanced tools but also a shift in how we reason about threats, trust, and autonomy. Traditional cybersecurity methods rely on manual responses and brittle heuristics. To build proactive and intelligent defense systems, we need integrated theoretical frameworks and software tools. Game theory provides a rigorous foundation for modeling adversarial behavior, designing strategic defenses, and enabling trust in autonomous systems. Meanwhile, software tools process cyber data, visualize attack surfaces, verify compliance, and suggest mitigations. Yet a disconnect remains between theory and practical implementation.   The rise of Large Language Models (LLMs) and agentic AI offers a new path to bridge this gap. LLM-powered agents can operationalize abstract strategies into real-world decisions. Conversely, game theory can inform the reasoning and coordination of these agents across complex workflows. LLMs also challenge classical game-theoretic assumptions, such as perfect rationality or static payoffs, prompting new models aligned with cognitive and computational realities. This co-evolution promises richer theoretical foundations and novel solution concepts. Agentic AI also reshapes software design: systems must now be modular, adaptive, and trust-aware from the outset.   This chapter explores the intersection of game theory, agentic AI, and cybersecurity. We review key game-theoretic frameworks (e.g., static, dynamic, Bayesian, and signaling games) and solution concepts. We then examine how LLM agents can enhance cyber defense and introduce LLM-driven games that embed reasoning into AI agents. Finally, we explore multi-agent workflows and coordination games, outlining how this convergence fosters secure, intelligent, and adaptive cyber systems.",
+      "publication_date": "2025-07-14T00:49:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.10621v1"
+    },
+    {
+      "title": "Explainable Artificial Intelligence Applications in Cyber Security:   State-of-the-Art in Research",
+      "authors": [
+        "Zhibo Zhang",
+        "Hussam Al Hamadi",
+        "Ernesto Damiani",
+        "Chan Yeob Yeun",
+        "Fatma Taher"
+      ],
+      "abstract": "This survey presents a comprehensive review of current literature on Explainable Artificial Intelligence (XAI) methods for cyber security applications. Due to the rapid development of Internet-connected systems and Artificial Intelligence in recent years, Artificial Intelligence including Machine Learning (ML) and Deep Learning (DL) has been widely utilized in the fields of cyber security including intrusion detection, malware detection, and spam filtering. However, although Artificial Intelligence-based approaches for the detection and defense of cyber attacks and threats are more advanced and efficient compared to the conventional signature-based and rule-based cyber security strategies, most ML-based techniques and DL-based techniques are deployed in the black-box manner, meaning that security experts and customers are unable to explain how such procedures reach particular conclusions. The deficiencies of transparency and interpretability of existing Artificial Intelligence techniques would decrease human users' confidence in the models utilized for the defense against cyber attacks, especially in current situations where cyber attacks become increasingly diverse and complicated. Therefore, it is essential to apply XAI in the establishment of cyber security models to create more explainable models while maintaining high accuracy and allowing human users to comprehend, trust, and manage the next generation of cyber defense mechanisms. Although there are papers reviewing Artificial Intelligence applications in cyber security areas and the vast literature on applying XAI in many fields including healthcare, financial services, and criminal justice, the surprising fact is that there are currently no survey research articles that concentrate on XAI applications in cyber security.",
+      "publication_date": "2022-08-31T16:06:31+00:00",
+      "doi": "10.1109/ACCESS.2022.3204051",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2208.14937v1"
+    },
+    {
+      "title": "Machine Learning for Offensive Security: Sandbox Classification Using   Decision Trees and Artificial Neural Networks",
+      "authors": [
+        "Will Pearce",
+        "Nick Landers",
+        "Nancy Fulda"
+      ],
+      "abstract": "The merits of machine learning in information security have primarily focused on bolstering defenses. However, machine learning (ML) techniques are not reserved for organizations with deep pockets and massive data repositories; the democratization of ML has lead to a rise in the number of security teams using ML to support offensive operations. The research presented here will explore two models that our team has used to solve a single offensive task, detecting a sandbox. Using process list data gathered with phishing emails, we will demonstrate the use of Decision Trees and Artificial Neural Networks to successfully classify sandboxes, thereby avoiding unsafe execution. This paper aims to give unique insight into how a real offensive team is using machine learning to support offensive operations.",
+      "publication_date": "2020-07-14T01:45:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2007.06763v1"
+    },
+    {
+      "title": "Cyber Attack Detection thanks to Machine Learning Algorithms",
+      "authors": [
+        "Antoine Delplace",
+        "Sheryl Hermoso",
+        "Kristofer Anandita"
+      ],
+      "abstract": "Cybersecurity attacks are growing both in frequency and sophistication over the years. This increasing sophistication and complexity call for more advancement and continuous innovation in defensive strategies. Traditional methods of intrusion detection and deep packet inspection, while still largely used and recommended, are no longer sufficient to meet the demands of growing security threats. As computing power increases and cost drops, Machine Learning is seen as an alternative method or an additional mechanism to defend against malwares, botnets, and other attacks. This paper explores Machine Learning as a viable solution by examining its capabilities to classify malicious traffic in a network.   First, a strong data analysis is performed resulting in 22 extracted features from the initial Netflow datasets. All these features are then compared with one another through a feature selection process. Then, our approach analyzes five different machine learning algorithms against NetFlow dataset containing common botnets. The Random Forest Classifier succeeds in detecting more than 95% of the botnets in 8 out of 13 scenarios and more than 55% in the most difficult datasets. Finally, insight is given to improve and generalize the results, especially through a bootstrapping technique.",
+      "publication_date": "2020-01-17T13:52:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2001.06309v1"
+    },
+    {
+      "title": "Hierarchical Multi-agent Reinforcement Learning for Cyber Network   Defense",
+      "authors": [
+        "Aditya Vikram Singh",
+        "Ethan Rathbun",
+        "Emma Graham",
+        "Lisa Oakley",
+        "Simona Boboila",
+        "Alina Oprea",
+        "Peter Chin"
+      ],
+      "abstract": "Recent advances in multi-agent reinforcement learning (MARL) have created opportunities to solve complex real-world tasks. Cybersecurity is a notable application area, where defending networks against sophisticated adversaries remains a challenging task typically performed by teams of security operators. In this work, we explore novel MARL strategies for building autonomous cyber network defenses that address challenges such as large policy spaces, partial observability, and stealthy, deceptive adversarial strategies. To facilitate efficient and generalized learning, we propose a hierarchical Proximal Policy Optimization (PPO) architecture that decomposes the cyber defense task into specific sub-tasks like network investigation and host recovery. Our approach involves training sub-policies for each sub-task using PPO enhanced with domain expertise. These sub-policies are then leveraged by a master defense policy that coordinates their selection to solve complex network defense tasks. Furthermore, the sub-policies can be fine-tuned and transferred with minimal cost to defend against shifts in adversarial behavior or changes in network settings. We conduct extensive experiments using CybORG Cage 4, the state-of-the-art MARL environment for cyber defense. Comparisons with multiple baselines across different adversaries show that our hierarchical learning approach achieves top performance in terms of convergence speed, episodic return, and several interpretable metrics relevant to cybersecurity, including the fraction of clean machines on the network, precision, and false positives on recoveries.",
+      "publication_date": "2024-10-22T18:35:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2410.17351v2"
+    },
+    {
+      "title": "Generative AI in Cybersecurity: A Comprehensive Review of LLM   Applications and Vulnerabilities",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Fatima Alwahedi",
+        "Ammar Battah",
+        "Bilel Cherif",
+        "Abdechakour Mechri",
+        "Norbert Tihanyi",
+        "Tamas Bisztray",
+        "Merouane Debbah"
+      ],
+      "abstract": "This paper provides a comprehensive review of the future of cybersecurity through Generative AI and Large Language Models (LLMs). We explore LLM applications across various domains, including hardware design security, intrusion detection, software engineering, design verification, cyber threat intelligence, malware detection, and phishing detection. We present an overview of LLM evolution and its current state, focusing on advancements in models such as GPT-4, GPT-3.5, Mixtral-8x7B, BERT, Falcon2, and LLaMA. Our analysis extends to LLM vulnerabilities, such as prompt injection, insecure output handling, data poisoning, DDoS attacks, and adversarial instructions. We delve into mitigation strategies to protect these models, providing a comprehensive look at potential attack scenarios and prevention techniques. Furthermore, we evaluate the performance of 42 LLM models in cybersecurity knowledge and hardware security, highlighting their strengths and weaknesses. We thoroughly evaluate cybersecurity datasets for LLM training and testing, covering the lifecycle from data creation to usage and identifying gaps for future research. In addition, we review new strategies for leveraging LLMs, including techniques like Half-Quadratic Quantization (HQQ), Reinforcement Learning with Human Feedback (RLHF), Direct Preference Optimization (DPO), Quantized Low-Rank Adapters (QLoRA), and Retrieval-Augmented Generation (RAG). These insights aim to enhance real-time cybersecurity defenses and improve the sophistication of LLM applications in threat detection and response. Our paper provides a foundational understanding and strategic direction for integrating LLMs into future cybersecurity frameworks, emphasizing innovation and robust model deployment to safeguard against evolving cyber threats.",
+      "publication_date": "2024-05-21T13:02:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.12750v2"
+    },
+    {
+      "title": "Password Strength Detection via Machine Learning: Analysis, Modeling,   and Evaluation",
+      "authors": [
+        "Jiazhi Mo",
+        "Hailu Kuang",
+        "Xiaoqi Li"
+      ],
+      "abstract": "As network security issues continue gaining prominence, password security has become crucial in safeguarding personal information and network systems. This study first introduces various methods for system password cracking, outlines password defense strategies, and discusses the application of machine learning in the realm of password security. Subsequently, we conduct a detailed public password database analysis, uncovering standard features and patterns among passwords. We extract multiple characteristics of passwords, including length, the number of digits, the number of uppercase and lowercase letters, and the number of special characters. We then experiment with six different machine learning algorithms: support vector machines, logistic regression, neural networks, decision trees, random forests, and stacked models, evaluating each model's performance based on various metrics, including accuracy, recall, and F1 score through model validation and hyperparameter tuning. The evaluation results on the test set indicate that decision trees and stacked models excel in accuracy, recall, and F1 score, making them a practical option for the strong and weak password classification task.",
+      "publication_date": "2025-05-22T09:27:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.16439v1"
+    },
+    {
+      "title": "Adversarial vs behavioural-based defensive AI with joint, continual and   active learning: automated evaluation of robustness to deception, poisoning   and concept drift",
+      "authors": [
+        "Alexandre Dey",
+        "Marc Velay",
+        "Jean-Philippe Fauvelle",
+        "Sylvain Navers"
+      ],
+      "abstract": "Recent advancements in Artificial Intelligence (AI) have brought new capabilities to behavioural analysis (UEBA) for cyber-security consisting in the detection of hostile action based on the unusual nature of events observed on the Information System.In our previous work (presented at C\\&ESAR 2018 and FIC 2019), we have associated deep neural networks auto-encoders for anomaly detection and graph-based events correlation to address major limitations in UEBA systems. This resulted in reduced false positive and false negative rates, improved alert explainability, while maintaining real-time performances and scalability. However, we did not address the natural evolution of behaviours through time, also known as concept drift. To maintain effective detection capabilities, an anomaly-based detection system must be continually trained, which opens a door to an adversary that can conduct the so-called \"frog-boiling\" attack by progressively distilling unnoticed attack traces inside the behavioural models until the complete attack is considered normal. In this paper, we present a solution to effectively mitigate this attack by improving the detection process and efficiently leveraging human expertise. We also present preliminary work on adversarial AI conducting deception attack, which, in term, will be used to help assess and improve the defense system. These defensive and offensive AI implement joint, continual and active learning, in a step that is necessary in assessing, validating and certifying AI-based defensive solutions.",
+      "publication_date": "2020-01-13T13:54:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2001.11821v1"
+    },
+    {
+      "title": "Enhancing Phishing Detection through Feature Importance Analysis and   Explainable AI: A Comparative Study of CatBoost, XGBoost, and EBM Models",
+      "authors": [
+        "Abdullah Fajar",
+        "Setiadi Yazid",
+        "Indra Budi"
+      ],
+      "abstract": "Phishing attacks remain a persistent threat to online security, demanding robust detection methods. This study investigates the use of machine learning to identify phishing URLs, emphasizing the crucial role of feature selection and model interpretability for improved performance. Employing Recursive Feature Elimination, the research pinpointed key features like \"length_url,\" \"time_domain_activation\" and \"Page_rank\" as strong indicators of phishing attempts. The study evaluated various algorithms, including CatBoost, XGBoost, and Explainable Boosting Machine, assessing their robustness and scalability. XGBoost emerged as highly efficient in terms of runtime, making it well-suited for large datasets. CatBoost, on the other hand, demonstrated resilience by maintaining high accuracy even with reduced features. To enhance transparency and trustworthiness, Explainable AI techniques, such as SHAP, were employed to provide insights into feature importance. The study's findings highlight that effective feature selection and model interpretability can significantly bolster phishing detection systems, paving the way for more efficient and adaptable defenses against evolving cyber threats",
+      "publication_date": "2024-11-11T10:49:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.06860v1"
+    },
+    {
+      "title": "algoXSSF: Detection and analysis of cross-site request forgery (XSRF)   and cross-site scripting (XSS) attacks via Machine learning algorithms",
+      "authors": [
+        "Naresh Kshetri",
+        "Dilip Kumar",
+        "James Hutson",
+        "Navneet Kaur",
+        "Omar Faruq Osama"
+      ],
+      "abstract": "The global rise of online users and online devices has ultimately given rise to the global internet population apart from several cybercrimes and cyberattacks. The combination of emerging new technology and powerful algorithms (of Artificial Intelligence, Deep Learning, and Machine Learning) is needed to counter defense web security including attacks on several search engines and websites. The unprecedented increase rate of cybercrime and website attacks urged for new technology consideration to protect data and information online. There have been recent and continuous cyberattacks on websites, web domains with ongoing data breaches including - GitHub account hack, data leaks on Twitter, malware in WordPress plugins, vulnerability in Tomcat server to name just a few. We have investigated with an in-depth study apart from the detection and analysis of two major cyberattacks (although there are many more types): cross-site request forgery (XSRF) and cross-site scripting (XSS) attacks. The easy identification of cyber trends and patterns with continuous improvement is possible within the edge of machine learning and AI algorithms. The use of machine learning algorithms would be extremely helpful to counter (apart from detection) the XSRF and XSS attacks. We have developed the algorithm and cyber defense framework - algoXSSF with machine learning algorithms embedded to combat malicious attacks (including Man-in-the-Middle attacks) on websites for detection and analysis.",
+      "publication_date": "2024-02-01T20:54:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2402.01012v1"
+    },
+    {
+      "title": "AI Potentiality and Awareness: A Position Paper from the Perspective of   Human-AI Teaming in Cybersecurity",
+      "authors": [
+        "Iqbal H. Sarker",
+        "Helge Janicke",
+        "Nazeeruddin Mohammad",
+        "Paul Watters",
+        "Surya Nepal"
+      ],
+      "abstract": "This position paper explores the broad landscape of AI potentiality in the context of cybersecurity, with a particular emphasis on its possible risk factors with awareness, which can be managed by incorporating human experts in the loop, i.e., \"Human-AI\" teaming. As artificial intelligence (AI) technologies advance, they will provide unparalleled opportunities for attack identification, incident response, and recovery. However, the successful deployment of AI into cybersecurity measures necessitates an in-depth understanding of its capabilities, challenges, and ethical and legal implications to handle associated risk factors in real-world application areas. Towards this, we emphasize the importance of a balanced approach that incorporates AI's computational power with human expertise. AI systems may proactively discover vulnerabilities and detect anomalies through pattern recognition, and predictive modeling, significantly enhancing speed and accuracy. Human experts can explain AI-generated decisions to stakeholders, regulators, and end-users in critical situations, ensuring responsibility and accountability, which helps establish trust in AI-driven security solutions. Therefore, in this position paper, we argue that human-AI teaming is worthwhile in cybersecurity, in which human expertise such as intuition, critical thinking, or contextual understanding is combined with AI's computational power to improve overall cyber defenses.",
+      "publication_date": "2023-09-28T01:20:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2310.12162v1"
+    },
+    {
+      "title": "IoTWarden: A Deep Reinforcement Learning Based Real-time Defense System   to Mitigate Trigger-action IoT Attacks",
+      "authors": [
+        "Md Morshed Alam",
+        "Israt Jahan",
+        "Weichao Wang"
+      ],
+      "abstract": "In trigger-action IoT platforms, IoT devices report event conditions to IoT hubs notifying their cyber states and let the hubs invoke actions in other IoT devices based on functional dependencies defined as rules in a rule engine. These functional dependencies create a chain of interactions that help automate network tasks. Adversaries exploit this chain to report fake event conditions to IoT hubs and perform remote injection attacks upon a smart environment to indirectly control targeted IoT devices. Existing defense efforts usually depend on static analysis over IoT apps to develop rule-based anomaly detection mechanisms. We also see ML-based defense mechanisms in the literature that harness physical event fingerprints to determine anomalies in an IoT network. However, these methods often demonstrate long response time and lack of adaptability when facing complicated attacks. In this paper, we propose to build a deep reinforcement learning based real-time defense system for injection attacks. We define the reward functions for defenders and implement a deep Q-network based approach to identify the optimal defense policy. Our experiments show that the proposed mechanism can effectively and accurately identify and defend against injection attacks with reasonable computation overhead.",
+      "publication_date": "2024-01-16T06:25:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2401.08141v1"
+    },
+    {
+      "title": "NAttack! Adversarial Attacks to bypass a GAN based classifier trained to   detect Network intrusion",
+      "authors": [
+        "Aritran Piplai",
+        "Sai Sree Laya Chukkapalli",
+        "Anupam Joshi"
+      ],
+      "abstract": "With the recent developments in artificial intelligence and machine learning, anomalies in network traffic can be detected using machine learning approaches. Before the rise of machine learning, network anomalies which could imply an attack, were detected using well-crafted rules. An attacker who has knowledge in the field of cyber-defence could make educated guesses to sometimes accurately predict which particular features of network traffic data the cyber-defence mechanism is looking at. With this information, the attacker can circumvent a rule-based cyber-defense system. However, after the advancements of machine learning for network anomaly, it is not easy for a human to understand how to bypass a cyber-defence system. Recently, adversarial attacks have become increasingly common to defeat machine learning algorithms. In this paper, we show that even if we build a classifier and train it with adversarial examples for network data, we can use adversarial attacks and successfully break the system. We propose a Generative Adversarial Network(GAN)based algorithm to generate data to train an efficient neural network based classifier, and we subsequently break the system using adversarial attacks.",
+      "publication_date": "2020-02-20T01:54:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2002.08527v1"
+    },
+    {
+      "title": "Automating Privilege Escalation with Deep Reinforcement Learning",
+      "authors": [
+        "Kalle Kujanpää",
+        "Willie Victor",
+        "Alexander Ilin"
+      ],
+      "abstract": "AI-based defensive solutions are necessary to defend networks and information assets against intelligent automated attacks. Gathering enough realistic data for training machine learning-based defenses is a significant practical challenge. An intelligent red teaming agent capable of performing realistic attacks can alleviate this problem. However, there is little scientific evidence demonstrating the feasibility of fully automated attacks using machine learning. In this work, we exemplify the potential threat of malicious actors using deep reinforcement learning to train automated agents. We present an agent that uses a state-of-the-art reinforcement learning algorithm to perform local privilege escalation. Our results show that the autonomous agent can escalate privileges in a Windows 7 environment using a wide variety of different techniques depending on the environment configuration it encounters. Hence, our agent is usable for generating realistic attack sensor data for training and evaluating intrusion detection systems.",
+      "publication_date": "2021-10-04T12:20:46+00:00",
+      "doi": "10.1145/3474369.3486877",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2110.01362v1"
+    },
+    {
+      "title": "A Synergistic Approach In Network Intrusion Detection By Neurosymbolic   AI",
+      "authors": [
+        "Alice Bizzarri",
+        "Chung-En Yu",
+        "Brian Jalaian",
+        "Fabrizio Riguzzi",
+        "Nathaniel D. Bastian"
+      ],
+      "abstract": "The prevailing approaches in Network Intrusion Detection Systems (NIDS) are often hampered by issues such as high resource consumption, significant computational demands, and poor interpretability. Furthermore, these systems generally struggle to identify novel, rapidly changing cyber threats. This paper delves into the potential of incorporating Neurosymbolic Artificial Intelligence (NSAI) into NIDS, combining deep learning's data-driven strengths with symbolic AI's logical reasoning to tackle the dynamic challenges in cybersecurity, which also includes detailed NSAI techniques introduction for cyber professionals to explore the potential strengths of NSAI in NIDS. The inclusion of NSAI in NIDS marks potential advancements in both the detection and interpretation of intricate network threats, benefiting from the robust pattern recognition of neural networks and the interpretive prowess of symbolic reasoning. By analyzing network traffic data types and machine learning architectures, we illustrate NSAI's distinctive capability to offer more profound insights into network behavior, thereby improving both detection performance and the adaptability of the system. This merging of technologies not only enhances the functionality of traditional NIDS but also sets the stage for future developments in building more resilient, interpretable, and dynamic defense mechanisms against advanced cyber threats. The continued progress in this area is poised to transform NIDS into a system that is both responsive to known threats and anticipatory of emerging, unseen ones.",
+      "publication_date": "2024-06-03T02:24:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.00938v1"
+    },
+    {
+      "title": "Defensive Dropout for Hardening Deep Neural Networks under Adversarial   Attacks",
+      "authors": [
+        "Siyue Wang",
+        "Xiao Wang",
+        "Pu Zhao",
+        "Wujie Wen",
+        "David Kaeli",
+        "Peter Chin",
+        "Xue Lin"
+      ],
+      "abstract": "Deep neural networks (DNNs) are known vulnerable to adversarial attacks. That is, adversarial examples, obtained by adding delicately crafted distortions onto original legal inputs, can mislead a DNN to classify them as any target labels. This work provides a solution to hardening DNNs under adversarial attacks through defensive dropout. Besides using dropout during training for the best test accuracy, we propose to use dropout also at test time to achieve strong defense effects. We consider the problem of building robust DNNs as an attacker-defender two-player game, where the attacker and the defender know each others' strategies and try to optimize their own strategies towards an equilibrium. Based on the observations of the effect of test dropout rate on test accuracy and attack success rate, we propose a defensive dropout algorithm to determine an optimal test dropout rate given the neural network model and the attacker's strategy for generating adversarial examples.We also investigate the mechanism behind the outstanding defense effects achieved by the proposed defensive dropout. Comparing with stochastic activation pruning (SAP), another defense method through introducing randomness into the DNN model, we find that our defensive dropout achieves much larger variances of the gradients, which is the key for the improved defense effects (much lower attack success rate). For example, our defensive dropout can reduce the attack success rate from 100% to 13.89% under the currently strongest attack i.e., C&W attack on MNIST dataset.",
+      "publication_date": "2018-09-13T20:26:32+00:00",
+      "doi": "10.1145/3240765.3264699",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1809.05165v1"
+    },
+    {
+      "title": "Siren -- Advancing Cybersecurity through Deception and Adaptive Analysis",
+      "authors": [
+        "Samhruth Ananthanarayanan",
+        "Girish Kulathumani",
+        "Ganesh Narayanan"
+      ],
+      "abstract": "Siren represents a pioneering research effort aimed at fortifying cybersecurity through strategic integration of deception, machine learning, and proactive threat analysis. Drawing inspiration from mythical sirens, this project employs sophisticated methods to lure potential threats into controlled environments. The system features a dynamic machine learning model for realtime analysis and classification, ensuring continuous adaptability to emerging cyber threats. The architectural framework includes a link monitoring proxy, a purpose-built machine learning model for dynamic link analysis, and a honeypot enriched with simulated user interactions to intensify threat engagement. Data protection within the honeypot is fortified with probabilistic encryption. Additionally, the incorporation of simulated user activity extends the system's capacity to capture and learn from potential attackers even after user disengagement. Overall, Siren introduces a paradigm shift in cybersecurity, transforming traditional defense mechanisms into proactive systems that actively engage and learn from potential adversaries. The research strives to enhance user protection while yielding valuable insights for ongoing refinement in response to the evolving landscape of cybersecurity threats.",
+      "publication_date": "2024-06-10T12:47:49+00:00",
+      "doi": "10.1007/978-3-031-92605-1_31",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.06225v2"
+    },
+    {
+      "title": "secml: A Python Library for Secure and Explainable Machine Learning",
+      "authors": [
+        "Maura Pintor",
+        "Luca Demetrio",
+        "Angelo Sotgiu",
+        "Marco Melis",
+        "Ambra Demontis",
+        "Battista Biggio"
+      ],
+      "abstract": "We present \\texttt{secml}, an open-source Python library for secure and explainable machine learning. It implements the most popular attacks against machine learning, including test-time evasion attacks to generate adversarial examples against deep neural networks and training-time poisoning attacks against support vector machines and many other algorithms. These attacks enable evaluating the security of learning algorithms and the corresponding defenses under both white-box and black-box threat models. To this end, \\texttt{secml} provides built-in functions to compute security evaluation curves, showing how quickly classification performance decreases against increasing adversarial perturbations of the input data. \\texttt{secml} also includes explainability methods to help understand why adversarial attacks succeed against a given model, by visualizing the most influential features and training prototypes contributing to each decision. It is distributed under the Apache License 2.0 and hosted at \\url{https://github.com/pralab/secml}.",
+      "publication_date": "2019-12-20T18:41:37+00:00",
+      "doi": "10.1016/j.softx.2022.101095",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "1912.10013v2"
+    },
+    {
+      "title": "Reinforcement Learning for Feedback-Enabled Cyber Resilience",
+      "authors": [
+        "Yunhan Huang",
+        "Linan Huang",
+        "Quanyan Zhu"
+      ],
+      "abstract": "Digitization and remote connectivity have enlarged the attack surface and made cyber systems more vulnerable. As attackers become increasingly sophisticated and resourceful, mere reliance on traditional cyber protection, such as intrusion detection, firewalls, and encryption, is insufficient to secure the cyber systems. Cyber resilience provides a new security paradigm that complements inadequate protection with resilience mechanisms. A Cyber-Resilient Mechanism (CRM) adapts to the known or zero-day threats and uncertainties in real-time and strategically responds to them to maintain critical functions of the cyber systems in the event of successful attacks. Feedback architectures play a pivotal role in enabling the online sensing, reasoning, and actuation process of the CRM. Reinforcement Learning (RL) is an essential tool that epitomizes the feedback architectures for cyber resilience. It allows the CRM to provide sequential responses to attacks with limited or without prior knowledge of the environment and the attacker. In this work, we review the literature on RL for cyber resilience and discuss cyber resilience against three major types of vulnerabilities, i.e., posture-related, information-related, and human-related vulnerabilities. We introduce three application domains of CRMs: moving target defense, defensive cyber deception, and assistive human security technologies. The RL algorithms also have vulnerabilities themselves. We explain the three vulnerabilities of RL and present attack models where the attacker targets the information exchanged between the environment and the agent: the rewards, the state observations, and the action commands. We show that the attacker can trick the RL agent into learning a nefarious policy with minimum attacking effort. Lastly, we discuss the future challenges of RL for cyber security and resilience and emerging applications of RL-based CRMs.",
+      "publication_date": "2021-07-02T01:08:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2107.00783v2"
+    },
+    {
+      "title": "Enabling Cyber Security Education through Digital Twins and Generative   AI",
+      "authors": [
+        "Vita Santa Barletta",
+        "Vito Bavaro",
+        "Miriana Calvano",
+        "Antonio Curci",
+        "Antonio Piccinno",
+        "Davide Pio Posa"
+      ],
+      "abstract": "Digital Twins (DTs) are gaining prominence in cybersecurity for their ability to replicate complex IT (Information Technology), OT (Operational Technology), and IoT (Internet of Things) infrastructures, allowing for real time monitoring, threat analysis, and system simulation. This study investigates how integrating DTs with penetration testing tools and Large Language Models (LLMs) can enhance cybersecurity education and operational readiness. By simulating realistic cyber environments, this approach offers a practical, interactive framework for exploring vulnerabilities and defensive strategies. At the core of this research is the Red Team Knife (RTK), a custom penetration testing toolkit aligned with the Cyber Kill Chain model. RTK is designed to guide learners through key phases of cyberattacks, including reconnaissance, exploitation, and response within a DT powered ecosystem. The incorporation of Large Language Models (LLMs) further enriches the experience by providing intelligent, real-time feedback, natural language threat explanations, and adaptive learning support during training exercises. This combined DT LLM framework is currently being piloted in academic settings to develop hands on skills in vulnerability assessment, threat detection, and security operations. Initial findings suggest that the integration significantly improves the effectiveness and relevance of cybersecurity training, bridging the gap between theoretical knowledge and real-world application. Ultimately, the research demonstrates how DTs and LLMs together can transform cybersecurity education to meet evolving industry demands.",
+      "publication_date": "2025-07-23T13:55:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.17518v1"
+    }
+  ]
+}

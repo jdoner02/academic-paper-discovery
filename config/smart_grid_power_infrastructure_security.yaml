@@ -1,0 +1,206 @@
+# Smart Grid and Power Infrastructure Security Research Configuration
+# Cybersecurity for electric power grids, smart grid systems, and energy infrastructure
+search_configuration:
+  default_strategy: "smart_grid_cybersecurity"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational smart grid security research
+    end_year: 2025      # Latest developments in grid cybersecurity
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["power generation efficiency", "renewable energy economics", "grid optimization algorithms"]   # Focus on security, not general grid operations
+
+strategies:
+  smart_grid_cybersecurity:
+    name: "Smart Grid Infrastructure Cybersecurity"
+    description: "Comprehensive cybersecurity for smart grid systems, including advanced metering infrastructure, distribution automation, and grid modernization security"
+    primary_keywords:
+      - "smart grid cybersecurity"
+      - "power grid security"
+      - "electric grid cybersecurity"
+      - "smart grid vulnerabilities"
+      - "grid infrastructure security"
+      - "power system cybersecurity"
+    secondary_keywords:
+      - "advanced metering infrastructure"
+      - "AMI security"
+      - "smart meter security"
+      - "distribution automation"
+      - "grid modernization security"
+      - "demand response security"
+      - "distributed energy resources"
+      - "microgrid security"
+    technical_terms:
+      - "IEC 61850 security"
+      - "DNP3 security"
+      - "synchrophasor security"
+      - "PMU cybersecurity"
+      - "substation automation"
+      - "SCADA grid security"
+      - "energy management systems"
+      - "grid communication protocols"
+    application_domains:
+      - "electric utilities"
+      - "transmission systems"
+      - "distribution networks"
+      - "power substations"
+      - "control centers"
+      - "renewable integration"
+    exclude_terms:
+      - "power market analysis"
+      - "grid stability modeling"
+      - "power flow optimization"
+
+  substation_control_system_security:
+    name: "Substation and Control System Security"
+    description: "Cybersecurity for electrical substations, protective relays, and grid control systems, focusing on critical asset protection and operational security"
+    primary_keywords:
+      - "substation cybersecurity"
+      - "protective relay security"
+      - "substation automation security"
+      - "electrical substation cyber"
+      - "power control system security"
+    secondary_keywords:
+      - "digital protective relays"
+      - "substation communication"
+      - "control system hardening"
+      - "NERC CIP compliance"
+      - "critical cyber assets"
+      - "substation network security"
+      - "remote terminal units"
+      - "intelligent electronic devices"
+    technical_terms:
+      - "IED security"
+      - "GOOSE message security"
+      - "sampled values security"
+      - "substation automation protocol"
+      - "relay configuration security"
+      - "time synchronization security"
+      - "substation firewall"
+      - "network segmentation"
+    application_domains:
+      - "transmission substations"
+      - "distribution substations"
+      - "generation facilities"
+      - "switching stations"
+      - "control houses"
+    exclude_terms:
+      - "relay coordination"
+      - "power system protection"
+      - "fault analysis"
+
+  grid_incident_response_recovery:
+    name: "Power Grid Incident Response and Recovery"
+    description: "Emergency response protocols, automated incident management, and resilience strategies for cyberattacks on electric power infrastructure"
+    primary_keywords:
+      - "power grid incident response"
+      - "grid cyber incident"
+      - "electric utility emergency response"
+      - "power outage cybersecurity"
+      - "grid recovery procedures"
+    secondary_keywords:
+      - "black start procedures"
+      - "grid restoration"
+      - "emergency operations"
+      - "cyber incident management"
+      - "power system resilience"
+      - "contingency planning"
+      - "crisis coordination"
+      - "operational continuity"
+    technical_terms:
+      - "automatic generation control"
+      - "load shedding protocols"
+      - "isolation procedures"
+      - "backup control systems"
+      - "manual operation mode"
+      - "system restoration"
+      - "contingency reserves"
+      - "emergency communications"
+    application_domains:
+      - "transmission operators"
+      - "distribution utilities"
+      - "regional coordinators"
+      - "emergency management"
+      - "public safety"
+    exclude_terms:
+      - "natural disaster recovery"
+      - "equipment failure response"
+      - "maintenance scheduling"
+
+  renewable_energy_cybersecurity:
+    name: "Renewable Energy and Distributed Resource Security"
+    description: "Cybersecurity challenges and solutions for renewable energy systems, distributed energy resources, and clean energy infrastructure integration"
+    primary_keywords:
+      - "renewable energy cybersecurity"
+      - "solar cybersecurity"
+      - "wind energy security"
+      - "distributed energy security"
+      - "clean energy cybersecurity"
+    secondary_keywords:
+      - "photovoltaic security"
+      - "wind turbine cybersecurity"
+      - "energy storage security"
+      - "inverter security"
+      - "distributed generation"
+      - "virtual power plants"
+      - "aggregator security"
+      - "prosumer security"
+    technical_terms:
+      - "smart inverter security"
+      - "energy management system"
+      - "grid-tie inverter"
+      - "battery management system"
+      - "power conversion security"
+      - "IEEE 1547 security"
+      - "interconnection standards"
+      - "grid integration protocols"
+    application_domains:
+      - "solar farms"
+      - "wind installations"
+      - "energy storage systems"
+      - "residential solar"
+      - "community energy"
+      - "microgrids"
+    exclude_terms:
+      - "renewable energy economics"
+      - "energy efficiency"
+      - "carbon footprint"
+
+  grid_communication_network_security:
+    name: "Grid Communication Network and Protocol Security"
+    description: "Security of communication networks, protocols, and data transmission systems that enable smart grid operations and monitoring"
+    primary_keywords:
+      - "grid communication security"
+      - "power system communication"
+      - "grid network security"
+      - "utility communication cybersecurity"
+      - "smart grid protocols"
+    secondary_keywords:
+      - "wide area network security"
+      - "field area network"
+      - "home area network"
+      - "neighborhood area network"
+      - "utility backbone network"
+      - "wireless communication security"
+      - "fiber optic security"
+      - "satellite communication"
+    technical_terms:
+      - "IEC 61850 communication"
+      - "IEEE 802.11 security"
+      - "cellular network security"
+      - "mesh network security"
+      - "point-to-point security"
+      - "VPN security"
+      - "encryption protocols"
+      - "authentication mechanisms"
+    application_domains:
+      - "utility communications"
+      - "meter data management"
+      - "outage management"
+      - "distribution automation"
+      - "demand response"
+      - "grid monitoring"
+    exclude_terms:
+      - "telecommunication infrastructure"
+      - "general network security"
+      - "internet protocols"

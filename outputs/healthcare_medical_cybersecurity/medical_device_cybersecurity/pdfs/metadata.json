@@ -1,0 +1,895 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:13:10.412951+00:00",
+    "strategy_name": "Medical Device and IoMT Security",
+    "total_papers": 50,
+    "download_directory": "outputs/healthcare_medical_cybersecurity/medical_device_cybersecurity/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Securing the Internet of Medical Things (IoMT): Real-World Attack   Taxonomy and Practical Security Measures",
+      "authors": [
+        "Suman Deb",
+        "Emil Lupu",
+        "Emm Mic Drakakis",
+        "Anil Anthony Bharath",
+        "Zhen Kit Leung",
+        "Guang Rui Ma",
+        "Anupam Chattopadhyay"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) has the potential to radically improve healthcare by enabling real-time monitoring, remote diagnostics, and AI-driven decision making. However, the connectivity, embedded intelligence, and inclusion of a wide variety of novel sensors expose medical devices to severe cybersecurity threats, compromising patient safety and data privacy. In addition, many devices also have direct capacity - individually or in conjunction with other IoMT devices - to perform actions on the patient, such as delivering an electrical stimulus, administering a drug, or activating a motor, which can potentially be life-threatening. We provide a taxonomy of potential attacks targeting IoMT, presenting attack surfaces, vulnerabilities, and mitigation strategies across all layers of the IoMT architecture. It answers key questions such as: What makes IoMT security different from traditional IT security? What are the cybersecurity threats to medical devices? How can engineers design secure IoMT systems and protect hospital networks from cyberattacks? By analyzing historical cyber incidents, we highlight critical security gaps and propose practical security guidelines for medical device engineers and security professionals. This work bridges the gap between research and implementation, equipping healthcare stakeholders with actionable insights to build resilient and privacy-preserving IoMT ecosystems. Finally, we present the latest standardization and compliance frameworks, that IoMT security designers should be aware of.",
+      "publication_date": "2025-07-25T18:24:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.19609v1"
+    },
+    {
+      "title": "On Medical Device Cybersecurity Compliance in EU",
+      "authors": [
+        "Tuomas Granlund",
+        "Juha Vedenpää",
+        "Vlad Stirbu",
+        "Tommi Mikkonen"
+      ],
+      "abstract": "The medical device products at the European Union market must be safe and effective. To ensure this, medical device manufacturers must comply to the new regulatory requirements brought by the Medical Device Regulation (MDR) and the In Vitro Diagnostic Medical Device Regulation (IVDR). In general, the new regulations increase regulatory requirements and oversight, especially for medical software, and this is also true for requirements related to cybersecurity, which are now explicitly addressed in the legislation. The significant legislation changes currently underway, combined with increased cybersecurity requirements, create unique challenges for manufacturers to comply with the regulatory framework. In this paper, we review the new cybersecurity requirements in the light of currently available guidance documents, and pinpoint four core concepts around which cybersecurity compliance can be built. We argue that these core concepts form a foundations for cybersecurity compliance in the European Union regulatory framework.",
+      "publication_date": "2021-03-11T17:26:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2103.06809v1"
+    },
+    {
+      "title": "Systems-Theoretic and Data-Driven Security Analysis in ML-enabled   Medical Devices",
+      "authors": [
+        "Gargi Mitra",
+        "Mohammadreza Hallajiyan",
+        "Inji Kim",
+        "Athish Pranav Dharmalingam",
+        "Mohammed Elnawawy",
+        "Shahrear Iqbal",
+        "Karthik Pattabiraman",
+        "Homa Alemzadeh"
+      ],
+      "abstract": "The integration of AI/ML into medical devices is rapidly transforming healthcare by enhancing diagnostic and treatment facilities. However, this advancement also introduces serious cybersecurity risks due to the use of complex and often opaque models, extensive interconnectivity, interoperability with third-party peripheral devices, Internet connectivity, and vulnerabilities in the underlying technologies. These factors contribute to a broad attack surface and make threat prevention, detection, and mitigation challenging. Given the highly safety-critical nature of these devices, a cyberattack on these devices can cause the ML models to mispredict, thereby posing significant safety risks to patients. Therefore, ensuring the security of these devices from the time of design is essential. This paper underscores the urgency of addressing the cybersecurity challenges in ML-enabled medical devices at the pre-market phase. We begin by analyzing publicly available data on device recalls and adverse events, and known vulnerabilities, to understand the threat landscape of AI/ML-enabled medical devices and their repercussions on patient safety. Building on this analysis, we introduce a suite of tools and techniques designed by us to assist security analysts in conducting comprehensive premarket risk assessments. Our work aims to empower manufacturers to embed cybersecurity as a core design principle in AI/ML-enabled medical devices, thereby making them safe for patients.",
+      "publication_date": "2025-06-18T00:05:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.15028v1"
+    },
+    {
+      "title": "Network Traffic Analysis of Medical Devices",
+      "authors": [
+        "Nowfel Mashnoor",
+        "Batyr Charyyev"
+      ],
+      "abstract": "The availability of medical devices such as glucose levels and blood pressure measuring devices is continuously increasing. These devices have gained user interest as they are easy to use. However, medical devices introduce extra complexity to the network by being numerous, heterogeneous, and more vulnerable to cyber-attacks. For better network management and overall network security, it is important to understand the network traffic characteristics of the devices. Thus, in this paper, we analyze in detail the traffic characteristics of 8 medical devices both at the device level and at the level of individual functionality of each device. We collect and share both network and Bluetooth traffic from a total of 51 functionalities of the devices. Our analysis includes different metrics such as protocols, amount of incoming/outgoing traffic, DNS queries, and analysis of traffic destinations. We observed that devices have unique network and Bluetooth traffic characteristics, that might be useful in developing networking tools for medical devices.",
+      "publication_date": "2024-07-18T18:57:13+00:00",
+      "doi": "10.1109/SmartNets61466.2024.10577713",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.13857v1"
+    },
+    {
+      "title": "IMDfence: Architecting a Secure Protocol for Implantable Medical Devices",
+      "authors": [
+        "Muhammad Ali Siddiqi",
+        "Christian Doerr",
+        "Christos Strydis"
+      ],
+      "abstract": "Over the past decade, focus on the security and privacy aspects of implantable medical devices (IMDs) has intensified, driven by the multitude of cybersecurity vulnerabilities found in various existing devices. However, due to their strict computational, energy and physical constraints, conventional security protocols are not directly applicable to IMDs. Custom-tailored schemes have been proposed instead which, however, fail to cover the full spectrum of security features that modern IMDs and their ecosystems so critically require. In this paper we propose IMDfence, a security protocol for IMD ecosystems that provides a comprehensive yet practical security portfolio, which includes availability, non-repudiation, access control, entity authentication, remote monitoring and system scalability. The protocol also allows emergency access that results in the graceful degradation of offered services without compromising security and patient safety. The performance of the security protocol as well as its feasibility and impact on modern IMDs are extensively analyzed and evaluated. We find that IMDfence achieves the above security requirements at a mere less than 7% increase in total IMD energy consumption, and less than 14 ms and 9 kB increase in system delay and memory footprint, respectively.",
+      "publication_date": "2020-02-21T20:46:05+00:00",
+      "doi": "10.1109/ACCESS.2020.3015686",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2002.09546v4"
+    },
+    {
+      "title": "A Review on the Security Vulnerabilities of the IoMT against Malware   Attacks and DDoS",
+      "authors": [
+        "Lily Dzamesi",
+        "Nelly Elsayed"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) has transformed the healthcare industry by connecting medical devices in monitoring treatment outcomes of patients. This increased connectivity has resulted to significant security vulnerabilities in the case of malware and Distributed Denial of Service (DDoS) attacks. This literature review examines the vulnerabilities of IoMT devices, focusing on critical threats and exploring mitigation strategies. We conducted a comprehensive search across leading databases such as ACM Digital Library, IEEE Xplore, and Elsevier to analyze peer-reviewed studies published within the last five years (from 2019 to 2024). The review shows that inadequate encryption protocols, weak authentication methods, and irregular firmware updates are the main causes of risks associated with IoMT devices. We have identified emerging solutions like machine learning algorithms, blockchain technology, and edge computing as promising approaches to enhance IoMT security. This review emphasizes the pressing need to develop lightweight security measures and standardized protocols to protect patient data and ensure the integrity of healthcare services.",
+      "publication_date": "2025-01-13T21:29:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.07703v1"
+    },
+    {
+      "title": "A Biomechatronic Approach to Evaluating the Security of Wearable Devices   in the Internet of Medical Things",
+      "authors": [
+        "Yas Vaseghi",
+        "Behnaz Behara",
+        "Mehdi Delrobaei"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) has the potential to revolutionize healthcare by reducing human error and improving patient health. For instance, wearable smart infusion pumps can accurately administer medication and integrate with electronic health records. These pumps can alert healthcare professionals or remote servers when an operation fails, preventing distressing incidents. However, as the number of connected medical devices increases, so does the risk of cyber threats. Wearable medication devices based on IoT attached to patients' bodies are particularly vulnerable to significant cyber threats. Since they are connected to the internet, these devices can be exposed to potential harm, which can disrupt or degrade device performance and harm patients. Therefore, it is crucial to establish secure data authentication for internet-connected medical devices to ensure patient safety and well-being. It is also important to note that the wearability option of such devices might downgrade the computational resources, making them more susceptible to security risks. We propose implementing a security approach for a wearable infusion pump to mitigate cyber threats. We evaluated the proposed architecture with 20, 50, and 100 users for 10 minutes and repeated the evaluation 10 times with two infusion settings, each repeated five times. The desired volumes and rates for the two settings were 2 ml and 4 ml/hr and 5 ml and 5 ml/hr, respectively. The maximum error in infusion rate was measured to be 2.5%. We discuss the practical challenges of implementing such a security-enabled device and suggest initial solutions.",
+      "publication_date": "2024-06-21T09:17:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.14996v1"
+    },
+    {
+      "title": "CVE-LLM : Automatic vulnerability evaluation in medical device industry   using large language models",
+      "authors": [
+        "Rikhiya Ghosh",
+        "Oladimeji Farri",
+        "Hans-Martin von Stockhausen",
+        "Martin Schmitt",
+        "George Marica Vasile"
+      ],
+      "abstract": "The healthcare industry is currently experiencing an unprecedented wave of cybersecurity attacks, impacting millions of individuals. With the discovery of thousands of vulnerabilities each month, there is a pressing need to drive the automation of vulnerability assessment processes for medical devices, facilitating rapid mitigation efforts. Generative AI systems have revolutionized various industries, offering unparalleled opportunities for automation and increased efficiency. This paper presents a solution leveraging Large Language Models (LLMs) to learn from historical evaluations of vulnerabilities for the automatic assessment of vulnerabilities in the medical devices industry. This approach is applied within the portfolio of a single manufacturer, taking into account device characteristics, including existing security posture and controls. The primary contributions of this paper are threefold. Firstly, it provides a detailed examination of the best practices for training a vulnerability Language Model (LM) in an industrial context. Secondly, it presents a comprehensive comparison and insightful analysis of the effectiveness of Language Models in vulnerability assessment. Finally, it proposes a new human-in-the-loop framework to expedite vulnerability evaluation processes.",
+      "publication_date": "2024-07-19T19:34:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CL"
+      ],
+      "arxiv_id": "2407.14640v1"
+    },
+    {
+      "title": "Cybersecurity of AI medical devices: risks, legislation, and challenges",
+      "authors": [
+        "Elisabetta Biasin",
+        "Erik Kamenjasevic",
+        "Kaspar Rosager Ludvigsen"
+      ],
+      "abstract": "Medical devices and artificial intelligence systems rapidly transform healthcare provisions. At the same time, due to their nature, AI in or as medical devices might get exposed to cyberattacks, leading to patient safety and security risks. This book chapter is divided into three parts. The first part starts by setting the scene where we explain the role of cybersecurity in healthcare. Then, we briefly define what we refer to when we talk about AI that is considered a medical device by itself or supports one. To illustrate the risks such medical devices pose, we provide three examples: the poisoning of datasets, social engineering, and data or source code extraction. In the second part, the paper provides an overview of the European Union's regulatory framework relevant for ensuring the cybersecurity of AI as or in medical devices (MDR, NIS Directive, Cybersecurity Act, GDPR, the AI Act proposal and the NIS 2 Directive proposal). Finally, the third part of the paper examines possible challenges stemming from the EU regulatory framework. In particular, we look toward the challenges deriving from the two legislative proposals and their interaction with the existing legislation concerning AI medical devices' cybersecurity. They are structured as answers to the following questions: (1) how will the AI Act interact with the MDR regarding the cybersecurity and safety requirements?; (2) how should we interpret incident notification requirements from the NIS 2 Directive proposal and MDR?; and (3) what are the consequences of the evolving term of critical infrastructures?   [This is a draft chapter. The final version will be available in Research Handbook on Health, AI and the Law edited by Barry Solaiman & I. Glenn Cohen, forthcoming 2023, Edward Elgar Publishing Ltd]",
+      "publication_date": "2023-03-06T13:55:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2303.03140v1"
+    },
+    {
+      "title": "e-SAFE: Secure, Efficient and Forensics-Enabled Access to Implantable   Medical Devices",
+      "authors": [
+        "Haotian Chi",
+        "Longfei Wu",
+        "Xiaojiang Du",
+        "Qiang Zeng",
+        "Paul Ratazzi"
+      ],
+      "abstract": "To facilitate monitoring and management, modern Implantable Medical Devices (IMDs) are often equipped with wireless capabilities, which raise the risk of malicious access to IMDs. Although schemes are proposed to secure the IMD access, some issues are still open. First, pre-sharing a long-term key between a patient's IMD and a doctor's programmer is vulnerable since once the doctor's programmer is compromised, all of her patients suffer; establishing a temporary key by leveraging proximity gets rid of pre-shared keys, but as the approach lacks real authentication, it can be exploited by nearby adversaries or through man-in-the-middle attacks. Second, while prolonging the lifetime of IMDs is one of the most important design goals, few schemes explore to lower the communication and computation overhead all at once. Finally, how to safely record the commands issued by doctors for the purpose of forensics, which can be the last measure to protect the patients' rights, is commonly omitted in the existing literature. Motivated by these important yet open problems, we propose an innovative scheme e-SAFE, which significantly improves security and safety, reduces the communication overhead and enables IMD-access forensics. We present a novel lightweight compressive sensing based encryption algorithm to encrypt and compress the IMD data simultaneously, reducing the data transmission overhead by over 50% while ensuring high data confidentiality and usability. Furthermore, we provide a suite of protocols regarding device pairing, dual-factor authentication, and accountability-enabled access. The security analysis and performance evaluation show the validity and efficiency of the proposed scheme.",
+      "publication_date": "2018-04-06T20:35:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1804.02447v1"
+    },
+    {
+      "title": "A New Methodology for Information Security Risk Assessment for Medical   Devices and Its Evaluation",
+      "authors": [
+        "Tom Mahler",
+        "Yuval Elovici",
+        "Yuval Shahar"
+      ],
+      "abstract": "As technology advances towards more connected and digital environments, medical devices are becoming increasingly connected to hospital networks and to the Internet, which exposes them, and thus the patients using them, to new cybersecurity threats. Currently, there is a lack of a methodology dedicated to information security risk assessment for medical devices.   In this study, we present the Threat identification, ontology-based Likelihood, severity Decomposition, and Risk integration (TLDR) methodology for information security risk assessment for medical devices. The TLDR methodology uses the following steps: (1) identifying the potentially vulnerable components of medical devices, in this case, four different medical imaging devices (MIDs); (2) identifying the potential attacks, in this case, 23 potential attacks on MIDs; (3) mapping the discovered attacks into a known attack ontology - in this case, the Common Attack Pattern Enumeration and Classifications (CAPECs); (4) estimating the likelihood of the mapped CAPECs in the medical domain with the assistance of a panel of senior healthcare Information Security Experts (ISEs); (5) computing the CAPEC-based likelihood estimates of each attack; (6) decomposing each attack into several severity aspects and assigning them weights; (7) assessing the magnitude of the impact of each of the severity aspects for each attack with the assistance of a panel of senior Medical Experts (MEs); (8) computing the composite severity assessments for each attack; and finally, (9) integrating the likelihood and severity of each attack into its risk, and thus prioritizing it. The details of steps six to eight are beyond the scope of the current study; in the current study, we had replaced them by a single step that included asking the panel of MEs [in this case, radiologists], to assess the overall severity for each attack and use it as its severity...",
+      "publication_date": "2020-02-17T13:10:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2002.06938v1"
+    },
+    {
+      "title": "Extreme Learning Machine Based System for DDoS Attacks Detections on   IoMT Devices",
+      "authors": [
+        "Nelly Elsayed",
+        "Lily Dzamesi",
+        "Zag ElSayed",
+        "Murat Ozer"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) represents a paradigm shift in the healthcare sector, enabling the interconnection of medical devices, sensors, and systems to enhance patient monitoring, diagnosis, and management. The rapid evolution of IoMT presents significant benefits to the healthcare domains. However, there is a rapid increase in distributed denial of service (DDoS) attacks on the IoMT networks due to several vulnerabilities in the IoMT-connected devices, which negatively impact patients' health and can even lead to deaths. Thus, in this paper, we aim to save lives via investigating an extreme learning machine for detecting DDoS attacks on IoMT devices. The proposed approach achieves a high accuracy at a low implementation budget. Thus, it can reduce the implementation cost of the DDoS detection system, making the model capable of executing on the fog level.",
+      "publication_date": "2025-07-07T15:44:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.05132v1"
+    },
+    {
+      "title": "CyMed: A Framework for Testing Cybersecurity of Connected Medical   Devices",
+      "authors": [
+        "Christopher Scherb",
+        "Adrian Hadayah",
+        "Luc Bryan Heitz"
+      ],
+      "abstract": "Connected Medical Devices (CMDs) have a large impact on patients as they allow them to lead a more normal life. Any malfunction could not only remove the health benefits the CMDs provide, they could also cause further harm to the patient. Due to this, there are many safety regulations which must be adhered to prior to a CMD entering the market. However, while many detailed safety regulations exist, there are a fundamental lack of cybersecurity frameworks applicable to CMDs. While there are recent regulations which aim to enforce cybersecurity practices, they are vague and do not contain the concrete steps necessary to implement cybersecurity. This paper aims to fill that gap by describing a framework, CyMed, to be used by vendors and ens-users, which contains concrete measures to improve the resilience of CMDs against cyber attack. The CyMed framework is subsequently evaluated based on practical tests as well as expert interviews.",
+      "publication_date": "2023-10-05T15:05:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2310.03583v1"
+    },
+    {
+      "title": "Revolutionizing Medical Data Transmission with IoMT: A Comprehensive   Survey of Wireless Communication Solutions and Future Directions",
+      "authors": [
+        "Jiasi Zhou",
+        "Yanjing Sun",
+        "Chintha Tellambura"
+      ],
+      "abstract": "Traditional hospital-based medical examination methods face unprecedented challenges due to the aging global population. The Internet of Medical Things (IoMT), an advanced extension of the Internet of Things (IoT) tailored for the medical field, offers a transformative solution for delivering medical care. IoMT consists of interconnected medical devices that collect and transmit patients' vital signs online. This data can be analyzed to identify potential health issues, support medical decision-making, enhance patient outcomes, and streamline healthcare operations. Additionally, IoMT helps individuals make informed decisions about their health and fitness. There is a natural synergy with emerging communication technologies to ensure the secure and timely transmission of medical data. This paper presents the first comprehensive tutorial on cutting-edge IoMT research focusing on wireless communication-based solutions. It introduces a systematic three-tier framework to analyze IoMT networks and identify application scenarios. The paper examines the medical data transmission process, including intra-wireless Body Area Networks (WBAN), inter-WBAN, and beyond-WBAN communications. It also discusses the challenges of implementing IoMT applications, such as the longevity of biosensors, co-channel interference management, information security, and data processing delays. Proposed solutions to these challenges are explored from a wireless communication perspective, and future research directions are outlined. The survey concludes with a summary of key findings and insights.",
+      "publication_date": "2025-04-03T10:00:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IT"
+      ],
+      "arxiv_id": "2504.02446v1"
+    },
+    {
+      "title": "IoMT-Blockchain based Secured Remote Patient Monitoring Framework for   Neuro-Stimulation Device",
+      "authors": [
+        "Md Sakib Ullah Sourav",
+        "Mohammad Sultan Mahmud",
+        "Md Simul Hasan Talukder",
+        "Rejwan Bin Sulaiman",
+        "Abdullah Yasin"
+      ],
+      "abstract": "Biomedical Engineering's Internet of Medical Things (IoMT) is helping to improve the accuracy, dependability, and productivity of electronic equipment in the healthcare business. Real-time sensory data from patients may be delivered and subsequently analyzed through rapid development of wearable IoMT devices, such as neuro-stimulation devices with a range of functions. Data from the Internet of Things is gathered, analyzed, and stored in a single location. However, single-point failure, data manipulation, privacy difficulties, and other challenges might arise as a result of centralization. Due to its decentralized nature, blockchain (BC) can alleviate these issues. The viability of establishing a non-invasive remote neurostimulation system employing IoMT-based transcranial Direct Current Stimulation is investigated in this work (tDCS). A hardware-based prototype tDCS device has been developed that can be operated over the internet using an android application. Our suggested framework addresses the problems of IoMTBC-based systems, meets the criteria of real-time remote patient monitoring systems, and incorporates literature best practices in the relevant fields.",
+      "publication_date": "2023-08-31T16:59:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2308.16857v1"
+    },
+    {
+      "title": "Towards Evaluating the Security of Wearable Devices in the Internet of   Medical Things",
+      "authors": [
+        "Yas Vaseghi",
+        "Behnaz Behara",
+        "Mehdi Delrobaei"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) offers a promising solution to improve patient health and reduce human error. Wearable smart infusion pumps that accurately administer medication and integrate with electronic health records are an example of technology that can improve healthcare. They can even alert healthcare professionals or remote servers during operational failure, preventing distressing incidents. However, as the number of connected medical devices increases, the risk of cyber threats also increases. Wearable medication devices based on IoT attached to patients' bodies are prone to significant cyber threats. Being connected to the Internet exposes these devices to potential harm, which could disrupt or degrade device performance and harm patients. To ensure patient safety and well-being, it is crucial to establish secure data authentication for internet-connected medical devices. It is also important to note that the wearability option of such devices might downgrade the computational resources, making them more susceptible to security risks. This paper implements a security approach to a wearable infusion pump. We discuss practical challenges in implementing security-enabled devices and propose initial solutions to mitigate cyber threats.",
+      "publication_date": "2023-12-13T14:12:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.08160v1"
+    },
+    {
+      "title": "Evaluating Medical IoT (MIoT) Device Security using NISTIR-8228   Expectations",
+      "authors": [
+        "Thomas P. Dover"
+      ],
+      "abstract": "How do healthcare organizations (from small Practices to large HDOs) evaluate adherence to the cybersecurity and privacy protection of Medical Internet of Things (MIoT) used in clinical settings? This paper suggests an approach for such evaluation using National Institute of Standards and Technology (NIST) guidance. Through application of NISTIR 8228 Expectations it is possible to quantitatively assess cybersecurity and privacy protection, and determine relative compliance with recommended standards. This approach allows organizations to evaluate the level of risk a MiOT device poses to IT systems and to determine whether or not to permit its use in healthcare/IT environments.   This paper reviews the current state of IoT/MiOT cybersecurity and privacy protection using historical and current industry guidance & best-practices; recommendations by federal agencies; NIST publications; and federal law. It then presents similarities and differences between IOT/MiOT devices and \"traditional\" (or classic) Information Technology (IT) hardware, and cites several challenges IoT/MiOT pose to cybersecurity and privacy protection.   Finally, a practical approach to evaluating cybersecurity and privacy protection is offered along with enhancements for validating assessment results. In so doing it will demonstrate general compliance with both NIST guidance and HIPAA/HITECH requirements.",
+      "publication_date": "2021-04-07T17:40:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2104.03283v2"
+    },
+    {
+      "title": "Deep dip teardown of tubeless insulin pump",
+      "authors": [
+        "Sergei Skorobogatov"
+      ],
+      "abstract": "This paper introduces a deep level teardown process of a personal medical device - the OmniPod wireless tubeless insulin pump. This starts with mechanical teardown exposing the engineering solutions used inside the device. Then the electronic part of the device is analysed followed by components identification. Finally, the firmware extraction is performed allowing further analysis of the firmware inside the device as well as real-time debugging. This paper also evaluates the security of the main controller IC of the device. It reveals some weaknesses in the device design process which lead to the possibility of the successful teardown. Should the hardware security of the controller inside the device was well thought through, the teardown process would be far more complicated. This paper demonstrates what the typical teardown process of a personal medical device involves. This knowledge could help in improving the hardware security of sensitive devices.",
+      "publication_date": "2017-09-18T16:21:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1709.06026v1"
+    },
+    {
+      "title": "Identifying and Modeling Security Threats for IoMT Edge Network using   Markov Chain and Common Vulnerability Scoring System (CVSS)",
+      "authors": [
+        "Maha Ali Allouzi",
+        "Javed I. Khan"
+      ],
+      "abstract": "In this work, we defined an attack vector for networks utilizing the Internet of Medical Things (IoMT) devices and compute the probability distribution of IoMT security threats based on Markov chain and Common Vulnerability Scoring System (CVSS). IoMT is an emerging technology that improves patients' quality of life by permitting personalized e-health services without restrictions on time and site. The IoMT consists of embedded objects, sensors, and actuators that transmit and receive medical data. These Medical devices are vulnerable to different types of security threats, and thus, they pose a significant risk to patient's privacy and safety. Because security is a critical factor for successfully merging IoMT into pervasive healthcare systems, there is an urgent need for new security mechanisms to prevent threats on the IoMT edge network. Toward this direction, the first step is defining an attack vector that an attacker or unauthorized user can take advantage of to penetrate and tamper with medical data. In this article, we specify a threat model for the IoMT edge network. We identify any vulnerabilities or weaknesses within the IoMT network that allow unauthorized privileges and threats that can utilize these weaknesses to compromise the IoMT edge network. Finally, we compute the probability distribution of IoMT threats based on the Markov transition probability matrix.",
+      "publication_date": "2021-04-23T13:29:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2104.11580v1"
+    },
+    {
+      "title": "Exploring Challenges and Opportunities in Cybersecurity Risk and Threat   Communications Related To The Medical Internet Of Things (MIoT)",
+      "authors": [
+        "George W. Jackson, Jr.",
+        "Shawon Rahman"
+      ],
+      "abstract": "As device interconnectivity and ubiquitous computing continues to proliferate healthcare, the Medical Internet of Things (MIoT), also well known as the, Internet of Medical Things (IoMT) or the Internet of Healthcare Things (IoHT), is certain to play a major role in the health, and well-being of billions of people across the globe. When it comes to issues of cybersecurity risks and threats connected to the IoT in all of its various flavors the emphasis has been on technical challenges and technical solution. However, especially in the area of healthcare there is another substantial and potentially grave challenge. It is the challenge of thoroughly and accurately communicating the nature and extent of cybersecurity risks and threats to patients who are reliant upon these interconnected healthcare technologies to improve and even preserve their lives. This case study was conducted to assess the scope and depth of cybersecurity risk and threat communications delivered to an extremely vulnerable patient population, semi-structured interviews were held with cardiac medical device specialists across the United States. This research contributes scientific data in the field of healthcare cybersecurity and assists scholars and practitioners in advancing education and research in the field of MIoT patient communications.",
+      "publication_date": "2019-08-02T00:22:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "1908.00666v1"
+    },
+    {
+      "title": "Blockchain-Enabled EHR Framework for Internet of Medical Things",
+      "authors": [
+        "Lewis Nkenyereye",
+        "S. M. Riazul Islam",
+        "Mahmud Hossain",
+        "M. Abdullah-Al-Wadud",
+        "Atif Alamri"
+      ],
+      "abstract": "The Internet of Medical Things (IoMT) offers an infrastructure made of smart medical equipment and software applications for health services. Through the internet, the IoMT is capable of providing remote medical diagnosis and timely health services. The patients can use their smart devices to create, store and share their electronic health records (EHR) with a variety of medical personnel including medical doctors and nurses. However, unless the underlying combination within IoMT is secured, malicious users can intercept, modify and even delete the sensitive EHR data of patients. Patients also lose full control of their EHR since most health services within IoMT are constructed under a centralized platform outsourced in the cloud. Therefore, it is appealing to design a decentralized, auditable and secure EHR system that guarantees absolute access control for the patients while ensuring privacy and security. Using the features of blockchain including decentralization, auditability and immutability, we propose a secure EHR framework which is mainly maintained by the medical centers. In this framework, the patients' EHR data are encrypted and stored in the servers of medical institutions while the corresponding hash values are kept on the blockchain. We make use of security primitives to offer authentication, integrity and confidentiality of EHR data while access control and immutability is guaranteed by the blockchain technology. The security analysis and performance evaluation of the proposed framework confirms its efficiency.",
+      "publication_date": "2020-11-11T17:50:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2011.05935v1"
+    },
+    {
+      "title": "Towards Realistic Battery-DoS Protection of Implantable Medical Devices",
+      "authors": [
+        "Muhammad Ali Siddiqi",
+        "Christos Strydis"
+      ],
+      "abstract": "Modern Implantable Medical Devices (IMDs) feature wireless connectivity, which makes them vulnerable to security attacks. Particular to IMDs is the battery Denial-of-Service attack whereby attackers aim to fully deplete the battery by occupying the IMD with continuous authentication requests. Zero-Power Defense (ZPD) based on energy harvesting is known to be an excellent protection against these attacks. This paper establishes essential design specifications for employing ZPD techniques in IMDs, offers a critical review of ZPD techniques found in literature and, subsequently, gives crucial recommendations for developing comprehensive ZPD solutions.",
+      "publication_date": "2019-04-15T07:48:21+00:00",
+      "doi": "10.1145/3310273.3321555",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1904.06893v1"
+    },
+    {
+      "title": "Digital Investigation of Security Attacks on Cardiac Implantable Medical   Devices",
+      "authors": [
+        "Nourhene Ellouze",
+        "Slim Rekhis",
+        "Mohamed Allouche",
+        "Noureddine Boudriga"
+      ],
+      "abstract": "A Cardiac Implantable Medical device (IMD) is a device, which is surgically implanted into a patient's body, and wirelessly configured using an external programmer by prescribing physicians and doctors. A set of lethal attacks targeting these devices can be conducted due to the use of vulnerable wireless communication and security protocols, and the lack of security protection mechanisms deployed on IMDs. In this paper, we propose a system for postmortem analysis of lethal attack scenarios targeting cardiac IMDs. Such a system reconciles in the same framework conclusions derived by technical investigators and deductions generated by pathologists. An inference system integrating a library of medical rules is used to automatically infer potential medical scenarios that could have led to the death of a patient. A Model Checking based formal technique allowing the reconstruction of potential technical attack scenarios on the IMD, starting from the collected evidence, is also proposed. A correlation between the results obtained by the two techniques allows to prove whether a potential attack scenario is the source of the patient's death.",
+      "publication_date": "2014-10-16T05:53:40+00:00",
+      "doi": "10.4204/EPTCS.165.2",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1410.4303v1"
+    },
+    {
+      "title": "Medical Image Data Provenance for Medical Cyber-Physical System",
+      "authors": [
+        "Vijay Kumar",
+        "Kolin Paul"
+      ],
+      "abstract": "Continuous advancements in medical technology have led to the creation of affordable mobile imaging devices suitable for telemedicine and remote monitoring. However, the rapid examination of large populations poses challenges, including the risk of fraudulent practices by healthcare professionals and social workers exchanging unverified images via mobile applications. To mitigate these risks, this study proposes using watermarking techniques to embed a device fingerprint (DFP) into captured images, ensuring data provenance. The DFP, representing the unique attributes of the capturing device and raw image, is embedded into raw images before storage, thus enabling verification of image authenticity and source. Moreover, a robust remote validation method is introduced to authenticate images, enhancing the integrity of medical image data in interconnected healthcare systems. Through a case study on mobile fundus imaging, the effectiveness of the proposed framework is evaluated in terms of computational efficiency, image quality, security, and trustworthiness. This approach is suitable for a range of applications, including telemedicine, the Internet of Medical Things (IoMT), eHealth, and Medical Cyber-Physical Systems (MCPS) applications, providing a reliable means to maintain data provenance in diagnostic settings utilizing medical images or videos.",
+      "publication_date": "2024-03-22T13:24:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.15522v1"
+    },
+    {
+      "title": "Evaluating the Role of Security Assurance Cases in Agile Medical Device   Development",
+      "authors": [
+        "Max Fransson",
+        "Adam Andersson",
+        "Mazen Mohamad",
+        "Jan-Philipp Steghöfer"
+      ],
+      "abstract": "Cybersecurity issues in medical devices threaten patient safety and can cause harm if exploited. Standards and regulations therefore require vendors of such devices to provide an assessment of the cybersecurity risks as well as a description of their mitigation. Security assurance cases (SACs) capture these elements as a structured argument. Compiling an SAC requires taking domain-specific regulations and requirements as well as the way of working into account. In this case study, we evaluate CASCADE, an approach for building SAC in the context of a large medical device manufacturer with an established agile development workflow. We investigate the regulatory context as well as the adaptations needed in the development process. Our results show the suitability of SACs in the medical device industry. We identified 17 use cases in which an SAC supports internal and external needs. The connection to safety assurance can be achieved by incorporating information from the risk assessment matrix into the SAC. Integration into the development process can be achieved by introducing a new role and rules for the design review and the release to production as well as additional criteria for the definition of done. We also show that SACs built with CASCADE fulfill the requirements of relevant standards in the medical domain such as ISO 14971.",
+      "publication_date": "2024-07-10T14:34:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.07704v1"
+    },
+    {
+      "title": "Attack-Graph Threat Modeling Assessment of Ambulatory Medical Devices",
+      "authors": [
+        "Patrick Luckett",
+        "J Todd McDonald",
+        "William Bradley Glisson"
+      ],
+      "abstract": "The continued integration of technology into all aspects of society stresses the need to identify and understand the risk associated with assimilating new technologies. This necessity is heightened when technology is used for medical purposes like ambulatory devices that monitor a patient's vital signs. This integration creates environments that are conducive to malicious activities. The potential impact presents new challenges for the medical community.   Hence, this research presents attack graph modeling as a viable solution to identifying vulnerabilities, assessing risk, and forming mitigation strategies to defend ambulatory medical devices from attackers. Common and frequent vulnerabilities and attack strategies related to the various aspects of ambulatory devices, including Bluetooth enabled sensors and Android applications are identified in the literature. Based on this analysis, this research presents an attack graph modeling example on a theoretical device that highlights vulnerabilities and mitigation strategies to consider when designing ambulatory devices with similar components.",
+      "publication_date": "2017-09-15T01:09:00+00:00",
+      "doi": "10.24251/HICSS.2017.441",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1709.05026v1"
+    },
+    {
+      "title": "Cleartext Data Transmissions in Consumer IoT Medical Devices",
+      "authors": [
+        "Daniel Wood",
+        "Noah Apthorpe",
+        "Nick Feamster"
+      ],
+      "abstract": "This paper introduces a method to capture network traffic from medical IoT devices and automatically detect cleartext information that may reveal sensitive medical conditions and behaviors. The research follows a three-step approach involving traffic collection, cleartext detection, and metadata analysis. We analyze four popular consumer medical IoT devices, including one smart medical device that leaks sensitive health information in cleartext. We also present a traffic capture and analysis system that seamlessly integrates with a home network and offers a user-friendly interface for consumers to monitor and visualize data transmissions of IoT devices in their homes.",
+      "publication_date": "2018-03-27T15:40:24+00:00",
+      "doi": "10.1145/3139937.3139939",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1803.10147v1"
+    },
+    {
+      "title": "Enabling Zero Trust Security in IoMT Edge Network",
+      "authors": [
+        "Maha Ali Allouzi",
+        "Javed Khan"
+      ],
+      "abstract": "Internet of Medical Things (IoMT) deals with a patient-data-rich segment, which makes security and privacy a severe concern for patients. Therefore, access control is a significant aspect of ensuring trust in the IoMT. However, deploying existing authentication and authorization solutions to the Internet of Medical Things (IoMT) is not straightforward because of highly dynamic and possibly unprotected environments and untrusted supply chain for the IoT devices. In this article, we propose Soter, a Zero-Trust based authentication system for the IoMT. Soter Incorporates trust negotiation mechanisms within the Zero Trust framework to enable dynamic trust establishment. When a user or device seeks access to a resource, initiate a trust negotiation process. During this process, credentials, attributes, and contextual information are exchanged between the requester and the resource owner. Soter defines access rules based on various factors, including user identity, device health, and location. Access is granted or denied based on these conditions.",
+      "publication_date": "2024-02-16T00:53:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2402.10389v1"
+    },
+    {
+      "title": "Enhanced Anomaly Detection in IoMT Networks using Ensemble AI Models on   the CICIoMT2024 Dataset",
+      "authors": [
+        "Prathamesh Chandekar",
+        "Mansi Mehta",
+        "Swet Chandan"
+      ],
+      "abstract": "The rapid proliferation of Internet of Medical Things (IoMT) devices in healthcare has introduced unique cybersecurity challenges, primarily due to the diverse communication protocols and critical nature of these devices This research aims to develop an advanced, real-time anomaly detection framework tailored for IoMT network traffic, leveraging AI/ML models and the CICIoMT2024 dataset By integrating multi-protocol (MQTT, WiFi), attack-specific (DoS, DDoS), time-series (active/idle states), and device-specific (Bluetooth) data, our study captures a comprehensive range of IoMT interactions As part of our data analysis, various machine learning techniques are employed which include an ensemble model using XGBoost for improved performance against specific attack types, sequential models comprised of LSTM and CNN-LSTM that leverage time dependencies, and unsupervised models such as Autoencoders and Isolation Forest that are good in general anomaly detection The results of the experiment prove with an ensemble model lowers false positive rates and reduced detections.",
+      "publication_date": "2025-02-17T14:46:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.11854v1"
+    },
+    {
+      "title": "Security of Medical Cyber-physical Systems: An Empirical Study on   Imaging Devices",
+      "authors": [
+        "Zhiqiang Wang",
+        "Pingchuan Ma",
+        "Xiaoxiang Zou",
+        "Tao Yang"
+      ],
+      "abstract": "Recent years have witnessed a boom of connected medical devices, which brings security issues in the meantime. Medical imaging devices, an essential part of medical cyber-physical systems, play a vital role in modern hospitals and are often life-critical. However, security and privacy issues in these medical cyber-physical systems are sometimes ignored.   In this paper, we perform an empirical study on imaging devices to analyse the security of medical cyber-physical systems. To be precise, we design a threat model and propose prospective attack techniques for medical imaging devices. To tackle potential cyber threats, we introduce protection mechanisms, evaluate the effectiveness and efficiency of protection mechanisms as well as its interplay with attack techniques. To scoring security, we design a hierarchical system that provides actionable suggestions for imaging devices in different scenarios. We investigate 15 devices from 9 manufacturers to demonstrate empirical comprehension and real-world security issues.",
+      "publication_date": "2019-03-30T14:14:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1904.00224v2"
+    },
+    {
+      "title": "A Cybersecurity Guide for Using Fitness Devices",
+      "authors": [
+        "Maria Bada",
+        "Basie von Solms"
+      ],
+      "abstract": "The popularity of wearable devices is growing exponentially, with consumers using these for a variety of services. Fitness devices are currently offering new services such as shopping or buying train tickets using contactless payment. In addition, fitness devices are collecting a number of personal information such as body temperature, pulse rate, food habits and body weight, steps-distance travelled, calories burned and sleep stage. Although these devices can offer convenience to consumers, more and more reports are warning of the cybersecurity risks of such devices, and the possibilities for such devices to be hacked and used as springboards to other systems. Due to their wireless transmissions, these devices can potentially be vulnerable to a malicious attack allowing the data collected to be exposed. The vulnerabilities of these devices stem from lack of authentication, disadvantages of Bluetooth connections, location tracking as well as third party vulnerabilities. Guidelines do exist for securing such devices, but most of such guidance is directed towards device manufacturers or IoT providers, while consumers are often unaware of potential risks. The aim of this paper is to provide cybersecurity guidelines for users in order to take measures to avoid risks when using fitness devices.",
+      "publication_date": "2021-05-06T20:10:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2105.02933v1"
+    },
+    {
+      "title": "Secure Digital Administration in Medical Environment",
+      "authors": [
+        "Diana Berbecaru",
+        "Antonio Lioy",
+        "Marius Marian",
+        "Diana Marano"
+      ],
+      "abstract": "The efficiency and service quality in a medical environment can be improved by using electronic documents (or e-docs) and digital signatures to speed up both doctors' activity and to provide in the same time easy retrieval and use of needed data without loosing convenience. Our proposed solution satisfies these needs by making use of the AIDA system and many cutting-edge techniques to build a digitalized management system. To be more specific, we present firstly the AIDA document exchange framework for the management (creation, search, storage) of e-docs expressed in XML format. The framework provides security services, like privacy, authorization, authentication and non-repudiation. We describe next the use of AIDA in a real world medical service, namely the creation of electronic medical records (e- MRs). Doctors can use mobile devices that embed a secure trustworthy environment defined also in AIDA for digitally signing the e-MRs. Technically speaking a handheld PC equipped with a smart-card reader and integrating What You See Is What You Sign (WYSIWYS) features will be used for viewing and signing the e-MRs. Furthermore the proposed system is easily integrated with the infrastructure (e.g., database system) already in use at hospital's administration site and allows easy handling and updating of data processed on the mobile devices. The use of web interface for the operations to be executed on the mobile device or for those executed on the remote part of the system makes the whole application homogeneous and easy to use.",
+      "publication_date": "2019-10-17T15:01:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1910.09027v1"
+    },
+    {
+      "title": "Compromising a Medical Mannequin",
+      "authors": [
+        "William Bradley Glisson",
+        "Todd Andel",
+        "Todd McDonald",
+        "Mike Jacobs",
+        "Matt Campbell",
+        "Johnny Mayr"
+      ],
+      "abstract": "Medical training devices are becoming increasingly dependent on technology, creating opportunities that are inherently conducive to security breaches. Previous medical device research has focused on individual device security breaches and the technical aspects involved with these breaches. This research examines the viability of breaching a production-deployed medical training mannequin. The results of the proof of concept research indicate that it is possible to breach a medical training mannequin in a live environment. The research contribution is an initial empirical analysis of the viability of compromising a medical training mannequin along with providing the foundation for future research.",
+      "publication_date": "2015-08-31T20:50:47+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "1509.00065v1"
+    },
+    {
+      "title": "Recent Advances in the Internet of Medical Things (IoMT) Systems   Security",
+      "authors": [
+        "Ali Ghubaish",
+        "Tara Salman",
+        "Maede Zolanvari",
+        "Devrim Unal",
+        "Abdulla Al-Ali",
+        "Raj Jain"
+      ],
+      "abstract": "The rapid evolutions in micro-computing, mini-hardware manufacturing, and machine to machine (M2M) communications have enabled novel Internet of Things (IoT) solutions to reshape many networking applications. Healthcare systems are among these applications that have been revolutionized with IoT, introducing an IoT branch known as the Internet of Medical Things (IoMT) systems. IoMT systems allow remote monitoring of patients with chronic diseases. Thus, it can provide timely patients' diagnostic that can save their life in case of emergencies. However, security in these critical systems is a major challenge facing their wide utilization. In this paper, we present state-of-the-art techniques to secure IoMT systems' data during collection, transmission, and storage. We comprehensively overview IoMT systems' potential attacks, including physical and network attacks. Our findings reveal that most security techniques do not consider various types of attacks. Hence, we propose a security framework that combines several security techniques. The framework covers IoMT security requirements and can mitigate most of its known attacks.",
+      "publication_date": "2023-02-09T04:55:36+00:00",
+      "doi": "10.1109/JIOT.2020.3045653",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2302.04439v1"
+    },
+    {
+      "title": "MediHunt: A Network Forensics Framework for Medical IoT Devices",
+      "authors": [
+        "Ayushi Mishra",
+        "Tej Kiran Boppana",
+        "Priyanka Bagade"
+      ],
+      "abstract": "The Medical Internet of Things (MIoT) has enabled small, ubiquitous medical devices to communicate with each other to facilitate interconnected healthcare delivery. These devices interact using communication protocols like MQTT, Bluetooth, and Wi-Fi. However, as MIoT devices proliferate, these networked devices are vulnerable to cyber-attacks. This paper focuses on the vulnerabilities present in the Message Queuing Telemetry and Transport (MQTT) protocol. The MQTT protocol is prone to cyber-attacks that can harm the system's functionality. The memory-constrained MIoT devices enforce a limitation on storing all data logs that are required for comprehensive network forensics. This paper solves the data log availability challenge by detecting the attack in real-time and storing the corresponding logs for further analysis with the proposed network forensics framework: MediHunt. Machine learning (ML) techniques are the most real safeguard against cyber-attacks. However, these models require a specific dataset that covers diverse attacks on the MQTT-based IoT system for training. The currently available datasets do not encompass a variety of applications and TCP layer attacks. To address this issue, we leveraged the usage of a flow-based dataset containing flow data for TCP/IP layer and application layer attacks. Six different ML models are trained with the generated dataset to evaluate the effectiveness of the MediHunt framework in detecting real-time attacks. F1 scores and detection accuracy exceeded 0.99 for the proposed MediHunt framework with our custom dataset.",
+      "publication_date": "2023-12-07T07:19:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.04096v1"
+    },
+    {
+      "title": "Safeguarding Smart Inhaler Devices and Patient Privacy in Respiratory   Health Monitoring",
+      "authors": [
+        "Asaju Babajide",
+        "Almustapha Wakili",
+        "Michaela Barnett",
+        "Lucas Potter",
+        "Xavier-Lewis Palmer",
+        "Woosub Jung"
+      ],
+      "abstract": "The rapid development of Internet of Things (IoT) technology has significantly impacted various market sectors. According to Li et al. (2024), an estimated 75 billion devices will be on the market in 2025. The healthcare industry is a target to improve patient care and ease healthcare provider burdens. Chronic respiratory disease is likely to benefit from their inclusion, with 545 million people worldwide recorded to suffer from patients using these devices to track their dosage. At the same time, healthcare providers can improve medication administration and monitor respiratory health (Soriano et al., 2020). While IoT medical devices offer numerous benefits, they also have security vulnerabilities that can expose patient data to cyberattacks. It's crucial to prioritize security measures in developing and deploying IoT medical devices, especially in personalized health monitoring systems for individuals with respiratory conditions. Efforts are underway to assess the security risks associated with intelligent inhalers and respiratory medical devices by understanding usability behavior and technological elements to identify and address vulnerabilities effectively. This work analyses usability behavior and technical vulnerabilities, emphasizing the confidentiality of information gained from Smart Inhalers. It then extrapolates to interrogate potential vulnerabilities with Implantable Medical Devices (IMDs). Our work explores the tensions in device development through the intersection of IoT technology and respiratory health, particularly in the context of intelligent inhalers and other breathing medical devices, calling for integrating robust security measures into the development and deployment of IoT devices to safeguard patient data and ensure the secure functioning of these critical healthcare technologies.",
+      "publication_date": "2025-03-31T18:16:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.03730v1"
+    },
+    {
+      "title": "Securing Healthcare with Deep Learning: A CNN-Based Model for medical   IoT Threat Detection",
+      "authors": [
+        "Alireza Mohamadi",
+        "Hosna Ghahramani",
+        "Seyyed Amir Asghari",
+        "Mehdi Aminian"
+      ],
+      "abstract": "The increasing integration of the Internet of Medical Things (IoMT) into healthcare systems has significantly enhanced patient care but has also introduced critical cybersecurity challenges. This paper presents a novel approach based on Convolutional Neural Networks (CNNs) for detecting cyberattacks within IoMT environments. Unlike previous studies that predominantly utilized traditional machine learning (ML) models or simpler Deep Neural Networks (DNNs), the proposed model leverages the capabilities of CNNs to effectively analyze the temporal characteristics of network traffic data. Trained and evaluated on the CICIoMT2024 dataset, which comprises 18 distinct types of cyberattacks across a range of IoMT devices, the proposed CNN model demonstrates superior performance compared to previous state-of-the-art methods, achieving a perfect accuracy of 99% in binary, categorical, and multiclass classification tasks. This performance surpasses that of conventional ML models such as Logistic Regression, AdaBoost, DNNs, and Random Forests. These findings highlight the potential of CNNs to substantially improve IoMT cybersecurity, thereby ensuring the protection and integrity of connected healthcare systems.",
+      "publication_date": "2024-10-26T14:27:17+00:00",
+      "doi": "10.1109/ICIS64839.2024.10887510",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.23306v3"
+    },
+    {
+      "title": "HW/SW Framework for Improving the Safety of Implantable and Wearable   Medical Devices",
+      "authors": [
+        "Malin Prematilake",
+        "Younghyun Kim",
+        "Vijay Raghunathan",
+        "Anand Raghunathan",
+        "N. K. Jha"
+      ],
+      "abstract": "Implantable and wearable medical devices (IWMDs) are widely used for the monitoring and therapy of an increasing range of medical conditions. Improvements in medical devices, enabled by advances in low-power processors, more complex firmware, and wireless connectivity, have greatly improved therapeutic outcomes and patients' quality-of-life. However, security attacks, malfunctions and sometimes user errors have raised great concerns regarding the safety of IWMDs. In this work, we present a HW/SW (Hardware/Software) framework for improving the safety of IWMDs, wherein a set of safety rules and a rule check mechanism are used to monitor both the extrinsic state (the patient's physiological parameters sensed by the IWMD) and the internal state of the IWMD (I/O activities of the microcontroller) to infer unsafe operations that may be triggered by user errors, software bugs, or security attacks. We discuss how this approach can be realized in the context of a artificial pancreas with wireless connectivity and implement a prototype to demonstrate its effectiveness in improving safety at modest overheads.",
+      "publication_date": "2021-02-28T17:40:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2103.01781v1"
+    },
+    {
+      "title": "Know Your Enemy: Characteristics of Cyber-Attacks on Medical Imaging   Devices",
+      "authors": [
+        "Tom Mahler",
+        "Nir Nissim",
+        "Erez Shalom",
+        "Israel Goldenberg",
+        "Guy Hassman",
+        "Arnon Makori",
+        "Itzik Kochav",
+        "Yuval Elovici",
+        "Yuval Shahar"
+      ],
+      "abstract": "Purpose: Used extensively in the diagnosis, treatment, and prevention of disease, Medical Imaging Devices (MIDs), such as Magnetic Resonance Imaging (MRI) or Computed Tomography (CT) machines, play an important role in medicine today. MIDs are increasingly connected to hospital networks, making them vulnerable to sophisticated cyber-attacks targeting the devices' infrastructure and components, which can disrupt digital patient records, and potentially jeopardize patients' health. Attacks on MIDs are likely to increase, as attackers' skills improve and the number of unpatched devices with known vulnerabilities that can be easily exploited grows. Attackers may also block access to MIDs or disable them, as part of ransomware attacks, which have been shown to be successful against hospitals. Method and Materials: We conducted a comprehensive risk analysis survey at the Malware-Lab, based on the Confidentiality, Integrity, and Availability (CIA) model, in collaboration with our country's largest health maintenance organization, to define the characteristics of cyber-attacks on MIDs. The survey includes a range of vulnerabilities and potential attacks aimed at MIDs, medical and imaging information systems, and medical protocols and standards such as DICOM and HL7. Results: Based on our survey, we found that CT devices face the greatest risk of cyber-attack, due to their pivotal role in acute care imaging. Thus, we identified several possible attack vectors that target the infrastructure and functionality of CT devices, which can cause: 1. Disruption of the parameters' values used in the scanning protocols within the CT devices (e.g., tampering with the radiation exposure levels); 2. Mechanical disruption of the CT device (e.g., changing the pitch); 3. Disruption of the tomography scan signals constructing the digital images; and 4. Denial-of-Service attacks against the CT device.",
+      "publication_date": "2018-01-17T08:05:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1801.05583v2"
+    },
+    {
+      "title": "Predicting IoT Device Vulnerability Fix Times with Survival and Failure   Time Models",
+      "authors": [
+        "Carlos A Rivera A",
+        "Xinzhang Chen",
+        "Arash Shaghaghi",
+        "Gustavo Batista",
+        "Salil Kanhere"
+      ],
+      "abstract": "The rapid integration of Internet of Things (IoT) devices into enterprise environments presents significant security challenges. Many IoT devices are released to the market with minimal security measures, often harbouring an average of 25 vulnerabilities per device. To enhance cybersecurity measures and aid system administrators in managing IoT patches more effectively, we propose an innovative framework that predicts the time it will take for a vulnerable IoT device to receive a fix or patch. We developed a survival analysis model based on the Accelerated Failure Time (AFT) approach, implemented using the XGBoost ensemble regression model, to predict when vulnerable IoT devices will receive fixes or patches. By constructing a comprehensive IoT vulnerabilities database that combines public and private sources, we provide insights into affected devices, vulnerability detection dates, published CVEs, patch release dates, and associated Twitter activity trends. We conducted thorough experiments evaluating different combinations of features, including fundamental device and vulnerability data, National Vulnerability Database (NVD) information such as CVE, CWE, and CVSS scores, transformed textual descriptions into sentence vectors, and the frequency of Twitter trends related to CVEs. Our experiments demonstrate that the proposed model accurately predicts the time to fix for IoT vulnerabilities, with data from VulDB and NVD proving particularly effective. Incorporating Twitter trend data offered minimal additional benefit. This framework provides a practical tool for organisations to anticipate vulnerability resolutions, improve IoT patch management, and strengthen their cybersecurity posture against potential threats.",
+      "publication_date": "2025-01-05T12:26:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.02520v1"
+    },
+    {
+      "title": "POKs Based Secure and Energy-Efficient Access Control for Implantable   Medical Devices",
+      "authors": [
+        "Chenglong Fu",
+        "Xiaojiang Du",
+        "Longfei Wu",
+        "Qiang Zeng",
+        "Amr Mohamed",
+        "Mohsen Guizani"
+      ],
+      "abstract": "Implantable medical devices (IMDs), such as pacemakers, implanted cardiac defibrillators, and neurostimulators are medical devices implanted into patients' bodies for monitoring physiological signals and performing medical treatments. Many IMDs have built-in wireless communication modules to facilitate data collecting and device reprogramming by external programmers. The wireless communication brings significant conveniences for advanced applications such as real-time and remote monitoring but also introduces the risk of unauthorized wireless access. The absence of effective access control mechanisms exposes patients' life to cyber attacks. In this paper, we present a lightweight and universally applicable access control system for IMDs. By leveraging Physically Obfuscated Keys (POKs) as the hardware root of trust, provable security is achieved based on standard cryptographic primitives while attaining high energy efficiency. In addition, barrier-free IMD access under emergent situations is realized by utilizing the patient's biometrical information. We evaluate our proposed scheme through extensive security analysis and a prototype implementation, which demonstrates our work's superiority on security and energy efficiency.",
+      "publication_date": "2018-03-27T04:25:24+00:00",
+      "doi": "10.1007/978-3-030-37228-6_6",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1803.09890v2"
+    },
+    {
+      "title": "An Intelligent Trust Cloud Management Method for Secure Clustering in 5G   enabled Internet of Medical Things",
+      "authors": [
+        "Liu Yang",
+        "Keping Yu",
+        "Simon X. Yang",
+        "Chinmay Chakraborty",
+        "Yinzhi Lu",
+        "Tan Guo"
+      ],
+      "abstract": "5G edge computing enabled Internet of Medical Things (IoMT) is an efficient technology to provide decentralized medical services while Device-to-device (D2D) communication is a promising paradigm for future 5G networks. To assure secure and reliable communication in 5G edge computing and D2D enabled IoMT systems, this paper presents an intelligent trust cloud management method. Firstly, an active training mechanism is proposed to construct the standard trust clouds. Secondly, individual trust clouds of the IoMT devices can be established through fuzzy trust inferring and recommending. Thirdly, a trust classification scheme is proposed to determine whether an IoMT device is malicious. Finally, a trust cloud update mechanism is presented to make the proposed trust management method adaptive and intelligent under an open wireless medium. Simulation results demonstrate that the proposed method can effectively address the trust uncertainty issue and improve the detection accuracy of malicious devices.",
+      "publication_date": "2022-07-19T04:02:28+00:00",
+      "doi": "10.1109/TII.2021.3128954",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2207.09057v1"
+    },
+    {
+      "title": "L2AI: lightweight three-factor authentication and authorization in IOMT   blockchain-based environment",
+      "authors": [
+        "Laleh Khajehzadeh",
+        "Hamid Barati",
+        "Ali Barati"
+      ],
+      "abstract": "Medical Internet of Things (IoMT) is the next frontier in the digital revolution and is utilized in healthcare. In this context, IoT enables individuals to remotely manage their essential activities with minimal interaction. However, the limitations of network resources and the challenges of establishing a secure channel, as well as sharing and collecting sensitive information through an insecure public channel, pose security challenges for the medical IoT. This paper presents a lightweight multi-factor authentication and anonymous user authentication scheme to access real-time data in a blockchain-based environment. The scheme utilizes an insecure channel called L2AI. L2AI ensures security and efficiency while enhancing user anonymity through the use of pseudo-identity and dynamic indexing. The proposed method supports highly scalable systems with an efficient user registration process, allowing authenticated users to access both existing and newly added system entities without additional processes. Although the scheme is primarily designed for large systems, such as health infrastructure, it is also suitable for resource-constrained devices. The scheme relies on one-way cryptographic hashing functions and bitwise XOR operations. Additionally, a fuzzy mining algorithm is employed on the user side to verify the user's biometric information. L2AI adopts the \"Real-Or-Random (ROR)\" model for security proof and employs BAN logic for proof of authenticity. Formal security verification is conducted using the \"Automatic Validation of Internet Security Protocols and Programs\" (Proverif) tool, complemented by informal security analysis demonstrating the proper functionality of L2AI.",
+      "publication_date": "2024-07-16T21:33:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.12187v1"
+    },
+    {
+      "title": "Energy-Aware Digital Signatures for Embedded Medical Devices",
+      "authors": [
+        "Muslum Ozgur Ozmen",
+        "Attila A. Yavuz",
+        "Rouzbeh Behnia"
+      ],
+      "abstract": "Authentication is vital for the Internet of Things (IoT) applications involving sensitive data (e.g., medical and financial systems). Digital signatures offer scalable authentication with non-repudiation and public verifiability, which are necessary for auditing and dispute resolution in such IoT applications. However, digital signatures have been shown to be highly costly for low-end IoT devices, especially when embedded devices (e.g., medical implants) must operate without a battery replacement for a long time.   We propose an Energy-aware Signature for Embedded Medical devices (ESEM) that achieves near-optimal signer efficiency. ESEM signature generation does not require any costly operations (e.g., elliptic curve (EC) scalar multiplication/addition), but only a small constant-number of pseudo-random function calls, additions, and a single modular multiplication. ESEM has the smallest signature size among its EC-based counterparts with an identical private key size. We achieve this by eliminating the use of the ephemeral public key (i.e, commitment) in Schnorr-type signatures from the signing via a distributed construction at the verifier without interaction with the signer while permitting a constant-size public key. We proved that ESEM is secure (in random oracle model), and fully implemented it on an 8-bit AVR microcontroller that is commonly used in medical devices. Our experiments showed that ESEM achieves 8.4x higher energy efficiency over its closest counterpart while offering a smaller signature and code size. Hence, ESEM can be suitable for deployment on resource limited embedded devices in IoT. We open-sourced our software for public testing and wide-adoption.",
+      "publication_date": "2019-03-19T01:26:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1903.07786v1"
+    },
+    {
+      "title": "ACRIC: Securing Legacy Communication Networks via Authenticated Cyclic   Redundancy Integrity Check",
+      "authors": [
+        "Alessandro Lotto",
+        "Alessandro Brighente",
+        "Mauro Conti"
+      ],
+      "abstract": "The increasing integration of modern IT technologies into OT technologies and industrial systems is expanding the vulnerability surface of legacy infrastructures, which often rely on outdated protocols and resource-constrained devices. Recent security incidents in safety-critical industries exposed how the lack of proper message authentication enables attackers to inject malicious commands or alter system behavior, revealing fundamental security weaknesses in existing architectures. These shortcomings have thus prompted new regulations that emphasize the pressing need to strengthen cybersecurity, particularly in legacy systems. Authentication is widely recognized as a fundamental security measure that enhances system resilience. However, its adoption in legacy industrial environments is limited due to practical challenges like backward compatibility, message format changes, and hardware replacement or upgrades costs. In this paper, we introduce ACRIC, a message authentication solution to secure legacy industrial communications explicitly tailored to overcome those challenges all at once. ACRIC uniquely leverages cryptographic computations applied to the CRC field - already present in most industrial communication protocols - ensuring robust message integrity protection and authentication without requiring additional hardware or modifications to existing message formats. ACRIC's backward compatibility and protocol-agnostic nature enable coexistence with non-secured devices, thus facilitating gradual security upgrades in legacy infrastructures. Formal security assessment and experimental evaluation on an industrial-grade testbed demonstrate that ACRIC provides robust security guarantees with minimal computational overhead (~ 4 us). These results underscore ACRIC's practicality, cost-effectiveness, and suitability for effective adoption in resource-constrained industrial environments.",
+      "publication_date": "2024-11-21T18:26:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.14394v2"
+    },
+    {
+      "title": "Cybersecurity and Frequent Cyber Attacks on IoT Devices in Healthcare:   Issues and Solutions",
+      "authors": [
+        "Zag ElSayed",
+        "Ahmed Abdelgawad",
+        "Nelly Elsayed"
+      ],
+      "abstract": "Integrating Internet of Things (IoT) devices in healthcare has revolutionized patient care, offering improved monitoring, diagnostics, and treatment. However, the proliferation of these devices has also introduced significant cybersecurity challenges. This paper reviews the current landscape of cybersecurity threats targeting IoT devices in healthcare, discusses the underlying issues contributing to these vulnerabilities, and explores potential solutions. Additionally, this study offers solutions and suggestions for researchers, agencies, and security specialists to overcome these IoT in healthcare cybersecurity vulnerabilities. A comprehensive literature survey highlights the nature and frequency of cyber attacks, their impact on healthcare systems, and emerging strategies to mitigate these risks.",
+      "publication_date": "2025-01-20T03:29:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.11250v1"
+    },
+    {
+      "title": "Characterizing IOMT/Personal Area Networks Landscape",
+      "authors": [
+        "Adil Rajput",
+        "Tayeb Brahimi"
+      ],
+      "abstract": "The attention garnered by the Internet of Things (IoT) term has taken the world by a storm. IOT concepts have been applied to various domains revolutionizing the way business processes are conducted. Health Informatics is a nascent multidisciplinary field that aims at applying information engineering concepts to healthcare. The information traditionally came from a variety of sources such as healthcare IT systems but recently is being stored in variety of IOT devices. Application of IOT concepts is becoming the norm giving rise to the Internet of Medical Things (IOMT). However, IOMT introduces many challenges such as the real-time nature, security, and privacy of data along with others. Thus, understanding the underlying structure of IOMT is of paramount importance. Given the importance of the underlying networks, we explore various solutions currently employed in developing the Personal Area Networks (PANs) that are the underlying cornerstone of IOMT). PANs allow the sensors to measure the change in various stimuli and transmit the information via LANs and WANs to various stakeholders. This chapter will look at three standards that are currently used by both academia and industry along with Body Area Networks (BANs). The chapter also provides a survey of prevalent IOMT applications along with various vendors that provide such services.",
+      "publication_date": "2019-02-02T09:19:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1902.00675v1"
+    },
+    {
+      "title": "Baseline functionality for security and control of commodity IoT devices   and domain-controlled device lifecycle management",
+      "authors": [
+        "Markus Miettinen",
+        "Paul C. van Oorschot",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "abstract": "The emerging Internet of Things (IoT) drastically increases the number of connected devices in homes, workplaces and smart city infrastructures. This drives a need for means to not only ensure confidentiality of device-related communications, but for device configuration and management---ensuring that only legitimate devices are granted privileges to a local domain, that only authorized agents have access to the device and data it holds, and that software updates are authentic. The need to support device on-boarding, ongoing device management and control, and secure decommissioning dictates a suite of key management services for both access control to devices, and access by devices to wireless infrastructure and networked resources. We identify this core functionality, and argue for the recognition of efficient and reliable key management support---both within IoT devices, and by a unifying external management platform---as a baseline requirement for an IoT world. We present a framework architecture to facilitate secure, flexible and convenient device management in commodity IoT scenarios, and offer an illustrative set of protocols as a base solution---not to promote specific solution details, but to highlight baseline functionality to help domain owners oversee deployments of large numbers of independent multi-vendor IoT devices.",
+      "publication_date": "2018-08-09T09:42:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1808.03071v1"
+    },
+    {
+      "title": "A Secure Proxy-based Access Control Scheme for Implantable Medical   Devices",
+      "authors": [
+        "Longfei Wu",
+        "Haotian Chi",
+        "Xiaojiang Du"
+      ],
+      "abstract": "With the rapid development of health equipments, increasingly more patients have installed the implantable medical devices (IMD) in their bodies for diagnostic, monitoring, and therapeutic purposes. IMDs are extremely limited in computation power and battery capacity. Meanwhile, IMDs have to communicate with an external programmer device (i.e., IMD programmer) through the wireless channel, which put them under the risk of unauthorized access and malicious wireless attacks. In this paper, we propose a proxy-based fine-grained access control scheme for IMDs, which can prolong the IMD's lifetime by delegating the access control computations to the proxy device (e.g., smartphone). In our scheme, the proxy communicates with the IMD programmer through an audio cable, which is resistant to a number of wireless attacks. Additionally, we use the ciphertext-policy attribute-based encryption (CP-ABE) to enforce fine-grained access control. The proposed scheme is implemented on real emulator devices and evaluated through experimental tests. The experiments show that the proposed scheme is lightweight and effective.",
+      "publication_date": "2018-03-21T05:43:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1803.07751v2"
+    },
+    {
+      "title": "Securing Automated Insulin Delivery Systems: A Review of Security   Threats and Protectives Strategies",
+      "authors": [
+        "Yuchen Niu",
+        "Siew-Kei Lam"
+      ],
+      "abstract": "Automated insulin delivery (AID) systems have emerged as a significant technological advancement in diabetes care. These systems integrate a continuous glucose monitor, an insulin pump, and control algorithms to automate insulin delivery, reducing the burden of self-management and offering enhanced glucose control. However, the increasing reliance on wireless connectivity and software control has exposed AID systems to critical security risks that could result in life-threatening treatment errors. This review first presents a comprehensive examination of the security landscape, covering technical vulnerabilities, legal frameworks, and commercial product considerations, and an analysis of existing research on attack vectors, defence mechanisms, as well as evaluation methods and resources for AID systems. Despite recent advancements, several open challenges remain in achieving secure AID systems, particularly in standardising security evaluation frameworks and developing comprehensive, lightweight, and adaptive defence strategies. As one of the most widely adopted and extensively studied physiologic closed-loop control systems, this review serves as a valuable reference for understanding security challenges and solutions applicable to analogous medical systems.",
+      "publication_date": "2025-03-18T08:11:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.14006v1"
+    }
+  ]
+}

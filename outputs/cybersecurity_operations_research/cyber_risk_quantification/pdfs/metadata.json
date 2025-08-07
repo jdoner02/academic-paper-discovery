@@ -1,0 +1,101 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:36:32.762526+00:00",
+    "strategy_name": "Cyber Risk Quantification and Decision Science",
+    "total_papers": 5,
+    "download_directory": "outputs/cybersecurity_operations_research/cyber_risk_quantification/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Cyber Risk Frequency, Severity and Insurance Viability",
+      "authors": [
+        "Matteo Malavasi",
+        "Gareth W. Peters",
+        "Pavel V. Shevchenko",
+        "Stefan Trück",
+        "Jiwook Jang",
+        "Georgy Sofronov"
+      ],
+      "abstract": "In this study an exploration of insurance risk transfer is undertaken for the cyber insurance industry in the United States of America, based on the leading industry dataset of cyber events provided by Advisen. We seek to address two core unresolved questions. First, what factors are the most significant covariates that may explain the frequency and severity of cyber loss events and are they heterogeneous over cyber risk categories? Second, is cyber risk insurable in regards to the required premiums, risk pool sizes and how would this decision vary with the insured companies industry sector and size? We address these questions through a combination of regression models based on the class of Generalised Additive Models for Location Shape and Scale (GAMLSS) and a class of ordinal regressions. These models will then form the basis for our analysis of frequency and severity of cyber risk loss processes. We investigate the viability of insurance for cyber risk using a utility modelling framework with premium calculated by classical certainty equivalence analysis utilising the developed regression models. Our results provide several new key insights into the nature of insurability of cyber risk and rigorously address the two insurance questions posed in a real data driven case study analysis.",
+      "publication_date": "2021-11-05T10:12:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.RM"
+      ],
+      "arxiv_id": "2111.03366v2"
+    },
+    {
+      "title": "QBER: Quantifying Cyber Risks for Strategic Decisions",
+      "authors": [
+        "Muriel Figueredo Franco",
+        "Aiatur Rahaman Mullick",
+        "Santosh Jha"
+      ],
+      "abstract": "Quantifying cyber risks is essential for organizations to grasp their vulnerability to threats and make informed decisions. However, current approaches still need to work on blending economic viewpoints to provide insightful analysis. To bridge this gap, we introduce QBER approach to offer decision-makers measurable risk metrics. The QBER evaluates losses from cyberattacks, performs detailed risk analyses based on existing cybersecurity measures, and provides thorough cost assessments. Our contributions involve outlining cyberattack probabilities and risks, identifying Technical, Economic, and Legal (TEL) impacts, creating a model to gauge impacts, suggesting risk mitigation strategies, and examining trends and challenges in implementing widespread Cyber Risk Quantification (CRQ). The QBER approach serves as a guided approach for organizations to assess risks and strategically invest in cybersecurity.",
+      "publication_date": "2024-05-06T14:25:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.03513v1"
+    },
+    {
+      "title": "Cyber Risk Taxonomies: Statistical Analysis of Cybersecurity Risk   Classifications",
+      "authors": [
+        "Matteo Malavasi",
+        "Gareth W. Peters",
+        "Stefan Treuck",
+        "Pavel V. Shevchenko",
+        "Jiwook Jang",
+        "Georgy Sofronov"
+      ],
+      "abstract": "Cyber risk classifications are widely used in the modeling of cyber event distributions, yet their effectiveness in out of sample forecasting performance remains underexplored. In this paper, we analyse the most commonly used classifications and argue in favour of switching the attention from goodness-of-fit and in-sample predictive performance, to focusing on the out-of sample forecasting performance. We use a rolling window analysis, to compare cyber risk distribution forecasts via threshold weighted scoring functions. Our results indicate that business motivated cyber risk classifications appear to be too restrictive and not flexible enough to capture the heterogeneity of cyber risk events. We investigate how dynamic and impact-based cyber risk classifiers seem to be better suited in forecasting future cyber risk losses than the other considered classifications. These findings suggest that cyber risk types provide limited forecasting ability concerning cyber event severity distribution, and cyber insurance ratemakers should utilize cyber risk types only when modeling the cyber event frequency distribution. Our study offers valuable insights for decision-makers and policymakers alike, contributing to the advancement of scientific knowledge in the field of cyber risk management.",
+      "publication_date": "2024-10-04T04:12:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.05297v1"
+    },
+    {
+      "title": "Cyber Risk Assessment for Capital Management",
+      "authors": [
+        "Wing Fung Chong",
+        "Runhuan Feng",
+        "Hins Hu",
+        "Linfeng Zhang"
+      ],
+      "abstract": "This paper introduces a two-pillar cyber risk management framework to address the pervasive challenges in managing cyber risk. The first pillar, cyber risk assessment, combines insurance frequency-severity models with cybersecurity cascade models to capture the unique nature of cyber risk. The second pillar, cyber capital management, facilitates informed allocation of capital for a balanced cyber risk management strategy, including cybersecurity investments, insurance coverage, and reserves. A case study, based on historical cyber incident data and realistic assumptions, demonstrates the necessity of comprehensive cost-benefit analysis for budget-constrained companies with competing objectives in cyber risk management. In addition, sensitivity analysis highlights the dependence of the optimal strategy on factors such as the price of cybersecurity controls and their effectiveness. The framework's implementation across a diverse range of companies yields general insights on cyber risk management.",
+      "publication_date": "2022-05-17T15:25:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.RM"
+      ],
+      "arxiv_id": "2205.08435v4"
+    },
+    {
+      "title": "A novel k-generation propagation model for cyber risk and its   application to cyber insurance",
+      "authors": [
+        "Na Ren",
+        "Xin Zhang"
+      ],
+      "abstract": "The frequent occurrence of cyber risks and their serious economic consequences have created a growth market for cyber insurance. The calculation of aggregate losses, an essential step in insurance pricing, has attracted considerable attention in recent years. This research develops a path-based k-generation risk contagion model in a tree-shaped network structure that incorporates the impact of the origin contagion location and the heterogeneity of security levels on contagion probability and local loss, distinguishing it from most existing models. Furthermore, we discuss the properties of k-generation risk contagion among multi-paths using the concept of d-separation in Bayesian network (BN), and derive explicit expressions for the mean and variance of local loss on a single path. By combining these results, we compute the mean and variance values for aggregate loss across the entire network until time $t$, which is crucial for accurate cyber insurance pricing. Finally, through numerical calculations and relevant probability properties, we have obtained several findings that are valuable to risk managers and insurers.",
+      "publication_date": "2024-08-26T09:54:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.RM"
+      ],
+      "arxiv_id": "2408.14151v1"
+    }
+  ]
+}

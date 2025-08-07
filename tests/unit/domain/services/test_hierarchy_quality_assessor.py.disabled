@@ -1,0 +1,378 @@
+"""
+Unit tests for HierarchyQualityAssessor domain service.
+
+This test suite validates the HierarchyQualityAssessor domain service, which provides
+comprehensive quality assessment and improvement recommendations for concept hierarchies.
+
+Educational Notes - Domain Service Testing:
+- Tests stateless services that coordinate multiple domain objects
+- Validates complex business logic that doesn't belong in entities
+- Ensures services maintain domain boundaries and rules
+- Demonstrates testing of academic-grade quality assessment algorithms
+
+Educational Notes - Quality Assessment Patterns:
+- Comprehensive metrics beyond simple counts and averages
+- Academic research standards for hierarchy evaluation
+- Comparative analysis between different hierarchy approaches
+- Actionable recommendations for hierarchy improvement
+
+Testing Strategy:
+- Property-based testing for quality assessment invariants
+- Comparative testing to ensure relative quality rankings
+- Edge case testing for degenerate hierarchy structures
+- Performance testing for large-scale hierarchy analysis
+"""
+
+import pytest
+from typing import Dict, List, Any
+from datetime import datetime, timezone
+
+from src.domain.entities.concept_hierarchy import ConceptHierarchy
+from src.domain.entities.concept import Concept
+from src.domain.value_objects.evidence_sentence import EvidenceSentence
+from src.domain.services.hierarchy_quality_assessor import HierarchyQualityAssessor
+from src.domain.common.validation import DomainValidationError
+
+
+class TestHierarchyQualityAssessor:
+    """
+    Test suite for HierarchyQualityAssessor domain service.
+
+    Educational Notes - Domain Service Pattern:
+    - Services encapsulate domain logic that doesn't naturally fit in entities
+    - Stateless operations that work with multiple domain objects
+    - Academic-grade algorithms suitable for research validation
+    - Clear separation between computation and data storage
+    """
+
+    def setup_method(self):
+        """Set up test fixtures for quality assessment testing."""
+        self.quality_assessor = HierarchyQualityAssessor()
+
+        # Create test hierarchies with different quality characteristics
+        self.high_quality_hierarchy = self._create_high_quality_hierarchy()
+        self.low_quality_hierarchy = self._create_low_quality_hierarchy()
+        self.unbalanced_hierarchy = self._create_unbalanced_hierarchy()
+        self.sparse_evidence_hierarchy = self._create_sparse_evidence_hierarchy()
+
+    def test_assess_hierarchy_balance(self):
+        """Test assessment of hierarchy structural balance."""
+        # This test should fail initially (RED phase)
+
+        # High-quality hierarchy should have good balance
+        balance_assessment = self.quality_assessor.assess_hierarchy_balance(
+            self.high_quality_hierarchy
+        )
+
+        assert balance_assessment.overall_balance_score >= 0.8
+        assert balance_assessment.depth_distribution_score >= 0.7
+        assert balance_assessment.breadth_distribution_score >= 0.7
+
+        # Unbalanced hierarchy should have poor balance score
+        unbalanced_assessment = self.quality_assessor.assess_hierarchy_balance(
+            self.unbalanced_hierarchy
+        )
+
+        assert unbalanced_assessment.overall_balance_score < 0.5
+        assert unbalanced_assessment.has_balance_issues == True
+
+        # Assessment should include actionable recommendations
+        assert len(unbalanced_assessment.improvement_recommendations) > 0
+        assert any(
+            "rebalance" in rec.lower()
+            for rec in unbalanced_assessment.improvement_recommendations
+        )
+
+    def test_identify_orphaned_concepts(self):
+        """Test identification of concepts without proper relationships."""
+        # This test should fail initially (RED phase)
+
+        # Create hierarchy with orphaned concepts
+        hierarchy_with_orphans = self._create_hierarchy_with_orphans()
+
+        orphaned_concepts = self.quality_assessor.identify_orphaned_concepts(
+            hierarchy_with_orphans
+        )
+
+        # Should identify concepts without parents (except roots) or children (except leaves)
+        assert len(orphaned_concepts.isolated_concepts) > 0
+        assert len(orphaned_concepts.missing_parent_concepts) > 0
+
+        # Each orphaned concept should have detailed analysis
+        for orphan in orphaned_concepts.isolated_concepts:
+            assert orphan.concept_text in hierarchy_with_orphans.concepts
+            assert len(orphan.isolation_reasons) > 0
+            assert len(orphan.suggested_connections) > 0
+
+    def test_validate_evidence_coverage(self):
+        """Test validation that all concepts have adequate evidence support."""
+        # This test should fail initially (RED phase)
+
+        # Test hierarchy with good evidence coverage
+        good_coverage = self.quality_assessor.validate_evidence_coverage(
+            self.high_quality_hierarchy
+        )
+
+        assert good_coverage.overall_coverage_score >= 0.8
+        assert good_coverage.concepts_without_evidence == []
+        assert good_coverage.concepts_with_weak_evidence == []
+
+        # Test hierarchy with sparse evidence
+        sparse_coverage = self.quality_assessor.validate_evidence_coverage(
+            self.sparse_evidence_hierarchy
+        )
+
+        assert sparse_coverage.overall_coverage_score < 0.6
+        assert len(sparse_coverage.concepts_without_evidence) > 0
+        assert len(sparse_coverage.evidence_quality_breakdown) > 0
+
+    def test_recommend_hierarchy_improvements(self):
+        """Test generation of actionable hierarchy improvement recommendations."""
+        # This test should fail initially (RED phase)
+
+        recommendations = self.quality_assessor.recommend_hierarchy_improvements(
+            self.low_quality_hierarchy
+        )
+
+        # Should provide comprehensive improvement recommendations
+        assert len(recommendations.structural_improvements) > 0
+        assert len(recommendations.evidence_improvements) > 0
+        assert len(recommendations.quality_improvements) > 0
+
+        # Each recommendation should be actionable
+        for improvement in recommendations.structural_improvements:
+            assert improvement.priority in ["high", "medium", "low"]
+            assert len(improvement.description) > 0
+            assert len(improvement.action_steps) > 0
+            assert improvement.expected_impact > 0.0
+
+        # Should include specific concept recommendations
+        assert len(recommendations.concept_specific_recommendations) > 0
+
+    def test_compare_hierarchy_quality(self):
+        """Test comparative quality analysis between multiple hierarchies."""
+        # This test should fail initially (RED phase)
+
+        comparison = self.quality_assessor.compare_hierarchy_quality(
+            [
+                self.high_quality_hierarchy,
+                self.low_quality_hierarchy,
+                self.unbalanced_hierarchy,
+            ]
+        )
+
+        # Should rank hierarchies by overall quality
+        assert len(comparison.ranked_hierarchies) == 3
+
+        # High-quality hierarchy should rank highest
+        best_hierarchy = comparison.ranked_hierarchies[0]
+        assert best_hierarchy.hierarchy_id == self.high_quality_hierarchy.hierarchy_id
+        assert best_hierarchy.overall_quality_score >= 0.8
+
+        # Should provide detailed comparison metrics
+        assert len(comparison.quality_dimensions) > 0
+        for dimension in comparison.quality_dimensions:
+            assert len(dimension.scores) == 3  # One score per hierarchy
+            assert all(0.0 <= score <= 1.0 for score in dimension.scores)
+
+    def test_assess_concept_coherence(self):
+        """Test assessment of semantic coherence within concept groups."""
+        # This test should fail initially (RED phase)
+
+        coherence_assessment = self.quality_assessor.assess_concept_coherence(
+            self.high_quality_hierarchy
+        )
+
+        # Should analyze coherence at multiple levels
+        assert len(coherence_assessment.level_coherence_scores) > 0
+
+        # Each level should have coherence metrics
+        for level, score in coherence_assessment.level_coherence_scores.items():
+            assert 0.0 <= score <= 1.0
+
+        # Should identify coherence issues
+        if coherence_assessment.coherence_issues:
+            for issue in coherence_assessment.coherence_issues:
+                assert len(issue.affected_concepts) > 0
+                assert len(issue.suggested_resolution) > 0
+
+    def test_calculate_hierarchy_completeness(self):
+        """Test assessment of hierarchy completeness for domain coverage."""
+        # This test should fail initially (RED phase)
+
+        completeness_assessment = (
+            self.quality_assessor.calculate_hierarchy_completeness(
+                self.high_quality_hierarchy,
+                expected_domain_concepts=[
+                    "Machine Learning",
+                    "Deep Learning",
+                    "Neural Networks",
+                    "Computer Vision",
+                    "Natural Language Processing",
+                ],
+            )
+        )
+
+        # Should assess coverage of expected domain concepts
+        assert 0.0 <= completeness_assessment.domain_coverage_score <= 1.0
+        assert len(completeness_assessment.covered_concepts) > 0
+
+        # Should identify missing concepts
+        if completeness_assessment.missing_concepts:
+            for missing in completeness_assessment.missing_concepts:
+                assert missing.concept_name not in self.high_quality_hierarchy.concepts
+                assert len(missing.suggested_relationships) > 0
+
+    def test_validate_extraction_quality(self):
+        """Test validation of extraction algorithm quality through hierarchy analysis."""
+        # This test should fail initially (RED phase)
+
+        extraction_validation = self.quality_assessor.validate_extraction_quality(
+            self.high_quality_hierarchy
+        )
+
+        # Should assess extraction algorithm performance
+        assert 0.0 <= extraction_validation.extraction_quality_score <= 1.0
+        assert len(extraction_validation.algorithm_performance_metrics) > 0
+
+        # Should validate provenance information
+        assert extraction_validation.provenance_completeness_score > 0.0
+
+        # Should identify potential extraction issues
+        if extraction_validation.potential_issues:
+            for issue in extraction_validation.potential_issues:
+                assert len(issue.description) > 0
+                assert len(issue.affected_concepts) > 0
+
+    def test_analyze_hierarchy_evolution(self):
+        """Test analysis of hierarchy changes over time for quality tracking."""
+        # This test should fail initially (RED phase)
+
+        # Create a modified version of the hierarchy
+        evolved_hierarchy = self._create_evolved_hierarchy(self.high_quality_hierarchy)
+
+        evolution_analysis = self.quality_assessor.analyze_hierarchy_evolution(
+            original_hierarchy=self.high_quality_hierarchy,
+            evolved_hierarchy=evolved_hierarchy,
+        )
+
+        # Should track quality changes over time
+        assert (
+            abs(evolution_analysis.quality_change_score) > 0.001
+        )  # Some change should be detected
+
+        # Should identify specific changes
+        changes_detected = (
+            len(evolution_analysis.added_concepts) > 0
+            or len(evolution_analysis.removed_concepts) > 0
+            or len(evolution_analysis.modified_relationships) > 0
+        )
+        assert changes_detected  # At least some type of change should be detected
+
+        # Should assess improvement or degradation
+        assert evolution_analysis.overall_improvement in [True, False]
+        assert len(evolution_analysis.quality_trend_analysis) > 0
+
+    # Helper methods for creating test hierarchies
+    def _create_high_quality_hierarchy(self) -> ConceptHierarchy:
+        """Create a high-quality hierarchy for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+    def _create_low_quality_hierarchy(self) -> ConceptHierarchy:
+        """Create a low-quality hierarchy for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+    def _create_unbalanced_hierarchy(self) -> ConceptHierarchy:
+        """Create an unbalanced hierarchy for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+    def _create_sparse_evidence_hierarchy(self) -> ConceptHierarchy:
+        """Create a hierarchy with sparse evidence for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+    def _create_hierarchy_with_orphans(self) -> ConceptHierarchy:
+        """Create a hierarchy with orphaned concepts for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+    def _create_evolved_hierarchy(
+        self, base_hierarchy: ConceptHierarchy
+    ) -> ConceptHierarchy:
+        """Create an evolved version of a hierarchy for testing."""
+        # Implementation will be added in GREEN phase
+        pass
+
+
+class TestHierarchyQualityMetrics:
+    """
+    Test suite for individual quality metrics used in hierarchy assessment.
+
+    Educational Notes - Quality Metrics Design:
+    - Individual metrics are composable and testable in isolation
+    - Mathematical properties can be validated independently
+    - Enables understanding of what contributes to overall quality
+    - Supports research validation of quality assessment approaches
+    """
+
+    def setup_method(self):
+        """Set up test fixtures for metrics testing."""
+        self.quality_assessor = HierarchyQualityAssessor()
+
+    def test_gini_coefficient_calculation(self):
+        """Test Gini coefficient calculation for hierarchy balance assessment."""
+        # This test should fail initially (RED phase)
+
+        # Perfectly balanced distribution should have Gini ≈ 0
+        balanced_distribution = [10, 10, 10, 10, 10]
+        balanced_gini = self.quality_assessor.calculate_gini_coefficient(
+            balanced_distribution
+        )
+        assert balanced_gini < 0.1
+
+        # Highly unbalanced distribution should have Gini ≈ 1
+        unbalanced_distribution = [50, 0, 0, 0, 0]
+        unbalanced_gini = self.quality_assessor.calculate_gini_coefficient(
+            unbalanced_distribution
+        )
+        assert unbalanced_gini > 0.8
+
+    def test_shannon_entropy_calculation(self):
+        """Test Shannon entropy calculation for concept distribution analysis."""
+        # This test should fail initially (RED phase)
+
+        # Uniform distribution should have maximum entropy
+        uniform_distribution = [0.2, 0.2, 0.2, 0.2, 0.2]
+        uniform_entropy = self.quality_assessor.calculate_shannon_entropy(
+            uniform_distribution
+        )
+        assert uniform_entropy > 2.0  # log2(5) ≈ 2.32
+
+        # Concentrated distribution should have low entropy
+        concentrated_distribution = [1.0, 0.0, 0.0, 0.0, 0.0]
+        concentrated_entropy = self.quality_assessor.calculate_shannon_entropy(
+            concentrated_distribution
+        )
+        assert concentrated_entropy < 0.1
+
+    def test_modularity_score_calculation(self):
+        """Test modularity score for community detection in concept hierarchies."""
+        # This test should fail initially (RED phase)
+
+        hierarchy = self._create_modular_hierarchy()
+
+        modularity_score = self.quality_assessor.calculate_modularity_score(hierarchy)
+
+        # Modularity should be between -1 and 1
+        assert -1.0 <= modularity_score <= 1.0
+
+        # Well-structured hierarchy should have positive modularity
+        assert modularity_score > 0.0
+
+    def _create_modular_hierarchy(self) -> ConceptHierarchy:
+        """Create a hierarchy with clear modular structure for testing."""
+        # Implementation will be added in GREEN phase
+        pass

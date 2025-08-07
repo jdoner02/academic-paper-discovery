@@ -1,0 +1,204 @@
+# Critical Infrastructure Water Security Research Configuration
+# Cybersecurity for water and wastewater treatment systems, utilities, and infrastructure
+search_configuration:
+  default_strategy: "water_treatment_scada_security"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational SCADA security research
+    end_year: 2025      # Latest developments in water infrastructure security
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["water quality analysis", "chemical treatment process", "water purification chemistry"]   # Focus on cybersecurity, not chemical processes
+
+strategies:
+  water_treatment_scada_security:
+    name: "Water Treatment SCADA and ICS Security"
+    description: "Cybersecurity for supervisory control and data acquisition systems in water treatment plants, focusing on industrial control system vulnerabilities and protections"
+    primary_keywords:
+      - "water treatment cybersecurity"
+      - "SCADA security"
+      - "water utility cybersecurity"
+      - "ICS security water"
+      - "water treatment SCADA"
+      - "water infrastructure cybersecurity"
+    secondary_keywords:
+      - "industrial control systems"
+      - "supervisory control"
+      - "water treatment automation"
+      - "PLC security"
+      - "HMI security"
+      - "water treatment control systems"
+      - "municipal water security"
+      - "drinking water cybersecurity"
+    technical_terms:
+      - "DNP3 protocol security"
+      - "Modbus security"
+      - "water treatment network security"
+      - "chlorination control security"
+      - "pump control cybersecurity"
+      - "valve control security"
+      - "water distribution security"
+      - "SCADA intrusion detection"
+    application_domains:
+      - "municipal water treatment"
+      - "wastewater treatment"
+      - "water distribution systems"
+      - "small water utilities"
+      - "rural water systems"
+      - "public water supply"
+    exclude_terms:
+      - "water quality monitoring"
+      - "water chemistry"
+      - "water treatment efficiency"
+
+  water_infrastructure_incident_response:
+    name: "Water Infrastructure Incident Response and Recovery"
+    description: "Emergency response protocols, automated incident containment, and recovery strategies for cyberattacks on water infrastructure systems"
+    primary_keywords:
+      - "water infrastructure incident response"
+      - "water utility cyber incident"
+      - "water treatment emergency response"
+      - "water infrastructure recovery"
+      - "water security incident management"
+    secondary_keywords:
+      - "cyber incident containment"
+      - "water system resilience"
+      - "emergency response protocols"
+      - "incident response automation"
+      - "water utility emergency procedures"
+      - "cyber crisis management"
+      - "water infrastructure continuity"
+      - "operational technology incident response"
+    technical_terms:
+      - "automated incident response"
+      - "network segmentation"
+      - "isolation protocols"
+      - "backup control systems"
+      - "manual override procedures"
+      - "system restoration"
+      - "forensic analysis"
+      - "threat containment"
+    application_domains:
+      - "critical infrastructure"
+      - "public utilities"
+      - "emergency management"
+      - "water safety"
+      - "public health protection"
+    exclude_terms:
+      - "natural disaster response"
+      - "physical infrastructure damage"
+
+  water_utility_risk_assessment:
+    name: "Water Utility Cybersecurity Risk Assessment and Management"
+    description: "Risk assessment methodologies, vulnerability analysis, and security frameworks specifically designed for water and wastewater utilities"
+    primary_keywords:
+      - "water utility risk assessment"
+      - "water infrastructure vulnerability"
+      - "water security risk management"
+      - "water utility cyber risk"
+      - "water treatment risk analysis"
+    secondary_keywords:
+      - "cybersecurity framework"
+      - "vulnerability assessment"
+      - "risk quantification"
+      - "security maturity model"
+      - "threat modeling"
+      - "risk mitigation strategies"
+      - "security controls effectiveness"
+      - "compliance frameworks"
+    technical_terms:
+      - "asset inventory"
+      - "threat landscape analysis"
+      - "vulnerability scanning"
+      - "penetration testing"
+      - "security audit"
+      - "control system assessment"
+      - "network architecture review"
+      - "security metrics"
+    application_domains:
+      - "utility management"
+      - "regulatory compliance"
+      - "security governance"
+      - "strategic planning"
+      - "investment prioritization"
+    exclude_terms:
+      - "financial risk assessment"
+      - "environmental risk"
+      - "operational efficiency"
+
+  small_water_utility_security:
+    name: "Small and Rural Water Utility Cybersecurity"
+    description: "Tailored cybersecurity solutions and best practices for small, rural, and resource-constrained water utilities with limited IT staff and budgets"
+    primary_keywords:
+      - "small water utility cybersecurity"
+      - "rural water security"
+      - "resource-constrained security"
+      - "small utility cyber protection"
+      - "community water security"
+    secondary_keywords:
+      - "low-cost security solutions"
+      - "minimal IT infrastructure"
+      - "community water systems"
+      - "simplified security frameworks"
+      - "cost-effective protection"
+      - "basic cybersecurity controls"
+      - "essential security measures"
+      - "practical implementation"
+    technical_terms:
+      - "affordable security tools"
+      - "cloud-based monitoring"
+      - "managed security services"
+      - "simple network protection"
+      - "basic intrusion detection"
+      - "remote monitoring"
+      - "centralized management"
+      - "shared security resources"
+    application_domains:
+      - "rural communities"
+      - "small municipalities"
+      - "water cooperatives"
+      - "tribal water systems"
+      - "regional water authorities"
+    exclude_terms:
+      - "large utility operations"
+      - "enterprise security"
+      - "complex infrastructure"
+
+  water_iot_smart_monitoring_security:
+    name: "Water IoT and Smart Monitoring System Security"
+    description: "Cybersecurity for Internet of Things devices, smart sensors, and connected monitoring systems in water infrastructure and treatment facilities"
+    primary_keywords:
+      - "water IoT security"
+      - "smart water monitoring"
+      - "water sensor security"
+      - "connected water systems"
+      - "water infrastructure IoT"
+    secondary_keywords:
+      - "sensor network security"
+      - "water quality sensors"
+      - "remote monitoring devices"
+      - "wireless sensor networks"
+      - "edge computing security"
+      - "data transmission security"
+      - "device authentication"
+      - "IoT device management"
+    technical_terms:
+      - "sensor authentication"
+      - "encrypted communications"
+      - "device provisioning"
+      - "firmware security"
+      - "network protocols"
+      - "data integrity"
+      - "secure boot"
+      - "device lifecycle management"
+    application_domains:
+      - "smart water meters"
+      - "environmental monitoring"
+      - "leak detection systems"
+      - "pressure monitoring"
+      - "flow measurement"
+      - "quality assessment"
+    exclude_terms:
+      - "smart home water"
+      - "consumer IoT"
+      - "general IoT security"
