@@ -1,0 +1,108 @@
+{
+  "id": "TASK-{task_number}",
+  "type": "task",
+  "title": "{task_title}",
+  "description": "{task_description}",
+  "priority": "{priority}",
+  "effort": {
+    "hours": "{estimated_hours}",
+    "complexity": "task"
+  },
+  "skills": {
+    "primary_role": "{primary_role}",
+    "required_skills": [
+      "{skill_1}",
+      "{skill_2}"
+    ],
+    "skill_level": "{skill_level}",
+    "secondary_roles": []
+  },
+  "learning_objectives": {
+    "cognitive_level": "{cognitive_level}",
+    "objectives": [
+      "{objective_1}"
+    ],
+    "prerequisites": [
+      "{prerequisite_1}"
+    ],
+    "wiki_references": [
+      "wiki/{topic}/{subtopic}"
+    ]
+  },
+  "deliverables": [
+    {
+      "name": "{deliverable_name}",
+      "type": "{deliverable_type}",
+      "description": "{deliverable_description}",
+      "acceptance_criteria": [
+        "{criteria_1}",
+        "{criteria_2}"
+      ]
+    }
+  ],
+  "definition_of_done": [
+    "{done_criterion_1}",
+    "{done_criterion_2}",
+    "Unit tests passing with >90% coverage",
+    "Code reviewed and approved",
+    "Documentation updated"
+  ],
+  "dependencies": {
+    "blocks": [],
+    "blocked_by": ["{prerequisite_task}"],
+    "related": []
+  },
+  "parent_user_story": "{parent_story_id}",
+  "parent_feature": "{parent_feature_id}",
+  "parent_epic": "{parent_epic_id}",
+  "implementation_details": {
+    "technical_approach": "{technical_approach}",
+    "file_changes": [
+      "{file_path_1}",
+      "{file_path_2}"
+    ],
+    "testing_strategy": "{testing_strategy}",
+    "risk_mitigation": [
+      "{risk_mitigation_1}"
+    ]
+  },
+  "assessment": {
+    "unit_test_question": {
+      "question": "{assessment_question}",
+      "type": "practical",
+      "task_description": "{practical_task}",
+      "expected_output": "{expected_output}",
+      "validation_criteria": [
+        "{validation_1}",
+        "{validation_2}"
+      ]
+    },
+    "competency_indicators": [
+      {
+        "level": "novice",
+        "description": "{novice_description}"
+      },
+      {
+        "level": "basic", 
+        "description": "{basic_description}"
+      },
+      {
+        "level": "proficient",
+        "description": "{proficient_description}"
+      }
+    ]
+  },
+  "sprint_planning": {
+    "estimated_days": "{day_estimate}",
+    "ideal_assignee_level": "{skill_level}",
+    "blockers": [
+      "{blocker_1}"
+    ],
+    "success_metrics": [
+      "{metric_1}"
+    ]
+  },
+  "status": "not_started",
+  "created_date": "{creation_date}",
+  "tags": ["{tag_1}", "{tag_2}"]
+}

@@ -45,25 +45,25 @@ src_path = str(Path(__file__).parent / "src")
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 
-from src.domain.value_objects.keyword_config import KeywordConfig
-from src.application.use_cases.execute_keyword_search_use_case import (
+from domain.value_objects.keyword_config import KeywordConfig
+from application.use_cases.execute_keyword_search_use_case import (
     ExecuteKeywordSearchUseCase,
 )
-from src.infrastructure.repositories.arxiv_paper_repository import ArxivPaperRepository
-from src.infrastructure.repositories.in_memory_paper_repository import (
+from infrastructure.repositories.arxiv_paper_repository import ArxivPaperRepository
+from infrastructure.repositories.in_memory_paper_repository import (
     InMemoryPaperRepository,
 )
-from src.domain.entities.research_paper import ResearchPaper
+from domain.entities.research_paper import ResearchPaper
 
 # Concept extraction imports (with graceful fallback)
 try:
-    from src.application.use_cases.extract_paper_concepts_use_case import (
+    from application.use_cases.extract_paper_concepts_use_case import (
         ExtractPaperConceptsUseCase,
     )
-    from src.domain.services.concept_extractor import ConceptExtractor
-    from src.domain.services.concept_hierarchy_builder import ConceptHierarchyBuilder
-    from src.infrastructure.pdf_extractor import PyPDF2TextExtractor
-    from src.infrastructure.json_concept_repository import JSONConceptRepository
+    from domain.services.concept_extractor import ConceptExtractor
+    from domain.services.concept_hierarchy_builder import ConceptHierarchyBuilder
+    from infrastructure.pdf_extractor import PyPDF2TextExtractor
+    from infrastructure.json_concept_repository import JSONConceptRepository
 
     CONCEPT_EXTRACTION_AVAILABLE = True
 except ImportError as e:

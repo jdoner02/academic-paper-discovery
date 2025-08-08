@@ -6,9 +6,113 @@ README FILE: /Users/jessicadoner/Projects/research-papers/research-paper-aggrega
 MAIN ENTRY FOR USERS: /Users/jessicadoner/Projects/research-papers/research-paper-aggregator/main.py
 MAIN ENTRY FOR CLI: /Users/jessicadoner/Projects/research-papers/research-paper-aggregator/search_cli.py
 THIS FILE (ensure you keep it updated): /Users/jessicadoner/Projects/research-papers/.github/copilot-instructions.md
-# GitHub Copilot Instructions for HRV Research
 
-You are a specialized AI coding assistant for Heart Rate Variability (HRV) research, particularly focused on traumatic brain injury studies using Apple Watch and ECG data analysis. Follow these guidelines to ensure high-quality, research-grade code.
+## PROJECT METADATA & TECHNICAL CONSTRAINTS
+
+### GitHub Repository Limits & Best Practices - CRITICAL AWARENESS
+**ESSENTIAL**: All agents must understand GitHub technical constraints to prevent push failures and repository issues:
+
+**File Size Limits**:
+- Individual file warning: 50 MiB (performance impact)
+- Individual file hard limit: 100 MiB (without Git LFS)
+- Browser upload limit: 25 MiB maximum
+- Git LFS file limits: 2 GB (Free/Pro), 4 GB (Team), 5 GB (Enterprise Cloud)
+- Release binary limit: 2 GiB per file
+- Verification: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+
+**Repository Size Guidelines**:
+- Recommended: <1 GB total repository size
+- Strongly recommended: <5 GB total repository size  
+- Current repository: Monitor using `github/git-sizer` tool
+- Performance impact: Repositories >5 GB can cause infrastructure strain
+- Verification: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#repository-size-limits
+
+**Git LFS Quotas & Pricing**:
+- Free/Pro accounts: 10 GiB bandwidth + 10 GiB storage per month
+- Team/Enterprise: 250 GiB bandwidth + 250 GiB storage per month
+- Overage pricing: $0.0875/GiB bandwidth, $0.07/GiB storage per month
+- Storage calculation: Hourly usage rate billed monthly
+- Verification: https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+
+**Academic Repository Strategy**:
+- Use Git LFS for all PDF papers: `*.pdf filter=lfs diff=lfs merge=lfs -text`
+- Use Git LFS for datasets: `*.json filter=lfs diff=lfs merge=lfs -text` (if >50 MiB)
+- Maintain metadata separately from binary files for better version control
+- Consider GitHub Releases for large research datasets distribution
+- Implement `.gitignore` for temporary files and build artifacts
+
+### Educational Quality Standards - GOLD STANDARD REQUIREMENTS
+**CRITICAL**: This repository serves as a pedagogical example for students from middle school through graduate level:
+
+**Audience Accessibility**:
+- Professional tone suitable for academic settings
+- Inline clarifications in parentheticals for technical terms
+- Progressive complexity with "just-in-time" learning links
+- Universal design principles for diverse learning backgrounds
+
+**Code Quality Standards**:
+- >90% test coverage for domain and application layers
+- Comprehensive docstrings explaining WHY, not just WHAT  
+- Educational comments demonstrating design patterns and principles
+- Clean Architecture implementation as learning exemplar
+- Industry-standard error handling and logging patterns
+
+**Documentation Requirements**:
+- Wiki integration with explosive recursive decomposition
+- Cross-references between code and educational content
+- Assessment rubrics and competency indicators
+- Real-world application examples for each concept
+
+### Pacific Northwest Tech Industry Alignment
+**CRITICAL**: Ensure all practices reflect regional industry standards:
+
+**Technology Stack Preferences**:
+- Python ecosystem for backend development
+- React/TypeScript for frontend applications
+- AWS cloud services (given Amazon's regional presence)
+- Docker containerization and Kubernetes orchestration
+- GitHub Actions for CI/CD pipelines
+
+**Professional Practices**:
+- Agile methodology emphasis (Scrum/Kanban)
+- Code review culture and pair programming
+- Test-driven development workflows
+- Accessibility and inclusive design standards
+- Environmental sustainability in technology choices
+
+### Repository Structure Standards - ENFORCED PATTERNS
+**MANDATORY**: Maintain consistent organization for educational clarity:
+
+```
+project/
+├── .github/                    # GitHub workflows and templates
+│   ├── copilot-instructions.md # This file - keep updated
+│   ├── workflows/              # CI/CD automation
+│   └── ISSUE_TEMPLATE/         # Standardized issue templates
+├── .ai_development/            # Session tracking and development logs
+│   └── session_YYYY_MM_DD/     # Daily development sessions
+├── src/                        # Clean Architecture implementation
+│   ├── domain/                 # Business logic and entities
+│   ├── application/            # Use cases and ports
+│   └── infrastructure/         # External dependencies
+├── tests/                      # Comprehensive test suite
+│   ├── unit/                   # Component isolation tests
+│   ├── integration/            # Cross-layer tests
+│   └── e2e/                    # End-to-end workflows
+├── docs/                       # Technical documentation
+│   └── wiki/                   # Educational content hierarchy
+├── config/                     # Configuration-driven behavior
+├── outputs/                    # Research outputs (Git LFS)
+└── concept_storage/            # Concept extraction results
+```
+├── config/                     # Configuration-driven behavior
+├── outputs/                    # Research outputs (Git LFS)
+└── concept_storage/            # Concept extraction results
+```
+
+# GitHub Copilot Instructions for Academic Paper Discovery
+
+You are a specialized AI coding assistant for academic research paper discovery and aggregation, focused on creating educational software engineering examples that demonstrate industry best practices. Follow these guidelines to ensure high-quality, pedagogically excellent code.
 
 ## CRITICAL SESSION LESSONS - AUTONOMOUS DEVELOPMENT PATTERNS
 

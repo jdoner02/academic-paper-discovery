@@ -1,0 +1,177 @@
+{
+  "id": "EPIC-3",
+  "type": "epic", 
+  "title": "Pedagogical Assessment Framework with Automated Competency Validation",
+  "description": "Create a comprehensive assessment system that maps learning objectives to skill levels (Novice through Mastered) with automated unit tests, competency indicators, and assessment rubrics. The framework supports both formative and summative assessment while providing clear progression pathways for learners at all levels.",
+  "priority": "high",
+  "effort": {
+    "hours": 140,
+    "story_points": 21,
+    "complexity": "epic"
+  },
+  "skills": {
+    "primary_role": "data_scientist",
+    "required_skills": [
+      "Educational assessment design",
+      "Learning analytics",
+      "Statistical analysis",
+      "Automated testing frameworks",
+      "Bloom's taxonomy application",
+      "Competency-based education"
+    ],
+    "skill_level": "advanced",
+    "secondary_roles": ["backend_developer", "qa_engineer", "product_manager"]
+  },
+  "learning_objectives": {
+    "cognitive_level": "create",
+    "objectives": [
+      "Design competency-based assessment framework aligned with industry standards",
+      "Implement automated assessment validation and scoring systems",
+      "Create progressive skill level rubrics with clear advancement criteria",
+      "Establish learning analytics pipeline for continuous improvement",
+      "Design adaptive assessment that responds to learner progression"
+    ],
+    "prerequisites": [
+      "Understanding of educational assessment principles",
+      "Knowledge of Bloom's taxonomy and learning objectives",
+      "Experience with automated testing",
+      "Statistical analysis capabilities"
+    ],
+    "wiki_references": [
+      "wiki/assessment-design/competency-based-education",
+      "wiki/learning-analytics/progression-tracking",
+      "wiki/automated-assessment/unit-test-design"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criterion": "Assessment framework covers all six skill levels with clear progression criteria",
+      "testable": true,
+      "test_method": "Rubric completeness validation and expert review"
+    },
+    {
+      "criterion": "Automated unit tests validate competency at each level",
+      "testable": true,
+      "test_method": "Test coverage analysis and execution validation"
+    },
+    {
+      "criterion": "Learning analytics dashboard provides actionable insights",
+      "testable": true,
+      "test_method": "Dashboard functionality testing and data accuracy validation"
+    },
+    {
+      "criterion": "Assessment results correlate with real-world job performance indicators",
+      "testable": true,
+      "test_method": "Predictive validity studies with industry partner feedback"
+    },
+    {
+      "criterion": "Framework supports diverse learning styles and accessibility needs",
+      "testable": false,
+      "test_method": "Accessibility audit and diverse learner user testing"
+    }
+  ],
+  "definition_of_done": [
+    "Complete skill level rubrics for all technical domains",
+    "Automated assessment pipeline functional and validated",
+    "Learning analytics dashboard deployed and accessible",
+    "Assessment validity studies completed with positive results",
+    "Documentation covers all assessment design principles",
+    "Teacher/mentor training materials created and tested",
+    "Student self-assessment tools integrated and functional"
+  ],
+  "dependencies": {
+    "blocks": ["EPIC-4"],
+    "blocked_by": ["EPIC-1", "EPIC-2"],
+    "related": ["EPIC-5"]
+  },
+  "assessment": {
+    "unit_test_question": {
+      "question": "A student consistently completes coding tasks correctly but struggles to explain their reasoning or adapt to new requirements. According to our assessment framework, what skill level are they demonstrating?",
+      "type": "multiple_choice",
+      "options": [
+        "Proficient - they can complete tasks independently",
+        "Basic - they understand fundamentals but lack deeper comprehension", 
+        "Developing - they show growing competence with some gaps",
+        "Novice - they need more foundational work"
+      ],
+      "correct_answer": "Basic - they understand fundamentals but lack deeper comprehension",
+      "explanation": "The ability to complete tasks without being able to explain reasoning or adapt indicates basic level competency. The student has procedural knowledge but lacks the conceptual understanding needed for the developing level."
+    },
+    "competency_indicators": [
+      {
+        "level": "novice",
+        "description": "Can identify different types of assessments and their purposes"
+      },
+      {
+        "level": "basic",
+        "description": "Understands skill level progression and can apply rubrics consistently"
+      },
+      {
+        "level": "developing",
+        "description": "Can design assessment instruments that align with learning objectives"
+      },
+      {
+        "level": "proficient", 
+        "description": "Can create comprehensive assessment frameworks with validation studies"
+      },
+      {
+        "level": "advanced",
+        "description": "Can design adaptive assessment systems with automated feedback loops"
+      },
+      {
+        "level": "mastered",
+        "description": "Can innovate assessment methodologies and contribute to educational research"
+      }
+    ]
+  },
+  "agile_metadata": {
+    "sprint_ready": false,
+    "epic_id": "EPIC-3",
+    "labels": ["assessment", "learning-analytics", "education", "automation"],
+    "team_assignment": "assessment"
+  },
+  "educational_metadata": {
+    "target_audience": ["graduate", "bootcamp", "junior_developer", "mid_level_developer"],
+    "concepts_taught": [
+      "Competency-based assessment design",
+      "Learning analytics implementation",
+      "Automated testing for educational outcomes",
+      "Statistical validation of assessment instruments",
+      "Adaptive learning system design"
+    ],
+    "industry_relevance": "Assessment and learning analytics skills are increasingly valuable in ed-tech companies and corporate learning departments. The Pacific Northwest has several major ed-tech companies requiring these skills.",
+    "common_pitfalls": [
+      "Creating assessments that test memorization instead of competency",
+      "Failing to validate assessment instruments statistically",
+      "Ignoring bias and accessibility in assessment design",
+      "Over-relying on automated assessment without human oversight"
+    ],
+    "extension_activities": [
+      "Design assessment for specific technical domains (AI, cybersecurity, etc.)",
+      "Implement machine learning for adaptive assessment",
+      "Create assessment validity studies with industry partners",
+      "Design bias detection and mitigation systems"
+    ]
+  },
+  "mentoring": {
+    "mentor_notes": "Assessment design requires balancing statistical rigor with practical usability. Students may focus too heavily on either technical implementation or educational theory - help them integrate both perspectives.",
+    "check_in_questions": [
+      "How do you ensure your assessments measure competency rather than just task completion?",
+      "What evidence would convince you that an assessment is valid and reliable?",
+      "How would you adapt this assessment for learners with different backgrounds?"
+    ],
+    "success_indicators": [
+      "Student considers validity and reliability in all assessment design decisions",
+      "Student can articulate the connection between assessment and learning objectives",
+      "Student seeks diverse perspectives to reduce assessment bias"
+    ],
+    "intervention_triggers": [
+      "Student focuses only on technical metrics without considering learning outcomes",
+      "Student creates assessments that are too easy or impossibly difficult",
+      "Student doesn't consider accessibility and bias in assessment design"
+    ]
+  },
+  "created_date": "2025-08-07T00:00:00Z",
+  "updated_date": "2025-08-07T00:00:00Z",
+  "version": "1.0.0"
+}

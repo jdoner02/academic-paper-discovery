@@ -1,1 +1,60 @@
+# Git LFS Configuration for Academic Paper Discovery Repository
+# This implements industry-standard practices for large file management
+# Academic Papers and PDFs - Use LFS for all PDF files
 *.pdf filter=lfs diff=lfs merge=lfs -text
+# Large Research Outputs - Track outputs directory with LFS
+outputs/** filter=lfs diff=lfs merge=lfs -text
+# Concept Storage - Keep concepts in Git for versioning, move large data to LFS
+concept_storage/concepts/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+concept_storage/statistics/* filter=lfs diff=lfs merge=lfs -text
+# Large Data Files - JSON files over 50MB should use LFS
+*.json text=auto
+static_data/**/*.json text=auto
+# Coverage and Build Artifacts - Keep in Git for CI/CD
+htmlcov/** text=auto
+coverage/** text=auto
+out/** text=auto
+# Educational Materials - Keep in Git for versioning
+docs/** text=auto
+README*.md text=auto
+*.md text=auto
+# Configuration Files - Keep in Git
+config/** text=auto
+*.yaml text=auto
+*.yml text=auto
+# Source Code - Always in Git
+src/** text=auto
+tests/** text=auto
+*.py text=auto
+*.js text=auto
+*.ts text=auto
+*.tsx text=auto
+# Package Files - Keep in Git
+package*.json text=auto
+requirements.txt text=auto
+pyproject.toml text=auto
+# Web Assets - Small assets in Git, large ones in LFS
+*.css text=auto
+*.html text=auto
+*.svg text=auto
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+# Archive Files - Always use LFS
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.tgz filter=lfs diff=lfs merge=lfs -text
+# Database Files - Use LFS for database dumps
+*.db filter=lfs diff=lfs merge=lfs -text
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+*.sql filter=lfs diff=lfs merge=lfs -text
+# Jupyter Notebooks - Keep in Git for educational purposes
+*.ipynb text=auto
+# Configuration for line endings
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

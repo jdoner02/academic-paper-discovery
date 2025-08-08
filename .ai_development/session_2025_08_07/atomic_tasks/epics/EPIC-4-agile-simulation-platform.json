@@ -1,0 +1,178 @@
+{
+  "id": "EPIC-4",
+  "type": "epic",
+  "title": "Agile Simulation Platform for Educational Software Engineering",
+  "description": "Build a comprehensive agile simulation platform that allows students to experience realistic software engineering workflows including sprint planning, daily standups, code reviews, and retrospectives. The platform supports mentor-mentee relationships and provides realistic task assignment based on skill assessments and learning goals.",
+  "priority": "high",
+  "effort": {
+    "hours": 180,
+    "story_points": 21,
+    "complexity": "epic"
+  },
+  "skills": {
+    "primary_role": "fullstack_developer",
+    "required_skills": [
+      "Full-stack web development",
+      "Database design and management",
+      "User experience design",
+      "Agile methodology expertise",
+      "Real-time collaboration systems",
+      "Role-based access control"
+    ],
+    "skill_level": "advanced",
+    "secondary_roles": ["product_manager", "scrum_master", "ui_ux_designer"]
+  },
+  "learning_objectives": {
+    "cognitive_level": "create",
+    "objectives": [
+      "Design realistic agile workflow simulation with authentic industry practices",
+      "Implement intelligent task assignment based on skill level and learning objectives",
+      "Create mentor-mentee interaction systems that support effective guidance",
+      "Build analytics dashboard for tracking student progress and engagement",
+      "Establish feedback loops that improve the simulation based on learning outcomes"
+    ],
+    "prerequisites": [
+      "Understanding of agile methodologies (Scrum, Kanban)",
+      "Experience with software development workflows",
+      "Knowledge of mentoring and coaching principles",
+      "Full-stack development capabilities"
+    ],
+    "wiki_references": [
+      "wiki/agile-simulation/workflow-design",
+      "wiki/mentoring-systems/effective-guidance",
+      "wiki/task-assignment/skill-based-matching"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criterion": "Simulation accurately reflects real-world agile practices used in Pacific Northwest tech companies",
+      "testable": true,
+      "test_method": "Industry expert validation and comparison with real team workflows"
+    },
+    {
+      "criterion": "Task assignment algorithm optimizes for learning while maintaining realistic workload",
+      "testable": true,
+      "test_method": "Learning outcome analysis and student feedback validation"
+    },
+    {
+      "criterion": "Mentor-mentee interaction tools support effective guidance and feedback",
+      "testable": true,
+      "test_method": "Mentoring effectiveness metrics and user satisfaction surveys"
+    },
+    {
+      "criterion": "Platform supports concurrent simulation of multiple teams and sprints",
+      "testable": true,
+      "test_method": "Load testing and concurrent user validation"
+    },
+    {
+      "criterion": "Analytics provide actionable insights for both students and instructors",
+      "testable": false,
+      "test_method": "User interviews and longitudinal outcome tracking"
+    }
+  ],
+  "definition_of_done": [
+    "Core agile simulation workflow implemented and tested",
+    "Intelligent task assignment system functional with skill-based matching",
+    "Mentor-mentee interaction tools deployed and validated",
+    "Real-time collaboration features working across all supported browsers",
+    "Analytics dashboard provides comprehensive insights",
+    "Multi-team and multi-sprint support validated through stress testing",
+    "Integration with assessment framework complete",
+    "User onboarding and training materials created"
+  ],
+  "dependencies": {
+    "blocks": [],
+    "blocked_by": ["EPIC-1", "EPIC-2", "EPIC-3"],
+    "related": ["EPIC-5"]
+  },
+  "assessment": {
+    "unit_test_question": {
+      "question": "In an educational agile simulation, a student has been assigned tasks that are consistently too easy and they're completing them well ahead of estimates. What should the intelligent task assignment system do?",
+      "type": "multiple_choice",
+      "options": [
+        "Continue assigning similar tasks to build confidence",
+        "Immediately jump to much more difficult tasks",
+        "Gradually increase complexity while monitoring learning outcomes",
+        "Let the student choose their own tasks from the backlog"
+      ],
+      "correct_answer": "Gradually increase complexity while monitoring learning outcomes",
+      "explanation": "Educational task assignment should balance challenge with achievability. Gradual complexity increase with outcome monitoring ensures optimal learning without overwhelming the student."
+    },
+    "competency_indicators": [
+      {
+        "level": "novice",
+        "description": "Can participate in simulated agile ceremonies following provided scripts"
+      },
+      {
+        "level": "basic",
+        "description": "Understands agile principles and can contribute meaningfully to team activities"
+      },
+      {
+        "level": "developing",
+        "description": "Can design improvements to agile processes and mentor newer team members"
+      },
+      {
+        "level": "proficient",
+        "description": "Can facilitate agile ceremonies and optimize team performance"
+      },
+      {
+        "level": "advanced",
+        "description": "Can design agile process adaptations for different team contexts"
+      },
+      {
+        "level": "mastered",
+        "description": "Can create innovative agile frameworks and train other agile coaches"
+      }
+    ]
+  },
+  "agile_metadata": {
+    "sprint_ready": false,
+    "epic_id": "EPIC-4",
+    "labels": ["agile", "simulation", "education", "collaboration", "platform"],
+    "team_assignment": "platform"
+  },
+  "educational_metadata": {
+    "target_audience": ["undergraduate", "graduate", "bootcamp", "junior_developer"],
+    "concepts_taught": [
+      "Agile methodology implementation",
+      "Sprint planning and estimation",
+      "Code review processes",
+      "Team collaboration tools",
+      "Retrospective and continuous improvement"
+    ],
+    "industry_relevance": "Agile methodology expertise is essential in Pacific Northwest tech companies. Most software teams use Scrum or Kanban, making this simulation directly applicable to job readiness.",
+    "common_pitfalls": [
+      "Making simulation too game-like and not realistic enough",
+      "Focusing on tools instead of agile principles",
+      "Not providing enough guidance for novice users",
+      "Creating artificial constraints that don't reflect real work"
+    ],
+    "extension_activities": [
+      "Design specialized simulations for different team sizes and contexts",
+      "Create cross-functional team simulations with multiple disciplines",
+      "Implement advanced agile frameworks like SAFe or LeSS",
+      "Design metrics and analytics for agile team performance"
+    ]
+  },
+  "mentoring": {
+    "mentor_notes": "Agile simulation requires balancing educational value with realistic complexity. Help students understand that agile is about principles and adaptation, not rigid rule-following.",
+    "check_in_questions": [
+      "What agile principles are most important in this simulation scenario?",
+      "How would you adapt this process for a different type of team or project?",
+      "What metrics would tell you if your team's agile process is working well?"
+    ],
+    "success_indicators": [
+      "Student demonstrates understanding of agile principles over rigid process adherence",
+      "Student can facilitate effective team collaboration",
+      "Student seeks continuous improvement opportunities"
+    ],
+    "intervention_triggers": [
+      "Student focuses only on completing tasks without considering team dynamics",
+      "Student struggles with the collaborative aspects of agile work",
+      "Student becomes frustrated with the iterative nature of agile processes"
+    ]
+  },
+  "created_date": "2025-08-07T00:00:00Z",
+  "updated_date": "2025-08-07T00:00:00Z",
+  "version": "1.0.0"
+}

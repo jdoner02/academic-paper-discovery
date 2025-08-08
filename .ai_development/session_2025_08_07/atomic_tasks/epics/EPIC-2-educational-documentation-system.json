@@ -1,0 +1,177 @@
+{
+  "id": "EPIC-2", 
+  "type": "epic",
+  "title": "Educational Documentation System with Explosive Recursive Decomposition",
+  "description": "Design and implement a comprehensive wiki-based documentation system that uses explosive recursive decomposition to break down complex software engineering concepts into progressively detailed explanations. The system supports just-in-time learning with inline clarifications and maintains professional tone suitable for all education levels from middle school through graduate research.",
+  "priority": "critical",
+  "effort": {
+    "hours": 160,
+    "story_points": 21,
+    "complexity": "epic"
+  },
+  "skills": {
+    "primary_role": "technical_writer",
+    "required_skills": [
+      "Technical writing",
+      "Information architecture", 
+      "Educational design",
+      "Wiki systems",
+      "Markdown and documentation tools",
+      "Cognitive load theory"
+    ],
+    "skill_level": "advanced",
+    "secondary_roles": ["system_architect", "ui_ux_designer", "product_manager"]
+  },
+  "learning_objectives": {
+    "cognitive_level": "create",
+    "objectives": [
+      "Design information architecture using explosive recursive decomposition principles",
+      "Create documentation patterns that support diverse learning styles and skill levels",
+      "Implement just-in-time learning system with contextual cross-references",
+      "Establish quality standards for pedagogical technical writing",
+      "Design automated documentation consistency and coverage validation"
+    ],
+    "prerequisites": [
+      "Understanding of cognitive load theory",
+      "Experience with technical documentation",
+      "Knowledge of learning taxonomy (Bloom's)",
+      "Familiarity with wiki systems and markdown"
+    ],
+    "wiki_references": [
+      "wiki/documentation-patterns/explosive-decomposition",
+      "wiki/cognitive-load/just-in-time-learning",
+      "wiki/educational-design/universal-accessibility"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criterion": "Documentation structure follows explosive recursive decomposition pattern",
+      "testable": true,
+      "test_method": "Automated hierarchy analysis and depth validation"
+    },
+    {
+      "criterion": "Content accessible to middle school through graduate level readers",
+      "testable": true,
+      "test_method": "Automated readability analysis (Flesch-Kincaid, SMOG index)"
+    },
+    {
+      "criterion": "All code concepts have corresponding wiki explanations",
+      "testable": true,
+      "test_method": "Automated cross-reference validation between code and wiki"
+    },
+    {
+      "criterion": "Just-in-time learning links provide appropriate cognitive scaffolding",
+      "testable": false,
+      "test_method": "Educational expert review and user testing"
+    },
+    {
+      "criterion": "Professional tone maintained throughout all content",
+      "testable": true,
+      "test_method": "Style guide compliance checking and tone analysis"
+    }
+  ],
+  "definition_of_done": [
+    "Complete wiki structure implemented with recursive decomposition",
+    "All major concepts covered with progressive detail levels",
+    "Cross-reference system functional between code and documentation",
+    "Readability analysis shows appropriate levels for target audiences",
+    "Style guide established and enforced through automation",
+    "Documentation update workflows integrated with development process",
+    "User testing validates learning effectiveness across skill levels"
+  ],
+  "dependencies": {
+    "blocks": ["EPIC-3", "EPIC-4"],
+    "blocked_by": ["EPIC-1"],
+    "related": ["EPIC-5"]
+  },
+  "assessment": {
+    "unit_test_question": {
+      "question": "In explosive recursive decomposition for documentation, what is the primary goal when breaking down a complex concept like 'Clean Architecture'?",
+      "type": "multiple_choice", 
+      "options": [
+        "Create as many sub-pages as possible for comprehensive coverage",
+        "Make each level accessible while providing pathways to deeper understanding",
+        "Ensure all readers must read all levels to understand the concept",
+        "Focus only on the most advanced aspects since beginners can Google basics"
+      ],
+      "correct_answer": "Make each level accessible while providing pathways to deeper understanding",
+      "explanation": "Explosive recursive decomposition aims to serve readers at their current level while offering clear pathways to explore deeper. Each level should be self-contained but enriched by optional deeper exploration."
+    },
+    "competency_indicators": [
+      {
+        "level": "novice",
+        "description": "Can follow existing documentation patterns to create simple explanations"
+      },
+      {
+        "level": "basic",
+        "description": "Understands how to break complex topics into logical sub-components"
+      },
+      {
+        "level": "developing", 
+        "description": "Can design documentation hierarchies that serve multiple skill levels"
+      },
+      {
+        "level": "proficient",
+        "description": "Can create comprehensive documentation systems with effective cross-referencing"
+      },
+      {
+        "level": "advanced",
+        "description": "Can design documentation patterns that optimize cognitive load and learning efficiency"
+      },
+      {
+        "level": "mastered",
+        "description": "Can create innovative documentation systems that advance the field of technical communication"
+      }
+    ]
+  },
+  "agile_metadata": {
+    "sprint_ready": false,
+    "epic_id": "EPIC-2",
+    "labels": ["documentation", "wiki", "education", "accessibility", "ux"],
+    "team_assignment": "documentation"
+  },
+  "educational_metadata": {
+    "target_audience": ["undergraduate", "graduate", "bootcamp", "junior_developer", "mid_level_developer"],
+    "concepts_taught": [
+      "Information architecture design",
+      "Cognitive load management in documentation",
+      "Technical writing for diverse audiences", 
+      "Cross-reference systems design",
+      "Automated documentation quality assurance"
+    ],
+    "industry_relevance": "Strong technical documentation skills are highly valued in the Pacific Northwest tech sector. Companies like Microsoft, Amazon, and Google heavily emphasize clear technical communication.",
+    "common_pitfalls": [
+      "Writing only for expert-level readers",
+      "Creating documentation that's too shallow or too deep",
+      "Ignoring cognitive load in information presentation",
+      "Failing to maintain documentation consistency over time"
+    ],
+    "extension_activities": [
+      "Design documentation systems for different technical domains",
+      "Create automated documentation generation from code",
+      "Implement user analytics for documentation effectiveness",
+      "Design multilingual documentation strategies"
+    ]
+  },
+  "mentoring": {
+    "mentor_notes": "This epic combines technical writing skills with educational design principles. Students often underestimate the complexity of writing for diverse audiences - emphasize user empathy and iterative improvement.",
+    "check_in_questions": [
+      "How do you balance comprehensive coverage with cognitive load management?",
+      "Can you explain why we need different levels of detail for the same concept?",
+      "What makes documentation 'just-in-time' versus overwhelming?"
+    ],
+    "success_indicators": [
+      "Student considers reader cognitive load in all documentation decisions",
+      "Student creates clear information hierarchies that serve multiple audiences",
+      "Student proactively seeks feedback from different user types"
+    ],
+    "intervention_triggers": [
+      "Student writes only for their own skill level",
+      "Student creates either too shallow or overwhelmingly detailed content",
+      "Student struggles to organize information logically"
+    ]
+  },
+  "created_date": "2025-08-07T00:00:00Z",
+  "updated_date": "2025-08-07T00:00:00Z", 
+  "version": "1.0.0"
+}

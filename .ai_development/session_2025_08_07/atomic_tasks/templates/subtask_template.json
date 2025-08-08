@@ -1,0 +1,88 @@
+{
+  "id": "SUBTASK-{subtask_number}",
+  "type": "subtask",
+  "title": "{subtask_title}",
+  "description": "{subtask_description}",
+  "priority": "{priority}",
+  "effort": {
+    "hours": "{estimated_hours}",
+    "complexity": "subtask"
+  },
+  "skills": {
+    "primary_role": "{primary_role}",
+    "required_skills": [
+      "{skill_1}"
+    ],
+    "skill_level": "{skill_level}",
+    "secondary_roles": []
+  },
+  "learning_objectives": {
+    "cognitive_level": "{cognitive_level}",
+    "objectives": [
+      "{objective_1}"
+    ],
+    "prerequisites": [],
+    "wiki_references": [
+      "wiki/{topic}/{subtopic}"
+    ]
+  },
+  "deliverables": [
+    {
+      "name": "{deliverable_name}",
+      "type": "{deliverable_type}",
+      "description": "{deliverable_description}",
+      "acceptance_criteria": [
+        "{criteria_1}"
+      ]
+    }
+  ],
+  "definition_of_done": [
+    "{done_criterion_1}",
+    "Implementation complete",
+    "Basic testing performed"
+  ],
+  "dependencies": {
+    "blocks": [],
+    "blocked_by": ["{prerequisite_subtask}"],
+    "related": []
+  },
+  "parent_task": "{parent_task_id}",
+  "parent_user_story": "{parent_story_id}",
+  "parent_feature": "{parent_feature_id}",
+  "parent_epic": "{parent_epic_id}",
+  "implementation_details": {
+    "technical_approach": "{technical_approach}",
+    "specific_file": "{file_path}",
+    "code_location": "{class_or_function}",
+    "estimated_lines": "{line_count}",
+    "testing_notes": "{testing_notes}"
+  },
+  "assessment": {
+    "unit_test_question": {
+      "question": "{assessment_question}",
+      "type": "code_review",
+      "code_snippet": "{code_snippet}",
+      "focus_area": "{focus_area}",
+      "expected_understanding": "{expected_understanding}"
+    },
+    "competency_indicators": [
+      {
+        "level": "novice",
+        "description": "{novice_description}"
+      },
+      {
+        "level": "basic",
+        "description": "{basic_description}"
+      }
+    ]
+  },
+  "sprint_planning": {
+    "estimated_hours": "{hour_estimate}",
+    "ideal_assignee_level": "{skill_level}",
+    "time_of_day": "{preferred_time}",
+    "focus_required": "{focus_level}"
+  },
+  "status": "not_started",
+  "created_date": "{creation_date}",
+  "tags": ["{tag_1}"]
+}
