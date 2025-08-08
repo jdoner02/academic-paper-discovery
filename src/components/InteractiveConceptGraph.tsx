@@ -378,16 +378,18 @@ const InteractiveConceptGraph: React.FC = () => {
         })
         .strength((d: ConceptLink) => Math.max(d.strength, 0.1)))
       .force('charge', d3.forceManyBody()
-        .strength((d: ConceptNode) => {
+        .strength((d: any) => {
           // Dynamic charge based on node importance
+          const node = d as ConceptNode;
           const baseCharge = -300;
-          const frequencyMultiplier = Math.log(d.frequency + 1) / 5;
+          const frequencyMultiplier = Math.log(node.frequency + 1) / 5;
           return baseCharge * (1 + frequencyMultiplier);
         }))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide()
-        .radius((d: ConceptNode) => {
-          const baseRadius = Math.sqrt(d.frequency) / 2 + 5;
+        .radius((d: any) => {
+          const node = d as ConceptNode;
+          const baseRadius = Math.sqrt(node.frequency) / 2 + 5;
           return baseRadius + 10; // Padding for collision
         }))
       // ADVANCED: Domain clustering force for intelligent layout
