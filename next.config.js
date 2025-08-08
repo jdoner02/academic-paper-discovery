@@ -6,7 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export to GitHub Pages
   },
-  output: 'export', // Enable static export for GitHub Pages
+  // Commenting out for development with API routes - uncomment for production build
+  // output: 'export', // Enable static export for GitHub Pages
   assetPrefix: process.env.NODE_ENV === 'production' ? '/research-paper-discovery-web' : '',
   basePath: process.env.NODE_ENV === 'production' ? '/research-paper-discovery-web' : '',
   

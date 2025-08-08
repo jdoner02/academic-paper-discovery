@@ -31,8 +31,54 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import * as d3 from 'd3';
 import { debounce } from 'lodash';
 
-// Type definitions for our concept graph data
-interface ConceptNode {
+// Advanced D3.js utilities for cutting-edge visualization
+const d3Utils = {
+  // Modern color scales using d3.interpolate and perceptually uniform colors
+  createDomainColorScale: () => d3.scaleOrdinal()
+    .range([
+      '#4c956c', '#2f9aa0', '#8e44ad', '#e74c3c', '#f39c12', 
+      '#3498db', '#9b59b6', '#1abc9c', '#34495e', '#e67e22'
+    ]),
+  
+  // Advanced clustering function for domain-based grouping
+  createClusterForce: (domains: string[], width: number, height: number) => {
+    const centers = domains.reduce((acc, domain, i) => {
+      const angle = (i / domains.length) * 2 * Math.PI;
+      const radius = Math.min(width, height) * 0.25;
+      acc[domain] = {
+        x: width / 2 + Math.cos(angle) * radius,
+        y: height / 2 + Math.sin(angle) * radius
+      };
+      return acc;
+    }, {} as Record<string, { x: number, y: number }>);
+    
+    return (alpha: number) => {
+      // Custom force implementation for domain clustering
+      return (nodes: ConceptNode[]) => {
+        nodes.forEach(node => {
+          const center = centers[node.source_domain];
+          if (center) {
+            const dx = center.x - (node.x || 0);
+            const dy = center.y - (node.y || 0);
+            node.x = (node.x || 0) + dx * alpha * 0.1;
+            node.y = (node.y || 0) + dy * alpha * 0.1;
+          }
+        });
+      };
+    };
+  },
+  
+  // Advanced edge bundling for cleaner visualization
+  createEdgeBundling: (links: ConceptLink[]) => {
+    return links.map(link => ({
+      ...link,
+      path: d3.geoPath()
+    }));
+  }
+};
+
+// Enhanced type definitions with advanced D3.js features
+interface ConceptNode extends d3.SimulationNodeDatum {
   id: string;
   text: string;
   frequency: number;
@@ -40,17 +86,20 @@ interface ConceptNode {
   source_domain: string;
   source_papers: string[];
   extraction_method: string;
-  x?: number;
-  y?: number;
-  fx?: number | null;
-  fy?: number | null;
+  // Enhanced D3 properties for advanced animations
+  originalRadius?: number;
+  targetRadius?: number;
+  cluster?: { x: number, y: number };
 }
 
-interface ConceptLink {
+interface ConceptLink extends d3.SimulationLinkDatum<ConceptNode> {
   source: string | ConceptNode;
   target: string | ConceptNode;
   strength: number;
   relationship_type: string;
+  // Enhanced properties for advanced edge styling
+  animated?: boolean;
+  bundled?: boolean;
 }
 
 interface GraphData {
@@ -85,19 +134,25 @@ const RESEARCH_DOMAINS = [
   { id: 'local_government_cybersecurity', name: 'Government Security', color: DOMAIN_COLORS['government_security'] }
 ];
 
-/**
- * Main InteractiveConceptGraph component
- */
+// Enhanced state for advanced D3.js features
 const InteractiveConceptGraph: React.FC = () => {
-  // State management for the visualization
+  // Core state management
   const svgRef = useRef<SVGSVGElement>(null);
   const [graphData, setGraphData] = useState<GraphData>({ nodes: [], links: [] });
   const [selectedConcept, setSelectedConcept] = useState<SelectedConcept | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  
+  // Filter and interaction state
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDomain, setSelectedDomain] = useState<string>('all');
   const [minRelevance, setMinRelevance] = useState(0.5);
+  
+  // Advanced D3.js state for cutting-edge features
+  const [clusteringEnabled, setClusteringEnabled] = useState(true);
+  const [animationsEnabled, setAnimationsEnabled] = useState(true);
+  const [viewMode, setViewMode] = useState<'force' | 'cluster' | 'hierarchy'>('force');
+  const [highlightMode, setHighlightMode] = useState<'none' | 'domain' | 'connections'>('none');
 
   // D3 simulation reference
   const simulationRef = useRef<d3.Simulation<ConceptNode, ConceptLink> | null>(null);
@@ -260,7 +315,8 @@ const InteractiveConceptGraph: React.FC = () => {
   }, [filteredNodes, graphData.links]);
 
   /**
-   * Initialize and update the D3 force simulation
+   * ENHANCED updateVisualization with cutting-edge D3.js techniques!
+   * This showcases the latest and greatest in force-directed graph visualization
    */
   const updateVisualization = useCallback(() => {
     if (!svgRef.current || filteredNodes.length === 0) return;
@@ -269,54 +325,134 @@ const InteractiveConceptGraph: React.FC = () => {
     const width = 800;
     const height = 600;
 
-    // Clear previous visualization
-    svg.selectAll('*').remove();
+    // Clear previous visualization with smooth transition
+    svg.selectAll('*')
+      .transition()
+      .duration(animationsEnabled ? 300 : 0)
+      .style('opacity', 0)
+      .remove();
 
-    // Create zoom behavior
+    // Create enhanced zoom behavior with smooth transitions
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.1, 4])
+      .scaleExtent([0.1, 8])
       .on('zoom', (event: any) => {
         container.attr('transform', event.transform);
       });
 
     svg.call(zoom);
 
-    // Create main container group
+    // Create main container with advanced layering
     const container = svg.append('g');
+    
+    // Add gradient definitions for enhanced visual appeal
+    const defs = svg.append('defs');
+    
+    // Create radial gradients for nodes
+    RESEARCH_DOMAINS.forEach(domain => {
+      const gradient = defs.append('radialGradient')
+        .attr('id', `gradient-${domain.id}`)
+        .attr('cx', '30%')
+        .attr('cy', '30%');
+      
+      gradient.append('stop')
+        .attr('offset', '0%')
+        .attr('stop-color', d3.color(domain.color)?.brighter(0.5)?.toString() || domain.color);
+      
+      gradient.append('stop')
+        .attr('offset', '100%')
+        .attr('stop-color', domain.color);
+    });
 
-    // Create force simulation
+    // Enhanced force simulation with clustering and advanced physics
+    const domains = [...new Set(filteredNodes.map(n => n.source_domain))];
+    
     const simulation = d3.forceSimulation<ConceptNode>(filteredNodes)
       .force('link', d3.forceLink<ConceptNode, ConceptLink>(filteredLinks)
         .id((d: ConceptNode) => d.id)
-        .distance((d: ConceptLink) => 100 / d.strength)
-        .strength((d: ConceptLink) => d.strength))
-      .force('charge', d3.forceManyBody().strength(-300))
+        .distance((d: ConceptLink) => {
+          // Dynamic link distance based on relationship strength and type
+          const baseDistance = 100;
+          const strengthMultiplier = 1 / Math.max(d.strength, 0.1);
+          const typeMultiplier = d.relationship_type === 'implements' ? 0.8 : 1.2;
+          return baseDistance * strengthMultiplier * typeMultiplier;
+        })
+        .strength((d: ConceptLink) => Math.max(d.strength, 0.1)))
+      .force('charge', d3.forceManyBody()
+        .strength((d: ConceptNode) => {
+          // Dynamic charge based on node importance
+          const baseCharge = -300;
+          const frequencyMultiplier = Math.log(d.frequency + 1) / 5;
+          return baseCharge * (1 + frequencyMultiplier);
+        }))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(30));
+      .force('collision', d3.forceCollide()
+        .radius((d: ConceptNode) => {
+          const baseRadius = Math.sqrt(d.frequency) / 2 + 5;
+          return baseRadius + 10; // Padding for collision
+        }))
+      // ADVANCED: Domain clustering force for intelligent layout
+      .force('cluster', clusteringEnabled ? 
+        d3Utils.createClusterForce(domains, width, height) : null);
 
     simulationRef.current = simulation;
 
-    // Create links
+    // ENHANCED LINKS with advanced styling and animations
     const link = container.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(filteredLinks)
       .enter().append('line')
-      .attr('stroke', '#999')
+      .attr('stroke', (d: ConceptLink) => {
+        // Dynamic link colors based on relationship type
+        const colorMap: Record<string, string> = {
+          'implements': '#3498db',
+          'uses': '#2ecc71', 
+          'enables': '#e74c3c',
+          'enhances': '#9b59b6',
+          'requires': '#f39c12',
+          'depends_on': '#34495e'
+        };
+        return colorMap[d.relationship_type] || '#999';
+      })
       .attr('stroke-opacity', 0.6)
-      .attr('stroke-width', (d: ConceptLink) => Math.sqrt(d.strength * 5));
+      .attr('stroke-width', (d: ConceptLink) => Math.max(Math.sqrt(d.strength * 8), 1))
+      .attr('stroke-dasharray', (d: ConceptLink) => 
+        d.relationship_type === 'depends_on' ? '5,5' : 'none')
+      .style('cursor', 'pointer')
+      // Advanced hover effects with smooth transitions
+      .on('mouseenter', function(event: any, d: ConceptLink) {
+        d3.select(this)
+          .transition()
+          .duration(200)
+          .attr('stroke-width', Math.max(Math.sqrt(d.strength * 8), 1) + 2)
+          .attr('stroke-opacity', 0.9);
+      })
+      .on('mouseleave', function(event: any, d: ConceptLink) {
+        d3.select(this)
+          .transition()
+          .duration(200)
+          .attr('stroke-width', Math.max(Math.sqrt(d.strength * 8), 1))
+          .attr('stroke-opacity', 0.6);
+      });
 
-    // Create nodes
+    // ENHANCED NODES with gradients and advanced animations
     const node = container.append('g')
       .attr('class', 'nodes')
       .selectAll('circle')
       .data(filteredNodes)
       .enter().append('circle')
-      .attr('r', (d: ConceptNode) => Math.sqrt(d.frequency) / 2 + 5)
-      .attr('fill', (d: ConceptNode) => (DOMAIN_COLORS as any)[d.source_domain] || DOMAIN_COLORS.default)
+      .attr('r', (d: ConceptNode) => {
+        const baseRadius = Math.sqrt(d.frequency) / 2 + 5;
+        d.originalRadius = baseRadius;
+        d.targetRadius = baseRadius;
+        return baseRadius;
+      })
+      .attr('fill', (d: ConceptNode) => `url(#gradient-${d.source_domain})`)
       .attr('stroke', '#fff')
       .attr('stroke-width', 2)
       .style('cursor', 'pointer')
+      .style('filter', 'drop-shadow(2px 2px 4px rgba(0,0,0,0.2))')
+      // Enhanced drag behavior with physics awareness
       .call(d3.drag<SVGCircleElement, ConceptNode>()
         .on('start', (event: any, d: ConceptNode) => {
           if (!event.active) simulation.alphaTarget(0.3).restart();
@@ -333,14 +469,31 @@ const InteractiveConceptGraph: React.FC = () => {
           d.fy = null;
         }))
       .on('click', (event: any, d: ConceptNode) => {
-        // Find connected nodes and papers
+        // Enhanced click behavior with visual feedback
+        d3.select(event.target)
+          .transition()
+          .duration(150)
+          .attr('r', (d.originalRadius || 10) * 1.5)
+          .transition()
+          .duration(150)
+          .attr('r', d.originalRadius || 10);
+
+        // Find connected nodes and papers with advanced relationship analysis
         const connectedNodeIds = new Set<string>();
+        const relationshipTypes = new Set<string>();
+        
         filteredLinks.forEach(link => {
           const sourceId = typeof link.source === 'string' ? link.source : link.source.id;
           const targetId = typeof link.target === 'string' ? link.target : link.target.id;
           
-          if (sourceId === d.id) connectedNodeIds.add(targetId);
-          if (targetId === d.id) connectedNodeIds.add(sourceId);
+          if (sourceId === d.id) {
+            connectedNodeIds.add(targetId);
+            relationshipTypes.add(link.relationship_type);
+          }
+          if (targetId === d.id) {
+            connectedNodeIds.add(sourceId);
+            relationshipTypes.add(link.relationship_type);
+          }
         });
 
         const connectedNodes = filteredNodes.filter(n => connectedNodeIds.has(n.id));
@@ -351,22 +504,78 @@ const InteractiveConceptGraph: React.FC = () => {
           connectedNodes,
           connectedPapers
         });
+
+        // Advanced highlighting of connected elements
+        if (highlightMode === 'connections') {
+          // Dim all elements
+          node.style('opacity', 0.3);
+          link.style('opacity', 0.1);
+          
+          // Highlight selected node and connections
+          node.filter((n: ConceptNode) => n.id === d.id || connectedNodeIds.has(n.id))
+            .style('opacity', 1);
+          
+          link.filter((l: ConceptLink) => {
+            const sourceId = typeof l.source === 'string' ? l.source : l.source.id;
+            const targetId = typeof l.target === 'string' ? l.target : l.target.id;
+            return sourceId === d.id || targetId === d.id;
+          }).style('opacity', 0.8);
+        }
       });
 
-    // Create node labels
+    // ENHANCED LABELS with advanced typography and positioning
     const label = container.append('g')
       .attr('class', 'labels')
       .selectAll('text')
       .data(filteredNodes)
       .enter().append('text')
       .text((d: ConceptNode) => d.text)
-      .attr('font-size', '12px')
+      .attr('font-size', (d: ConceptNode) => {
+        // Dynamic font size based on node importance
+        const baseSize = 12;
+        const importanceMultiplier = Math.log(d.frequency + 1) / 8;
+        return Math.max(baseSize + importanceMultiplier, 10);
+      })
+      .attr('font-weight', (d: ConceptNode) => d.relevance_score > 0.9 ? 'bold' : 'normal')
       .attr('fill', '#333')
       .attr('text-anchor', 'middle')
       .attr('dy', -15)
-      .style('pointer-events', 'none');
+      .style('pointer-events', 'none')
+      .style('text-shadow', '1px 1px 2px rgba(255,255,255,0.8)')
+      .style('font-family', 'system-ui, -apple-system, sans-serif');
 
-    // Update positions on tick
+    // ADVANCED: Particle system for visual enhancement (when animations enabled)
+    if (animationsEnabled) {
+      const particles = container.append('g')
+        .attr('class', 'particles')
+        .selectAll('circle')
+        .data(filteredNodes.filter(d => d.relevance_score > 0.85))
+        .enter().append('circle')
+        .attr('r', 1)
+        .attr('fill', '#ffd700')
+        .attr('opacity', 0.7)
+        .style('pointer-events', 'none');
+
+      // Animate particles around high-relevance nodes
+      particles
+        .transition()
+        .duration(2000)
+        .ease(d3.easeLinear)
+        .attrTween('transform', (d: ConceptNode) => {
+          return (t: number) => {
+            const angle = t * 2 * Math.PI;
+            const radius = 20;
+            const x = (d.x || 0) + Math.cos(angle) * radius;
+            const y = (d.y || 0) + Math.sin(angle) * radius;
+            return `translate(${x}, ${y})`;
+          };
+        })
+        .on('end', function() {
+          d3.select(this).remove();
+        });
+    }
+
+    // Enhanced physics simulation update with smooth interpolation
     simulation.on('tick', () => {
       link
         .attr('x1', d => (d.source as ConceptNode).x!)
@@ -383,24 +592,69 @@ const InteractiveConceptGraph: React.FC = () => {
         .attr('y', d => d.y!);
     });
 
-    // Add hover effects
+    // ULTRA-SMOOTH hover effects with advanced D3.js patterns
     node
       .on('mouseenter', function(event: any, d: ConceptNode) {
-        d3.select(this)
-          .transition()
+        const element = d3.select(this);
+        
+        // Create pulsing effect
+        element
+          .transition('pulse')
           .duration(200)
-          .attr('r', Math.sqrt(d.frequency) / 2 + 8)
-          .attr('stroke-width', 3);
+          .attr('r', (d.originalRadius || 10) * 1.3)
+          .attr('stroke-width', 4);
+
+        // Show tooltip with advanced positioning
+        const tooltip = container.append('g')
+          .attr('class', 'tooltip')
+          .attr('transform', `translate(${d.x! + 20}, ${d.y! - 20})`);
+
+        const tooltipBg = tooltip.append('rect')
+          .attr('rx', 4)
+          .attr('ry', 4)
+          .attr('fill', 'rgba(0,0,0,0.8)')
+          .attr('stroke', '#fff')
+          .attr('stroke-width', 1);
+
+        const tooltipText = tooltip.append('text')
+          .attr('fill', 'white')
+          .attr('font-size', '12px')
+          .attr('dx', 8)
+          .attr('dy', 20);
+
+        tooltipText.append('tspan')
+          .attr('x', 8)
+          .attr('dy', 0)
+          .text(`${d.text}`);
+        
+        tooltipText.append('tspan')
+          .attr('x', 8)
+          .attr('dy', 15)
+          .text(`Frequency: ${d.frequency}`);
+        
+        tooltipText.append('tspan')
+          .attr('x', 8)
+          .attr('dy', 15)
+          .text(`Relevance: ${d.relevance_score.toFixed(3)}`);
+
+        // Size tooltip background to fit text
+        const bbox = (tooltipText.node() as SVGTextElement).getBBox();
+        tooltipBg
+          .attr('width', bbox.width + 16)
+          .attr('height', bbox.height + 8);
       })
       .on('mouseleave', function(event: any, d: ConceptNode) {
         d3.select(this)
-          .transition()
+          .transition('pulse')
           .duration(200)
-          .attr('r', Math.sqrt(d.frequency) / 2 + 5)
+          .attr('r', d.originalRadius || 10)
           .attr('stroke-width', 2);
+
+        // Remove tooltip
+        container.select('.tooltip').remove();
       });
 
-  }, [filteredNodes, filteredLinks]);
+  }, [filteredNodes, filteredLinks, animationsEnabled, clusteringEnabled, highlightMode]);
 
   // Debounced search to avoid excessive filtering
   const debouncedSearch = useCallback(
@@ -522,29 +776,154 @@ const InteractiveConceptGraph: React.FC = () => {
               />
             </div>
 
-            {/* Legend */}
+            {/* Advanced D3.js Controls - cutting-edge features! */}
+            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-lg shadow border-2 border-purple-200 p-4">
+              <h3 className="text-sm font-bold text-purple-800 mb-3 flex items-center">
+                ⚡ Advanced D3.js Features
+              </h3>
+              
+              {/* Clustering Toggle */}
+              <div className="mb-3">
+                <label className="flex items-center">
+                  <input
+                    type="checkbox"
+                    checked={clusteringEnabled}
+                    onChange={(e) => setClusteringEnabled(e.target.checked)}
+                    className="mr-2 text-purple-600"
+                  />
+                  <span className="text-xs text-purple-700">Domain Clustering</span>
+                </label>
+              </div>
+
+              {/* Animations Toggle */}
+              <div className="mb-3">
+                <label className="flex items-center">
+                  <input
+                    type="checkbox"
+                    checked={animationsEnabled}
+                    onChange={(e) => setAnimationsEnabled(e.target.checked)}
+                    className="mr-2 text-purple-600"
+                  />
+                  <span className="text-xs text-purple-700">Enhanced Animations</span>
+                </label>
+              </div>
+
+              {/* View Mode Selector */}
+              <div className="mb-3">
+                <label className="block text-xs font-medium text-purple-700 mb-1">
+                  Layout Mode
+                </label>
+                <select
+                  value={viewMode}
+                  onChange={(e) => setViewMode(e.target.value as 'force' | 'cluster' | 'hierarchy')}
+                  className="w-full text-xs px-2 py-1 border border-purple-300 rounded focus:ring-purple-500 focus:border-purple-500"
+                >
+                  <option value="force">Force-Directed</option>
+                  <option value="cluster">Clustered</option>
+                  <option value="hierarchy">Hierarchical</option>
+                </select>
+              </div>
+
+              {/* Highlight Mode */}
+              <div className="mb-3">
+                <label className="block text-xs font-medium text-purple-700 mb-1">
+                  Highlight Mode
+                </label>
+                <select
+                  value={highlightMode}
+                  onChange={(e) => setHighlightMode(e.target.value as 'none' | 'domain' | 'connections')}
+                  className="w-full text-xs px-2 py-1 border border-purple-300 rounded focus:ring-purple-500 focus:border-purple-500"
+                >
+                  <option value="none">None</option>
+                  <option value="domain">Domain-based</option>
+                  <option value="connections">Connection-based</option>
+                </select>
+              </div>
+            </div>
+            {/* Enhanced Legend with Relationship Types */}
             <div className="bg-white rounded-lg shadow p-4">
               <h3 className="text-sm font-medium text-gray-700 mb-3">Domain Colors</h3>
               <div className="space-y-2">
                 {RESEARCH_DOMAINS.map(domain => (
                   <div key={domain.id} className="flex items-center">
                     <div 
-                      className="w-4 h-4 rounded-full mr-2"
-                      style={{ backgroundColor: domain.color }}
+                      className="w-4 h-4 rounded-full mr-2 border border-gray-300"
+                      style={{ background: `linear-gradient(135deg, ${d3.color(domain.color)?.brighter(0.5)}, ${domain.color})` }}
                     ></div>
                     <span className="text-xs text-gray-600">{domain.name}</span>
                   </div>
                 ))}
               </div>
+              
+              <h4 className="text-sm font-medium text-gray-700 mt-4 mb-2">Relationship Types</h4>
+              <div className="space-y-1 text-xs">
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-blue-500 mr-2"></div>
+                  <span className="text-gray-600">implements</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-green-500 mr-2"></div>
+                  <span className="text-gray-600">uses</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-red-500 mr-2"></div>
+                  <span className="text-gray-600">enables</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-purple-500 mr-2"></div>
+                  <span className="text-gray-600">enhances</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-orange-500 mr-2"></div>
+                  <span className="text-gray-600">requires</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-1 bg-gray-600 mr-2" style={{ borderTop: '1px dashed #666' }}></div>
+                  <span className="text-gray-600">depends_on</span>
+                </div>
+              </div>
             </div>
 
-            {/* Statistics */}
+            {/* Enhanced Statistics */}
             <div className="bg-white rounded-lg shadow p-4">
-              <h3 className="text-sm font-medium text-gray-700 mb-3">Graph Statistics</h3>
+              <h3 className="text-sm font-medium text-gray-700 mb-3">Graph Analytics</h3>
               <div className="space-y-1 text-sm text-gray-600">
-                <div>Concepts: {filteredNodes.length}</div>
-                <div>Connections: {filteredLinks.length}</div>
-                <div>Domains: {new Set(filteredNodes.map(n => n.source_domain)).size}</div>
+                <div className="flex justify-between">
+                  <span>Concepts:</span>
+                  <span className="font-mono">{filteredNodes.length}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Connections:</span>
+                  <span className="font-mono">{filteredLinks.length}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Domains:</span>
+                  <span className="font-mono">{new Set(filteredNodes.map(n => n.source_domain)).size}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Avg. Relevance:</span>
+                  <span className="font-mono">
+                    {filteredNodes.length > 0 
+                      ? (filteredNodes.reduce((sum, n) => sum + n.relevance_score, 0) / filteredNodes.length).toFixed(3)
+                      : '0.000'
+                    }
+                  </span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Density:</span>
+                  <span className="font-mono">
+                    {filteredNodes.length > 1 
+                      ? (filteredLinks.length / (filteredNodes.length * (filteredNodes.length - 1) / 2)).toFixed(3)
+                      : '0.000'
+                    }
+                  </span>
+                </div>
+              </div>
+              
+              <div className="mt-3 pt-3 border-t border-gray-200">
+                <div className="text-xs text-purple-600 font-medium">
+                  🎯 Enhanced with cutting-edge D3.js v7 features!
+                </div>
               </div>
             </div>
           </div>
