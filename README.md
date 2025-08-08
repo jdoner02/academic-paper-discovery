@@ -1,10 +1,11 @@
 # Interactive Research Paper Discovery Platform
 
-🔬 **Transform academic paper collections into intuitive visual concept maps**
+🔬 **Transform academic literature into beautiful, interactive concept maps**
 
-An interactive web platform that uses machine learning and visualization to help researchers explore literature landscapes without technical barriers.
+A cutting-edge web platform that combines machine learning with stunning D3.js visualizations to help researchers explore literature landscapes through intuitive graph interactions.
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen)](https://jdoner02.github.io/academic-paper-discovery/)
+[![Interactive Graph](https://img.shields.io/badge/Feature-Interactive%20Concept%20Graph-blue)](https://jdoner02.github.io/academic-paper-discovery/concept-graph)
 [![Test Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)](./tests)
 [![Clean Architecture](https://img.shields.io/badge/architecture-clean-blue)](./src)
 [![TDD](https://img.shields.io/badge/methodology-TDD-orange)](./tests)
@@ -12,25 +13,26 @@ An interactive web platform that uses machine learning and visualization to help
 ## ✨ Features
 
 ### 🎯 **For Researchers**
-- **Visual Concept Maps**: Interactive D3.js visualizations of research landscapes
-- **Evidence-Based Navigation**: Click concepts to see supporting sentences from papers
-- **Mobile-Responsive Design**: Full functionality on all devices
-- **No Technical Barriers**: Form-based configuration, no command-line required
-- **Multi-Source Integration**: Access papers from ArXiv.org and MDPI journals
-- **Multi-Domain Support**: Research any field via YAML configuration files
-- **Intelligent Search Strategies**: Pre-configured and custom search approaches
-- **Automated Downloads**: Papers organized in domain-specific folders
-- **Duplicate Prevention**: Smart deduplication across multiple sources
+- **🎨 Beautiful Interactive Concept Graph**: Explore research domains through stunning D3.js force-directed visualizations
+- **🔍 Intelligent Filtering**: Search concepts, filter by domain, adjust relevance thresholds in real-time
+- **📱 Responsive Design**: Full functionality on desktop, tablet, and mobile devices
+- **🌈 Color-Coded Domains**: Visual distinction between research areas (AI/Cyber Defense, Quantum Cryptography, IoT Security)
+- **🎯 Interactive Exploration**: Click nodes to discover concept relationships and connected papers
+- **⚡ Real-Time Navigation**: Zoom, pan, drag interactions for intuitive graph exploration
+- **📊 Research Analytics**: Live statistics on concepts, connections, and domain coverage
+- **📄 Evidence-Based Navigation**: Direct links from concepts to supporting papers and evidence
+- **🔗 Cross-Domain Discovery**: Visualize connections between different research fields
+- **🎓 Educational Interface**: Professional design suitable for academic presentation
 
 ### 🔧 **For Developers**
-- **Clean Architecture**: Strict layer separation with educational documentation
+- **Clean Architecture**: Strict layer separation with comprehensive educational documentation
+- **Beautiful Visualizations**: D3.js integration with React demonstrating modern web development
+- **TypeScript Excellence**: Full type safety with proper interfaces and error handling
+- **API Design**: RESTful endpoints serving real concept data from research repository
 - **Test-Driven Development**: 95%+ test coverage with Red-Green-Refactor methodology
-- **Comprehensive Documentation**: Every design decision explained
+- **Responsive Components**: Tailwind CSS for beautiful, accessible user interfaces
 - **Professional Patterns**: Repository, Strategy, Factory, Adapter patterns demonstrated
-- **Interactive GUI**: Web-based concept visualization with D3.js
-- **Multiple Visualizations**: Sunburst, treemap, and network graph views
-- **Concept Exploration**: Click to explore evidence sentences and PDF sources
-- **Academic Design**: Accessible interface for researchers and students
+- **Performance Optimization**: Debounced search, caching, and efficient graph algorithms
 
 ## 🏗️ Architecture
 
