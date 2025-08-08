@@ -68,5 +68,17 @@ logs/
 temp/
 *.log
 
-# Node modules (for future web components)
+# Node.js & Next.js
 node_modules/
+.next/
+out/
+.env*.local
+.vercel
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

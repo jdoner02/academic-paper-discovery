@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EWU Cyber Games Portal - Atomic Task Schema",
+  "description": "Comprehensive task decomposition schema for educational software engineering projects using explosive recursive decomposition methodology",
+  "type": "object",
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "pattern": "^(EPIC|FEAT|STORY|TASK|SUBTASK)-[0-9]+((-[0-9]+)*)?$",
+      "description": "Hierarchical task identifier following Epic->Feature->Story->Task->Subtask pattern"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 100,
+      "description": "Clear, descriptive task title suitable for project management tools"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 50,
+      "description": "Comprehensive description explaining what, why, and how of the task"
+    },
+    "task_type": {
+      "type": "string",
+      "enum": ["epic", "feature", "user_story", "task", "subtask"],
+      "description": "Hierarchical task type for proper categorization and management"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"],
+      "description": "Business priority level for scheduling and resource allocation"
+    },
+    "complexity": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "epic"],
+      "description": "Technical complexity level for effort estimation and assignment"
+    },
+    "effort_hours": {
+      "type": "number",
+      "minimum": 0.25,
+      "maximum": 200,
+      "description": "Estimated effort in hours for realistic project planning"
+    },
+    "story_points": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 21,
+      "description": "Agile story points using Fibonacci sequence for sprint planning"
+    },
+    "confidence_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Confidence in effort estimation for risk management"
+    },
+    "educational_metadata": {
+      "type": "object",
+      "properties": {
+        "learning_objectives": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Specific learning outcomes aligned with educational goals"
+        },
+        "skill_levels_required": {
+          "type": "object",
+          "properties": {
+            "programming": {"$ref": "#/definitions/skill_level"},
+            "system_design": {"$ref": "#/definitions/skill_level"},
+            "testing": {"$ref": "#/definitions/skill_level"},
+            "documentation": {"$ref": "#/definitions/skill_level"},
+            "domain_knowledge": {"$ref": "#/definitions/skill_level"}
+          }
+        },
+        "blooms_taxonomy_level": {
+          "type": "string",
+          "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"],
+          "description": "Cognitive skill level according to Bloom's taxonomy"
+        },
+        "assessment_criteria": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Specific criteria for evaluating task completion and learning"
+        },
+        "wiki_references": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Links to relevant educational content for just-in-time learning"
+        },
+        "unit_test_question": {
+          "type": "object",
+          "properties": {
+            "question": {"type": "string"},
+            "options": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "correct_answer": {"type": "string"},
+            "explanation": {"type": "string"}
+          },
+          "description": "Assessment question for automated competency validation"
+        }
+      },
+      "required": ["learning_objectives", "skill_levels_required", "blooms_taxonomy_level"]
+    },
+    "industry_alignment": {
+      "type": "object",
+      "properties": {
+        "role_primary": {
+          "type": "string",
+          "enum": ["Software Engineer", "DevOps Engineer", "Technical Writer", "Data Scientist", "Fullstack Developer", "Backend Developer", "Frontend Developer", "QA Engineer", "Solutions Architect"],
+          "description": "Primary industry role this task prepares students for"
+        },
+        "role_secondary": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Secondary roles that would benefit from this task experience"
+        },
+        "technologies": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Specific technologies and tools used in Pacific Northwest tech industry"
+        },
+        "methodologies": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Software development methodologies demonstrated (Agile, TDD, DDD, etc.)"
+        }
+      },
+      "required": ["role_primary", "technologies", "methodologies"]
+    },
+    "dependencies": {
+      "type": "object",
+      "properties": {
+        "blocks": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Task IDs that cannot start until this task is completed"
+        },
+        "blocked_by": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Task IDs that must be completed before this task can start"
+        },
+        "related_to": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Task IDs with loose coupling or information sharing"
+        }
+      }
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "criterion": {"type": "string"},
+          "testable": {"type": "boolean"},
+          "verification_method": {"type": "string"}
+        },
+        "required": ["criterion", "testable"]
+      },
+      "description": "Specific, measurable criteria for determining task completion"
+    },
+    "definition_of_done": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Quality gates and completion requirements for professional standards"
+    },
+    "implementation_notes": {
+      "type": "object",
+      "properties": {
+        "approach": {"type": "string"},
+        "common_pitfalls": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "extension_activities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "resource_links": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "agile_simulation": {
+      "type": "object",
+      "properties": {
+        "sprint_assignment": {
+          "type": "string",
+          "enum": ["sprint_1", "sprint_2", "sprint_3", "sprint_4", "backlog"],
+          "description": "Suggested sprint for agile simulation exercises"
+        },
+        "scrum_ceremonies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["planning", "daily_standup", "review", "retrospective"]
+          }
+        },
+        "mentor_check_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "timing": {"type": "string"},
+              "check_questions": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "task_id", "title", "description", "task_type", "priority", "complexity", 
+    "effort_hours", "story_points", "educational_metadata", "industry_alignment"
+  ],
+  "definitions": {
+    "skill_level": {
+      "type": "string",
+      "enum": ["novice", "basic", "developing", "proficient", "advanced", "mastered"],
+      "description": "Six-level skill progression for competency tracking"
+    }
+  }
+}

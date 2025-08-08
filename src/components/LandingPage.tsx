@@ -42,9 +42,15 @@ const HeroSection: React.FC = () => (
           Test-Driven Development, and modern web technologies.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href="/concept-graph"
+            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center"
+          >
+            Explore Concept Graph
+          </Link>
           <a
             href="#demo"
-            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
           >
             Try Live Demo
           </a>
@@ -52,7 +58,7 @@ const HeroSection: React.FC = () => (
             href="https://github.com/jdoner02/academic-paper-discovery"
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+            className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
           >
             View Source Code
           </a>
