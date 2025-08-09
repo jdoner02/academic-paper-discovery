@@ -101,6 +101,18 @@ const InteractiveConceptGraph: React.FC = () => {
   const [selectedNode, setSelectedNode] = useState<ConceptNode | null>(null);
   const [availableDomains, setAvailableDomains] = useState<string[]>([]);
 
+  // Debug state rendering
+  console.log('🎯 COMPONENT STATE:', { 
+    isLoading, 
+    error, 
+    hasGraphData: graphData.nodes.length > 0, 
+    nodeCount: graphData.nodes.length,
+    linkCount: graphData.links.length,
+    selectedDomain,
+    searchTerm,
+    minRelevance
+  });
+
   // D3 simulation reference
   const simulationRef = useRef<d3.Simulation<ConceptNode, ConceptLink> | null>(null);
 
