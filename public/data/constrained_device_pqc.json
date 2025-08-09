@@ -1,0 +1,515 @@
+{
+  "domain": "constrained_device_pqc",
+  "nodes": [
+    {
+      "id": "constrained_device_pqc-aes-rv-0",
+      "text": "aes-rv",
+      "frequency": 66,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/AES-RV__Hardware-Efficient_RISC-V_Accelerator_with_Low-Latency_AES_Instruction_Extension_for_IoT_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:02.034253+00:00",
+      "display_text": "aes-rv",
+      "size": 13.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-risc-v-1",
+      "text": "risc-v",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/AES-RV__Hardware-Efficient_RISC-V_Accelerator_with_Low-Latency_AES_Instruction_Extension_for_IoT_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:02.034506+00:00",
+      "display_text": "risc-v",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-aes-2",
+      "text": "aes",
+      "frequency": 74,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/AES-RV__Hardware-Efficient_RISC-V_Accelerator_with_Low-Latency_AES_Instruction_Extension_for_IoT_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:02.034883+00:00",
+      "display_text": "aes",
+      "size": 14.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-times-3",
+      "text": "times",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/AES-RV__Hardware-Efficient_RISC-V_Accelerator_with_Low-Latency_AES_Instruction_Extension_for_IoT_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:02.044891+00:00",
+      "display_text": "times",
+      "size": 9.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-deformable-0",
+      "text": "deformable",
+      "frequency": 44,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/Algorithm-hardware_Co-design_for_Deformable_Convolution"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.852622+00:00",
+      "display_text": "deformable",
+      "size": 8.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-convolution-1",
+      "text": "convolution",
+      "frequency": 39,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/Algorithm-hardware_Co-design_for_Deformable_Convolution"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.852734+00:00",
+      "display_text": "convolution",
+      "size": 7.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-deformable-convolution-2",
+      "text": "deformable convolution",
+      "frequency": 29,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/Algorithm-hardware_Co-design_for_Deformable_Convolution"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.878171+00:00",
+      "display_text": "deformable convolution",
+      "size": 5.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-knn-0",
+      "text": "knn",
+      "frequency": 54,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.821881+00:00",
+      "display_text": "knn",
+      "size": 10.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-sort-1",
+      "text": "sort",
+      "frequency": 68,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by_FPGA"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:07.867658+00:00",
+      "display_text": "sort",
+      "size": 13.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8macs-0",
+      "text": "8macs",
+      "frequency": 264,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.697723+00:00",
+      "display_text": "8macs",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-1",
+      "text": "8kx64",
+      "frequency": 1056,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.698140+00:00",
+      "display_text": "8kx64",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8macs-8kx64-2",
+      "text": "8macs 8kx64",
+      "frequency": 132,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.970788+00:00",
+      "display_text": "8macs 8kx64",
+      "size": 26.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-8kx64-3",
+      "text": "8kx64 8kx64",
+      "frequency": 924,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.971216+00:00",
+      "display_text": "8kx64 8kx64",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-8macs-4",
+      "text": "8kx64 8macs",
+      "frequency": 132,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.971645+00:00",
+      "display_text": "8kx64 8macs",
+      "size": 26.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8macs-8macs-5",
+      "text": "8macs 8macs",
+      "frequency": 130,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:50.972074+00:00",
+      "display_text": "8macs 8macs",
+      "size": 26,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8macs-8kx64-8kx64-6",
+      "text": "8macs 8kx64 8kx64",
+      "frequency": 132,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:51.084233+00:00",
+      "display_text": "8macs 8kx64 8kx64",
+      "size": 26.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-8kx64-8kx64-7",
+      "text": "8kx64 8kx64 8kx64",
+      "frequency": 792,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:51.084662+00:00",
+      "display_text": "8kx64 8kx64 8kx64",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-8kx64-8macs-8",
+      "text": "8kx64 8kx64 8macs",
+      "frequency": 132,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:51.085086+00:00",
+      "display_text": "8kx64 8kx64 8macs",
+      "size": 26.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8kx64-8macs-8macs-9",
+      "text": "8kx64 8macs 8macs",
+      "frequency": 130,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:51.085513+00:00",
+      "display_text": "8kx64 8macs 8macs",
+      "size": 26,
+      "color": "#6B7280"
+    },
+    {
+      "id": "constrained_device_pqc-8macs-8macs-8kx64-10",
+      "text": "8macs 8macs 8kx64",
+      "frequency": 130,
+      "relevance_score": 1,
+      "source_domain": "constrained_device_pqc",
+      "source_papers": [
+        "local/BASALISC__Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic_Encryption"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:51.085937+00:00",
+      "display_text": "8macs 8macs 8kx64",
+      "size": 26,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-risc-v-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-aes-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-times-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-deformable-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-convolution-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-rv-0",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-aes-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-times-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-deformable-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-convolution-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-risc-v-1",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-2",
+      "target": "constrained_device_pqc-times-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-2",
+      "target": "constrained_device_pqc-deformable-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-2",
+      "target": "constrained_device_pqc-convolution-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-2",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-aes-2",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-times-3",
+      "target": "constrained_device_pqc-deformable-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-times-3",
+      "target": "constrained_device_pqc-convolution-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-times-3",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-times-3",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-deformable-0",
+      "target": "constrained_device_pqc-convolution-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-deformable-0",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-deformable-0",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-convolution-1",
+      "target": "constrained_device_pqc-deformable-convolution-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-convolution-1",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "constrained_device_pqc-deformable-convolution-2",
+      "target": "constrained_device_pqc-knn-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2247,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "aes-rv",
+      "risc-v",
+      "aes",
+      "times",
+      "deformable"
+    ]
+  }
+}

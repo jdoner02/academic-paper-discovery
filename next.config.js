@@ -6,9 +6,12 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export to GitHub Pages
   },
-  output: 'export', // Enable static export for GitHub Pages
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/research-paper-discovery-web' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/research-paper-discovery-web' : '',
+  // Only enable static export for production builds, not development
+  ...(process.env.NODE_ENV === 'production' && {
+    output: 'export', // Enable static export for GitHub Pages
+    assetPrefix: '/research-paper-discovery-web',
+    basePath: '/research-paper-discovery-web',
+  }),
   
   // Set custom pages directory for Clean Architecture organization
   pageExtensions: ['tsx', 'ts'],

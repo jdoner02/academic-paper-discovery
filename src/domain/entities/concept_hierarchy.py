@@ -56,6 +56,11 @@ class ConceptHierarchy:
         extraction_provenance: Complete audit trail of extraction process
         created_at: Timestamp when hierarchy was created
         last_modified: Timestamp of last modification
+
+    Alternative Constructor Support:
+        root_concepts: List of root-level concepts (alternative to concepts dict)
+        all_concepts: List of all concepts (alternative to concepts dict)
+        hierarchy_metadata: Alternative name for metadata parameter
     """
 
     hierarchy_id: str = field(default_factory=lambda: str(uuid.uuid4()))
@@ -66,6 +71,11 @@ class ConceptHierarchy:
     created_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
     last_modified: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
 
+    # Alternative constructor parameters for test compatibility
+    root_concepts: Optional[List[Concept]] = field(default=None)
+    all_concepts: Optional[List[Concept]] = field(default=None)
+    hierarchy_metadata: Optional[HierarchyMetadata] = field(default=None)
+
     def __post_init__(self):
         """
         Initialize hierarchy with proper validation and consistency checks.
@@ -75,9 +85,51 @@ class ConceptHierarchy:
         - Validates evidence sentences reference concepts in the hierarchy
         - Maintains metadata consistency with actual hierarchy structure
         - Prevents creation of invalid or inconsistent hierarchies
+        - Supports multiple constructor patterns for API compatibility
         """
+        # Handle alternative constructor patterns for test compatibility
+        self._process_alternative_constructor_params()
         self._validate_hierarchy_consistency()
         self._update_last_modified()
+
+    def _process_alternative_constructor_params(self) -> None:
+        """
+        Process alternative constructor parameters for test compatibility.
+
+        Educational Notes - API Compatibility Pattern:
+        - Supports multiple constructor signatures without breaking existing code
+        - Converts alternative patterns to canonical internal representation
+        - Maintains backward compatibility while enabling new usage patterns
+        - Demonstrates adapter pattern at the constructor level
+        """
+        # Handle hierarchy_metadata alternative name
+        if self.hierarchy_metadata is not None and self.metadata is None:
+            object.__setattr__(self, "metadata", self.hierarchy_metadata)
+
+        # Handle root_concepts and all_concepts lists
+        if self.root_concepts is not None:
+            # Validate root concepts have proper concept_level first
+            for concept in self.root_concepts:
+                if concept.concept_level != 0:
+                    raise ValueError("Root concepts must have concept_level = 0")
+
+        if self.all_concepts is not None:
+            # Convert all_concepts list to concepts dictionary
+            concepts_dict = {concept.text: concept for concept in self.all_concepts}
+            object.__setattr__(self, "concepts", concepts_dict)
+
+            # Validate minimum concepts requirement
+            if len(self.all_concepts) == 0:
+                raise ValueError("Hierarchy must contain at least one concept")
+
+        elif self.root_concepts is not None:
+            # Convert root_concepts to concepts dictionary
+            concepts_dict = {concept.text: concept for concept in self.root_concepts}
+            object.__setattr__(self, "concepts", concepts_dict)
+
+            # Validate minimum concepts requirement
+            if len(self.root_concepts) == 0:
+                raise ValueError("Hierarchy must contain at least one concept")
 
     def add_concept(self, concept: Concept) -> None:
         """

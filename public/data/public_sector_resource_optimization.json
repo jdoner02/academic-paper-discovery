@@ -1,0 +1,753 @@
+{
+  "domain": "public_sector_resource_optimization",
+  "nodes": [
+    {
+      "id": "public_sector_resource_optimization-vms-0",
+      "text": "vms",
+      "frequency": 103,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_AI-Driven_VM_Threat_Prediction_Model_for_Multi-Risks_Analysis-Based_Cloud_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:57.849249+00:00",
+      "display_text": "vms",
+      "size": 20.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-000-0",
+      "text": "000",
+      "frequency": 94,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_Adversarial_Risk_Analysis_Framework_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.472766+00:00",
+      "display_text": "000",
+      "size": 18.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-000-0-1",
+      "text": "000 0",
+      "frequency": 76,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_Adversarial_Risk_Analysis_Framework_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.675521+00:00",
+      "display_text": "000 0",
+      "size": 15.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-0-000-2",
+      "text": "0 000",
+      "frequency": 79,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_Adversarial_Risk_Analysis_Framework_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.675827+00:00",
+      "display_text": "0 000",
+      "size": 15.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-000-0-000-3",
+      "text": "000 0 000",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_Adversarial_Risk_Analysis_Framework_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.767480+00:00",
+      "display_text": "000 0 000",
+      "size": 14.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-0-000-0-4",
+      "text": "0 000 0",
+      "frequency": 75,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/An_Adversarial_Risk_Analysis_Framework_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.767801+00:00",
+      "display_text": "0 000 0",
+      "size": 15,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-portfolio-0",
+      "text": "portfolio",
+      "frequency": 84,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.035966+00:00",
+      "display_text": "portfolio",
+      "size": 16.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-stocks-1",
+      "text": "stocks",
+      "frequency": 35,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Analysis_of_Optimal_Portfolio_Management_Using_Hierarchical_Clustering"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:55.040652+00:00",
+      "display_text": "stocks",
+      "size": 7,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-defence-0",
+      "text": "defence",
+      "frequency": 133,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Co-evolutionary_Dynamics_of_Attack_and_Defence_in_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:39.440511+00:00",
+      "display_text": "defence",
+      "size": 26.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-insurance-0",
+      "text": "insurance",
+      "frequency": 141,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Contrasting_the_optimal_resource_allocation_to_cybersecurity_and_cyber_insurance_using_prospect_t..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:40.897798+00:00",
+      "display_text": "insurance",
+      "size": 28.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-risk-1",
+      "text": "risk",
+      "frequency": 140,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Contrasting_the_optimal_resource_allocation_to_cybersecurity_and_cyber_insurance_using_prospect_t..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:40.907074+00:00",
+      "display_text": "risk",
+      "size": 28,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-ccs-2",
+      "text": "ccs",
+      "frequency": 200,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Contrasting_the_optimal_resource_allocation_to_cybersecurity_and_cyber_insurance_using_prospect_t..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:41.030182+00:00",
+      "display_text": "ccs",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-risk-0",
+      "text": "risk",
+      "frequency": 80,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Deep_Declarative_Risk_Budgeting_Portfolios"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:43.373127+00:00",
+      "display_text": "risk",
+      "size": 16,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-portfolio-1",
+      "text": "portfolio",
+      "frequency": 75,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Deep_Declarative_Risk_Budgeting_Portfolios"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:43.376049+00:00",
+      "display_text": "portfolio",
+      "size": 15,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-optimization-2",
+      "text": "optimization",
+      "frequency": 85,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Deep_Declarative_Risk_Budgeting_Portfolios"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:43.376327+00:00",
+      "display_text": "optimization",
+      "size": 17,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-risk-0",
+      "text": "risk",
+      "frequency": 120,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Diversifying_portfolios_of_U.S._stocks_with_crude_oil_and_natural_gas__A_regime-dependent_optimiz..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:59.908938+00:00",
+      "display_text": "risk",
+      "size": 24,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-portfolio-1",
+      "text": "portfolio",
+      "frequency": 163,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Diversifying_portfolios_of_U.S._stocks_with_crude_oil_and_natural_gas__A_regime-dependent_optimiz..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:10:59.958334+00:00",
+      "display_text": "portfolio",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-information-0",
+      "text": "information",
+      "frequency": 40,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Dynamic_Information_Security_Management_Capability__Strategising_for_Organisational_Performance"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:01.391494+00:00",
+      "display_text": "information",
+      "size": 8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-dynamic-1",
+      "text": "dynamic",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Dynamic_Information_Security_Management_Capability__Strategising_for_Organisational_Performance"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:01.392420+00:00",
+      "display_text": "dynamic",
+      "size": 10.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "public_sector_resource_optimization-ism-2",
+      "text": "ism",
+      "frequency": 98,
+      "relevance_score": 1,
+      "source_domain": "public_sector_resource_optimization",
+      "source_papers": [
+        "local/Dynamic_Information_Security_Management_Capability__Strategising_for_Organisational_Performance"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:01.392553+00:00",
+      "display_text": "ism",
+      "size": 19.6,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_game_theory-0-000-0",
+      "target": "public_sector_resource_optimization-0-000-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_game_theory-0-000-0-1",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-insurance-2",
+      "target": "public_sector_resource_optimization-insurance-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-dynamic-1",
+      "target": "public_sector_resource_optimization-dynamic-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-3",
+      "target": "public_sector_resource_optimization-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-1",
+      "target": "public_sector_resource_optimization-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-information-0",
+      "target": "public_sector_resource_optimization-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-000-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-000-0-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-0-000-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-000-0-000-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-vms-0",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-000-0-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-0-000-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-000-0-000-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-1",
+      "target": "public_sector_resource_optimization-0-000-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-1",
+      "target": "public_sector_resource_optimization-000-0-000-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-1",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-1",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-1",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-2",
+      "target": "public_sector_resource_optimization-000-0-000-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-2",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-2",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-2",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-000-3",
+      "target": "public_sector_resource_optimization-0-000-0-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-000-3",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-000-0-000-3",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-0-4",
+      "target": "public_sector_resource_optimization-portfolio-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-0-000-0-4",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "public_sector_resource_optimization-portfolio-0",
+      "target": "public_sector_resource_optimization-stocks-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 1348,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "vms",
+      "000",
+      "000 0",
+      "0 000",
+      "000 0 000"
+    ]
+  }
+}

@@ -66,6 +66,10 @@ class HierarchyMetadata:
     This value object provides standardized metrics for assessing the quality,
     structure, and performance characteristics of concept hierarchies.
 
+    Supports two constructor patterns:
+    1. Quality-focused: total_concepts, hierarchy_depth, average_confidence, etc.
+    2. Clustering-focused: clustering_algorithm, similarity_threshold, concept_count_by_level, etc.
+
     Attributes:
         total_concepts: Total number of concepts in the hierarchy
         hierarchy_depth: Maximum depth of the concept hierarchy
@@ -74,76 +78,122 @@ class HierarchyMetadata:
         root_concepts_count: Number of root-level concepts
         leaf_concepts_count: Number of leaf concepts (no children)
         quality_score: Overall quality assessment (0.0 to 1.0)
+
+    Alternative Clustering-Focused Attributes:
+        clustering_algorithm: Algorithm used for hierarchical clustering
+        similarity_threshold: Threshold used for concept similarity
+        concept_count_by_level: Distribution of concepts across hierarchy levels
     """
 
-    total_concepts: int
+    # Core attributes (always present)
     hierarchy_depth: int
-    average_confidence: float
     extraction_timestamp: datetime
-    root_concepts_count: int
-    leaf_concepts_count: int
-    quality_score: float
+
+    # Quality-focused constructor attributes
+    total_concepts: Optional[int] = None
+    average_confidence: Optional[float] = None
+    root_concepts_count: Optional[int] = None
+    leaf_concepts_count: Optional[int] = None
+    quality_score: Optional[float] = None
+
+    # Clustering-focused constructor attributes
+    clustering_algorithm: Optional[str] = None
+    similarity_threshold: Optional[float] = None
+    concept_count_by_level: Optional[Dict[int, int]] = None
 
     def __post_init__(self):
         """
         Validate hierarchy metadata for research quality standards.
 
-        Educational Notes - Comprehensive Validation Strategy:
-        - Uses common validation utilities for consistency
-        - Enforces business rules about hierarchy structure
-        - Prevents invalid metrics that could mislead research
-        - Demonstrates composition of simple validators for complex validation
+        Educational Notes - Multi-Pattern Validation:
+        - Supports two different constructor patterns for API compatibility
+        - Validates each pattern according to its specific requirements
+        - Ensures data integrity regardless of constructor pattern used
+        - Demonstrates flexible validation in value objects
 
         Educational Notes - Data Integrity for Research:
         - Ensures all counts are positive and logical
         - Validates confidence and quality scores are probabilities
         - Prevents inconsistent structural metrics
         - Maintains research data integrity standards required for academic work
-
-        Educational Notes - Defensive Programming:
-        - Validation occurs at object creation to fail fast
-        - Clear error messages help identify specific validation failures
-        - Contextual error wrapping provides debugging information
-        - Prevents invalid objects from being used in calculations
         """
         try:
-            # Validate structural metrics using common utilities
-            validate_positive_count(
-                self.total_concepts,
-                "Total concepts",
-                allow_zero=True,  # Allow zero for empty hierarchies
-            )
+            # Always validate core attributes
             validate_positive_count(
                 self.hierarchy_depth, "Hierarchy depth", allow_zero=False
             )
-            validate_positive_count(
-                self.root_concepts_count,
-                "Root concepts count",
-                allow_zero=True,  # Allow zero for empty hierarchies
-            )
-            validate_positive_count(
-                self.leaf_concepts_count, "Leaf concepts count", allow_zero=True
-            )
-
-            # Validate probability-based metrics
-            validate_probability_score(self.average_confidence, "Average confidence")
-            validate_probability_score(self.quality_score, "Quality score")
-
-            # Validate required timestamp
             validate_required_field(self.extraction_timestamp, "Extraction timestamp")
 
-            # Validate structural consistency - business rule validation
+            # Validate quality-focused pattern attributes
+            if self.total_concepts is not None:
+                validate_positive_count(
+                    self.total_concepts,
+                    "Total concepts",
+                    allow_zero=True,  # Allow zero for empty hierarchies
+                )
+
+            if self.average_confidence is not None:
+                validate_probability_score(
+                    self.average_confidence, "Average confidence"
+                )
+
+            if self.quality_score is not None:
+                validate_probability_score(self.quality_score, "Quality score")
+
+            if self.root_concepts_count is not None:
+                validate_positive_count(
+                    self.root_concepts_count,
+                    "Root concepts count",
+                    allow_zero=True,
+                )
+
+            if self.leaf_concepts_count is not None:
+                validate_positive_count(
+                    self.leaf_concepts_count,
+                    "Leaf concepts count",
+                    allow_zero=True,
+                )
+
+            # Validate clustering-focused pattern attributes
+            if self.similarity_threshold is not None:
+                validate_probability_score(
+                    self.similarity_threshold, "Similarity threshold"
+                )
+
+            if self.concept_count_by_level is not None:
+                self._validate_concept_count_by_level()
+
+            # Validate logical consistency within each pattern
+            self._validate_pattern_consistency()
+
+        except Exception as e:
+            raise DomainValidationError(f"Invalid hierarchy metadata: {str(e)}") from e
+
+    def _validate_concept_count_by_level(self) -> None:
+        """Validate concept count by level structure."""
+        if not isinstance(self.concept_count_by_level, dict):
+            raise ValueError("Concept count by level must be a dictionary")
+
+        for level, count in self.concept_count_by_level.items():
+            if not isinstance(level, int) or level < 0:
+                raise ValueError(f"Invalid hierarchy level: {level}")
+            validate_positive_count(
+                count, f"Concept count for level {level}", allow_zero=True
+            )
+
+    def _validate_pattern_consistency(self) -> None:
+        """Validate logical consistency within constructor patterns."""
+        # Quality pattern consistency checks
+        if (
+            self.total_concepts is not None
+            and self.root_concepts_count is not None
+            and self.leaf_concepts_count is not None
+        ):
             if (
                 self.root_concepts_count + self.leaf_concepts_count
                 > self.total_concepts
             ):
-                raise DomainValidationError(
-                    "Root and leaf concept counts cannot exceed total concepts"
-                )
-
-        except DomainValidationError as e:
-            # Wrap validation errors with context for better debugging
-            raise DomainValidationError(f"Invalid hierarchy metadata: {e}")
+                raise ValueError("Root + leaf concepts cannot exceed total concepts")
 
     @classmethod
     def create_for_flat_hierarchy(

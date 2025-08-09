@@ -186,10 +186,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   }
   
   try {
+    // Concept storage is in the project root
     const conceptStoragePath = path.join(process.cwd(), 'concept_storage', 'concepts');
     
     if (!fs.existsSync(conceptStoragePath)) {
-      return res.status(404).json({ error: 'Concept storage directory not found' });
+      return res.status(404).json({ 
+        error: `Concept storage directory not found at: ${conceptStoragePath}` 
+      });
     }
     
     const domains = fs.readdirSync(conceptStoragePath).filter(item => {

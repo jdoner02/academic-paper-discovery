@@ -1,0 +1,1068 @@
+{
+  "domain": "grid_communication_network_security",
+  "nodes": [
+    {
+      "id": "grid_communication_network_security-energy-0",
+      "text": "energy",
+      "frequency": 96,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.373058+00:00",
+      "display_text": "energy",
+      "size": 19.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-smart-1",
+      "text": "smart",
+      "frequency": 58,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.373341+00:00",
+      "display_text": "smart",
+      "size": 11.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-ict-2",
+      "text": "ict",
+      "frequency": 84,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.378645+00:00",
+      "display_text": "ict",
+      "size": 16.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-gateway-3",
+      "text": "gateway",
+      "frequency": 102,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.378789+00:00",
+      "display_text": "gateway",
+      "size": 20.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-ict-gateway-4",
+      "text": "ict gateway",
+      "frequency": 61,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/ASIA__An_Access_Control__Session_Invocation_and_Authorization_Architecture_for_Home_Energy_Applia..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:11.442488+00:00",
+      "display_text": "ict gateway",
+      "size": 12.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-cyber-0",
+      "text": "cyber",
+      "frequency": 213,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Comprehensive_Survey_on_the_Cyber-Security_of_Smart_Grids__Cyber-Attacks__Detection__Countermea..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:07.056243+00:00",
+      "display_text": "cyber",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-smart-1",
+      "text": "smart",
+      "frequency": 398,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Comprehensive_Survey_on_the_Cyber-Security_of_Smart_Grids__Cyber-Attacks__Detection__Countermea..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:07.057605+00:00",
+      "display_text": "smart",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-grid-2",
+      "text": "grid",
+      "frequency": 319,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Comprehensive_Survey_on_the_Cyber-Security_of_Smart_Grids__Cyber-Attacks__Detection__Countermea..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:07.058277+00:00",
+      "display_text": "grid",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-attacks-3",
+      "text": "attacks",
+      "frequency": 201,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Comprehensive_Survey_on_the_Cyber-Security_of_Smart_Grids__Cyber-Attacks__Detection__Countermea..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:07.073807+00:00",
+      "display_text": "attacks",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-smart-grid-4",
+      "text": "smart grid",
+      "frequency": 295,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Comprehensive_Survey_on_the_Cyber-Security_of_Smart_Grids__Cyber-Attacks__Detection__Countermea..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:07.890783+00:00",
+      "display_text": "smart grid",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-security-0",
+      "text": "security",
+      "frequency": 79,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Security_Plan_for_Smart_Grid_Systems_Based_On_AGC4ISR"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:33.551315+00:00",
+      "display_text": "security",
+      "size": 15.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-grid-1",
+      "text": "grid",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Security_Plan_for_Smart_Grid_Systems_Based_On_AGC4ISR"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:33.551728+00:00",
+      "display_text": "grid",
+      "size": 9.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-network-0",
+      "text": "network",
+      "frequency": 232,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Survey_of_Software-Defined_Smart_Grid_Networks__Security_Threats_and_Defense_Techniques"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:46.089557+00:00",
+      "display_text": "network",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-attacks-1",
+      "text": "attacks",
+      "frequency": 204,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_Survey_of_Software-Defined_Smart_Grid_Networks__Security_Threats_and_Defense_Techniques"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:46.123855+00:00",
+      "display_text": "attacks",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-grid-0",
+      "text": "grid",
+      "frequency": 45,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/A_cyber-physical_digital_twin_approach_to_replicating_realistic_multi-stage_cyberattacks_on_smart..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:53.118502+00:00",
+      "display_text": "grid",
+      "size": 9,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-protocol-0",
+      "text": "protocol",
+      "frequency": 57,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/An_Anonymous_Authentication_and_Communication_Protocol_for_Wireless_Mesh_Networks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:04.567067+00:00",
+      "display_text": "protocol",
+      "size": 11.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-key-1",
+      "text": "key",
+      "frequency": 65,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/An_Anonymous_Authentication_and_Communication_Protocol_for_Wireless_Mesh_Networks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:04.581822+00:00",
+      "display_text": "key",
+      "size": 13,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-computing-0",
+      "text": "computing",
+      "frequency": 71,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/Authentication_Devices_in_Fog-Mobile_Edge_Computing_Environments_Through_a_Wireless_Grid_Resource..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:51.614686+00:00",
+      "display_text": "computing",
+      "size": 14.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-wireless-1",
+      "text": "wireless",
+      "frequency": 76,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/Authentication_Devices_in_Fog-Mobile_Edge_Computing_Environments_Through_a_Wireless_Grid_Resource..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:51.619575+00:00",
+      "display_text": "wireless",
+      "size": 15.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "grid_communication_network_security-icd-2",
+      "text": "icd",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "grid_communication_network_security",
+      "source_papers": [
+        "local/Authentication_Devices_in_Fog-Mobile_Edge_Computing_Environments_Through_a_Wireless_Grid_Resource..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:51.627640+00:00",
+      "display_text": "icd",
+      "size": 14,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "grid_communication_network_security-attacks-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "grid_communication_network_security-attacks-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-attacks-3",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-attacks-1",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-cyber-0",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-cyber-0",
+      "target": "local_government_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "grid_communication_network_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "grid_communication_network_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "healthcare_privacy_compliance-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "local_government_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "local_government_cybersecurity-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "local_government_cybersecurity-security-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-network-3",
+      "target": "grid_communication_network_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "grid_incident_response_recovery-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "iot_device_authentication_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_iot_smart_monitoring_security-network-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_iot_smart_monitoring_security-network-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "water_iot_smart_monitoring_security-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-2",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-2",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-2",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-1",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-1",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-1",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-0",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-0",
+      "target": "grid_incident_response_recovery-grid-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "post_quantum_cryptography_implementation-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "telemedicine_remote_care_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "industrial_iot_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "quantum_safe_protocols-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "quantum_safe_protocols-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "telemedicine_remote_care_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-computing-0",
+      "target": "incident_response_optimization-computing-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-wireless-1",
+      "target": "water_iot_smart_monitoring_security-wireless-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-ict-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-gateway-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-ict-gateway-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-ict-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-gateway-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-ict-gateway-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-2",
+      "target": "grid_communication_network_security-gateway-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-2",
+      "target": "grid_communication_network_security-ict-gateway-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-2",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-2",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-2",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-gateway-3",
+      "target": "grid_communication_network_security-ict-gateway-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-gateway-3",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-gateway-3",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-gateway-3",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-gateway-4",
+      "target": "grid_communication_network_security-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-gateway-4",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-ict-gateway-4",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-cyber-0",
+      "target": "grid_communication_network_security-smart-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-cyber-0",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "grid_communication_network_security-smart-1",
+      "target": "grid_communication_network_security-grid-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2186,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "energy",
+      "smart",
+      "ict",
+      "gateway",
+      "ict gateway"
+    ]
+  }
+}

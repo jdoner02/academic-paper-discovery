@@ -1,0 +1,746 @@
+{
+  "domain": "ai_driven_cyber_defense",
+  "nodes": [
+    {
+      "id": "ai_driven_cyber_defense-cybersecurity-0",
+      "text": "cybersecurity",
+      "frequency": 56,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.382446+00:00",
+      "display_text": "cybersecurity",
+      "size": 11.2,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-human-1",
+      "text": "human",
+      "frequency": 49,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.384117+00:00",
+      "display_text": "human",
+      "size": 9.8,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-anomaly-0",
+      "text": "anomaly",
+      "frequency": 60,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.651043+00:00",
+      "display_text": "anomaly",
+      "size": 12,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-detection-1",
+      "text": "detection",
+      "frequency": 60,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.651203+00:00",
+      "display_text": "detection",
+      "size": 12,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-samples-2",
+      "text": "samples",
+      "frequency": 60,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:15.662967+00:00",
+      "display_text": "samples",
+      "size": 12,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-xai-0",
+      "text": "xai",
+      "frequency": 330,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:05.711992+00:00",
+      "display_text": "xai",
+      "size": 30,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-adversarial-0",
+      "text": "adversarial",
+      "frequency": 46,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:33.073868+00:00",
+      "display_text": "adversarial",
+      "size": 9.2,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-attacks-0",
+      "text": "attacks",
+      "frequency": 142,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:34.584207+00:00",
+      "display_text": "attacks",
+      "size": 28.4,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-les-0",
+      "text": "les",
+      "frequency": 106,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:01.966946+00:00",
+      "display_text": "les",
+      "size": 21.2,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-des-1",
+      "text": "des",
+      "frequency": 140,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:01.967703+00:00",
+      "display_text": "des",
+      "size": 28,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-une-2",
+      "text": "une",
+      "frequency": 93,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:01.982931+00:00",
+      "display_text": "une",
+      "size": 18.6,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-learning-0",
+      "text": "learning",
+      "frequency": 103,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.656260+00:00",
+      "display_text": "learning",
+      "size": 20.6,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-agent-1",
+      "text": "agent",
+      "frequency": 149,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.665894+00:00",
+      "display_text": "agent",
+      "size": 29.8,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-service-2",
+      "text": "service",
+      "frequency": 102,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.782113+00:00",
+      "display_text": "service",
+      "size": 20.4,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-autonomous-0",
+      "text": "autonomous",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:17.634579+00:00",
+      "display_text": "autonomous",
+      "size": 8.4,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-risk-1",
+      "text": "risk",
+      "frequency": 40,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:17.634858+00:00",
+      "display_text": "risk",
+      "size": 8,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-threat-0",
+      "text": "threat",
+      "frequency": 389,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:19.250924+00:00",
+      "display_text": "threat",
+      "size": 30,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-intelligence-1",
+      "text": "intelligence",
+      "frequency": 281,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:19.255364+00:00",
+      "display_text": "intelligence",
+      "size": 30,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-available-2",
+      "text": "available",
+      "frequency": 528,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:19.610017+00:00",
+      "display_text": "available",
+      "size": 30,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "ai_driven_cyber_defense-2023-3",
+      "text": "2023",
+      "frequency": 262,
+      "relevance_score": 1,
+      "source_domain": "ai_driven_cyber_defense",
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:20.301603+00:00",
+      "display_text": "2023",
+      "size": 30,
+      "color": "#3B82F6"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "local_government_cybersecurity-cybersecurity-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "renewable_energy_cybersecurity-cybersecurity-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "government_ransomware_defense-detection-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-adversarial-0",
+      "target": "water_utility_risk_assessment-adversarial-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "grid_communication_network_security-attacks-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "grid_communication_network_security-attacks-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-les-0",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-des-1",
+      "target": "industrial_iot_security-des-8",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-agent-1",
+      "target": "pqc_migration_strategies-agent-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-service-2",
+      "target": "small_water_utility_security-service-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "cyber_risk_quantification-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "cyber_risk_quantification-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "cyber_risk_quantification-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "cybersecurity_optimization_models-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "local_government_cybersecurity-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "public_sector_resource_optimization-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-threat-0",
+      "target": "water_utility_risk_assessment-threat-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-intelligence-1",
+      "target": "shared_government_services_security-intelligence-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-human-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-anomaly-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-detection-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-samples-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-xai-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-anomaly-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-detection-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-samples-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-xai-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-human-1",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-anomaly-0",
+      "target": "ai_driven_cyber_defense-detection-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-anomaly-0",
+      "target": "ai_driven_cyber_defense-samples-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-anomaly-0",
+      "target": "ai_driven_cyber_defense-xai-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-anomaly-0",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-anomaly-0",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "ai_driven_cyber_defense-samples-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "ai_driven_cyber_defense-xai-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-samples-2",
+      "target": "ai_driven_cyber_defense-xai-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-samples-2",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-samples-2",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-xai-0",
+      "target": "ai_driven_cyber_defense-adversarial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-xai-0",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "ai_driven_cyber_defense-adversarial-0",
+      "target": "ai_driven_cyber_defense-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2249,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "cybersecurity",
+      "human",
+      "anomaly",
+      "detection",
+      "samples"
+    ]
+  }
+}

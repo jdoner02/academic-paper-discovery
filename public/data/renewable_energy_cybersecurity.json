@@ -1,0 +1,1159 @@
+{
+  "domain": "renewable_energy_cybersecurity",
+  "nodes": [
+    {
+      "id": "renewable_energy_cybersecurity-system-0",
+      "text": "system",
+      "frequency": 101,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_Cybersecurity_in_Smart_Local_Energy_Systems__Requirements__Challenges__and_Standards"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:14.825006+00:00",
+      "display_text": "system",
+      "size": 20.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-security-1",
+      "text": "security",
+      "frequency": 147,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_Cybersecurity_in_Smart_Local_Energy_Systems__Requirements__Challenges__and_Standards"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:14.836098+00:00",
+      "display_text": "security",
+      "size": 29.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-cyber-0",
+      "text": "cyber",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Assessment_of_Quantitative_Cyber-Physical_Reliability_of_SCADA_Systems_in_Autonomous_Vehicle_to_G..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:23.388080+00:00",
+      "display_text": "cyber",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-grid-1",
+      "text": "grid",
+      "frequency": 39,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Assessment_of_Quantitative_Cyber-Physical_Reliability_of_SCADA_Systems_in_Autonomous_Vehicle_to_G..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:23.388795+00:00",
+      "display_text": "grid",
+      "size": 7.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-system-2",
+      "text": "system",
+      "frequency": 34,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Assessment_of_Quantitative_Cyber-Physical_Reliability_of_SCADA_Systems_in_Autonomous_Vehicle_to_G..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:23.390227+00:00",
+      "display_text": "system",
+      "size": 6.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-energy-0",
+      "text": "energy",
+      "frequency": 284,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Blockchain-Based_Decentralized_Energy_Management_Platform_for_Residential_Distributed_Energy_Reso..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:22.616171+00:00",
+      "display_text": "energy",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-vpp-1",
+      "text": "vpp",
+      "frequency": 125,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Blockchain-Based_Decentralized_Energy_Management_Platform_for_Residential_Distributed_Energy_Reso..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:22.631024+00:00",
+      "display_text": "vpp",
+      "size": 25,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-users-2",
+      "text": "users",
+      "frequency": 115,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Blockchain-Based_Decentralized_Energy_Management_Platform_for_Residential_Distributed_Energy_Reso..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:22.634399+00:00",
+      "display_text": "users",
+      "size": 23,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-user-3",
+      "text": "user",
+      "frequency": 114,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Blockchain-Based_Decentralized_Energy_Management_Platform_for_Residential_Distributed_Energy_Reso..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:22.714948+00:00",
+      "display_text": "user",
+      "size": 22.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-llms-0",
+      "text": "llms",
+      "frequency": 44,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/ChatGPT_and_Other_Large_Language_Models_for_Cybersecurity_of_Smart_Grid_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:40.492442+00:00",
+      "display_text": "llms",
+      "size": 8.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-goose-1",
+      "text": "goose",
+      "frequency": 44,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/ChatGPT_and_Other_Large_Language_Models_for_Cybersecurity_of_Smart_Grid_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:40.493411+00:00",
+      "display_text": "goose",
+      "size": 8.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-energy-0",
+      "text": "energy",
+      "frequency": 86,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cyberattacks_on_Energy_Infrastructures__Modern_War_Weapons"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:59.285961+00:00",
+      "display_text": "energy",
+      "size": 17.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-energy-0",
+      "text": "energy",
+      "frequency": 59,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_Issues_in_Local_Energy_Markets"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:00.501086+00:00",
+      "display_text": "energy",
+      "size": 11.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-lem-1",
+      "text": "lem",
+      "frequency": 73,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_Issues_in_Local_Energy_Markets"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:06:00.508271+00:00",
+      "display_text": "lem",
+      "size": 14.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-cybersecurity-0",
+      "text": "cybersecurity",
+      "frequency": 29,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.433980+00:00",
+      "display_text": "cybersecurity",
+      "size": 5.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-renewable-1",
+      "text": "renewable",
+      "frequency": 28,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.434073+00:00",
+      "display_text": "renewable",
+      "size": 5.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-energy-2",
+      "text": "energy",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.434167+00:00",
+      "display_text": "energy",
+      "size": 14,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-rec-3",
+      "text": "rec",
+      "frequency": 51,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.437732+00:00",
+      "display_text": "rec",
+      "size": 10.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-system-4",
+      "text": "system",
+      "frequency": 24,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.441337+00:00",
+      "display_text": "system",
+      "size": 5,
+      "color": "#6B7280"
+    },
+    {
+      "id": "renewable_energy_cybersecurity-renewable-energy-5",
+      "text": "renewable energy",
+      "frequency": 26,
+      "relevance_score": 1,
+      "source_domain": "renewable_energy_cybersecurity",
+      "source_papers": [
+        "local/Cybersecurity_of_Renewable_Energy_Data_and_Applications_Using_Distributed_Ledger_Technology"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:53.456311+00:00",
+      "display_text": "renewable energy",
+      "size": 5.2,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-cybersecurity-0",
+      "target": "renewable_energy_cybersecurity-cybersecurity-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-cybersecurity-0",
+      "target": "renewable_energy_cybersecurity-cybersecurity-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-user-3",
+      "target": "renewable_energy_cybersecurity-user-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-user-0",
+      "target": "renewable_energy_cybersecurity-user-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-user-3",
+      "target": "water_iot_smart_monitoring_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-energy-0",
+      "target": "renewable_energy_cybersecurity-energy-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-0",
+      "target": "water_iot_smart_monitoring_security-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-0",
+      "target": "water_iot_smart_monitoring_security-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-0",
+      "target": "water_iot_smart_monitoring_security-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-2",
+      "target": "water_iot_smart_monitoring_security-energy-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-2",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-1",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-grid-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-grid-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-grid-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-cyber-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-grid-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-cyber-0",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-grid-1",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-grid-1",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-grid-1",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-grid-1",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "renewable_energy_cybersecurity-energy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-0",
+      "target": "renewable_energy_cybersecurity-vpp-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-energy-0",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "renewable_energy_cybersecurity-vpp-1",
+      "target": "renewable_energy_cybersecurity-users-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2397,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "system",
+      "security",
+      "cyber",
+      "grid",
+      "system"
+    ]
+  }
+}

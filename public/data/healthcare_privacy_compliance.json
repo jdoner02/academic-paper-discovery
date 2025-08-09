@@ -1,0 +1,1243 @@
+{
+  "domain": "healthcare_privacy_compliance",
+  "nodes": [
+    {
+      "id": "healthcare_privacy_compliance-consent-0",
+      "text": "consent",
+      "frequency": 237,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/A_Blockchain-Based_Consent_Mechanism_for_Access_to_Fitness_Data_in_the_Healthcare_Context"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:19.363325+00:00",
+      "display_text": "consent",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-blockchain-1",
+      "text": "blockchain",
+      "frequency": 168,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/A_Blockchain-Based_Consent_Mechanism_for_Access_to_Fitness_Data_in_the_Healthcare_Context"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:19.373862+00:00",
+      "display_text": "blockchain",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-system-2",
+      "text": "system",
+      "frequency": 156,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/A_Blockchain-Based_Consent_Mechanism_for_Access_to_Fitness_Data_in_the_Healthcare_Context"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:19.394286+00:00",
+      "display_text": "system",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-healthcare-0",
+      "text": "healthcare",
+      "frequency": 66,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/A_Global_Cybersecurity_Standardization_Framework_for_Healthcare_Informatics"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:17.206757+00:00",
+      "display_text": "healthcare",
+      "size": 13.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-privacy-0",
+      "text": "privacy",
+      "frequency": 123,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.341814+00:00",
+      "display_text": "privacy",
+      "size": 24.6,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-quantum-0",
+      "text": "quantum",
+      "frequency": 105,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/An_Intelligent_Quantum_Cyber-Security_Framework_for_Healthcare_Data_Management"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:24.836104+00:00",
+      "display_text": "quantum",
+      "size": 21,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-healthcare-0",
+      "text": "healthcare",
+      "frequency": 99,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Block_MedCare__Advancing_healthcare_through_blockchain_integration"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:25.544030+00:00",
+      "display_text": "healthcare",
+      "size": 19.8,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-blockchain-1",
+      "text": "blockchain",
+      "frequency": 123,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Block_MedCare__Advancing_healthcare_through_blockchain_integration"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:25.544337+00:00",
+      "display_text": "blockchain",
+      "size": 24.6,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-system-2",
+      "text": "system",
+      "frequency": 85,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Block_MedCare__Advancing_healthcare_through_blockchain_integration"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:25.554542+00:00",
+      "display_text": "system",
+      "size": 17,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-blockchain-0",
+      "text": "blockchain",
+      "frequency": 95,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Combining_Blockchain_and_IOT_for_Decentralized_Healthcare_Data_Management"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:23.667291+00:00",
+      "display_text": "blockchain",
+      "size": 19,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-system-0",
+      "text": "system",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Designing_Data_Protection_for_GDPR_Compliance_into_IoT_Healthcare_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:15.503165+00:00",
+      "display_text": "system",
+      "size": 14.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-gdpr-0",
+      "text": "gdpr",
+      "frequency": 79,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.353684+00:00",
+      "display_text": "gdpr",
+      "size": 15.8,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-blockchain-1",
+      "text": "blockchain",
+      "frequency": 107,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.354049+00:00",
+      "display_text": "blockchain",
+      "size": 21.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-health-2",
+      "text": "health",
+      "frequency": 57,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/GDPR_Compliance_for_Blockchain_Applications_in_Healthcare"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:27.358962+00:00",
+      "display_text": "health",
+      "size": 11.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-healthcare-0",
+      "text": "healthcare",
+      "frequency": 55,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_Data_Governance__Privacy__and_Security_--_A_Conceptual_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.967362+00:00",
+      "display_text": "healthcare",
+      "size": 11,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-governance-1",
+      "text": "governance",
+      "frequency": 80,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_Data_Governance__Privacy__and_Security_--_A_Conceptual_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.967489+00:00",
+      "display_text": "governance",
+      "size": 16,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-privacy-2",
+      "text": "privacy",
+      "frequency": 39,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_Data_Governance__Privacy__and_Security_--_A_Conceptual_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.967607+00:00",
+      "display_text": "privacy",
+      "size": 7.8,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-information-3",
+      "text": "information",
+      "frequency": 38,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_Data_Governance__Privacy__and_Security_--_A_Conceptual_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.975804+00:00",
+      "display_text": "information",
+      "size": 7.6,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-security-0",
+      "text": "security",
+      "frequency": 94,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_IT__Is_your_Information_at_Risk_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:16.591939+00:00",
+      "display_text": "security",
+      "size": 18.8,
+      "color": "#10B981"
+    },
+    {
+      "id": "healthcare_privacy_compliance-information-1",
+      "text": "information",
+      "frequency": 77,
+      "relevance_score": 1,
+      "source_domain": "healthcare_privacy_compliance",
+      "source_papers": [
+        "local/Healthcare_IT__Is_your_Information_at_Risk_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:16.593376+00:00",
+      "display_text": "information",
+      "size": 15.4,
+      "color": "#10B981"
+    }
+  ],
+  "links": [
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "healthcare_privacy_compliance-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "healthcare_privacy_compliance-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "healthcare_privacy_compliance-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "local_government_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "local_government_cybersecurity-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "local_government_cybersecurity-security-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "pqc_migration_strategies-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "pqc_migration_strategies-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "pqc_migration_strategies-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "pqc_migration_strategies-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "healthcare_privacy_compliance-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "healthcare_privacy_compliance-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "healthcare_privacy_compliance-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-quantum-0",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "quantum_cryptanalysis_threats-quantum-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-governance-1",
+      "target": "local_government_cybersecurity-governance-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-3",
+      "target": "local_government_cybersecurity-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-3",
+      "target": "public_sector_resource_optimization-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-1",
+      "target": "local_government_cybersecurity-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-information-1",
+      "target": "public_sector_resource_optimization-information-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-privacy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-consent-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-privacy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_privacy_compliance-privacy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-healthcare-0",
+      "target": "healthcare_privacy_compliance-privacy-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-healthcare-0",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-healthcare-0",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-healthcare-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-privacy-0",
+      "target": "healthcare_privacy_compliance-quantum-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-privacy-0",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-privacy-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "healthcare_privacy_compliance-healthcare-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-quantum-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_privacy_compliance-healthcare-0",
+      "target": "healthcare_privacy_compliance-blockchain-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 800,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "consent",
+      "blockchain",
+      "system",
+      "healthcare",
+      "privacy"
+    ]
+  }
+}

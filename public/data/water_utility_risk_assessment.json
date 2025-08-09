@@ -1,0 +1,1208 @@
+{
+  "domain": "water_utility_risk_assessment",
+  "nodes": [
+    {
+      "id": "water_utility_risk_assessment-threat-0",
+      "text": "threat",
+      "frequency": 61,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACSE-Eval__Can_LLMs_threat_model_real-world_cloud_infrastructure_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:05.879822+00:00",
+      "display_text": "threat",
+      "size": 12.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-security-1",
+      "text": "security",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACSE-Eval__Can_LLMs_threat_model_real-world_cloud_infrastructure_"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:05.881601+00:00",
+      "display_text": "security",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-security-0",
+      "text": "security",
+      "frequency": 81,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACTISM__Threat-informed_Dynamic_Security_Modelling_for_Automotive_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:07.435627+00:00",
+      "display_text": "security",
+      "size": 16.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-systems-1",
+      "text": "systems",
+      "frequency": 64,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACTISM__Threat-informed_Dynamic_Security_Modelling_for_Automotive_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:07.436364+00:00",
+      "display_text": "systems",
+      "size": 12.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-system-2",
+      "text": "system",
+      "frequency": 73,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACTISM__Threat-informed_Dynamic_Security_Modelling_for_Automotive_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:07.438721+00:00",
+      "display_text": "system",
+      "size": 14.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-impact-3",
+      "text": "impact",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACTISM__Threat-informed_Dynamic_Security_Modelling_for_Automotive_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:07.444026+00:00",
+      "display_text": "impact",
+      "size": 14,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-attack-4",
+      "text": "attack",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/ACTISM__Threat-informed_Dynamic_Security_Modelling_for_Automotive_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:07.460091+00:00",
+      "display_text": "attack",
+      "size": 14,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-vulnerability-0",
+      "text": "vulnerability",
+      "frequency": 79,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.085851+00:00",
+      "display_text": "vulnerability",
+      "size": 15.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-management-1",
+      "text": "management",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.085992+00:00",
+      "display_text": "management",
+      "size": 9.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-tools-2",
+      "text": "tools",
+      "frequency": 58,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.086126+00:00",
+      "display_text": "tools",
+      "size": 11.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-tool-3",
+      "text": "tool",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.089972+00:00",
+      "display_text": "tool",
+      "size": 9.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-organizations-4",
+      "text": "organizations",
+      "frequency": 51,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.092563+00:00",
+      "display_text": "organizations",
+      "size": 10.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-vulnerabilities-5",
+      "text": "vulnerabilities",
+      "frequency": 49,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Comparative_Analysis_of_Vulnerability_Management_Tools__Evaluating_Nessus__Acunetix__and_Nikto_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:48.093961+00:00",
+      "display_text": "vulnerabilities",
+      "size": 9.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-learning-0",
+      "text": "learning",
+      "frequency": 97,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Deep_Learning_Perspective_on_Connected_Automated_Vehicle__CAV__Cybersecurity_and_Threat_Intelli..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:38.701172+00:00",
+      "display_text": "learning",
+      "size": 19.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-framework-0",
+      "text": "framework",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Formal_Framework_for_Assessing_and_Mitigating_Emergent_Security_Risks_in_Generative_AI_Models__..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:14.289139+00:00",
+      "display_text": "framework",
+      "size": 10.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-generative-1",
+      "text": "generative",
+      "frequency": 61,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Formal_Framework_for_Assessing_and_Mitigating_Emergent_Security_Risks_in_Generative_AI_Models__..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:14.290410+00:00",
+      "display_text": "generative",
+      "size": 12.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-models-2",
+      "text": "models",
+      "frequency": 58,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Formal_Framework_for_Assessing_and_Mitigating_Emergent_Security_Risks_in_Generative_AI_Models__..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:14.290610+00:00",
+      "display_text": "models",
+      "size": 11.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-risk-3",
+      "text": "risk",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Formal_Framework_for_Assessing_and_Mitigating_Emergent_Security_Risks_in_Generative_AI_Models__..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:14.291023+00:00",
+      "display_text": "risk",
+      "size": 14.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-adversarial-4",
+      "text": "adversarial",
+      "frequency": 67,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/A_Formal_Framework_for_Assessing_and_Mitigating_Emergent_Security_Risks_in_Generative_AI_Models__..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:30:14.301277+00:00",
+      "display_text": "adversarial",
+      "size": 13.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "water_utility_risk_assessment-risk-0",
+      "text": "risk",
+      "frequency": 293,
+      "relevance_score": 1,
+      "source_domain": "water_utility_risk_assessment",
+      "source_papers": [
+        "local/AssessITS__Integrating_procedural_guidelines_and_practical_evaluation_metrics_for_organizational_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:29:58.089389+00:00",
+      "display_text": "risk",
+      "size": 30,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-adversarial-0",
+      "target": "water_utility_risk_assessment-adversarial-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-risk-5",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-risk-5",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-threat-0",
+      "target": "water_utility_risk_assessment-threat-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-attack-3",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-system-5",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-system-2",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "water_utility_risk_assessment-models-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-models-2",
+      "target": "water_utility_risk_assessment-models-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-2",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-2",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-organizations-3",
+      "target": "water_utility_risk_assessment-organizations-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-impact-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-threat-0",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-impact-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-1",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-0",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-0",
+      "target": "water_utility_risk_assessment-impact-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-security-0",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-systems-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-systems-1",
+      "target": "water_utility_risk_assessment-impact-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-systems-1",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-systems-1",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-system-2",
+      "target": "water_utility_risk_assessment-impact-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-system-2",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-system-2",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-impact-3",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-impact-3",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_utility_risk_assessment-attack-4",
+      "target": "water_utility_risk_assessment-vulnerability-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2097,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "threat",
+      "security",
+      "security",
+      "systems",
+      "system"
+    ]
+  }
+}

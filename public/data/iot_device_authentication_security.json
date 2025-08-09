@@ -1,0 +1,942 @@
+{
+  "domain": "iot_device_authentication_security",
+  "nodes": [
+    {
+      "id": "iot_device_authentication_security-authentication-0",
+      "text": "authentication",
+      "frequency": 198,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/AEAKA__An_Adaptive_and_Efficient_Authentication_and_Key_Agreement_Scheme_for_IoT_in_Cloud-Edge-De..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:46.138495+00:00",
+      "display_text": "authentication",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-device-0",
+      "text": "device",
+      "frequency": 59,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/ASOP__A_Sovereign_and_Secure_Device_Onboarding_Protocol_for_Cloud-based_IoT_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.582055+00:00",
+      "display_text": "device",
+      "size": 11.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-protocol-1",
+      "text": "protocol",
+      "frequency": 22,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/ASOP__A_Sovereign_and_Secure_Device_Onboarding_Protocol_for_Cloud-based_IoT_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.582227+00:00",
+      "display_text": "protocol",
+      "size": 5,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-iot-2",
+      "text": "iot",
+      "frequency": 26,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/ASOP__A_Sovereign_and_Secure_Device_Onboarding_Protocol_for_Cloud-based_IoT_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.582386+00:00",
+      "display_text": "iot",
+      "size": 5.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-server-3",
+      "text": "server",
+      "frequency": 33,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/ASOP__A_Sovereign_and_Secure_Device_Onboarding_Protocol_for_Cloud-based_IoT_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.585080+00:00",
+      "display_text": "server",
+      "size": 6.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-key-4",
+      "text": "key",
+      "frequency": 34,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/ASOP__A_Sovereign_and_Secure_Device_Onboarding_Protocol_for_Cloud-based_IoT_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.585565+00:00",
+      "display_text": "key",
+      "size": 6.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-protocol-0",
+      "text": "protocol",
+      "frequency": 63,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/A_Lightweight_and_Secure_PUF-Based_Authentication_and_Key-exchange_Protocol_for_IoT_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:53.327652+00:00",
+      "display_text": "protocol",
+      "size": 12.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-iot-1",
+      "text": "iot",
+      "frequency": 100,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/A_Lightweight_and_Secure_PUF-Based_Authentication_and_Key-exchange_Protocol_for_IoT_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:53.327924+00:00",
+      "display_text": "iot",
+      "size": 20,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-device-2",
+      "text": "device",
+      "frequency": 106,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/A_Lightweight_and_Secure_PUF-Based_Authentication_and_Key-exchange_Protocol_for_IoT_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:53.332929+00:00",
+      "display_text": "device",
+      "size": 21.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-authentication-0",
+      "text": "authentication",
+      "frequency": 110,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/A_Multi-Factor_Homomorphic_Encryption_based_Method_for_Authenticated_Access_to_IoT_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:35.609877+00:00",
+      "display_text": "authentication",
+      "size": 22,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-protocol-1",
+      "text": "protocol",
+      "frequency": 108,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/A_Multi-Factor_Homomorphic_Encryption_based_Method_for_Authenticated_Access_to_IoT_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:35.620900+00:00",
+      "display_text": "protocol",
+      "size": 21.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-iot-0",
+      "text": "iot",
+      "frequency": 51,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Authentication__Authorization__and_Selective_Disclosure_for_IoT_data_sharing_using_Verifiable_Cre..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:43.837450+00:00",
+      "display_text": "iot",
+      "size": 10.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-authentication-0",
+      "text": "authentication",
+      "frequency": 206,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Authentication_and_Authorization_for_Mobile_IoT_Devices_using_Bio-features__Recent_Advances_and_F..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:23.440632+00:00",
+      "display_text": "authentication",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-mobile-1",
+      "text": "mobile",
+      "frequency": 150,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Authentication_and_Authorization_for_Mobile_IoT_Devices_using_Bio-features__Recent_Advances_and_F..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:23.441498+00:00",
+      "display_text": "mobile",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-iot-0",
+      "text": "iot",
+      "frequency": 89,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.726761+00:00",
+      "display_text": "iot",
+      "size": 17.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-device-1",
+      "text": "device",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.726866+00:00",
+      "display_text": "device",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-network-2",
+      "text": "network",
+      "frequency": 39,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.731512+00:00",
+      "display_text": "network",
+      "size": 7.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-devices-3",
+      "text": "devices",
+      "frequency": 58,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.732553+00:00",
+      "display_text": "devices",
+      "size": 11.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-features-4",
+      "text": "features",
+      "frequency": 43,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.734935+00:00",
+      "display_text": "features",
+      "size": 8.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "iot_device_authentication_security-iot-devices-5",
+      "text": "iot devices",
+      "frequency": 37,
+      "relevance_score": 1,
+      "source_domain": "iot_device_authentication_security",
+      "source_papers": [
+        "local/Communication_Traffic_Characteristics_Reveal_an_IoT_Devices_Identity"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.763506+00:00",
+      "display_text": "iot devices",
+      "size": 7.4,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "cybersecurity_optimization_models-network-3",
+      "target": "iot_device_authentication_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "iot_device_authentication_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-network-0",
+      "target": "iot_device_authentication_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_iot_smart_monitoring_security-network-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_iot_smart_monitoring_security-network-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-protocol-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "post_quantum_cryptography_implementation-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "telemedicine_remote_care_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-0",
+      "target": "post_quantum_cryptography_implementation-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-0",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-0",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-0",
+      "target": "telemedicine_remote_care_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "post_quantum_cryptography_implementation-protocol-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "quantum_safe_protocols-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "telemedicine_remote_care_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "quantum_safe_protocols-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "quantum_safe_protocols-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "telemedicine_remote_care_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "water_iot_smart_monitoring_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "water_iot_smart_monitoring_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-features-1",
+      "target": "iot_device_authentication_security-features-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "quantum_safe_protocols-authentication-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "telemedicine_remote_care_security-authentication-7",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "water_iot_smart_monitoring_security-authentication-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "quantum_safe_protocols-authentication-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "telemedicine_remote_care_security-authentication-7",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "water_iot_smart_monitoring_security-authentication-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "quantum_safe_protocols-authentication-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "telemedicine_remote_care_security-authentication-7",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "water_iot_smart_monitoring_security-authentication-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "telemedicine_remote_care_security-device-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-device-2",
+      "target": "telemedicine_remote_care_security-device-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-device-1",
+      "target": "telemedicine_remote_care_security-device-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-iot-2",
+      "target": "telemedicine_remote_care_security-iot-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-iot-1",
+      "target": "telemedicine_remote_care_security-iot-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-iot-0",
+      "target": "telemedicine_remote_care_security-iot-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-iot-0",
+      "target": "telemedicine_remote_care_security-iot-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-server-3",
+      "target": "telemedicine_remote_care_security-server-8",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-mobile-1",
+      "target": "telemedicine_remote_care_security-mobile-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "telemedicine_remote_care_security-devices-6",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "water_iot_smart_monitoring_security-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-device-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-iot-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-server-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-authentication-0",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-protocol-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-iot-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-server-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-device-0",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "iot_device_authentication_security-iot-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "iot_device_authentication_security-server-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-1",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-iot-2",
+      "target": "iot_device_authentication_security-server-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-iot-2",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-iot-2",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-iot-2",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-server-3",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-server-3",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-server-3",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "iot_device_authentication_security-protocol-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "iot_device_authentication_security-protocol-0",
+      "target": "iot_device_authentication_security-iot-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2294,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "authentication",
+      "device",
+      "protocol",
+      "iot",
+      "server"
+    ]
+  }
+}

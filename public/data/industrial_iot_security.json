@@ -1,0 +1,844 @@
+{
+  "domain": "industrial_iot_security",
+  "nodes": [
+    {
+      "id": "industrial_iot_security-fog-0",
+      "text": "fog",
+      "frequency": 111,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/A_Secure_Fog_Based_Architecture_for_Industrial_Internet_of_Things_and_Industry_4.0"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:19.769624+00:00",
+      "display_text": "fog",
+      "size": 22.2,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-access-0",
+      "text": "access",
+      "frequency": 81,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.113947+00:00",
+      "display_text": "access",
+      "size": 16.2,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-key-1",
+      "text": "key",
+      "frequency": 82,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.127524+00:00",
+      "display_text": "key",
+      "size": 16.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-systems-0",
+      "text": "systems",
+      "frequency": 127,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Cybersecurity_for_Industrial_Control_Systems__A_Survey"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.894542+00:00",
+      "display_text": "systems",
+      "size": 25.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-scada-1",
+      "text": "scada",
+      "frequency": 119,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Cybersecurity_for_Industrial_Control_Systems__A_Survey"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.903164+00:00",
+      "display_text": "scada",
+      "size": 23.8,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-security-2",
+      "text": "security",
+      "frequency": 154,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Cybersecurity_for_Industrial_Control_Systems__A_Survey"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.928081+00:00",
+      "display_text": "security",
+      "size": 30,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-industrial-0",
+      "text": "industrial",
+      "frequency": 217,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Cybersecurity_of_Industrial_Cyber-Physical_Systems__A_Review"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:14.201535+00:00",
+      "display_text": "industrial",
+      "size": 30,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-der-0",
+      "text": "der",
+      "frequency": 100,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.314047+00:00",
+      "display_text": "der",
+      "size": 20,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-trusted-1",
+      "text": "trusted",
+      "frequency": 55,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.314251+00:00",
+      "display_text": "trusted",
+      "size": 11,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-die-2",
+      "text": "die",
+      "frequency": 147,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.317922+00:00",
+      "display_text": "die",
+      "size": 29.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-und-3",
+      "text": "und",
+      "frequency": 126,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.318338+00:00",
+      "display_text": "und",
+      "size": 25.2,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-von-4",
+      "text": "von",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.318885+00:00",
+      "display_text": "von",
+      "size": 14,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-daten-5",
+      "text": "daten",
+      "frequency": 62,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.320317+00:00",
+      "display_text": "daten",
+      "size": 12.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-uber-6",
+      "text": "uber",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.320472+00:00",
+      "display_text": "uber",
+      "size": 9.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-den-7",
+      "text": "den",
+      "frequency": 53,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.322413+00:00",
+      "display_text": "den",
+      "size": 10.6,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-des-8",
+      "text": "des",
+      "frequency": 51,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.323399+00:00",
+      "display_text": "des",
+      "size": 10.2,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-werden-9",
+      "text": "werden",
+      "frequency": 64,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.323738+00:00",
+      "display_text": "werden",
+      "size": 12.8,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-trusted-connector-10",
+      "text": "trusted connector",
+      "frequency": 41,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.400298+00:00",
+      "display_text": "trusted connector",
+      "size": 8.2,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-f-ur-11",
+      "text": "f ur",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.407256+00:00",
+      "display_text": "f ur",
+      "size": 10.4,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "industrial_iot_security-k-onnen-12",
+      "text": "k onnen",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "industrial_iot_security",
+      "source_papers": [
+        "local/Der_Trusted_Connector_im_Industrial_Data_Space"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:22.414797+00:00",
+      "display_text": "k onnen",
+      "size": 8.4,
+      "color": "#F59E0B"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-des-1",
+      "target": "industrial_iot_security-des-8",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "local_government_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "local_government_cybersecurity-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "local_government_cybersecurity-security-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "industrial_iot_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "iot_device_authentication_security-key-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "post_quantum_cryptography_implementation-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "quantum_safe_protocols-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "quantum_safe_protocols-key-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "quantum_safe_protocols-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "telemedicine_remote_care_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "medical_device_cybersecurity-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "small_water_utility_security-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-scada-1",
+      "target": "water_treatment_scada_security-scada-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-access-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-key-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-systems-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-scada-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-fog-0",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-key-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-systems-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-scada-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "industrial_iot_security-systems-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "industrial_iot_security-scada-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "industrial_iot_security-scada-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-scada-1",
+      "target": "industrial_iot_security-security-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-scada-1",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-scada-1",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "industrial_iot_security-industrial-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "industrial_iot_security-industrial-0",
+      "target": "industrial_iot_security-der-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 948,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "fog",
+      "access",
+      "key",
+      "systems",
+      "scada"
+    ]
+  }
+}

@@ -20,7 +20,7 @@
 
 import React from 'react';
 import Head from 'next/head';
-import InteractiveConceptGraph from '../src/components/InteractiveConceptGraph';
+import InteractiveConceptGraph from '../components/InteractiveConceptGraphNew';
 
 const ConceptGraphPage: React.FC = () => {
   return (

@@ -1,0 +1,837 @@
+{
+  "domain": "government_ransomware_defense",
+  "nodes": [
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Kings_Ransom_for_Encryption__Ransomware_Classification_using_Augmented_One-Shot_Learning_and_Ba..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:18.223757+00:00",
+      "display_text": "ransomware",
+      "size": 14.4,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 59,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:34.721528+00:00",
+      "display_text": "ransomware",
+      "size": 11.8,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-bitcoin-1",
+      "text": "bitcoin",
+      "frequency": 46,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Prevention_and_a_Traction_System_for_Ransomware_Attacks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:34.725527+00:00",
+      "display_text": "bitcoin",
+      "size": 9.2,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 433,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Survey_on_Ransomware__Evolution__Taxonomy__and_Defense_Solutions"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:42.106581+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-learning-0",
+      "text": "learning",
+      "frequency": 83,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:39.448369+00:00",
+      "display_text": "learning",
+      "size": 16.6,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-1",
+      "text": "ransomware",
+      "frequency": 149,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:39.448842+00:00",
+      "display_text": "ransomware",
+      "size": 29.8,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-detection-2",
+      "text": "detection",
+      "frequency": 96,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Sysmon_Incremental_Learning_System_for_Ransomware_Analysis_and_Detection"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:39.449078+00:00",
+      "display_text": "detection",
+      "size": 19.2,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 121,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:17.618509+00:00",
+      "display_text": "ransomware",
+      "size": 24.2,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-actors-1",
+      "text": "actors",
+      "frequency": 71,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:17.627370+00:00",
+      "display_text": "actors",
+      "size": 14.2,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-raas-2",
+      "text": "raas",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:17.630382+00:00",
+      "display_text": "raas",
+      "size": 14.4,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-addresses-3",
+      "text": "addresses",
+      "frequency": 57,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_Tale_of_Two_Markets__Investigating_the_Ransomware_Payments_Economy"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:17.647867+00:00",
+      "display_text": "addresses",
+      "size": 11.4,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 234,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/A_systematic_literature_review_on_Ransomware_attacks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:25.452290+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 207,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:36.217728+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-addresses-1",
+      "text": "addresses",
+      "frequency": 216,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/BitcoinHeist__Topological_Data_Analysis_for_Ransomware_Detection_on_the_Bitcoin_Blockchain"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:36.233072+00:00",
+      "display_text": "addresses",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-crowdfunding-0",
+      "text": "crowdfunding",
+      "frequency": 156,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:26.446105+00:00",
+      "display_text": "crowdfunding",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-public-1",
+      "text": "public",
+      "frequency": 124,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:26.446410+00:00",
+      "display_text": "public",
+      "size": 24.8,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-government-2",
+      "text": "government",
+      "frequency": 123,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Crowdfunding_Public_Projects__Collaborative_Governance_for_Achieving_Citizen_Co-funding_of_Public..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:26.450418+00:00",
+      "display_text": "government",
+      "size": 24.6,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-ransomware-0",
+      "text": "ransomware",
+      "frequency": 395,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Cryptographic_ransomware_encryption_detection__Survey"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:45.286657+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-detection-1",
+      "text": "detection",
+      "frequency": 166,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Cryptographic_ransomware_encryption_detection__Survey"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:45.287819+00:00",
+      "display_text": "detection",
+      "size": 30,
+      "color": "#6366F1"
+    },
+    {
+      "id": "government_ransomware_defense-public-0",
+      "text": "public",
+      "frequency": 162,
+      "relevance_score": 1,
+      "source_domain": "government_ransomware_defense",
+      "source_papers": [
+        "local/Data_and_Technology_for_Equitable_Public_Administration__Understanding_City_Government_Employees_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:35.050200+00:00",
+      "display_text": "public",
+      "size": 30,
+      "color": "#6366F1"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "government_ransomware_defense-detection-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-bitcoin-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-bitcoin-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-bitcoin-1",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-bitcoin-1",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-bitcoin-1",
+      "target": "government_ransomware_defense-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-bitcoin-1",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-bitcoin-1",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "government_ransomware_defense-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "government_ransomware_defense-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "government_ransomware_defense-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2195,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "ransomware",
+      "ransomware",
+      "bitcoin",
+      "ransomware",
+      "learning"
+    ]
+  }
+}

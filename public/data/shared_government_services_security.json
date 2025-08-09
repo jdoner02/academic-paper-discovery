@@ -1,0 +1,753 @@
+{
+  "domain": "shared_government_services_security",
+  "nodes": [
+    {
+      "id": "shared_government_services_security-group-0",
+      "text": "group",
+      "frequency": 159,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.570022+00:00",
+      "display_text": "group",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-key-1",
+      "text": "key",
+      "frequency": 193,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.570207+00:00",
+      "display_text": "key",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-controller-2",
+      "text": "controller",
+      "frequency": 72,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.586425+00:00",
+      "display_text": "controller",
+      "size": 14.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-subgroup-3",
+      "text": "subgroup",
+      "frequency": 131,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.590368+00:00",
+      "display_text": "subgroup",
+      "size": 26.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-outer-4",
+      "text": "outer",
+      "frequency": 71,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.591054+00:00",
+      "display_text": "outer",
+      "size": 14.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-member-5",
+      "text": "member",
+      "frequency": 84,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.596668+00:00",
+      "display_text": "member",
+      "size": 16.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-outer-group-6",
+      "text": "outer group",
+      "frequency": 64,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/A_Novel_Approach_Towards_Cost_Effective_Region-Based_Group_Key_Agreement_Protocol_for_Peer_-_to_-..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:43.653871+00:00",
+      "display_text": "outer group",
+      "size": 12.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-learning-0",
+      "text": "learning",
+      "frequency": 108,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Adversarial_Representation_Sharing__A_Quantitative_and_Secure_Collaborative_Learning_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:35.463449+00:00",
+      "display_text": "learning",
+      "size": 21.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-representations-1",
+      "text": "representations",
+      "frequency": 93,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Adversarial_Representation_Sharing__A_Quantitative_and_Secure_Collaborative_Learning_Framework"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:35.474084+00:00",
+      "display_text": "representations",
+      "size": 18.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-vendor-0",
+      "text": "vendor",
+      "frequency": 209,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Beyond_Free_Riding__Quality_of_Indicators_for_Assessing_Participation_in_Information_Sharing_for_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:44.344059+00:00",
+      "display_text": "vendor",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-learning-0",
+      "text": "learning",
+      "frequency": 44,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-Based_Federated_Learning__Incentivizing_Data_Sharing_and_Penalizing_Dishonest_Behavior"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:12:01.722188+00:00",
+      "display_text": "learning",
+      "size": 8.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-workers-1",
+      "text": "workers",
+      "frequency": 39,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-Based_Federated_Learning__Incentivizing_Data_Sharing_and_Penalizing_Dishonest_Behavior"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:12:01.730512+00:00",
+      "display_text": "workers",
+      "size": 7.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-sharing-0",
+      "text": "sharing",
+      "frequency": 55,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-enabled_Network_Sharing_for_O-RAN_in_5G_and_Beyond"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:41.384573+00:00",
+      "display_text": "sharing",
+      "size": 11,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-o-ran-1",
+      "text": "o-ran",
+      "frequency": 50,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-enabled_Network_Sharing_for_O-RAN_in_5G_and_Beyond"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:41.384749+00:00",
+      "display_text": "o-ran",
+      "size": 10,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-blockchain-2",
+      "text": "blockchain",
+      "frequency": 77,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-enabled_Network_Sharing_for_O-RAN_in_5G_and_Beyond"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:41.393079+00:00",
+      "display_text": "blockchain",
+      "size": 15.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-ran-3",
+      "text": "ran",
+      "frequency": 73,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Blockchain-enabled_Network_Sharing_for_O-RAN_in_5G_and_Beyond"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:41.394237+00:00",
+      "display_text": "ran",
+      "size": 14.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-ifc-0",
+      "text": "ifc",
+      "frequency": 137,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/CamFlow__Managed_Data-sharing_for_Cloud_Services"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:11:49.892898+00:00",
+      "display_text": "ifc",
+      "size": 27.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-intelligence-0",
+      "text": "intelligence",
+      "frequency": 123,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Challenges_and_Opportunities_of_Blockchain_for_Cyber_Threat_Intelligence_Sharing"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:12:02.288466+00:00",
+      "display_text": "intelligence",
+      "size": 24.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-sharing-1",
+      "text": "sharing",
+      "frequency": 177,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Challenges_and_Opportunities_of_Blockchain_for_Cyber_Threat_Intelligence_Sharing"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:12:02.288734+00:00",
+      "display_text": "sharing",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "shared_government_services_security-cti-2",
+      "text": "cti",
+      "frequency": 193,
+      "relevance_score": 1,
+      "source_domain": "shared_government_services_security",
+      "source_papers": [
+        "local/Challenges_and_Opportunities_of_Blockchain_for_Cyber_Threat_Intelligence_Sharing"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:12:02.298713+00:00",
+      "display_text": "cti",
+      "size": 30,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-learning-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-learning-0",
+      "target": "water_utility_risk_assessment-learning-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-intelligence-1",
+      "target": "shared_government_services_security-intelligence-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-blockchain-0",
+      "target": "shared_government_services_security-blockchain-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-blockchain-2",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-blockchain-2",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-key-4",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-key-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-key-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-key-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-key-2",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-key-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-key-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-key-1",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "telemedicine_remote_care_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "water_iot_smart_monitoring_security-key-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-sharing-1",
+      "target": "shared_government_services_security-sharing-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-sharing-1",
+      "target": "shared_government_services_security-sharing-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-group-0",
+      "target": "shared_government_services_security-group-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-key-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-controller-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-subgroup-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-outer-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-member-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-group-0",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-controller-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-subgroup-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-outer-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-member-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-key-1",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-controller-2",
+      "target": "shared_government_services_security-subgroup-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-controller-2",
+      "target": "shared_government_services_security-outer-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-controller-2",
+      "target": "shared_government_services_security-member-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-controller-2",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-controller-2",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-subgroup-3",
+      "target": "shared_government_services_security-outer-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-subgroup-3",
+      "target": "shared_government_services_security-member-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-subgroup-3",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-subgroup-3",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-outer-4",
+      "target": "shared_government_services_security-member-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-outer-4",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-outer-4",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-member-5",
+      "target": "shared_government_services_security-outer-group-6",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-member-5",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "shared_government_services_security-outer-group-6",
+      "target": "shared_government_services_security-learning-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2197,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "group",
+      "key",
+      "controller",
+      "subgroup",
+      "outer"
+    ]
+  }
+}

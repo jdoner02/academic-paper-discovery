@@ -1,0 +1,1173 @@
+{
+  "domain": "water_treatment_scada_security",
+  "nodes": [
+    {
+      "id": "water_treatment_scada_security-water-0",
+      "text": "water",
+      "frequency": 147,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/A_Review_of_Cybersecurity_Incidents_in_the_Water_Sector"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:29.399073+00:00",
+      "display_text": "water",
+      "size": 29.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-water-0",
+      "text": "water",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/A_Virtual_Cybersecurity_Department_for_Securing_Digital_Twins_in_Water_Distribution_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.063345+00:00",
+      "display_text": "water",
+      "size": 9.6,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-systems-1",
+      "text": "systems",
+      "frequency": 35,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/A_Virtual_Cybersecurity_Department_for_Securing_Digital_Twins_in_Water_Distribution_Systems"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:04.063600+00:00",
+      "display_text": "systems",
+      "size": 7,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-network-0",
+      "text": "network",
+      "frequency": 187,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/An_Implementation_of_SCADA_Network_Security_Testbed"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:22.675793+00:00",
+      "display_text": "network",
+      "size": 30,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-attacks-0",
+      "text": "attacks",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057293+00:00",
+      "display_text": "attacks",
+      "size": 8.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-sensor-1",
+      "text": "sensor",
+      "frequency": 32,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.057555+00:00",
+      "display_text": "sensor",
+      "size": 6.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-network-2",
+      "text": "network",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Analysis__classification_and_detection_methods_of_attacks_via_wireless_sensor_networks_in_SCADA_s..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:10.061789+00:00",
+      "display_text": "network",
+      "size": 10.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-detection-0",
+      "text": "detection",
+      "frequency": 53,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Anomaly_Detection_for_Water_Treatment_System_based_on_Neural_Network_with_Automatic_Architecture_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:25.817751+00:00",
+      "display_text": "detection",
+      "size": 10.6,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-water-0",
+      "text": "water",
+      "frequency": 76,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.614959+00:00",
+      "display_text": "water",
+      "size": 15.2,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-images-1",
+      "text": "images",
+      "frequency": 36,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.618690+00:00",
+      "display_text": "images",
+      "size": 7.2,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-scada-0",
+      "text": "scada",
+      "frequency": 312,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.710248+00:00",
+      "display_text": "scada",
+      "size": 30,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-system-1",
+      "text": "system",
+      "frequency": 211,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.723601+00:00",
+      "display_text": "system",
+      "size": 30,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-systems-2",
+      "text": "systems",
+      "frequency": 162,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.725606+00:00",
+      "display_text": "systems",
+      "size": 30,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-security-0",
+      "text": "security",
+      "frequency": 83,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Automation_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:15.547800+00:00",
+      "display_text": "security",
+      "size": 16.6,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-control-1",
+      "text": "control",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Automation_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:15.549626+00:00",
+      "display_text": "control",
+      "size": 10.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-systems-2",
+      "text": "systems",
+      "frequency": 40,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Automation_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:15.549719+00:00",
+      "display_text": "systems",
+      "size": 8,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-attack-0",
+      "text": "attack",
+      "frequency": 131,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Breaking_the_Flow_and_the_Bank__Stealthy_Cyberattacks_on_Water_Network_Hydraulics"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:07.308390+00:00",
+      "display_text": "attack",
+      "size": 26.2,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-detection-0",
+      "text": "detection",
+      "frequency": 67,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Combining_ensemble_methods_and_social_network_metrics_for_improving_accuracy_of_OCSVM_on_intrusio..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:17.799592+00:00",
+      "display_text": "detection",
+      "size": 13.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-plc-0",
+      "text": "plc",
+      "frequency": 47,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Detecting_Safety_and_Security_Faults_in_PLC_Systems_with_Data_Provenance"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:11.307302+00:00",
+      "display_text": "plc",
+      "size": 9.4,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "water_treatment_scada_security-control-1",
+      "text": "control",
+      "frequency": 41,
+      "relevance_score": 1,
+      "source_domain": "water_treatment_scada_security",
+      "source_papers": [
+        "local/Detecting_Safety_and_Security_Faults_in_PLC_Systems_with_Data_Provenance"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:11.310047+00:00",
+      "display_text": "control",
+      "size": 8.2,
+      "color": "#06B6D4"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-attacks-0",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-attacks-3",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-attacks-1",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-security-2",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-attack-3",
+      "target": "water_treatment_scada_security-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_treatment_scada_security-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_treatment_scada_security-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-network-3",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-network-3",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-network-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-network-0",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-network-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-network-2",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-network-1",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-network-1",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-network-1",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_iot_smart_monitoring_security-network-1",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-system-4",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-system-1",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "telemedicine_remote_care_security-system-5",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-system-2",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-5",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-5",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-systems-0",
+      "target": "water_treatment_scada_security-systems-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-2",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-systems-2",
+      "target": "water_utility_risk_assessment-systems-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-scada-1",
+      "target": "water_treatment_scada_security-scada-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_infrastructure_incident_response-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-water-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-systems-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-sensor-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-systems-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-sensor-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-water-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_treatment_scada_security-network-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_treatment_scada_security-sensor-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-systems-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-network-0",
+      "target": "water_treatment_scada_security-attacks-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-network-0",
+      "target": "water_treatment_scada_security-sensor-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-network-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-network-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-attacks-0",
+      "target": "water_treatment_scada_security-sensor-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-attacks-0",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-attacks-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-sensor-1",
+      "target": "water_treatment_scada_security-network-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-sensor-1",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "water_treatment_scada_security-network-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2334,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "water",
+      "water",
+      "systems",
+      "network",
+      "attacks"
+    ]
+  }
+}

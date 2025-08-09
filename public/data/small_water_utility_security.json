@@ -1,0 +1,1089 @@
+{
+  "domain": "small_water_utility_security",
+  "nodes": [
+    {
+      "id": "small_water_utility_security-ska-0",
+      "text": "ska",
+      "frequency": 44,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Cyber_Infrastructure_for_the_SKA_Telescope_Manager"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:44.233822+00:00",
+      "display_text": "ska",
+      "size": 8.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-access-0",
+      "text": "access",
+      "frequency": 95,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.828744+00:00",
+      "display_text": "access",
+      "size": 19,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-cloud-1",
+      "text": "cloud",
+      "frequency": 43,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.829026+00:00",
+      "display_text": "cloud",
+      "size": 8.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-user-2",
+      "text": "user",
+      "frequency": 56,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.834363+00:00",
+      "display_text": "user",
+      "size": 11.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-policy-3",
+      "text": "policy",
+      "frequency": 52,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.835864+00:00",
+      "display_text": "policy",
+      "size": 10.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-resource-4",
+      "text": "resource",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.838755+00:00",
+      "display_text": "resource",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-token-5",
+      "text": "token",
+      "frequency": 53,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_JSON_Token-Based_Authentication_and_Access_Management_Schema_for_Cloud_SaaS_Applications"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.838904+00:00",
+      "display_text": "token",
+      "size": 10.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-food-0",
+      "text": "food",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Modified_Approximate_Dynamic_Programming_Algorithm_for_Community-level_Food_Security_Following_..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:35.302044+00:00",
+      "display_text": "food",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-cloud-0",
+      "text": "cloud",
+      "frequency": 80,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_New_Trusted_and_Collaborative_Agent_Based_Approach_for_Ensuring_Cloud_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:37.769649+00:00",
+      "display_text": "cloud",
+      "size": 16,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-security-1",
+      "text": "security",
+      "frequency": 43,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_New_Trusted_and_Collaborative_Agent_Based_Approach_for_Ensuring_Cloud_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:37.769792+00:00",
+      "display_text": "security",
+      "size": 8.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-user-2",
+      "text": "user",
+      "frequency": 56,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_New_Trusted_and_Collaborative_Agent_Based_Approach_for_Ensuring_Cloud_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:37.770790+00:00",
+      "display_text": "user",
+      "size": 11.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-trust-3",
+      "text": "trust",
+      "frequency": 67,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_New_Trusted_and_Collaborative_Agent_Based_Approach_for_Ensuring_Cloud_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:37.770932+00:00",
+      "display_text": "trust",
+      "size": 13.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-service-4",
+      "text": "service",
+      "frequency": 51,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_New_Trusted_and_Collaborative_Agent_Based_Approach_for_Ensuring_Cloud_Security"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:37.775529+00:00",
+      "display_text": "service",
+      "size": 10.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-critical-0",
+      "text": "critical",
+      "frequency": 120,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:38.963310+00:00",
+      "display_text": "critical",
+      "size": 24,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-infrastructure-1",
+      "text": "infrastructure",
+      "frequency": 124,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:38.963672+00:00",
+      "display_text": "infrastructure",
+      "size": 24.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-approaches-2",
+      "text": "approaches",
+      "frequency": 102,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:38.964779+00:00",
+      "display_text": "approaches",
+      "size": 20.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-security-3",
+      "text": "security",
+      "frequency": 119,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:38.965591+00:00",
+      "display_text": "security",
+      "size": 23.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-modelling-4",
+      "text": "modelling",
+      "frequency": 136,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:38.966638+00:00",
+      "display_text": "modelling",
+      "size": 27.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-risk-5",
+      "text": "risk",
+      "frequency": 129,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Review_of_Critical_Infrastructure_Protection_Approaches__Improving_Security_through_Responsiven..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:39.000182+00:00",
+      "display_text": "risk",
+      "size": 25.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "small_water_utility_security-blockchain-0",
+      "text": "blockchain",
+      "frequency": 79,
+      "relevance_score": 1,
+      "source_domain": "small_water_utility_security",
+      "source_papers": [
+        "local/A_Scalable_Multi-Layered_Blockchain_Architecture_for_Enhanced_EHR_Sharing_and_Drug_Supply_Chain_M..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:31:45.688398+00:00",
+      "display_text": "blockchain",
+      "size": 15.8,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-service-2",
+      "target": "small_water_utility_security-service-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-0",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-1",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "public_sector_resource_optimization-risk-0",
+      "target": "small_water_utility_security-risk-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-risk-5",
+      "target": "water_utility_risk_assessment-risk-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-risk-5",
+      "target": "water_utility_risk_assessment-risk-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "post_quantum_cryptography_implementation-security-2",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-security-3",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-resource-0",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "incident_response_optimization-resource-0",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-user-0",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "quantum_safe_protocols-user-0",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "renewable_energy_cybersecurity-user-3",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "water_iot_smart_monitoring_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "water_iot_smart_monitoring_security-user-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-blockchain-0",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-0",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-blockchain-1",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "pqc_migration_strategies-blockchain-0",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "shared_government_services_security-blockchain-2",
+      "target": "small_water_utility_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-blockchain-0",
+      "target": "telemedicine_remote_care_security-blockchain-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "incident_response_optimization-cloud-1",
+      "target": "small_water_utility_security-cloud-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "incident_response_optimization-cloud-1",
+      "target": "small_water_utility_security-cloud-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "small_water_utility_security-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-access-0",
+      "target": "small_water_utility_security-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-trust-1",
+      "target": "small_water_utility_security-trust-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-access-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-cloud-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-policy-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-ska-0",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-cloud-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-policy-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-access-0",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-cloud-1",
+      "target": "small_water_utility_security-user-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-cloud-1",
+      "target": "small_water_utility_security-policy-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-cloud-1",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-cloud-1",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-cloud-1",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "small_water_utility_security-policy-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-user-2",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-policy-3",
+      "target": "small_water_utility_security-resource-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-policy-3",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-policy-3",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-resource-4",
+      "target": "small_water_utility_security-token-5",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-resource-4",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "small_water_utility_security-token-5",
+      "target": "small_water_utility_security-food-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 1597,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "ska",
+      "access",
+      "cloud",
+      "user",
+      "policy"
+    ]
+  }
+}

@@ -1,0 +1,1243 @@
+{
+  "domain": "medical_device_cybersecurity",
+  "nodes": [
+    {
+      "id": "medical_device_cybersecurity-acric-0",
+      "text": "acric",
+      "frequency": 71,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.129920+00:00",
+      "display_text": "acric",
+      "size": 14.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-security-1",
+      "text": "security",
+      "frequency": 91,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/ACRIC__Securing_Legacy_Communication_Networks_via_Authenticated_Cyclic_Redundancy_Integrity_Check"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:34.138568+00:00",
+      "display_text": "security",
+      "size": 18.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-infusion-0",
+      "text": "infusion",
+      "frequency": 62,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.333966+00:00",
+      "display_text": "infusion",
+      "size": 12.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-system-1",
+      "text": "system",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Biomechatronic_Approach_to_Evaluating_the_Security_of_Wearable_Devices_in_the_Internet_of_Medic..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.346980+00:00",
+      "display_text": "system",
+      "size": 8.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-devices-0",
+      "text": "devices",
+      "frequency": 95,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:44.086907+00:00",
+      "display_text": "devices",
+      "size": 19,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-security-1",
+      "text": "security",
+      "frequency": 63,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Cybersecurity_Guide_for_Using_Fitness_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:44.093221+00:00",
+      "display_text": "security",
+      "size": 12.6,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-attack-0",
+      "text": "attack",
+      "frequency": 230,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_New_Methodology_for_Information_Security_Risk_Assessment_for_Medical_Devices_and_Its_Evaluation"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:41.430368+00:00",
+      "display_text": "attack",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-security-0",
+      "text": "security",
+      "frequency": 66,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.115212+00:00",
+      "display_text": "security",
+      "size": 13.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-iomt-1",
+      "text": "iomt",
+      "frequency": 103,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.115564+00:00",
+      "display_text": "iomt",
+      "size": 20.6,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-devices-2",
+      "text": "devices",
+      "frequency": 70,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.117814+00:00",
+      "display_text": "devices",
+      "size": 14,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-iomt-devices-3",
+      "text": "iomt devices",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Review_on_the_Security_Vulnerabilities_of_the_IoMT_against_Malware_Attacks_and_DDoS"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:37.187819+00:00",
+      "display_text": "iomt devices",
+      "size": 8.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-access-0",
+      "text": "access",
+      "frequency": 160,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:29.041358+00:00",
+      "display_text": "access",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-control-1",
+      "text": "control",
+      "frequency": 91,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:29.041631+00:00",
+      "display_text": "control",
+      "size": 18.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-imd-2",
+      "text": "imd",
+      "frequency": 150,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:29.046262+00:00",
+      "display_text": "imd",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-programmer-3",
+      "text": "programmer",
+      "frequency": 92,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:29.049787+00:00",
+      "display_text": "programmer",
+      "size": 18.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-access-control-4",
+      "text": "access control",
+      "frequency": 86,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/A_Secure_Proxy-based_Access_Control_Scheme_for_Implantable_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:29.202935+00:00",
+      "display_text": "access control",
+      "size": 17.2,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-iomt-0",
+      "text": "iomt",
+      "frequency": 105,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:23.178721+00:00",
+      "display_text": "iomt",
+      "size": 21,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-trust-1",
+      "text": "trust",
+      "frequency": 290,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/An_Intelligent_Trust_Cloud_Management_Method_for_Secure_Clustering_in_5G_enabled_Internet_of_Medi..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:23.184154+00:00",
+      "display_text": "trust",
+      "size": 30,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-attack-0",
+      "text": "attack",
+      "frequency": 127,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:19.706499+00:00",
+      "display_text": "attack",
+      "size": 25.4,
+      "color": "#10B981"
+    },
+    {
+      "id": "medical_device_cybersecurity-devices-1",
+      "text": "devices",
+      "frequency": 82,
+      "relevance_score": 1,
+      "source_domain": "medical_device_cybersecurity",
+      "source_papers": [
+        "local/Attack-Graph_Threat_Modeling_Assessment_of_Ambulatory_Medical_Devices"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:19.712885+00:00",
+      "display_text": "devices",
+      "size": 16.4,
+      "color": "#10B981"
+    }
+  ],
+  "links": [
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-security-2",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cybersecurity_optimization_models-security-2",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_communication_network_security-security-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-security-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-security-2",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-2",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "local_government_cybersecurity-security-5",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "post_quantum_cryptography_implementation-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "pqc_migration_strategies-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "quantum_safe_protocols-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "renewable_energy_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "small_water_utility_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "small_water_utility_security-security-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "telemedicine_remote_care_security-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "telemedicine_remote_care_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_iot_smart_monitoring_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_iot_smart_monitoring_security-security-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_treatment_scada_security-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_utility_risk_assessment-security-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-security-0",
+      "target": "water_utility_risk_assessment-security-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-attack-3",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "cyber_risk_quantification-attack-3",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_treatment_scada_security-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_treatment_scada_security-attack-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "water_utility_risk_assessment-attack-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-5",
+      "target": "medical_device_cybersecurity-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-control-1",
+      "target": "medical_device_cybersecurity-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-control-1",
+      "target": "water_treatment_scada_security-control-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "industrial_iot_security-access-0",
+      "target": "medical_device_cybersecurity-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-access-0",
+      "target": "small_water_utility_security-access-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "iot_device_authentication_security-devices-3",
+      "target": "medical_device_cybersecurity-devices-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-0",
+      "target": "telemedicine_remote_care_security-devices-6",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-0",
+      "target": "water_iot_smart_monitoring_security-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-2",
+      "target": "telemedicine_remote_care_security-devices-6",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-2",
+      "target": "water_iot_smart_monitoring_security-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-1",
+      "target": "telemedicine_remote_care_security-devices-6",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-1",
+      "target": "water_iot_smart_monitoring_security-devices-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-trust-1",
+      "target": "small_water_utility_security-trust-3",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-infusion-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-acric-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-infusion-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-infusion-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-infusion-0",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-infusion-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-infusion-0",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-infusion-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "medical_device_cybersecurity-devices-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-system-1",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-0",
+      "target": "medical_device_cybersecurity-security-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-0",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-devices-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-attack-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-security-1",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "medical_device_cybersecurity-attack-0",
+      "target": "medical_device_cybersecurity-security-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 2496,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "acric",
+      "security",
+      "infusion",
+      "system",
+      "devices"
+    ]
+  }
+}

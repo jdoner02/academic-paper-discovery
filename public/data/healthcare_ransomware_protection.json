@@ -1,0 +1,949 @@
+{
+  "domain": "healthcare_ransomware_protection",
+  "nodes": [
+    {
+      "id": "healthcare_ransomware_protection-malware-0",
+      "text": "malware",
+      "frequency": 56,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/AI-based_Malware_and_Ransomware_Detection_Models"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.849306+00:00",
+      "display_text": "malware",
+      "size": 11.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-ransomware-1",
+      "text": "ransomware",
+      "frequency": 48,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/AI-based_Malware_and_Ransomware_Detection_Models"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.849418+00:00",
+      "display_text": "ransomware",
+      "size": 9.6,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-detection-2",
+      "text": "detection",
+      "frequency": 45,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/AI-based_Malware_and_Ransomware_Detection_Models"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.849522+00:00",
+      "display_text": "detection",
+      "size": 9,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-models-3",
+      "text": "models",
+      "frequency": 49,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/AI-based_Malware_and_Ransomware_Detection_Models"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.849622+00:00",
+      "display_text": "models",
+      "size": 9.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-les-4",
+      "text": "les",
+      "frequency": 41,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/AI-based_Malware_and_Ransomware_Detection_Models"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:00.852708+00:00",
+      "display_text": "les",
+      "size": 8.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-ransomware-0",
+      "text": "ransomware",
+      "frequency": 96,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Assessing_and_Prioritizing_Ransomware_Risk_Based_on_Historical_Victim_Data"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:57.071333+00:00",
+      "display_text": "ransomware",
+      "size": 19.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-malware-0",
+      "text": "malware",
+      "frequency": 121,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:02.978244+00:00",
+      "display_text": "malware",
+      "size": 24.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-features-1",
+      "text": "features",
+      "frequency": 64,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:02.987319+00:00",
+      "display_text": "features",
+      "size": 12.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-cuckoo-2",
+      "text": "cuckoo",
+      "frequency": 82,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:02.991291+00:00",
+      "display_text": "cuckoo",
+      "size": 16.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-ﬁle-3",
+      "text": "ﬁle",
+      "frequency": 134,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.027209+00:00",
+      "display_text": "ﬁle",
+      "size": 26.8,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-c-docume-1-4",
+      "text": "c docume 1",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.171021+00:00",
+      "display_text": "c docume 1",
+      "size": 8.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-docume-1-cuckoo-5",
+      "text": "docume 1 cuckoo",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.171236+00:00",
+      "display_text": "docume 1 cuckoo",
+      "size": 8.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-1-cuckoo-locals-6",
+      "text": "1 cuckoo locals",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.171439+00:00",
+      "display_text": "1 cuckoo locals",
+      "size": 8.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-cuckoo-locals-1-7",
+      "text": "cuckoo locals 1",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.171641+00:00",
+      "display_text": "cuckoo locals 1",
+      "size": 8.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-locals-1-temp-8",
+      "text": "locals 1 temp",
+      "frequency": 42,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Automated_Behavioral_Analysis_of_Malware_A_Case_Study_of_WannaCry_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:03.171842+00:00",
+      "display_text": "locals 1 temp",
+      "size": 8.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-ransomware-0",
+      "text": "ransomware",
+      "frequency": 245,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/CanCal__Towards_Real-time_and_Lightweight_Ransomware_Detection_and_Response_in_Industrial_Environ..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:55.883904+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-2-2-1",
+      "text": "2 2",
+      "frequency": 107,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/CanCal__Towards_Real-time_and_Lightweight_Ransomware_Detection_and_Response_in_Industrial_Environ..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:56.513684+00:00",
+      "display_text": "2 2",
+      "size": 21.4,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-detection-0",
+      "text": "detection",
+      "frequency": 121,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Crypto-ransomware_detection_using_machine_learning_models_in_file-sharing_network_scenario_with_e..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:01.549940+00:00",
+      "display_text": "detection",
+      "size": 24.2,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-ransomware-1",
+      "text": "ransomware",
+      "frequency": 217,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/Crypto-ransomware_detection_using_machine_learning_models_in_file-sharing_network_scenario_with_e..."
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:01.558366+00:00",
+      "display_text": "ransomware",
+      "size": 30,
+      "color": "#6B7280"
+    },
+    {
+      "id": "healthcare_ransomware_protection-system-0",
+      "text": "system",
+      "frequency": 203,
+      "relevance_score": 1,
+      "source_domain": "healthcare_ransomware_protection",
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.949044+00:00",
+      "display_text": "system",
+      "size": 30,
+      "color": "#6B7280"
+    }
+  ],
+  "links": [
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-2",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-detection-1",
+      "target": "healthcare_ransomware_protection-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-0",
+      "target": "water_treatment_scada_security-detection-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "ai_driven_cyber_defense-les-0",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-1",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "election_voting_system_security-system-2",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "grid_incident_response_recovery-system-4",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-2",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_privacy_compliance-system-0",
+      "target": "healthcare_ransomware_protection-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "medical_device_cybersecurity-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "renewable_energy_cybersecurity-system-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "telemedicine_remote_care_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "telemedicine_remote_care_security-system-5",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_infrastructure_incident_response-system-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_infrastructure_incident_response-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_treatment_scada_security-system-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-system-0",
+      "target": "water_utility_risk_assessment-system-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "government_ransomware_defense-ransomware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "water_infrastructure_incident_response-models-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "water_utility_risk_assessment-models-2",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-features-1",
+      "target": "iot_device_authentication_security-features-4",
+      "strength": 1,
+      "relationship_type": "similar_concept",
+      "weight": 2
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-ransomware-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-models-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-detection-2",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-models-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-1",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "healthcare_ransomware_protection-models-3",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-detection-2",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "healthcare_ransomware_protection-les-4",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-models-3",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-les-4",
+      "target": "healthcare_ransomware_protection-ransomware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-les-4",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-les-4",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-0",
+      "target": "healthcare_ransomware_protection-malware-0",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-ransomware-0",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    },
+    {
+      "source": "healthcare_ransomware_protection-malware-0",
+      "target": "healthcare_ransomware_protection-features-1",
+      "strength": 1,
+      "relationship_type": "domain_related",
+      "weight": 1
+    }
+  ],
+  "statistics": {
+    "total_concepts": 598,
+    "filtered_concepts": 20,
+    "avg_relevance": 1,
+    "top_concepts": [
+      "malware",
+      "ransomware",
+      "detection",
+      "models",
+      "les"
+    ]
+  }
+}
