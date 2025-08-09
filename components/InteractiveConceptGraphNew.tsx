@@ -106,48 +106,42 @@ const InteractiveConceptGraph: React.FC = () => {
 
   /**
    * Load concept data from prepared JSON files
+   * 
+   * Educational Note: This demonstrates proper error handling and fallback strategies
+   * for data loading in production applications. We use relative paths to ensure 
+   * compatibility with GitHub Pages subdirectory deployment.
    */
   const loadConceptData = useCallback(async () => {
     setIsLoading(true);
     setError(null);
 
     try {
-      // Try to load from prepared data first
-      const response = await fetch('/data/concept-graph-data.json');
+      // Use relative path for GitHub Pages compatibility
+      // This resolves to /academic-paper-discovery/data/concept-graph-data.json in production
+      const response = await fetch('./data/concept-graph-data.json');
       if (response.ok) {
         const data = await response.json();
-        console.log('Loaded prepared concept data:', data.metadata);
+        
+        // Validate data structure for educational transparency
+        if (!data.nodes || !Array.isArray(data.nodes)) {
+          throw new Error('Invalid data structure: nodes array missing');
+        }
+        
+        console.log(`Loaded ${data.nodes.length} concepts from ${data.links?.length || 0} relationships`);
         
         setGraphData({ 
-          nodes: data.nodes || [], 
+          nodes: data.nodes, 
           links: data.links || [] 
         });
         
-        // Extract unique domains for filtering
+        // Extract unique domains for filtering - demonstrates functional programming
         const domains = [...new Set(data.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
         setAvailableDomains(domains);
         return;
       }
       
-      // Fallback to API endpoint
-      const apiResponse = await fetch('/api/concepts/');
-      if (!apiResponse.ok) {
-        throw new Error(`HTTP error! status: ${apiResponse.status}`);
-      }
-      
-      const apiData = await apiResponse.json();
-      
-      if (apiData.error) {
-        throw new Error(apiData.error);
-      }
-      
-      setGraphData({ 
-        nodes: apiData.nodes || [], 
-        links: apiData.links || [] 
-      });
-      
-      const domains = [...new Set(apiData.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
-      setAvailableDomains(domains);
+      // No fallback - static site deployment doesn't support API endpoints
+      throw new Error('Concept graph data not found at ./data/concept-graph-data.json');
       
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load concept data');
@@ -407,10 +401,11 @@ const InteractiveConceptGraph: React.FC = () => {
                 ))}
               </select>
               
-              {/* Relevance filter */}
+              {/* Relevance filter - accessible form design */}
               <div className="flex items-center space-x-2">
-                <label className="text-sm text-gray-600">Min Relevance:</label>
+                <label htmlFor="relevance-slider" className="text-sm text-gray-600">Min Relevance:</label>
                 <input
+                  id="relevance-slider"
                   type="range"
                   min="0"
                   max="1"
@@ -418,6 +413,7 @@ const InteractiveConceptGraph: React.FC = () => {
                   value={minRelevance}
                   onChange={(e) => setMinRelevance(parseFloat(e.target.value))}
                   className="w-20"
+                  aria-label={`Minimum relevance score: ${minRelevance}`}
                 />
                 <span className="text-sm text-gray-600 w-8">{minRelevance.toFixed(1)}</span>
               </div>
@@ -471,8 +467,8 @@ const InteractiveConceptGraph: React.FC = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-1">Source Papers</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  {selectedNode.source_papers.slice(0, 3).map((paper, index) => (
-                    <div key={index} className="truncate" title={paper}>
+                  {selectedNode.source_papers.slice(0, 3).map((paper) => (
+                    <div key={paper} className="truncate" title={paper}>
                       {paper.replace('local/', '')}
                     </div>
                   ))}
