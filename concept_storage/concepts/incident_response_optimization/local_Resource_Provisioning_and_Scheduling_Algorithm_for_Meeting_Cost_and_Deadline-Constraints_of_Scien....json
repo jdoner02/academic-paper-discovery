@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien...",
+  "paper_title": "Resource Provisioning and Scheduling Algorithm for Meeting Cost and Deadline-Constraints of Scien...",
+  "concepts": [
+    {
+      "text": "deadline",
+      "frequency": 147,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.446409+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workflow",
+      "frequency": 125,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.447041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 93,
+      "relevance_score": 0.9773584905660377,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.442436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iwd",
+      "frequency": 89,
+      "relevance_score": 0.9396226415094339,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.459415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "interval",
+      "frequency": 83,
+      "relevance_score": 0.8830188679245283,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.532672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deadline interval",
+      "frequency": 68,
+      "relevance_score": 0.8415094339622642,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.727835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0",
+      "frequency": 56,
+      "relevance_score": 0.8283018867924529,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.707986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 43,
+      "relevance_score": 0.8056603773584906,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.796379+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 73,
+      "relevance_score": 0.7886792452830188,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.441826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 53,
+      "relevance_score": 0.75,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.509029+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "execution",
+      "frequency": 62,
+      "relevance_score": 0.6849056603773584,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.446089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "task",
+      "frequency": 61,
+      "relevance_score": 0.6754716981132075,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.486475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 57,
+      "relevance_score": 0.6377358490566037,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.445133+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solution",
+      "frequency": 53,
+      "relevance_score": 0.6,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.463309+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource",
+      "frequency": 50,
+      "relevance_score": 0.5716981132075472,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.441208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 47,
+      "relevance_score": 0.5433962264150943,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.445451+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deadline interval 1",
+      "frequency": 14,
+      "relevance_score": 0.5320754716981132,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.806498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "schedule",
+      "frequency": 43,
+      "relevance_score": 0.5056603773584906,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.453072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tasks",
+      "frequency": 43,
+      "relevance_score": 0.5056603773584906,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.453387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "makespan",
+      "frequency": 43,
+      "relevance_score": 0.5056603773584906,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.488453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deadline interval 4",
+      "frequency": 11,
+      "relevance_score": 0.5037735849056604,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.810153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deadline interval 2",
+      "frequency": 10,
+      "relevance_score": 0.49433962264150944,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.805313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r r r",
+      "frequency": 20,
+      "relevance_score": 0.48867924528301887,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.783272+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workflow management system",
+      "frequency": 4,
+      "relevance_score": 0.4877358490566037,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.772560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workflow scheduling algorithms",
+      "frequency": 4,
+      "relevance_score": 0.4877358490566037,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.775232+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "total processing time",
+      "frequency": 4,
+      "relevance_score": 0.4877358490566037,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.781143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deadline interval 3",
+      "frequency": 8,
+      "relevance_score": 0.47547169811320755,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.809833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "best performing algorithms",
+      "frequency": 2,
+      "relevance_score": 0.46886792452830184,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.805017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling algorithms",
+      "frequency": 12,
+      "relevance_score": 0.4632075471698114,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.661523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "provisioning",
+      "frequency": 38,
+      "relevance_score": 0.45849056603773586,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.441523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workflows",
+      "frequency": 38,
+      "relevance_score": 0.45849056603773586,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.443066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "costcost deadline interval",
+      "frequency": 16,
+      "relevance_score": 0.4509433962264151,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.808618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r r",
+      "frequency": 26,
+      "relevance_score": 0.44528301886792454,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.681058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average makespan",
+      "frequency": 26,
+      "relevance_score": 0.44528301886792454,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.738597+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "interval 1",
+      "frequency": 15,
+      "relevance_score": 0.44150943396226416,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.739830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resources",
+      "frequency": 36,
+      "relevance_score": 0.439622641509434,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.456532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iteration",
+      "frequency": 36,
+      "relevance_score": 0.439622641509434,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.565204+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 t",
+      "frequency": 4,
+      "relevance_score": 0.4377358490566038,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.797263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1234average makespan ms",
+      "frequency": 4,
+      "relevance_score": 0.4377358490566038,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.807721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 1 4",
+      "frequency": 4,
+      "relevance_score": 0.4377358490566038,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.813320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "end time letx7",
+      "frequency": 3,
+      "relevance_score": 0.42830188679245285,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.785061+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iteration solution tb19x",
+      "frequency": 3,
+      "relevance_score": 0.42830188679245285,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.791631+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v µ 19ja",
+      "frequency": 3,
+      "relevance_score": 0.42830188679245285,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.798741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 3 2",
+      "frequency": 3,
+      "relevance_score": 0.42830188679245285,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.800517+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4th deadline interval",
+      "frequency": 3,
+      "relevance_score": 0.42830188679245285,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.804421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource provisioning",
+      "frequency": 24,
+      "relevance_score": 0.42641509433962266,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.636132+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "makespanmakespan deadline interval",
+      "frequency": 13,
+      "relevance_score": 0.4226415094339623,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.808918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water",
+      "frequency": 34,
+      "relevance_score": 0.4207547169811321,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.458777+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average",
+      "frequency": 34,
+      "relevance_score": 0.4207547169811321,
+      "source_papers": [
+        "local/Resource_Provisioning_and_Scheduling_Algorithm_for_Meeting_Cost_and_Deadline-Constraints_of_Scien..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:44.545622+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:44.819230+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:44.819415+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

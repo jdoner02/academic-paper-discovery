@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings",
+  "paper_title": "An efficient certificateless authenticated key agreement protocol without bilinear pairings",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 121,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.338168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 66,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.338475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 42,
+      "relevance_score": 0.9630813953488371,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.391788+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 46,
+      "relevance_score": 0.9357558139534883,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.339399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "private key",
+      "frequency": 29,
+      "relevance_score": 0.726889534883721,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.395554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random",
+      "frequency": 31,
+      "relevance_score": 0.6632267441860464,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.345976+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "private",
+      "frequency": 31,
+      "relevance_score": 0.6632267441860464,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.348856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "oracle",
+      "frequency": 30,
+      "relevance_score": 0.6450581395348837,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.346140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ctaka protocol",
+      "frequency": 16,
+      "relevance_score": 0.6406976744186047,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.396017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n ij",
+      "frequency": 23,
+      "relevance_score": 0.6178779069767442,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.403530+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "six polynomial-time algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.445972+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s protocol",
+      "frequency": 13,
+      "relevance_score": 0.5861918604651163,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.397397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key agreement protocol",
+      "frequency": 7,
+      "relevance_score": 0.5771802325581395,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.441172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 17,
+      "relevance_score": 0.5588662790697675,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.341232+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n n n",
+      "frequency": 13,
+      "relevance_score": 0.5361918604651162,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.462973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n n",
+      "frequency": 18,
+      "relevance_score": 0.5270348837209302,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.429043+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agreement protocol without",
+      "frequency": 4,
+      "relevance_score": 0.5226744186046511,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.441326+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol without pairing",
+      "frequency": 4,
+      "relevance_score": 0.5226744186046511,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.443308+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ctaka protocol without",
+      "frequency": 4,
+      "relevance_score": 0.5226744186046511,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.444992+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ctaka",
+      "frequency": 23,
+      "relevance_score": 0.5178779069767442,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.349774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "query",
+      "frequency": 23,
+      "relevance_score": 0.5178779069767442,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.366532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol without",
+      "frequency": 9,
+      "relevance_score": 0.5135174418604651,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.391162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type 1 adversary",
+      "frequency": 6,
+      "relevance_score": 0.5090116279069767,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.445154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key agreement",
+      "frequency": 17,
+      "relevance_score": 0.5088662790697674,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.390849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key agreement protocols",
+      "frequency": 3,
+      "relevance_score": 0.5045058139534884,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.442450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new ctaka protocol",
+      "frequency": 3,
+      "relevance_score": 0.5045058139534884,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.445320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol without pairings",
+      "frequency": 3,
+      "relevance_score": 0.5045058139534884,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.445483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authenticated key agreement",
+      "frequency": 11,
+      "relevance_score": 0.4998546511627907,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.441018+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partial private key",
+      "frequency": 11,
+      "relevance_score": 0.4998546511627907,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.446454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j j j",
+      "frequency": 11,
+      "relevance_score": 0.4998546511627907,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.464804+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 22,
+      "relevance_score": 0.4997093023255814,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.346303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t ij",
+      "frequency": 16,
+      "relevance_score": 0.4906976744186047,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.406182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j j",
+      "frequency": 16,
+      "relevance_score": 0.4906976744186047,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.431190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "polynomial-time algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.399997+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol without bilinear",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.441479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols without pairings",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.443136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key exchange protocols",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.444300+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ctaka protocols without",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.444828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system parameters params",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.446141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system public key",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.456179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s protocol hou",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.470487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s protocol yang",
+      "frequency": 2,
+      "relevance_score": 0.4863372093023256,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.470639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1",
+      "frequency": 10,
+      "relevance_score": 0.48168604651162794,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.413222+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key cryptography",
+      "frequency": 10,
+      "relevance_score": 0.4816860465116279,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.441957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agreement protocol",
+      "frequency": 7,
+      "relevance_score": 0.47718023255813957,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.391003+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type 2 adversary",
+      "frequency": 4,
+      "relevance_score": 0.4726744186046512,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.447221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b b",
+      "frequency": 15,
+      "relevance_score": 0.47252906976744186,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.406792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d r p",
+      "frequency": 9,
+      "relevance_score": 0.4635174418604651,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.451359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b b b",
+      "frequency": 9,
+      "relevance_score": 0.4635174418604651,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.452946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 20,
+      "relevance_score": 0.46337209302325577,
+      "source_papers": [
+        "local/An_efficient_certificateless_authenticated_key_agreement_protocol_without_bilinear_pairings"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.344512+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:13.471297+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:13.471497+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

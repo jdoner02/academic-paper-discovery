@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin...",
+  "paper_title": "How Workflow Engines Should Talk to Resource Managers  A Proposal for a Common Workflow Schedulin...",
+  "concepts": [
+    {
+      "text": "uni00000044",
+      "frequency": 121,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.838834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000035",
+      "frequency": 103,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.839890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000010",
+      "frequency": 99,
+      "relevance_score": 0.9887189292543019,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.834510+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000051",
+      "frequency": 99,
+      "relevance_score": 0.9887189292543019,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.839186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tasks",
+      "frequency": 101,
+      "relevance_score": 0.9046526449968132,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.631431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000044 uni00000051",
+      "frequency": 74,
+      "relevance_score": 0.8895474824729127,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.017838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000004c",
+      "frequency": 86,
+      "relevance_score": 0.8851497769279796,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.838481+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000035 uni00000044 uni00000051",
+      "frequency": 57,
+      "relevance_score": 0.8541108986615679,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.216484+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "task",
+      "frequency": 94,
+      "relevance_score": 0.8488846398980242,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.652266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource",
+      "frequency": 88,
+      "relevance_score": 0.8010834926704907,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.616252+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workflow",
+      "frequency": 87,
+      "relevance_score": 0.7931166347992351,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.615092+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000011 uni00000013 uni00000008",
+      "frequency": 48,
+      "relevance_score": 0.7824091778202676,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.180143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000035 uni00000044",
+      "frequency": 57,
+      "relevance_score": 0.7541108986615679,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.039923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 79,
+      "relevance_score": 0.7293817718291905,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.617671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000013",
+      "frequency": 65,
+      "relevance_score": 0.7178457616316124,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.836126+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000048",
+      "frequency": 64,
+      "relevance_score": 0.7098789037603569,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.837776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000003",
+      "frequency": 64,
+      "relevance_score": 0.7098789037603569,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.841303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nextflow",
+      "frequency": 74,
+      "relevance_score": 0.6895474824729126,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.643818+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000011 uni00000013",
+      "frequency": 48,
+      "relevance_score": 0.6824091778202677,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.012314+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000013 uni00000008",
+      "frequency": 48,
+      "relevance_score": 0.6824091778202677,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.012664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduler",
+      "frequency": 72,
+      "relevance_score": 0.6736137667304015,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.696459+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000029",
+      "frequency": 57,
+      "relevance_score": 0.6541108986615679,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.847999+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000011",
+      "frequency": 56,
+      "relevance_score": 0.6461440407903123,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.835675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000008",
+      "frequency": 56,
+      "relevance_score": 0.6461440407903123,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.836480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000010 uni00000035",
+      "frequency": 42,
+      "relevance_score": 0.6346080305927343,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.038879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "swms",
+      "frequency": 67,
+      "relevance_score": 0.6337794773741237,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.634288+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000044 uni00000051 uni0000004e",
+      "frequency": 27,
+      "relevance_score": 0.6151051625239006,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.229257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000051 uni0000004e uni00000003",
+      "frequency": 27,
+      "relevance_score": 0.6151051625239006,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.229606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000004e uni00000003 uni0000000b",
+      "frequency": 27,
+      "relevance_score": 0.6151051625239006,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.229956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource manager",
+      "frequency": 51,
+      "relevance_score": 0.6063097514340345,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.922986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000018 uni00000011 uni00000013",
+      "frequency": 24,
+      "relevance_score": 0.5912045889101338,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.179792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kubernetes",
+      "frequency": 59,
+      "relevance_score": 0.570044614404079,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.644170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000013 uni00000008 uni00000010",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.180493+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000010 uni00000035 uni00000035",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.214874+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000010 uni00000035 uni00000044",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.216031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000010 uni00000029 uni00000044",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.218099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000029 uni00000044 uni0000004c",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.218453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000044 uni0000004c uni00000055",
+      "frequency": 21,
+      "relevance_score": 0.5673040152963671,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.218903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000035 uni00000035",
+      "frequency": 33,
+      "relevance_score": 0.5629063097514341,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.039228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000029 uni0000002c uni00000029",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.213263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000002c uni00000029 uni00000032",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.213617+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000036 uni0000004c uni0000005d",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.223077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000004c uni0000005d uni00000048",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.223451+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000005d uni00000048 uni00000003",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.223829+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000056 uni00000046 uni00000010",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.225692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni0000000c uni00000010 uni00000035",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.231715+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000003 uni0000000b uni00000030",
+      "frequency": 18,
+      "relevance_score": 0.5434034416826004,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.232414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "manager",
+      "frequency": 55,
+      "relevance_score": 0.5381771829190567,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.634639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000013 uni00000011 uni00000013",
+      "frequency": 17,
+      "relevance_score": 0.5354365838113447,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.181906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni00000055",
+      "frequency": 41,
+      "relevance_score": 0.5266411727214786,
+      "source_papers": [
+        "local/How_Workflow_Engines_Should_Talk_to_Resource_Managers__A_Proposal_for_a_Common_Workflow_Schedulin..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:02.843419+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:03.278772+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:03.279182+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks",
+  "paper_title": "PATHATTACK  Attacking Shortest Paths in Complex Networks",
+  "concepts": [
+    {
+      "text": "path",
+      "frequency": 127,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.801099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cut",
+      "frequency": 94,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.802763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edges",
+      "frequency": 105,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.805482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 78,
+      "relevance_score": 0.9164974353606197,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.795362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 70,
+      "relevance_score": 0.8327541086569663,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.800553+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge",
+      "frequency": 68,
+      "relevance_score": 0.8118182769810531,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.829971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "force path cut",
+      "frequency": 48,
+      "relevance_score": 0.8024599602219198,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.083321+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paths",
+      "frequency": 67,
+      "relevance_score": 0.8013503611430963,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.794754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 60,
+      "relevance_score": 0.7280749502773997,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.813815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "force path",
+      "frequency": 48,
+      "relevance_score": 0.7024599602219199,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.969634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "path cut",
+      "frequency": 48,
+      "relevance_score": 0.7024599602219199,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.969949+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shortest",
+      "frequency": 54,
+      "relevance_score": 0.6652674552496598,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.794470+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "force",
+      "frequency": 49,
+      "relevance_score": 0.6129278760598764,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.802456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 49,
+      "relevance_score": 0.6129278760598764,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.806837+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 18,
+      "relevance_score": 0.5884224850832199,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.132842+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0",
+      "frequency": 25,
+      "relevance_score": 0.5616978959489166,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.079634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 44,
+      "relevance_score": 0.5605882968700932,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.801373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "weights",
+      "frequency": 43,
+      "relevance_score": 0.5501203810321366,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.838280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3-terminal cut",
+      "frequency": 21,
+      "relevance_score": 0.5198262325970899,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.983853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solution",
+      "frequency": 39,
+      "relevance_score": 0.5082487176803099,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.812649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shortest path",
+      "frequency": 28,
+      "relevance_score": 0.49310164346278657,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.969087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di erent algorithms",
+      "frequency": 3,
+      "relevance_score": 0.48140374751386994,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.110611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "30 40 50",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.101813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 50 60",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.102084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 60 70",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.102359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60 70 80",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.102630+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "70 80 911",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.102909+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "time s -",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.105444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s - log",
+      "frequency": 7,
+      "relevance_score": 0.4732754108656966,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.105717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random graph models",
+      "frequency": 2,
+      "relevance_score": 0.47093583167591335,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.097420+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "510251002510002510k0 30 40",
+      "frequency": 6,
+      "relevance_score": 0.46280749502774,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.101541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "80 911 1",
+      "frequency": 6,
+      "relevance_score": 0.46280749502774,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.103201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g0 v ene0",
+      "frequency": 5,
+      "relevance_score": 0.4523395791897833,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.086655+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 s2 s32v",
+      "frequency": 5,
+      "relevance_score": 0.4523395791897833,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.087749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 19,
+      "relevance_score": 0.4488904009211766,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.814102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "approximation algorithms",
+      "frequency": 9,
+      "relevance_score": 0.44421124254160993,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:55.973228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "terminal nodes s1",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.087205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes s1 s2",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.087477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solve 3-terminal cut",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.088295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "911 1 510251002510002510k0",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.103479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 510251002510002510k0 30",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.104127+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- log scalewall",
+      "frequency": 4,
+      "relevance_score": 0.4418716633518266,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.106085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-terminal cut problem",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.084446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wall p e2ew",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.089212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p e2ew e",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.089494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e ffs1 s2g",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.090040+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 s2 ands3",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.092521+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- log scalecost",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.107005+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "greedycost baseline -",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.108034+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "baseline - log",
+      "frequency": 3,
+      "relevance_score": 0.43140374751387,
+      "source_papers": [
+        "local/PATHATTACK__Attacking_Shortest_Paths_in_Complex_Networks"
+      ],
+      "source_domain": "network_security_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:39:56.108307+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:39:56.135495+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:39:56.135676+00:00",
+    "repository_version": "1.0",
+    "domain": "network_security_optimization"
+  }
+}

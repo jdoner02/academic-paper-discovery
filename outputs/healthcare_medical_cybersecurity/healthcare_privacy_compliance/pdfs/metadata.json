@@ -1,0 +1,182 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:15:14.127521+00:00",
+    "strategy_name": "Healthcare Privacy, Compliance, and Data Protection",
+    "total_papers": 10,
+    "download_directory": "outputs/healthcare_medical_cybersecurity/healthcare_privacy_compliance/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+      "authors": [
+        "Subash Neupane",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "abstract": "Agentic AI systems powered by Large Language Models (LLMs) as their foundational reasoning engine, are transforming clinical workflows such as medical report generation and clinical summarization by autonomously analyzing sensitive healthcare data and executing decisions with minimal human oversight. However, their adoption demands strict compliance with regulatory frameworks such as Health Insurance Portability and Accountability Act (HIPAA), particularly when handling Protected Health Information (PHI). This work-in-progress paper introduces a HIPAA-compliant Agentic AI framework that enforces regulatory compliance through dynamic, context-aware policy enforcement. Our framework integrates three core mechanisms: (1) Attribute-Based Access Control (ABAC) for granular PHI governance, (2) a hybrid PHI sanitization pipeline combining regex patterns and BERT-based model to minimize leakage, and (3) immutable audit trails for compliance verification.",
+      "publication_date": "2025-04-24T15:38:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.MA"
+      ],
+      "arxiv_id": "2504.17669v2"
+    },
+    {
+      "title": "Healthcare IT: Is your Information at Risk?",
+      "authors": [
+        "Kimmarie Donahue",
+        "Shawon Rahman"
+      ],
+      "abstract": "Healthcare Information Technology (IT) has made great advances over the past few years and while these advances have enable healthcare professionals to provide higher quality healthcare to a larger number of individuals it also provides the criminal element more opportunities to access sensitive information, such as patient protected health information (PHI) and Personal identification Information (PII). Having an Information Assurance (IA) programallows for the protection of information and information systems and ensures the organization is in compliance with all requires regulations, laws and directive is essential. While most organizations have such a policy in place, often it is inadequate to ensure the proper protection to prevent security breaches. The increase of data breaches in the last few years demonstrates the importance of an effective IA program. To ensure an effective IA policy, the policy must manage the operational risk, including identifying risks, assessment and mitigation of identified risks and ongoing monitoring to ensure compliance",
+      "publication_date": "2015-11-30T22:06:28+00:00",
+      "doi": "10.5121/ijnsa.2012.4508",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1512.01731v1"
+    },
+    {
+      "title": "GDPR Compliance for Blockchain Applications in Healthcare",
+      "authors": [
+        "Anton Hasselgren",
+        "Paul Kengfai Wan",
+        "Margareth Horn",
+        "Katina Kralevska",
+        "Danilo Gligoroski",
+        "Arild Faxvaag"
+      ],
+      "abstract": "The transparent and decentralized characteristics associated with blockchain can be both appealing and problematic when applied to a healthcare use-case. As health data is highly sensitive, it is also highly regulated to ensure the privacy of patients. At the same time, access to health data and interoperability is in high demand. Regulatory frameworks such as GDPR and HIPAA are, amongst other objectives, meant to contribute to mitigating the risk of privacy violations in health data. Blockchain features can likely improve interoperability and access control to health data, and at the same time, preserve or even increase, the privacy of patients. Blockchain applications should address compliance with the current regulatory framework to increase real-world feasibility. This exploratory work indicates that published proof-of-concepts in the health domain comply with GDRP, to an extent. Blockchain developers need to make design choices to be compliant with GDPR since currently, none available blockchain platform can show compliance out of the box.",
+      "publication_date": "2020-09-27T18:05:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2009.12913v1"
+    },
+    {
+      "title": "hChain 4.0: A Secure and Scalable Permissioned Blockchain for EHR   Management in Smart Healthcare",
+      "authors": [
+        "Musharraf N. Alruwaill",
+        "Saraju P. Mohanty",
+        "Elias Kougianos"
+      ],
+      "abstract": "The growing utilization of Internet of Medical Things (IoMT) devices, including smartwatches and wearable medical devices, has facilitated real-time health monitoring and data analysis to enhance healthcare outcomes. These gadgets necessitate improved security measures to safeguard sensitive health data while tackling scalability issues in real-time settings. The proposed system, hChain 4.0, employs a permissioned blockchain to provide a secure and scalable data infrastructure designed to fulfill these needs. This stands in contrast to conventional systems, which are vulnerable to security flaws or rely on public blockchains, constrained by scalability and expense. The proposed approach introduces a high-privacy method in which health data are encrypted using the Advanced Encryption Standard (AES) for time-efficient encryption, combined with Partial Homomorphic Encryption (PHE) to enable secure computations on encrypted data, thereby enhancing privacy. Moreover, it utilizes private channels that enable isolated communication and ledger between stakeholders, ensuring robust privacy while supporting collaborative operations. The proposed framework enables anonymized health data sharing for medical research by pseudonymizing patient identity. Additionally, hChain 4.0 incorporates Attribute-Based Access Control (ABAC) to provide secure electronic health record (EHR) sharing among authorized parties, where ABAC ensures fine-grained permission management vital for multi-organizational healthcare settings. Experimental assessments indicate that the proposed approach achieves higher scalability, cost-effectiveness, and validated security.",
+      "publication_date": "2025-05-20T03:13:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.13861v1"
+    },
+    {
+      "title": "Balancing Patient Privacy and Health Data Security: The Role of   Compliance in Protected Health Information (PHI) Sharing",
+      "authors": [
+        "Md Al Amin",
+        "Hemanth Tummala",
+        "Rushabh Shah",
+        "Indrajit Ray"
+      ],
+      "abstract": "Protected Health Information (PHI) sharing significantly enhances patient care quality and coordination, contributing to more accurate diagnoses, efficient treatment plans, and a comprehensive understanding of patient history. Compliance with strict privacy and security policies, such as those required by laws like HIPAA, is critical to protect PHI. Blockchain technology, which offers a decentralized and tamper-evident ledger system, hold promise in policy compliance. This system ensures the authenticity and integrity of PHI while facilitating patient consent management. In this work, we propose a blockchain technology that integrates smart contracts to partially automate consent-related processes and ensuring that PHI access and sharing follow patient preferences and legal requirements.",
+      "publication_date": "2024-07-03T02:49:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.02766v1"
+    },
+    {
+      "title": "Security and Privacy for Healthcare Blockchains",
+      "authors": [
+        "Rui Zhang",
+        "Rui Xue",
+        "Ling Liu"
+      ],
+      "abstract": "Healthcare blockchains provide an innovative way to store healthcare information, execute healthcare transactions, and build trust for healthcare data sharing and data integration in a decentralized open healthcare network environment. Although the healthcare blockchain technology has attracted broad interests and attention in industry, government and academia, the security and privacy concerns remain the focus of debate when deploying blockchains for information sharing in the healthcare sector from business operation to research collaboration. This paper focuses on the security and privacy requirements for medical data sharing using blockchain, and provides a comprehensive analysis of the security and privacy risks and requirements, accompanied by technical solution techniques and strategies. First, we discuss the security and privacy requirements and attributes required for electronic medical data sharing by deploying the healthcare blockchain. Second, we categorize existing efforts into three reference blockchain usage scenarios for electronic medical data sharing, and discuss the technologies for implementing these security and privacy properties in the three categories of usage scenarios for healthcare blockchain, such as anonymous signatures, attribute-based encryption, zero-knowledge proofs, verification techniques for smart contract security. Finally, we discuss other potential blockchain application scenarios in healthcare sector. We conjecture that this survey will help healthcare professionals, decision makers, and healthcare service developers to gain technical and intuitive insights into the security and privacy of healthcare blockchains in terms of concepts, risks, requirements, development and deployment technologies and systems.",
+      "publication_date": "2021-06-11T02:47:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2106.06136v1"
+    },
+    {
+      "title": "Leveraging Generative AI Models for Synthetic Data Generation in   Healthcare: Balancing Research and Privacy",
+      "authors": [
+        "Aryan Jadon",
+        "Shashank Kumar"
+      ],
+      "abstract": "The widespread adoption of electronic health records and digital healthcare data has created a demand for data-driven insights to enhance patient outcomes, diagnostics, and treatments. However, using real patient data presents privacy and regulatory challenges, including compliance with HIPAA and GDPR. Synthetic data generation, using generative AI models like GANs and VAEs offers a promising solution to balance valuable data access and patient privacy protection. In this paper, we examine generative AI models for creating realistic, anonymized patient data for research and training, explore synthetic data applications in healthcare, and discuss its benefits, challenges, and future research directions. Synthetic data has the potential to revolutionize healthcare by providing anonymized patient data while preserving privacy and enabling versatile applications.",
+      "publication_date": "2023-05-09T08:12:44+00:00",
+      "doi": "10.1109/SmartNets58706.2023.10215825",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2305.05247v1"
+    },
+    {
+      "title": "Block MedCare: Advancing healthcare through blockchain integration",
+      "authors": [
+        "Oliver Simonoski",
+        "Dijana Capeska Bogatinoska"
+      ],
+      "abstract": "In an era driven by information exchange, transparency and security hold crucial importance, particularly within the healthcare industry, where data integrity and confidentiality are paramount. This paper investigates the integration of blockchain technology in healthcare, focusing on its potential to revolutionize Electronic Health Records (EHR) management and data sharing. By leveraging Ethereum-based blockchain implementations and smart contracts, we propose a novel system that empowers patients to securely store and manage their medical data. Our research addresses critical challenges in implementing blockchain in healthcare, including scalability, user privacy, and regulatory compliance. We propose a solution that combines digital signatures, Role-Based Access Control, and a multi-layered architecture to enhance security and ensure controlled access. The system's key functions, including user registration, data append, and data retrieval, are facilitated through smart contracts, providing a secure and efficient mechanism for managing health information. To validate our approach, we developed a decentralized application (dApp) that demonstrates the practical implementation of our blockchain-based healthcare solution. The dApp incorporates user-friendly interfaces for patients, doctors, and administrators, showcasing the system's potential to streamline healthcare processes while maintaining data security and integrity. Additionally, we conducted a survey to gain insights into the perceived benefits and challenges of blockchain adoption in healthcare. The results indicate strong interest among healthcare professionals and IT experts, while also highlighting concerns about integration costs and technological complexity. Our findings...",
+      "publication_date": "2024-10-07T17:54:13+00:00",
+      "doi": "10.5121/ijci.2024.130505",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "2410.05251v1"
+    },
+    {
+      "title": "Designing Data Protection for GDPR Compliance into IoT Healthcare   Systems",
+      "authors": [
+        "Florian Kammüller",
+        "Oladapo O. Ogunyanwo",
+        "Christian W. Probst"
+      ],
+      "abstract": "In this paper, we investigate the implications of the General Data Privacy Regulation (GDPR) on the design of an IoT healthcare system. On 25th May 2018, the GDPR has become mandatory within the European Union and hence also for all suppliers of IT products. Infringements on the regulation are now fined with penalties of up 20 Million EUR or 4\\% of the annual turnover of a company whichever is higher. This is a clear motivation for system designers to guarantee compliance to the GDPR. We propose a data labeling model to support access control for privacy-critical patient data together with the Fusion/UML process to design GDPR compliant system. We illustrate this design process on the case study of IoT based monitoring of Alzheimer's patients that we work on in the CHIST-ERA project SUCCESS.",
+      "publication_date": "2019-01-08T18:02:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "1901.02426v1"
+    },
+    {
+      "title": "Healthcare Policy Compliance: A Blockchain Smart Contract-Based Approach",
+      "authors": [
+        "Md Al Amin",
+        "Hemanth Tummala",
+        "Seshamalini Mohan",
+        "Indrajit Ray"
+      ],
+      "abstract": "This paper addresses the critical challenge of ensuring healthcare policy compliance in the context of Electronic Health Records (EHRs). Despite stringent regulations like HIPAA, significant gaps in policy compliance often remain undetected until a data breach occurs. To bridge this gap, we propose a novel blockchain-powered, smart contract-based access control model. This model is specifically designed to enforce patient-provider agreements (PPAs) and other relevant policies, thereby ensuring both policy compliance and provenance. Our approach integrates components of informed consent into PPAs, employing blockchain smart contracts to automate and secure policy enforcement. The authorization module utilizes these contracts to make informed access decisions, recording all actions in a transparent, immutable blockchain ledger. This system not only ensures that policies are rigorously applied but also maintains a verifiable record of all actions taken, thus facilitating an easy audit and proving compliance. We implement this model in a private Ethereum blockchain setup, focusing on maintaining the integrity and lineage of policies and ensuring that audit trails are accurately and securely recorded. The Proof of Compliance (PoC) consensus mechanism enables decentralized, independent auditor nodes to verify compliance status based on the audit trails recorded. Experimental evaluation demonstrates the effectiveness of the proposed model in a simulated healthcare environment. The results show that our approach not only strengthens policy compliance and provenance but also enhances the transparency and accountability of the entire process. In summary, this paper presents a comprehensive, blockchain-based solution to a longstanding problem in healthcare data management, offering a robust framework for ensuring policy compliance and provenance through smart contracts and blockchain technology.",
+      "publication_date": "2023-12-15T21:25:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.10214v1"
+    }
+  ]
+}

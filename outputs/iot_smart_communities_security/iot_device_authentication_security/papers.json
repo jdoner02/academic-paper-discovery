@@ -1,0 +1,96 @@
+{
+  "config_name": "iot_smart_communities_security",
+  "strategy_name": "iot_device_authentication_security",
+  "processed_at": "2025-08-07T16:16:22.117747+00:00",
+  "total_papers": 5,
+  "papers": [
+    {
+      "title": "DSCOT: An NFT-Based Blockchain Architecture for the Authentication of   IoT-Enabled Smart Devices in Smart Cities",
+      "authors": [
+        "Usman Khalil",
+        "Owais Ahmed Malik",
+        "Ong Wee Hong",
+        "Mueen Uddin"
+      ],
+      "abstract": "Smart city architecture brings all the underlying architectures, i.e., Internet of Things (IoT), Cyber-Physical Systems (CPSs), Internet of Cyber-Physical Things (IoCPT), and Internet of Everything (IoE), together to work as a system under its umbrella. The goal of smart city architecture is to come up with a solution that may integrate all the real-time response applications. However, the cyber-physical space poses threats that can jeopardize the working of a smart city where all the data belonging to people, systems, and processes will be at risk. Various architectures based on centralized and distributed mechanisms support smart cities; however, the security concerns regarding traceability, scalability, security services, platform assistance, and resource management persist. In this paper, private blockchain-based architecture Decentralized Smart City of Things (DSCoT) is proposed. It actively utilizes fog computing for all the users and smart devices connected to a fog node in a particular management system in a smart city, i.e., a smart house or hospital, etc. Non-fungible tokens (NFTs) have been utilized for representation to define smart device attributes. NFTs in the proposed DSCoT architecture provide devices and user authentication (IoT) functionality. DSCoT has been designed to provide a smart city solution that ensures robust security features such as Confidentiality, Integrity, Availability (CIA), and authorization by defining new attributes and functions for Owner, User, Fog, and IoT devices authentication. The evaluation of the proposed functions and components in terms of Gas consumption and time complexity has shown promising results. Comparatively, the Gas consumption for minting DSCoT NFT showed approximately 27%, and a DSCoT approve() was approximately 11% more efficient than the PUF-based NFT solution.",
+      "publication_date": "2022-11-09T10:55:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2211.04803v1.pdf"
+    },
+    {
+      "title": "Authentication Devices in Fog-Mobile Edge Computing Environments Through   a Wireless Grid Resource Sharing Protocol",
+      "authors": [
+        "Tyson Brooks"
+      ],
+      "abstract": "The rapid growth of the Internet of Things (IoT), cloud computing, Fog computing, mobile edge computing and wireless grids has resulted in the widespread deployment of relatively immature technology. These technologies, which will primarily use 5G wireless communication networks, are becoming popular because they can be deployed quickly with little infrastructure and lends themselves to environments utilizing numerous internet connected devices (ICD). Because of the threat of exploitation, these networks have to be protected by a robust security architecture due to these technologies being plagued with security problems. The authentication of smart ICDs to IoT networks is a critical mechanism for achieving security on these new information system platforms. This article identifies an authentication process required for these ICDs, which will need to prove their identity to authenticate to an IoT fog-mobile edge computing (FMEC) cloud network through a wireless grid authentication process. The purpose of this article is to hypothesize a generic authentication methodology for these FMEC clouds uses in an IoT architecture. The proposed methodology, called wg-IoT, must include the integration of Fog computing, wireless grids and mobile edge computing clouds to create this new IoT architecture. An authentication process developed from the resource sharing protocol (RSP) from a wireless grid is first developed and proposed for the authentication of ICDs. The wireless grid core components must be embedded in IoT devices or sensors depending on their capability to handle five primary functions: management of identification [ID] and presence, permissions management, data transferability, application-programming interface [API] and security.",
+      "publication_date": "2022-07-05T18:02:17+00:00",
+      "doi": "10.5121/iju.2022.13201",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2207.03346v1.pdf"
+    },
+    {
+      "title": "Two Phase Authentication and VPN Based Secured Communication for IoT   Home Networks",
+      "authors": [
+        "Md Masuduzzaman",
+        "Ashik Mahmud",
+        "Anik Islam",
+        "Md Mofijul Islam"
+      ],
+      "abstract": "With the advancement of technology, devices, which are considered non-traditional in terms of internet capabilities, are now being embedded in microprocessors to communicate and these devices are known as IoT devices. This technology has enabled household devices to have the ability to communicate with the internet and a network comprising of such device can create a home IoT network. Such IoT devices are resource constrained and lack high-level security protocols. Thus, security becomes a major issue for such network systems. One way to secure the networks is through reliable authentication protocols and data transfer mechanism. As the household devices are controllable by the users remotely, they are accessed over the internet. Therefore, there should also be a method to make the communication over the internet between IoT devices and the users more secured. This paper proposes a two-phase authentication protocol for authentication purposes and a VPN based secure channel creation for the communication of the devices in the network. Furthermore, the paper discusses the Elliptic Curve Cryptography as a viable alternative to RSA for a more efficient Key exchange mechanism for low-powered IoT devices in the network.",
+      "publication_date": "2019-10-30T02:18:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1910.13625v1.pdf"
+    },
+    {
+      "title": "IoT based Smart Access Controlled Secure Smart City Architecture Using   Blockchain",
+      "authors": [
+        "Rourab Paul",
+        "Nimisha Ghosh",
+        "Suman Sau",
+        "Amlan Chakrabarti",
+        "Prasant Mahapatra"
+      ],
+      "abstract": "Standard security protocols like SSL, TLS, IPSec etc. have high memory and processor consumption which makes all these security protocols unsuitable for resource constrained platforms such as Internet of Things (IoT). Blockchain (BC) finds its efficient application in IoT platform to preserve the five basic cryptographic primitives, such as confidentiality, authenticity, integrity, availability and non-repudiation. Conventional adoption of BC in IoT platform causes high energy consumption, delay and computational overhead which are not appropriate for various resource constrained IoT devices. This work proposes a machine learning (ML) based smart access control framework in a public and a private BC for a smart city application which makes it more efficient as compared to the existing IoT applications. The proposed IoT based smart city architecture adopts BC technology for preserving all the cryptographic security and privacy issues. Moreover, BC has very minimal overhead on IoT platform as well. This work investigates the existing threat models and critical access control issues which handle multiple permissions of various nodes and detects relevant inconsistencies to notify the corresponding nodes. Comparison in terms of all security issues with existing literature shows that the proposed architecture is competitively efficient in terms of security access control.",
+      "publication_date": "2019-08-30T05:37:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1908.11538v3.pdf"
+    },
+    {
+      "title": "Reconfigurable Security: Edge Computing-based Framework for IoT",
+      "authors": [
+        "Ruei-Hau Hsu",
+        "Jemin Lee",
+        "Tony Q. S. Quek",
+        "Jyh-Cheng Chen"
+      ],
+      "abstract": "In various scenarios, achieving security between IoT devices is challenging since the devices may have different dedicated communication standards, resource constraints as well as various applications. In this article, we first provide requirements and existing solutions for IoT security. We then introduce a new reconfigurable security framework based on edge computing, which utilizes a near-user edge device, i.e., security agent, to simplify key management and offload the computational costs of security algorithms at IoT devices. This framework is designed to overcome the challenges including high computation costs, low flexibility in key management, and low compatibility in deploying new security algorithms in IoT, especially when adopting advanced cryptographic primitives. We also provide the design principles of the reconfigurable security framework, the exemplary security protocols for anonymous authentication and secure data access control, and the performance analysis in terms of feasibility and usability. The reconfigurable security framework paves a new way to strength IoT security by edge computing.",
+      "publication_date": "2017-09-19T01:53:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1709.06223v1.pdf"
+    }
+  ]
+}

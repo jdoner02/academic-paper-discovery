@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset",
+  "paper_title": "Enhanced Anomaly Detection in IoMT Networks using Ensemble AI Models on the CICIoMT2024 Dataset",
+  "concepts": [
+    {
+      "text": "detection",
+      "frequency": 59,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578328+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iomt",
+      "frequency": 88,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 87,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anomaly detection",
+      "frequency": 42,
+      "relevance_score": 0.9714915503306392,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.644797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ensemble",
+      "frequency": 46,
+      "relevance_score": 0.9449669360764144,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anomaly",
+      "frequency": 45,
+      "relevance_score": 0.9265980896399705,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lstm",
+      "frequency": 41,
+      "relevance_score": 0.8531227038941954,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.589359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 35,
+      "relevance_score": 0.7429096252755326,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.585854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cnn -lstm",
+      "frequency": 23,
+      "relevance_score": 0.7224834680382072,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.649564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi -protocol",
+      "frequency": 13,
+      "relevance_score": 0.6887950036737693,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.648059+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cnn",
+      "frequency": 32,
+      "relevance_score": 0.6878030859662012,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.589528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciciomt2024",
+      "frequency": 25,
+      "relevance_score": 0.6592211609110947,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.579125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "were",
+      "frequency": 29,
+      "relevance_score": 0.6326965466568699,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.624371+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cnn -lstm models",
+      "frequency": 4,
+      "relevance_score": 0.6234753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.676006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-lstm",
+      "frequency": 23,
+      "relevance_score": 0.6224834680382072,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.589683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ensemble ai models",
+      "frequency": 9,
+      "relevance_score": 0.6153196179279942,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.672965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi - protocol",
+      "frequency": 3,
+      "relevance_score": 0.6051065393093313,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.679292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "isolation",
+      "frequency": 27,
+      "relevance_score": 0.5959588537839824,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.590564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-protocol",
+      "frequency": 13,
+      "relevance_score": 0.5887950036737694,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.585365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "including multi -protocol",
+      "frequency": 2,
+      "relevance_score": 0.5867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.676627+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-lstm models were",
+      "frequency": 2,
+      "relevance_score": 0.5867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.679137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 26,
+      "relevance_score": 0.5775900073475386,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.578643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "isolation forest",
+      "frequency": 20,
+      "relevance_score": 0.5673769287288759,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.649900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lstm cnn -lstm",
+      "frequency": 9,
+      "relevance_score": 0.5653196179279941,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.675852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 25,
+      "relevance_score": 0.5592211609110948,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.587319+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciciomt2024 datase t",
+      "frequency": 8,
+      "relevance_score": 0.5469507714915502,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.676472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 24,
+      "relevance_score": 0.540852314474651,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.593385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models were",
+      "frequency": 10,
+      "relevance_score": 0.533688464364438,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.664649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iomt networks",
+      "frequency": 18,
+      "relevance_score": 0.5306392358559883,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.644954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-lstm models",
+      "frequency": 4,
+      "relevance_score": 0.5234753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.653461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- protocol",
+      "frequency": 4,
+      "relevance_score": 0.5234753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.664959+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models were trained",
+      "frequency": 4,
+      "relevance_score": 0.5234753857457751,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.678980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "time -series",
+      "frequency": 12,
+      "relevance_score": 0.5204261572373255,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.648560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ai models",
+      "frequency": 9,
+      "relevance_score": 0.5153196179279942,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.645266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 14,
+      "relevance_score": 0.5071638501102131,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.593074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "isolation forest models",
+      "frequency": 3,
+      "relevance_score": 0.5051065393093314,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.678671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forest models were",
+      "frequency": 3,
+      "relevance_score": 0.5051065393093314,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.678826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ml models",
+      "frequency": 8,
+      "relevance_score": 0.4969507714915503,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.647891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ai ml models",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.674269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning models",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.676782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ensemble stacking models",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.678336+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anomaly detection models",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.679447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sequential models lstm",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.680078+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models lstm cnn",
+      "frequency": 2,
+      "relevance_score": 0.4867376928728876,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.680231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long short -term",
+      "frequency": 4,
+      "relevance_score": 0.4734753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.674913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "short -term memory",
+      "frequency": 4,
+      "relevance_score": 0.4734753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.675068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cnn - lstm",
+      "frequency": 4,
+      "relevance_score": 0.4734753857457752,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.676937+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi",
+      "frequency": 20,
+      "relevance_score": 0.4673769287288758,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.585208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forest",
+      "frequency": 20,
+      "relevance_score": 0.4673769287288758,
+      "source_papers": [
+        "local/Enhanced_Anomaly_Detection_in_IoMT_Networks_using_Ensemble_AI_Models_on_the_CICIoMT2024_Dataset"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:39.590727+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:39.680859+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:39.681089+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

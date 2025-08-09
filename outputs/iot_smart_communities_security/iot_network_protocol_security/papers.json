@@ -1,0 +1,312 @@
+{
+  "config_name": "iot_smart_communities_security",
+  "strategy_name": "iot_network_protocol_security",
+  "processed_at": "2025-08-07T09:28:29.767212+00:00",
+  "total_papers": 18,
+  "papers": [
+    {
+      "title": "Predictive-CSM: Lightweight Fragment Security for 6LoWPAN IoT Networks",
+      "authors": [
+        "Somayeh Sobati-M"
+      ],
+      "abstract": "Fragmentation is a routine part of communication in 6LoWPAN-based IoT networks,   designed to accommodate small frame sizes on constrained wireless links. However, this process   introduces a critical vulnerability fragments are typically stored and processed before their   legitimacy is confirmed, allowing attackers to exploit this gap with minimal effort.   In this work, we explore a defense strategy that takes a more adaptive, behavior-aware approach to this problem. Our system, called Predictive-CSM, introduces a combination of two   lightweight mechanisms. The first tracks how each node behaves over time, rewarding consistent   and successful interactions while quickly penalizing suspicious or failing patterns. The second   checks the integrity of packet fragments using a chained hash, allowing incomplete or manipulated sequences to be caught early, before they can occupy memory or waste processing time.   We put this system to the test using a set of targeted attack simulations, including early fragment injection, replayed headers, and flooding with fake data. Across all scenarios, Predictive CSM preserved network delivery and maintained energy efficiency, even under pressure. Rather   than relying on heavyweight cryptography or rigid filters, this approach allows constrained de vices to adapt their defenses in real time based on what they observe, not just what they're   told. In that way, it offers a step forward for securing fragmented communication in real world   IoT systems",
+      "publication_date": "2025-06-02T15:15:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2506.01767v1.pdf"
+    },
+    {
+      "title": "Dialects for CoAP-like Messaging Protocols",
+      "authors": [
+        "Carolyn Talcott"
+      ],
+      "abstract": "Messaging protocols for resource limited systems such as distributed IoT systems are often vulnerable to attacks due to security choices made to conserve resources such as time, memory, or bandwidth. For example, use of secure layers such as DTLS are resource expensive and can sometimes cause service disruption. Protocol dialects are intended as a light weight, modular mechanism to provide selected security guarantees, such as authentication. In this report we study the CoAP messaging protocol and define two attack models formalizing different vulnerabilities. We propose a generic dialect for CoAP messaging. The CoAP protocol, dialect, and attack models are formalized in the rewriting logic system Maude. A number of case studies are reported illustrating vulnerabilities and effects of applying the dialect. We also prove (stuttering) bisimulations between CoAP messaging applications and dialected versions, thus ensuring that dialecting preserves LTL properties (without Next) of CoAP applications. To support search for attacks in complex messaging situations we specify a simple application layer to drive the CoAP messaging and generalize the attack model to support a form of symbolic search for attacks. Two case studies are presented to illustrate the more general attack search.",
+      "publication_date": "2024-05-22T02:25:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2405.13295v2.pdf"
+    },
+    {
+      "title": "Grain-128PLE: Generic Physical-Layer Encryption for IoT Networks",
+      "authors": [
+        "Marcus de Ree",
+        "Georgios Mantas",
+        "Jonathan Rodriguez"
+      ],
+      "abstract": "Physical layer security (PLS) encompasses techniques proposed at the physical layer to achieve information security objectives while requiring a minimal resource footprint. The channel coding-based secrecy and signal modulation-based encryption approaches are reliant on certain channel conditions or a certain communications protocol stack to operate on, which prevents them from being a generic solution. This paper presents Grain-128PLE, a lightweight physical layer encryption (PLE) scheme that is derived from the Grain-128AEAD v2 stream cipher. The Grain-128PLE stream cipher performs encryption and decryption at the physical layer, in between the channel coding and signal modulation processes. This placement, like that of the A5 stream cipher that had been used in the GSM communications standard, makes it a generic solution for providing data confidentiality in IoT networks. The design of Grain-128PLE maintains the structure of the main building blocks of the original Grain-128AEAD v2 stream cipher, evaluated for its security strength during NIST's recent Lightweight Cryptography competition, and is therefore expected to achieve similar levels of security.",
+      "publication_date": "2023-09-27T10:48:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2309.15569v1.pdf"
+    },
+    {
+      "title": "BLEND: Efficient and blended IoT data storage and communication with   application layer security",
+      "authors": [
+        "Joel Höglund",
+        "Shahid Raza"
+      ],
+      "abstract": "Many IoT use cases demand both secure storage and secure communication. Resource-constrained devices cannot afford having one set of crypto protocols for storage and another for communication. Lightweight application layer security standards are being developed for IoT communication. Extending these protocols for secure storage can significantly reduce communication latency and local processing.   We present BLEND, combining secure storage and communication by storing IoT data as pre-computed encrypted network packets. Unlike local methods, BLEND not only eliminates separate crypto for secure storage needs, but also eliminates a need for real-time crypto operations, reducing the communication latency significantly. Our evaluation shows that compared with a local solution, BLEND reduces send latency from 630 microseconds to 110 microseconds per packet. BLEND enables PKI based key management while being sufficiently lightweight for IoT. BLEND doesn't need modifications to communication standards used when extended for secure storage, and can therefore preserve underlying protocols' security guarantees.",
+      "publication_date": "2023-06-28T20:28:34+00:00",
+      "doi": "10.1109/CSR54599.2022.9850290",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2306.16540v1.pdf"
+    },
+    {
+      "title": "A Hybrid Algorithm to Enhance Wireless Sensor Networks security on the   IoT",
+      "authors": [
+        "Ntebatseng Mahlake",
+        "Topside E. Mathonsi",
+        "Tonderai Muchenje",
+        "Deon Du Plessis"
+      ],
+      "abstract": "The Internet of Things (IoT) is a futuristic technology that promises to connect tons of devices via the internet. As more individuals connect to the internet, it is believed that communication will generate mountains of data. IoT is currently leveraging Wireless Sensor Networks (WSNs) to collect, monitor, and transmit data and sensitive data across wireless networks using sensor nodes. WSNs encounter a variety of threats posed by attackers, including unauthorized access and data security. Especially in the context of the Internet of Things, where small embedded devices with limited computational capabilities, such as sensor nodes, are expected to connect to a larger network. As a result, WSNs are vulnerable to a variety of attacks. Furthermore, implementing security is time-consuming and selective, as traditional security algorithms degrade network performance due to their computational complexity and inherent delays. This paper describes an encryption algorithm that combines the Secure IoT (SIT) algorithm with the Security Protocols for Sensor Networks (SPINS) security protocol to create the Lightweight Security Algorithm (LSA), which addresses data security concerns while reducing power consumption in WSNs without sacrificing performance.",
+      "publication_date": "2023-03-25T11:39:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2303.14445v1.pdf"
+    },
+    {
+      "title": "Machine and Deep Learning for IoT Security and Privacy: Applications,   Challenges, and Future Directions",
+      "authors": [
+        "Subrato Bharati",
+        "Prajoy Podder"
+      ],
+      "abstract": "The integration of the Internet of Things (IoT) connects a number of intelligent devices with a minimum of human interference that can interact with one another. IoT is rapidly emerging in the areas of computer science. However, new security problems were posed by the cross-cutting design of the multidisciplinary elements and IoT systems involved in deploying such schemes. Ineffective is the implementation of security protocols, i.e., authentication, encryption, application security, and access network for IoT systems and their essential weaknesses in security. Current security approaches can also be improved to protect the IoT environment effectively. In recent years, deep learning (DL)/ machine learning (ML) has progressed significantly in various critical implementations. Therefore, DL/ML methods are essential to turn IoT systems protection from simply enabling safe contact between IoT systems to intelligence systems in security. This review aims to include an extensive analysis of ML systems and state-of-the-art developments in DL methods to improve enhanced IoT device protection methods. On the other hand, various new insights in machine and deep learning for IoT Securities illustrate how it could help future research. IoT protection risks relating to emerging or essential threats are identified, as well as future IoT device attacks and possible threats associated with each surface. We then carefully analyze DL and ML IoT protection approaches and present each approach's benefits, possibilities, and weaknesses. This review discusses a number of potential challenges and limitations. The future works, recommendations, and suggestions of DL/ML in IoT security are also included.",
+      "publication_date": "2022-10-24T19:02:27+00:00",
+      "doi": "10.1155/2022/8951961",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2210.13547v1.pdf"
+    },
+    {
+      "title": "Securing name resolution in the IoT: DNS over CoAP",
+      "authors": [
+        "Martine S. Lenders",
+        "Christian Amsüss",
+        "Cenk Gündogan",
+        "Marcin Nawrocki",
+        "Thomas C. Schmidt",
+        "Matthias Wählisch"
+      ],
+      "abstract": "In this paper, we present the design, implementation, and analysis of DNS over CoAP (DoC), a new proposal for secure and privacy-friendly name resolution of constrained IoT devices. We implement different design choices of DoC in RIOT, an open-source operating system for the IoT, evaluate performance measures in a testbed, compare with DNS over UDP and DNS over DTLS, and validate our protocol design based on empirical DNS IoT data. Our findings indicate that plain DoC is on par with common DNS solutions for the constrained IoT but significantly outperforms when additional standard features of CoAP are used such as caching. With OSCORE, we can save more than 10 kBytes of code memory compared to DTLS, when a CoAP application is already present, and retain the end-to-end trust chain with intermediate proxies, while leveraging features such as group communication or encrypted en-route caching. We also discuss a compression scheme for very restricted links that reduces data by up to 70%.",
+      "publication_date": "2022-07-15T14:10:53+00:00",
+      "doi": "10.1145/3609423",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2207.07486v3.pdf"
+    },
+    {
+      "title": "IoT Security Challenges and Mitigations: An Introduction",
+      "authors": [
+        "Stuart Millar"
+      ],
+      "abstract": "The use of IoT in society is perhaps already ubiquitous, with a vast attack surface offering multiple opportunities for malicious actors. This short paper first presents an introduction to IoT and its security issues, including an overview of IoT layer models and topologies, IoT standardisation efforts and protocols. The focus then moves to IoT vulnerabilities and specific suggestions for mitigations. This work's intended audience are those relatively new to IoT though with existing network-related knowledge. It is concluded that device resource constraints and a lack of IoT standards are significant issues. Research opportunities exist to develop efficient IoT IDS and energy-saving cryptography techniques lightweight enough to reasonably deploy. The need for standardised protocols and channel-based security solutions is clear, underpinned by legislative directives to ensure high standards that prevent cost-cutting on the device manufacturing side.",
+      "publication_date": "2021-12-29T16:11:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2112.14618v1.pdf"
+    },
+    {
+      "title": "Integrating 6LoWPAN Security with RPL Using The Chained Secure Mode   Framework",
+      "authors": [
+        "Ahmed Raoof",
+        "Chung-Horng Lung",
+        "Ashraf Matrawy"
+      ],
+      "abstract": "The IPv6 over Low-powered Wireless Personal Area Network (6LoWPAN) protocol was introduced to allow the transmission of Internet Protocol version 6 (IPv6) packets using the smaller-size frames of the IEEE 802.15.4 standard, which is used in many Internet of Things (IoT) networks. The primary duty of the 6LoWPAN protocol is packet fragmentation and reassembly. However, the protocol standard currently does not include any security measures, not even authenticating the fragments immediate sender. This lack of immediate-sender authentication opens the door for adversaries to launch several attacks on the fragmentation process, such as the buffer-reservation attacks that lead to a Denial of Service (DoS) attack and resource exhaustion of the victim nodes. This paper proposes a security integration between 6LoWPAN and the Routing Protocol for Low Power and Lossy Networks (RPL) through the Chained Secure Mode (CSM) framework as a possible solution. Since the CSM framework provides a mean of immediate-sender trust, through the use of Network Coding (NC), and an integration interface for the other protocols (or mechanisms) to use this trust to build security decisions, 6LoWPAN can use this integration to build a chain-of-trust along the fragments routing path. A proof-of-concept implementation was done in Contiki Operating System (OS), and its security and performance were evaluated against an external adversary launching a buffer-reservation attack. The results from the evaluation showed significant mitigation of the attack with almost no increase in power consumption, which presents the great potential for such integration to secure the forwarding process at the 6LoWPAN Adaptation Layer",
+      "publication_date": "2021-04-29T15:40:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2104.14422v1.pdf"
+    },
+    {
+      "title": "Finding Security Vulnerabilities in IoT Cryptographic Protocol and   Concurrent Implementations",
+      "authors": [
+        "Fatimah Aljaafari",
+        "Rafael Menezes",
+        "Mustafa A. Mustafa",
+        "Lucas C. Cordeiro"
+      ],
+      "abstract": "Internet of Things (IoT) consists of a large number of devices connected through a network, which exchange a high volume of data, thereby posing new security, privacy, and trust issues. One way to address these issues is ensuring data confidentiality using lightweight encryption algorithms for IoT protocols. However, the design and implementation of such protocols is an error-prone task; flaws in the implementation can lead to devastating security vulnerabilities. Here we propose a new verification approach named Encryption-BMC and Fuzzing (EBF), which combines Bounded Model Checking (BMC) and Fuzzing techniques to check for security vulnerabilities that arise from concurrent implementations of cyrptographic protocols, which include data race, thread leak, arithmetic overflow, and memory safety. EBF models IoT protocols as a client and server using POSIX threads, thereby simulating both entities' communication. It also employs static and dynamic verification to cover the system's state-space exhaustively. We evaluate EBF against three benchmarks. First, we use the concurrency benchmark from SV-COMP and show that it outperforms other state-of-the-art tools such as ESBMC, AFL, Lazy-CSeq, and TSAN with respect to bug finding. Second, we evaluate an open-source implementation called WolfMQTT. It is an MQTT client implementation that uses the WolfSSL library. We show that \\tool detects a data race bug, which other approaches are unable to find. Third, to show the effectiveness of EBF, we replicate some known vulnerabilities in OpenSSL and CyaSSL (lately WolfSSL) libraries. EBF can detect the bugs in minimum time.",
+      "publication_date": "2021-03-21T11:08:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2103.11363v2.pdf"
+    },
+    {
+      "title": "Low-Power IoT Communication Security: On the Performance of DTLS and TLS   1.3",
+      "authors": [
+        "Gabriele Restuccia",
+        "Hannes Tschofenig",
+        "Emmanuel Baccelli"
+      ],
+      "abstract": "Similarly to elsewhere on the Internet, practical security in the Internet of Things (IoT) is achieved by combining an array of mechanisms, at work at all layers of the protocol stack, in system software, and in hardware. Standard protocols such as Datagram Transport Layer Security (DTLS 1.2) and Transport Layer Security (TLS 1.2) are often recommended to secure communications to/from IoT devices. Recently, the TLS 1.3 standard was released and DTLS 1.3 is in the final stages of standardization. In this paper, we give an overview of version 1.3 of these protocols, and we provide the first experimental comparative performance analysis of different implementations and various configurations of these protocols, on real IoT devices based on low-power microcontrollers. We show how different implementations lead to different compromises. We measure and compare bytes-over-the-air, memory footprint, and energy consumption. We show that, when DTLS/TLS 1.3 requires more resources than DTLS/TLS 1.2, this additional overhead is quite reasonable. We also observe that, in some configurations, DTLS/TLS 1.3 actually decreases overhead and resource consumption. All in all, our study indicates that there is still room to optimize the existing implementations of these protocols.",
+      "publication_date": "2020-11-24T11:27:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2011.12035v2.pdf"
+    },
+    {
+      "title": "Rethinking IoT Security: A Protocol Based on Blockchain Smart Contracts   for Secure and Automated IoT Deployments",
+      "authors": [
+        "John Wickström",
+        "Magnus Westerlund",
+        "Göran Pulkkis"
+      ],
+      "abstract": "Proliferation of IoT devices in society demands a renewed focus on securing the use and maintenance of such systems. IoT-based systems will have a great impact on society and therefore such systems must have guaranteed resilience. We introduce cryptographic-based building blocks that strive to ensure that distributed IoT networks remain in a healthy condition throughout their lifecycle. Our presented solution utilizes deterministic and interlinked smart contracts on the Ethereum blockchain to enforce secured management and maintenance for hardened IoT devices. A key issue investigated is the protocol development for securing IoT device deployments and means for communicating securely with devices. By supporting values of openness, automation, and provenance, we can introduce novel means that reduce the threats of surveillance and theft, while also improving operator accountability and trust in IoT technology.",
+      "publication_date": "2020-07-06T11:20:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2007.02652v1.pdf"
+    },
+    {
+      "title": "Machine Learning Based IoT Intrusion Detection System: An MQTT Case   Study (MQTT-IoT-IDS2020 Dataset)",
+      "authors": [
+        "Hanan Hindy",
+        "Ethan Bayne",
+        "Miroslav Bures",
+        "Robert Atkinson",
+        "Christos Tachtatzis",
+        "Xavier Bellekens"
+      ],
+      "abstract": "The Internet of Things (IoT) is one of the main research fields in the Cybersecurity domain. This is due to (a) the increased dependency on automated device, and (b) the inadequacy of general purpose Intrusion Detection Systems (IDS) to be deployed for special purpose networks usage. Numerous lightweight protocols are being proposed for IoT devices communication usage. One of the distinguishable IoT machine-to-machine communication protocols is Message Queuing Telemetry Transport (MQTT) protocol. However, as per the authors best knowledge, there are no available IDS datasets that include MQTT benign or attack instances and thus, no IDS experimental results available. In this paper, the effectiveness of six Machine Learning (ML) techniques to detect MQTT-based attacks is evaluated. Three abstraction levels of features are assessed, namely, packet-based, unidirectional flow, and bidirectional flow features. An MQTT simulated dataset is generated and used for the training and evaluation processes. The dataset is released with an open access licence to help the research community further analyse the accompanied challenges. The experimental results demonstrated the adequacy of the proposed ML models to suit MQTT-based networks IDS requirements. Moreover, the results emphasise on the importance of using flow-based features to discriminate MQTT-based attacks from benign traffic, while packet-based features are sufficient for traditional networking attacks.",
+      "publication_date": "2020-06-27T11:31:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2006.15340v3.pdf"
+    },
+    {
+      "title": "Performance Analysis of the Hybrid IoT Security Model of MQTT and UMA",
+      "authors": [
+        "Khalid S. Aloufi",
+        "Omar H. Alhazmi"
+      ],
+      "abstract": "IoT applications are promising for future daily activities; therefore, the number of IoT connected devices is expected to reach billions in the coming few years. However, IoT has different application frameworks. Furthermore, IoT applications require higher security standards. In this work, an IoT application framework is presented with a security embedded structure using the integration between message queue telemetry transport (MQTT) and user managed access (UMA). The performance analysis of the model is presented. Comparing the model with existing models and different design structures shows that the model presented in this work is promising for a functioning IoT design model with security. The security in the model is a built-in feature in its structure. The model is built on recommended frameworks; therefore, it is ready for integration with other web standards for data sharing, which will help in making IoT application integrated from different developing parties.",
+      "publication_date": "2020-04-26T12:13:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2005.06595v1.pdf"
+    },
+    {
+      "title": "Verifying Software Vulnerabilities in IoT Cryptographic Protocols",
+      "authors": [
+        "Fatimah Aljaafari",
+        "Lucas C. Cordeiro",
+        "Mustafa A. Mustafa"
+      ],
+      "abstract": "Internet of Things (IoT) is a system that consists of a large number of smart devices connected through a network. The number of these devices is increasing rapidly, which creates a massive and complex network with a vast amount of data communicated over that network. One way to protect this data in transit, i.e., to achieve data confidentiality, is to use lightweight encryption algorithms for IoT protocols. However, the design and implementation of such protocols is an error-prone task; flaws in the implementation can lead to devastating security vulnerabilities. These vulnerabilities can be exploited by an attacker and affect users' privacy. There exist various techniques to verify software and detect vulnerabilities. Bounded Model Checking (BMC) and Fuzzing are useful techniques to check the correctness of a software system concerning its specifications. Here we describe a framework called Encryption-BMC and Fuzzing (EBF) using combined BMC and fuzzing techniques. We evaluate the application of EBF verification framework on a case study, i.e., the S-MQTT protocol, to check security vulnerabilities in cryptographic protocols for IoT.",
+      "publication_date": "2020-01-27T15:03:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2001.09837v1.pdf"
+    },
+    {
+      "title": "Towards Secure IoT: Securing Messages Dissemination in Intelligent   Traffic Systems",
+      "authors": [
+        "Jawdat Alshaer"
+      ],
+      "abstract": "A few years ago, Automotive area in the IoT was seen as theoretical concept and today we are already seeing the possibilities of not only driverless cars, but applications of IoT in the intelligent vehicles including parking, maintaining environment, protecting lives and smoothing the flow vehicle movements. We have realized the urgent need of using simple and efficient secure protocol in Vehicular Ad Hoc Network (VANET) to be practical in the fast mobility of the network nodes, and taking advantage of the existence of base stations gateways along the road to inherit the protocol to different VANETs, this will reduce the initialization of communication overhead time and the security keys initialization each time a node passes to new base station zone. In this research, we applied security protocol used in sensor networks to achieve security in VANET, the simulation analysis shows that secure practical communication is achieved which can be inherited to other sub VANETs. The contribution of this article is enhancing proposed protocols with as less cryptography computation overhead as possible to make it applicable in the high mobility nature of VANET using security primitives; which guarantees security while allowing fast authenticating during vehicle passing one VANET to the next one depending on its direction in the transportation networks.",
+      "publication_date": "2019-07-23T07:03:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1907.09719v1.pdf"
+    },
+    {
+      "title": "DTLS Performance - How Expensive is Security?",
+      "authors": [
+        "Sebastian Gallenmüller",
+        "Dominik Schöffmann",
+        "Dominik Scholz",
+        "Fabien Geyer",
+        "Georg Carle"
+      ],
+      "abstract": "Secure communication is an integral feature of many Internet services. The widely deployed TLS protects reliable transport protocols. DTLS extends TLS security services to protocols relying on plain UDP packet transport, such as VoIP or IoT applications. In this paper, we construct a model to determine the performance of generic DTLS-enabled applications. Our model considers basic network characteristics, e.g., number of connections, and the chosen security parameters, e.g., the encryption algorithm in use. Measurements are presented demonstrating the applicability of our model. These experiments are performed using a high-performance DTLS-enabled VPN gateway built on top of the well-established libraries DPDK and OpenSSL. This VPN solution represents the most essential parts of DTLS, creating a DTLS performance baseline. Using this baseline the model can be extended to predict even more complex DTLS protocols besides the measured VPN. Code and measured data used in this paper are publicly available at https://git.io/MoonSec and https://git.io/Sdata.",
+      "publication_date": "2019-04-25T15:57:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1904.11423v1.pdf"
+    },
+    {
+      "title": "Implementation and Analysis of QUIC for MQTT",
+      "authors": [
+        "Puneet Kumar",
+        "Behnam Dezfouli"
+      ],
+      "abstract": "Transport and security protocols are essential to ensure reliable and secure communication between two parties. For IoT applications, these protocols must be lightweight, since IoT devices are usually resource constrained. Unfortunately, the existing transport and security protocols -- namely TCP/TLS and UDP/DTLS -- fall short in terms of connection overhead, latency, and connection migration when used in IoT applications. In this paper, after studying the root causes of these shortcomings, we show how utilizing QUIC in IoT scenarios results in a higher performance. Based on these observations, and given the popularity of MQTT as an IoT application layer protocol, we integrate MQTT with QUIC. By presenting the main APIs and functions developed, we explain how connection establishment and message exchange functionalities work. We evaluate the performance of MQTTw/QUIC versus MQTTw/TCP using wired, wireless, and long-distance testbeds. Our results show that MQTTw/QUIC reduces connection overhead in terms of the number of packets exchanged with the broker by up to 56%. In addition, by eliminating half-open connections, MQTTw/QUIC reduces processor and memory usage by up to 83% and 50%, respectively. Furthermore, by removing the head-of-line blocking problem, delivery latency is reduced by up to 55%. We also show that the throughput drops experienced by MQTTw/QUIC when a connection migration happens is considerably lower than that of MQTTw/TCP.",
+      "publication_date": "2018-10-17T18:28:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1810.07730v2.pdf"
+    }
+  ]
+}

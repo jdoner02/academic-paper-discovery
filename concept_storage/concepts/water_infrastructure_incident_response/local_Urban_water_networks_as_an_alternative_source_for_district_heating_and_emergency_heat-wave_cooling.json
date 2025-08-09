@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling",
+  "paper_title": "Urban water networks as an alternative source for district heating and emergency heat-wave cooling",
+  "concepts": [
+    {
+      "text": "water",
+      "frequency": 119,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.526824+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy",
+      "frequency": 78,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.530758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heat",
+      "frequency": 124,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.533863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recovery",
+      "frequency": 77,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.534067+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cooling",
+      "frequency": 64,
+      "relevance_score": 0.9952301021121834,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.528738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "temperature",
+      "frequency": 56,
+      "relevance_score": 0.8833263393481605,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.540774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heating",
+      "frequency": 41,
+      "relevance_score": 0.6735067841656176,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.528103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heat recovery",
+      "frequency": 32,
+      "relevance_score": 0.6476150510560917,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.647960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cold recovery",
+      "frequency": 31,
+      "relevance_score": 0.6336270807105888,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.648566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heat exchanger",
+      "frequency": 28,
+      "relevance_score": 0.5916631696740803,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.665475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paris",
+      "frequency": 35,
+      "relevance_score": 0.5895789620926004,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.529345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cold",
+      "frequency": 34,
+      "relevance_score": 0.5755909917470975,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.534677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 23,
+      "relevance_score": 0.571723317946566,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.534268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "urban",
+      "frequency": 30,
+      "relevance_score": 0.519639110365086,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.526481+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heat recovery system",
+      "frequency": 4,
+      "relevance_score": 0.5059518813820114,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.702721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exchanger",
+      "frequency": 28,
+      "relevance_score": 0.4916631696740803,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.585695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "open loop system",
+      "frequency": 2,
+      "relevance_score": 0.4779759406910057,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.705147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing sewer system",
+      "frequency": 2,
+      "relevance_score": 0.4779759406910057,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.705754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mains",
+      "frequency": 27,
+      "relevance_score": 0.4776751993285775,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.540573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pavement-watering",
+      "frequency": 19,
+      "relevance_score": 0.46577143656455444,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.539556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "total",
+      "frequency": 25,
+      "relevance_score": 0.44969925863757176,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.548351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 14,
+      "relevance_score": 0.4458315848370401,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.556833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑇 𝑇 𝑇-",
+      "frequency": 3,
+      "relevance_score": 0.44196391103650856,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.706155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-potable water network",
+      "frequency": 3,
+      "relevance_score": 0.44196391103650856,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.716757+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-potable water",
+      "frequency": 10,
+      "relevance_score": 0.4398797034550287,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.648770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emergency heat-wave cooling",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.701714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "june 2017 heat-wave",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.703731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-potable water mains",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.704545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w m-2 k-1",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.705954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t-eq co2 mwh",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.707963+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "204 t-eq co2",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.708163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "799 t-eq co2",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.708362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exchanger circulator water-to-water",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.709610+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "flow rate m3",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.709811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate m3 h",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.710010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "temperature c 26",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.710613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 26 cooling",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.710814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 cooling load",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.711014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "difference c 4",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.713446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 4 source-side",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.713646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 source-side heat",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.713847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "source-side heat exchanger",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.714047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "temperature c 20",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.714893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c 20 potable",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.715093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 potable water",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.715294+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "increase c 1",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.716115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 41 mm",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.717185+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "41 mm h",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.717400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "total pavement-watering cooling",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.717614+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "200 m long",
+      "frequency": 2,
+      "relevance_score": 0.42797594069100575,
+      "source_papers": [
+        "local/Urban_water_networks_as_an_alternative_source_for_district_heating_and_emergency_heat-wave_cooling"
+      ],
+      "source_domain": "water_infrastructure_incident_response",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:28:44.717828+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:28:44.720147+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:28:44.720329+00:00",
+    "repository_version": "1.0",
+    "domain": "water_infrastructure_incident_response"
+  }
+}

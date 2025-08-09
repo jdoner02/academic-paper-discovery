@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp...",
+  "paper_title": "Near Threshold Computation of Partitioned Ring Learning With Error  RLWE  Post Quantum Cryptograp...",
+  "concepts": [
+    {
+      "text": "rlwe",
+      "frequency": 65,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.922025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 58,
+      "relevance_score": 0.9286898128304043,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.931927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster",
+      "frequency": 46,
+      "relevance_score": 0.7572367481068724,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.935984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vccint",
+      "frequency": 45,
+      "relevance_score": 0.7429489927132447,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.936797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 43,
+      "relevance_score": 0.7143734819259894,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.922268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical",
+      "frequency": 40,
+      "relevance_score": 0.6715102157451064,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.935576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voltage",
+      "frequency": 40,
+      "relevance_score": 0.6715102157451064,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.936595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "polynomial",
+      "frequency": 40,
+      "relevance_score": 0.6715102157451064,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.955303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 96",
+      "frequency": 23,
+      "relevance_score": 0.6286183740534362,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.072007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partition",
+      "frequency": 35,
+      "relevance_score": 0.6000714387769681,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.936188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 cluster algorithms",
+      "frequency": 3,
+      "relevance_score": 0.592863266180883,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.135714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asymmetric key crypto-systems",
+      "frequency": 2,
+      "relevance_score": 0.5785755107872553,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.134488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical path",
+      "frequency": 25,
+      "relevance_score": 0.5571938848406915,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.033797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 97",
+      "frequency": 18,
+      "relevance_score": 0.557179597085298,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.072813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 98",
+      "frequency": 18,
+      "relevance_score": 0.557179597085298,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.073015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controller",
+      "frequency": 31,
+      "relevance_score": 0.5429204172024575,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.972529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 96 1",
+      "frequency": 9,
+      "relevance_score": 0.528589798542649,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.144264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v oltage",
+      "frequency": 22,
+      "relevance_score": 0.5143306186598086,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.082192+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "na na 1",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.179225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "na 1 00",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.179432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "46 44 59",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.180483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "44 59 09",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.180684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "59 09 190",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.180885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "09 190 38",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.181086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "190 38 scaling",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.181286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "38 scaling v",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.181487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v oltage partition-1",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.181911+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "oltage partition-1 0",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.182112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partition-1 0 96",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.182313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 96 scaled",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.182514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 scaled partition-2",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.182734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partition-4 0 98",
+      "frequency": 8,
+      "relevance_score": 0.5143020431490213,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.184465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 18,
+      "relevance_score": 0.5071795970852979,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.928554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 00",
+      "frequency": 14,
+      "relevance_score": 0.5000285755107873,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.072408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "256 7681 11",
+      "frequency": 7,
+      "relevance_score": 0.5000142877553936,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.171520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7681 11 32",
+      "frequency": 7,
+      "relevance_score": 0.5000142877553936,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.171721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 27,
+      "relevance_score": 0.48576939562794685,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.933673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clusters",
+      "frequency": 27,
+      "relevance_score": 0.48576939562794685,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.935361+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partition-3 0 97",
+      "frequency": 6,
+      "relevance_score": 0.485726532361766,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.184027+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scaled partition-2 0",
+      "frequency": 6,
+      "relevance_score": 0.485726532361766,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.185337+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key crypto-systems",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.039522+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster algorithms create",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.135915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms create groups",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.136115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "column scanning process",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.142829+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster algorithms mentioned",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.143037+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voltage calibration algorithms",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.145687+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "calibration algorithms stated",
+      "frequency": 2,
+      "relevance_score": 0.47857551078725535,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.145888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "path",
+      "frequency": 26,
+      "relevance_score": 0.47148164023431915,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:12.935780+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di fferent",
+      "frequency": 19,
+      "relevance_score": 0.47146735247892557,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.048690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controller 1",
+      "frequency": 12,
+      "relevance_score": 0.4714530647235319,
+      "source_papers": [
+        "local/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error__RLWE__Post_Quantum_Cryptograp..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:13.088450+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:13.194396+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:13.194588+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

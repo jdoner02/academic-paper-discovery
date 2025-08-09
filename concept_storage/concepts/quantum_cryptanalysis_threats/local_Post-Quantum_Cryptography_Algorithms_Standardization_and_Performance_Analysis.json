@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis",
+  "paper_title": "Post-Quantum Cryptography Algorithms Standardization and Performance Analysis",
+  "concepts": [
+    {
+      "text": "cryptography",
+      "frequency": 113,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.595427+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 182,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.597612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 161,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.607200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x86_64",
+      "frequency": 218,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.782471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs",
+      "frequency": 120,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.814125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 103,
+      "relevance_score": 0.9294411338379772,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.621165+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic algorithms",
+      "frequency": 41,
+      "relevance_score": 0.6801658882267676,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.921111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-safe cryptographic algorithms",
+      "frequency": 12,
+      "relevance_score": 0.6466339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.198465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum -safe algorithms",
+      "frequency": 12,
+      "relevance_score": 0.6466339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.200163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classic -mceliece -",
+      "frequency": 30,
+      "relevance_score": 0.6415847962634885,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.231206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum -safe",
+      "frequency": 42,
+      "relevance_score": 0.6382187147688839,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.920438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based cryptographic algorithms",
+      "frequency": 5,
+      "relevance_score": 0.5902641327105814,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.319181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs -",
+      "frequency": 36,
+      "relevance_score": 0.5899017555161862,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.066516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash -based algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5822113061684652,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.349863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-quantum cryptographic algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5822113061684652,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.375606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based",
+      "frequency": 47,
+      "relevance_score": 0.5784828474794653,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.625015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-key cryptographic systems",
+      "frequency": 3,
+      "relevance_score": 0.5741584796263489,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.197739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-safe cryptography algorithms",
+      "frequency": 3,
+      "relevance_score": 0.5741584796263489,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.199156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-resistant cryptography algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5661056530842326,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.202864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-resistant cryptographic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5661056530842326,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.218922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum -resistant algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5661056530842326,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.219267+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based cryptography algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5661056530842326,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.221317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public -key cryptosystems",
+      "frequency": 2,
+      "relevance_score": 0.5661056530842326,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.263932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-safe algorithms",
+      "frequency": 13,
+      "relevance_score": 0.5546867450475117,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.922808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptography algorithms",
+      "frequency": 25,
+      "relevance_score": 0.5513206635529071,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.917741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post -quantum",
+      "frequency": 31,
+      "relevance_score": 0.5496376228056048,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.931094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-safe",
+      "frequency": 43,
+      "relevance_score": 0.5462715413110002,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.614522+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic",
+      "frequency": 55,
+      "relevance_score": 0.5429054598163956,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.612657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classic -mceliece",
+      "frequency": 30,
+      "relevance_score": 0.5415847962634885,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.995902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-mceliece -",
+      "frequency": 30,
+      "relevance_score": 0.5415847962634885,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.996264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital signature algorithms",
+      "frequency": 11,
+      "relevance_score": 0.5385810919632791,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.266074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key encapsulation mechanisms",
+      "frequency": 29,
+      "relevance_score": 0.5335319697213722,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.231936+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post -quantum cryptography",
+      "frequency": 15,
+      "relevance_score": 0.5207923981317443,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.212491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum -safe cryptographic",
+      "frequency": 14,
+      "relevance_score": 0.5127395715896279,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.198102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs -shake256",
+      "frequency": 25,
+      "relevance_score": 0.501320663552907,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.065496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs -haraka",
+      "frequency": 25,
+      "relevance_score": 0.501320663552907,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.065835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic algorithms key",
+      "frequency": 6,
+      "relevance_score": 0.4983169592526977,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.237410+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms key encapsulation",
+      "frequency": 6,
+      "relevance_score": 0.4983169592526977,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.237756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cryptographic algorithms digital",
+      "frequency": 6,
+      "relevance_score": 0.4983169592526977,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.268789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms digital signature",
+      "frequency": 6,
+      "relevance_score": 0.4983169592526977,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.269125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs - haraka",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.282605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs - sha256",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.287359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs - shake256",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.289162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- shake256 -",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.289496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- robust x86_64",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.306684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- simple x86_64",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.307018+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs -sha256 -",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.333463+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs -shake256 -",
+      "frequency": 12,
+      "relevance_score": 0.4966339185053954,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.339998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "per",
+      "frequency": 49,
+      "relevance_score": 0.49458850056369785,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:02.708119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robust x86_64",
+      "frequency": 24,
+      "relevance_score": 0.4932678370107908,
+      "source_papers": [
+        "local/Post-Quantum_Cryptography_Algorithms_Standardization_and_Performance_Analysis"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:03.085934+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:22:03.388043+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:22:03.388255+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_cryptanalysis_threats"
+  }
+}

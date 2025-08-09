@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT",
+  "paper_title": "Software-based Security Framework for Edge and Mobile IoT",
+  "concepts": [
+    {
+      "text": "security",
+      "frequency": 39,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.044124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge",
+      "frequency": 55,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.044436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 40,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.044797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 34,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.047290+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "servers",
+      "frequency": 32,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.049376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.050945+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 31,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.051225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge server",
+      "frequency": 23,
+      "relevance_score": 0.9431340872374798,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.080725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new",
+      "frequency": 25,
+      "relevance_score": 0.9077544426494345,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.059921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge servers",
+      "frequency": 21,
+      "relevance_score": 0.878513731825525,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.076558+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 23,
+      "relevance_score": 0.8431340872374797,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.051692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices",
+      "frequency": 19,
+      "relevance_score": 0.8138933764135703,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.075360+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architecture",
+      "frequency": 22,
+      "relevance_score": 0.8108239095315024,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.050570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 19,
+      "relevance_score": 0.7138933764135702,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.047479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 19,
+      "relevance_score": 0.7138933764135702,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.052162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node",
+      "frequency": 19,
+      "relevance_score": 0.7138933764135702,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.065972+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software-based security framework",
+      "frequency": 5,
+      "relevance_score": 0.7115508885298869,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.088174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name server",
+      "frequency": 13,
+      "relevance_score": 0.620032310177706,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.076803+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot preprint aeic-2024",
+      "frequency": 6,
+      "relevance_score": 0.5938610662358643,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.086068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software-based security",
+      "frequency": 9,
+      "relevance_score": 0.5907915993537964,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.078503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 15,
+      "relevance_score": 0.5846526655896608,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.054033+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security framework",
+      "frequency": 7,
+      "relevance_score": 0.5761712439418417,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.072887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 10,
+      "relevance_score": 0.5731017770597738,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.044247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile",
+      "frequency": 14,
+      "relevance_score": 0.5523424878836833,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.044646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 9,
+      "relevance_score": 0.5407915993537965,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.060930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new edge server",
+      "frequency": 7,
+      "relevance_score": 0.5261712439418417,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.089961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new edge",
+      "frequency": 10,
+      "relevance_score": 0.5231017770597739,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.081041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy",
+      "frequency": 13,
+      "relevance_score": 0.520032310177706,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.048492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name",
+      "frequency": 13,
+      "relevance_score": 0.520032310177706,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.050852+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 8,
+      "relevance_score": 0.5084814216478191,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.068632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "campo grande 016",
+      "frequency": 3,
+      "relevance_score": 0.4969305331179321,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.087080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grande 016 1749-016",
+      "frequency": 3,
+      "relevance_score": 0.4969305331179321,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.087170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "016 1749-016 lisboa",
+      "frequency": 3,
+      "relevance_score": 0.4969305331179321,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.087261+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile-embedded iot devices",
+      "frequency": 3,
+      "relevance_score": 0.4969305331179321,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.089098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "preprint aeic-2024",
+      "frequency": 6,
+      "relevance_score": 0.49386106623586434,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.073183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile iot preprint",
+      "frequency": 6,
+      "relevance_score": 0.4938610662358643,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.085977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software-based",
+      "frequency": 9,
+      "relevance_score": 0.49079159935379646,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.056128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "servers allowing mobile-embedded",
+      "frequency": 2,
+      "relevance_score": 0.4646203554119548,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.088905+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "allowing mobile-embedded iot",
+      "frequency": 2,
+      "relevance_score": 0.4646203554119548,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.088996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource-constrained iot devices",
+      "frequency": 2,
+      "relevance_score": 0.4646203554119548,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.089404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "central name server",
+      "frequency": 5,
+      "relevance_score": 0.4615508885298869,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.087810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile iot",
+      "frequency": 8,
+      "relevance_score": 0.4584814216478191,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.072987+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication processes",
+      "frequency": 3,
+      "relevance_score": 0.4469305331179322,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.078281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architectural framework",
+      "frequency": 3,
+      "relevance_score": 0.4469305331179322,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.079778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication process",
+      "frequency": 3,
+      "relevance_score": 0.4469305331179322,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.084012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 10,
+      "relevance_score": 0.4231017770597738,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.049153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 10,
+      "relevance_score": 0.4231017770597738,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.061985+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authenticated",
+      "frequency": 10,
+      "relevance_score": 0.4231017770597738,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.067907+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure protocols",
+      "frequency": 2,
+      "relevance_score": 0.41462035541195474,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.079175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cache system",
+      "frequency": 2,
+      "relevance_score": 0.41462035541195474,
+      "source_papers": [
+        "local/Software-based_Security_Framework_for_Edge_and_Mobile_IoT"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.080947+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:24.090640+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:24.090842+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

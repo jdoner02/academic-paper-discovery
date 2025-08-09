@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks",
+  "paper_title": "An Energy Efficient Routing Protocol for Wireless Internet-of-Things Sensor Networks",
+  "concepts": [
+    {
+      "text": "energy",
+      "frequency": 117,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.021620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 105,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.035054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 83,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.037208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster",
+      "frequency": 67,
+      "relevance_score": 0.9222876779577811,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.038681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "routing",
+      "frequency": 56,
+      "relevance_score": 0.7872852233676976,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.022182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 40,
+      "relevance_score": 0.7409180166912126,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.022436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sleep scheduling",
+      "frequency": 41,
+      "relevance_score": 0.7031909671084928,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.187983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minen",
+      "frequency": 48,
+      "relevance_score": 0.6891016200294551,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.079497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 47,
+      "relevance_score": 0.6768286696121748,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.048637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sleep",
+      "frequency": 45,
+      "relevance_score": 0.6522827687776142,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.044690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 43,
+      "relevance_score": 0.6277368679430535,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.045044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "base station",
+      "frequency": 33,
+      "relevance_score": 0.6050073637702504,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.193346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster heads",
+      "frequency": 33,
+      "relevance_score": 0.6050073637702504,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.198659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor",
+      "frequency": 40,
+      "relevance_score": 0.5909180166912126,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.022956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solution",
+      "frequency": 40,
+      "relevance_score": 0.5909180166912126,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.079735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "base",
+      "frequency": 39,
+      "relevance_score": 0.5786450662739323,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.066702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 36,
+      "relevance_score": 0.5418262150220913,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.023224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "routing protocol",
+      "frequency": 13,
+      "relevance_score": 0.509548355424644,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.181834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "station",
+      "frequency": 33,
+      "relevance_score": 0.5050073637702505,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.069340+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heads",
+      "frequency": 33,
+      "relevance_score": 0.5050073637702505,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.090567+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sleep scheduling algorithms",
+      "frequency": 4,
+      "relevance_score": 0.49909180166912126,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.249922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sleep scheduling techniques",
+      "frequency": 4,
+      "relevance_score": 0.49909180166912126,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.251983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 31,
+      "relevance_score": 0.4804614629356897,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.029223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing routing protocols",
+      "frequency": 2,
+      "relevance_score": 0.4745459008345606,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.247756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minen routing protocol",
+      "frequency": 2,
+      "relevance_score": 0.4745459008345606,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.251739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gaussian mixture models",
+      "frequency": 2,
+      "relevance_score": 0.4745459008345606,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.256546+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 18,
+      "relevance_score": 0.47091310751104565,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.047686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ij - energy",
+      "frequency": 5,
+      "relevance_score": 0.4613647520864016,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.258730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clustering",
+      "frequency": 28,
+      "relevance_score": 0.4436426116838488,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.038438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "routing protocols",
+      "frequency": 7,
+      "relevance_score": 0.4359106529209622,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.189201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sensor nodes",
+      "frequency": 19,
+      "relevance_score": 0.433186057928326,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.191402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "er ij -",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.258491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- energy spent",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.258968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eelec fs d2",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.259924+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs d2 ij",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.260162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eelec mp d4",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.260639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mp d4 ij",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.260877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equations 9 10",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.261353+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9 10 11",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.261601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w1 w2 w3",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.262086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017 51st annual",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.264240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 6 march",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.264478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 march 2017",
+      "frequency": 2,
+      "relevance_score": 0.4245459008345607,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.264719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gso",
+      "frequency": 26,
+      "relevance_score": 0.4190967108492881,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.078543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless sensor networks",
+      "frequency": 9,
+      "relevance_score": 0.4104565537555228,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.248359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 13,
+      "relevance_score": 0.4095483554246441,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.075348+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless",
+      "frequency": 25,
+      "relevance_score": 0.40682376043200785,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.022697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "leach",
+      "frequency": 25,
+      "relevance_score": 0.40682376043200785,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.049838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rounds",
+      "frequency": 25,
+      "relevance_score": 0.40682376043200785,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.160229+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling algorithms",
+      "frequency": 4,
+      "relevance_score": 0.3990918016691213,
+      "source_papers": [
+        "local/An_Energy_Efficient_Routing_Protocol_for_Wireless_Internet-of-Things_Sensor_Networks"
+      ],
+      "source_domain": "water_iot_smart_monitoring_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:32:56.195031+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:32:56.265025+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:32:56.265197+00:00",
+    "repository_version": "1.0",
+    "domain": "water_iot_smart_monitoring_security"
+  }
+}

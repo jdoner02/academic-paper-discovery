@@ -1,0 +1,208 @@
+# Healthcare and Medical Cybersecurity Research Configuration
+# Cybersecurity for hospitals, medical devices, healthcare IT systems, and patient data protection
+search_configuration:
+  default_strategy: "hospital_cybersecurity_resilience"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational healthcare cybersecurity research
+    end_year: 2025      # Latest developments in medical cybersecurity
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["medical diagnosis algorithms", "healthcare data analytics", "clinical decision support"]   # Focus on security, not general healthcare IT
+
+strategies:
+  hospital_cybersecurity_resilience:
+    name: "Hospital Cybersecurity and Operational Resilience"
+    description: "Comprehensive cybersecurity frameworks for hospitals and healthcare facilities, focusing on operational continuity and patient safety during cyber incidents"
+    primary_keywords:
+      - "hospital cybersecurity"
+      - "healthcare cybersecurity"
+      - "medical facility security"
+      - "hospital ransomware"
+      - "healthcare cyber resilience"
+      - "patient safety cybersecurity"
+    secondary_keywords:
+      - "hospital network security"
+      - "healthcare IT security"
+      - "clinical system security"
+      - "hospital infrastructure"
+      - "healthcare operations"
+      - "patient care continuity"
+      - "medical emergency response"
+      - "healthcare business continuity"
+    technical_terms:
+      - "electronic health records"
+      - "EHR security"
+      - "hospital information systems"
+      - "clinical workflow security"
+      - "healthcare data breach"
+      - "HIPAA compliance"
+      - "PHI protection"
+      - "healthcare network segmentation"
+    application_domains:
+      - "acute care hospitals"
+      - "emergency departments"
+      - "intensive care units"
+      - "surgical facilities"
+      - "outpatient clinics"
+      - "rural hospitals"
+    exclude_terms:
+      - "telemedicine efficiency"
+      - "healthcare quality metrics"
+      - "clinical outcomes"
+
+  medical_device_cybersecurity:
+    name: "Medical Device and IoMT Security"
+    description: "Cybersecurity for Internet of Medical Things (IoMT), connected medical devices, and biomedical equipment in healthcare environments"
+    primary_keywords:
+      - "medical device cybersecurity"
+      - "IoMT security"
+      - "connected medical devices"
+      - "biomedical equipment security"
+      - "medical device vulnerabilities"
+    secondary_keywords:
+      - "infusion pump security"
+      - "patient monitor security"
+      - "ventilator cybersecurity"
+      - "imaging equipment security"
+      - "pacemaker security"
+      - "insulin pump security"
+      - "surgical robot security"
+      - "diagnostic equipment"
+    technical_terms:
+      - "FDA cybersecurity guidance"
+      - "medical device firmware"
+      - "device authentication"
+      - "medical network isolation"
+      - "device lifecycle management"
+      - "vulnerability disclosure"
+      - "patch management"
+      - "legacy device security"
+    application_domains:
+      - "critical care devices"
+      - "life support systems"
+      - "diagnostic imaging"
+      - "laboratory equipment"
+      - "surgical instruments"
+      - "monitoring systems"
+    exclude_terms:
+      - "device performance optimization"
+      - "medical device innovation"
+      - "clinical effectiveness"
+
+  healthcare_ransomware_protection:
+    name: "Healthcare Ransomware Defense and Recovery"
+    description: "Specialized ransomware protection, detection, and recovery strategies for healthcare organizations and critical medical systems"
+    primary_keywords:
+      - "healthcare ransomware"
+      - "hospital ransomware"
+      - "medical ransomware protection"
+      - "healthcare cyber attack"
+      - "hospital malware"
+    secondary_keywords:
+      - "ransomware detection"
+      - "malware prevention"
+      - "endpoint protection"
+      - "backup systems"
+      - "disaster recovery"
+      - "incident response"
+      - "threat hunting"
+      - "cyber threat intelligence"
+    technical_terms:
+      - "behavioral analysis"
+      - "anomaly detection"
+      - "file integrity monitoring"
+      - "network traffic analysis"
+      - "sandboxing"
+      - "threat indicators"
+      - "forensic analysis"
+      - "containment strategies"
+    application_domains:
+      - "hospital networks"
+      - "clinic systems"
+      - "healthcare cloud"
+      - "medical databases"
+      - "patient records"
+      - "billing systems"
+    exclude_terms:
+      - "general ransomware research"
+      - "consumer malware"
+      - "financial sector security"
+
+  telemedicine_remote_care_security:
+    name: "Telemedicine and Remote Healthcare Security"
+    description: "Cybersecurity for telehealth platforms, remote patient monitoring, mobile health applications, and distributed healthcare delivery systems"
+    primary_keywords:
+      - "telemedicine security"
+      - "telehealth cybersecurity"
+      - "remote patient monitoring"
+      - "mobile health security"
+      - "digital health security"
+    secondary_keywords:
+      - "video conferencing security"
+      - "remote consultation"
+      - "patient portal security"
+      - "mobile app security"
+      - "wearable device security"
+      - "home healthcare"
+      - "virtual care platforms"
+      - "remote diagnostics"
+    technical_terms:
+      - "end-to-end encryption"
+      - "secure communication"
+      - "patient authentication"
+      - "data transmission security"
+      - "mobile device management"
+      - "cloud security"
+      - "API security"
+      - "privacy protection"
+    application_domains:
+      - "rural healthcare"
+      - "chronic disease management"
+      - "mental health services"
+      - "elderly care"
+      - "specialist consultations"
+      - "emergency telemedicine"
+    exclude_terms:
+      - "telemedicine adoption"
+      - "digital health benefits"
+      - "healthcare accessibility"
+
+  healthcare_privacy_compliance:
+    name: "Healthcare Privacy, Compliance, and Data Protection"
+    description: "Privacy protection, regulatory compliance, and data security frameworks specific to healthcare organizations and patient information"
+    primary_keywords:
+      - "healthcare privacy"
+      - "HIPAA compliance"
+      - "patient data protection"
+      - "healthcare data security"
+      - "medical record privacy"
+    secondary_keywords:
+      - "PHI protection"
+      - "healthcare data governance"
+      - "consent management"
+      - "data minimization"
+      - "access controls"
+      - "audit logging"
+      - "risk assessment"
+      - "compliance monitoring"
+    technical_terms:
+      - "de-identification"
+      - "anonymization"
+      - "pseudonymization"
+      - "role-based access"
+      - "attribute-based access"
+      - "data loss prevention"
+      - "encryption at rest"
+      - "secure data sharing"
+    application_domains:
+      - "health information exchanges"
+      - "research databases"
+      - "insurance systems"
+      - "pharmaceutical companies"
+      - "healthcare analytics"
+      - "population health"
+    exclude_terms:
+      - "healthcare policy analysis"
+      - "regulatory economics"
+      - "administrative efficiency"

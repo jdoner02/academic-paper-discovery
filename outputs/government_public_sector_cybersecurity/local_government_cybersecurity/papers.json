@@ -1,0 +1,99 @@
+{
+  "config_name": "government_public_sector_cybersecurity",
+  "strategy_name": "local_government_cybersecurity",
+  "processed_at": "2025-08-07T16:07:30.585303+00:00",
+  "total_papers": 5,
+  "papers": [
+    {
+      "title": "A comprehensive survey of cybercrimes in India over the last decade",
+      "authors": [
+        "Sudhanshu Sekhar Tripathy"
+      ],
+      "abstract": "Since the 1990s, the integration of technology into daily life has led to the creation of an extensive network of interconnected devices, transforming how individuals and organizations operate. However, this digital transformation has also spurred the rise of cybercrime, criminal activities perpetrated through networks or computer systems. Cybercrime has become a global concern, presenting significant challenges to security systems. Although advancements in digital technology have enhanced efficiency, they have also opened new avenues for exploitation by cybercriminals, highlighting the urgent need for advanced cybersecurity measures. The escalating number of cyberattacks and associated risks in the past decade highlights the critical importance of protecting sensitive data and safeguarding information systems. Cybercrimes range from financial fraud and phishing scams to identity theft and online harassment, posing substantial risks to both individuals and organizations. In response, governments, law enforcement agencies, and cybersecurity units have intensified their efforts to address these threats. In recent years, India has experienced a significant surge in cybercrime incidents, with a notable increase in cases involving ransomware, data breaches, and social engineering attacks. The growing penetration of internet services, the expansion of e-commerce, and the rapid adoption of digital payment systems have made individuals and organizations more vulnerable to cyber threats. Key areas affected include banking, healthcare, and government sectors, which are frequently targeted due to the sensitive nature of the data they handle. To combat these risks, there is an increasing focus on public awareness, cybersecurity education, and robust regulatory frameworks. This paper examines cybercrime, prevention strategies, security protocols, and terminology to safeguard digital infrastructure.",
+      "publication_date": "2025-04-21T04:42:46+00:00",
+      "doi": "10.30574/ijsra.2024.13.1.1919",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2505.23770v1.pdf"
+    },
+    {
+      "title": "Reflection of Federal Data Protection Standards on Cloud Governance",
+      "authors": [
+        "Olga Dye",
+        "Justin Heo",
+        "Ebru Celikel Cankaya"
+      ],
+      "abstract": "As demand for more storage and processing power increases rapidly, cloud services in general are becoming more ubiquitous and popular. This, in turn, is increasing the need for developing highly sophisticated mechanisms and governance to reduce data breach risks in cloud-based infrastructures. Our research focuses on cloud governance by harmoniously combining multiple data security measures with legislative authority. We present legal aspects aimed at the prevention of data breaches, as well as the technical requirements regarding the implementation of data protection mechanisms. Specifically, we discuss primary authority and technical frameworks addressing least privilege in correlation with its application in Amazon Web Services (AWS), one of the major Cloud Service Providers (CSPs) on the market at present.",
+      "publication_date": "2024-02-26T17:04:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2403.07907v1.pdf"
+    },
+    {
+      "title": "Blockchain-enabled Data Governance for Privacy-Preserved Sharing of   Confidential Data",
+      "authors": [
+        "Jingchi Zhang",
+        "Anwitaman Datta"
+      ],
+      "abstract": "In a traditional cloud storage system, users benefit from the convenience it provides but also take the risk of certain security and privacy issues. To ensure confidentiality while maintaining data sharing capabilities, the Ciphertext-Policy Attribute-based Encryption (CP-ABE) scheme can be used to achieve fine-grained access control in cloud services. However, existing approaches are impaired by three critical concerns: illegal authorization, key disclosure, and privacy leakage.   To address these, we propose a blockchain-based data governance system that employs blockchain technology and attribute-based encryption to prevent privacy leakage and credential misuse. First, our ABE encryption system can handle multi-authority use cases while protecting identity privacy and hiding access policy, which also protects data sharing against corrupt authorities. Second, applying the Advanced Encryption Standard (AES) for data encryption makes the whole system efficient and responsive to real-world conditions. Furthermore, the encrypted data is stored in a decentralized storage system such as IPFS, which does not rely on any centralized service provider and is, therefore, resilient against single-point failures. Third, illegal authorization activity can be readily identified through the logged on-chain data. Besides the system design, we also provide security proofs to demonstrate the robustness of the proposed system.",
+      "publication_date": "2023-09-08T05:01:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2309.04125v1.pdf"
+    },
+    {
+      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk   Governance",
+      "authors": [
+        "Gregory Falco",
+        "Paul Cornish",
+        "Sadie Creese",
+        "Madeline Carr",
+        "Myriam Dunn Cavelty",
+        "Claudia Eckert",
+        "Herbert Lin",
+        "Gen Goto",
+        "Jamie Saunders",
+        "Andrew Grotto",
+        "Howard Shrobe",
+        "Sean Kanuck",
+        "Lawrence Susskind",
+        "Arvind Parthasarathi"
+      ],
+      "abstract": "Spending on cybersecurity products and services is expected to top 123 billion U.S. dollars for 2020, more than double the 55 billion U.S. dollars spent in 2011.1 In that same period, cyber breaches quadrupled. Organizations globally face increasing liabilities, while boards of directors grapple with a seemingly Sisyphean challenge. Cyber Crossroads was born out of these alarming trends and a realization that the world cannot go on funneling finite resources into an indefinite, intractable problem. Cyber Crossroads brings together expertise from across the world, spanning aspects of the cyber problem (including technology, legal, risk, and economic) with the goal of creating a Cyber Standard of Care built through a global, not-for-profit research collaborative with no commercial interests. A Cyber Standard of Care should be applicable across industries and regardless of the organization size. It should be practical and implementable, with no requirement to purchase any product/service. Cyber Standard of Care should be woven into the existing governance fabric of the organization and it should not be yet another technical checklist, but a process/governance framework that can stand over time. To achieve this, we engaged with cyber risk experts and practitioners with a variety of relevant expertise, secured the advice/guidance of regulators and legal experts across jurisdictions, and interviewed leaders from 56 organizations globally to understand their challenges and identify best practices.",
+      "publication_date": "2021-07-08T11:58:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2107.14065v1.pdf"
+    },
+    {
+      "title": "Multi-Layered Blockchain Governance Game",
+      "authors": [
+        "Song-Kyoo Kim"
+      ],
+      "abstract": "The research designs a new integrated system for the security enhancement of a decentralized network by preventing damages from attackers, particularly for the 51 percent attack. The concept of multiple layered design based on Blockchain Governance Games frameworks could handle multiple number of networks analytically. The Multi-Layered Blockchain Governance Game is an innovative analytical model to find the best strategies for executing a safety operation to protect whole multiple layered network systems from attackers. This research fully analyzes a complex network with the compact mathematical forms and theoretically tractable results for predicting the moment of a safety operation execution are fully obtained. Additionally, simulation results are demonstrated to obtain the optimal values of configuring parameters of a blockchain-based security network. The Matlab codes for the simulations are publicly available to help those whom are constructing an enhanced decentralized security network architecture through this proposed integrated theoretical framework.",
+      "publication_date": "2021-06-16T13:47:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2106.09518v4.pdf"
+    }
+  ]
+}

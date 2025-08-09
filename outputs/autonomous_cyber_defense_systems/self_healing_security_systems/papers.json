@@ -1,0 +1,889 @@
+{
+  "config_name": "autonomous_cyber_defense_systems",
+  "strategy_name": "self_healing_security_systems",
+  "processed_at": "2025-08-07T09:15:07.802470+00:00",
+  "total_papers": 50,
+  "papers": [
+    {
+      "title": "Agentic-AI based Mathematical Framework for Commercialization of Energy   Resilience in Electrical Distribution System Planning and Operation",
+      "authors": [
+        "Aniket Johri",
+        "Divyanshi Dwivedi",
+        "Mayukha Pal"
+      ],
+      "abstract": "The increasing vulnerability of electrical distribution systems to extreme weather events and cyber threats necessitates the development of economically viable frameworks for resilience enhancement. While existing approaches focus primarily on technical resilience metrics and enhancement strategies, there remains a significant gap in establishing market-driven mechanisms that can effectively commercialize resilience features while optimizing their deployment through intelligent decision-making. Moreover, traditional optimization approaches for distribution network reconfiguration often fail to dynamically adapt to both normal and emergency conditions. This paper introduces a novel framework integrating dual-agent Proximal Policy Optimization (PPO) with market-based mechanisms, achieving an average resilience score of 0.85 0.08 over 10 test episodes. The proposed architecture leverages a dual-agent PPO scheme, where a strategic agent selects optimal DER-driven switching configurations, while a tactical agent fine-tunes individual switch states and grid preferences under budget and weather constraints. These agents interact within a custom-built dynamic simulation environment that models stochastic calamity events, budget limits, and resilience-cost trade-offs. A comprehensive reward function is designed that balances resilience enhancement objectives with market profitability (with up to 200x reward incentives, resulting in 85% of actions during calamity steps selecting configurations with 4 DERs), incorporating factors such as load recovery speed, system robustness, and customer satisfaction. Over 10 test episodes, the framework achieved a benefit-cost ratio of 0.12 0.01, demonstrating sustainable market incentives for resilience investment. This framework creates sustainable market incentives",
+      "publication_date": "2025-08-06T07:49:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2508.04170v1.pdf"
+    },
+    {
+      "title": "Towards Automatic Error Recovery in Parsing Expression",
+      "authors": [
+        "Sérgio Queiroz de Medeiros",
+        "Fabio Mascarenhas"
+      ],
+      "abstract": "Error recovery is an essential feature for a parser that should be plugged in Integrated Development Environments (IDEs), which must build Abstract Syntax Trees (ASTs) even for syntactically invalid programs in order to offer features such as automated refactoring and code completion.   Parsing Expressions Grammars (PEGs) are a formalism that naturally describes recursive top-down parsers using a restricted form of backtracking. Labeled failures are a conservative extension of PEGs that adds an error reporting mechanism for PEG parsers, and these labels can also be associated with recovery expressions to also be an error recovery mechanism. These expressions can use the full expressivity of PEGs to recover from syntactic errors.   Manually annotating a large grammar with labels and recovery expressions can be difficult. In this work, we present an algorithm that automatically annotates a PEG with labels, and builds their corresponding recovery expressions. We evaluate this algorithm by adding error recovery to the parser of the Titan programming language. The results shown that with a small amount of manual intervention our algorithm can be used to produce error recovering parsers for PEGs where most of the alternatives are disjoint.",
+      "publication_date": "2025-07-04T14:53:00+00:00",
+      "doi": "10.1145/3264637.3264638",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.PL"
+      ],
+      "url": "http://arxiv.org/pdf/2507.03629v1.pdf"
+    },
+    {
+      "title": "Resilience through Automated Adaptive Configuration for Distribution and   Replication",
+      "authors": [
+        "Scott D. Stoller",
+        "Balaji Jayasankar",
+        "Yanhong A. Liu"
+      ],
+      "abstract": "This paper presents a powerful automated framework for making complex systems resilient under failures, by optimized adaptive distribution and replication of interdependent software components across heterogeneous hardware components with widely varying capabilities. A configuration specifies how software is distributed and replicated: which software components to run on each computer, which software components to replicate, which replication protocols to use, etc. We present an algorithm that, given a system model and resilience requirements, (1) determines initial configurations of the system that are resilient, and (2) generates a reconfiguration policy that determines reconfiguration actions to execute in response to failures and recoveries. This model-finding algorithm is based on state-space exploration and incorporates powerful optimizations, including a quotient reduction based on a novel equivalence relation between states. We present experimental results from successfully applying a prototype implementation of our framework to a model of an autonomous driving system.",
+      "publication_date": "2025-06-12T00:14:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/2506.10248v1.pdf"
+    },
+    {
+      "title": "DP-RTFL: Differentially Private Resilient Temporal Federated Learning   for Trustworthy AI in Regulated Industries",
+      "authors": [
+        "Abhijit Talluri"
+      ],
+      "abstract": "Federated Learning (FL) has emerged as a critical paradigm for enabling privacy-preserving machine learning, particularly in regulated sectors such as finance and healthcare. However, standard FL strategies often encounter significant operational challenges related to fault tolerance, system resilience against concurrent client and server failures, and the provision of robust, verifiable privacy guarantees essential for handling sensitive data. These deficiencies can lead to training disruptions, data loss, compromised model integrity, and non-compliance with data protection regulations (e.g., GDPR, CCPA). This paper introduces Differentially Private Resilient Temporal Federated Learning (DP-RTFL), an advanced FL framework designed to ensure training continuity, precise state recovery, and strong data privacy. DP-RTFL integrates local Differential Privacy (LDP) at the client level with resilient temporal state management and integrity verification mechanisms, such as hash-based commitments (referred to as Zero-Knowledge Integrity Proofs or ZKIPs in this context). The framework is particularly suited for critical applications like credit risk assessment using sensitive financial data, aiming to be operationally robust, auditable, and scalable for enterprise AI deployments. The implementation of the DP-RTFL framework is available as open-source.",
+      "publication_date": "2025-05-27T16:30:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2505.23813v1.pdf"
+    },
+    {
+      "title": "On the Definition of Robustness and Resilience of AI Agents for   Real-time Congestion Management",
+      "authors": [
+        "Timothy Tjhay",
+        "Ricardo J. Bessa",
+        "Jose Paulos"
+      ],
+      "abstract": "The European Union's Artificial Intelligence (AI) Act defines robustness, resilience, and security requirements for high-risk sectors but lacks detailed methodologies for assessment. This paper introduces a novel framework for quantitatively evaluating the robustness and resilience of reinforcement learning agents in congestion management. Using the AI-friendly digital environment Grid2Op, perturbation agents simulate natural and adversarial disruptions by perturbing the input of AI systems without altering the actual state of the environment, enabling the assessment of AI performance under various scenarios. Robustness is measured through stability and reward impact metrics, while resilience quantifies recovery from performance degradation. The results demonstrate the framework's effectiveness in identifying vulnerabilities and improving AI robustness and resilience for critical applications.",
+      "publication_date": "2025-04-17T20:01:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/pdf/2504.13314v1.pdf"
+    },
+    {
+      "title": "Quantitative Resilience Modeling for Autonomous Cyber Defense",
+      "authors": [
+        "Xavier Cadet",
+        "Simona Boboila",
+        "Edward Koh",
+        "Peter Chin",
+        "Alina Oprea"
+      ],
+      "abstract": "Cyber resilience is the ability of a system to recover from an attack with minimal impact on system operations. However, characterizing a network's resilience under a cyber attack is challenging, as there are no formal definitions of resilience applicable to diverse network topologies and attack patterns. In this work, we propose a quantifiable formulation of resilience that considers multiple defender operational goals, the criticality of various network resources for daily operations, and provides interpretability to security operators about their system's resilience under attack. We evaluate our approach within the CybORG environment, a reinforcement learning (RL) framework for autonomous cyber defense, analyzing trade-offs between resilience, costs, and prioritization of operational goals. Furthermore, we introduce methods to aggregate resilience metrics across time-variable attack patterns and multiple network topologies, comprehensively characterizing system resilience. Using insights gained from our resilience metrics, we design RL autonomous defensive agents and compare them against several heuristic baselines, showing that proactive network hardening techniques and prompt recovery of compromised machines are critical for effective cyber defenses.",
+      "publication_date": "2025-03-04T16:52:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2503.02780v1.pdf"
+    },
+    {
+      "title": "Introducing Resilience to IRS-Assisted Secure Wireless Systems",
+      "authors": [
+        "Yifei Wu",
+        "Mehmet Emin Arslan",
+        "Niels Neumann",
+        "Wolfgang Gerstacker",
+        "Robert Schober"
+      ],
+      "abstract": "Intelligent reflecting surfaces (IRSs) are envisioned as a transformative method for enhancing the physical layer security of future communication networks. However, current IRS-assisted secure wireless system designs incur high time cost for the joint optimization of beamforming vectors and IRS phase shifts and are susceptible to unforeseen disruption. Therefore, introducing resilience in IRS-assisted secure systems is essential. In this paper, we first quantify the resilience performance as the combination of the absorption and adaptation performance. In particular, the absorption performance measures the system's robustness when facing failure while the adaptation performance reflects the system's ability to recover from failure. Then, we propose a two-timescale transmission protocol aiming to enhance system resilience while limiting maximum information leakage to eavesdroppers. Specifically, in the initialization phase, the base station (BS) beamforming vectors and IRS phase shifts are optimized iteratively using an alternating optimization (AO) approach to improve the absorption performance of the system, i.e., the worst-case achievable rate, given a predefined maximum tolerable leakage rate, by accounting for the impact of long-term channel variations. When the system detects an outage, a fast system recovery mechanism is activated to restore operation by adjusting only the BS beamforming vectors, which enhances the adaptation performance of the system. Our numerical results reveal that the proposed algorithm significantly improves system resilience, including system robustness and recovery performance. Moreover, the proposed design guarantees outage-free transmission over a long time interval for moderate-size IRSs.",
+      "publication_date": "2025-01-22T00:12:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "url": "http://arxiv.org/pdf/2501.12551v1.pdf"
+    },
+    {
+      "title": "Game-Theoretic Foundations for Cyber Resilience Against Deceptive   Information Attacks in Intelligent Transportation Systems",
+      "authors": [
+        "Ya-Ting Yang",
+        "Quanyan Zhu"
+      ],
+      "abstract": "The growing complexity and interconnectivity of Intelligent Transportation Systems (ITS) make them increasingly vulnerable to advanced cyber threats, particularly deceptive information attacks. These sophisticated threats exploit vulnerabilities to manipulate data integrity and decision-making processes through techniques such as data poisoning, spoofing, and phishing. They target multiple ITS domains, including intra-vehicle systems, inter-vehicle communications, transportation infrastructure, and human interactions, creating cascading effects across the ecosystem. This chapter introduces a game-theoretic framework, enhanced by control and learning theories, to systematically analyze and mitigate these risks. By modeling the strategic interactions among attackers, users, and system operators, the framework facilitates comprehensive risk assessment and the design of adaptive, scalable resilience mechanisms. A prime example of this approach is the Proactive Risk Assessment and Mitigation of Misinformed Demand Attacks (PRADA) system, which integrates trust mechanisms, dynamic learning processes, and multi-layered defense strategies to counteract deceptive attacks on navigational recommendation systems. In addition, the chapter explores the broader applicability of these methodologies to address various ITS threats, including spoofing, Advanced Persistent Threats (APTs), and denial-of-service attacks. It highlights cross-domain resilience strategies, offering actionable insights to bolster the security, reliability, and adaptability of ITS. By providing a robust game-theoretic foundation, this work advances the development of comprehensive solutions to the evolving challenges in ITS cybersecurity.",
+      "publication_date": "2024-12-05T21:41:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "url": "http://arxiv.org/pdf/2412.04627v1.pdf"
+    },
+    {
+      "title": "Resilience-based post disaster recovery optimization for infrastructure   system via Deep Reinforcement Learning",
+      "authors": [
+        "Huangbin Liang",
+        "Beatriz Moya",
+        "Francisco Chinesta",
+        "Eleni Chatzi"
+      ],
+      "abstract": "Infrastructure systems are critical in modern communities but are highly susceptible to various natural and man-made disasters. Efficient post-disaster recovery requires repair-scheduling approaches under the limitation of capped resources that need to be shared across the system. Existing approaches, including component ranking methods, greedy evolutionary algorithms, and data-driven machine learning models, face various limitations when tested within such a context. To tackle these issues, we propose a novel approach to optimize post-disaster recovery of infrastructure systems by leveraging Deep Reinforcement Learning (DRL) methods and incorporating a specialized resilience metric to lead the optimization. The system topology is represented adopting a graph-based structure, where the system's recovery process is formulated as a sequential decision-making problem. Deep Q-learning algorithms are employed to learn optimal recovery strategies by mapping system states to specific actions, as for instance which component ought to be repaired next, with the goal of maximizing long-term recovery from a resilience-oriented perspective. To demonstrate the efficacy of our proposed approach, we implement this scheme on the example of post-earthquake recovery optimization for an electrical substation system. We assess different deep Q-learning algorithms to this end, namely vanilla Deep Q-Networks (DQN), Double DQN(DDQN), Duel DQN, and duel DDQN, demonstrating superiority of the DDQN for the considered problem. A further comparative analysis against baseline methods during testing reveals the superior performance of the proposed method in terms of both optimization effect and computational cost, rendering this an attractive approach in the context of resilience enhancement and rapid response and recovery.",
+      "publication_date": "2024-10-24T09:31:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CE"
+      ],
+      "url": "http://arxiv.org/pdf/2410.18577v2.pdf"
+    },
+    {
+      "title": "To Repair or Not to Repair: Assessing Fault Resilience in MPI Stencil   Applications",
+      "authors": [
+        "Roberto Rocco",
+        "Elisabetta Boella",
+        "Daniele Gregori",
+        "Gianluca Palermo"
+      ],
+      "abstract": "With the increasing size of HPC computations, faults are becoming more and more relevant in the HPC field. The MPI standard does not define the application behaviour after a fault, leaving the burden of fault management to the user, who usually resorts to checkpoint and restart mechanisms. This trend is especially true in stencil applications, as their regular pattern simplifies the selection of checkpoint locations. However, checkpoint and restart mechanisms introduce non-negligible overhead, disk load, and scalability concerns. In this paper, we show an alternative through fault resilience, enabled by the features provided by the User Level Fault Mitigation extension and shipped within the Legio fault resilience framework. Through fault resilience, we continue executing only the non-failed processes, thus sacrificing result accuracy for faster fault recovery. Our experiments on a specimen stencil application show that, despite the fault impact visible in the result, we produced meaningful values usable for scientific research, proving the possibilities of a fault resilience approach in a stencil scenario.",
+      "publication_date": "2024-10-11T09:16:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/2410.08647v1.pdf"
+    },
+    {
+      "title": "On the Resilience of Fast Failover Routing Against Dynamic Link Failures",
+      "authors": [
+        "Wenkai Dai",
+        "Klaus-Tycho Foerster",
+        "Stefan Schmid"
+      ],
+      "abstract": "Modern communication networks feature local fast failover mechanisms in the data plane, to swiftly respond to link failures with pre-installed rerouting rules. This paper explores resilient routing meant to tolerate $\\leq k$ simultaneous link failures, ensuring packet delivery, provided that the source and destination remain connected. While past theoretical works studied failover routing under static link failures, i.e., links which permanently and simultaneously fail, real-world networks often face link flapping--dynamic down states caused by, e.g., numerous short-lived software-related faults. Thus, in this initial work, we re-investigate the resilience of failover routing against link flapping, by categorizing link failures into static, semi-dynamic (removing the assumption that links fail simultaneously), and dynamic (removing the assumption that links fail permanently) types, shedding light on the capabilities and limitations of failover routing under these scenarios.   We show that $k$-edge-connected graphs exhibit $(k-1)$-resilient routing against dynamic failures for $k \\leq 5$. We further show that this result extends to arbitrary $k$ if it is possible to rewrite $\\log k$ bits in the packet header.   Rewriting $3$ bits suffices to cope with $k$ semi-dynamic failures. However, on general graphs, tolerating $2$ dynamic failures becomes impossible without bit-rewriting. Even by rewriting $\\log k$ bits, resilient routing cannot resolve $k$ dynamic failures, demonstrating the limitation of local fast rerouting.",
+      "publication_date": "2024-10-02T20:40:52+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2410.02021v1.pdf"
+    },
+    {
+      "title": "Foundations of Cyber Resilience: The Confluence of Game, Control, and   Learning Theories",
+      "authors": [
+        "Quanyan Zhu"
+      ],
+      "abstract": "Cyber resilience is a complementary concept to cybersecurity, focusing on the preparation, response, and recovery from cyber threats that are challenging to prevent. Organizations increasingly face such threats in an evolving cyber threat landscape. Understanding and establishing foundations for cyber resilience provide a quantitative and systematic approach to cyber risk assessment, mitigation policy evaluation, and risk-informed defense design. A systems-scientific view toward cyber risks provides holistic and system-level solutions. This chapter starts with a systemic view toward cyber risks and presents the confluence of game theory, control theory, and learning theories, which are three major pillars for the design of cyber resilience mechanisms to counteract increasingly sophisticated and evolving threats in our networks and organizations. Game and control theoretic methods provide a set of modeling frameworks to capture the strategic and dynamic interactions between defenders and attackers. Control and learning frameworks together provide a feedback-driven mechanism that enables autonomous and adaptive responses to threats. Game and learning frameworks offer a data-driven approach to proactively reason about adversarial behaviors and resilient strategies. The confluence of the three lays the theoretical foundations for the analysis and design of cyber resilience. This chapter presents various theoretical paradigms, including dynamic asymmetric games, moving horizon control, conjectural learning, and meta-learning, as recent advances at the intersection. This chapter concludes with future directions and discussions of the role of neurosymbolic learning and the synergy between foundation models and game models in cyber resilience.",
+      "publication_date": "2024-04-01T16:02:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2404.01205v2.pdf"
+    },
+    {
+      "title": "Integrating Graceful Degradation and Recovery through Requirement-driven   Adaptation",
+      "authors": [
+        "Simon Chu",
+        "Justin Koe",
+        "David Garlan",
+        "Eunsuk Kang"
+      ],
+      "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, to ensure that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles.",
+      "publication_date": "2024-01-18T02:04:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/pdf/2401.09678v2.pdf"
+    },
+    {
+      "title": "Cooperative Graceful Degradation In Containerized Clouds",
+      "authors": [
+        "Kapil Agrawal",
+        "Sangeetha Abdu Jyothi"
+      ],
+      "abstract": "Cloud resilience is crucial for cloud operators and the myriad of applications that rely on the cloud. Today, we lack a mechanism that enables cloud operators to perform graceful degradation of applications while satisfying the application's availability requirements. In this paper, we put forward a vision for automated cloud resilience management with cooperative graceful degradation between applications and cloud operators. First, we investigate techniques for graceful degradation and identify an opportunity for cooperative graceful degradation in public clouds. Second, leveraging criticality tags on containers, we propose diagonal scaling -- turning off non-critical containers during capacity crunch scenarios -- to maximize the availability of critical services. Third, we design Phoenix, an automated cloud resilience management system that maximizes critical service availability of applications while also considering operator objectives, thereby improving the overall resilience of the infrastructure during failures. We experimentally show that the Phoenix controller running atop Kubernetes can improve critical service availability by up to $2\\times$ during large-scale failures. Phoenix can handle failures in a cluster of 100,000 nodes within 10 seconds. We also develop AdaptLab, an open-source resilience benchmarking framework that can emulate realistic cloud environments with real-world application dependency graphs.",
+      "publication_date": "2023-12-20T07:20:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2312.12809v3.pdf"
+    },
+    {
+      "title": "Checkpoint-based rollback recovery in session programming",
+      "authors": [
+        "Claudio Antares Mezzina",
+        "Francesco Tiezzi",
+        "Nobuko Yoshida"
+      ],
+      "abstract": "To react to unforeseen circumstances or amend abnormal situations in communication-centric systems, programmers are in charge of \"undoing\" the interactions which led to an undesired state. To assist this task, session-based languages can be endowed with reversibility mechanisms. In this paper we propose a language enriched with programming facilities to commit session interactions, to roll back the computation to a previous commit point, and to abort the session. Rollbacks in our language always bring the system to previous visited states and a rollback cannot bring the system back to a point prior to the last commit. Programmers are relieved from the burden of ensuring that a rollback never restores a checkpoint imposed by a session participant different from the rollback requester. Such undesired situations are prevented at design-time (statically) by relying on a decidable compliance check at the type level, implemented in MAUDE. We show that the language satisfies error-freedom and progress of a session.",
+      "publication_date": "2023-12-03T09:02:52+00:00",
+      "doi": "10.46298/lmcs-21(1:2)2025",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.PL"
+      ],
+      "url": "http://arxiv.org/pdf/2312.02851v4.pdf"
+    },
+    {
+      "title": "Predicting Resilience with Neural Networks",
+      "authors": [
+        "Karen da Mata",
+        "Priscila Silva",
+        "Lance Fiondella"
+      ],
+      "abstract": "Resilience engineering studies the ability of a system to survive and recover from disruptive events, which finds applications in several domains. Most studies emphasize resilience metrics to quantify system performance, whereas recent studies propose statistical modeling approaches to project system recovery time after degradation. Moreover, past studies are either performed on data after recovering or limited to idealized trends. Therefore, this paper proposes three alternative neural network (NN) approaches including (i) Artificial Neural Networks, (ii) Recurrent Neural Networks, and (iii) Long-Short Term Memory (LSTM) to model and predict system performance, including negative and positive factors driving resilience to quantify the impact of disruptive events and restorative activities. Goodness-of-fit measures are computed to evaluate the models and compared with a classical statistical model, including mean squared error and adjusted R squared. Our results indicate that NN models outperformed the traditional model on all goodness-of-fit measures. More specifically, LSTMs achieved an over 60\\% higher adjusted R squared, and decreased predictive error by 34-fold compared to the traditional method. These results suggest that NN models to predict resilience are both feasible and accurate and may find practical use in many important domains.",
+      "publication_date": "2023-08-11T17:29:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2308.06309v1.pdf"
+    },
+    {
+      "title": "PHOENI2X -- A European Cyber Resilience Framework With   Artificial-Intelligence-Assisted Orchestration, Automation and Response   Capabilities for Business Continuity and Recovery, Incident Response, and   Information Exchange",
+      "authors": [
+        "Konstantinos Fysarakis",
+        "Alexios Lekidis",
+        "Vasileios Mavroeidis",
+        "Konstantinos Lampropoulos",
+        "George Lyberopoulos",
+        "Ignasi Garcia-Milà Vidal",
+        "José Carles Terés i Casals",
+        "Eva Rodriguez Luna",
+        "Alejandro Antonio Moreno Sancho",
+        "Antonios Mavrelos",
+        "Marinos Tsantekidis",
+        "Sebastian Pape",
+        "Argyro Chatzopoulou",
+        "Christina Nanou",
+        "George Drivas",
+        "Vangelis Photiou",
+        "George Spanoudakis",
+        "Odysseas Koufopavlou"
+      ],
+      "abstract": "As digital technologies become more pervasive in society and the economy, cybersecurity incidents become more frequent and impactful. According to the NIS and NIS2 Directives, EU Member States and their Operators of Essential Services must establish a minimum baseline set of cybersecurity capabilities and engage in cross-border coordination and cooperation. However, this is only a small step towards European cyber resilience. In this landscape, preparedness, shared situational awareness, and coordinated incident response are essential for effective cyber crisis management and resilience. Motivated by the above, this paper presents PHOENI2X, an EU-funded project aiming to design, develop, and deliver a Cyber Resilience Framework providing Artificial-Intelligence-assisted orchestration, automation and response capabilities for business continuity and recovery, incident response, and information exchange, tailored to the needs of Operators of Essential Services and the EU Member State authorities entrusted with cybersecurity.",
+      "publication_date": "2023-07-13T17:53:25+00:00",
+      "doi": "10.1109/CSR57506.2023.10224995",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2307.06932v2.pdf"
+    },
+    {
+      "title": "Enhancing Cyber-Resilience in Self-Healing Cyber-Physical Systems with   Implicit Guarantees",
+      "authors": [
+        "Randolph Loh",
+        "Vrizlynn L. L. Thing"
+      ],
+      "abstract": "Self-Healing Cyber-Physical Systems (SH-CPS) effectively recover from system perceived failures without human intervention. They ensure a level of resilience and tolerance to unforeseen situations that arise from intrinsic system and component degradation, errors, or malicious attacks. Implicit redundancy can be exploited in SH-CPS to structurally adapt without the need to explicitly duplicate components. However, implicitly redundant components do not guarantee the same level of dependability as the primary component used to provide for a given function. Additional processes are needed to restore critical system functionalities as desired. This work introduces implicit guarantees to ensure the dependability of implicitly redundant components and processes. Implicit guarantees can be obtained through inheritance and decomposition. Therefore, a level of dependability can be guaranteed in SH-CPS after adaptation and recovery while complying with requirements. We demonstrate compliance with the requirement guarantees while ensuring resilience in SH-CPS.",
+      "publication_date": "2023-05-15T04:02:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2305.08335v1.pdf"
+    },
+    {
+      "title": "RARES: Runtime Attack Resilient Embedded System Design Using Verified   Proof-of-Execution",
+      "authors": [
+        "Avani Dave Nilanjan Banerjee Chintan Patel"
+      ],
+      "abstract": "Modern society is getting accustomed to the Internet of Things (IoT) and Cyber-Physical Systems (CPS) for a variety of applications that involves security-critical user data and information transfers. In the lower end of the spectrum, these devices are resource-constrained with no attack protection. They become a soft target for malicious code modification attacks that steals and misuses device data in malicious activities. The resilient system requires continuous detection, prevention, and/or recovery and correct code execution (including in degraded mode). By end large, existing security primitives (e.g., secure-boot, Remote Attestation RA, Control Flow Attestation (CFA) and Data Flow Attestation (DFA)) focuses on detection and prevention, leaving the proof of code execution and recovery unanswered. To this end, the proposed work presents lightweight RARES -- Runtime Attack Resilient Embedded System design using verified Proof-of-Execution. It presents first custom hardware control register (Ctrl_register) based runtime memory modification attacks classification and detection technique. It further demonstrates the Proof Of Concept (POC) implementation of use-case-specific attacks prevention and onboard recovery techniques. The prototype implementation on Artix 7 Field Programmable Gate Array (FPGA) and state-of-the-art comparison demonstrates very low (2.3%) resource overhead and efficacy of the proposed solution.",
+      "publication_date": "2023-05-05T03:44:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2305.03266v1.pdf"
+    },
+    {
+      "title": "Policy Resilience to Environment Poisoning Attacks on Reinforcement   Learning",
+      "authors": [
+        "Hang Xu",
+        "Xinghua Qu",
+        "Zinovi Rabinovich"
+      ],
+      "abstract": "This paper investigates policy resilience to training-environment poisoning attacks on reinforcement learning (RL) policies, with the goal of recovering the deployment performance of a poisoned RL policy. Due to the fact that the policy resilience is an add-on concern to RL algorithms, it should be resource-efficient, time-conserving, and widely applicable without compromising the performance of RL algorithms. This paper proposes such a policy-resilience mechanism based on an idea of knowledge sharing. We summarize the policy resilience as three stages: preparation, diagnosis, recovery. Specifically, we design the mechanism as a federated architecture coupled with a meta-learning manner, pursuing an efficient extraction and sharing of the environment knowledge. With the shared knowledge, a poisoned agent can quickly identify the deployment condition and accordingly recover its policy performance. We empirically evaluate the resilience mechanism for both model-based and model-free RL algorithms, showing its effectiveness and efficiency in restoring the deployment performance of a poisoned policy.",
+      "publication_date": "2023-04-24T15:01:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2304.12151v1.pdf"
+    },
+    {
+      "title": "A Survey on Cyber-Resilience Approaches for Cyber-Physical Systems",
+      "authors": [
+        "Mariana Segovia-Ferreira",
+        "Jose Rubio-Hernan",
+        "Ana Rosa Cavalli",
+        "Joaquin Garcia-Alfaro"
+      ],
+      "abstract": "Concerns for the resilience of Cyber-Physical Systems (CPS)s in critical infrastructure are growing. CPS integrate sensing, computation, control, and networking into physical objects and mission-critical services, connecting traditional infrastructure to internet technologies. While this integration increases service efficiency, it has to face the possibility of new threats posed by the new functionalities. This leads to cyber-threats, such as denial-of-service, modification of data, information leakage, spreading of malware, and many others. Cyber-resilience refers to the ability of a CPS to prepare, absorb, recover, and adapt to the adverse effects associated with cyber-threats, e.g., physical degradation of the CPS performance resulting from a cyber-attack. Cyber-resilience aims at ensuring CPS survival by keeping the core functionalities of the CPS in case of extreme events. The literature on cyber-resilience is rapidly increasing, leading to a broad variety of research works addressing this new topic. In this article, we create a systematization of knowledge about existing scientific efforts of making CPSs cyber-resilient. We systematically survey recent literature addressing cyber-resilience with a focus on techniques that may be used on CPSs. We first provide preliminaries and background on CPSs and threats, and subsequently survey state-of-the-art approaches that have been proposed by recent research work applicable to CPSs. In particular, we aim at differentiating research work from traditional risk management approaches based on the general acceptance that it is unfeasible to prevent and mitigate all possible risks threatening a CPS. We also discuss questions and research challenges, with a focus on the practical aspects of cyber-resilience, such as the use of metrics and evaluation methods as well as testing and validation environments.",
+      "publication_date": "2023-02-10T18:03:20+00:00",
+      "doi": "10.1145/3652953",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2302.05402v2.pdf"
+    },
+    {
+      "title": "Self-Healing Secure Blockchain Framework in Microgrids",
+      "authors": [
+        "Suman Rath",
+        "Lam Duc Nguyen",
+        "Subham Sahoo",
+        "Petar Popovski"
+      ],
+      "abstract": "Blockchain has recently been depicted as a secure protocol for information exchange in cyber-physical microgrids. However, it is still found vulnerable to consensus manipulation attacks. These stealth attacks are often difficult to detect as they use kernel-level access to mask their actions. In this paper, we firstly build a trusted and secured peer-to-peer network mechanism for physical DC microgrids' validation of transactions over Distributed Ledger. Secondly, we leverage from a physics-informed approach for detecting malware-infected nodes and then recovering from stealth attacks using a self-healing recovery scheme augmented into the microgrid Blockchain network. This scheme allows compromised nodes to adapt to a reconstructed trustworthy signal in a multi-hop manner using corresponding measurements from the reliable nodes in the network. Additionally, recognizing the possible threat of denial-of-service attacks and random time delays (where information sharing via communication channels is blocked), we also integrate a model-free predictive controller with the proposed system that can locally reconstruct an expected version of the attacked/delayed signals. This supplements the capabilities of Blockchain, enabling it to detect and mitigate consensus manipulation attempts, and network latencies.",
+      "publication_date": "2022-09-15T08:35:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2209.07138v2.pdf"
+    },
+    {
+      "title": "The Opportunity to Regulate Cybersecurity in the EU (and the World):   Recommendations for the Cybersecurity Resilience Act",
+      "authors": [
+        "Kaspar Rosager Ludvigsen",
+        "Shishir Nagaraja"
+      ],
+      "abstract": "Safety is becoming cybersecurity under most circumstances. This should be reflected in the Cybersecurity Resilience Act when it is proposed and agreed upon in the European Union. In this paper, we define a range of principles which this future Act should build upon, a structure and argue why it should be as broad as possible. It is based on what the cybersecurity research community for long have asked for, and on what constitutes clear hard legal rules instead of soft. Important areas such as cybersecurity should be taken seriously, by regulating it in the same way we see other types of critical infrastructure and physical structures, and be uncompromising and logical, to encompass the risks and potential for chaos which its ubiquitous nature entails.   We find that principles which regulate cybersecurity systems' life-cycles in detail are needed, as is clearly stating what technology is being used, due to Kirkhoffs principle, and dismissing the idea of technosolutionism. Furthermore, carefully analysing risks is always necessary, but so is understanding when and how the systems manufacturers may fail or almost fail. We do this through the following principles:   Ex ante and Ex post assessment, Safety and Security by Design, Denial of Obscurity, Dismissal of Infallibility, Systems Acknowledgement, Full Transparency, Movement towards a Zero-trust Security Model, Cybersecurity Resilience, Enforced Circular Risk Management, Dependability, Hazard Analysis and mitigation or limitation, liability, A Clear Reporting Regime, Enforcement of Certification and Standards, Mandated Verification of Security and Continuous Servicing.   To this, we suggest that the Act employs similar authorities and mechanisms as the GDPR and create strong national authorities to coordinate inspection and enforcement in each Member State, with ENISA being the top and coordinating organ.",
+      "publication_date": "2022-05-26T07:20:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "url": "http://arxiv.org/pdf/2205.13196v1.pdf"
+    },
+    {
+      "title": "A Framework for Checkpointing and Recovery of Hierarchical   Cyber-Physical Systems",
+      "authors": [
+        "Kaustubh Sridhar",
+        "Radoslav Ivanov",
+        "Vuk Lesi",
+        "Marcio Juliato",
+        "Manoj Sastry",
+        "Lily Yang",
+        "James Weimer",
+        "Oleg Sokolsky",
+        "Insup Lee"
+      ],
+      "abstract": "This paper tackles the problem of making complex resource-constrained cyber-physical systems (CPS) resilient to sensor anomalies. In particular, we present a framework for checkpointing and roll-forward recovery of state-estimates in nonlinear, hierarchical CPS with anomalous sensor data. We introduce three checkpointing paradigms for ensuring different levels of checkpointing consistency across the hierarchy. Our framework has algorithms implementing the consistent paradigm to perform accurate recovery in a time-efficient manner while managing the tradeoff with system resources and handling the interplay between diverse anomaly detection systems across the hierarchy. Further in this work, we detail bounds on the recovered state-estimate error, maximum tolerable anomaly duration and the accuracy-resource gap that results from the aforementioned tradeoff. We explore use-cases for our framework and evaluate it on a case study of a simulated ground robot to show that it scales to multiple hierarchies and performs better than an extended Kalman filter (EKF) that does not incorporate a checkpointing procedure during sensor anomalies. We conclude the work with a discussion on extending the proposed framework to distributed systems.",
+      "publication_date": "2022-05-17T22:16:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/pdf/2205.08650v1.pdf"
+    },
+    {
+      "title": "Comeback Kid: Resilience for Mixed-Critical Wireless Network Resource   Management",
+      "authors": [
+        "Robert-Jeron Reifert",
+        "Stefan Roth",
+        "Alaa Alameer Ahmad",
+        "Aydin Sezgin"
+      ],
+      "abstract": "The future sixth generation (6G) of communication systems is envisioned to provide numerous applications in safety-critical contexts, e.g., driverless traffic, modular industry, and smart cities, which require outstanding performance, high reliability and fault tolerance, as well as autonomy. Ensuring criticality awareness for diverse functional safety applications and providing fault tolerance in an autonomous manner are essential for future 6G systems. Therefore, this paper proposes jointly employing the concepts of resilience and mixed criticality. In this work, we conduct physical layer resource management in cloud-based networks under the rate-splitting paradigm, which is a promising factor towards achieving high resilience. We recapitulate the concepts individually, outline a joint metric to measure the criticality-aware resilience, and verify its merits in a case study. We, thereby, formulate a non-convex optimization problem, derive an efficient iterative algorithm, propose four resilience mechanisms differing in quality and time of adaption, and conduct extensive numerical simulations. Towards this end, we propose a highly autonomous rate-splitting-enabled physical layer resource management algorithm for future 6G networks respecting mixed-critical quality of service (QoS) levels and providing high levels of resilience. Results emphasize the considerable improvements of incorporating a mixed criticality-aware resilience strategy under channel outages and strict QoS demands. The rate-splitting paradigm is particularly shown to overcome state-of-the-art interference management techniques, and the resilience and throughput adaption over consecutive outage events reveals the proposed schemes contribution towards enabling future 6G networks.",
+      "publication_date": "2022-04-25T18:00:03+00:00",
+      "doi": "10.1109/TVT.2023.3296977",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IT"
+      ],
+      "url": "http://arxiv.org/pdf/2204.11878v2.pdf"
+    },
+    {
+      "title": "Improving the Resilience of Fast Failover Routing: TREE (Tree Routing to   Extend Edge disjoint paths)",
+      "authors": [
+        "Oliver Schweiger",
+        "Klaus-Tycho Foerster",
+        "Stefan Schmid"
+      ],
+      "abstract": "Today's communication networks have stringent availability requirements and hence need to rapidly restore connectivity after failures. Modern networks thus implement various forms of fast reroute mechanisms in the data plane, to bridge the gap to slow global control plane convergence. State-of-the-art fast reroute commonly relies on disjoint route structures, to offer multiple independent paths to the destination. We propose to leverage the network's path diversity to extend edge disjoint path mechanisms to tree routing, in order to improve the performance of fast rerouting. We present two such tree-mechanisms in detail and show that they boost resilience by up to 12% and 25% respectively on real-world, synthetic, and data center topologies, while still retaining good path length qualities.",
+      "publication_date": "2021-11-28T11:59:31+00:00",
+      "doi": "10.1145/3493425.3502747",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/2111.14123v1.pdf"
+    },
+    {
+      "title": "A cooperative partial snapshot algorithm for checkpoint-rollback   recovery of large-scale and dynamic distributed systems and experimental   evaluations",
+      "authors": [
+        "Junya Nakamura",
+        "Yonghwan Kim",
+        "Yoshiaki Katayama",
+        "Toshimitsu Masuzawa"
+      ],
+      "abstract": "A distributed system consisting of a huge number of computational entities is prone to faults, because faults in a few nodes cause the entire system to fail. Consequently, fault tolerance of distributed systems is a critical issue. Checkpoint-rollback recovery is a universal and representative technique for fault tolerance; it periodically records the entire system state (configuration) to non-volatile storage, and the system restores itself using the recorded configuration when the system fails. To record a configuration of a distributed system, a specific algorithm known as a snapshot algorithm is required. However, many snapshot algorithms require coordination among all nodes in the system; thus, frequent executions of snapshot algorithms require unacceptable communication cost, especially if the systems are large. As a sophisticated snapshot algorithm, a partial snapshot algorithm has been introduced that takes a partial snapshot (instead of a global snapshot). However, if two or more partial snapshot algorithms are concurrently executed, and their snapshot domains overlap, they should coordinate, so that the partial snapshots (taken by the algorithms) are consistent. In this paper, we propose a new efficient partial snapshot algorithm with the aim of reducing communication for the coordination. In a simulation, we show that the proposed algorithm drastically outperforms the existing partial snapshot algorithm, in terms of message and time complexity.",
+      "publication_date": "2021-03-29T02:39:39+00:00",
+      "doi": "10.1002/cpe.5647",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/2103.15285v1.pdf"
+    },
+    {
+      "title": "Resilient Virtualized Systems Using ReHype",
+      "authors": [
+        "Michael Le",
+        "Yuval Tamir"
+      ],
+      "abstract": "System-level virtualization introduces critical vulnerabilities to failures of the software components that implement virtualization -- the virtualization infrastructure (VI). To mitigate the impact of such failures, we introduce a resilient VI (RVI) that can recover individual VI components from failure, caused by hardware or software faults, transparently to the hosted virtual machines (VMs). Much of the focus is on the ReHype mechanism for recovery from hypervisor failures, that can lead to state corruption and to inconsistencies among the states of system components. ReHype's implementation for the Xen hypervisor was done incrementally, using fault injection results to identify sources of critical corruption and inconsistencies. This implementation involved 900 LOC, with memory space overhead of 2.1MB. Fault injection campaigns, with a variety of fault types, show that ReHype can successfully recover, in less than 750ms, from over 88% of detected hypervisor failures. In addition to ReHype, recovery mechanisms for the other VI components are described. The overall effectiveness of our RVI is evaluated hosting a Web service application, on a cluster of VMs. With faults in any VI component, for over 87% of detected failures, our recovery mechanisms allow services provided by the application to be continuously maintained despite the resulting failures of VI components.",
+      "publication_date": "2021-01-23T22:43:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/pdf/2101.09282v1.pdf"
+    },
+    {
+      "title": "CARE: Lightweight Attack Resilient Secure Boot Architecturewith Onboard   Recovery for RISC-V based SOC",
+      "authors": [
+        "Avani Dave",
+        "Nilanjan Banerjee",
+        "Chintan Patel"
+      ],
+      "abstract": "Recent technological advancements have proliferated the use of small embedded devices for collecting, processing, and transferring the security-critical information. The Internet of Things (IoT) has enabled remote access and control of these network-connected devices. Consequently, an attacker can exploit security vulnerabilities and compromise these devices. In this context, the secure boot becomes a useful security mechanism to verify the integrity and authenticity of the software state of the devices. However, the current secure boot schemes focus on detecting the presence of potential malware on the device but not on disinfecting and restoring the soft-ware to a benign state. This manuscript presents CARE- the first secure boot framework that provides detection, resilience, and onboard recovery mechanism for the com-promised devices. The framework uses a prototype hybrid CARE: Code Authentication and Resilience Engine to verify the software state and restore it to a benign state. It uses Physical Memory Protection (PMP) and other security enchaining techniques of RISC-V processor to pro-vide resilience from modern attacks. The state-of-the-art comparison and performance analysis results indicate that the proposed secure boot framework provides a promising resilience and recovery mechanism with very little 8 % performance and resource overhead",
+      "publication_date": "2021-01-15T21:09:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2101.06300v1.pdf"
+    },
+    {
+      "title": "SRACARE: Secure Remote Attestation with Code Authentication and   Resilience Engine",
+      "authors": [
+        "Avani Dave",
+        "Nilanjan Banerjee",
+        "Chintan Patel"
+      ],
+      "abstract": "Recent technological advancements have enabled proliferated use of small embedded and IoT devices for collecting, processing, and transferring the security-critical information and user data. This exponential use has acted as a catalyst in the recent growth of sophisticated attacks such as the replay, man-in-the-middle, and malicious code modification to slink, leak, tweak or exploit the security-critical information in malevolent activities. Therefore, secure communication and software state assurance (at run-time and boot-time) of the device has emerged as open security problems. Furthermore, these devices need to have an appropriate recovery mechanism to bring them back to the known-good operational state. Previous researchers have demonstrated independent methods for attack detection and safeguard. However, the majority of them lack in providing onboard system recovery and secure communication techniques. To bridge this gap, this manuscript proposes SRACARE- a framework that utilizes the custom lightweight, secure communication protocol that performs remote/local attestation, and secure boot with an onboard resilience recovery mechanism to protect the devices from the above-mentioned attacks. The prototype employs an efficient lightweight, low-power 32-bit RISC-V processor, secure communication protocol, code authentication, and resilience engine running on the Artix 7 Field Programmable Gate Array(FPGA) board. This work presents the performance evaluation and state-of-the-art comparison results, which shows promising resilience to attacks and demonstrate the novel protection mechanism with onboard recovery. The framework achieves these with only 8 % performance overhead and a very small increase in hardware-software footprint.",
+      "publication_date": "2021-01-15T14:46:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2101.06148v1.pdf"
+    },
+    {
+      "title": "Universality of noise-induced resilience restoration in   spatially-extended ecological systems",
+      "authors": [
+        "Cheng Ma",
+        "Gyorgy Korniss",
+        "Boleslaw K. Szymanski",
+        "Jianxi Gao"
+      ],
+      "abstract": "Many systems may switch to an undesired state due to internal failures or external perturbations, of which critical transitions toward degraded ecosystem states are a prominent example. Resilience restoration focuses on the ability of spatially-extended systems and the required time to recover to their desired states under stochastic environmental conditions. While mean-field approaches may guide recovery strategies by indicating the conditions needed to destabilize undesired states, these approaches are not accurately capturing the transition process toward the desired state of spatially-extended systems in stochastic environments. The difficulty is rooted in the lack of mathematical tools to analyze systems with high dimensionality, nonlinearity, and stochastic effects. We bridge this gap by developing new mathematical tools that employ nucleation theory in spatially-embedded systems to advance resilience restoration. We examine our approach on systems following mutualistic dynamics and diffusion models, finding that systems may exhibit single-cluster or multi-cluster phases depending on their sizes and noise strengths, and also construct a new scaling law governing the restoration time for arbitrary system size and noise strength in two-dimensional systems. This approach is not limited to ecosystems and has applications in various dynamical systems, from biology to infrastructural systems.",
+      "publication_date": "2020-11-24T00:28:37+00:00",
+      "doi": "10.1038/s42005-021-00758-2",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.PE"
+      ],
+      "url": "http://arxiv.org/pdf/2011.11808v2.pdf"
+    },
+    {
+      "title": "Soft Errors Detection and Automatic Recovery based on Replication   combined with different Levels of Checkpointing",
+      "authors": [
+        "Diego Montezanti",
+        "Enzo Rucci",
+        "Armando De Giusti",
+        "Marcelo Naiouf",
+        "Dolores Rexachs",
+        "Emilio Luque"
+      ],
+      "abstract": "Handling faults is a growing concern in HPC. In future exascale systems, it is projected that silent undetected errors will occur several times a day, increasing the occurrence of corrupted results. In this article, we propose SEDAR, which is a methodology that improves system reliability against transient faults when running parallel message-passing applications. Our approach, based on process replication for detection, combined with different levels of checkpointing for automatic recovery, has the goal of helping users of scientific applications to obtain executions with correct results. SEDAR is structured in three levels: (1) only detection and safe-stop with notification; (2) recovery based on multiple system-level checkpoints; and (3) recovery based on a single valid user-level checkpoint. As each of these variants supplies a particular coverage but involves limitations and implementation costs, SEDAR can be adapted to the needs of the system. In this work, a description of the methodology is presented and the temporal behavior of employing each SEDAR strategy is mathematically described, both in the absence and presence of faults. A model that considers all the fault scenarios on a test application is introduced to show the validity of the detection and recovery mechanisms. An overhead evaluation of each variant is performed with applications involving different communication patterns; this is also used to extract guidelines about when it is beneficial to employ each SEDAR protection level. As a result, we show its efficacy and viability to tolerate transient faults in target HPC environments.",
+      "publication_date": "2020-07-16T18:17:16+00:00",
+      "doi": "10.1016/j.future.2020.07.003",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/2007.08552v2.pdf"
+    },
+    {
+      "title": "Enabling Failure-resilient Intermittent Systems Without Runtime   Checkpointing",
+      "authors": [
+        "Wei-Ming Chen",
+        "Tei-Wei-Kuo",
+        "Pi-Cheng Hsiu"
+      ],
+      "abstract": "Self-powered intermittent systems typically adopt runtime checkpointing as a means to accumulate computation progress across power cycles and recover system status from power failures. However, existing approaches based on the checkpointing paradigm normally require system suspension and/or logging at runtime. This paper presents a design which overcomes the drawbacks of checkpointing-based approaches, to enable failure-resilient intermittent systems. Our design allows accumulative execution and instant system recovery under frequent power failures while enforcing the serializability of concurrent task execution to improve computation progress and ensuring data consistency without system suspension during runtime, by leveraging the characteristics of data accessed in hybrid memory. We integrated the design into FreeRTOS running on a Texas Instruments device. Experimental results show that our design can still accumulate progress when the power source is too weak for checkpointing-based approaches to make progress, and improves the computation progress by up to 43% under a relatively strong power source, while reducing the recovery time by at least 90%.",
+      "publication_date": "2019-10-11T02:45:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.OS"
+      ],
+      "url": "http://arxiv.org/pdf/1910.04949v1.pdf"
+    },
+    {
+      "title": "Airport Cyber Security and Cyber Resilience Controls",
+      "authors": [
+        "Alex R Mathew"
+      ],
+      "abstract": "Cyber Security scares are the main areas of demerits associated with the advent and widespread of internet technology. While the internet has improved life and business processes, the levels of security threats have been increasing proportionally. As such, the web and the related cyber systems have exposed the world to the state of continuous vigilance because of the existential threats of attacks. Criminals are in the constant state of attempting cybersecurity defense of various infrastructures and businesses. Airports are some of the areas where cybersecurity means a lot of things. The reason for the criticality of cybersecurity in airports concerns the high integration of internet and computer systems in the operations of airports. This paper is about airport cybersecurity and resilience controls. At the start of the article is a comprehensive introduction that provides a preview of the entire content. In the paper, there are discussions of airport intelligence classification, cybersecurity malicious threats analysis, and research methodology. A concise conclusion marks the end of the article.",
+      "publication_date": "2019-08-26T20:00:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/1908.09894v1.pdf"
+    },
+    {
+      "title": "Resilience Dynamics of Urban Water Security and Potential for Tipping   Points",
+      "authors": [
+        "Elisabeth H. Krueger",
+        "Dietrich Borchardt",
+        "James W. Jawitz",
+        "Harald Klammler",
+        "Soohyun Yang",
+        "Jonatan Zischg",
+        "P. Suresh C. Rao"
+      ],
+      "abstract": "Cities are the drivers of socio-economic innovation, and are also forced to address the accelerating risk of failure in providing essential services such as water supply today and in the future. Here, we investigate the resilience of urban water supply security, which is defined in terms of the services that citizens receive. The resilience of services is determined by the availability and robustness of critical system elements, or 'capitals' (water resources, infrastructure, finances, management efficacy and community adaptation). We translate quantitative information about this portfolio of capitals from seven contrasting cities on four continents into parameters of a coupled systems dynamics model. Water services are disrupted by recurring stochastic shocks, and we simulate the dynamics of impact and recovery cycles. Resilience emerges under various constraints, expressed in terms of each city's capital portfolio. Systematic assessment of the parameter space produces the urban water resilience landscape, and we determine the position of each city along a continuous gradient from water insecure and non-resilient to secure and resilient systems. In several cities stochastic disturbance regimes challenge steady-state conditions and drive system collapse. While water insecure and non-resilient cities risk being pushed into a poverty trap, cities which have developed excess capitals risk being trapped in rigidity and crossing a tipping point from high to low services and collapse. Where public services are insufficient, community adaptation improves water security and resilience to varying degrees. Our results highlight the need for resilience thinking in the governance of urban water systems under global change pressures.",
+      "publication_date": "2019-04-16T15:21:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "url": "http://arxiv.org/pdf/1904.07863v2.pdf"
+    },
+    {
+      "title": "REAFFIRM: Model-Based Repair of Hybrid Systems for Improving Resiliency",
+      "authors": [
+        "Luan Viet Nguyen",
+        "Gautam Mohan",
+        "James Weimer",
+        "Oleg Sokolsky",
+        "Insup Lee",
+        "Rajeev Alur"
+      ],
+      "abstract": "Model-based design offers a promising approach for assisting developers to build reliable and secure cyber-physical systems (CPSs) in a systematic manner. In this methodology, a designer first constructs a model, with mathematically precise semantics, of the system under design, and performs extensive analysis with respect to correctness requirements before generating the implementation from the model. However, as new vulnerabilities are discovered, requirements evolve aimed at ensuring resiliency. There is currently a shortage of an inexpensive, automated mechanism that can effectively repair the initial design, and a model-based system developer regularly needs to redesign and reimplement the system from scratch. In this paper, we propose a new methodology along with a Matlab toolkit called REAFFIRM to facilitate the model-based repair for improving the resiliency of CPSs. REAFFIRM takes the inputs including 1) an original hybrid system modeled as a Simulink/Stateflow diagram, 2) a given resiliency pattern specified as a model transformation script, and 3) a safety requirement expressed as a Signal Temporal Logic formula, and then outputs a repaired model which satisfies the requirement. The overall structure of REAFFIRM contains two main modules, a model transformation, and a model synthesizer built on top of the falsification tool Breach. We introduce a new model transformation language for hybrid systems, which we call HATL to allow a designer to specify resiliency patterns. To evaluate the proposed approach, we use REAFFIRM to automatically synthesize repaired models for an adaptive cruise control (ACC) system under a GPS sensor spoofing attack, for a single-machine infinite-bus (SMIB) system under a sliding-mode switching attack, and for a missile guidance system under gyroscopes sensor attack.",
+      "publication_date": "2019-02-09T20:38:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "url": "http://arxiv.org/pdf/1902.04064v1.pdf"
+    },
+    {
+      "title": "Agent-Based Recovery Model for Seismic Resilience Evaluation of   Electrified Communities",
+      "authors": [
+        "Li Sun",
+        "Bozidar Stojadinovic",
+        "Giovanni Sansavini"
+      ],
+      "abstract": "In this paper, an agent-based framework to quantify the seismic resilience of an Electric Power Supply System (EPSS) and the community it serves is presented. Within the framework, the loss and restoration of the EPSS power generation and delivery capacity and of the power demand from the served community are used to assess the electric power deficit during the damage absorption and recovery processes. Damage to the components of the EPSS and of the community built environment is evaluated using the seismic fragility functions. The restoration of the community electric power demand is evaluated using the seismic recovery functions. However, the post-earthquake EPSS recovery process is modeled using an agent-based model with two agents, the EPSS Operator and the Community Administrator. The resilience of the EPSS-Community system is quantified using direct, EPSS-related, and societal, community-related, indicators. Parametric studies are carried out to quantify the influence of different seismic hazard scenarios, agent characteristics, and power dispatch strategies on the EPSS-Community seismic resilience. The use of the agent-based modeling framework enabled a rational formulation of the post-earthquake recovery phase and highlighted the interaction between the EPSS and the community in the recovery process not quantified in resilience models developed to date. Furthermore, it shows that the resilience of different community sectors can be enhanced by different power dispatch strategies. The proposed agent-based EPSS-Community system resilience quantification framework can be used to develop better community and infrastructure system risk governance policies.",
+      "publication_date": "2019-01-11T01:19:56+00:00",
+      "doi": "10.1111/risa.13277",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "url": "http://arxiv.org/pdf/1901.03445v3.pdf"
+    },
+    {
+      "title": "Mechanisms for Resilient Video Transmission",
+      "authors": [
+        "Roger Immich",
+        "Eduardo Cerqueira",
+        "Marilia curado"
+      ],
+      "abstract": "Wireless networks are envisaged to be one of the most important technologies to provide cost-efficient content delivery, including for video applications. They will allow thousands of thousands of fixed and mobile users to access, produce, share, and consume video content in a ubiquitous way. Real-time video services over these networks are becoming a part of everyday life and have been used to spread information ranging from education to entertainment content. However, the challenge of dealing with the fluctuating bandwidth, scarce resources, and time-varying error rate of these networks, highlights the need for error-resilient video transmission. In this context, the combination of Forward Error Correction (FEC) and Unequal Error Protection (UEP) approaches is known to provide the distribution of video applications for wireless users with Quality of Experience (QoE) assurance. This thesis proposed a procedure to assess the video characteristics and their related impact on the perceived quality to end-users. This thesis proposes a series of cross-layer video-aware and FEC-based mechanisms with UEP to enhance video transmission in several types of wireless networks. A number of methods to set an adaptive amount of redundancy were used in these mechanisms, such as heuristic techniques, random neural networks, ant colony optimisation, and fuzzy logic. In the first one, heuristic techniques, the mechanisms rely on human experience to define the best strategy. The advantages and drawbacks of the proposed mechanisms were demonstrated in realistic simulations using real video sequences and actual network traces. The assessments were conducted with well-known QoE metrics. The results show that all the proposed mechanisms were able to outperform the competitors on both perceived video quality and network footprint.",
+      "publication_date": "2018-08-20T23:52:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1808.06722v1.pdf"
+    },
+    {
+      "title": "A Stage-wise Decision Framework for Transportation Network Resilience   Planning",
+      "authors": [
+        "Weili Zhang",
+        "Naiyu Wang",
+        "Charles Nicholsonc",
+        "Mohammad Hadikhan Tehrani"
+      ],
+      "abstract": "This study introduces a comprehensive stage-wise decision framework to support resilience planning for roadway networks regarding pre-disaster mitigation (Stage I), post-disaster emergency response (Stage II) and long-term recovery (Stage III). Three decision metrics are first defined, each based on a derivation of the number of independent pathways (IPW) within a roadway system, to measure the performance of a network in term of its robustness, redundancy, and recoverability, respectively. Using the three IPW-based decision metrics, a stage-wise decision process is then formulated as a stochastic multi-objective optimization problem, which includes a project ranking mechanism to identify pre-disaster network retrofit projects in Phase I, a prioritization approach for temporary repairs to facilitate immediate post-disaster emergency responses in Phase II, and a methodology for scheduling network-wide repairs during the long-term recovery of the roadway system in Phase III. Finally, this stage-wise decision framework is applied to the roadway network of Shelby County, TN, USA subjected to seismic hazards, to illustrate its implementation in supporting community network resilience planning.",
+      "publication_date": "2018-08-11T18:51:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "url": "http://arxiv.org/pdf/1808.03850v1.pdf"
+    },
+    {
+      "title": "Resilience-based performance modeling and decision optimization for   transportation network",
+      "authors": [
+        "Weili Zhang"
+      ],
+      "abstract": "This research presented a novel resilience-based framework to support resilience planning regarding pre-disaster mitigation and post-disaster recovery.   First, the author proposes a new performance metric for transportation network, weighted number of independent pathways (WIPW), integrating the network topology, redundancy level, traffic patterns, structural reliability of network components, and functionality of the network during community's post-disaster recovery in a systematical way. To the best of our knowledge, WIPW is the only performance metric that permits risk mitigation alternatives for improving transportation network resilience to be compared on a common basis. Based on the WIPW, a decision methodology of prioritizing transportation network retrofit projects is developed.   Second, our studies extend from pre-disaster mitigation to post-hazard recovery, in which this research presents two metrics to evaluate the restoration over the horizon after disasters . That is, total recovery time and the skew of the recovery trajectory. Both metrics are involved in the multi-objective stochastic optimization problem of restoration scheduling. The metrics provided a new dimension to evaluate the relative efficiency of alternative network recovery strategies. The author then develops a restoration scheduling methodology for network post-disaster recovery that minimizes the overall network recovery time and optimizes the recovery trajectory, which ultimately will reduce economic losses due to network service disruption.",
+      "publication_date": "2018-08-11T06:36:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "url": "http://arxiv.org/pdf/1808.03761v1.pdf"
+    },
+    {
+      "title": "Automatic Software Repair: a Bibliography",
+      "authors": [
+        "Martin Monperrus"
+      ],
+      "abstract": "This article presents a survey on automatic software repair. Automatic software repair consists of automatically finding a solution to software bugs without human intervention. This article considers all kinds of repairs. First, it discusses behavioral repair where test suites, contracts, models, and crashing inputs are taken as oracle. Second, it discusses state repair, also known as runtime repair or runtime recovery, with techniques such as checkpoint and restart, reconfiguration, and invariant restoration. The uniqueness of this article is that it spans the research communities that contribute to this body of knowledge: software engineering, dependability, operating systems, programming languages, and security. It provides a novel and structured overview of the diversity of bug oracles and repair operators used in the literature.",
+      "publication_date": "2018-07-02T08:09:28+00:00",
+      "doi": "10.1145/3105906",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/pdf/1807.00515v1.pdf"
+    },
+    {
+      "title": "Resilient Disaster Recovery Logistics of Distribution Systems:   Co-Optimize Service Restoration with Repair Crew and Mobile Power Source   Dispatch",
+      "authors": [
+        "Shunbo Lei",
+        "Chen Chen",
+        "Yupeng Li",
+        "Yunhe Hou"
+      ],
+      "abstract": "Repair crews (RCs) and mobile power sources (MPSs) are critical resources for distribution system (DS) outage management after a natural disaster. However, their logistics is not well investigated. We propose a resilient scheme for disaster recovery logistics to co-optimize DS restoration with dispatch of RCs and MPSs. A novel co-optimization model is formulated to route RCs and MPSs in the transportation network, schedule them in the DS, and reconfigure the DS for microgrid formation coordinately, etc. The model incorporates different timescales of DS restoration and RC/MPS dispatch, the coupling of transportation and power networks, etc. To ensure radiality of the DS with variable physical structure and MPS allocation, we also model topology constraints based on the concept of spanning forest. The model is convexified equivalently and linearized into a mixed-integer linear programming. To reduce its computation time, preprocessing methods are proposed to pre-assign a minimal set of repair tasks to depots and reduce the number of candidate nodes for MPS connection. Resilient recovery strategies thus are generated to enhance service restoration, especially by dynamic formation of microgrids that are powered by MPSs and topologized by repair actions of RCs and network reconfiguration of the DS. Case studies demonstrate the proposed methodology.",
+      "publication_date": "2018-06-20T07:18:48+00:00",
+      "doi": "10.1109/TSG.2019.2899353",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "url": "http://arxiv.org/pdf/1806.07581v1.pdf"
+    },
+    {
+      "title": "A Scalable and Extensible Checkpointing Scheme for Massively Parallel   Simulations",
+      "authors": [
+        "Nils Kohl",
+        "Johannes Hötzer",
+        "Florian Schornbaum",
+        "Martin Bauer",
+        "Christian Godenschwager",
+        "Harald Köstler",
+        "Britta Nestler",
+        "Ulrich Rüde"
+      ],
+      "abstract": "Realistic simulations in engineering or in the materials sciences can consume enormous computing resources and thus require the use of massively parallel supercomputers. The probability of a failure increases both with the runtime and with the number of system components. For future exascale systems it is therefore considered critical that strategies are developed to make software resilient against failures. In this article, we present a scalable, distributed, diskless, and resilient checkpointing scheme that can create and recover snapshots of a partitioned simulation domain. We demonstrate the efficiency and scalability of the checkpoint strategy for simulations with up to $40$ billion computational cells executing on more than $400$ billion floating point values. A checkpoint creation is shown to require only a few seconds and the new checkpointing scheme scales almost perfectly up to more than $260\\,000$ ($2^{18}$) processes. To recover from a diskless checkpoint during runtime, we realize the recovery algorithms using ULFM MPI. The checkpointing mechanism is fully integrated in a state-of-the-art high-performance multi-physics simulation framework. We demonstrate the efficiency and robustness of the method with a realistic phase-field simulation originating in the material sciences and with a lattice Boltzmann method implementation.",
+      "publication_date": "2017-08-28T12:26:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/1708.08286v2.pdf"
+    },
+    {
+      "title": "Modified Viterbi Algorithm Based Distribution System Restoration   Strategy for Grid Resiliency",
+      "authors": [
+        "Chen Yuan",
+        "Mahesh S. Illindala",
+        "Amrit S. Khalsa"
+      ],
+      "abstract": "This paper presents a novel modified Viterbi algorithm to identify the optimal distribution system restoration plan for improving the grid resiliency. In the proposed algorithm, the switching operations performed for system restoration are the states with the minimum bus voltage being seen as the cost metric for each state and the extent of load recovery as the observed event. When full load recovery is spotted, the dynamic programming algorithm stops, thereby giving the least number of switching pairs necessary for system restoration. Moreover, an improved flexible switching pair operation is employed to maintain the radial nature of distribution system. Several case studies are presented for verifying the performance of the proposed strategy. Multi-fault conditions are considered in testing the system restoration scheme on 33-bus and 69-bus distribution systems. Furthermore, the effects of integrating distributed energy resources and microgrid systems are analyzed.",
+      "publication_date": "2017-08-03T06:36:37+00:00",
+      "doi": "10.1109/TPWRD.2016.2613935",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "url": "http://arxiv.org/pdf/1708.01016v1.pdf"
+    },
+    {
+      "title": "Synthesis of Optimal Resilient Control Strategies",
+      "authors": [
+        "Christel Baier",
+        "Clemens Dubslaff",
+        "Ľuboš Korenčiak",
+        "Antonín Kučera Vojtěch Řehák"
+      ],
+      "abstract": "Repair mechanisms are important within resilient systems to maintain the system in an operational state after an error occurred. Usually, constraints on the repair mechanisms are imposed, e.g., concerning the time or resources required (such as energy consumption or other kinds of costs). For systems modeled by Markov decision processes (MDPs), we introduce the concept of resilient schedulers, which represent control strategies guaranteeing that these constraints are always met within some given probability. Assigning rewards to the operational states of the system, we then aim towards resilient schedulers which maximize the long-run average reward, i.e., the expected mean payoff. We present a pseudo-polynomial algorithm that decides whether a resilient scheduler exists and if so, yields an optimal resilient scheduler. We show also that already the decision problem asking whether there exists a resilient scheduler is PSPACE-hard.",
+      "publication_date": "2017-07-11T11:34:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "url": "http://arxiv.org/pdf/1707.03223v1.pdf"
+    },
+    {
+      "title": "Towards Adaptive Resilience in High Performance Computing",
+      "authors": [
+        "Siavash Ghiasvand",
+        "Florina M. Ciorba"
+      ],
+      "abstract": "Failure rates in high performance computers rapidly increase due to the growth in system size and complexity. Hence, failures became the norm rather than the exception. Different approaches on high performance computing (HPC) systems have been introduced, to prevent failures (e. g., redundancy) or at least minimize their impacts (e. g., checkpoint and restart). In most cases, when these approaches are employed to increase the resilience of certain parts of a system, energy consumption rapidly increases, or performance significantly degrades. To address this challenge, we propose on-demand resilience as an approach to achieve adaptive resilience in HPC systems. In this work, the HPC system is considered in its entirety and resilience mechanisms such as checkpointing, isolation, and migration, are activated on-demand. Using the proposed approach, the unavoidable increase in total energy consumption and system performance degradation is decreased compared to the typical checkpoint/restart and redundant resilience mechanisms. Our work aims to mitigate a large number of failures occurring at various layers in the system, to prevent their propagation, and to minimize their impact, all of this in an energy-saving manner. In the case of failures that are estimated to occur but cannot be mitigated using the proposed on-demand resilience approach, the system administrators will be notified in view of performing further investigations into the causes of these failures and their impacts.",
+      "publication_date": "2017-06-14T07:49:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/1706.04345v1.pdf"
+    },
+    {
+      "title": "Falkirk Wheel: Rollback Recovery for Dataflow Systems",
+      "authors": [
+        "Michael Isard",
+        "Martín Abadi"
+      ],
+      "abstract": "We present a new model for rollback recovery in distributed dataflow systems. We explain existing rollback schemes by assigning a logical time to each event such as a message delivery. If some processors fail during an execution, the system rolls back by selecting a set of logical times for each processor. The effect of events at times within the set is retained or restored from saved state, while the effect of other events is undone and re-executed. We show that, by adopting different logical time \"domains\" at different processors, an application can adopt appropriate checkpointing schemes for different parts of its computation. We illustrate with an example of an application that combines batch processing with low-latency streaming updates. We show rules, and an algorithm, to determine a globally consistent state for rollback in a system that uses multiple logical time domains. We also introduce selective rollback at a processor, which can selectively preserve the effect of events at some logical times and not others, independent of the original order of execution of those events. Selective rollback permits new checkpointing policies that are particularly well suited to iterative streaming algorithms. We report on an implementation of our new framework in the context of the Naiad system.",
+      "publication_date": "2015-03-31T00:06:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/1503.08877v1.pdf"
+    },
+    {
+      "title": "How (Not) to Shoot in Your Foot with SDN Local Fast Failover: A   Load-Connectivity Tradeoff",
+      "authors": [
+        "Michael Borokhovich",
+        "Stefan Schmid"
+      ],
+      "abstract": "This paper studies the resilient routing and (in-band) fast failover mechanisms supported in Software-Defined Networks (SDN). We analyze the potential benefits and limitations of such failover mechanisms, and focus on two main metrics: (1) correctness (in terms of connectivity and loop-freeness) and (2) load-balancing. We make the following contributions. First, we show that in the worst-case (i.e., under adversarial link failures), the usefulness of local failover is rather limited: already a small number of failures will violate connectivity properties under any fast failover policy, even though the underlying substrate network remains highly connected. We then present randomized and deterministic algorithms to compute resilient forwarding sets; these algorithms achieve an almost optimal tradeoff. Our worst-case analysis is complemented with a simulation study.",
+      "publication_date": "2013-09-12T13:29:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "url": "http://arxiv.org/pdf/1309.3150v2.pdf"
+    },
+    {
+      "title": "Self-healing networks: redundancy and structure",
+      "authors": [
+        "Walter Quattrociocchi",
+        "Guido Caldarelli",
+        "Antonio Scala"
+      ],
+      "abstract": "We introduce the concept of self-healing in the field of complex networks. Obvious applications range from infrastructural to technological networks. By exploiting the presence of redundant links in recovering the connectivity of the system, we introduce self-healing capabilities through the application of distributed communication protocols granting the \"smartness\" of the system. We analyze the interplay between redundancies and smart reconfiguration protocols in improving the resilience of networked infrastructures to multiple failures; in particular, we measure the fraction of nodes still served for increasing levels of network damages. We study the effects of different connectivity patterns (planar square-grids, small-world, scale-free networks) on the healing performances. The study of small-world topologies shows us that the introduction of some long-range connections in the planar grids greatly enhances the resilience to multiple failures giving results comparable to the most resilient (but less realistic) scale-free structures.",
+      "publication_date": "2013-05-15T12:52:14+00:00",
+      "doi": "10.1371/journal.pone.0087986",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "url": "http://arxiv.org/pdf/1305.3450v1.pdf"
+    },
+    {
+      "title": "Adaptive Redundancy Management for Durable P2P Backup",
+      "authors": [
+        "Matteo Dell'Amico",
+        "Pietro Michiardi",
+        "Laszlo Toka",
+        "Pasquale Cataldi"
+      ],
+      "abstract": "We design and analyze the performance of a redundancy management mechanism for Peer-to-Peer backup applications. Armed with the realization that a backup system has peculiar requirements -- namely, data is read over the network only during restore processes caused by data loss -- redundancy management targets data durability rather than attempting to make each piece of information availabile at any time.   In our approach each peer determines, in an on-line manner, an amount of redundancy sufficient to counter the effects of peer deaths, while preserving acceptable data restore times. Our experiments, based on trace-driven simulations, indicate that our mechanism can reduce the redundancy by a factor between two and three with respect to redundancy policies aiming for data availability. These results imply an according increase in storage capacity and decrease in time to complete backups, at the expense of longer times required to restore data. We believe this is a very reasonable price to pay, given the nature of the application.   We complete our work with a discussion on practical issues, and their solutions, related to which encoding technique is more suitable to support our scheme.",
+      "publication_date": "2012-01-11T17:56:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/1201.2360v2.pdf"
+    }
+  ]
+}

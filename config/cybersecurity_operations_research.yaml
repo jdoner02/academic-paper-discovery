@@ -1,0 +1,207 @@
+# Cybersecurity Operations Research Configuration
+# Mathematical optimization, game theory, and decision science applied to cybersecurity problems
+search_configuration:
+  default_strategy: "cybersecurity_optimization_models"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational operations research in cybersecurity
+    end_year: 2025      # Latest developments in quantitative cybersecurity
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["general operations research", "business optimization", "supply chain management"]   # Focus on cybersecurity applications, not general OR
+
+strategies:
+  cybersecurity_optimization_models:
+    name: "Cybersecurity Investment and Resource Optimization"
+    description: "Mathematical optimization models for cybersecurity budget allocation, security control selection, and resource allocation under constraints and uncertainty"
+    primary_keywords:
+      - "cybersecurity optimization"
+      - "security investment optimization"
+      - "cybersecurity resource allocation"
+      - "security budget optimization"
+      - "cyber risk optimization"
+    secondary_keywords:
+      - "portfolio optimization"
+      - "multi-objective optimization"
+      - "stochastic optimization"
+      - "robust optimization"
+      - "integer programming"
+      - "linear programming"
+      - "decision analysis"
+      - "cost-benefit analysis"
+    technical_terms:
+      - "security control selection"
+      - "risk-return tradeoffs"
+      - "budget constraints"
+      - "resource limitations"
+      - "uncertainty modeling"
+      - "scenario planning"
+      - "sensitivity analysis"
+      - "Pareto optimality"
+    application_domains:
+      - "enterprise security"
+      - "government agencies"
+      - "critical infrastructure"
+      - "small organizations"
+      - "healthcare systems"
+      - "financial institutions"
+    exclude_terms:
+      - "financial portfolio theory"
+      - "general investment"
+      - "business strategy"
+
+  cybersecurity_game_theory:
+    name: "Game Theory and Strategic Cybersecurity"
+    description: "Game-theoretic models of attacker-defender interactions, strategic security decisions, and multi-stakeholder cybersecurity scenarios"
+    primary_keywords:
+      - "cybersecurity game theory"
+      - "security games"
+      - "attacker-defender models"
+      - "strategic cybersecurity"
+      - "cyber warfare game theory"
+    secondary_keywords:
+      - "Nash equilibrium"
+      - "Stackelberg games"
+      - "zero-sum games"
+      - "non-cooperative games"
+      - "evolutionary games"
+      - "mechanism design"
+      - "auction theory"
+      - "incentive compatibility"
+    technical_terms:
+      - "payoff matrices"
+      - "strategy spaces"
+      - "information asymmetry"
+      - "signaling games"
+      - "repeated games"
+      - "behavioral strategies"
+      - "solution concepts"
+      - "equilibrium analysis"
+    application_domains:
+      - "network security"
+      - "intrusion detection"
+      - "honeypot deployment"
+      - "incident response"
+      - "threat intelligence"
+      - "vulnerability disclosure"
+    exclude_terms:
+      - "general game theory"
+      - "economic theory"
+      - "political games"
+
+  cyber_risk_quantification:
+    name: "Cyber Risk Quantification and Decision Science"
+    description: "Quantitative risk assessment methods, probabilistic models, and decision science frameworks for cybersecurity risk management and measurement"
+    primary_keywords:
+      - "cyber risk quantification"
+      - "cybersecurity risk assessment"
+      - "quantitative risk analysis"
+      - "cyber risk modeling"
+      - "security metrics"
+    secondary_keywords:
+      - "Monte Carlo simulation"
+      - "probabilistic models"
+      - "Bayesian networks"
+      - "fault tree analysis"
+      - "event tree analysis"
+      - "value at risk"
+      - "expected loss"
+      - "risk aggregation"
+    technical_terms:
+      - "loss distributions"
+      - "frequency analysis"
+      - "severity modeling"
+      - "correlation modeling"
+      - "extreme value theory"
+      - "copula models"
+      - "scenario analysis"
+      - "stress testing"
+    application_domains:
+      - "risk management"
+      - "insurance modeling"
+      - "regulatory compliance"
+      - "business continuity"
+      - "investment decisions"
+      - "strategic planning"
+    exclude_terms:
+      - "financial risk"
+      - "market risk"
+      - "credit risk"
+
+  incident_response_optimization:
+    name: "Incident Response and Recovery Optimization"
+    description: "Operations research methods for optimizing cybersecurity incident response, resource allocation during crises, and recovery planning"
+    primary_keywords:
+      - "incident response optimization"
+      - "cyber incident management"
+      - "emergency response optimization"
+      - "recovery optimization"
+      - "cybersecurity operations research"
+    secondary_keywords:
+      - "resource scheduling"
+      - "priority queuing"
+      - "task assignment"
+      - "workflow optimization"
+      - "capacity planning"
+      - "service level optimization"
+      - "response time minimization"
+      - "cost minimization"
+    technical_terms:
+      - "queuing theory"
+      - "scheduling algorithms"
+      - "assignment problems"
+      - "network flow models"
+      - "simulation modeling"
+      - "discrete event simulation"
+      - "markov chains"
+      - "stochastic processes"
+    application_domains:
+      - "security operations centers"
+      - "incident response teams"
+      - "emergency management"
+      - "business continuity"
+      - "disaster recovery"
+      - "crisis management"
+    exclude_terms:
+      - "general emergency management"
+      - "natural disaster response"
+      - "supply chain disruption"
+
+  network_security_optimization:
+    name: "Network Security Architecture and Defense Optimization"
+    description: "Mathematical models for optimal network security architecture, defense placement, and security control deployment in network environments"
+    primary_keywords:
+      - "network security optimization"
+      - "security architecture optimization"
+      - "network defense placement"
+      - "security control deployment"
+      - "network hardening optimization"
+    secondary_keywords:
+      - "graph theory"
+      - "network topology"
+      - "connectivity optimization"
+      - "interdiction models"
+      - "covering problems"
+      - "facility location"
+      - "network flows"
+      - "cut problems"
+    technical_terms:
+      - "minimum cut algorithms"
+      - "maximum flow problems"
+      - "shortest path algorithms"
+      - "spanning tree problems"
+      - "vertex cover"
+      - "dominating sets"
+      - "network reliability"
+      - "robustness measures"
+    application_domains:
+      - "enterprise networks"
+      - "critical infrastructure"
+      - "cloud networks"
+      - "wireless networks"
+      - "industrial networks"
+      - "government networks"
+    exclude_terms:
+      - "network performance"
+      - "network design"
+      - "routing optimization"

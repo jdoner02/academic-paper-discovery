@@ -1,0 +1,207 @@
+# Artificial Intelligence Security Research Configuration
+# AI/ML system security, adversarial machine learning, and AI-powered cybersecurity tools
+search_configuration:
+  default_strategy: "adversarial_machine_learning_defense"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational AI security research
+    end_year: 2025      # Latest developments in AI/ML security
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["AI ethics", "machine learning performance", "general AI applications"]   # Focus on security aspects of AI, not general AI research
+
+strategies:
+  adversarial_machine_learning_defense:
+    name: "Adversarial Machine Learning and Model Robustness"
+    description: "Defense mechanisms against adversarial attacks on machine learning models, robustness evaluation, and secure AI system design"
+    primary_keywords:
+      - "adversarial machine learning"
+      - "adversarial attacks"
+      - "ML model robustness"
+      - "adversarial defense"
+      - "AI security"
+    secondary_keywords:
+      - "adversarial examples"
+      - "model poisoning"
+      - "data poisoning"
+      - "evasion attacks"
+      - "backdoor attacks"
+      - "trojan attacks"
+      - "model stealing"
+      - "membership inference"
+    technical_terms:
+      - "adversarial training"
+      - "defensive distillation"
+      - "gradient masking"
+      - "certified defense"
+      - "randomized smoothing"
+      - "input preprocessing"
+      - "detection methods"
+      - "verification techniques"
+    application_domains:
+      - "computer vision"
+      - "natural language processing"
+      - "autonomous systems"
+      - "medical diagnosis"
+      - "financial systems"
+      - "cybersecurity applications"
+    exclude_terms:
+      - "model accuracy"
+      - "training efficiency"
+      - "general ML optimization"
+
+  ai_powered_threat_detection:
+    name: "AI-Powered Threat Detection and Security Analytics"
+    description: "Machine learning and artificial intelligence techniques for cybersecurity threat detection, anomaly detection, and security analytics"
+    primary_keywords:
+      - "AI threat detection"
+      - "ML cybersecurity"
+      - "intelligent threat hunting"
+      - "AI security analytics"
+      - "machine learning security"
+    secondary_keywords:
+      - "anomaly detection"
+      - "behavioral analysis"
+      - "pattern recognition"
+      - "threat intelligence"
+      - "predictive security"
+      - "automated analysis"
+      - "deep learning detection"
+      - "neural network security"
+    technical_terms:
+      - "supervised learning"
+      - "unsupervised learning"
+      - "semi-supervised learning"
+      - "ensemble methods"
+      - "feature selection"
+      - "dimensionality reduction"
+      - "classification algorithms"
+      - "clustering techniques"
+    application_domains:
+      - "intrusion detection"
+      - "malware detection"
+      - "fraud detection"
+      - "network monitoring"
+      - "endpoint security"
+      - "user behavior analytics"
+    exclude_terms:
+      - "general pattern recognition"
+      - "data mining applications"
+      - "business analytics"
+
+  ml_model_security_validation:
+    name: "ML Model Security and Validation Frameworks"
+    description: "Security testing methodologies, validation frameworks, and assessment tools for machine learning models in production environments"
+    primary_keywords:
+      - "ML model security"
+      - "AI model validation"
+      - "machine learning testing"
+      - "AI system security"
+      - "model security assessment"
+    secondary_keywords:
+      - "security testing"
+      - "vulnerability assessment"
+      - "penetration testing"
+      - "model auditing"
+      - "compliance verification"
+      - "risk assessment"
+      - "security metrics"
+      - "evaluation frameworks"
+    technical_terms:
+      - "test case generation"
+      - "fuzzing techniques"
+      - "stress testing"
+      - "robustness metrics"
+      - "security benchmarks"
+      - "validation protocols"
+      - "certification processes"
+      - "assurance methods"
+    application_domains:
+      - "production systems"
+      - "enterprise AI"
+      - "critical applications"
+      - "regulated industries"
+      - "government systems"
+      - "healthcare AI"
+    exclude_terms:
+      - "model performance testing"
+      - "accuracy evaluation"
+      - "general software testing"
+
+  ai_privacy_protection:
+    name: "AI Privacy Protection and Data Security"
+    description: "Privacy-preserving machine learning, differential privacy, federated learning security, and data protection in AI systems"
+    primary_keywords:
+      - "AI privacy"
+      - "privacy-preserving ML"
+      - "differential privacy"
+      - "federated learning security"
+      - "AI data protection"
+    secondary_keywords:
+      - "homomorphic encryption"
+      - "secure multiparty computation"
+      - "privacy-preserving training"
+      - "data anonymization"
+      - "synthetic data generation"
+      - "privacy attacks"
+      - "privacy metrics"
+      - "consent management"
+    technical_terms:
+      - "epsilon-differential privacy"
+      - "local differential privacy"
+      - "secure aggregation"
+      - "noise injection"
+      - "privacy budget"
+      - "composition theorems"
+      - "private inference"
+      - "secure protocols"
+    application_domains:
+      - "healthcare AI"
+      - "financial AI"
+      - "personal data processing"
+      - "mobile applications"
+      - "IoT systems"
+      - "collaborative learning"
+    exclude_terms:
+      - "general data privacy"
+      - "GDPR compliance"
+      - "policy frameworks"
+
+  explainable_ai_security:
+    name: "Explainable AI and Trustworthy Security Systems"
+    description: "Explainable artificial intelligence for cybersecurity, interpretable security models, and trustworthy AI decision-making in security contexts"
+    primary_keywords:
+      - "explainable AI security"
+      - "interpretable ML security"
+      - "trustworthy AI"
+      - "transparent security systems"
+      - "AI explainability"
+    secondary_keywords:
+      - "model interpretability"
+      - "decision explanation"
+      - "feature importance"
+      - "algorithmic transparency"
+      - "audit trails"
+      - "reasoning systems"
+      - "human-interpretable models"
+      - "accountability mechanisms"
+    technical_terms:
+      - "LIME explanations"
+      - "SHAP values"
+      - "attention mechanisms"
+      - "saliency maps"
+      - "rule extraction"
+      - "prototype-based models"
+      - "counterfactual explanations"
+      - "causal inference"
+    application_domains:
+      - "security decision support"
+      - "incident investigation"
+      - "compliance reporting"
+      - "risk assessment"
+      - "forensic analysis"
+      - "regulatory oversight"
+    exclude_terms:
+      - "general explainability"
+      - "AI ethics"
+      - "bias detection"

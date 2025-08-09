@@ -1,0 +1,210 @@
+# Post-Quantum Cryptography Readiness Research Configuration
+# Quantum-resistant cryptography, PQC implementation, and migration strategies for quantum-safe security
+search_configuration:
+  default_strategy: "post_quantum_cryptography_implementation"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational PQC research
+    end_year: 2025      # Latest developments in quantum-resistant cryptography
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["quantum computing applications", "quantum algorithm optimization", "quantum physics theory"]   # Focus on cryptography, not general quantum computing
+
+strategies:
+  post_quantum_cryptography_implementation:
+    name: "Post-Quantum Cryptography Implementation and Performance"
+    description: "Implementation challenges, performance analysis, and practical deployment of NIST-standardized post-quantum cryptographic algorithms in real-world systems"
+    primary_keywords:
+      - "post-quantum cryptography"
+      - "quantum-resistant cryptography"
+      - "NIST PQC standards"
+      - "quantum-safe algorithms"
+      - "PQC implementation"
+      - "quantum cryptography transition"
+    secondary_keywords:
+      - "lattice-based cryptography"
+      - "CRYSTALS-Kyber"
+      - "CRYSTALS-Dilithium"
+      - "FALCON signatures"
+      - "SPHINCS+ signatures"
+      - "isogeny-based cryptography"
+      - "code-based cryptography"
+      - "hash-based signatures"
+    technical_terms:
+      - "key encapsulation mechanisms"
+      - "digital signature schemes"
+      - "public key encryption"
+      - "key exchange protocols"
+      - "cryptographic agility"
+      - "hybrid cryptography"
+      - "side-channel resistance"
+      - "constant-time implementation"
+    application_domains:
+      - "TLS protocols"
+      - "VPN systems"
+      - "email security"
+      - "software signing"
+      - "blockchain systems"
+      - "embedded systems"
+    exclude_terms:
+      - "quantum key distribution"
+      - "quantum random number"
+      - "quantum entanglement"
+
+  quantum_cryptanalysis_threats:
+    name: "Quantum Threat Assessment and Cryptanalysis"
+    description: "Analysis of quantum computing threats to current cryptographic systems, timeline assessments, and impact evaluation of quantum cryptanalysis capabilities"
+    primary_keywords:
+      - "quantum cryptanalysis"
+      - "quantum threat assessment"
+      - "Shor's algorithm"
+      - "Grover's algorithm"
+      - "quantum computing threat"
+      - "cryptographic vulnerability"
+    secondary_keywords:
+      - "quantum supremacy"
+      - "quantum advantage"
+      - "NISQ devices"
+      - "fault-tolerant quantum"
+      - "quantum error correction"
+      - "qubit scalability"
+      - "quantum algorithms"
+      - "cryptographic sunset"
+    technical_terms:
+      - "integer factorization"
+      - "discrete logarithm"
+      - "elliptic curve cryptography"
+      - "RSA vulnerability"
+      - "symmetric key strength"
+      - "hash function security"
+      - "quantum resource estimation"
+      - "attack complexity"
+    application_domains:
+      - "current cryptographic systems"
+      - "legacy systems"
+      - "financial systems"
+      - "government systems"
+      - "critical infrastructure"
+      - "communication networks"
+    exclude_terms:
+      - "quantum computing hardware"
+      - "quantum software development"
+      - "quantum simulation"
+
+  pqc_migration_strategies:
+    name: "PQC Migration Strategies and Transition Planning"
+    description: "Strategic planning, migration methodologies, and organizational frameworks for transitioning from classical to post-quantum cryptographic systems"
+    primary_keywords:
+      - "PQC migration"
+      - "cryptographic transition"
+      - "quantum-safe migration"
+      - "crypto agility"
+      - "migration strategy"
+      - "transition planning"
+    secondary_keywords:
+      - "cryptographic inventory"
+      - "risk assessment"
+      - "migration timeline"
+      - "backward compatibility"
+      - "interoperability"
+      - "hybrid approaches"
+      - "phased deployment"
+      - "rollback procedures"
+    technical_terms:
+      - "algorithm substitution"
+      - "protocol updates"
+      - "certificate management"
+      - "key lifecycle management"
+      - "testing frameworks"
+      - "validation procedures"
+      - "compliance requirements"
+      - "standards adoption"
+    application_domains:
+      - "enterprise systems"
+      - "government agencies"
+      - "critical infrastructure"
+      - "financial institutions"
+      - "healthcare systems"
+      - "telecommunications"
+    exclude_terms:
+      - "general IT migration"
+      - "software upgrades"
+      - "system modernization"
+
+  constrained_device_pqc:
+    name: "Post-Quantum Cryptography for Constrained Devices"
+    description: "Implementation challenges and solutions for deploying post-quantum cryptography on resource-constrained devices including IoT, embedded systems, and mobile platforms"
+    primary_keywords:
+      - "constrained device PQC"
+      - "IoT post-quantum cryptography"
+      - "embedded PQC"
+      - "lightweight quantum-resistant"
+      - "mobile PQC implementation"
+    secondary_keywords:
+      - "resource optimization"
+      - "memory constraints"
+      - "computational limitations"
+      - "power consumption"
+      - "real-time requirements"
+      - "hardware acceleration"
+      - "optimized implementations"
+      - "compressed algorithms"
+    technical_terms:
+      - "microcontroller implementation"
+      - "FPGA acceleration"
+      - "ARM optimization"
+      - "cache-efficient algorithms"
+      - "low-memory implementations"
+      - "parallel processing"
+      - "hardware security modules"
+      - "secure enclaves"
+    application_domains:
+      - "Internet of Things"
+      - "smart cards"
+      - "automotive systems"
+      - "industrial controllers"
+      - "medical devices"
+      - "sensor networks"
+    exclude_terms:
+      - "high-performance computing"
+      - "server implementations"
+      - "cloud cryptography"
+
+  quantum_safe_protocols:
+    name: "Quantum-Safe Network Protocols and Standards"
+    description: "Development and analysis of quantum-resistant network protocols, communication standards, and security frameworks for the post-quantum era"
+    primary_keywords:
+      - "quantum-safe protocols"
+      - "post-quantum TLS"
+      - "quantum-resistant VPN"
+      - "PQC standards"
+      - "quantum-safe communication"
+    secondary_keywords:
+      - "protocol design"
+      - "handshake protocols"
+      - "authentication protocols"
+      - "key agreement"
+      - "secure channels"
+      - "forward secrecy"
+      - "protocol verification"
+      - "formal analysis"
+    technical_terms:
+      - "TLS 1.3 extensions"
+      - "IPSec quantum-safe"
+      - "SSH post-quantum"
+      - "DNSSEC quantum-resistant"
+      - "X.509 certificates"
+      - "PKI quantum-safe"
+      - "OCSP quantum-resistant"
+      - "S/MIME post-quantum"
+    application_domains:
+      - "web security"
+      - "email security"
+      - "network security"
+      - "cloud security"
+      - "mobile security"
+      - "enterprise communications"
+    exclude_terms:
+      - "protocol performance"
+      - "network optimization"
+      - "bandwidth efficiency"

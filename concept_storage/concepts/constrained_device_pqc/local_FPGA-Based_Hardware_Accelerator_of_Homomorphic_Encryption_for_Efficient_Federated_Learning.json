@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning",
+  "paper_title": "FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient Federated Learning",
+  "concepts": [
+    {
+      "text": "learning",
+      "frequency": 56,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.557429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 41,
+      "relevance_score": 0.893036750483559,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.556912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federated",
+      "frequency": 35,
+      "relevance_score": 0.7769825918762089,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.557231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federated learning",
+      "frequency": 29,
+      "relevance_score": 0.7609284332688588,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.628013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 24,
+      "relevance_score": 0.7142166344294004,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.563357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "loop",
+      "frequency": 28,
+      "relevance_score": 0.6415860735009671,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.601620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paillier",
+      "frequency": 27,
+      "relevance_score": 0.6222437137330754,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.565331+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 26,
+      "relevance_score": 0.6029013539651837,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.576468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "em- bedded systems",
+      "frequency": 2,
+      "relevance_score": 0.5886847195357834,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.666721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inner",
+      "frequency": 25,
+      "relevance_score": 0.5835589941972921,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.602390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clock",
+      "frequency": 24,
+      "relevance_score": 0.5642166344294004,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.566846+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2019",
+      "frequency": 16,
+      "relevance_score": 0.5094777562862669,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.569803+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federated learning models",
+      "frequency": 3,
+      "relevance_score": 0.5080270793036751,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.657568+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption framework",
+      "frequency": 8,
+      "relevance_score": 0.5047388781431335,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.629415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l k 1",
+      "frequency": 5,
+      "relevance_score": 0.4967117988394584,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.661268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 15,
+      "relevance_score": 0.4901353965183753,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.628329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inner loop",
+      "frequency": 15,
+      "relevance_score": 0.4901353965183753,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.642400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federated learning system",
+      "frequency": 2,
+      "relevance_score": 0.4886847195357833,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.658343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federated learning framework",
+      "frequency": 2,
+      "relevance_score": 0.4886847195357833,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.659273+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017",
+      "frequency": 14,
+      "relevance_score": 0.47079303675048356,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.572735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iteration",
+      "frequency": 19,
+      "relevance_score": 0.46750483558994194,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.588874+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pl k 1",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.659887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 j",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.660040+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1000 2000",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.662230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1000 2000 3000",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.662393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2000 3000 4000",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.662556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3000 4000 5000",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.662713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4000 5000 6000",
+      "frequency": 3,
+      "relevance_score": 0.45802707930367503,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.662866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1",
+      "frequency": 8,
+      "relevance_score": 0.4547388781431334,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.642705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clock cycle",
+      "frequency": 13,
+      "relevance_score": 0.4514506769825919,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.630862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l k",
+      "frequency": 13,
+      "relevance_score": 0.4514506769825919,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.643468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modmult",
+      "frequency": 18,
+      "relevance_score": 0.44816247582205027,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.583304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning models",
+      "frequency": 5,
+      "relevance_score": 0.44671179883945844,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.632026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paillier cryptosystem",
+      "frequency": 5,
+      "relevance_score": 0.44671179883945844,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.635770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 10,
+      "relevance_score": 0.4434235976789168,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.568866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "homo- morphic encryption",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.656648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption through- put",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.656801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "paillier homo- morphic",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.656954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fate fat 2019",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.658033+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "homomorphic encryp- tion",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.658496+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algo- rithm 1",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.659581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 l k",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.660500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 l k",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.660808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "soft- ware solutions",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.661904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5000 6000 1024",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.663174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6000 1024 2048",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.663327+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1024 2048 3072operation",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.663480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2048 3072operation throughput",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.663634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3072operation throughput op",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.663800+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "en- cryption time",
+      "frequency": 2,
+      "relevance_score": 0.43868471953578336,
+      "source_papers": [
+        "local/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient_Federated_Learning"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:18.664992+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:18.667000+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:18.667172+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

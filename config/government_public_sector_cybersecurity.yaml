@@ -1,0 +1,208 @@
+# Government and Public Sector Cybersecurity Research Configuration
+# Cybersecurity for state and local governments, public agencies, and civic infrastructure
+search_configuration:
+  default_strategy: "local_government_cybersecurity"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational government cybersecurity research
+    end_year: 2025      # Latest developments in public sector security
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["government policy analysis", "public administration theory", "political science research"]   # Focus on cybersecurity, not general governance
+
+strategies:
+  local_government_cybersecurity:
+    name: "Local Government and Municipal Cybersecurity"
+    description: "Cybersecurity frameworks, best practices, and resource optimization for cities, counties, and local government agencies with limited cybersecurity resources"
+    primary_keywords:
+      - "local government cybersecurity"
+      - "municipal cybersecurity"
+      - "city government security"
+      - "county cybersecurity"
+      - "public sector cybersecurity"
+      - "government cyber resilience"
+    secondary_keywords:
+      - "small government IT"
+      - "municipal IT security"
+      - "public services protection"
+      - "citizen data protection"
+      - "government ransomware"
+      - "public sector incident response"
+      - "civic infrastructure security"
+      - "local government resilience"
+    technical_terms:
+      - "government network security"
+      - "public sector risk management"
+      - "municipal data protection"
+      - "government cloud security"
+      - "public WiFi security"
+      - "government mobile security"
+      - "civic application security"
+      - "digital government security"
+    application_domains:
+      - "city halls"
+      - "county offices"
+      - "public libraries"
+      - "municipal utilities"
+      - "local courts"
+      - "emergency services"
+    exclude_terms:
+      - "federal government security"
+      - "military cybersecurity"
+      - "national security"
+
+  government_ransomware_defense:
+    name: "Government Ransomware Defense and Recovery"
+    description: "Specialized ransomware protection, incident response, and recovery strategies for government agencies and public sector organizations"
+    primary_keywords:
+      - "government ransomware"
+      - "public sector ransomware"
+      - "municipal ransomware"
+      - "government cyber attack"
+      - "public agency security"
+    secondary_keywords:
+      - "ransomware prevention"
+      - "government backup systems"
+      - "public sector recovery"
+      - "emergency response protocols"
+      - "citizen services continuity"
+      - "government business continuity"
+      - "public safety systems"
+      - "critical government functions"
+    technical_terms:
+      - "incident response planning"
+      - "disaster recovery"
+      - "backup verification"
+      - "system restoration"
+      - "forensic investigation"
+      - "threat containment"
+      - "communication protocols"
+      - "stakeholder notification"
+    application_domains:
+      - "911 dispatch centers"
+      - "police departments"
+      - "fire departments"
+      - "public works"
+      - "social services"
+      - "revenue departments"
+    exclude_terms:
+      - "private sector ransomware"
+      - "enterprise security"
+      - "commercial solutions"
+
+  election_voting_system_security:
+    name: "Election and Voting System Cybersecurity"
+    description: "Cybersecurity for election infrastructure, voting systems, voter registration databases, and electoral process protection"
+    primary_keywords:
+      - "election cybersecurity"
+      - "voting system security"
+      - "election infrastructure"
+      - "voter registration security"
+      - "ballot security"
+    secondary_keywords:
+      - "electronic voting machines"
+      - "vote counting systems"
+      - "election management systems"
+      - "voter database protection"
+      - "poll book security"
+      - "election auditing"
+      - "vote verification"
+      - "election monitoring"
+    technical_terms:
+      - "paper ballot systems"
+      - "ballot marking devices"
+      - "voter verified paper audit"
+      - "risk-limiting audits"
+      - "election server security"
+      - "tabulation security"
+      - "election network isolation"
+      - "chain of custody"
+    application_domains:
+      - "election offices"
+      - "polling locations"
+      - "vote counting centers"
+      - "registration systems"
+      - "absentee voting"
+      - "early voting"
+    exclude_terms:
+      - "voting behavior analysis"
+      - "election administration"
+      - "political campaigns"
+
+  public_sector_resource_optimization:
+    name: "Public Sector Cybersecurity Resource Optimization"
+    description: "Mathematical models, decision frameworks, and resource allocation strategies for optimizing limited cybersecurity investments in government organizations"
+    primary_keywords:
+      - "government cybersecurity budget"
+      - "public sector security investment"
+      - "cybersecurity resource allocation"
+      - "government risk management"
+      - "public sector security planning"
+    secondary_keywords:
+      - "cost-benefit analysis"
+      - "security ROI"
+      - "budget optimization"
+      - "risk-based prioritization"
+      - "resource constraints"
+      - "funding strategies"
+      - "security maturity assessment"
+      - "capability development"
+    technical_terms:
+      - "decision support systems"
+      - "optimization models"
+      - "risk quantification"
+      - "cost-effectiveness analysis"
+      - "multi-criteria decision making"
+      - "portfolio optimization"
+      - "strategic planning"
+      - "performance metrics"
+    application_domains:
+      - "budget planning"
+      - "strategic initiatives"
+      - "procurement decisions"
+      - "vendor selection"
+      - "technology adoption"
+      - "training programs"
+    exclude_terms:
+      - "general budget analysis"
+      - "public finance theory"
+      - "economic modeling"
+
+  shared_government_services_security:
+    name: "Shared Government Services and Regional Cooperation"
+    description: "Cybersecurity models for shared services, regional cooperation, and collaborative security arrangements among multiple government entities"
+    primary_keywords:
+      - "shared government services"
+      - "regional cybersecurity cooperation"
+      - "multi-jurisdictional security"
+      - "government security collaboration"
+      - "public sector partnerships"
+    secondary_keywords:
+      - "consolidation benefits"
+      - "economies of scale"
+      - "shared security operations"
+      - "collaborative defense"
+      - "regional SOC"
+      - "mutual aid agreements"
+      - "coordinated response"
+      - "information sharing"
+    technical_terms:
+      - "federated identity"
+      - "shared infrastructure"
+      - "collaborative platforms"
+      - "interoperability standards"
+      - "cross-jurisdictional access"
+      - "unified monitoring"
+      - "cooperative incident response"
+      - "regional threat intelligence"
+    application_domains:
+      - "regional authorities"
+      - "municipal consortiums"
+      - "county partnerships"
+      - "state-local cooperation"
+      - "emergency management"
+      - "public safety networks"
+    exclude_terms:
+      - "private partnerships"
+      - "commercial services"
+      - "federal programs"

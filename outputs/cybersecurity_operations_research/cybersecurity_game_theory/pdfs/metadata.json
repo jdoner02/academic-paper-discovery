@@ -1,0 +1,845 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:34:55.845115+00:00",
+    "strategy_name": "Game Theory and Strategic Cybersecurity",
+    "total_papers": 49,
+    "download_directory": "outputs/cybersecurity_operations_research/cybersecurity_game_theory/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Incentive Stackelberg Mean-payoff Games",
+      "authors": [
+        "Anshul Gupta",
+        "M. S. Krishna Deepak",
+        "Bharath Kumar Padarthi",
+        "Sven Schewe",
+        "Ashutosh Trivedi"
+      ],
+      "abstract": "We introduce and study incentive equilibria for multi-player meanpayoff games. Incentive equilibria generalise well-studied solution concepts such as Nash equilibria and leader equilibria (also known as Stackelberg equilibria). Recall that a strategy profile is a Nash equilibrium if no player can improve his payoff by changing his strategy unilaterally. In the setting of incentive and leader equilibria, there is a distinguished player called the leader who can assign strategies to all other players, referred to as her followers. A strategy profile is a leader strategy profile if no player, except for the leader, can improve his payoff by changing his strategy unilaterally, and a leader equilibrium is a leader strategy profile with a maximal return for the leader. In the proposed case of incentive equilibria, the leader can additionally influence the behaviour of her followers by transferring parts of her payoff to her followers. The ability to incentivise her followers provides the leader with more freedom in selecting strategy profiles, and we show that this can indeed improve the payoff for the leader in such games. The key fundamental result of the paper is the existence of incentive equilibria in mean-payoff games. We further show that the decision problem related to constructing incentive equilibria is NP-complete. On a positive note, we show that, when the number of players is fixed, the complexity of the problem falls in the same class as two-player mean-payoff games. We also present an implementation of the proposed algorithms, and discuss experimental results that demonstrate the feasibility of the analysis of medium sized games.",
+      "publication_date": "2015-10-31T23:27:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1511.00188v1"
+    },
+    {
+      "title": "On Nash-Stackelberg-Nash Games under Decision-Dependent Uncertainties:   Model and Equilibrium",
+      "authors": [
+        "Yunfan Zhang",
+        "Feng Liu",
+        "Zhaojian Wang",
+        "Yue Chen",
+        "Shuanglei Feng",
+        "Qiuwei Wu",
+        "Yunhe Hou"
+      ],
+      "abstract": "In this paper, we discuss a class of two-stage hierarchical games with multiple leaders and followers, which is called Nash-Stackelberg-Nash (N-S-N) games. Particularly, we consider N-S-N games under decision-dependent uncertainties (DDUs). DDUs refer to the uncertainties that are affected by the strategies of decision-makers and have been rarely addressed in game equilibrium analysis. In this paper, we first formulate the N-S-N games with DDUs of complete ignorance, where the interactions between the players and DDUs are characterized by uncertainty sets that depend parametrically on the players' strategies. Then, a rigorous definition for the equilibrium of the game is established by consolidating generalized Nash equilibrium and Pareto-Nash equilibrium. Afterward, we prove the existence of the equilibrium of N-S-N games under DDUs by applying Kakutani's fixed-point theorem. Finally, an illustrative example is provided to show the impact of DDUs on the equilibrium of N-S-N games.",
+      "publication_date": "2022-02-24T03:15:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2202.11880v1"
+    },
+    {
+      "title": "Stackelberg vs. Nash in Security Games: An Extended Investigation of   Interchangeability, Equivalence, and Uniqueness",
+      "authors": [
+        "Dmytro Korzhyk",
+        "Zhengyu Yin",
+        "Christopher Kiekintveld",
+        "Vincent Conitzer",
+        "Milind Tambe"
+      ],
+      "abstract": "There has been significant recent interest in game-theoretic approaches to security, with much of the recent research focused on utilizing the leader-follower Stackelberg game model. Among the major applications are the ARMOR program deployed at LAX Airport and the IRIS program in use by the US Federal Air Marshals (FAMS). The foundational assumption for using Stackelberg games is that security forces (leaders), acting first, commit to a randomized strategy; while their adversaries (followers) choose their best response after surveillance of this randomized strategy. Yet, in many situations, a leader may face uncertainty about the follower's surveillance capability. Previous work fails to address how a leader should compute her strategy given such uncertainty. We provide five contributions in the context of a general class of security games. First, we show that the Nash equilibria in security games are interchangeable, thus alleviating the equilibrium selection problem. Second, under a natural restriction on security games, any Stackelberg strategy is also a Nash equilibrium strategy; and furthermore, the solution is unique in a class of security games of which ARMOR is a key exemplar. Third, when faced with a follower that can attack multiple targets, many of these properties no longer hold. Fourth, we show experimentally that in most (but not all) games where the restriction does not hold, the Stackelberg strategy is still a Nash equilibrium strategy, but this is no longer true when the attacker can attack multiple targets. Finally, as a possible direction for future research, we propose an extensive-form game model that makes the defender's uncertainty about the attacker's ability to observe explicit.",
+      "publication_date": "2014-01-16T05:15:53+00:00",
+      "doi": "10.1613/jair.3269",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1401.3888v1"
+    },
+    {
+      "title": "Computing Bayes Nash Equilibrium Strategies in Auction Games via   Simultaneous Online Dual Averaging",
+      "authors": [
+        "Martin Bichler",
+        "Maximilian Fichtl",
+        "Matthias Oberlechner"
+      ],
+      "abstract": "Auctions are modeled as Bayesian games with continuous type and action spaces. Determining equilibria in auction games is computationally hard in general and no exact solution theory is known. We introduce an algorithmic framework in which we discretize type and action space and then learn distributional strategies via online optimization algorithms. One advantage of distributional strategies is that we do not have to make any assumptions on the shape of the bid function. Besides, the expected utility of agents is linear in the strategies. It follows that if our optimization algorithms converge to a pure strategy, then they converge to an approximate equilibrium of the discretized game with high precision. Importantly, we show that the equilibrium of the discretized game approximates an equilibrium in the continuous game. In a wide variety of auction games, we provide empirical evidence that the approach approximates the analytical (pure) Bayes Nash equilibrium closely. This speed and precision is remarkable, because in many finite games learning dynamics do not converge or are even chaotic. In standard models where agents are symmetric, we find equilibrium in seconds. While we focus on dual averaging, we show that the overall approach converges independent of the regularizer and alternative online convex optimization methods achieve similar results, even though the discretized game neither satisfies monotonicity nor variational stability globally. The method allows for interdependent valuations and different types of utility functions and provides a foundation for broadly applicable equilibrium solvers that can push the boundaries of equilibrium analysis in auction markets and beyond.",
+      "publication_date": "2022-08-03T12:57:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2208.02036v2"
+    },
+    {
+      "title": "Quasi-Perfect Stackelberg Equilibrium",
+      "authors": [
+        "Alberto Marchesi",
+        "Gabriele Farina",
+        "Christian Kroer",
+        "Nicola Gatti",
+        "Tuomas Sandholm"
+      ],
+      "abstract": "Equilibrium refinements are important in extensive-form (i.e., tree-form) games, where they amend weaknesses of the Nash equilibrium concept by requiring sequential rationality and other beneficial properties. One of the most attractive refinement concepts is quasi-perfect equilibrium. While quasi-perfection has been studied in extensive-form games, it is poorly understood in Stackelberg settings---that is, settings where a leader can commit to a strategy---which are important for modeling, for example, security games. In this paper, we introduce the axiomatic definition of quasi-perfect Stackelberg equilibrium. We develop a broad class of game perturbation schemes that lead to them in the limit. Our class of perturbation schemes strictly generalizes prior perturbation schemes introduced for the computation of (non-Stackelberg) quasi-perfect equilibria. Based on our perturbation schemes, we develop a branch-and-bound algorithm for computing a quasi-perfect Stackelberg equilibrium. It leverages a perturbed variant of the linear program for computing a Stackelberg extensive-form correlated equilibrium. Experiments show that our algorithm can be used to find an approximate quasi-perfect Stackelberg equilibrium in games with thousands of nodes.",
+      "publication_date": "2018-11-09T12:02:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1811.03871v1"
+    },
+    {
+      "title": "When Nash Meets Stackelberg",
+      "authors": [
+        "Margarida Carvalho",
+        "Gabriele Dragotto",
+        "Felipe Feijoo",
+        "Andrea Lodi",
+        "Sriram Sankaranarayanan"
+      ],
+      "abstract": "This article introduces a class of $Nash$ games among $Stackelberg$ players ($NASPs$), namely, a class of simultaneous non-cooperative games where the players solve sequential Stackelberg games. Specifically, each player solves a Stackelberg game where a leader optimizes a (parametrized) linear objective function subject to linear constraints while its followers solve convex quadratic problems subject to the standard optimistic assumption. Although we prove that deciding if a $NASP$ instance admits a Nash equilibrium is generally a $\\Sigma^2_p$-hard decision problem, we devise two exact and computationally-efficient algorithms to compute and select Nash equilibria or certify that no equilibrium exists. We apply $NASPs$ to model the hierarchical interactions of international energy markets where climate-change aware regulators oversee the operations of profit-driven energy producers. By combining real-world data with our models, we find that Nash equilibria provide informative, and often counterintuitive, managerial insights for market regulators.",
+      "publication_date": "2019-10-14T22:32:13+00:00",
+      "doi": "10.1287/mnsc.2022.03418",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1910.06452v6"
+    },
+    {
+      "title": "Symbiotic Game and Foundation Models for Cyber Deception Operations in   Strategic Cyber Warfare",
+      "authors": [
+        "Tao Li",
+        "Quanyan Zhu"
+      ],
+      "abstract": "We are currently facing unprecedented cyber warfare with the rapid evolution of tactics, increasing asymmetry of intelligence, and the growing accessibility of hacking tools. In this landscape, cyber deception emerges as a critical component of our defense strategy against increasingly sophisticated attacks. This chapter aims to highlight the pivotal role of game-theoretic models and foundation models (FMs) in analyzing, designing, and implementing cyber deception tactics. Game models (GMs) serve as a foundational framework for modeling diverse adversarial interactions, allowing us to encapsulate both adversarial knowledge and domain-specific insights. Meanwhile, FMs serve as the building blocks for creating tailored machine learning models suited to given applications. By leveraging the synergy between GMs and FMs, we can advance proactive and automated cyber defense mechanisms by not only securing our networks against attacks but also enhancing their resilience against well-planned operations. This chapter discusses the games at the tactical, operational, and strategic levels of warfare, delves into the symbiotic relationship between these methodologies, and explores relevant applications where such a framework can make a substantial impact in cybersecurity. The chapter discusses the promising direction of the multi-agent neurosymbolic conjectural learning (MANSCOL), which allows the defender to predict adversarial behaviors, design adaptive defensive deception tactics, and synthesize knowledge for the operational level synthesis and adaptation. FMs serve as pivotal tools across various functions for MANSCOL, including reinforcement learning, knowledge assimilation, formation of conjectures, and contextual representation. This chapter concludes with a discussion of the challenges associated with FMs and their application in the domain of cybersecurity.",
+      "publication_date": "2024-03-14T20:17:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.10570v2"
+    },
+    {
+      "title": "Incentive-Compatible Diffusion Auctions",
+      "authors": [
+        "Bin Li",
+        "Dong Hao",
+        "Dengji Zhao"
+      ],
+      "abstract": "Diffusion auction is a new model in auction design. It can incentivize the buyers who have already joined in the auction to further diffuse the sale information to others via social relations, whereby both the seller's revenue and the social welfare can be improved. Diffusion auctions are essentially non-typical multidimensional mechanism design problems and agents' social relations are complicatedly involved with their bids. In such auctions, incentive-compatibility (IC) means it is best for every agent to honestly report her valuation and fully diffuse the sale information to all her neighbors. Existing work identified some specific mechanisms for diffusion auctions, while a general theory characterizing all incentive-compatible diffusion auctions is still missing. In this work, we identify a sufficient and necessary condition for all dominant-strategy incentive-compatible (DSIC) diffusion auctions. We formulate the monotonic allocation policies in such multidimensional problems and show that any monotonic allocation policy can be implemented in a DSIC diffusion auction mechanism. Moreover, given any monotonic allocation policy, we obtain the optimal payment policy to maximize the seller's revenue.",
+      "publication_date": "2020-01-20T05:11:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2001.06975v2"
+    },
+    {
+      "title": "Infinitely Repeated Quantum Games and Strategic Efficiency",
+      "authors": [
+        "Kazuki Ikeda",
+        "Shoto Aoki"
+      ],
+      "abstract": "Repeated quantum game theory addresses long term relations among players who choose quantum strategies. In the conventional quantum game theory, single round quantum games or at most finitely repeated games have been widely studied, however less is known for infinitely repeated quantum games. Investigating infinitely repeated games is crucial since finitely repeated games do not much differ from single round games. In this work we establish the concept of general repeated quantum games and show the Quantum Folk Theorem, which claims that by iterating a game one can find an equilibrium strategy of the game and receive reward that is not obtained by a Nash equilibrium of the corresponding single round quantum game. A significant difference between repeated quantum prisoner's dilemma and repeated classical prisoner's dilemma is that the classical Pareto optimal solution is not always an equilibrium of the repeated quantum game when entanglement is sufficiently strong. When entanglement is sufficiently strong and reward is small, mutual cooperation cannot be an equilibrium of the repeated quantum game. In addition we present several concrete equilibrium strategies of the repeated quantum prisoner's dilemma.",
+      "publication_date": "2020-05-12T07:39:42+00:00",
+      "doi": "10.1007/s11128-021-03295-7",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2005.05588v3"
+    },
+    {
+      "title": "A theoretical framework to explain non-Nash equilibrium strategic   behavior in experimental games",
+      "authors": [
+        "Mojtaba Madadi Asl",
+        "Mehdi Sadeghi"
+      ],
+      "abstract": "Conventional game theory assumes that players are perfectly rational. In a realistic situation, however, players are rarely perfectly rational. This bounded rationality is one of the main reasons why the predictions of Nash equilibrium in normative game theory often diverge from human behavior in real experiments. Motivated by the Boltzmann weight formalism, here we present a theoretical framework to predict the non-Nash equilibrium probabilities of possible outcomes in strategic games by focusing on the differences in expected payoffs of players rather than traditional utility metrics. In this model, bounded rationality is parameterized by assigning a temperature to each player, reflecting their level of rationality by interpolating between two decision-making regimes, i.e., utility maximization and equiprobable choices. Our framework predicts all possible joint strategies and is able to determine the relative probabilities for multiple pure or mixed strategy equilibria. To validate model predictions, by analyzing experimental data we demonstrated that our model can successfully explain non-Nash equilibrium strategic behavior in experimental games. Our approach reinterprets the concept of temperature in game theory, leveraging the development of theoretical frameworks to bridge the gap between the predictions of normative game theory and the results of behavioral experiments.",
+      "publication_date": "2025-01-20T11:07:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "arxiv_id": "2501.11404v1"
+    },
+    {
+      "title": "Evolutionary Approach to Security Games with Signaling",
+      "authors": [
+        "Adam Żychowski",
+        "Jacek Mańdziuk",
+        "Elizabeth Bondi",
+        "Aravind Venugopal",
+        "Milind Tambe",
+        "Balaraman Ravindran"
+      ],
+      "abstract": "Green Security Games have become a popular way to model scenarios involving the protection of natural resources, such as wildlife. Sensors (e.g. drones equipped with cameras) have also begun to play a role in these scenarios by providing real-time information. Incorporating both human and sensor defender resources strategically is the subject of recent work on Security Games with Signaling (SGS). However, current methods to solve SGS do not scale well in terms of time or memory. We therefore propose a novel approach to SGS, which, for the first time in this domain, employs an Evolutionary Computation paradigm: EASGS. EASGS effectively searches the huge SGS solution space via suitable solution encoding in a chromosome and a specially-designed set of operators. The operators include three types of mutations, each focusing on a particular aspect of the SGS solution, optimized crossover and a local coverage improvement scheme (a memetic aspect of EASGS). We also introduce a new set of benchmark games, based on dense or locally-dense graphs that reflect real-world SGS settings. In the majority of 342 test game instances, EASGS outperforms state-of-the-art methods, including a reinforcement learning method, in terms of time scalability, nearly constant memory utilization, and quality of the returned defender's strategies (expected payoffs).",
+      "publication_date": "2022-04-29T15:56:47+00:00",
+      "doi": "10.24963/ijcai.2022/88",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2204.14173v1"
+    },
+    {
+      "title": "Game Theory Meets LLM and Agentic AI: Reimagining Cybersecurity for the   Age of Intelligent Threats",
+      "authors": [
+        "Quanyan Zhu"
+      ],
+      "abstract": "Protecting cyberspace requires not only advanced tools but also a shift in how we reason about threats, trust, and autonomy. Traditional cybersecurity methods rely on manual responses and brittle heuristics. To build proactive and intelligent defense systems, we need integrated theoretical frameworks and software tools. Game theory provides a rigorous foundation for modeling adversarial behavior, designing strategic defenses, and enabling trust in autonomous systems. Meanwhile, software tools process cyber data, visualize attack surfaces, verify compliance, and suggest mitigations. Yet a disconnect remains between theory and practical implementation.   The rise of Large Language Models (LLMs) and agentic AI offers a new path to bridge this gap. LLM-powered agents can operationalize abstract strategies into real-world decisions. Conversely, game theory can inform the reasoning and coordination of these agents across complex workflows. LLMs also challenge classical game-theoretic assumptions, such as perfect rationality or static payoffs, prompting new models aligned with cognitive and computational realities. This co-evolution promises richer theoretical foundations and novel solution concepts. Agentic AI also reshapes software design: systems must now be modular, adaptive, and trust-aware from the outset.   This chapter explores the intersection of game theory, agentic AI, and cybersecurity. We review key game-theoretic frameworks (e.g., static, dynamic, Bayesian, and signaling games) and solution concepts. We then examine how LLM agents can enhance cyber defense and introduce LLM-driven games that embed reasoning into AI agents. Finally, we explore multi-agent workflows and coordination games, outlining how this convergence fosters secure, intelligent, and adaptive cyber systems.",
+      "publication_date": "2025-07-14T00:49:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.10621v1"
+    },
+    {
+      "title": "Successful Nash Equilibrium Agent for a 3-Player Imperfect-Information   Game",
+      "authors": [
+        "Sam Ganzfried",
+        "Austin Nowak",
+        "Joannier Pinales"
+      ],
+      "abstract": "Creating strong agents for games with more than two players is a major open problem in AI. Common approaches are based on approximating game-theoretic solution concepts such as Nash equilibrium, which have strong theoretical guarantees in two-player zero-sum games, but no guarantees in non-zero-sum games or in games with more than two players. We describe an agent that is able to defeat a variety of realistic opponents using an exact Nash equilibrium strategy in a 3-player imperfect-information game. This shows that, despite a lack of theoretical guarantees, agents based on Nash equilibrium strategies can be successful in multiplayer games after all.",
+      "publication_date": "2018-04-13T05:15:28+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1804.04789v1"
+    },
+    {
+      "title": "On Stackelberg Mixed Strategies",
+      "authors": [
+        "Vincent Conitzer"
+      ],
+      "abstract": "It is sometimes the case that one solution concept in game theory is equivalent to applying another solution concept to a modified version of the game. In such cases, does it make sense to study the former separately (as it applies to the original representation of the game), or should we entirely subordinate it to the latter? The answer probably depends on the particular circumstances, and indeed the literature takes different approaches in different cases. In this article, I consider the specific example of Stackelberg mixed strategies. I argue that, even though a Stackelberg mixed strategy can also be seen as a subgame perfect Nash equilibrium of a corresponding extensive-form game, there remains significant value in studying it separately. The analysis of this special case may have implications for other solution concepts.",
+      "publication_date": "2017-05-21T16:59:56+00:00",
+      "doi": "10.1007/s11229-015-0927-6",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1705.07476v1"
+    },
+    {
+      "title": "Stackelberg Contention Games in Multiuser Networks",
+      "authors": [
+        "Jaeok Park",
+        "Mihaela van der Schaar"
+      ],
+      "abstract": "Interactions among selfish users sharing a common transmission channel can be modeled as a non-cooperative game using the game theory framework. When selfish users choose their transmission probabilities independently without any coordination mechanism, Nash equilibria usually result in a network collapse. We propose a methodology that transforms the non-cooperative game into a Stackelberg game. Stackelberg equilibria of the Stackelberg game can overcome the deficiency of the Nash equilibria of the original game. A particular type of Stackelberg intervention is constructed to show that any positive payoff profile feasible with independent transmission probabilities can be achieved as a Stackelberg equilibrium payoff profile. We discuss criteria to select an operating point of the network and informational requirements for the Stackelberg game. We relax the requirements and examine the effects of relaxation on performance.",
+      "publication_date": "2008-10-04T04:41:38+00:00",
+      "doi": "10.1155/2009/305978",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "0810.0745v3"
+    },
+    {
+      "title": "On the Inducibility of Stackelberg Equilibrium for Security Games",
+      "authors": [
+        "Qingyu Guo",
+        "Jiarui Gan",
+        "Fei Fang",
+        "Long Tran-Thanh",
+        "Milind Tambe",
+        "Bo An"
+      ],
+      "abstract": "Strong Stackelberg equilibrium (SSE) is the standard solution concept of Stackelberg security games. As opposed to the weak Stackelberg equilibrium (WSE), the SSE assumes that the follower breaks ties in favor of the leader and this is widely acknowledged and justified by the assertion that the defender can often induce the attacker to choose a preferred action by making an infinitesimal adjustment to her strategy. Unfortunately, in security games with resource assignment constraints, the assertion might not be valid; it is possible that the defender cannot induce the desired outcome. As a result, many results claimed in the literature may be overly optimistic. To remedy, we first formally define the utility guarantee of a defender strategy and provide examples to show that the utility of SSE can be higher than its utility guarantee. Second, inspired by the analysis of leader's payoff by Von Stengel and Zamir (2004), we provide the solution concept called the inducible Stackelberg equilibrium (ISE), which owns the highest utility guarantee and always exists. Third, we show the conditions when ISE coincides with SSE and the fact that in general case, SSE can be extremely worse with respect to utility guarantee. Moreover, introducing the ISE does not invalidate existing algorithmic results as the problem of computing an ISE polynomially reduces to that of computing an SSE. We also provide an algorithmic implementation for computing ISE, with which our experiments unveil the empirical advantage of the ISE over the SSE.",
+      "publication_date": "2018-11-09T09:12:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1811.03823v1"
+    },
+    {
+      "title": "Stackelberg vs. Nash in the Lottery Colonel Blotto Game",
+      "authors": [
+        "Yan Liu",
+        "Bonan Ni",
+        "Weiran Shen",
+        "Zihe Wang",
+        "Jie Zhang"
+      ],
+      "abstract": "Resource competition problems are often modeled using Colonel Blotto games, where players take simultaneous actions. However, many real-world scenarios involve sequential decision-making rather than simultaneous moves.   To model these dynamics, we represent the Lottery Colonel Blotto game as a Stackelberg game, in which one player, the leader, commits to a strategy first, and the other player, the follower, responds. We derive the Stackelberg equilibrium for this game, formulating the leader's strategy as a bi-level optimization problem.   To solve this, we develop a constructive method based on iterative game reductions, which allows us to efficiently compute the leader's optimal commitment strategy in polynomial time. Additionally, we identify the conditions under which the Stackelberg equilibrium coincides with the Nash equilibrium. Specifically, this occurs when the budget ratio between the leader and the follower equals a certain threshold, which we can calculate in closed form. In some instances, we observe that when the leader's budget exceeds this threshold, both players achieve higher utilities in the Stackelberg equilibrium compared to the Nash equilibrium. Lastly, we show that, in the best case, the leader can achieve an infinite utility improvement by making an optimal first move compared to the Nash equilibrium.",
+      "publication_date": "2024-10-10T08:00:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2410.07690v3"
+    },
+    {
+      "title": "Finding Mixed Strategy Nash Equilibrium for Continuous Games through   Deep Learning",
+      "authors": [
+        "Zehao Dou",
+        "Xiang Yan",
+        "Dongge Wang",
+        "Xiaotie Deng"
+      ],
+      "abstract": "Nash equilibrium has long been a desired solution concept in multi-player games, especially for those on continuous strategy spaces, which have attracted a rapidly growing amount of interests due to advances in research applications such as the generative adversarial networks. Despite the fact that several deep learning based approaches are designed to obtain pure strategy Nash equilibrium, it is rather luxurious to assume the existence of such an equilibrium. In this paper, we present a new method to approximate mixed strategy Nash equilibria in multi-player continuous games, which always exist and include the pure ones as a special case. We remedy the pure strategy weakness by adopting the pushforward measure technique to represent a mixed strategy in continuous spaces. That allows us to generalize the Gradient-based Nikaido-Isoda (GNI) function to measure the distance between the players' joint strategy profile and a Nash equilibrium. Applying the gradient descent algorithm, our approach is shown to converge to a stationary Nash equilibrium under the convexity assumption on payoff functions, the same popular setting as in previous studies. In numerical experiments, our method consistently and significantly outperforms recent works on approximating Nash equilibrium for quadratic games, general blotto games, and GAMUT games.",
+      "publication_date": "2019-10-26T14:37:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1910.12075v1"
+    },
+    {
+      "title": "Fragility and Robustness in Mean-Payoff Adversarial Stackelberg Games",
+      "authors": [
+        "Mrudula Balachander",
+        "Shibashis Guha",
+        "Jean-François Raskin"
+      ],
+      "abstract": "Two-player mean-payoff Stackelberg games are nonzero-sum infinite duration games played on a bi-weighted graph by Leader (Player 0) and Follower (Player 1). Such games are played sequentially: first, Leader announces her strategy, second, Follower chooses his best-response. If we cannot impose which best-response is chosen by Follower, we say that Follower, though strategic, is adversarial towards Leader. The maximal value that Leader can get in this nonzero-sum game is called the adversarial Stackelberg value (ASV) of the game.   We study the robustness of strategies for Leader in these games against two types of deviations: (i) Modeling imprecision - the weights on the edges of the game arena may not be exactly correct, they may be delta-away from the right one. (ii) Sub-optimal response - Follower may play epsilon-optimal best-responses instead of perfect best-responses. First, we show that if the game is zero-sum then robustness is guaranteed while in the nonzero-sum case, optimal strategies for ASV are fragile. Second, we provide a solution concept to obtain strategies for Leader that are robust to both modeling imprecision, and as well as to the epsilon-optimal responses of Follower, and study several properties and algorithmic problems related to this solution concept.",
+      "publication_date": "2020-07-13T17:44:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "2007.07209v5"
+    },
+    {
+      "title": "Evolution toward a Nash equilibrium",
+      "authors": [
+        "Ioannis Avramopoulos"
+      ],
+      "abstract": "In this paper, we study the dynamic behavior of Hedge, a well-known algorithm in theoretical machine learning and algorithmic game theory. The empirical average (arithmetic mean) of the iterates Hedge generates is known to converge to a minimax equilibrium in zero-sum games. We generalize that result to show convergence of the empirical average to Nash equilibrium in symmetric bimatrix games (that is bimatrix games where the payoff matrix of each player is the transpose of that of the other) in the sense that every limit point of the sequence of averages is an $\\epsilon$-approximate symmetric equilibrium strategy for any desirable $\\epsilon$. Our analysis gives rise to a symmetric equilibrium fully polynomial-time approximation scheme, implying P = PPAD.",
+      "publication_date": "2020-07-20T11:21:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2007.10331v1"
+    },
+    {
+      "title": "Pure Bayesian Nash equilibrium for Bayesian games with multidimensional   vector Types and linear payoffs",
+      "authors": [
+        "Sébastien Huot",
+        "Abbas Edalat"
+      ],
+      "abstract": "We study $n$-agent Bayesian Games with $m$-dimensional vector types and linear payoffs, also called Linear Multidimensional Bayesian Games. This class of games is equivalent with $n$-agent, $m$-game Uniform Multigames. We distinguish between games that have a discrete type space and those with a continuous type space. More specifically, we are interested in the existence of pure Bayesian Nash Equilibrium for such games and efficient algorithms to find them. For continuous priors we suggest a methodology to perform Nash Equilibrium search in simple cases. For discrete priors we present algorithms that can handle two actions and two players games efficiently. We introduce the core concept of threshold strategy and, under some mild conditions, we show that these games have at least one pure Bayesian Nash Equilibrium. We illustrate our results with several examples like Double Game Prisoner Dilemna (DGPD), Chicken Game and Sustainable Adoption Decision Problem (SADP).",
+      "publication_date": "2023-10-21T12:37:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2310.13992v1"
+    },
+    {
+      "title": "Reinforcement Nash Equilibrium Solver",
+      "authors": [
+        "Xinrun Wang",
+        "Chang Yang",
+        "Shuxin Li",
+        "Pengdeng Li",
+        "Xiao Huang",
+        "Hau Chan",
+        "Bo An"
+      ],
+      "abstract": "Nash Equilibrium (NE) is the canonical solution concept of game theory, which provides an elegant tool to understand the rationalities. Though mixed strategy NE exists in any game with finite players and actions, computing NE in two- or multi-player general-sum games is PPAD-Complete. Various alternative solutions, e.g., Correlated Equilibrium (CE), and learning methods, e.g., fictitious play (FP), are proposed to approximate NE. For convenience, we call these methods as \"inexact solvers\", or \"solvers\" for short. However, the alternative solutions differ from NE and the learning methods generally fail to converge to NE. Therefore, in this work, we propose REinforcement Nash Equilibrium Solver (RENES), which trains a single policy to modify the games with different sizes and applies the solvers on the modified games where the obtained solution is evaluated on the original games. Specifically, our contributions are threefold. i) We represent the games as $\\alpha$-rank response graphs and leverage graph neural network (GNN) to handle the games with different sizes as inputs; ii) We use tensor decomposition, e.g., canonical polyadic (CP), to make the dimension of modifying actions fixed for games with different sizes; iii) We train the modifying strategy for games with the widely-used proximal policy optimization (PPO) and apply the solvers to solve the modified games, where the obtained solution is evaluated on original games. Extensive experiments on large-scale normal-form games show that our method can further improve the approximation of NE of different solvers, i.e., $\\alpha$-rank, CE, FP and PRD, and can be generalized to unseen games.",
+      "publication_date": "2024-05-06T14:33:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2405.03518v1"
+    },
+    {
+      "title": "Emergence of Locally Suboptimal Behavior in Finitely Repeated Games",
+      "authors": [
+        "Yichen Yang",
+        "Martin Rinard"
+      ],
+      "abstract": "We study the emergence of locally suboptimal behavior in finitely repeated games. Locally suboptimal behavior refers to players play suboptimally in some rounds of the repeated game (i.e., not maximizing their payoffs in those rounds) while maximizing their total payoffs in the whole repeated game. The central research question we aim to answer is when locally suboptimal behavior can arise from rational play in finitely repeated games. In this research, we focus on the emergence of locally suboptimal behavior in subgame-perfect equilibria (SPE) of finitely repeated games with complete information. We prove the first sufficient and necessary condition on the stage game G that ensure that, for all T and all subgame-perfect equilibria of the repeated game G(T), the strategy profile at every round of G(T) forms a Nash equilibrium of the stage game G. We prove the sufficient and necessary conditions for three cases: 1) only pure strategies are allowed, 2) the general case where mixed strategies are allowed, and 3) one player can only use pure strategies and the other player can use mixed strategies. Based on these results, we obtain complete characterizations on when allowing players to play mixed strategies will change whether local suboptimality can ever occur in some repeated game. Furthermore, we present an algorithm for the computational problem of, given an arbitrary stage game, deciding if locally suboptimal behavior can arise in the corresponding finitely repeated games. This addresses the practical side of the research question.",
+      "publication_date": "2023-03-29T15:50:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2303.16806v1"
+    },
+    {
+      "title": "Coincidence analysis of Stackelberg and Nash equilibria in three-player   leader-follower security games",
+      "authors": [
+        "Gehui Xu",
+        "Guanpu Chen",
+        "Zhaoyang Cheng",
+        "Yiguang Hong",
+        "Hongsheng Qi"
+      ],
+      "abstract": "There has been significant recent interest in leader-follower security games, where the leader dominates the decision process with the Stackelberg equilibrium (SE) strategy. However, such a leader-follower scheme may become invalid in practice due to subjective or objective factors, and then the Nash equilibrium (NE) strategy may be an alternative option. In this case, the leader may face a dilemma of choosing an SE strategy or an NE strategy. In this paper, we focus on a unified three-player leader-follower security game and study the coincidence between SE and NE. We first explore a necessary and sufficient condition for the case that each SE is an NE, which can be further presented concisely when the SE is unique. This condition not only provides access to seek a satisfactory SE strategy but also makes a criterion to verify an obtained SE strategy. Then we provide another appropriate condition for the case that at least one SE is an NE. Moreover, since the coincidence condition may not always be satisfied, we describe the closeness between SE and NE, and give an upper bound of their deviation. Finally, we show the applicability of the obtained theoretical results in several practical security cases, including the secure transmission problem and the cybersecurity defense.",
+      "publication_date": "2022-10-28T06:19:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2210.15928v1"
+    },
+    {
+      "title": "Counterclockwise Dissipativity, Potential Games and Evolutionary Nash   Equilibrium Learning",
+      "authors": [
+        "Nuno C. Martins",
+        "Jair Certório",
+        "Matthew S. Hankins"
+      ],
+      "abstract": "We use system-theoretic passivity methods to study evolutionary Nash equilibria learning in large populations of agents engaged in strategic, non-cooperative interactions. The agents follow learning rules (rules for short) that capture their strategic preferences and a payoff mechanism ascribes payoffs to the available strategies. The population's aggregate strategic profile is the state of an associated evolutionary dynamical system. Evolutionary Nash equilibrium learning refers to the convergence of this state to the Nash equilibria set of the payoff mechanism. Most approaches consider memoryless payoff mechanisms, such as potential games. Recently, methods using $\\delta$-passivity and equilibrium independent passivity (EIP) have introduced dynamic payoff mechanisms. However, $\\delta$-passivity does not hold when agents follow rules exhibiting ``imitation\" behavior, such as in replicator dynamics. Conversely, EIP applies to the replicator dynamics but not to $\\delta$-passive rules. We address this gap using counterclockwise dissipativity (CCW). First, we prove that continuous memoryless payoff mechanisms are CCW if and only if they are potential games. Subsequently, under (possibly dynamic) CCW payoff mechanisms, we establish evolutionary Nash equilibrium learning for any rule within a convex cone spanned by imitation rules and continuous $\\delta$-passive rules.",
+      "publication_date": "2024-08-01T15:38:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2408.00647v1"
+    },
+    {
+      "title": "Remote Estimation Games with Random Walk Processes: Stackelberg   Equilibrium",
+      "authors": [
+        "Atahan Dokme",
+        "Raj Kiriti Velicheti",
+        "Melih Bastopcu",
+        "Tamer Başar"
+      ],
+      "abstract": "Remote estimation is a crucial element of real time monitoring of a stochastic process. While most of the existing works have concentrated on obtaining optimal sampling strategies, motivated by malicious attacks on cyber-physical systems, we model sensing under surveillance as a game between an attacker and a defender. This introduces strategic elements to conventional remote estimation problems. Additionally, inspired by increasing detection capabilities, we model an element of information leakage for each player. Parameterizing the game in terms of uncertainty on each side, information leakage, and cost of sampling, we consider the Stackelberg Equilibrium (SE) concept where one of the players acts as the leader and the other one as the follower. By focusing our attention on stationary probabilistic sampling policies, we characterize the SE of this game and provide simulations to show the efficacy of our results.",
+      "publication_date": "2024-12-01T05:42:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IT"
+      ],
+      "arxiv_id": "2412.00679v1"
+    },
+    {
+      "title": "Precision game engineering through reshaping strategic payoffs",
+      "authors": [
+        "Elie Eshoa",
+        "Ali R. Zomorrodi"
+      ],
+      "abstract": "Nash equilibrium is a key concept in game theory fundamental for elucidating the equilibrium state of strategic interactions, finding applications in diverse fields such as economics, political science, and biology. However, the Nash equilibrium may not always align with the optimal or desired outcomes within a system. This article introduces a novel game engineering framework that tweaks strategic payoffs within a game to achieve a desired Nash equilibrium while averting undesired ones. Leveraging mixed-integer linear programming, this framework identifies intricate combinations of players and strategies and optimal perturbations to their payoffs that enable the shift from undesirable Nash equilibria to more favorable ones. We demonstrate the effectiveness and scalability of our approach on games of varying complexity, ranging from simple prototype games such as the Prisoner's Dilemma and Snowdrift games with two or more players to complex game configurations with as high as $10^6$ entries in the payoff matrix. These studies showcase the capability of this framework in efficiently identifying the alternative ways of reshaping strategic payoffs to secure desired Nash equilibria and preclude the undesired equilibrium states. Our game engineering framework offers a versatile toolkit for precision strategic decision-making with far-reaching implications across diverse domains.",
+      "publication_date": "2024-03-29T21:01:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2404.00153v1"
+    },
+    {
+      "title": "Finding Equilibrium in Multi-Agent Games with Payoff Uncertainty",
+      "authors": [
+        "Wenshuo Guo",
+        "Mihaela Curmei",
+        "Serena Wang",
+        "Benjamin Recht",
+        "Michael I. Jordan"
+      ],
+      "abstract": "We study the problem of finding equilibrium strategies in multi-agent games with incomplete payoff information, where the payoff matrices are only known to the players up to some bounded uncertainty sets. In such games, an ex-post equilibrium characterizes equilibrium strategies that are robust to the payoff uncertainty. When the game is one-shot, we show that in zero-sum polymatrix games, an ex-post equilibrium can be computed efficiently using linear programming. We further extend the notion of ex-post equilibrium to stochastic games, where the game is played repeatedly in a sequence of stages and the transition dynamics are governed by an Markov decision process (MDP). We provide sufficient condition for the existence of an ex-post Markov perfect equilibrium (MPE). We show that under bounded payoff uncertainty, the value of any two-player zero-sum stochastic game can be computed up to a tight value interval using dynamic programming.",
+      "publication_date": "2020-07-10T23:38:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2007.05647v1"
+    },
+    {
+      "title": "Approximating Nash Equilibrium in Random Graphical Games",
+      "authors": [
+        "Morris Yau"
+      ],
+      "abstract": "Computing Nash equilibrium in multi-agent games is a longstanding challenge at the interface of game theory and computer science. It is well known that a general normal form game in N players and k strategies requires exponential space simply to write down. This Curse of Multi-Agents prompts the study of succinct games which can be written down efficiently. A canonical example of a succinct game is the graphical game which models players as nodes in a graph interacting with only their neighbors in direct analogy with markov random fields. Graphical games have found applications in wireless, financial, and social networks. However, computing the nash equilbrium of graphical games has proven challenging. Even for polymatrix games, a model where payoffs to an agent can be written as the sum of payoffs of interactions with the agent's neighbors, it has been shown that computing an epsilon approximate nash equilibrium is PPAD hard for epsilon smaller than a constant. The focus of this work is to circumvent this computational hardness by considering average case graph models i.e random graphs. We provide a quasipolynomial time approximation scheme (QPTAS) for computing an epsilon approximate nash equilibrium of polymatrix games on random graphs with edge density greater than poly(k, 1/epsilon, ln(N))$ with high probability. Furthermore, with the same runtime we can compute an epsilon-approximate Nash equilibrium that epsilon-approximates the maximum social welfare of any nash equilibrium of the game. Our primary technical innovation is an \"accelerated rounding\" of a novel hierarchical convex program for the nash equilibrium problem. Our accelerated rounding also yields faster algorithms for Max-2CSP on the same family of random graphs, which may be of independent interest.",
+      "publication_date": "2021-12-07T01:40:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2112.03442v1"
+    },
+    {
+      "title": "LLM-Stackelberg Games: Conjectural Reasoning Equilibria and Their   Applications to Spearphishing",
+      "authors": [
+        "Quanyan Zhu"
+      ],
+      "abstract": "We introduce the framework of LLM-Stackelberg games, a class of sequential decision-making models that integrate large language models (LLMs) into strategic interactions between a leader and a follower. Departing from classical Stackelberg assumptions of complete information and rational agents, our formulation allows each agent to reason through structured prompts, generate probabilistic behaviors via LLMs, and adapt their strategies through internal cognition and belief updates. We define two equilibrium concepts: reasoning and behavioral equilibrium, which aligns an agent's internal prompt-based reasoning with observable behavior, and conjectural reasoning equilibrium, which accounts for epistemic uncertainty through parameterized models over an opponent's response. These layered constructs capture bounded rationality, asymmetric information, and meta-cognitive adaptation. We illustrate the framework through a spearphishing case study, where a sender and a recipient engage in a deception game using structured reasoning prompts. This example highlights the cognitive richness and adversarial potential of LLM-mediated interactions. Our results show that LLM-Stackelberg games provide a powerful paradigm for modeling decision-making in domains such as cybersecurity, misinformation, and recommendation systems.",
+      "publication_date": "2025-07-12T21:42:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2507.09407v1"
+    },
+    {
+      "title": "Incentive Games and Mechanisms for Risk Management",
+      "authors": [
+        "Tansu Alpcan"
+      ],
+      "abstract": "Incentives play an important role in (security and IT) risk management of a large-scale organization with multiple autonomous divisions. This paper presents an incentive mechanism design framework for risk management based on a game-theoretic approach. The risk manager acts as a mechanism designer providing rules and incentive factors such as assistance or subsidies to divisions or units, which are modeled as selfish players of a strategic (noncooperative) game. Based on this model, incentive mechanisms with various objectives are developed that satisfy efficiency, preference-compatibility, and strategy-proofness criteria. In addition, iterative and distributed algorithms are presented, which can be implemented under information limitations such as the risk manager not knowing the individual units' preferences. An example scenario illustrates the framework and results numerically. The incentive mechanism design approach presented is useful for not only deriving guidelines but also developing computer-assistance systems for large-scale risk management.",
+      "publication_date": "2010-12-15T11:14:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1012.3282v1"
+    },
+    {
+      "title": "Computing Stackelberg Equilibria of Large General-Sum Games",
+      "authors": [
+        "Avrim Blum",
+        "Nika Hagtalab",
+        "MohammadTaghi Hajiaghayi",
+        "Saeed Seddighin"
+      ],
+      "abstract": "We study the computational complexity of finding Stackelberg Equilibria in general-sum games, where the set of pure strategies of the leader and the followers are exponentially large in a natrual representation of the problem.   In \\emph{zero-sum} games, the notion of a Stackelberg equilibrium coincides with the notion of a \\emph{Nash Equilibrium}~\\cite{korzhyk2011stackelberg}. Finding these equilibrium concepts in zero-sum games can be efficiently done when the players have polynomially many pure strategies or when (in additional to some structural properties) a best-response oracle is available~\\cite{ahmadinejad2016duels, DHL+17, KV05}. Despite such advancements in the case of zero-sum games, little is known for general-sum games.   In light of the above, we examine the computational complexity of computing a Stackelberg equilibrium in large general-sum games. We show that while there are natural large general-sum games where the Stackelberg Equilibria can be computed efficiently if the Nash equilibrium in its zero-sum form could be computed efficiently, in general, structural properties that allow for efficient computation of Nash equilibrium in zero-sum games are not sufficient for computing Stackelberg equilibria in general-sum games.",
+      "publication_date": "2019-09-07T18:34:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1909.03319v1"
+    },
+    {
+      "title": "Derivation of evolutionary payoffs from observable behavior",
+      "authors": [
+        "Alexander Feigel",
+        "Avraham Englander",
+        "Assaf Engel"
+      ],
+      "abstract": "Interpretation of animal behavior, especially as cooperative or selfish, is a challenge for evolutionary theory. Strategy of a competition should follow from corresponding Darwinian payoffs for the available behavioral options. The payoffs and decision making processes, however, are difficult to observe and quantify. Here we present a general method for the derivation of evolutionary payoffs from observable statistics of interactions. The method is applied to combat of male bowl and doily spiders, to predator inspection by sticklebacks and to territorial defense by lions, demonstrating animal behavior as a new type of game theoretical equilibrium. Games animals play may be derived unequivocally from their observable behavior, the reconstruction, however, can be subjected to fundamental limitations due to our inability to observe all information exchange mechanisms (communication).",
+      "publication_date": "2008-09-06T06:43:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.PE"
+      ],
+      "arxiv_id": "0809.1138v1"
+    },
+    {
+      "title": "Infinitely Split Nash Equilibrium Problems in Repeated Games",
+      "authors": [
+        "Jinlu Li"
+      ],
+      "abstract": "In this paper, we introduce the concept of infinitely split Nash equilibrium in repeated games in which the profile sets are chain-complete posets. Then by using a fixed point theorem on posets in [8], we prove an existence theorem. As an application, we study the repeated extended Bertrant duopoly model of price competition.",
+      "publication_date": "2017-12-21T17:17:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "1712.08509v1"
+    },
+    {
+      "title": "Nash equilibrium with Sugeno payoff",
+      "authors": [
+        "Taras Radul"
+      ],
+      "abstract": "This paper is devoted to Nash equilibrium for games in capacities. Such games with payoff expressed by Choquet integral were considered by Kozhan and Zarichnyi (Nash equilibria for games in capacities, Econ. Theory {\\bf 35} (2008) 321--331) and existence of Nash equilibrium was proved. We also consider games in capacities but with expected payoff expressed by Sugeno integral. We prove existence of Nash equilibrium using categorical methods and abstract convexity theory.",
+      "publication_date": "2015-02-25T17:17:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.GN"
+      ],
+      "arxiv_id": "1502.07259v2"
+    },
+    {
+      "title": "Locally Optimal Solutions for Integer Programming Games",
+      "authors": [
+        "Pravesh Koirala",
+        "Mel Krusniak",
+        "Forrest Laine"
+      ],
+      "abstract": "Integer programming games (IPGs) are n-person games with integer strategy spaces. These games are used to model non-cooperative combinatorial decision-making and are used in domains such as cybersecurity and transportation. The prevalent solution concept for IPGs, Nash equilibrium, is difficult to compute and even showing whether such an equilibrium exists is known to be Sp2-complete. In this work, we introduce a class of relaxed solution concepts for IPGs called locally optimal integer solutions (LOIS) that are simpler to obtain than pure Nash equilibria. We demonstrate that LOIS are not only faster and more readily scalable in large-scale games but also support desirable features such as equilibrium enumeration and selection. We also show that these solutions can model a broader class of problems including Stackelberg, Stackelberg-Nash, and generalized IPGs. Finally, we provide initial comparative results in a cybersecurity game called the Critical Node game, showing the performance gains of LOIS in comparison to the existing Nash equilibrium solution concept.",
+      "publication_date": "2025-03-26T18:45:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2503.20918v1"
+    },
+    {
+      "title": "Incentive Compatibility in Two-Stage Repeated Stochastic Games",
+      "authors": [
+        "Bharadwaj Satchidanandan",
+        "Munther A. Dahleh"
+      ],
+      "abstract": "We address the problem of mechanism design for two-stage repeated stochastic games -- a novel setting using which many emerging problems in next-generation electricity markets can be readily modeled. Repeated playing affords the players a large class of strategies that adapt a player's actions to all past observations and inferences obtained therefrom. In other settings such as iterative auctions or dynamic games where a large strategy space of this sort manifests, it typically has an important implication for mechanism design: It may be impossible to obtain truth-telling as a dominant strategy equilibrium. Consequently, in such scenarios, it is common to settle for mechanisms that render truth-telling only a Nash equilibrium, or variants thereof, even though Nash equilibria are known to be poor models of real-world behavior. This is owing to each player having to make overly specific assumptions about the behaviors of the other players to employ their Nash equilibrium strategy, which they may not make. In general, the lesser the burden of speculation in an equilibrium, the more plausible it is that it models real-world behavior. Guided by this maxim, we introduce a new notion of equilibrium called Dominant Strategy Non-Bankrupting Equilibrium (DNBE) which requires the players to make very little assumptions about the behavior of the other players to employ their equilibrium strategy. Consequently, a mechanism that renders truth-telling a DNBE as opposed to only a Nash equilibrium could be quite effective in molding real-world behavior along truthful lines. We present a mechanism for two-stage repeated stochastic games that renders truth-telling a Dominant Strategy Non-Bankrupting Equilibrium. The mechanism also guarantees individual rationality and maximizes social welfare. Finally, we describe an application of the mechanism to design demand response markets.",
+      "publication_date": "2022-03-19T01:09:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "econ.TH"
+      ],
+      "arxiv_id": "2203.10206v2"
+    },
+    {
+      "title": "Commitment with Signaling under Double-sided Information Asymmetry",
+      "authors": [
+        "Tao Li",
+        "Quanyan Zhu"
+      ],
+      "abstract": "Information asymmetry in games enables players with the information advantage to manipulate others' beliefs by strategically revealing information to other players. This work considers a double-sided information asymmetry in a Bayesian Stackelberg game, where the leader's realized action, sampled from the mixed strategy commitment, is hidden from the follower. In contrast, the follower holds private information about his payoff. Given asymmetric information on both sides, an important question arises: \\emph{Does the leader's information advantage outweigh the follower's?} We answer this question affirmatively in this work, where we demonstrate that by adequately designing a signaling device that reveals partial information regarding the leader's realized action to the follower, the leader can achieve a higher expected utility than that without signaling. Moreover, unlike previous works on the Bayesian Stackelberg game where mathematical programming tools are utilized, we interpret the leader's commitment as a probability measure over the belief space. Such a probabilistic language greatly simplifies the analysis and allows an indirect signaling scheme, leading to a geometric characterization of the equilibrium under the proposed game model.",
+      "publication_date": "2022-12-22T01:30:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2212.11446v3"
+    },
+    {
+      "title": "Evolutionary Exploration of the Finitely Repeated Prisoners'   Dilemma--The Effect of Out-of-Equilibrium Play",
+      "authors": [
+        "Kristian Lindgren",
+        "Vilhelm Verendel"
+      ],
+      "abstract": "The finitely repeated Prisoners' Dilemma is a good illustration of the discrepancy between the strategic behaviour suggested by a game-theoretic analysis and the behaviour often observed among human players, where cooperation is maintained through most of the game. A game-theoretic reasoning based on backward induction eliminates strategies step by step until defection from the first round is the only remaining choice, reflecting the Nash equilibrium of the game. We investigate the Nash equilibrium solution for two different sets of strategies in an evolutionary context, using replicator-mutation dynamics. The first set consists of conditional cooperators, up to a certain round, while the second set in addition to these contains two strategy types that react differently on the first round action: The \"Convincer\" strategies insist with two rounds of initial cooperation, trying to establish more cooperative play in the game, while the \"Follower\" strategies, although being first round defectors, have the capability to respond to an invite in the first round. For both of these strategy sets, iterated elimination of strategies shows that the only Nash equilibria are given by defection from the first round. We show that the evolutionary dynamics of the first set is always characterised by a stable fixed point, corresponding to the Nash equilibrium, if the mutation rate is sufficiently small (but still positive). The second strategy set is numerically investigated, and we find that there are regions of parameter space where fixed points become unstable and the dynamics exhibits cycles of different strategy compositions. The results indicate that, even in the limit of very small mutation rate, the replicator-mutation dynamics does not necessarily bring the system with Convincers and Followers to the fixed point corresponding to the Nash equilibrium of the game.",
+      "publication_date": "2013-01-08T22:20:43+00:00",
+      "doi": "10.3390/g4010001",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-bio.PE"
+      ],
+      "arxiv_id": "1301.1710v1"
+    },
+    {
+      "title": "Imitative Follower Deception in Stackelberg Games",
+      "authors": [
+        "Jiarui Gan",
+        "Haifeng Xu",
+        "Qingyu Guo",
+        "Long Tran-Thanh",
+        "Zinovi Rabinovich",
+        "Michael Wooldridge"
+      ],
+      "abstract": "Information uncertainty is one of the major challenges facing applications of game theory. In the context of Stackelberg games, various approaches have been proposed to deal with the leader's incomplete knowledge about the follower's payoffs, typically by gathering information from the leader's interaction with the follower. Unfortunately, these approaches rely crucially on the assumption that the follower will not strategically exploit this information asymmetry, i.e., the follower behaves truthfully during the interaction according to their actual payoffs. As we show in this paper, the follower may have strong incentives to deceitfully imitate the behavior of a different follower type and, in doing this, benefit significantly from inducing the leader into choosing a highly suboptimal strategy. This raises a fundamental question: how to design a leader strategy in the presence of a deceitful follower? To answer this question, we put forward a basic model of Stackelberg games with (imitative) follower deception and show that the leader is indeed able to reduce the loss due to follower deception with carefully designed policies. We then provide a systematic study of the problem of computing the optimal leader policy and draw a relatively complete picture of the complexity landscape; essentially matching positive and negative complexity results are provided for natural variants of the model. Our intractability results are in sharp contrast to the situation with no deception, where the leader's optimal strategy can be computed in polynomial time, and thus illustrate the intrinsic difficulty of handling follower deception. Through simulations we also examine the benefit of considering follower deception in randomly generated games.",
+      "publication_date": "2019-03-07T14:00:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1903.02917v2"
+    },
+    {
+      "title": "Parallel Algorithm for Approximating Nash Equilibrium in Multiplayer   Stochastic Games with Application to Naval Strategic Planning",
+      "authors": [
+        "Sam Ganzfried",
+        "Conner Laughlin",
+        "Charles Morefield"
+      ],
+      "abstract": "Many real-world domains contain multiple agents behaving strategically with probabilistic transitions and uncertain (potentially infinite) duration. Such settings can be modeled as stochastic games. While algorithms have been developed for solving (i.e., computing a game-theoretic solution concept such as Nash equilibrium) two-player zero-sum stochastic games, research on algorithms for non-zero-sum and multiplayer stochastic games is limited. We present a new algorithm for these settings, which constitutes the first parallel algorithm for multiplayer stochastic games. We present experimental results on a 4-player stochastic game motivated by a naval strategic planning scenario, showing that our algorithm is able to quickly compute strategies constituting Nash equilibrium up to a very small degree of approximation error.",
+      "publication_date": "2019-10-01T04:08:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1910.00193v4"
+    },
+    {
+      "title": "Nash Equilibria of Two-Player Matrix Games Repeated Until Collision",
+      "authors": [
+        "Aniket Murhekar",
+        "Eklavya Sharma"
+      ],
+      "abstract": "We introduce and initiate the study of a natural class of repeated two-player matrix games, called Repeated-Until-Collision (RUC) games. In each round, both players simultaneously pick an action from a common action set $\\{1, 2, \\dots, n\\}$. Depending on their chosen actions, they derive payoffs given by $n \\times n$ matrices $A$ and $B$, respectively. If their actions collide (i.e., they pick the same action), the game ends, otherwise, it proceeds to the next round. Both players want to maximize their total payoff until the game ends. RUC games can be interpreted as pursuit-evasion games or repeated hide-and-seek games. They also generalize hand cricket, a popular game among children in India.   We show that under mild assumptions on the payoff matrices, every RUC game admits a Nash equilibrium (NE). Moreover, we show the existence of a stationary NE, where each player chooses their action according to a probability distribution over the action set that does not change across rounds. Remarkably, we show that all NE are effectively the same as the stationary NE, thus showing that RUC games admit an almost unique NE. Lastly, we also show how to compute (approximate) NE for RUC games.",
+      "publication_date": "2023-09-26T21:17:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2309.15870v1"
+    },
+    {
+      "title": "Algorithm for Computing Approximate Nash Equilibrium in Continuous Games   with Application to Continuous Blotto",
+      "authors": [
+        "Sam Ganzfried"
+      ],
+      "abstract": "Successful algorithms have been developed for computing Nash equilibrium in a variety of finite game classes. However, solving continuous games -- in which the pure strategy space is (potentially uncountably) infinite -- is far more challenging. Nonetheless, many real-world domains have continuous action spaces, e.g., where actions refer to an amount of time, money, or other resource that is naturally modeled as being real-valued as opposed to integral. We present a new algorithm for {approximating} Nash equilibrium strategies in continuous games. In addition to two-player zero-sum games, our algorithm also applies to multiplayer games and games with imperfect information. We experiment with our algorithm on a continuous imperfect-information Blotto game, in which two players distribute resources over multiple battlefields. Blotto games have frequently been used to model national security scenarios and have also been applied to electoral competition and auction theory. Experiments show that our algorithm is able to quickly compute close approximations of Nash equilibrium strategies for this game.",
+      "publication_date": "2020-06-12T19:53:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2006.07443v5"
+    },
+    {
+      "title": "Robust Solutions for Multi-Defender Stackelberg Security Games",
+      "authors": [
+        "Dolev Mutzari",
+        "Yonatan Aumann",
+        "Sarit Kraus"
+      ],
+      "abstract": "Multi-defender Stackelberg Security Games (MSSG) have recently gained increasing attention in the literature. However, the solutions offered to date are highly sensitive, wherein even small perturbations in the attacker's utility or slight uncertainties thereof can dramatically change the defenders' resulting payoffs and alter the equilibrium. In this paper, we introduce a robust model for MSSGs, which admits solutions that are resistant to small perturbations or uncertainties in the game's parameters. First, we formally define the notion of robustness, as well as the robust MSSG model. Then, for the non-cooperative setting, we prove the existence of a robust approximate equilibrium in any such game, and provide an efficient construction thereof. For the cooperative setting, we show that any such game admits a robust approximate alpha-core, provide an efficient construction thereof, and prove that stronger types of the core may be empty. Interestingly, the robust solutions can substantially increase the defenders' utilities over those of the non-robust ones.",
+      "publication_date": "2022-04-29T10:37:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2204.14000v2"
+    },
+    {
+      "title": "Multi-agent Reinforcement Learning in Bayesian Stackelberg Markov Games   for Adaptive Moving Target Defense",
+      "authors": [
+        "Sailik Sengupta",
+        "Subbarao Kambhampati"
+      ],
+      "abstract": "The field of cybersecurity has mostly been a cat-and-mouse game with the discovery of new attacks leading the way. To take away an attacker's advantage of reconnaissance, researchers have proposed proactive defense methods such as Moving Target Defense (MTD). To find good movement strategies, researchers have modeled MTD as leader-follower games between the defender and a cyber-adversary. We argue that existing models are inadequate in sequential settings when there is incomplete information about a rational adversary and yield sub-optimal movement strategies. Further, while there exists an array of work on learning defense policies in sequential settings for cyber-security, they are either unpopular due to scalability issues arising out of incomplete information or tend to ignore the strategic nature of the adversary simplifying the scenario to use single-agent reinforcement learning techniques. To address these concerns, we propose (1) a unifying game-theoretic model, called the Bayesian Stackelberg Markov Games (BSMGs), that can model uncertainty over attacker types and the nuances of an MTD system and (2) a Bayesian Strong Stackelberg Q-learning (BSS-Q) approach that can, via interaction, learn the optimal movement policy for BSMGs within a reasonable time. We situate BSMGs in the landscape of incomplete-information Markov games and characterize the notion of Strong Stackelberg Equilibrium (SSE) in them. We show that our learning approach converges to an SSE of a BSMG and then highlight that the learned movement policy (1) improves the state-of-the-art in MTD for web-application security and (2) converges to an optimal policy in MTD domains with incomplete information about adversaries even when prior information about rewards and transitions is absent.",
+      "publication_date": "2020-07-20T20:34:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2007.10457v1"
+    },
+    {
+      "title": "Dynamic Signaling Games with Quadratic Criteria under Nash and   Stackelberg Equilibria",
+      "authors": [
+        "Serkan Sarıtaş",
+        "Serdar Yüksel",
+        "Sinan Gezici"
+      ],
+      "abstract": "This paper considers dynamic (multi-stage) signaling games involving an encoder and a decoder who have subjective models on the cost functions. We consider both Nash (simultaneous-move) and Stackelberg (leader-follower) equilibria of dynamic signaling games under quadratic criteria. For the multi-stage scalar cheap talk, we show that the final stage equilibrium is always quantized and under further conditions the equilibria for all time stages must be quantized. In contrast, the Stackelberg equilibria are always fully revealing. In the multi-stage signaling game where the transmission of a Gauss-Markov source over a memoryless Gaussian channel is considered, affine policies constitute an invariant subspace under best response maps for Nash equilibria; whereas the Stackelberg equilibria always admit linear policies for scalar sources but such policies may be non-linear for multi-dimensional sources. We obtain an explicit recursion for optimal linear encoding policies for multi-dimensional sources, and derive conditions under which Stackelberg equilibria are informative.",
+      "publication_date": "2017-04-12T16:11:21+00:00",
+      "doi": "10.1016/j.automatica.2020.108883",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "1704.03816v6"
+    },
+    {
+      "title": "Convergence of Learning Dynamics in Stackelberg Games",
+      "authors": [
+        "Tanner Fiez",
+        "Benjamin Chasnov",
+        "Lillian J. Ratliff"
+      ],
+      "abstract": "This paper investigates the convergence of learning dynamics in Stackelberg games. In the class of games we consider, there is a hierarchical game being played between a leader and a follower with continuous action spaces. We establish a number of connections between the Nash and Stackelberg equilibrium concepts and characterize conditions under which attracting critical points of simultaneous gradient descent are Stackelberg equilibria in zero-sum games. Moreover, we show that the only stable critical points of the Stackelberg gradient dynamics are Stackelberg equilibria in zero-sum games. Using this insight, we develop a gradient-based update for the leader while the follower employs a best response strategy for which each stable critical point is guaranteed to be a Stackelberg equilibrium in zero-sum games. As a result, the learning rule provably converges to a Stackelberg equilibria given an initialization in the region of attraction of a stable critical point. We then consider a follower employing a gradient-play update rule instead of a best response strategy and propose a two-timescale algorithm with similar asymptotic convergence guarantees. For this algorithm, we also provide finite-time high probability bounds for local convergence to a neighborhood of a stable Stackelberg equilibrium in general-sum games. Finally, we present extensive numerical results that validate our theory, provide insights into the optimization landscape of generative adversarial networks, and demonstrate that the learning dynamics we propose can effectively train generative adversarial networks.",
+      "publication_date": "2019-06-04T06:27:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1906.01217v3"
+    },
+    {
+      "title": "Incentive Designs for Stackelberg Games with a Large Number of Followers   and their Mean-Field Limits",
+      "authors": [
+        "Sina Sanjari",
+        "Subhonmesh Bose",
+        "Tamer Başar"
+      ],
+      "abstract": "We study incentive designs for a class of stochastic Stackelberg games with one leader and a large number of (finite as well as infinite population of) followers. We investigate whether the leader can craft a strategy under a dynamic information structure that induces a desired behavior among the followers. For the finite population setting, under convexity of the leader's cost and other sufficient conditions, we show that there exist symmetric \\emph{incentive} strategies for the leader that attain approximately optimal performance from the leader's viewpoint and lead to an approximate symmetric (pure) Nash best response among the followers. Leveraging functional analytic tools, we further show that there exists a symmetric incentive strategy, which is affine in the dynamic part of the leader's information, comprising partial information on the actions taken by the followers. Driving the follower population to infinity, we arrive at the interesting result that in this infinite-population regime the leader cannot design a smooth ``finite-energy'' incentive strategy, namely, a mean-field limit for such games is not well-defined. As a way around this, we introduce a class of stochastic Stackelberg games with a leader, a major follower, and a finite or infinite population of minor followers. For this class of problems, we establish the existence of an incentive strategy and the corresponding mean-field Stackelberg game. Examples of quadratic Gaussian games are provided to illustrate both positive and negative results. In addition, as a byproduct of our analysis, we establish the existence of a randomized incentive strategy for the class mean-field Stackelberg games, which in turn provides an approximation for an incentive strategy of the corresponding finite population Stackelberg game.",
+      "publication_date": "2022-07-21T17:07:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2207.10611v2"
+    },
+    {
+      "title": "Offensive Robot Cybersecurity",
+      "authors": [
+        "Víctor Mayoral-Vilches"
+      ],
+      "abstract": "Offensive Robot Cybersecurity introduces a groundbreaking approach by advocating for offensive security methods empowered by means of automation. It emphasizes the necessity of understanding attackers' tactics and identifying vulnerabilities in advance to develop effective defenses, thereby improving robots' security posture. This thesis leverages a decade of robotics experience, employing Machine Learning and Game Theory to streamline the vulnerability identification and exploitation process. Intrinsically, the thesis uncovers a profound connection between robotic architecture and cybersecurity, highlighting that the design and creation aspect of robotics deeply intertwines with its protection against attacks. This duality -- whereby the architecture that shapes robot behavior and capabilities also necessitates a defense mechanism through offensive and defensive cybersecurity strategies -- creates a unique equilibrium. Approaching cybersecurity with a dual perspective of defense and attack, rooted in an understanding of systems architecture, has been pivotal. Through comprehensive analysis, including ethical considerations, the development of security tools, and executing cyber attacks on robot software, hardware, and industry deployments, this thesis proposes a novel architecture for cybersecurity cognitive engines. These engines, powered by advanced game theory and machine learning, pave the way for autonomous offensive cybersecurity strategies for robots, marking a significant shift towards self-defending robotic systems. This research not only underscores the importance of offensive measures in enhancing robot cybersecurity but also sets the stage for future advancements where robots are not just resilient to cyber threats but are equipped to autonomously safeguard themselves.",
+      "publication_date": "2025-06-18T10:49:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.RO"
+      ],
+      "arxiv_id": "2506.15343v1"
+    }
+  ]
+}

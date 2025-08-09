@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/RAPPER__Ransomware_Prevention_via_Performance_Counters",
+  "paper_title": "RAPPER  Ransomware Prevention via Performance Counters",
+  "concepts": [
+    {
+      "text": "system",
+      "frequency": 35,
+      "relevance_score": 0.97840790842872,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.522984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware",
+      "frequency": 37,
+      "relevance_score": 0.8700312174817898,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.508016+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 28,
+      "relevance_score": 0.6827263267429761,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.514717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "behavior",
+      "frequency": 28,
+      "relevance_score": 0.6827263267429761,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.530047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system behavior",
+      "frequency": 13,
+      "relevance_score": 0.6205515088449532,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.572927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wannacry",
+      "frequency": 25,
+      "relevance_score": 0.6202913631633715,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.519973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fft",
+      "frequency": 25,
+      "relevance_score": 0.6202913631633715,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.533253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "normal system behavior",
+      "frequency": 7,
+      "relevance_score": 0.595681581685744,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.591416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autoencoder",
+      "frequency": 23,
+      "relevance_score": 0.5786680541103018,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.518100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "normal system",
+      "frequency": 10,
+      "relevance_score": 0.5581165452653486,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.572785+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reconstruction",
+      "frequency": 22,
+      "relevance_score": 0.5578563995837669,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.546248+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100",
+      "frequency": 17,
+      "relevance_score": 0.5537981269510925,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.541676+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "none 100",
+      "frequency": 12,
+      "relevance_score": 0.5497398543184183,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.586744+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sequence",
+      "frequency": 20,
+      "relevance_score": 0.5162330905306972,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.547402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 19,
+      "relevance_score": 0.49542143600416233,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.517665+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "window",
+      "frequency": 19,
+      "relevance_score": 0.49542143600416233,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.542313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "typical system behavior",
+      "frequency": 2,
+      "relevance_score": 0.4916233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.591707+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lstm none 100",
+      "frequency": 4,
+      "relevance_score": 0.48324661810613945,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "none 100 5",
+      "frequency": 4,
+      "relevance_score": 0.48324661810613945,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "none 100 32",
+      "frequency": 4,
+      "relevance_score": 0.48324661810613945,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595630+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "none 100 64",
+      "frequency": 4,
+      "relevance_score": 0.48324661810613945,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rapper",
+      "frequency": 18,
+      "relevance_score": 0.47460978147762745,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.507856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "normal",
+      "frequency": 18,
+      "relevance_score": 0.47460978147762745,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.530633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "error",
+      "frequency": 18,
+      "relevance_score": 0.47460978147762745,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.545816+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reconstruction error",
+      "frequency": 13,
+      "relevance_score": 0.4705515088449532,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.576533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autoencoder_1",
+      "frequency": 12,
+      "relevance_score": 0.44973985431841834,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.557719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ϕ x 2",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.592183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 trace points",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.592663+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1000 244 10",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.593449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autoencoder_1 fft converter",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.594071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "321 0 0003",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.594548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0003 1",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.594703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 lstm none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.594860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 5 none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 none 100",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 dropout none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595785+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dropout none 100",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.595939+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 32 none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "32 none 100",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 lstm none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 64 none",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "64 none 100",
+      "frequency": 2,
+      "relevance_score": 0.4416233090530697,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.596833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "counters",
+      "frequency": 16,
+      "relevance_score": 0.4329864724245578,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.508460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomwares",
+      "frequency": 16,
+      "relevance_score": 0.4329864724245578,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.514128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spec",
+      "frequency": 16,
+      "relevance_score": 0.4329864724245578,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.553768+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autoencoder_2",
+      "frequency": 11,
+      "relevance_score": 0.42892819979188346,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.558007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 8,
+      "relevance_score": 0.41649323621227885,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.515006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fast fourier transformation",
+      "frequency": 5,
+      "relevance_score": 0.4040582726326743,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.590804+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "typical system",
+      "frequency": 2,
+      "relevance_score": 0.39162330905306975,
+      "source_papers": [
+        "local/RAPPER__Ransomware_Prevention_via_Performance_Counters"
+      ],
+      "source_domain": "government_ransomware_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:08:24.574886+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:08:24.597054+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:08:24.597222+00:00",
+    "repository_version": "1.0",
+    "domain": "government_ransomware_defense"
+  }
+}

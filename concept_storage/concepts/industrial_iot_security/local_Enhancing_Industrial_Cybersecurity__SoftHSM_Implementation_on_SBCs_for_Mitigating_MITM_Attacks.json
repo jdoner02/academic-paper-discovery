@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks",
+  "paper_title": "Enhancing Industrial Cybersecurity  SoftHSM Implementation on SBCs for Mitigating MITM Attacks",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 97,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.281025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 64,
+      "relevance_score": 0.9469399978220625,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.279726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 54,
+      "relevance_score": 0.8380431231623653,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.347753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 67,
+      "relevance_score": 0.8296090602199717,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.277384+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 61,
+      "relevance_score": 0.7642709354241533,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.275028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee",
+      "frequency": 55,
+      "relevance_score": 0.6989328106283349,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.265442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aes",
+      "frequency": 49,
+      "relevance_score": 0.6335946858325167,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.280506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decryption",
+      "frequency": 48,
+      "relevance_score": 0.6227049983665468,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.277644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rsa",
+      "frequency": 48,
+      "relevance_score": 0.6227049983665468,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.280765+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "softhsm",
+      "frequency": 45,
+      "relevance_score": 0.5900359359686377,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.268570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state",
+      "frequency": 45,
+      "relevance_score": 0.5900359359686377,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.367678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process 1 input",
+      "frequency": 3,
+      "relevance_score": 0.5826690623979092,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.595608+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "crypto- graphic algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5717793749319394,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.578645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decryption process 1",
+      "frequency": 2,
+      "relevance_score": 0.5717793749319394,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.598067+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s 1",
+      "frequency": 2,
+      "relevance_score": 0.5717793749319394,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.604690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "slot",
+      "frequency": 41,
+      "relevance_score": 0.5464771861047588,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.284438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 18,
+      "relevance_score": 0.4960143743874551,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.535452+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "consumption",
+      "frequency": 36,
+      "relevance_score": 0.4920287487749101,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.313200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process 1",
+      "frequency": 3,
+      "relevance_score": 0.4826690623979092,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.500121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key management system",
+      "frequency": 3,
+      "relevance_score": 0.4826690623979092,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.579486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption process",
+      "frequency": 12,
+      "relevance_score": 0.4806762495916367,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.472949+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing",
+      "frequency": 21,
+      "relevance_score": 0.4786834367853643,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.286514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key management systems",
+      "frequency": 2,
+      "relevance_score": 0.47177937493193944,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.578082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hybrid encryption system",
+      "frequency": 2,
+      "relevance_score": 0.47177937493193944,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.578370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user s system",
+      "frequency": 2,
+      "relevance_score": 0.47177937493193944,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.604094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s system s",
+      "frequency": 2,
+      "relevance_score": 0.47177937493193944,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.604418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 34,
+      "relevance_score": 0.4702493738429707,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.267073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 20 v",
+      "frequency": 6,
+      "relevance_score": 0.4653381247958184,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.573894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1",
+      "frequency": 15,
+      "relevance_score": 0.46334531198954587,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.556223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hsm",
+      "frequency": 33,
+      "relevance_score": 0.459359686377001,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.275549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decryption process",
+      "frequency": 10,
+      "relevance_score": 0.4588968746596973,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.504420+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 5,
+      "relevance_score": 0.45444843732984863,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.620886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory",
+      "frequency": 32,
+      "relevance_score": 0.44846999891103123,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.285736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 40 0",
+      "frequency": 4,
+      "relevance_score": 0.4435587498638789,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.605594+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 074 0",
+      "frequency": 4,
+      "relevance_score": 0.4435587498638789,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.609345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 19 v",
+      "frequency": 4,
+      "relevance_score": 0.4435587498638789,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.612128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 22 v",
+      "frequency": 4,
+      "relevance_score": 0.4435587498638789,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.612680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1 6",
+      "frequency": 4,
+      "relevance_score": 0.4435587498638789,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.625529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 558 seconds",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.573364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mada yogyakarta 55281",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.575267+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yogyakarta 55281 indonesia",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.575542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mem- ory consumption",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.577249+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hard- ware security",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.577514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k k1 k2",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.580800+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k1 k2 k",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.581060+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k2 k n",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.581325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s s1 s2",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.582355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 s2 s",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.582612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s2 s n",
+      "frequency": 3,
+      "relevance_score": 0.43266906239790914,
+      "source_papers": [
+        "local/Enhancing_Industrial_Cybersecurity__SoftHSM_Implementation_on_SBCs_for_Mitigating_MITM_Attacks"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.582869+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:17:21.632856+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:17:21.633042+00:00",
+    "repository_version": "1.0",
+    "domain": "industrial_iot_security"
+  }
+}

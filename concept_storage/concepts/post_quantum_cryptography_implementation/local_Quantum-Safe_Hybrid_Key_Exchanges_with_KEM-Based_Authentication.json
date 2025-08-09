@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication",
+  "paper_title": "Quantum-Safe Hybrid Key Exchanges with KEM-Based Authentication",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 126,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.081604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 63,
+      "relevance_score": 0.7046766743648961,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.093372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "session",
+      "frequency": 83,
+      "relevance_score": 0.6990184757505773,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.131969+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 76,
+      "relevance_score": 0.6484988452655889,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.361148+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum",
+      "frequency": 60,
+      "relevance_score": 0.6330254041570438,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.097883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "muckle",
+      "frequency": 73,
+      "relevance_score": 0.6268475750577367,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.094188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 71,
+      "relevance_score": 0.6124133949191686,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.087311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kem",
+      "frequency": 63,
+      "relevance_score": 0.5546766743648961,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.103221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1 3",
+      "frequency": 15,
+      "relevance_score": 0.5082563510392609,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.878341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 54,
+      "relevance_score": 0.48972286374133955,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.082830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-exchange protocol",
+      "frequency": 3,
+      "relevance_score": 0.47165127020785225,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.681634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret",
+      "frequency": 51,
+      "relevance_score": 0.46807159353348726,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.199881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversary",
+      "frequency": 51,
+      "relevance_score": 0.46807159353348726,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.269699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hake protocol dubbed",
+      "frequency": 2,
+      "relevance_score": 0.4644341801385681,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.874264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol dubbed muckle",
+      "frequency": 2,
+      "relevance_score": 0.4644341801385681,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.874754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ecdh x25519 qkd",
+      "frequency": 8,
+      "relevance_score": 0.4577367205542725,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.930974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "stage",
+      "frequency": 49,
+      "relevance_score": 0.45363741339491914,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.120490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hake framework",
+      "frequency": 12,
+      "relevance_score": 0.4366050808314088,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.597393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "muckle protocol",
+      "frequency": 11,
+      "relevance_score": 0.42938799076212475,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.627397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0-rtt key exchange",
+      "frequency": 4,
+      "relevance_score": 0.42886836027713626,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.878750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-term authentication secrets",
+      "frequency": 4,
+      "relevance_score": 0.42886836027713626,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.907020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technology 2022 available",
+      "frequency": 4,
+      "relevance_score": 0.42886836027713626,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.949849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prf",
+      "frequency": 45,
+      "relevance_score": 0.4247690531177829,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.295561+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-term",
+      "frequency": 31,
+      "relevance_score": 0.42372979214780604,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.276234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum signature scheme",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.879966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-term kem keys",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.880370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sk kgen 1κ",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.886553+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1κ ε κ",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.886958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 κ",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.889081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3 handshake",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.900997+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "κ advind-cca a1",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.909551+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "advind-cca a1 kem",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.909960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a1 kem s",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.910373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "advdual prf a2",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.912421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gs qkd 014",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.930550+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "editors eurocrypt 2023",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.938488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eurocrypt 2023 part",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.939009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2023 part v",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.939444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cham april 2023",
+      "frequency": 3,
+      "relevance_score": 0.4216512702078522,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.940310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3",
+      "frequency": 16,
+      "relevance_score": 0.415473441108545,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.610990+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "muckle utilizes post-quantum",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.875729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-quantum signature schemes",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.879156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bit b 0",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.885742+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b 0 1",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.886146+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kem 1κ prh",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.889492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kem 1κ 1i",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.889903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1κ 1i 1",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.890314+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1i 1 2",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.890727+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kem 1κ ε",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.891134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3 dfgs21",
+      "frequency": 2,
+      "relevance_score": 0.41443418013856814,
+      "source_papers": [
+        "local/Quantum-Safe_Hybrid_Key_Exchanges_with_KEM-Based_Authentication"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:14.892381+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:14.956874+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:14.957055+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

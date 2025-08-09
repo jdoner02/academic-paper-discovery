@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+  "paper_title": "Defensive Dropout for Hardening Deep Neural Networks under Adversarial Attacks",
+  "concepts": [
+    {
+      "text": "dropout",
+      "frequency": 127,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.251049+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural",
+      "frequency": 61,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.251619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial",
+      "frequency": 66,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.252070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rate",
+      "frequency": 82,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.262700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 71,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.262888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0",
+      "frequency": 46,
+      "relevance_score": 0.9812796208530806,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.372418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 58,
+      "relevance_score": 0.9590047393364929,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.257765+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dropout rate",
+      "frequency": 42,
+      "relevance_score": 0.8220379146919432,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.343918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack success rate",
+      "frequency": 34,
+      "relevance_score": 0.8035545023696682,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.395915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train",
+      "frequency": 47,
+      "relevance_score": 0.7960900473933649,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.316442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural network",
+      "frequency": 38,
+      "relevance_score": 0.7627962085308058,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.344715+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defensive dropout",
+      "frequency": 37,
+      "relevance_score": 0.7479857819905213,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.339329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "success rate",
+      "frequency": 36,
+      "relevance_score": 0.7331753554502369,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.344311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 42,
+      "relevance_score": 0.7220379146919431,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.263639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack success",
+      "frequency": 34,
+      "relevance_score": 0.7035545023696683,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.344114+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defense",
+      "frequency": 39,
+      "relevance_score": 0.67760663507109,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.259119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 7",
+      "frequency": 25,
+      "relevance_score": 0.670260663507109,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.371282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defensive",
+      "frequency": 37,
+      "relevance_score": 0.6479857819905214,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.250848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c w",
+      "frequency": 30,
+      "relevance_score": 0.6443127962085309,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.348473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 36,
+      "relevance_score": 0.633175355450237,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.252294+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "success",
+      "frequency": 36,
+      "relevance_score": 0.633175355450237,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.263075+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 3",
+      "frequency": 21,
+      "relevance_score": 0.6110189573459716,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.369733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 20,
+      "relevance_score": 0.5962085308056873,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.352433+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv",
+      "frequency": 33,
+      "relevance_score": 0.5887440758293839,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.328463+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5",
+      "frequency": 19,
+      "relevance_score": 0.5813981042654028,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.370507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c w attack",
+      "frequency": 19,
+      "relevance_score": 0.5813981042654028,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.398174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adversarial examples",
+      "frequency": 24,
+      "relevance_score": 0.5554502369668246,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.341029+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9",
+      "frequency": 17,
+      "relevance_score": 0.5517772511848341,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.372041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 30,
+      "relevance_score": 0.5443127962085308,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.258177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "frequency": 16,
+      "relevance_score": 0.5369668246445498,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.421080+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0 7",
+      "frequency": 9,
+      "relevance_score": 0.5332938388625592,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.409290+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0 3",
+      "frequency": 8,
+      "relevance_score": 0.5184834123222749,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.408143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0 5",
+      "frequency": 8,
+      "relevance_score": 0.5184834123222749,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.408717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "size 3 3",
+      "frequency": 8,
+      "relevance_score": 0.5184834123222749,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.415297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 3 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.404776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 train 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.407398+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0 1",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.407584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 train",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.407770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 train 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.407957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 3 train",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.408329+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 train 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.408523+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5 train",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.408906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 train 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.409096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 7 train",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.409483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 train 0",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.409674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "train 0 9",
+      "frequency": 7,
+      "relevance_score": 0.5036729857819905,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.409861+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 1",
+      "frequency": 6,
+      "relevance_score": 0.4888625592417062,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.403835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 6,
+      "relevance_score": 0.4888625592417062,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.404028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 2",
+      "frequency": 6,
+      "relevance_score": 0.4888625592417062,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.404216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 2 0",
+      "frequency": 6,
+      "relevance_score": 0.4888625592417062,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:41.404403+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:41.424014+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:41.424184+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

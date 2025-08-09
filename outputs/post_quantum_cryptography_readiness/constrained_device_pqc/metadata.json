@@ -1,0 +1,273 @@
+{
+  "processing_metadata": {
+    "processed_at": "2025-08-07T16:24:47.644366+00:00",
+    "processor_version": "1.0.0",
+    "max_papers_limit": 50,
+    "deduplication_enabled": true,
+    "concept_extraction_enabled": true
+  },
+  "strategy_metadata": {
+    "config_name": "post_quantum_cryptography_readiness",
+    "strategy_name": "constrained_device_pqc",
+    "papers_found": 27
+  },
+  "file_structure": {
+    "papers_file": "papers.json",
+    "metadata_file": "metadata.json",
+    "concepts_file": "concepts.json",
+    "hierarchy_file": "concept_hierarchy.json"
+  },
+  "last_download_date": "2025-08-07T16:24:47.644366+00:00",
+  "downloaded_papers": {
+    "title:lightweight fault detection architecture for ntt on fpga": {
+      "title": "Lightweight Fault Detection Architecture for NTT on FPGA",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Lightweight_Fault_Detection_Architecture_for_NTT_on_FPGA.pdf"
+    },
+    "title:aes-rv: hardware-efficient risc-v accelerator with low-latency aes   instruction extension for iot security": {
+      "title": "AES-RV: Hardware-Efficient RISC-V Accelerator with Low-Latency AES   Instruction Extension for IoT Security",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/AES-RV:_Hardware-Efficient_RISC-V_Accelerator_with_Low-Latency_AES___Instruction_Extension_for_IoT_Security.pdf"
+    },
+    "title:complexity of post-quantum cryptography in embedded systems and its   optimization strategies": {
+      "title": "Complexity of Post-Quantum Cryptography in Embedded Systems and Its   Optimization Strategies",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Complexity_of_Post-Quantum_Cryptography_in_Embedded_Systems_and_Its___Optimization_Strategies.pdf"
+    },
+    "title:pq-can: a framework for simulating post-quantum cryptography in embedded   systems": {
+      "title": "PQ-CAN: A Framework for Simulating Post-Quantum Cryptography in Embedded   Systems",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/PQ-CAN:_A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded___Systems.pdf"
+    },
+    "title:fpga-optimized hardware accelerator for fast fourier transform and   singular value decomposition in ai": {
+      "title": "FPGA-Optimized Hardware Accelerator for Fast Fourier Transform and   Singular Value Decomposition in AI",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/FPGA-Optimized_Hardware_Accelerator_for_Fast_Fourier_Transform_and___Singular_Value_Decomposition_in_AI.pdf"
+    },
+    "title:pls-assisted offloading for edge computing-enabled post-quantum security   in resource-constrained devices": {
+      "title": "PLS-Assisted Offloading for Edge Computing-Enabled Post-Quantum Security   in Resource-Constrained Devices",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/PLS-Assisted_Offloading_for_Edge_Computing-Enabled_Post-Quantum_Security___in_Resource-Constrained_Devices.pdf"
+    },
+    "title:lightweight software kernels and hardware extensions for efficient   sparse deep neural networks on microcontrollers": {
+      "title": "Lightweight Software Kernels and Hardware Extensions for Efficient   Sparse Deep Neural Networks on Microcontrollers",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Lightweight_Software_Kernels_and_Hardware_Extensions_for_Efficient___Sparse_Deep_Neural_Networks_on_Microcontrollers.pdf"
+    },
+    "title:rudraksh: a compact and lightweight post-quantum key-encapsulation   mechanism": {
+      "title": "Rudraksh: A compact and lightweight post-quantum key-encapsulation   mechanism",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Rudraksh:_A_compact_and_lightweight_post-quantum_key-encapsulation___mechanism.pdf"
+    },
+    "title:ultra memory-efficient on-fpga training of transformers via   tensor-compressed optimization": {
+      "title": "Ultra Memory-Efficient On-FPGA Training of Transformers via   Tensor-Compressed Optimization",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Ultra_Memory-Efficient_On-FPGA_Training_of_Transformers_via___Tensor-Compressed_Optimization.pdf"
+    },
+    "title:hw/sw implementation of mirith on embedded platforms": {
+      "title": "HW/SW Implementation of MiRitH on Embedded Platforms",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/HW_SW_Implementation_of_MiRitH_on_Embedded_Platforms.pdf"
+    },
+    "title:firefly v2: advancing hardware support for high-performance spiking   neural network with a spatiotemporal fpga accelerator": {
+      "title": "FireFly v2: Advancing Hardware Support for High-Performance Spiking   Neural Network with a Spatiotemporal FPGA Accelerator",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/FireFly_v2:_Advancing_Hardware_Support_for_High-Performance_Spiking___Neural_Network_with_a_Spatiotemporal_FPGA_Accelerator.pdf"
+    },
+    "title:pqc-ha: a framework for prototyping and in-hardware evaluation of   post-quantum cryptography hardware accelerators": {
+      "title": "PQC-HA: A Framework for Prototyping and In-Hardware Evaluation of   Post-Quantum Cryptography Hardware Accelerators",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/PQC-HA:_A_Framework_for_Prototyping_and_In-Hardware_Evaluation_of___Post-Quantum_Cryptography_Hardware_Accelerators.pdf"
+    },
+    "10.1109/TVLSI.2023.3279349": {
+      "title": "FireFly: A High-Throughput Hardware Accelerator for Spiking Neural   Networks with Efficient DSP and Memory Optimization",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/FireFly:_A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural___Networks_with_Efficient_DSP_and_Memory_Optimization.pdf"
+    },
+    "title:fpga hardware acceleration for feature-based relative navigation   applications": {
+      "title": "FPGA Hardware Acceleration for Feature-Based Relative Navigation   Applications",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/FPGA_Hardware_Acceleration_for_Feature-Based_Relative_Navigation___Applications.pdf"
+    },
+    "title:medha: microcoded hardware accelerator for computing on encrypted data": {
+      "title": "Medha: Microcoded Hardware Accelerator for computing on Encrypted Data",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Medha:_Microcoded_Hardware_Accelerator_for_computing_on_Encrypted_Data.pdf"
+    },
+    "title:femto-containers: lightweight virtualization and fault isolation for   small software functions on low-power iot microcontrollers": {
+      "title": "Femto-Containers: Lightweight Virtualization and Fault Isolation For   Small Software Functions on Low-Power IoT Microcontrollers",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Femto-Containers:_Lightweight_Virtualization_and_Fault_Isolation_For___Small_Software_Functions_on_Low-Power_IoT_Microcontrollers.pdf"
+    },
+    "10.1016/j.jpdc.2024.104898": {
+      "title": "Efficient and Lightweight In-memory Computing Architecture for Hardware   Security",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Efficient_and_Lightweight_In-memory_Computing_Architecture_for_Hardware___Security.pdf"
+    },
+    "title:distributed hardware accelerated secure joint computation on the copa   framework": {
+      "title": "Distributed Hardware Accelerated Secure Joint Computation on the COPA   Framework",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Distributed_Hardware_Accelerated_Secure_Joint_Computation_on_the_COPA___Framework.pdf"
+    },
+    "title:computation offloading to hardware accelerators in intel sgx and gramine   library os": {
+      "title": "Computation offloading to hardware accelerators in Intel SGX and Gramine   Library OS",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Computation_offloading_to_hardware_accelerators_in_Intel_SGX_and_Gramine___Library_OS.pdf"
+    },
+    "title:accelerating framework of transformer by hardware design and model   compression co-optimization": {
+      "title": "Accelerating Framework of Transformer by Hardware Design and Model   Compression Co-Optimization",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Accelerating_Framework_of_Transformer_by_Hardware_Design_and_Model___Compression_Co-Optimization.pdf"
+    },
+    "title:structured weight matrices-based hardware accelerators in deep neural   networks: fpgas and asics": {
+      "title": "Structured Weight Matrices-Based Hardware Accelerators in Deep Neural   Networks: FPGAs and ASICs",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Structured_Weight_Matrices-Based_Hardware_Accelerators_in_Deep_Neural___Networks:_FPGAs_and_ASICs.pdf"
+    },
+    "10.1109/ICIINFS.2011.6038056": {
+      "title": "Tile optimization for area in FPGA based hardware acceleration of   peptide identification",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Tile_optimization_for_area_in_FPGA_based_hardware_acceleration_of___peptide_identification.pdf"
+    },
+    "title:accelerating implicit finite difference schemes using a hardware   optimized tridiagonal solver for fpgas": {
+      "title": "Accelerating Implicit Finite Difference Schemes Using a Hardware   Optimized Tridiagonal Solver for FPGAs",
+      "download_date": "2025-08-07T09:31:28.932971+00:00",
+      "file_path": "pdfs/Accelerating_Implicit_Finite_Difference_Schemes_Using_a_Hardware___Optimized_Tridiagonal_Solver_for_FPGAs.pdf"
+    },
+    "title:evaluating post-quantum cryptographic algorithms on resource-constrained   devices": {
+      "title": "Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained   Devices",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Evaluating_Post-Quantum_Cryptographic_Algorithms_on_Resource-Constrained___Devices.pdf"
+    },
+    "title:toward a lightweight, scalable, and parallel secure encryption engine": {
+      "title": "Toward a Lightweight, Scalable, and Parallel Secure Encryption Engine",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Toward_a_Lightweight,_Scalable,_and_Parallel_Secure_Encryption_Engine.pdf"
+    },
+    "title:energy-efficient ntt sampler for kyber benchmarked on fpga": {
+      "title": "Energy-Efficient NTT Sampler for Kyber Benchmarked on FPGA",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Energy-Efficient_NTT_Sampler_for_Kyber_Benchmarked_on_FPGA.pdf"
+    },
+    "title:performance analysis and industry deployment of post-quantum   cryptography algorithms": {
+      "title": "Performance Analysis and Industry Deployment of Post-Quantum   Cryptography Algorithms",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Performance_Analysis_and_Industry_Deployment_of_Post-Quantum___Cryptography_Algorithms.pdf"
+    },
+    "10.3390/electronics13091744": {
+      "title": "SpikeExplorer: hardware-oriented Design Space Exploration for Spiking   Neural Networks on FPGA",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/SpikeExplorer:_hardware-oriented_Design_Space_Exploration_for_Spiking___Neural_Networks_on_FPGA.pdf"
+    },
+    "title:fpga-placement via quantum annealing": {
+      "title": "FPGA-Placement via Quantum Annealing",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/FPGA-Placement_via_Quantum_Annealing.pdf"
+    },
+    "title:onnx-to-hardware design flow for the generation of adaptive   neural-network accelerators on fpgas": {
+      "title": "ONNX-to-Hardware Design Flow for the Generation of Adaptive   Neural-Network Accelerators on FPGAs",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/ONNX-to-Hardware_Design_Flow_for_the_Generation_of_Adaptive___Neural-Network_Accelerators_on_FPGAs.pdf"
+    },
+    "title:flairs: fpga-accelerated inference-resistant & secure federated learning": {
+      "title": "FLAIRS: FPGA-Accelerated Inference-Resistant & Secure Federated Learning",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/FLAIRS:_FPGA-Accelerated_Inference-Resistant_&_Secure_Federated_Learning.pdf"
+    },
+    "title:code-based cryptography in iot: a hw/sw co-design of hqc": {
+      "title": "Code-based Cryptography in IoT: A HW/SW Co-Design of HQC",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Code-based_Cryptography_in_IoT:_A_HW_SW_Co-Design_of_HQC.pdf"
+    },
+    "10.1007/s11227-022-04787-8": {
+      "title": "Optimization of FPGA-based CNN Accelerators Using Metaheuristics",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Optimization_of_FPGA-based_CNN_Accelerators_Using_Metaheuristics.pdf"
+    },
+    "10.1109/ICECS202256217.2022.9970992": {
+      "title": "Hardware-Software Co-Design of BIKE with HLS-Generated Accelerators",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Hardware-Software_Co-Design_of_BIKE_with_HLS-Generated_Accelerators.pdf"
+    },
+    "title:hardware accelerator and neural network co-optimization for   ultra-low-power audio processing devices": {
+      "title": "Hardware Accelerator and Neural Network Co-Optimization for   Ultra-Low-Power Audio Processing Devices",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Hardware_Accelerator_and_Neural_Network_Co-Optimization_for___Ultra-Low-Power_Audio_Processing_Devices.pdf"
+    },
+    "title:near threshold computation of partitioned ring learning with error   (rlwe) post quantum cryptography on reconfigurable architecture": {
+      "title": "Near Threshold Computation of Partitioned Ring Learning With Error   (RLWE) Post Quantum Cryptography on Reconfigurable Architecture",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Near_Threshold_Computation_of_Partitioned_Ring_Learning_With_Error___(RLWE)_Post_Quantum_Cryptography_on_Reconfigurable_Architecture.pdf"
+    },
+    "title:basalisc: programmable hardware accelerator for bgv fully homomorphic   encryption": {
+      "title": "BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic   Encryption",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/BASALISC:_Programmable_Hardware_Accelerator_for_BGV_Fully_Homomorphic___Encryption.pdf"
+    },
+    "title:multi-component optimization and efficient deployment of neural-networks   on resource-constrained iot hardware": {
+      "title": "Multi-Component Optimization and Efficient Deployment of Neural-Networks   on Resource-Constrained IoT Hardware",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Multi-Component_Optimization_and_Efficient_Deployment_of_Neural-Networks___on_Resource-Constrained_IoT_Hardware.pdf"
+    },
+    "title:comefa: compute-in-memory blocks for fpgas": {
+      "title": "CoMeFa: Compute-in-Memory Blocks for FPGAs",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/CoMeFa:_Compute-in-Memory_Blocks_for_FPGAs.pdf"
+    },
+    "title:lw-gcn: a lightweight fpga-based graph convolutional network accelerator": {
+      "title": "LW-GCN: A Lightweight FPGA-based Graph Convolutional Network Accelerator",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/LW-GCN:_A_Lightweight_FPGA-based_Graph_Convolutional_Network_Accelerator.pdf"
+    },
+    "10.1109/IOTM.001.2100043": {
+      "title": "Secure Blockchain Platform for Industrial IoT with Trusted Computing   Hardware",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Secure_Blockchain_Platform_for_Industrial_IoT_with_Trusted_Computing___Hardware.pdf"
+    },
+    "title:an efficient sdn architecture for smart home security accelerated by   fpga": {
+      "title": "An Efficient SDN Architecture for Smart Home Security Accelerated by   FPGA",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/An_Efficient_SDN_Architecture_for_Smart_Home_Security_Accelerated_by___FPGA.pdf"
+    },
+    "title:cure: a security architecture with customizable and resilient enclaves": {
+      "title": "CURE: A Security Architecture with CUstomizable and Resilient Enclaves",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/CURE:_A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves.pdf"
+    },
+    "10.3390/electronics9111953": {
+      "title": "A Systematic Study of Lattice-based NIST PQC Algorithms: from Reference   Implementations to Hardware Accelerators",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/A_Systematic_Study_of_Lattice-based_NIST_PQC_Algorithms:_from_Reference___Implementations_to_Hardware_Accelerators.pdf"
+    },
+    "title:fpga-based hardware accelerator of homomorphic encryption for efficient   federated learning": {
+      "title": "FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient   Federated Learning",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/FPGA-Based_Hardware_Accelerator_of_Homomorphic_Encryption_for_Efficient___Federated_Learning.pdf"
+    },
+    "10.1364/OE.391050": {
+      "title": "FPGA-based Neural Network Accelerator for Millimeter-Wave   Radio-over-Fiber Systems",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/FPGA-based_Neural_Network_Accelerator_for_Millimeter-Wave___Radio-over-Fiber_Systems.pdf"
+    },
+    "title:algorithm-hardware co-design for deformable convolution": {
+      "title": "Algorithm-hardware Co-design for Deformable Convolution",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Algorithm-hardware_Co-design_for_Deformable_Convolution.pdf"
+    },
+    "title:optimizing cnn-based hyperspectral image classification on fpgas": {
+      "title": "Optimizing CNN-based Hyperspectral Image Classification on FPGAs",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Optimizing_CNN-based_Hyperspectral_Image_Classification_on_FPGAs.pdf"
+    },
+    "title:towards budget-driven hardware optimization for deep convolutional   neural networks using stochastic computing": {
+      "title": "Towards Budget-Driven Hardware Optimization for Deep Convolutional   Neural Networks using Stochastic Computing",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Towards_Budget-Driven_Hardware_Optimization_for_Deep_Convolutional___Neural_Networks_using_Stochastic_Computing.pdf"
+    },
+    "title:compiling deep learning models for custom hardware accelerators": {
+      "title": "Compiling Deep Learning Models for Custom Hardware Accelerators",
+      "download_date": "2025-08-07T16:24:47.644366+00:00",
+      "file_path": "pdfs/Compiling_Deep_Learning_Models_for_Custom_Hardware_Accelerators.pdf"
+    }
+  }
+}

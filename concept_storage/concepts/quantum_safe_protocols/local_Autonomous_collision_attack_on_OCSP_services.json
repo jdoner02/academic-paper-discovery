@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Autonomous_collision_attack_on_OCSP_services",
+  "paper_title": "Autonomous collision attack on OCSP services",
+  "concepts": [
+    {
+      "text": "ocsp",
+      "frequency": 131,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.156135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate",
+      "frequency": 131,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.159168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "responder",
+      "frequency": 90,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.174950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "status",
+      "frequency": 58,
+      "relevance_score": 0.7630086877000457,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.159594+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 56,
+      "relevance_score": 0.7401463191586648,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.155915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 29,
+      "relevance_score": 0.5815043438500229,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.160228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 42,
+      "relevance_score": 0.5801097393689987,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.261492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ocsp responder",
+      "frequency": 33,
+      "relevance_score": 0.5772290809327847,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.324491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "higher -level protocols",
+      "frequency": 2,
+      "relevance_score": 0.572862368541381,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.406628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "responses",
+      "frequency": 41,
+      "relevance_score": 0.5686785550983082,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.206065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "retrieved 2016 -07-03",
+      "frequency": 12,
+      "relevance_score": 0.5371742112482852,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.417411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nonce",
+      "frequency": 36,
+      "relevance_score": 0.511522633744856,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.209650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate status protocol",
+      "frequency": 5,
+      "relevance_score": 0.5071559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.390820+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "status protocol ocsp",
+      "frequency": 5,
+      "relevance_score": 0.5071559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.391040+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 35,
+      "relevance_score": 0.5000914494741655,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.170205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016",
+      "frequency": 25,
+      "relevance_score": 0.48577960676726106,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.157691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "responder s",
+      "frequency": 24,
+      "relevance_score": 0.4743484224965706,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.325618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-level protocols",
+      "frequency": 2,
+      "relevance_score": 0.47286236854138086,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.353714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 -07-03 etsi",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.417954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-07-03 etsi en",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.418178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "etsi en 319",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.418489+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-1 v1 1",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.418711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v1 1 1",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.419021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 2016",
+      "frequency": 5,
+      "relevance_score": 0.4571559213534522,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.419246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "retrieved 2016",
+      "frequency": 13,
+      "relevance_score": 0.4486053955189757,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.384682+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signatures part 1",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.419783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2016 -04",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.420883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 -04 electronic",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.421200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-04 electronic signatures",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.421425+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "part 1 building",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.421739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 retrieved 2016",
+      "frequency": 4,
+      "relevance_score": 0.4457247370827617,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.423034+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "request",
+      "frequency": 30,
+      "relevance_score": 0.44293552812071335,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.175289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signatures",
+      "frequency": 30,
+      "relevance_score": 0.44293552812071335,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.182103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "serial",
+      "frequency": 30,
+      "relevance_score": 0.44293552812071335,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.208170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate status",
+      "frequency": 21,
+      "relevance_score": 0.44005486968449936,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.320717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 -07-03",
+      "frequency": 12,
+      "relevance_score": 0.43717421124828526,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.384900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "version default v1",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.395152+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non -existent certificate",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.402786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non -existent serial",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.416035+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "responder -side nonce",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.416879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 building blocks",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.421964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signatures april 2016",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.422499+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "april 2016 retrieved",
+      "frequency": 3,
+      "relevance_score": 0.43429355281207127,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.422811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response",
+      "frequency": 29,
+      "relevance_score": 0.4315043438500229,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.179395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-to-date certificate status",
+      "frequency": 2,
+      "relevance_score": 0.42286236854138093,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.392363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "default v1 responderid",
+      "frequency": 2,
+      "relevance_score": 0.42286236854138093,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.395469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v1 responderid responderid",
+      "frequency": 2,
+      "relevance_score": 0.42286236854138093,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.395693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ca user 1",
+      "frequency": 2,
+      "relevance_score": 0.42286236854138093,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.403320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user 1 user",
+      "frequency": 2,
+      "relevance_score": 0.42286236854138093,
+      "source_papers": [
+        "local/Autonomous_collision_attack_on_OCSP_services"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:06.403632+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:06.423413+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:06.423576+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:10:38.394937+00:00",
+    "strategy_name": "Public Sector Cybersecurity Resource Optimization",
+    "total_papers": 30,
+    "download_directory": "outputs/government_public_sector_cybersecurity/public_sector_resource_optimization/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Supply Chain Network Security Investment Strategies Based on Nonlinear   Budget Constraints: The Moderating Roles of Market Share and Attack Risk",
+      "authors": [
+        "Jiajie Cheng",
+        "Jiaxin Wang",
+        "Caijiao Li",
+        "Luxiang Zhang",
+        "Yusheng Fan",
+        "Yujie Bao",
+        "Wen Zhou"
+      ],
+      "abstract": "In the context of the rapid development of digital supply chain networks, dealing with the increasing cybersecurity threats and formulating effective security investment strategies to defend against cyberattack risks are the core issues in supply chain management. Cybersecurity investment decision-making is a key strategic task in enterprise supply chain manage-ment. Traditional game theory models and linear programming methods make it challenging to deal with complex problems such as multi-party par-ticipation in the supply chain, resource constraints, and risk uncertainty, re-sulting in enterprises facing high risks and uncertainties in the field of cy-bersecurity. To effectively meet this challenge, this study proposes a nonlin-ear budget-constrained cybersecurity investment optimization model based on variational inequality and projection shrinkage algorithm. This method simulates the impact of market competition on security investment by intro-ducing market share variables, combining variational inequality and projec-tion shrinkage algorithm to solve the model, and analyzing the effect of dif-ferent variables such as budget constraints, cyberattack losses, and market share on supply chain network security. In numerical analysis, the model achieved high cybersecurity levels of 0.96 and 0.95 in the experimental sce-narios of two retailers and two demand markets, respectively, and the budget constraint analysis revealed the profound impact of budget constraints on cybersecurity investment. Through numerical experiments and comparative analysis, the effectiveness and operability of this method in improving sup-ply chain network security are verified.",
+      "publication_date": "2025-02-11T11:37:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.10448v1"
+    },
+    {
+      "title": "Data Driven Approaches to Cybersecurity Governance for Board   Decision-Making -- A Systematic Review",
+      "authors": [
+        "Anita Modi",
+        "Ievgeniia Kuzminykh",
+        "Bogdan Ghita"
+      ],
+      "abstract": "Cybersecurity governance influences the quality of strategic decision-making to ensure cyber risks are managed effectively. Board of Directors are the decisions-makers held accountable for managing this risk; however, they lack adequate and efficient information necessary for making such decisions. In addition to the myriad of challenges they face, they are often insufficiently versed in the technology or cybersecurity terminology or not provided with the correct tools to support them to make sound decisions to govern cybersecurity effectively. A different approach is needed to ensure BoDs are clear on the approach the business is taking to build a cyber resilient organization. This systematic literature review investigates the existing risk measurement instruments, cybersecurity metrics, and associated models for supporting BoDs. We identified seven conceptual themes through literature analysis that form the basis of this study's main contribution. The findings showed that, although sophisticated cybersecurity tools exist and are developing, there is limited information for Board of Directors to support them in terms of metrics and models to govern cybersecurity in a language they understand. The review also provides some recommendations on theories and models that can be further investigated to provide support to Board of Directors.",
+      "publication_date": "2023-11-29T12:14:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2311.17578v1"
+    },
+    {
+      "title": "Fortify Your Defenses: Strategic Budget Allocation to Enhance Power Grid   Cybersecurity",
+      "authors": [
+        "Rounak Meyur",
+        "Sumit Purohit",
+        "Braden K. Webb"
+      ],
+      "abstract": "The abundance of cyber-physical components in modern day power grid with their diverse hardware and software vulnerabilities has made it difficult to protect them from advanced persistent threats (APTs). An attack graph depicting the propagation of potential cyber-attack sequences from the initial access point to the end objective is vital to identify critical weaknesses of any cyber-physical system. A cyber security personnel can accordingly plan preventive mitigation measures for the identified weaknesses addressing the cyber-attack sequences. However, limitations on available cybersecurity budget restrict the choice of mitigation measures. We address this aspect through our framework, which solves the following problem: given potential cyber-attack sequences for a cyber-physical component in the power grid, find the optimal manner to allocate an available budget to implement necessary preventive mitigation measures. We formulate the problem as a mixed integer linear program (MILP) to identify the optimal budget partition and set of mitigation measures which minimize the vulnerability of cyber-physical components to potential attack sequences. We assume that the allocation of budget affects the efficacy of the mitigation measures. We show how altering the budget allocation for tasks such as asset management, cybersecurity infrastructure improvement, incident response planning and employee training affects the choice of the optimal set of preventive mitigation measures and modifies the associated cybersecurity risk. The proposed framework can be used by cyber policymakers and system owners to allocate optimal budgets for various tasks required to improve the overall security of a cyber-physical system.",
+      "publication_date": "2023-12-20T23:01:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2312.13476v1"
+    },
+    {
+      "title": "Optimizing Resource Allocation to Mitigate the Risk of Disruptive Events   in Homeland Security and Emergency Management",
+      "authors": [
+        "Parastoo Akbari",
+        "Cameron A. MacKenzie"
+      ],
+      "abstract": "Homeland security in the United States faces a daunting task due to the multiple threats and hazards that can occur. Natural disasters, human-caused incidents such as terrorist attacks, and technological failures can result in significant damage, fatalities, injuries, and economic losses. The increasing frequency and severity of disruptive events in the United States highlight the urgent need for effectively allocating resources in homeland security and emergency preparedness. This article presents an optimization-based decision support model to help homeland security policymakers identify and select projects that best mitigate the risk of threats and hazards while satisfying a budget constraint. The model incorporates multiple hazards, probabilistic risk assessments, and multidimensional consequences and integrates historical data and publicly available sources to evaluate and select the most effective risk mitigation projects and optimize resource allocation across various disaster scenarios. We apply this model to the state of Iowa, considering 16 hazards, six types of consequences, and 52 mitigation projects. Our results demonstrate how different budget levels influence project selection, emphasizing cost-effective solutions that maximize risk reduction. Sensitivity analysis examines the robustness of project selection under varying effectiveness assumptions and consequence estimations. The findings offer critical insights for policymakers in homeland security and emergency management and provide a basis for more efficient resource allocation and improved disaster resilience.",
+      "publication_date": "2025-04-03T14:49:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2504.02652v1"
+    },
+    {
+      "title": "QBER: Quantifying Cyber Risks for Strategic Decisions",
+      "authors": [
+        "Muriel Figueredo Franco",
+        "Aiatur Rahaman Mullick",
+        "Santosh Jha"
+      ],
+      "abstract": "Quantifying cyber risks is essential for organizations to grasp their vulnerability to threats and make informed decisions. However, current approaches still need to work on blending economic viewpoints to provide insightful analysis. To bridge this gap, we introduce QBER approach to offer decision-makers measurable risk metrics. The QBER evaluates losses from cyberattacks, performs detailed risk analyses based on existing cybersecurity measures, and provides thorough cost assessments. Our contributions involve outlining cyberattack probabilities and risks, identifying Technical, Economic, and Legal (TEL) impacts, creating a model to gauge impacts, suggesting risk mitigation strategies, and examining trends and challenges in implementing widespread Cyber Risk Quantification (CRQ). The QBER approach serves as a guided approach for organizations to assess risks and strategically invest in cybersecurity.",
+      "publication_date": "2024-05-06T14:25:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.03513v1"
+    },
+    {
+      "title": "Co-evolutionary Dynamics of Attack and Defence in Cybersecurity",
+      "authors": [
+        "Adeela Bashir",
+        "Zia Ush Shamszaman",
+        "Zhao Song",
+        "The Anh Han"
+      ],
+      "abstract": "In the evolving digital landscape, it is crucial to study the dynamics of cyberattacks and defences. This study uses an Evolutionary Game Theory (EGT) framework to investigate the evolutionary dynamics of attacks and defences in cyberspace. We develop a two-population asymmetric game between attacker and defender to capture the essential factors of costs, potential benefits, and the probability of successful defences. Through mathematical analysis and numerical simulations, we find that systems with high defence intensities show stability with minimal attack frequencies, whereas low-defence environments show instability, and are vulnerable to attacks. Furthermore, we find five equilibria, where the strategy pair always defend and attack emerged as the most likely stable state as cyber domain is characterised by a continuous battle between defenders and attackers. Our theoretical findings align with real-world data from past cyber incidents, demonstrating the interdisciplinary impact, such as fraud detection, risk management and cybersecurity decision-making. Overall, our analysis suggests that adaptive cybersecurity strategies based on EGT can improve resource allocation, enhance system resilience, and reduce the overall risk of cyberattacks. By incorporating real-world data, this study demonstrates the applicability of EGT in addressing the evolving nature of cyber threats and the need for secure digital ecosystems through strategic planning and proactive defence measures.",
+      "publication_date": "2025-05-25T22:11:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2505.19338v1"
+    },
+    {
+      "title": "Prioritizing Risk Factors in Media Entrepreneurship on Social Networks:   Hybrid Fuzzy Z-Number Approaches for Strategic Budget Allocation and Risk   Management in Advertising Construction Campaigns",
+      "authors": [
+        "Ahmad Gholizadeh Lonbar",
+        "Hamidreza Hasanzadeh",
+        "Fahimeh Asgari",
+        "Elham Khamoushi",
+        "Hajar Kazemi Naeini",
+        "Roya Shomali",
+        "Saeed Asadi"
+      ],
+      "abstract": "The proliferation of complex online media has accelerated the process of ideology formation, influenced by stakeholders through advertising channels. The media channels, which vary in cost and effectiveness, present a dilemma in prioritizing optimal fund allocation. There are technical challenges in describing the optimal budget allocation between channels over time, which involves defining the finite vector structure of controls on the chart. To enhance marketing productivity, it's crucial to determine how to distribute a budget across all channels to maximize business outcomes like revenue and ROI. Therefore, the strategy for media budget allocation is primarily an exercise focused on cost and achieving goals, by identifying a specific framework for a media program. Numerous researchers optimize the achievement and frequency of media selection models to aid superior planning decisions amid complexity and vast information availability. In this study, we present a planning model using the media mix model for advertising construction campaigns. Additionally, a decision-making strategy centered on FMEA identifies and prioritizes financial risk factors of the media system in companies. Despite some limitations, this research proposes a decision-making approach based on Z-number theory. To address the drawbacks of the RPN score, the suggested decision-making methodology integrates Z-SWARA and Z-WASPAS techniques with the FMEA method.",
+      "publication_date": "2024-09-13T05:10:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2409.18976v2"
+    },
+    {
+      "title": "Optimizing Portfolios with Pakistan-Exposed ETFs: Risk and Performance   Insight",
+      "authors": [
+        "Ali Jaffri",
+        "Abootaleb Shirvani",
+        "Ayush Jha",
+        "Svetlozar T. Rachev",
+        "Frank J. Fabozzi"
+      ],
+      "abstract": "This study examines the investment landscape of Pakistan as an emerging and frontier market, focusing on implications for international investors, particularly those in the United States, through exchange-traded funds (ETFs) with exposure to Pakistan. The analysis encompasses 30 ETFs with varying degrees of exposure to Pakistan, covering the period from January 1, 2016, to February 2024. This research highlights the potential benefits and risks associated with investing in these ETFs, emphasizing the importance of thorough risk assessments and portfolio performance comparisons. By providing descriptive statistics and performance metrics based on historical optimization, this paper aims to equip investors with the necessary insights to make informed decisions when optimizing their portfolios with Pakistan-exposed ETFs. The second part of the paper introduces and assesses dynamic optimization methodologies. This section is designed to explore the adaptability and performance metrics of dynamic optimization techniques in comparison with conventional historical optimization methods. By integrating dynamic optimization into the investigation, this research aims to offer insights into the efficacy of these contrasting methodologies in the context of Pakistan-exposed ETFs. The findings underscore the significance of Pakistan's market dynamics within the broader context of emerging markets, offering a pathway for diversification and potential growth in investment strategies.",
+      "publication_date": "2025-01-23T18:24:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2501.13901v1"
+    },
+    {
+      "title": "An Adversarial Risk Analysis Framework for Cybersecurity",
+      "authors": [
+        "David Rios Insua",
+        "Aitor Couce Vieira",
+        "Jose Antonio Rubio",
+        "Wolter Pieters",
+        "Katsiaryna Labunets",
+        "Daniel Garcia Rasines"
+      ],
+      "abstract": "Cyber threats affect all kinds of organisations. Risk analysis is an essential methodology for cybersecurity as it allows organisations to deal with the cyber threats potentially affecting them, prioritise the defence of their assets and decide what security controls should be implemented. Many risk analysis methods are present in cybersecurity models, compliance frameworks and international standards. However, most of them employ risk matrices, which suffer shortcomings that may lead to suboptimal resource allocations. We propose a comprehensive framework for cybersecurity risk analysis, covering the presence of both adversarial and non-intentional threats and the use of insurance as part of the security portfolio. A case study illustrating the proposed framework is presented, serving as template for more complex cases.",
+      "publication_date": "2019-03-18T21:13:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1903.07727v1"
+    },
+    {
+      "title": "Minimal Investment Risk of Portfolio Optimization Problem with Budget   and Investment Concentration Constraints",
+      "authors": [
+        "Takashi Shinzato"
+      ],
+      "abstract": "In the present paper, the minimal investment risk for a portfolio optimization problem with imposed budget and investment concentration constraints is considered using replica analysis. Since the minimal investment risk is influenced by the investment concentration constraint (as well as the budget constraint), it is intuitive that the minimal investment risk for the problem with an investment concentration constraint be larger than that without the constraint (that is, with only the budget constraint). Moreover, a numerical experiment shows the effectiveness of our proposed analysis.",
+      "publication_date": "2016-05-22T19:56:05+00:00",
+      "doi": "10.1088/1742-5468/aa56a0",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "1605.06845v1"
+    },
+    {
+      "title": "Integrating Cybersecurity Frameworks into IT Security: A Comprehensive   Analysis of Threat Mitigation Strategies and Adaptive Technologies",
+      "authors": [
+        "Amit Lokare",
+        "Shripad Bankar",
+        "Padmajeet Mhaske"
+      ],
+      "abstract": "The cybersecurity threat landscape is constantly actively making it imperative to develop sound frameworks to protect the IT structures. Based on this introduction, this paper aims to discuss the application of cybersecurity frameworks into the IT security with focus placed on the role of such frameworks in addressing the changing nature of cybersecurity threats. It explores widely used models, including the NIST Cybersecurity Framework, Zero Trust Architecture, and the ISO/IEC 27001, and how they apply to industries including finance, healthcare and government. The discussion also singles out such technologies as Artificial Intelligence (AI) and Machine Learning (ML) as the core for real-time threat detection and response mechanisms. As these integration challenges demonstrate, the study provides tangible and proven approaches to tackle framework implementation issues such as legitimate security issues, limited availability of funds and resources, and compliance with legal requirements. By capturing current trends and exposures, the findings promote strong, portfolio-based and risk-appropriate security approaches adjusted for organizational goals and capable to prevent advanced cyber threats.",
+      "publication_date": "2025-02-02T03:38:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.00651v1"
+    },
+    {
+      "title": "Interdicting attack plans with boundedly-rational players and multiple   attackers: An adversarial risk analysis approach",
+      "authors": [
+        "Eric B. DuBois",
+        "Ashley Peper",
+        "Laura A. Albert"
+      ],
+      "abstract": "Cybersecurity planning supports the selection of and implementation of security controls in resource-constrained settings to manage risk. Doing so requires considering adaptive adversaries with different levels of strategic sophistication in modeling efforts to support risk management. However, most models in the literature only consider rational or non-strategic adversaries. Therefore, we study how to inform defensive decision-making to mitigate the risk from boundedly rational players, with a particular focus on making integrated, interdependent planning decisions. To achieve this goal, we introduce a modeling framework for selecting a portfolio of security mitigations that interdict adversarial attack plans that uses a structured approach for risk analysis. Our approach adapts adversarial risk analysis and cognitive hierarchy theory to consider a maximum reliability path interdiction problem with a single defender and multiple attackers who have different goals and levels of strategic sophistication. Instead of enumerating all possible attacks and defenses, we introduce a solution technique based on integer programming and approximation algorithms to iteratively solve the defender's and attackers' problems. A case study illustrates the proposed models and provides insights into defensive planning.",
+      "publication_date": "2023-02-03T19:51:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "2302.01975v1"
+    },
+    {
+      "title": "End-to-End Risk Budgeting Portfolio Optimization with Neural Networks",
+      "authors": [
+        "Ayse Sinem Uysal",
+        "Xiaoyue Li",
+        "John M. Mulvey"
+      ],
+      "abstract": "Portfolio optimization has been a central problem in finance, often approached with two steps: calibrating the parameters and then solving an optimization problem. Yet, the two-step procedure sometimes encounter the \"error maximization\" problem where inaccuracy in parameter estimation translates to unwise allocation decisions. In this paper, we combine the prediction and optimization tasks in a single feed-forward neural network and implement an end-to-end approach, where we learn the portfolio allocation directly from the input features. Two end-to-end portfolio constructions are included: a model-free network and a model-based network. The model-free approach is seen as a black-box, whereas in the model-based approach, we learn the optimal risk contribution on the assets and solve the allocation with an implicit optimization layer embedded in the neural network. The model-based end-to-end framework provides robust performance in the out-of-sample (2017-2021) tests when maximizing Sharpe ratio is used as the training objective function, achieving a Sharpe ratio of 1.16 when nominal risk parity yields 0.79 and equal-weight fix-mix yields 0.83. Noticing that risk-based portfolios can be sensitive to the underlying asset universe, we develop an asset selection mechanism embedded in the neural network with stochastic gates, in order to prevent the portfolio being hurt by the low-volatility assets with low returns. The gated end-to-end with filter outperforms the nominal risk-parity benchmarks with naive filtering mechanism, boosting the Sharpe ratio of the out-of-sample period (2017-2021) to 1.24 in the market data.",
+      "publication_date": "2021-07-09T19:13:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2107.04636v1"
+    },
+    {
+      "title": "Managing Portfolio for Maximizing Alpha and Minimizing Beta",
+      "authors": [
+        "Soumyadip Sarkar"
+      ],
+      "abstract": "Portfolio management is an essential component of investment strategy that aims to maximize returns while minimizing risk. This paper explores several portfolio management strategies, including asset allocation, diversification, active management, and risk management, and their importance in optimizing portfolio performance. These strategies are examined individually and in combination to demonstrate how they can help investors maximize alpha and minimize beta. Asset allocation is the process of dividing a portfolio among different asset classes to achieve the desired level of risk and return. Diversification involves spreading investments across different securities and sectors to minimize the impact of individual security or sector-specific risks. Active management involves security selection and risk management techniques to generate excess returns while minimizing losses. Risk management strategies, such as stop-loss orders and options strategies, aim to minimize losses in adverse market conditions. The importance of combining these strategies for optimizing portfolio performance is emphasized in this paper. The proper implementation of these strategies can help investors achieve their investment goals over the long-term, while minimizing exposure to risks. A call to action for investors to utilize portfolio management strategies to maximize alpha and minimize beta is also provided.",
+      "publication_date": "2023-04-01T06:54:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2304.05900v1"
+    },
+    {
+      "title": "Multi-period Mean-Buffered Probability of Exceedance in Defined   Contribution Portfolio Optimization",
+      "authors": [
+        "Duy-Minh Dang",
+        "Chang Chen"
+      ],
+      "abstract": "We investigate multi-period mean-risk portfolio optimization for long-horizon Defined Contribution plans, focusing on buffered Probability of Exceedance (bPoE), a more intuitive, dollar-based alternative to Conditional Value-at-Risk (CVaR). We formulate both pre-commitment and time-consistent Mean-bPoE and Mean-CVaR portfolio optimization problems under realistic investment constraints (e.g., no leverage, no short selling) and jump-diffusion dynamics. These formulations are naturally framed as bilevel optimization problems, with an outer search over the shortfall threshold and an inner optimization over rebalancing decisions. We establish an equivalence between the pre-commitment formulations through a one-to-one correspondence of their scalarization optimal sets, while showing that no such equivalence holds in the time-consistent setting. We develop provably convergent numerical schemes for the value functions associated with both pre-commitment and time-consistent formulations of these mean-risk control problems.   Using nearly a century of market data, we find that time-consistent Mean-bPoE strategies closely resemble their pre-commitment counterparts. In particular, they maintain alignment with investors' preferences for a minimum acceptable terminal wealth level-unlike time-consistent Mean-CVaR, which often leads to counterintuitive control behavior. We further show that bPoE, as a strictly tail-oriented measure, prioritizes guarding against catastrophic shortfalls while allowing meaningful upside exposure, making it especially appealing for long-horizon wealth security. These findings highlight bPoE's practical advantages for Defined Contribution investment planning.",
+      "publication_date": "2025-05-28T08:47:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2505.22121v2"
+    },
+    {
+      "title": "An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis-Based   Cloud Cybersecurity",
+      "authors": [
+        "Deepika Saxena",
+        "Ishu Gupta",
+        "Rishabh Gupta",
+        "Ashutosh Kumar Singh",
+        "Xiaoqing Wen"
+      ],
+      "abstract": "Cloud virtualization technology, ingrained with physical resource sharing, prompts cybersecurity threats on users' virtual machines (VM)s due to the presence of inevitable vulnerabilities on the offsite servers. Contrary to the existing works which concentrated on reducing resource sharing and encryption and decryption of data before transfer for improving cybersecurity which raises computational cost overhead, the proposed model operates diversely for efficiently serving the same purpose. This paper proposes a novel Multiple Risks Analysis based VM Threat Prediction Model (MR-TPM) to secure computational data and minimize adversary breaches by proactively estimating the VMs threats. It considers multiple cybersecurity risk factors associated with the configuration and management of VMs, along with analysis of users' behaviour. All these threat factors are quantified for the generation of respective risk score values and fed as input into a machine learning based classifier to estimate the probability of threat for each VM. The performance of MR-TPM is evaluated using benchmark Google Cluster and OpenNebula VM threat traces. The experimental results demonstrate that the proposed model efficiently computes the cybersecurity risks and learns the VM threat patterns from historical and live data samples. The deployment of MR-TPM with existing VM allocation policies reduces cybersecurity threats up to 88.9%.",
+      "publication_date": "2023-08-18T14:18:45+00:00",
+      "doi": "10.1109/TSMC.2023.3288081",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2308.09578v1"
+    },
+    {
+      "title": "Deep Declarative Risk Budgeting Portfolios",
+      "authors": [
+        "Manuel Parra-Diaz",
+        "Carlos Castro-Iragorri"
+      ],
+      "abstract": "Recent advances in deep learning have spurred the development of end-to-end frameworks for portfolio optimization that utilize implicit layers. However, many such implementations are highly sensitive to neural network initialization, undermining performance consistency. This research introduces a robust end-to-end framework tailored for risk budgeting portfolios that effectively reduces sensitivity to initialization. Importantly, this enhanced stability does not compromise portfolio performance, as our framework consistently outperforms the risk parity benchmark.",
+      "publication_date": "2025-04-28T16:53:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2504.19980v1"
+    },
+    {
+      "title": "Mapping LLM Security Landscapes: A Comprehensive Stakeholder Risk   Assessment Proposal",
+      "authors": [
+        "Rahul Pankajakshan",
+        "Sumitra Biswal",
+        "Yuvaraj Govindarajulu",
+        "Gilad Gressel"
+      ],
+      "abstract": "The rapid integration of Large Language Models (LLMs) across diverse sectors has marked a transformative era, showcasing remarkable capabilities in text generation and problem-solving tasks. However, this technological advancement is accompanied by significant risks and vulnerabilities. Despite ongoing security enhancements, attackers persistently exploit these weaknesses, casting doubts on the overall trustworthiness of LLMs. Compounding the issue, organisations are deploying LLM-integrated systems without understanding the severity of potential consequences. Existing studies by OWASP and MITRE offer a general overview of threats and vulnerabilities but lack a method for directly and succinctly analysing the risks for security practitioners, developers, and key decision-makers who are working with this novel technology. To address this gap, we propose a risk assessment process using tools like the OWASP risk rating methodology which is used for traditional systems. We conduct scenario analysis to identify potential threat agents and map the dependent system components against vulnerability factors. Through this analysis, we assess the likelihood of a cyberattack. Subsequently, we conduct a thorough impact analysis to derive a comprehensive threat matrix. We also map threats against three key stakeholder groups: developers engaged in model fine-tuning, application developers utilizing third-party APIs, and end users. The proposed threat matrix provides a holistic evaluation of LLM-related risks, enabling stakeholders to make informed decisions for effective mitigation strategies. Our outlined process serves as an actionable and comprehensive tool for security practitioners, offering insights for resource management and enhancing the overall system security.",
+      "publication_date": "2024-03-20T05:17:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.13309v1"
+    },
+    {
+      "title": "Mirror Descent Algorithms for Risk Budgeting Portfolios",
+      "authors": [
+        "Martin Arnaiz Iglesias",
+        "Adil Rengim Cetingoz",
+        "Noufel Frikha"
+      ],
+      "abstract": "This paper introduces and examines numerical approximation schemes for computing risk budgeting portfolios associated to positive homogeneous and sub-additive risk measures. We employ Mirror Descent algorithms to determine the optimal risk budgeting weights in both deterministic and stochastic settings, establishing convergence along with an explicit non-asymptotic quantitative rate for the averaged algorithm. A comprehensive numerical analysis follows, illustrating our theoretical findings across various risk measures -- including standard deviation, Expected Shortfall, deviation measures, and Variantiles -- and comparing the performance with that of the standard stochastic gradient descent method recently proposed in the literature.",
+      "publication_date": "2024-11-19T08:26:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2411.12323v1"
+    },
+    {
+      "title": "Learning Risk Preferences from Investment Portfolios Using Inverse   Optimization",
+      "authors": [
+        "Shi Yu",
+        "Haoran Wang",
+        "Chaosheng Dong"
+      ],
+      "abstract": "The fundamental principle in Modern Portfolio Theory (MPT) is based on the quantification of the portfolio's risk related to performance. Although MPT has made huge impacts on the investment world and prompted the success and prevalence of passive investing, it still has shortcomings in real-world applications. One of the main challenges is that the level of risk an investor can endure, known as \\emph{risk-preference}, is a subjective choice that is tightly related to psychology and behavioral science in decision making. This paper presents a novel approach of measuring risk preference from existing portfolios using inverse optimization on the mean-variance portfolio allocation framework. Our approach allows the learner to continuously estimate real-time risk preferences using concurrent observed portfolios and market price data. We demonstrate our methods on real market data that consists of 20 years of asset pricing and 10 years of mutual fund portfolio holdings. Moreover, the quantified risk preference parameters are validated with two well-known risk measurements currently applied in the field. The proposed methods could lead to practical and fruitful innovations in automated/personalized portfolio management, such as Robo-advising, to augment financial advisors' decision intelligence in a long-term investment horizon.",
+      "publication_date": "2020-10-04T21:29:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2010.01687v3"
+    },
+    {
+      "title": "Uncertainty in Cyber Security Investments",
+      "authors": [
+        "Andrew Fielder",
+        "Sandra Konig",
+        "Emmanouil Panaousis",
+        "Stefan Schauer",
+        "Stefan Rass"
+      ],
+      "abstract": "When undertaking cyber security risk assessments, we must assign numeric values to metrics to compute the final expected loss that represents the risk that an organization is exposed to due to cyber threats. Even if risk assessment is motivated from real-world observations and data, there is always a high chance of assigning inaccurate values due to different uncertainties involved (e.g., evolving threat landscape, human errors) and the natural difficulty of quantifying risk per se. Our previous work has proposed a model and a software tool that empowers organizations to compute optimal cyber security strategies given their financial constraints, i.e., available cyber security budget. We have also introduced a general game-theoretic model with uncertain payoffs (probability-distribution-valued payoffs) showing that such uncertainty can be incorporated in the game-theoretic model by allowing payoffs to be random. In this paper, we combine our aforesaid works and we conclude that although uncertainties in cyber security risk assessment lead, on average, to different cyber security strategies, they do not play significant role into the final expected loss of the organization when using our model and methodology to derive this strategies. We show that our tool is capable of providing effective decision support. To the best of our knowledge this is the first paper that investigates how uncertainties on various parameters affect cyber security investments.",
+      "publication_date": "2017-12-16T02:05:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1712.05893v1"
+    },
+    {
+      "title": "Portfolio problems with two levels decision-makers: Optimal portfolio   selection with pricing decisions on transaction costs. Extended version and   complete risk profiles analysis",
+      "authors": [
+        "Marina Leal",
+        "Diego Ponce",
+        "Justo Puerto"
+      ],
+      "abstract": "This paper presents novel bilevel leader-follower portfolio selection problems in which the financial intermediary becomes a decision-maker. This financial intermediary decides on the unit transaction costs for investing in some securities, maximizing its benefits, and the investor chooses his optimal portfolio, minimizing risk and ensuring a given expected return. Hence, transaction costs become decision variables in the portfolio problem, and two levels of decision-makers are incorporated: the financial intermediary and the investor. These situations give rise to general Nonlinear Programming formulations in both levels of the decision process. We present different bilevel versions of the problem: financial intermediary-leader, investor-leader, and social welfare; besides, their properties are analyzed. Moreover, we develop Mixed Integer Linear Programming formulations for some of the proposed problems and effective algorithms for some others. Finally, we report on some computational experiments performed on data taken from the Dow Jones Industrial Average, and analyze and compare the results obtained by the different models.",
+      "publication_date": "2018-04-11T19:11:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "1804.04174v2"
+    },
+    {
+      "title": "Analysis of Optimal Portfolio Management Using Hierarchical Clustering",
+      "authors": [
+        "Kapil Panda"
+      ],
+      "abstract": "Portfolio optimization is a task that investors use to determine the best allocations for their investments, and fund managers implement computational models to help guide their decisions. While one of the most common portfolio optimization models in the industry is the Markowitz Model, practitioners recognize limitations in its framework that lead to suboptimal out-of-sample performance and unrealistic allocations. In this study, I refine the Markowitz Model by incorporating machine learning to improve portfolio performance. By using a hierarchical clustering-based approach, I am able to enhance portfolio performance on a risk-adjusted basis compared to the Markowitz Model, across various market factors.",
+      "publication_date": "2023-08-22T05:37:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "2308.11202v1"
+    },
+    {
+      "title": "Emerging Practices in Participatory AI Design in Public Sector   Innovation",
+      "authors": [
+        "Devansh Saxena",
+        "Zoe Kahn",
+        "Erina Seh-Young Moon",
+        "Lauren M. Chambers",
+        "Corey Jackson",
+        "Min Kyung Lee",
+        "Motahhare Eslami",
+        "Shion Guha",
+        "Sheena Erete",
+        "Lilly Irani",
+        "Deirdre Mulligan",
+        "John Zimmerman"
+      ],
+      "abstract": "Local and federal agencies are rapidly adopting AI systems to augment or automate critical decisions, efficiently use resources, and improve public service delivery. AI systems are being used to support tasks associated with urban planning, security, surveillance, energy and critical infrastructure, and support decisions that directly affect citizens and their ability to access essential services. Local governments act as the governance tier closest to citizens and must play a critical role in upholding democratic values and building community trust especially as it relates to smart city initiatives that seek to transform public services through the adoption of AI. Community-centered and participatory approaches have been central for ensuring the appropriate adoption of technology; however, AI innovation introduces new challenges in this context because participatory AI design methods require more robust formulation and face higher standards for implementation in the public sector compared to the private sector. This requires us to reassess traditional methods used in this space as well as develop new resources and methods. This workshop will explore emerging practices in participatory algorithm design - or the use of public participation and community engagement - in the scoping, design, adoption, and implementation of public sector algorithms.",
+      "publication_date": "2025-02-25T22:58:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.HC"
+      ],
+      "arxiv_id": "2502.18689v1"
+    },
+    {
+      "title": "Tracing LLM Reasoning Processes with Strategic Games: A Framework for   Planning, Revision, and Resource-Constrained Decision Making",
+      "authors": [
+        "Xiaopeng Yuan",
+        "Xingjian Zhang",
+        "Ke Xu",
+        "Yifan Xu",
+        "Lijun Yu",
+        "Jindong Wang",
+        "Yushun Dong",
+        "Haohan Wang"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used for tasks that require complex reasoning. Most benchmarks focus on final outcomes but overlook the intermediate reasoning steps - such as planning, revision, and decision making under resource constraints. We argue that measuring these internal processes is essential for understanding model behavior and improving reliability. We propose using strategic games as a natural evaluation environment: closed, rule-based systems with clear states, limited resources, and automatic feedback. We introduce a framework that evaluates LLMs along three core dimensions: planning, revision, and resource-constrained decision making. To operationalize this, we define metrics beyond win rate, including overcorrection risk rate, correction success rate, improvement slope, and over-budget ratio. In 4320 adversarial rounds across 12 leading models, ChatGPT-o3-mini achieves the top composite score, with a win rate of 74.7 percent, a correction success rate of 78.6 percent, and an improvement slope of 0.041. By contrast, Qwen-Plus, despite an overcorrection risk rate of 81.6 percent, wins only 25.6 percent of its matches - primarily due to excessive resource use. We also observe a negative correlation between overcorrection risk rate and correction success rate (Pearson r = -0.51, p = 0.093), suggesting that more frequent edits do not always improve outcomes. Our findings highlight the value of assessing not only what LLMs decide but how they arrive at those decisions",
+      "publication_date": "2025-06-13T17:59:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2506.12012v1"
+    },
+    {
+      "title": "Towards Responsible Governance of Biological Design Tools",
+      "authors": [
+        "Richard Moulange",
+        "Max Langenkamp",
+        "Tessa Alexanian",
+        "Samuel Curtis",
+        "Morgan Livingston"
+      ],
+      "abstract": "Recent advancements in generative machine learning have enabled rapid progress in biological design tools (BDTs) such as protein structure and sequence prediction models. The unprecedented predictive accuracy and novel design capabilities of BDTs present new and significant dual-use risks. For example, their predictive accuracy allows biological agents, whether vaccines or pathogens, to be developed more quickly, while the design capabilities could be used to discover drugs or evade DNA screening techniques. Similar to other dual-use AI systems, BDTs present a wicked problem: how can regulators uphold public safety without stifling innovation? We highlight how current regulatory proposals that are primarily tailored toward large language models may be less effective for BDTs, which require fewer computational resources to train and are often developed in an open-source manner. We propose a range of measures to mitigate the risk that BDTs are misused, across the areas of responsible development, risk assessment, transparency, access management, cybersecurity, and investing in resilience. Implementing such measures will require close coordination between developers and governments.",
+      "publication_date": "2023-11-27T15:45:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2311.15936v3"
+    },
+    {
+      "title": "Strategic Alliance for Blockchain Governance Game",
+      "authors": [
+        "Song-Kyoo Kim"
+      ],
+      "abstract": "This paper deals with design of the alternative secure Blockchain network framework to prevent damages from an attacker. The concept of the strategic alliance of the management is applied on the top of the recent developed stochastic game framework. This new enhanced hybrid theoretical model has been developed based on the combination of the conventional game theory, the fluctuation theory and the Blockchain Governance Game to find best strategies towards preparation for preventing a network malfunction from an attacker by making the strategic alliance with other genuine miners. Analytically tractable results for decision making parameters are fully obtained which enable to predict the moment for operations and deliver the optimal number of the alliance with other nodes to protect the Blockchain network. This research helps for whom considers the initial coin offering or launching new blockchain based services with enhancing the security features by alliance with the trusted miners within the decentralized network.",
+      "publication_date": "2019-03-24T12:14:28+00:00",
+      "doi": "10.1017/S0269964820000406",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1903.11172v3"
+    },
+    {
+      "title": "Contrasting the optimal resource allocation to cybersecurity and cyber   insurance using prospect theory versus expected utility theory",
+      "authors": [
+        "Chaitanya Joshi",
+        "Jinming Yang",
+        "Sergeja Slapnicar",
+        "Ryan K L Ko"
+      ],
+      "abstract": "Protecting against cyber-threats is vital for every organization and can be done by investing in cybersecurity controls and purchasing cyber insurance. However, these are interlinked since insurance premiums could be reduced by investing more in cybersecurity controls. The expected utility theory and the prospect theory are two alternative theories explaining decision-making under risk and uncertainty, which can inform strategies for optimizing resource allocation. While the former is considered a rational approach, research has shown that most people make decisions consistent with the latter, including on insurance uptakes. We compare and contrast these two approaches to provide important insights into how the two approaches could lead to different optimal allocations resulting in differing risk exposure as well as financial costs. We introduce the concept of a risk curve and show that identifying the nature of the risk curve is a key step in deriving the optimal resource allocation.",
+      "publication_date": "2024-11-28T00:59:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "econ.EM"
+      ],
+      "arxiv_id": "2411.18838v1"
+    },
+    {
+      "title": "Dynamic Information Security Management Capability: Strategising for   Organisational Performance",
+      "authors": [
+        "Mazino Onibere",
+        "Atif Ahmad",
+        "Sean B Maynard"
+      ],
+      "abstract": "The increasing frequency, impact, consequence and sophistication of cybersecurity attacks is becoming a strategic concern for boards and executive management of organisations. Consequently, in addition to focusing on productivity and performance, organisations are prioritizing Information Security Management (ISM). However, research has revealed little or no conceptualisation of a dynamic ISM capability and its link to organisational performance. In this research, we set out to 1) define and describe an organisational level dynamic ISM capability, 2) to develop a strategic model that links resources with this dynamic capability, and then 3) empirically demonstrate how dynamic ISM capability contributes to firm performance. By drawing on Resource-Based Theory (RBT) and Dynamic Capabilities View (DCV), we have developed the Dynamic ISM Capability model to address the identified gap. As we develop this research, we will empirically test this model to demonstrate causality between ISM capability and organisational performance.",
+      "publication_date": "2021-04-14T22:00:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2104.07141v1"
+    },
+    {
+      "title": "Diversifying portfolios of U.S. stocks with crude oil and natural gas: A   regime-dependent optimization with several risk measures",
+      "authors": [
+        "Hayette Gatfaoui"
+      ],
+      "abstract": "Energy markets are strategic to governments and economic development. Several commodities compete as substitutable energy sources and energy diversifiers. Such competition reduces the energy vulnerability of countries as well as portfolios' risk exposure. Vulnerability results mainly from price trends and fluctuations, following supply and demand shocks. Such energy price uncertainty attracts many market participants in the energy commodity markets. First, energy producers and consumers hedge adverse price changes with energy derivatives. Second, financial market participants use commodities and commodity derivatives to diversify their conventional portfolios. For that reason, we consider the joint dependence between the United States (U.S.) natural gas, crude oil and stock markets. We use Gatfaoui's (2015) time varying multivariate copula analysis and related variance regimes. Such approach handles structural changes in asset prices. In this light, we draw implications for portfolio optimization, when investors diversify their stock portfolios with natural gas and crude oil assets. We minimize the portfolio's variance, semi-variance and tail risk, in the presence and the absence of constraints on the portfolio's expected return and/or U.S. stock investment. The return constraint reduces the performance of the optimal portfolio. Moreover, the regime-specific portfolio optimization helps implement an enhanced active management strategy over the whole sample period. Under a return constraint, the semi-variance optimal portfolio offers the best risk-return tradeoff, whereas the tail-risk optimal portfolio offers the best tradeoff in the absence of a return constraint.",
+      "publication_date": "2018-11-06T14:45:37+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "q-fin.PM"
+      ],
+      "arxiv_id": "1811.02382v1"
+    }
+  ]
+}

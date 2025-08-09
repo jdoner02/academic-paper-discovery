@@ -1,0 +1,273 @@
+{
+  "processing_metadata": {
+    "processed_at": "2025-08-07T09:33:42.691395+00:00",
+    "processor_version": "1.0.0",
+    "max_papers_limit": 50,
+    "deduplication_enabled": true,
+    "concept_extraction_enabled": true
+  },
+  "strategy_metadata": {
+    "config_name": "autonomous_cyber_defense_systems",
+    "strategy_name": "containerized_security_agents",
+    "papers_found": 2
+  },
+  "file_structure": {
+    "papers_file": "papers.json",
+    "metadata_file": "metadata.json",
+    "concepts_file": "concepts.json",
+    "hierarchy_file": "concept_hierarchy.json"
+  },
+  "last_download_date": "2025-08-07T09:33:42.691395+00:00",
+  "downloaded_papers": {
+    "title:blocka2a: towards secure and verifiable agent-to-agent interoperability": {
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/BlockA2A:_Towards_Secure_and_Verifiable_Agent-to-Agent_Interoperability.pdf"
+    },
+    "title:technical implementation of tippy: multi-agent architecture and system   design for drug discovery laboratory automation": {
+      "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System   Design for Drug Discovery Laboratory Automation",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Technical_Implementation_of_Tippy:_Multi-Agent_Architecture_and_System___Design_for_Drug_Discovery_Laboratory_Automation.pdf"
+    },
+    "title:control at stake: evaluating the security landscape of llm-driven email   agents": {
+      "title": "Control at Stake: Evaluating the Security Landscape of LLM-Driven Email   Agents",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Control_at_Stake:_Evaluating_the_Security_Landscape_of_LLM-Driven_Email___Agents.pdf"
+    },
+    "title:from prompt injections to protocol exploits: threats in llm-powered ai   agents workflows": {
+      "title": "From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI   Agents Workflows",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/From_Prompt_Injections_to_Protocol_Exploits:_Threats_in_LLM-Powered_AI___Agents_Workflows.pdf"
+    },
+    "title:autonomic microservice management via agentic ai and mape-k integration": {
+      "title": "Autonomic Microservice Management via Agentic AI and MAPE-K Integration",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Autonomic_Microservice_Management_via_Agentic_AI_and_MAPE-K_Integration.pdf"
+    },
+    "title:q-aim: a unified portable workflow for seamless integration of quantum   resources": {
+      "title": "Q-AIM: A Unified Portable Workflow for Seamless Integration of Quantum   Resources",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Q-AIM:_A_Unified_Portable_Workflow_for_Seamless_Integration_of_Quantum___Resources.pdf"
+    },
+    "title:gh0stedit: exploiting layer-based access vulnerability within docker   container images": {
+      "title": "gh0stEdit: Exploiting Layer-Based Access Vulnerability Within Docker   Container Images",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/gh0stEdit:_Exploiting_Layer-Based_Access_Vulnerability_Within_Docker___Container_Images.pdf"
+    },
+    "title:trism for agentic ai: a review of trust, risk, and security management   in llm-based agentic multi-agent systems": {
+      "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management   in LLM-based Agentic Multi-Agent Systems",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/TRiSM_for_Agentic_AI:_A_Review_of_Trust,_Risk,_and_Security_Management___in_LLM-based_Agentic_Multi-Agent_Systems.pdf"
+    },
+    "10.32628/CSEIT25112773": {
+      "title": "Docker under Siege: Securing Containers in the Modern Era",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Docker_under_Siege:_Securing_Containers_in_the_Modern_Era.pdf"
+    },
+    "title:sealos+: a sealos-based approach for adaptive resource optimization   under dynamic workloads for securities trading system": {
+      "title": "SealOS+: A Sealos-based Approach for Adaptive Resource Optimization   Under Dynamic Workloads for Securities Trading System",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/SealOS+:_A_Sealos-based_Approach_for_Adaptive_Resource_Optimization___Under_Dynamic_Workloads_for_Securities_Trading_System.pdf"
+    },
+    "title:ada: automated moving target defense for ai workloads via ephemeral   infrastructure-native rotation in kubernetes": {
+      "title": "ADA: Automated Moving Target Defense for AI Workloads via Ephemeral   Infrastructure-Native Rotation in Kubernetes",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/ADA:_Automated_Moving_Target_Defense_for_AI_Workloads_via_Ephemeral___Infrastructure-Native_Rotation_in_Kubernetes.pdf"
+    },
+    "title:agent name service (ans): a universal directory for secure ai agent   discovery and interoperability": {
+      "title": "Agent Name Service (ANS): A Universal Directory for Secure AI Agent   Discovery and Interoperability",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Agent_Name_Service_(ANS):_A_Universal_Directory_for_Secure_AI_Agent___Discovery_and_Interoperability.pdf"
+    },
+    "title:a survey of agent interoperability protocols: model context protocol   (mcp), agent communication protocol (acp), agent-to-agent protocol (a2a), and   agent network protocol (anp)": {
+      "title": "A survey of agent interoperability protocols: Model Context Protocol   (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and   Agent Network Protocol (ANP)",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/A_survey_of_agent_interoperability_protocols:_Model_Context_Protocol___(MCP),_Agent_Communication_Protocol_(ACP),_Agent-to-Agent_Protocol_(A2A),_and___Agent_Network_Protocol_(ANP).pdf"
+    },
+    "title:optimizing intra-container communication with memory protection keys: a   novel approach to secure and efficient microservice interaction": {
+      "title": "Optimizing Intra-Container Communication with Memory Protection Keys: A   Novel Approach to Secure and Efficient Microservice Interaction",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Optimizing_Intra-Container_Communication_with_Memory_Protection_Keys:_A___Novel_Approach_to_Secure_and_Efficient_Microservice_Interaction.pdf"
+    },
+    "title:saga: a security architecture for governing ai agentic systems": {
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/SAGA:_A_Security_Architecture_for_Governing_AI_Agentic_Systems.pdf"
+    },
+    "title:building a secure agentic ai application leveraging a2a protocol": {
+      "title": "Building A Secure Agentic AI Application Leveraging A2A Protocol",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Building_A_Secure_Agentic_AI_Application_Leveraging_A2A_Protocol.pdf"
+    },
+    "title:managing security issues in software containers: from practitioners   perspective": {
+      "title": "Managing Security Issues in Software Containers: From Practitioners   Perspective",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Managing_Security_Issues_in_Software_Containers:_From_Practitioners___Perspective.pdf"
+    },
+    "title:enable time-sensitive applications in kubernetes with container network   interface plugin agnostic metadata proxy": {
+      "title": "Enable Time-Sensitive Applications in Kubernetes with Container Network   Interface Plugin Agnostic Metadata Proxy",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Enable_Time-Sensitive_Applications_in_Kubernetes_with_Container_Network___Interface_Plugin_Agnostic_Metadata_Proxy.pdf"
+    },
+    "10.1007/978-3-031-84617-5_8": {
+      "title": "Comparative Analysis of Lightweight Kubernetes Distributions for Edge   Computing: Security, Resilience and Maintainability",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Comparative_Analysis_of_Lightweight_Kubernetes_Distributions_for_Edge___Computing:_Security,_Resilience_and_Maintainability.pdf"
+    },
+    "title:comparing security and efficiency of webassembly and linux containers in   kubernetes cloud computing": {
+      "title": "Comparing Security and Efficiency of WebAssembly and Linux Containers in   Kubernetes Cloud Computing",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Comparing_Security_and_Efficiency_of_WebAssembly_and_Linux_Containers_in___Kubernetes_Cloud_Computing.pdf"
+    },
+    "title:syndeo: portable ray clusters with secure containerization": {
+      "title": "Syndeo: Portable Ray Clusters with Secure Containerization",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Syndeo:_Portable_Ray_Clusters_with_Secure_Containerization.pdf"
+    },
+    "title:the kubernetes security landscape: ai-driven insights from developer   discussions": {
+      "title": "The Kubernetes Security Landscape: AI-Driven Insights from Developer   Discussions",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/The_Kubernetes_Security_Landscape:_AI-Driven_Insights_from_Developer___Discussions.pdf"
+    },
+    "title:towards secure management of edge-cloud iot microservices using policy   as code": {
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy   as Code",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Towards_Secure_Management_of_Edge-Cloud_IoT_Microservices_using_Policy___as_Code.pdf"
+    },
+    "title:securing 3rd party app integration in docker-based cloud software   ecosystems": {
+      "title": "Securing 3rd Party App Integration in Docker-based Cloud Software   Ecosystems",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Securing_3rd_Party_App_Integration_in_Docker-based_Cloud_Software___Ecosystems.pdf"
+    },
+    "title:cyber security in containerization platforms: a comparative study of   security challenges, measures and best practices": {
+      "title": "Cyber Security in Containerization Platforms: A Comparative Study of   Security Challenges, Measures and Best Practices",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Cyber_Security_in_Containerization_Platforms:_A_Comparative_Study_of___Security_Challenges,_Measures_and_Best_Practices.pdf"
+    },
+    "title:survey of adaptive containerization architectures for hpc": {
+      "title": "Survey of adaptive containerization architectures for HPC",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Survey_of_adaptive_containerization_architectures_for_HPC.pdf"
+    },
+    "10.52953/ZRCK3746": {
+      "title": "AI-Driven Container Security Approaches for 5G and Beyond: A Survey",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/AI-Driven_Container_Security_Approaches_for_5G_and_Beyond:_A_Survey.pdf"
+    },
+    "title:a secure dynamic edge resource federation architecture for cross-domain   iot systems": {
+      "title": "A Secure Dynamic Edge Resource Federation Architecture for Cross-Domain   IoT Systems",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/A_Secure_Dynamic_Edge_Resource_Federation_Architecture_for_Cross-Domain___IoT_Systems.pdf"
+    },
+    "title:digital twin for secure semiconductor lifecycle management: prospects   and applications": {
+      "title": "Digital Twin for Secure Semiconductor Lifecycle Management: Prospects   and Applications",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Digital_Twin_for_Secure_Semiconductor_Lifecycle_Management:_Prospects___and_Applications.pdf"
+    },
+    "title:trusted container extensions for container-based confidential computing": {
+      "title": "Trusted Container Extensions for Container-based Confidential Computing",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Trusted_Container_Extensions_for_Container-based_Confidential_Computing.pdf"
+    },
+    "10.1109/DSC54232.2022.9888808": {
+      "title": "Security Orchestration, Automation, and Response Engine for Deployment   of Behavioural Honeypots",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Security_Orchestration,_Automation,_and_Response_Engine_for_Deployment___of_Behavioural_Honeypots.pdf"
+    },
+    "title:qos and resource aware security orchestration system": {
+      "title": "QoS and Resource aware Security Orchestration System",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/QoS_and_Resource_aware_Security_Orchestration_System.pdf"
+    },
+    "title:kgsecconfig: a knowledge graph based approach for secured container   orchestrator configuration": {
+      "title": "KGSecConfig: A Knowledge Graph Based Approach for Secured Container   Orchestrator Configuration",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/KGSecConfig:_A_Knowledge_Graph_Based_Approach_for_Secured_Container___Orchestrator_Configuration.pdf"
+    },
+    "title:enabling security-oriented orchestration of microservices": {
+      "title": "Enabling Security-Oriented Orchestration of Microservices",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Enabling_Security-Oriented_Orchestration_of_Microservices.pdf"
+    },
+    "title:bpfcontain: fixing the soft underbelly of container security": {
+      "title": "BPFContain: Fixing the Soft Underbelly of Container Security",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/BPFContain:_Fixing_the_Soft_Underbelly_of_Container_Security.pdf"
+    },
+    "title:understanding the quality of container security vulnerability detection   tools": {
+      "title": "Understanding the Quality of Container Security Vulnerability Detection   Tools",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Understanding_the_Quality_of_Container_Security_Vulnerability_Detection___Tools.pdf"
+    },
+    "title:lic-sec: an enhanced apparmor docker security profile generator": {
+      "title": "Lic-Sec: an enhanced AppArmor Docker security profile generator",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Lic-Sec:_an_enhanced_AppArmor_Docker_security_profile_generator.pdf"
+    },
+    "title:on security measures for containerized applications imaged with docker": {
+      "title": "On Security Measures for Containerized Applications Imaged with Docker",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/On_Security_Measures_for_Containerized_Applications_Imaged_with_Docker.pdf"
+    },
+    "title:security design patterns in distributed microservice architecture": {
+      "title": "Security Design Patterns in Distributed Microservice Architecture",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Security_Design_Patterns_in_Distributed_Microservice_Architecture.pdf"
+    },
+    "10.1016/j.cosrev.2021.100415": {
+      "title": "Securing Microservices and Microservice Architectures: A Systematic   Mapping Study",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Securing_Microservices_and_Microservice_Architectures:_A_Systematic___Mapping_Study.pdf"
+    },
+    "10.1145/3305268": {
+      "title": "A Multi-Vocal Review of Security Orchestration",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/A_Multi-Vocal_Review_of_Security_Orchestration.pdf"
+    },
+    "10.1016/j.future.2019.08.020": {
+      "title": "Secure Cloud-Edge Deployments, with Trust",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Secure_Cloud-Edge_Deployments,_with_Trust.pdf"
+    },
+    "title:on the relation between outdated docker containers, severity   vulnerabilities and bugs": {
+      "title": "On The Relation Between Outdated Docker Containers, Severity   Vulnerabilities and Bugs",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/On_The_Relation_Between_Outdated_Docker_Containers,_Severity___Vulnerabilities_and_Bugs.pdf"
+    },
+    "title:baseline functionality for security and control of commodity iot devices   and domain-controlled device lifecycle management": {
+      "title": "Baseline functionality for security and control of commodity IoT devices   and domain-controlled device lifecycle management",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Baseline_functionality_for_security_and_control_of_commodity_IoT_devices___and_domain-controlled_device_lifecycle_management.pdf"
+    },
+    "title:mitigating docker security issues": {
+      "title": "Mitigating Docker Security Issues",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Mitigating_Docker_Security_Issues.pdf"
+    },
+    "title:i2kit: a tool for immutable infrastructure deployments based on   lightweight virtual machines specialized to run containers": {
+      "title": "i2kit: A Tool for Immutable Infrastructure Deployments based on   Lightweight Virtual Machines specialized to run Containers",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/i2kit:_A_Tool_for_Immutable_Infrastructure_Deployments_based_on___Lightweight_Virtual_Machines_specialized_to_run_Containers.pdf"
+    },
+    "title:reconfigurable security: edge computing-based framework for iot": {
+      "title": "Reconfigurable Security: Edge Computing-based Framework for IoT",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Reconfigurable_Security:_Edge_Computing-based_Framework_for_IoT.pdf"
+    },
+    "title:analysis of docker security": {
+      "title": "Analysis of Docker Security",
+      "download_date": "2025-08-07T09:15:43.860691+00:00",
+      "file_path": "pdfs/Analysis_of_Docker_Security.pdf"
+    },
+    "10.1051/epjconf/202429507026": {
+      "title": "Implementation of New Security Features in CMSWEB Kubernetes Cluster at   CERN",
+      "download_date": "2025-08-07T09:33:42.691395+00:00",
+      "file_path": "pdfs/Implementation_of_New_Security_Features_in_CMSWEB_Kubernetes_Cluster_at___CERN.pdf"
+    },
+    "title:xi commandments of kubernetes security: a systematization of knowledge   related to kubernetes security practices": {
+      "title": "XI Commandments of Kubernetes Security: A Systematization of Knowledge   Related to Kubernetes Security Practices",
+      "download_date": "2025-08-07T09:33:42.691395+00:00",
+      "file_path": "pdfs/XI_Commandments_of_Kubernetes_Security:_A_Systematization_of_Knowledge___Related_to_Kubernetes_Security_Practices.pdf"
+    }
+  }
+}

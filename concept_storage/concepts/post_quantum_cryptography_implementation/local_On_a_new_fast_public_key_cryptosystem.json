@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/On_a_new_fast_public_key_cryptosystem",
+  "paper_title": "On a new fast public key cryptosystem",
+  "concepts": [
+    {
+      "text": "mod",
+      "frequency": 33,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.796718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mdv2",
+      "frequency": 37,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.800822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "print",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.811221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mod 2p",
+      "frequency": 24,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.811940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mdv2 p",
+      "frequency": 34,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.814625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p q",
+      "frequency": 56,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.814696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mdv2 p q",
+      "frequency": 32,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.828721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "moddiv2inv",
+      "frequency": 23,
+      "relevance_score": 0.923725613593455,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.796346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "print print",
+      "frequency": 20,
+      "relevance_score": 0.8293266205160479,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.826953+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1div 22 q",
+      "frequency": 12,
+      "relevance_score": 0.7775959723096287,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.834674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 21,
+      "relevance_score": 0.7607929515418502,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.796049+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "div",
+      "frequency": 21,
+      "relevance_score": 0.7607929515418502,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.796790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mod 2p div",
+      "frequency": 11,
+      "relevance_score": 0.7461296412838263,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.827586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "22 q",
+      "frequency": 14,
+      "relevance_score": 0.7405286343612335,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.823885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bits",
+      "frequency": 20,
+      "relevance_score": 0.7293266205160478,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.797374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 19,
+      "relevance_score": 0.6978602894902455,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.795975+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2p div 2q",
+      "frequency": 9,
+      "relevance_score": 0.6831969792322216,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.827656+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1div 22",
+      "frequency": 12,
+      "relevance_score": 0.6775959723096286,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.823815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "integers",
+      "frequency": 18,
+      "relevance_score": 0.666393958464443,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.797222+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2p div",
+      "frequency": 11,
+      "relevance_score": 0.6461296412838263,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.812010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1div",
+      "frequency": 14,
+      "relevance_score": 0.6405286343612335,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.808464+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "subset",
+      "frequency": 17,
+      "relevance_score": 0.6349276274386406,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.797916+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs1 s2 s",
+      "frequency": 7,
+      "relevance_score": 0.6202643171806167,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.829211+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "div 2q",
+      "frequency": 10,
+      "relevance_score": 0.6146633102580239,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.812081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob",
+      "frequency": 16,
+      "relevance_score": 0.6034612964128383,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.807233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p 2 q",
+      "frequency": 6,
+      "relevance_score": 0.5887979861548144,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.828007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x mdv2 p",
+      "frequency": 6,
+      "relevance_score": 0.5887979861548144,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.828861+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q mdv2 p",
+      "frequency": 6,
+      "relevance_score": 0.5887979861548144,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.830756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wa 1div 22",
+      "frequency": 6,
+      "relevance_score": 0.5887979861548144,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.834600+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 q",
+      "frequency": 9,
+      "relevance_score": 0.5831969792322216,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.812857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s2 s",
+      "frequency": 9,
+      "relevance_score": 0.5831969792322216,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.815498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "moddiv2kex",
+      "frequency": 12,
+      "relevance_score": 0.5775959723096287,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.797687+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 15,
+      "relevance_score": 0.5719949653870359,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.796418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alice",
+      "frequency": 15,
+      "relevance_score": 0.5719949653870359,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.806865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s fs1 s2",
+      "frequency": 5,
+      "relevance_score": 0.557331655129012,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.829141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 si 1",
+      "frequency": 5,
+      "relevance_score": 0.557331655129012,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.829492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2q mod 2p",
+      "frequency": 5,
+      "relevance_score": 0.557331655129012,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.833399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wb 1div 22",
+      "frequency": 5,
+      "relevance_score": 0.557331655129012,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.834962+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2q mod",
+      "frequency": 8,
+      "relevance_score": 0.5517306482064191,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.812151+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9408",
+      "frequency": 8,
+      "relevance_score": 0.5517306482064191,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.819366+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wa 1div",
+      "frequency": 8,
+      "relevance_score": 0.5517306482064191,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.823746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "subset sum",
+      "frequency": 11,
+      "relevance_score": 0.5461296412838264,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.813141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key cryptosystems",
+      "frequency": 3,
+      "relevance_score": 0.5443989930774071,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.828293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "si 1 mod",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.829561+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 mod 2m",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.829631+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 9408 q",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.831814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "9408 q p",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.831891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p q 1",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.832042+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mod 2p q",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.833325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x v1 mod",
+      "frequency": 4,
+      "relevance_score": 0.5258653241032095,
+      "source_papers": [
+        "local/On_a_new_fast_public_key_cryptosystem"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.834378+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:00.837237+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:00.837429+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

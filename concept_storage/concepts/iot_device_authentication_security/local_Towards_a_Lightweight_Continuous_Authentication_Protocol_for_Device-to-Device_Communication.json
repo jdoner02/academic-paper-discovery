@@ -1,0 +1,598 @@
+{
+  "paper_doi": "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication",
+  "paper_title": "Towards a Lightweight Continuous Authentication Protocol for Device-to-Device Communication",
+  "concepts": [
+    {
+      "text": "authentication",
+      "frequency": 85,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.154973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 64,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.173221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.175262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gateway",
+      "frequency": 67,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.181036+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 39,
+      "relevance_score": 0.9352925672113864,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.155156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge",
+      "frequency": 43,
+      "relevance_score": 0.8555789843612721,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.170775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous",
+      "frequency": 40,
+      "relevance_score": 0.8028641714988578,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.154785+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 36,
+      "relevance_score": 0.732577754348972,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.160656+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous authentication",
+      "frequency": 27,
+      "relevance_score": 0.674433315761729,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.224401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 31,
+      "relevance_score": 0.6447197329116148,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.168265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication phase",
+      "frequency": 25,
+      "relevance_score": 0.6392901071867862,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.232667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "snkey",
+      "frequency": 30,
+      "relevance_score": 0.6271481286241434,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.200810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "values",
+      "frequency": 29,
+      "relevance_score": 0.609576524336672,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.187628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mutual authentication",
+      "frequency": 22,
+      "relevance_score": 0.5865752943243718,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.233862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mutual",
+      "frequency": 27,
+      "relevance_score": 0.5744333157617291,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.175431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mutual authentication phase",
+      "frequency": 15,
+      "relevance_score": 0.5635740643120717,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.262890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "session",
+      "frequency": 26,
+      "relevance_score": 0.5568617114742577,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.164346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous authentication protocol",
+      "frequency": 5,
+      "relevance_score": 0.5378580214373572,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.260862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "idedge",
+      "frequency": 24,
+      "relevance_score": 0.5217185028993148,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.195735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge device",
+      "frequency": 17,
+      "relevance_score": 0.4987172728870146,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.234704+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous d2d authentication",
+      "frequency": 5,
+      "relevance_score": 0.48785802143735724,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.262214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random",
+      "frequency": 22,
+      "relevance_score": 0.48657529432437185,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.196414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication protocol",
+      "frequency": 7,
+      "relevance_score": 0.4730012300123001,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.224590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "edge-node",
+      "frequency": 15,
+      "relevance_score": 0.4635740643120717,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.197775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d2d authentication",
+      "frequency": 9,
+      "relevance_score": 0.45814443858724296,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.226835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d2d",
+      "frequency": 14,
+      "relevance_score": 0.4460024600246002,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.161195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous authentication phase",
+      "frequency": 8,
+      "relevance_score": 0.44057283429977157,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.263061+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "com - municating",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.261881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- municating devices",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.262048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demon - strated",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.262554+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "idedge ma m3",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.267919+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compute m 3",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.268086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h idgw m4",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.268423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "idgw m4 mb",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.268590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m5 snkey c",
+      "frequency": 2,
+      "relevance_score": 0.43514320857494293,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.268951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 19,
+      "relevance_score": 0.43386048146195744,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.157737+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 19,
+      "relevance_score": 0.43386048146195744,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.162933+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "channel state information",
+      "frequency": 6,
+      "relevance_score": 0.40542962572482866,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.262384+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 17,
+      "relevance_score": 0.39871727288701464,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.164514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 17,
+      "relevance_score": 0.39871727288701464,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.165187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "einit",
+      "frequency": 17,
+      "relevance_score": 0.39871727288701464,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.197094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous d2d",
+      "frequency": 5,
+      "relevance_score": 0.38785802143735726,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.229570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "session key snkey",
+      "frequency": 5,
+      "relevance_score": 0.3878580214373572,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.265403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 16,
+      "relevance_score": 0.38114566859954313,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.178697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csi",
+      "frequency": 16,
+      "relevance_score": 0.38114566859954313,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.190616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "session key",
+      "frequency": 10,
+      "relevance_score": 0.3757160428747145,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.234030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mutual-authentication phase",
+      "frequency": 4,
+      "relevance_score": 0.37028641714988575,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.230447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m 3",
+      "frequency": 4,
+      "relevance_score": 0.37028641714988575,
+      "source_papers": [
+        "local/Towards_a_Lightweight_Continuous_Authentication_Protocol_for_Device-to-Device_Communication"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:39.252899+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:39.270280+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 48,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 48
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:39.270492+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems",
+  "paper_title": "PQ-CAN  A Framework for Simulating Post-Quantum Cryptography in Embedded Systems",
+  "concepts": [
+    {
+      "text": "security",
+      "frequency": 52,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.035414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 32,
+      "relevance_score": 0.8655029813425659,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.028632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 26,
+      "relevance_score": 0.7500961723408348,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.025103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overhead",
+      "frequency": 33,
+      "relevance_score": 0.734737449509521,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.033612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc",
+      "frequency": 32,
+      "relevance_score": 0.7155029813425658,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.028041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems",
+      "frequency": 18,
+      "relevance_score": 0.6962204270051934,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.099305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high",
+      "frequency": 30,
+      "relevance_score": 0.6770340450086555,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.031446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 070",
+      "frequency": 19,
+      "relevance_score": 0.6654548951721485,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.123915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high 0",
+      "frequency": 17,
+      "relevance_score": 0.6269859588382382,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.119667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low 0",
+      "frequency": 17,
+      "relevance_score": 0.6269859588382382,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.121763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mid 0",
+      "frequency": 16,
+      "relevance_score": 0.607751490671283,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.121058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded",
+      "frequency": 26,
+      "relevance_score": 0.6000961723408348,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.024958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low",
+      "frequency": 26,
+      "relevance_score": 0.6000961723408348,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.072277+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 070 0",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.144810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high 0 180",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 180 0",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "180 0 070",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148539+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mid 0 178",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 178 0",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148819+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "178 0 070",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.148968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low 0 209",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.149116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 209 0",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.149258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "209 0 115",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.149397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accessed jan 13",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.150946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jan 13 2025",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.151086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "13 2025 online",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.151227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025 online available",
+      "frequency": 9,
+      "relevance_score": 0.5731102135025966,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.151367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "070",
+      "frequency": 19,
+      "relevance_score": 0.5654548951721484,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.082860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 24,
+      "relevance_score": 0.5616272360069244,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.035698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pqc algorithms",
+      "frequency": 11,
+      "relevance_score": 0.561579149836507,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.102421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f alcon -512",
+      "frequency": 7,
+      "relevance_score": 0.5346412771686863,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.141150+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "level",
+      "frequency": 22,
+      "relevance_score": 0.5231582996730141,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.035556+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "success",
+      "frequency": 22,
+      "relevance_score": 0.5231582996730141,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.073492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k yber 512",
+      "frequency": 6,
+      "relevance_score": 0.5154068090017311,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.140733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 070 1",
+      "frequency": 6,
+      "relevance_score": 0.5154068090017311,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.150384+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mid",
+      "frequency": 21,
+      "relevance_score": 0.5039238315060588,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.072674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dilithium level 2",
+      "frequency": 5,
+      "relevance_score": 0.4961723408347759,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.141011+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 115 0",
+      "frequency": 5,
+      "relevance_score": 0.4961723408347759,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.149824+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nist standardization process",
+      "frequency": 2,
+      "relevance_score": 0.4884689363339103,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.138922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems remains",
+      "frequency": 2,
+      "relevance_score": 0.4884689363339103,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.139072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 2,
+      "relevance_score": 0.4884689363339103,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.139872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "070 0",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.124056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 180",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.133372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "180 0",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.133512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 178",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.133791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "178 0",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.133938+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 209",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.134219+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "209 0",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.134359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 115",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.134499+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jan 13",
+      "frequency": 9,
+      "relevance_score": 0.47311021350259663,
+      "source_papers": [
+        "local/PQ-CAN__A_Framework_for_Simulating_Post-Quantum_Cryptography_in_Embedded_Systems"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:18:56.138017+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:18:56.151654+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:18:56.151827+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

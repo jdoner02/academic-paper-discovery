@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Compromising_a_Medical_Mannequin",
+  "paper_title": "Compromising a Medical Mannequin",
+  "concepts": [
+    {
+      "text": "medical",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.214893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 50,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.216344+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 41,
+      "relevance_score": 0.8670720299345182,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.217427+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mannequin",
+      "frequency": 37,
+      "relevance_score": 0.7922357343311506,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.215058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 37,
+      "relevance_score": 0.7922357343311506,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.237319+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "istan",
+      "frequency": 36,
+      "relevance_score": 0.7735266604303087,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.261833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2014",
+      "frequency": 30,
+      "relevance_score": 0.7612722170252572,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.227499+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 34,
+      "relevance_score": 0.7361085126286249,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.217922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical devices",
+      "frequency": 26,
+      "relevance_score": 0.6864359214218896,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.294954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "training",
+      "frequency": 29,
+      "relevance_score": 0.6425631431244153,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.216184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical mannequin",
+      "frequency": 21,
+      "relevance_score": 0.59289055191768,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.291512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical training",
+      "frequency": 18,
+      "relevance_score": 0.5367633302151544,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.292137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2013",
+      "frequency": 18,
+      "relevance_score": 0.5367633302151543,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.229541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "students",
+      "frequency": 23,
+      "relevance_score": 0.5303086997193639,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.240504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xx xx",
+      "frequency": 17,
+      "relevance_score": 0.5180542563143125,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.309786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 22,
+      "relevance_score": 0.511599625818522,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.246632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xx xx xx",
+      "frequency": 11,
+      "relevance_score": 0.505799812909261,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "14 d6 xx",
+      "frequency": 5,
+      "relevance_score": 0.4935453695042096,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d6 xx xx",
+      "frequency": 5,
+      "relevance_score": 0.4935453695042096,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327493+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 2,
+      "relevance_score": 0.4874181478016838,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.323388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems cyber",
+      "frequency": 2,
+      "relevance_score": 0.4874181478016838,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.323577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems cyber emergency",
+      "frequency": 2,
+      "relevance_score": 0.4874181478016838,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.323738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2014",
+      "frequency": 10,
+      "relevance_score": 0.48709073900841904,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.315921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 20,
+      "relevance_score": 0.4741814780168382,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.222661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wireless",
+      "frequency": 20,
+      "relevance_score": 0.4741814780168382,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.243495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "backtrack 5",
+      "frequency": 9,
+      "relevance_score": 0.46838166510757717,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.303231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "brute force attack",
+      "frequency": 9,
+      "relevance_score": 0.46838166510757717,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.326418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access point",
+      "frequency": 14,
+      "relevance_score": 0.46192703461178675,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.305382+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "backtrack 5 release",
+      "frequency": 3,
+      "relevance_score": 0.45612722170252573,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.325620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 release 3",
+      "frequency": 3,
+      "relevance_score": 0.45612722170252573,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.325773+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical training mannequin",
+      "frequency": 8,
+      "relevance_score": 0.44967259120673525,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.321689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "office report 2012",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.323076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response team 2013",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.324219+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows 8 1",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.325315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 3 8",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.325467+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 muse software",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.326079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wi -fi protected",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.326571+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-fi protected setup",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.326723+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 wireless card",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.326879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "airodump -ng mon0",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327032+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-b 14 d6",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327798+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xx xx -c",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.327951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber -based scenarios",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.328716+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based scenarios into",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.328868+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "retrieved june 4",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.329020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "june 4 2014",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.329172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heydt -benjamin t",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.329640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-benjamin t s",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.329797+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ics -alert -13-164-01",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.330258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d d -id",
+      "frequency": 2,
+      "relevance_score": 0.43741814780168375,
+      "source_papers": [
+        "local/Compromising_a_Medical_Mannequin"
+      ],
+      "source_domain": "medical_device_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:13.330410+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:13.331736+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:13.331910+00:00",
+    "repository_version": "1.0",
+    "domain": "medical_device_cybersecurity"
+  }
+}

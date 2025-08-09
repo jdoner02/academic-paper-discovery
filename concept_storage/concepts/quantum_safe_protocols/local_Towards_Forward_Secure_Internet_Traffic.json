@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Towards_Forward_Secure_Internet_Traffic",
+  "paper_title": "Towards Forward Secure Internet Traffic",
+  "concepts": [
+    {
+      "text": "domains",
+      "frequency": 94,
+      "relevance_score": 0.9406367376140224,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.988810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 92,
+      "relevance_score": 0.9227508495796817,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.015697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client",
+      "frequency": 88,
+      "relevance_score": 0.8869790735109998,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.987296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls",
+      "frequency": 81,
+      "relevance_score": 0.8243784653908066,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.981587+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "servers",
+      "frequency": 81,
+      "relevance_score": 0.8243784653908066,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.985424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ips",
+      "frequency": 72,
+      "relevance_score": 0.7438919692362725,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.989578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs-ciphersuites",
+      "frequency": 55,
+      "relevance_score": 0.6918619209443748,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.085979+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "select",
+      "frequency": 62,
+      "relevance_score": 0.654462529064568,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.990004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random",
+      "frequency": 61,
+      "relevance_score": 0.6455195850473976,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.989246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support",
+      "frequency": 60,
+      "relevance_score": 0.6365766410302272,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.990759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3 protocols",
+      "frequency": 5,
+      "relevance_score": 0.5947147200858522,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.496105+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs key-exchange algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5857717760686818,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.500265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-exchange algorithms surprisingly",
+      "frequency": 2,
+      "relevance_score": 0.5678858880343409,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.500685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-fs key-exchange algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5678858880343409,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.504065+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dhe key-exchange algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5678858880343409,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.556681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server s",
+      "frequency": 41,
+      "relevance_score": 0.5666607047039885,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.307884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-exchange algorithms",
+      "frequency": 12,
+      "relevance_score": 0.5573153282060455,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.288004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "top",
+      "frequency": 47,
+      "relevance_score": 0.5203183688070112,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.988480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-tls 1 3",
+      "frequency": 13,
+      "relevance_score": 0.5162582722232159,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.495396+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server s long-term",
+      "frequency": 12,
+      "relevance_score": 0.5073153282060454,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.520987+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 protocols",
+      "frequency": 5,
+      "relevance_score": 0.49471472008585227,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.280451+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "top domains",
+      "frequency": 32,
+      "relevance_score": 0.4861742085494545,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.284999+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "handshake",
+      "frequency": 43,
+      "relevance_score": 0.48454659273832945,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.987725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s long-term private-key",
+      "frequency": 9,
+      "relevance_score": 0.4804864961545341,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.522529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "befs",
+      "frequency": 42,
+      "relevance_score": 0.475603648721159,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.996901+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciphersuites",
+      "frequency": 42,
+      "relevance_score": 0.475603648721159,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.060454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client handshake algorithms",
+      "frequency": 2,
+      "relevance_score": 0.46788588803434084,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.497997+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 41,
+      "relevance_score": 0.46666070470398857,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.972129+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3",
+      "frequency": 17,
+      "relevance_score": 0.45203004829189775,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.280026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random domains",
+      "frequency": 28,
+      "relevance_score": 0.4504024324807727,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.286081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 39,
+      "relevance_score": 0.4487748166696477,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.121910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "select fs non-ae-ciphersuites",
+      "frequency": 5,
+      "relevance_score": 0.4447147200858522,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.529446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs ae- ciphersuites",
+      "frequency": 5,
+      "relevance_score": 0.4447147200858522,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.555603+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fs ae-ciphersuites",
+      "frequency": 16,
+      "relevance_score": 0.4430871042747272,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.343947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random ips",
+      "frequency": 27,
+      "relevance_score": 0.4414594884636023,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.286833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 38,
+      "relevance_score": 0.43983187265247714,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.121579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ec dhe key-exchange",
+      "frequency": 4,
+      "relevance_score": 0.4357717760686818,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.520557+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support fs ae-ciphersuites",
+      "frequency": 4,
+      "relevance_score": 0.4357717760686818,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.530576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support fs-ciphersuites",
+      "frequency": 15,
+      "relevance_score": 0.43414416025755675,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.426469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network devices",
+      "frequency": 26,
+      "relevance_score": 0.4325165444464317,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.354710+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 20,
+      "relevance_score": 0.428858880343409,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:09.988054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "top domains 7",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.499172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domains 7 51",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.499501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "select fs key-exchange",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.499930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1 2",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.509552+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1 0",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.510355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 960 390",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.526660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 881 985",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.527084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client s fs-ciphersuites",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.529023+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "openssl 1 1",
+      "frequency": 3,
+      "relevance_score": 0.42682883205151134,
+      "source_papers": [
+        "local/Towards_Forward_Secure_Internet_Traffic"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:10.531339+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:10.573725+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:10.573910+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

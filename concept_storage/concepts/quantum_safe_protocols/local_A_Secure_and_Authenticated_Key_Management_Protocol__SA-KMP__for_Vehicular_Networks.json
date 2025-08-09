@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks",
+  "paper_title": "A Secure and Authenticated Key Management Protocol  SA-KMP  for Vehicular Networks",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 206,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.135555+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheme",
+      "frequency": 145,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.151034+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rsu",
+      "frequency": 83,
+      "relevance_score": 0.7308908482821526,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.155408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 82,
+      "relevance_score": 0.7232897537245363,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.144202+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vehicle",
+      "frequency": 81,
+      "relevance_score": 0.7156886591669199,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.153876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 77,
+      "relevance_score": 0.6852842809364548,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.158473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 61,
+      "relevance_score": 0.6636667680145941,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.487907+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sa -kmp scheme",
+      "frequency": 29,
+      "relevance_score": 0.6204317421708726,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.697814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sa -kmp",
+      "frequency": 41,
+      "relevance_score": 0.6116448768622681,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.483725+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "management protocol sa-kmp",
+      "frequency": 2,
+      "relevance_score": 0.5652021891152326,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.697430+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-kmp scheme",
+      "frequency": 29,
+      "relevance_score": 0.5204317421708726,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.491694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-kmp",
+      "frequency": 41,
+      "relevance_score": 0.5116448768622681,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.136718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 52,
+      "relevance_score": 0.49525691699604746,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.271418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key agreement protocol",
+      "frequency": 5,
+      "relevance_score": 0.4880054727880815,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.738292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate",
+      "frequency": 51,
+      "relevance_score": 0.4876558224384312,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.155791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key management protocol",
+      "frequency": 3,
+      "relevance_score": 0.47280328367284885,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.695194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intelligent transportation systems",
+      "frequency": 3,
+      "relevance_score": 0.47280328367284885,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.768589+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 49,
+      "relevance_score": 0.47245363332319856,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.213414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑁𝑁 1 𝑁𝑁",
+      "frequency": 9,
+      "relevance_score": 0.4684098510185467,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.738673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 𝑁𝑁 2",
+      "frequency": 9,
+      "relevance_score": 0.4684098510185467,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.739062+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol sa-kmp",
+      "frequency": 2,
+      "relevance_score": 0.4652021891152326,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.489419+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message authentication protocol",
+      "frequency": 2,
+      "relevance_score": 0.4652021891152326,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.716716+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux operating system",
+      "frequency": 2,
+      "relevance_score": 0.4652021891152326,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.757452+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3d matrix key",
+      "frequency": 8,
+      "relevance_score": 0.46080875646093034,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.711722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑁𝑁 𝑁𝑁 1",
+      "frequency": 8,
+      "relevance_score": 0.46080875646093034,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.739444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 26,
+      "relevance_score": 0.4476284584980237,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.136333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑁𝑁 plane equations",
+      "frequency": 6,
+      "relevance_score": 0.4456065673456978,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.724409+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key generation time",
+      "frequency": 17,
+      "relevance_score": 0.42921860747947704,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.699153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key request",
+      "frequency": 17,
+      "relevance_score": 0.42921860747947704,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.715573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v2i",
+      "frequency": 30,
+      "relevance_score": 0.4280328367284889,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.196540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐻𝐻1 𝐻𝐻2 𝐻𝐻3",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.726338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐼𝐼𝐼𝐼 𝑝𝑝𝑝𝑝𝑏𝑏𝑝𝑝𝑖𝑖𝑐𝑐 𝑘𝑘𝑘𝑘𝑦𝑦",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.726719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑥𝑥 𝑖𝑖𝑖𝑖 0",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.727928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑖𝑖𝑖𝑖 0 𝑚𝑚𝑚𝑚𝑚𝑚",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.728325+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 𝑚𝑚𝑚𝑚𝑚𝑚 𝑚𝑚",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.728705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ec -schnorr signature",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.732910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝑁𝑁 𝑁𝑁 𝐼𝐼𝐼𝐼",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.740224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝒱𝒱 ℛ 𝒱𝒱",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.740604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate -based scheme",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.754758+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id vtcv -2015",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.760130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vtcv -2015 -01739",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.760514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-2015 -01739 r3",
+      "frequency": 3,
+      "relevance_score": 0.4228032836728489,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.760900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v2v",
+      "frequency": 29,
+      "relevance_score": 0.42043174217087265,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.197445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pkr scheme",
+      "frequency": 29,
+      "relevance_score": 0.42043174217087265,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.523116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overhead",
+      "frequency": 42,
+      "relevance_score": 0.4192459714198845,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.164780+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "curve diffie -hellman",
+      "frequency": 2,
+      "relevance_score": 0.41520218911523255,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.700017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "diffie -hellman ecdh",
+      "frequency": 2,
+      "relevance_score": 0.41520218911523255,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.701182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "diffie -hellman dh",
+      "frequency": 2,
+      "relevance_score": 0.41520218911523255,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.701666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "telecom paristech 46",
+      "frequency": 2,
+      "relevance_score": 0.41520218911523255,
+      "source_papers": [
+        "local/A_Secure_and_Authenticated_Key_Management_Protocol__SA-KMP__for_Vehicular_Networks"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:11.703388+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:11.771849+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:11.772034+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

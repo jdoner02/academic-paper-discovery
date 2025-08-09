@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Distributed_quantum_election_scheme",
+  "paper_title": "Distributed quantum election scheme",
+  "concepts": [
+    {
+      "text": "quantum",
+      "frequency": 135,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.933759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election",
+      "frequency": 91,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.934051+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheme",
+      "frequency": 110,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.934367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 91,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.935504+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "charlie",
+      "frequency": 72,
+      "relevance_score": 0.9785845027455765,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.988905+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voter",
+      "frequency": 69,
+      "relevance_score": 0.9419768151311775,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.943532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting",
+      "frequency": 67,
+      "relevance_score": 0.9175716900549116,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.937589+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob",
+      "frequency": 64,
+      "relevance_score": 0.8809640024405125,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.988700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "string",
+      "frequency": 51,
+      "relevance_score": 0.7223306894447834,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.979316+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "administrator",
+      "frequency": 50,
+      "relevance_score": 0.7101281269066504,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.938475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed",
+      "frequency": 49,
+      "relevance_score": 0.6979255643685174,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.933402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election scheme",
+      "frequency": 39,
+      "relevance_score": 0.6758999389871874,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.046636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting administrator",
+      "frequency": 38,
+      "relevance_score": 0.6636973764490544,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.047673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key distribution",
+      "frequency": 38,
+      "relevance_score": 0.6636973764490544,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.048747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 33,
+      "relevance_score": 0.6526845637583893,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.937840+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 45,
+      "relevance_score": 0.6491153142159853,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.935980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum key distribution",
+      "frequency": 28,
+      "relevance_score": 0.6416717510677242,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.120681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymous quantum key",
+      "frequency": 26,
+      "relevance_score": 0.6172666259914582,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.120480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voters",
+      "frequency": 42,
+      "relevance_score": 0.6125076266015863,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.942970+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum election",
+      "frequency": 33,
+      "relevance_score": 0.6026845637583893,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.046434+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum key",
+      "frequency": 33,
+      "relevance_score": 0.6026845637583893,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.048536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum election scheme",
+      "frequency": 24,
+      "relevance_score": 0.5928615009151922,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.120056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state",
+      "frequency": 40,
+      "relevance_score": 0.5881025015253203,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.935240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distribution",
+      "frequency": 40,
+      "relevance_score": 0.5881025015253203,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.940395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qubit-string-based aqkd protocol",
+      "frequency": 3,
+      "relevance_score": 0.5866076876143991,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.146338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ballot",
+      "frequency": 38,
+      "relevance_score": 0.5636973764490543,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.943952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob 1andbob",
+      "frequency": 21,
+      "relevance_score": 0.5562538133007932,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.076191+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymous quantum",
+      "frequency": 28,
+      "relevance_score": 0.5416717510677242,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.048311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum state",
+      "frequency": 28,
+      "relevance_score": 0.5416717510677242,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.055172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymous",
+      "frequency": 36,
+      "relevance_score": 0.5392922513727882,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.940181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "counter",
+      "frequency": 35,
+      "relevance_score": 0.5270896888346553,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.938694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aqkd protocol",
+      "frequency": 14,
+      "relevance_score": 0.5208358755338621,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.084586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed aqkd protocol",
+      "frequency": 5,
+      "relevance_score": 0.511012812690665,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.134376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob 1andbob 2",
+      "frequency": 8,
+      "relevance_score": 0.4976205003050641,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.130870+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 22lmx s",
+      "frequency": 8,
+      "relevance_score": 0.4976205003050641,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.146937+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key string",
+      "frequency": 24,
+      "relevance_score": 0.4928615009151922,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.063262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key distribution protocol",
+      "frequency": 3,
+      "relevance_score": 0.486607687614399,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.128854+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob 1andbob 2respectively",
+      "frequency": 7,
+      "relevance_score": 0.4854179377669311,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.131685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1andbob",
+      "frequency": 23,
+      "relevance_score": 0.4806589383770592,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.001460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1andbob 2respectively establish",
+      "frequency": 6,
+      "relevance_score": 0.4732153752287981,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.131884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 1 2",
+      "frequency": 5,
+      "relevance_score": 0.4610128126906651,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.128245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distributed quantum election",
+      "frequency": 13,
+      "relevance_score": 0.45863331299572907,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.119847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase",
+      "frequency": 29,
+      "relevance_score": 0.4538743136058573,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:47.988246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parties bob 1andbob",
+      "frequency": 4,
+      "relevance_score": 0.44881025015253206,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.134162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1 1",
+      "frequency": 4,
+      "relevance_score": 0.44881025015253206,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.137176+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 j l",
+      "frequency": 4,
+      "relevance_score": 0.44881025015253206,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.142699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j l 1",
+      "frequency": 4,
+      "relevance_score": 0.44881025015253206,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.142899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum key dis-",
+      "frequency": 3,
+      "relevance_score": 0.43660768761439905,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.126417+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key dis- tribution",
+      "frequency": 3,
+      "relevance_score": 0.43660768761439905,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.126621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 n",
+      "frequency": 3,
+      "relevance_score": 0.43660768761439905,
+      "source_papers": [
+        "local/Distributed_quantum_election_scheme"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:48.128449+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:09:48.152129+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:09:48.152304+00:00",
+    "repository_version": "1.0",
+    "domain": "election_voting_system_security"
+  }
+}

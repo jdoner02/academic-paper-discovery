@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery",
+  "paper_title": "Facility Location with Congestion and Priority in Drone-Based Emergency Delivery",
+  "concepts": [
+    {
+      "text": "priority",
+      "frequency": 159,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.564671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 82,
+      "relevance_score": 0.9460359901536372,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.580685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "waiting time",
+      "frequency": 60,
+      "relevance_score": 0.7092946269416858,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.834315+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "demand",
+      "frequency": 71,
+      "relevance_score": 0.7026653085476615,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.579183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response time",
+      "frequency": 59,
+      "relevance_score": 0.7008063831593243,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.828965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "response",
+      "frequency": 69,
+      "relevance_score": 0.6856888209829386,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.578590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "drones",
+      "frequency": 67,
+      "relevance_score": 0.6687123334182157,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.572860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i2i",
+      "frequency": 52,
+      "relevance_score": 0.6413886766827943,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.678449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "waiting",
+      "frequency": 61,
+      "relevance_score": 0.6177828707240471,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.613864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class",
+      "frequency": 61,
+      "relevance_score": 0.6177828707240471,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.706626+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "facility",
+      "frequency": 57,
+      "relevance_score": 0.5838298955946014,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.563814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 queuing system",
+      "frequency": 2,
+      "relevance_score": 0.5669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.068630+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "facility location-allocation system",
+      "frequency": 2,
+      "relevance_score": 0.5669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.112303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018 optimization approaches",
+      "frequency": 2,
+      "relevance_score": 0.5669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.153186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static priority",
+      "frequency": 43,
+      "relevance_score": 0.5649944826415415,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.825570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-priority system",
+      "frequency": 12,
+      "relevance_score": 0.5518589253883371,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.916106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static priority system",
+      "frequency": 12,
+      "relevance_score": 0.5518589253883371,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.079643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 34,
+      "relevance_score": 0.5386002886002886,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.603234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static",
+      "frequency": 51,
+      "relevance_score": 0.5329004329004329,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.582663+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "priority system",
+      "frequency": 21,
+      "relevance_score": 0.5282531194295901,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.915545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8j2j 8r2 r",
+      "frequency": 15,
+      "relevance_score": 0.5273236567354215,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.056961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dynamic priority system",
+      "frequency": 9,
+      "relevance_score": 0.5263941940412529,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.092867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 49,
+      "relevance_score": 0.5159239453357101,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.586600+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i2i ivi tijy",
+      "frequency": 13,
+      "relevance_score": 0.5103471691706986,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.054107+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 24,
+      "relevance_score": 0.5037178507766743,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.916387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "location",
+      "frequency": 47,
+      "relevance_score": 0.49894745777098715,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.564110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class 1",
+      "frequency": 23,
+      "relevance_score": 0.49522960699431284,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.920057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1p i2i ivi",
+      "frequency": 11,
+      "relevance_score": 0.49337068160597575,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.051573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dynamic priority",
+      "frequency": 34,
+      "relevance_score": 0.4886002886002886,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.825851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8r2 r",
+      "frequency": 22,
+      "relevance_score": 0.4867413632119515,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.882335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 0",
+      "frequency": 10,
+      "relevance_score": 0.4848824378236143,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.084206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 974 1",
+      "frequency": 10,
+      "relevance_score": 0.4848824378236143,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.106090+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p i2i itijyij",
+      "frequency": 9,
+      "relevance_score": 0.4763941940412528,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.035878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8 2ir 8j2j",
+      "frequency": 9,
+      "relevance_score": 0.4763941940412528,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.072445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2ir 8j2j 8r2",
+      "frequency": 9,
+      "relevance_score": 0.4763941940412528,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.072746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 2",
+      "frequency": 9,
+      "relevance_score": 0.4763941940412528,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.084482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dynamic",
+      "frequency": 44,
+      "relevance_score": 0.4734827264239029,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.582941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m g 1",
+      "frequency": 8,
+      "relevance_score": 0.4679059502588915,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.033048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "12 684 70",
+      "frequency": 8,
+      "relevance_score": 0.4679059502588915,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.116882+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "684 70 14",
+      "frequency": 8,
+      "relevance_score": 0.4679059502588915,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.117158+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "location-allocation system",
+      "frequency": 2,
+      "relevance_score": 0.4669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.957835+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static priority systems",
+      "frequency": 2,
+      "relevance_score": 0.4669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.080526+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "priority queuing system",
+      "frequency": 2,
+      "relevance_score": 0.4669764875647229,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.087646+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1x i2i ivi",
+      "frequency": 7,
+      "relevance_score": 0.45941770647653,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.061998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class 2 demand",
+      "frequency": 7,
+      "relevance_score": 0.45941770647653,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.086438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i2i ivi",
+      "frequency": 18,
+      "relevance_score": 0.45278838808250577,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.878151+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 2",
+      "frequency": 18,
+      "relevance_score": 0.45278838808250577,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.922318+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "class 2",
+      "frequency": 18,
+      "relevance_score": 0.45278838808250577,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.927143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kj 1 hi",
+      "frequency": 6,
+      "relevance_score": 0.45092946269416856,
+      "source_papers": [
+        "local/Facility_Location_with_Congestion_and_Priority_in_Drone-Based_Emergency_Delivery"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:46.073068+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:46.162765+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:46.162950+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

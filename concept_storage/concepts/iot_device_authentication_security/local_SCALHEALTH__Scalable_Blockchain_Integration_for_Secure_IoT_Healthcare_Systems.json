@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems",
+  "paper_title": "SCALHEALTH  Scalable Blockchain Integration for Secure IoT Healthcare Systems",
+  "concepts": [
+    {
+      "text": "blockchain",
+      "frequency": 90,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.968453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.972251+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient",
+      "frequency": 47,
+      "relevance_score": 0.9049323514300395,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.971532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hospital",
+      "frequency": 39,
+      "relevance_score": 0.7679225894845008,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.993367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transactions",
+      "frequency": 36,
+      "relevance_score": 0.7165439287549238,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.981844+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 33,
+      "relevance_score": 0.6651652680253468,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.971887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health system",
+      "frequency": 12,
+      "relevance_score": 0.555514642918308,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.062575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic health system",
+      "frequency": 4,
+      "relevance_score": 0.5185048809727693,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.087595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic healthcare system",
+      "frequency": 3,
+      "relevance_score": 0.5013786607295769,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.087239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 23,
+      "relevance_score": 0.49390306559342356,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.969089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "financial",
+      "frequency": 23,
+      "relevance_score": 0.49390306559342356,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.972834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot healthcare systems",
+      "frequency": 2,
+      "relevance_score": 0.4842524404863846,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.087061+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patients",
+      "frequency": 21,
+      "relevance_score": 0.4596506251070389,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.994946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee",
+      "frequency": 21,
+      "relevance_score": 0.4596506251070389,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.051737+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 12,
+      "relevance_score": 0.4555146429183079,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.969299+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare system",
+      "frequency": 6,
+      "relevance_score": 0.4527573214591539,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.059188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s",
+      "frequency": 6,
+      "relevance_score": 0.4527573214591539,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.060476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-fungible token nft",
+      "frequency": 3,
+      "relevance_score": 0.451378660729577,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.087416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "insurance",
+      "frequency": 20,
+      "relevance_score": 0.4425244048638466,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.979044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hyperledger fabric 2",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.088668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6- sending nft",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.088845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "metadata 12- recording",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.089022+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10- send financial",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.089223+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "surveys tutorials 21",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.091039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee access 7",
+      "frequency": 2,
+      "relevance_score": 0.43425244048638467,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.092117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 19,
+      "relevance_score": 0.42539818462065426,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.971351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prescriptions",
+      "frequency": 19,
+      "relevance_score": 0.42539818462065426,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.978623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "metadata",
+      "frequency": 19,
+      "relevance_score": 0.42539818462065426,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.980592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 19,
+      "relevance_score": 0.42539818462065426,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.998603+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hyperledger fabric",
+      "frequency": 13,
+      "relevance_score": 0.4226408631615003,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.059374+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare systems",
+      "frequency": 4,
+      "relevance_score": 0.4185048809727693,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.058462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication protocol",
+      "frequency": 4,
+      "relevance_score": 0.4185048809727693,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.063351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hyperledger",
+      "frequency": 17,
+      "relevance_score": 0.3911457441342696,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.975810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ipfs",
+      "frequency": 17,
+      "relevance_score": 0.3911457441342696,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.977659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nft",
+      "frequency": 17,
+      "relevance_score": 0.3911457441342696,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.978416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchains",
+      "frequency": 17,
+      "relevance_score": 0.3911457441342696,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.982730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 17,
+      "relevance_score": 0.3911457441342696,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.985336+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic health",
+      "frequency": 11,
+      "relevance_score": 0.38838842267511564,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.062345+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic health record",
+      "frequency": 5,
+      "relevance_score": 0.3856311012159616,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.087951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s p mohanty",
+      "frequency": 5,
+      "relevance_score": 0.3856311012159616,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.089586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file system",
+      "frequency": 2,
+      "relevance_score": 0.3842524404863846,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.066565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system called",
+      "frequency": 2,
+      "relevance_score": 0.3842524404863846,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.067119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "financial systems",
+      "frequency": 2,
+      "relevance_score": 0.3842524404863846,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.074239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system efficiency",
+      "frequency": 2,
+      "relevance_score": 0.3842524404863846,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.078159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ethereum",
+      "frequency": 16,
+      "relevance_score": 0.3740195238910772,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.982021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "record",
+      "frequency": 16,
+      "relevance_score": 0.3740195238910772,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.998228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 7,
+      "relevance_score": 0.3698835417023463,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.993722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-fungible token",
+      "frequency": 4,
+      "relevance_score": 0.36850488097276934,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.059735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "frequency": 4,
+      "relevance_score": 0.3685048809727693,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:25.090495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic",
+      "frequency": 15,
+      "relevance_score": 0.35689330364788496,
+      "source_papers": [
+        "local/SCALHEALTH__Scalable_Blockchain_Integration_for_Secure_IoT_Healthcare_Systems"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:24.972066+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:25.092500+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:25.092702+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

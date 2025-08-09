@@ -1,0 +1,518 @@
+{
+  "config_name": "post_quantum_cryptography_readiness",
+  "strategy_name": "constrained_device_pqc",
+  "processed_at": "2025-08-07T16:24:47.644366+00:00",
+  "total_papers": 27,
+  "papers": [
+    {
+      "title": "Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained   Devices",
+      "authors": [
+        "Jesus Lopez",
+        "Viviana Cadena",
+        "Mohammad Saidur Rahman"
+      ],
+      "abstract": "The rapid advancement of quantum computing poses a critical threat to classical cryptographic algorithms such as RSA and ECC, particularly in Internet of Things (IoT) devices, where secure communication is essential but often constrained by limited computational resources. This paper investigates the feasibility of deploying post-quantum cryptography (PQC) algorithms on resource-constrained devices. In particular, we implement three PQC algorithms -- BIKE, CRYSTALS-Kyber, and HQC -- on a lightweight IoT platform built with Raspberry Pi devices. Leveraging the Open Quantum Safe (\\texttt{liboqs}) library in conjunction with \\texttt{mbedTLS}, we develop quantum-secure key exchange protocols, and evaluate their performance in terms of computational overhead, memory usage, and energy consumption for quantum secure communication. Experimental results demonstrate that the integration of PQC algorithms on constrained hardware is practical, reinforcing the urgent need for quantum-resilient cryptographic frameworks in next-generation IoT devices. The implementation of this paper is available at https://iqsec-lab.github.io/PQC-IoT/.",
+      "publication_date": "2025-07-11T05:03:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2507.08312v1.pdf"
+    },
+    {
+      "title": "Toward a Lightweight, Scalable, and Parallel Secure Encryption Engine",
+      "authors": [
+        "Rasha Karakchi",
+        "Rye Stahle-Smith",
+        "Nishant Chinnasami",
+        "Tiffany Yu"
+      ],
+      "abstract": "The exponential growth of Internet of Things (IoT) applications has intensified the demand for efficient, high-throughput, and energy-efficient data processing at the edge. Conventional CPU-centric encryption methods suffer from performance bottlenecks and excessive data movement, especially in latency-sensitive and resource-constrained environments. In this paper, we present SPiME, a lightweight, scalable, and FPGA-compatible Secure Processor-in-Memory Encryption architecture that integrates the Advanced Encryption Standard (AES-128) directly into a Processing-in-Memory (PiM) framework. SPiME is designed as a modular array of parallel PiM units, each combining an AES core with a minimal control unit to enable distributed in-place encryption with minimal overhead. The architecture is fully implemented in Verilog and tested on multiple AMD UltraScale and UltraScale+ FPGAs. Evaluation results show that SPiME can scale beyond 4,000 parallel units while maintaining less than 5\\% utilization of key FPGA resources on high-end devices. It delivers over 25~Gbps in sustained encryption throughput with predictable, low-latency performance. The design's portability, configurability, and resource efficiency make it a compelling solution for secure edge computing, embedded cryptographic systems, and customizable hardware accelerators.",
+      "publication_date": "2025-06-18T02:25:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2506.15070v1.pdf"
+    },
+    {
+      "title": "Energy-Efficient NTT Sampler for Kyber Benchmarked on FPGA",
+      "authors": [
+        "Paresh Baidya",
+        "Rourab Paul",
+        "Vikas Srivastava",
+        "Sumit Kumar Debnath"
+      ],
+      "abstract": "Kyber is a lattice-based key encapsulation mechanism selected for standardization by the NIST Post-Quantum Cryptography (PQC) project. A critical component of Kyber's key generation process is the sampling of matrix elements from a uniform distribution over the ring Rq . This step is one of the most computationally intensive tasks in the scheme, significantly impacting performance in low-power embedded systems such as Internet of Things (IoT), wearable devices, wireless sensor networks (WSNs), smart cards, TPMs (Trusted Platform Modules), etc. Existing approaches to this sampling, notably conventional SampleNTT and Parse-SPDM3, rely on rejection sampling. Both algorithms require a large number of random bytes, which needs at least three SHAKE-128 squeezing steps per polynomial. As a result, it causes significant amount of latency and energy. In this work, we propose a novel and efficient sampling algorithm, namely Modified SampleNTT, which substantially educes the average number of bits required from SHAKE-128 to generate elements in Rq - achieving approximately a 33% reduction compared to conventional SampleNTT. Modified SampleNTT achieves 99.16% success in generating a complete polynomial using only two SHAKE-128 squeezes, outperforming both state-of-the-art methods, which never succeed in two squeezes of SHAKE-128. Furthermore, our algorithm maintains the same average rejection rate as existing techniques and passes all standard statistical tests for randomness quality. FPGA implementation on Artix-7 demonstrates a 33.14% reduction in energy, 33.32% lower latency, and 0.28% fewer slices compared to SampleNTT. Our results confirm that Modified SampleNTT is an efficient and practical alternative for uniform polynomial sampling in PQC schemes such as Kyber, especially for low-power security processors.",
+      "publication_date": "2025-05-03T10:54:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2505.01782v1.pdf"
+    },
+    {
+      "title": "Performance Analysis and Industry Deployment of Post-Quantum   Cryptography Algorithms",
+      "authors": [
+        "Elif Dicle Demir",
+        "Buse Bilgin",
+        "Mehmet Cengiz Onbasli"
+      ],
+      "abstract": "As quantum computing advances, modern cryptographic standards face an existential threat, necessitating a transition to post-quantum cryptography (PQC). The National Institute of Standards and Technology (NIST) has selected CRYSTALS-Kyber and CRYSTALS-Dilithium as standardized PQC algorithms for secure key exchange and digital signatures, respectively. This study conducts a comprehensive performance analysis of these algorithms by benchmarking execution times across cryptographic operations such as key generation, encapsulation, decapsulation, signing, and verification. Additionally, the impact of AVX2 optimizations is evaluated to assess hardware acceleration benefits. Our findings demonstrate that Kyber and Dilithium achieve efficient execution times, outperforming classical cryptographic schemes such as RSA and ECDSA at equivalent security levels. Beyond technical performance, the real-world deployment of PQC introduces challenges in telecommunications networks, where large-scale infrastructure upgrades, interoperability with legacy systems, and regulatory constraints must be addressed. This paper examines the feasibility of PQC adoption in telecom environments, highlighting key transition challenges, security risks, and implementation strategies. Through industry case studies, we illustrate how telecom operators are integrating PQC into 5G authentication, subscriber identity protection, and secure communications. Our analysis provides insights into the computational trade-offs, deployment considerations, and standardization efforts shaping the future of quantum-safe cryptographic infrastructure.",
+      "publication_date": "2025-03-17T09:06:03+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2503.12952v2.pdf"
+    },
+    {
+      "title": "SpikeExplorer: hardware-oriented Design Space Exploration for Spiking   Neural Networks on FPGA",
+      "authors": [
+        "Dario Padovano",
+        "Alessio Carpegna",
+        "Alessandro Savino",
+        "Stefano Di Carlo"
+      ],
+      "abstract": "One of today's main concerns is to bring Artificial Intelligence power to embedded systems for edge applications. The hardware resources and power consumption required by state-of-the-art models are incompatible with the constrained environments observed in edge systems, such as IoT nodes and wearable devices. Spiking Neural Networks (SNNs) can represent a solution in this sense: inspired by neuroscience, they reach unparalleled power and resource efficiency when run on dedicated hardware accelerators. However, when designing such accelerators, the amount of choices that can be taken is huge. This paper presents SpikExplorer, a modular and flexible Python tool for hardware-oriented Automatic Design Space Exploration to automate the configuration of FPGA accelerators for SNNs. Using Bayesian optimizations, SpikerExplorer enables hardware-centric multi-objective optimization, supporting factors such as accuracy, area, latency, power, and various combinations during the exploration process. The tool searches the optimal network architecture, neuron model, and internal and training parameters, trying to reach the desired constraints imposed by the user. It allows for a straightforward network configuration, providing the full set of explored points for the user to pick the trade-off that best fits the needs. The potential of SpikExplorer is showcased using three benchmark datasets. It reaches 95.8% accuracy on the MNIST dataset, with a power consumption of 180mW/image and a latency of 0.12 ms/image, making it a powerful tool for automatically optimizing SNNs.",
+      "publication_date": "2024-04-04T17:53:08+00:00",
+      "doi": "10.3390/electronics13091744",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NE"
+      ],
+      "url": "http://arxiv.org/pdf/2404.03714v1.pdf"
+    },
+    {
+      "title": "FPGA-Placement via Quantum Annealing",
+      "authors": [
+        "Thore Gerlach",
+        "Stefan Knipp",
+        "David Biesner",
+        "Stelios Emmanouilidis",
+        "Klaus Hauber",
+        "Nico Piatkowski"
+      ],
+      "abstract": "Field-Programmable Gate Arrays (FPGAs) have asserted themselves as vital assets in contemporary computing by offering adaptable, reconfigurable hardware platforms. FPGA-based accelerators incubate opportunities for breakthroughs in areas, such as real-time data processing, machine learning or cryptography -- to mention just a few. The procedure of placement -- determining the optimal spatial arrangement of functional blocks on an FPGA to minimize communication delays and enhance performance -- is an NP-hard problem, notably requiring sophisticated algorithms for proficient solutions. Clearly, improving the placement leads to a decreased resource utilization during the implementation phase. Adiabatic quantum computing (AQC), with its capability to traverse expansive solution spaces, has potential for addressing such combinatorial problems. In this paper, we re-formulate the placement problem as a series of so called quadratic unconstrained binary optimization (QUBO) problems which are subsequently solved via AQC. Our novel formulation facilitates a straight-forward integration of design constraints. Moreover, the size of the sub-problems can be conveniently adapted to the available hardware capabilities. Beside the sole proposal of a novel method, we ask whether contemporary quantum hardware is resilient enough to find placements for real-world-sized FPGAs. A numerical evaluation on a D-Wave Advantage 5.4 quantum annealer suggests that the answer is in the affirmative.",
+      "publication_date": "2023-12-24T12:23:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "url": "http://arxiv.org/pdf/2312.15467v1.pdf"
+    },
+    {
+      "title": "ONNX-to-Hardware Design Flow for the Generation of Adaptive   Neural-Network Accelerators on FPGAs",
+      "authors": [
+        "Federico Manca",
+        "Francesco Ratto"
+      ],
+      "abstract": "Neural Networks (NN) provide a solid and reliable way of executing different types of applications, ranging from speech recognition to medical diagnosis, speeding up onerous and long workloads. The challenges involved in their implementation at the edge include providing diversity, flexibility, and sustainability. That implies, for instance, supporting evolving applications and algorithms energy-efficiently. Using hardware or software accelerators can deliver fast and efficient computation of the \\acp{nn}, while flexibility can be exploited to support long-term adaptivity. Nonetheless, handcrafting an NN for a specific device, despite the possibility of leading to an optimal solution, takes time and experience, and that's why frameworks for hardware accelerators are being developed. This work-in-progress study focuses on exploring the possibility of combining the toolchain proposed by Ratto et al., which has the distinctive ability to favor adaptivity, with approximate computing. The goal will be to allow lightweight adaptable NN inference on FPGAs at the edge. Before that, the work presents a detailed review of established frameworks that adopt a similar streaming architecture for future comparison.",
+      "publication_date": "2023-09-23T09:41:43+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AR"
+      ],
+      "url": "http://arxiv.org/pdf/2309.13321v1.pdf"
+    },
+    {
+      "title": "FLAIRS: FPGA-Accelerated Inference-Resistant & Secure Federated Learning",
+      "authors": [
+        "Huimin Li",
+        "Phillip Rieger",
+        "Shaza Zeitouni",
+        "Stjepan Picek",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "abstract": "Federated Learning (FL) has become very popular since it enables clients to train a joint model collaboratively without sharing their private data. However, FL has been shown to be susceptible to backdoor and inference attacks. While in the former, the adversary injects manipulated updates into the aggregation process; the latter leverages clients' local models to deduce their private data. Contemporary solutions to address the security concerns of FL are either impractical for real-world deployment due to high-performance overheads or are tailored towards addressing specific threats, for instance, privacy-preserving aggregation or backdoor defenses. Given these limitations, our research delves into the advantages of harnessing the FPGA-based computing paradigm to overcome performance bottlenecks of software-only solutions while mitigating backdoor and inference attacks. We utilize FPGA-based enclaves to address inference attacks during the aggregation process of FL. We adopt an advanced backdoor-aware aggregation algorithm on the FPGA to counter backdoor attacks. We implemented and evaluated our method on Xilinx VMK-180, yielding a significant speed-up of around 300 times on the IoT-Traffic dataset and more than 506 times on the CIFAR-10 dataset.",
+      "publication_date": "2023-08-01T13:47:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2308.00553v1.pdf"
+    },
+    {
+      "title": "Code-based Cryptography in IoT: A HW/SW Co-Design of HQC",
+      "authors": [
+        "Maximilian Schöffel",
+        "Johannes Feldmann",
+        "Norbert Wehn"
+      ],
+      "abstract": "Recent advances in quantum computing pose a serious threat on the security of widely used public-key cryptosystems. Thus, new post-quantum cryptographic algorithms have been proposed as part of the associated US NIST process to enable secure, encrypted communication in the age of quantum computing. Many hardware accelerators for structured lattice-based algorithms have already been published to meet the strict power, area and latency requirements of low-power IoT edge devices. However, the security of these algorithms is still uncertain. Currently, many new attacks against the lattice structure are investigated to judge on their security. In contrast, code-based algorithms, which rely on deeply explored security metrics and are appealing candidates in the NIST process, have not yet been investigated to the same depth in the context of IoT due to the computational complexity and memory footprint of state-of-the-art software implementations.   In this paper, we present to the best of our knowledge the first HW/SW co-design based implementation of the code-based Hamming Quasi Cyclic Key-Encapsulation Mechanism. We profile and evaluate this algorithm in order to explore the trade-off between software optimizations, tightly coupled hardware acceleration by instruction set extension and modular, loosely coupled accelerators. We provide detailed results on the energy consumption and performance of our design and compare it to existing implementations of lattice- and code-based algorithms. The design was implemented in two technologies: FPGA and ASIC. Our results show that code-based algorithms are valid alternatives in low-power IoT from an implementation perspective.",
+      "publication_date": "2023-01-12T09:05:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2301.04888v1.pdf"
+    },
+    {
+      "title": "Optimization of FPGA-based CNN Accelerators Using Metaheuristics",
+      "authors": [
+        "Sadiq M. Sait",
+        "Aiman El-Maleh",
+        "Mohammad Altakrouri",
+        "Ahmad Shawahna"
+      ],
+      "abstract": "In recent years, convolutional neural networks (CNNs) have demonstrated their ability to solve problems in many fields and with accuracy that was not possible before. However, this comes with extensive computational requirements, which made general CPUs unable to deliver the desired real-time performance. At the same time, FPGAs have seen a surge in interest for accelerating CNN inference. This is due to their ability to create custom designs with different levels of parallelism. Furthermore, FPGAs provide better performance per watt compared to GPUs. The current trend in FPGA-based CNN accelerators is to implement multiple convolutional layer processors (CLPs), each of which is tailored for a subset of layers. However, the growing complexity of CNN architectures makes optimizing the resources available on the target FPGA device to deliver optimal performance more challenging. In this paper, we present a CNN accelerator and an accompanying automated design methodology that employs metaheuristics for partitioning available FPGA resources to design a Multi-CLP accelerator. Specifically, the proposed design tool adopts simulated annealing (SA) and tabu search (TS) algorithms to find the number of CLPs required and their respective configurations to achieve optimal performance on a given target FPGA device. Here, the focus is on the key specifications and hardware resources, including digital signal processors, block RAMs, and off-chip memory bandwidth. Experimental results and comparisons using four well-known benchmark CNNs are presented demonstrating that the proposed acceleration framework is both encouraging and promising. The SA-/TS-based Multi-CLP achieves 1.31x - 2.37x higher throughput than the state-of-the-art Single-/Multi-CLP approaches in accelerating AlexNet, SqueezeNet 1.1, VGGNet, and GoogLeNet architectures on the Xilinx VC707 and VC709 FPGA boards.",
+      "publication_date": "2022-09-22T18:57:49+00:00",
+      "doi": "10.1007/s11227-022-04787-8",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NE"
+      ],
+      "url": "http://arxiv.org/pdf/2209.11272v1.pdf"
+    },
+    {
+      "title": "Hardware-Software Co-Design of BIKE with HLS-Generated Accelerators",
+      "authors": [
+        "Gabriele Montanaro",
+        "Andrea Galimberti",
+        "Ernesto Colizzi",
+        "Davide Zoni"
+      ],
+      "abstract": "In order to mitigate the security threat of quantum computers, NIST is undertaking a process to standardize post-quantum cryptosystems, aiming to assess their security and speed up their adoption in production scenarios. Several hardware and software implementations have been proposed for each candidate, while only a few target heterogeneous platforms featuring CPUs and FPGAs. This work presents a HW/SW co-design of BIKE for embedded platforms featuring both CPUs and small FPGAs and employs high-level synthesis (HLS) to timely deliver the hardware accelerators. In contrast to state-of-the-art solutions targeting performance-optimized HLS accelerators, the proposed solution targets the small FPGAs implemented in the heterogeneous platforms for embedded systems. Compared to the software-only execution of BIKE, the experimental results collected on the systems-on-chip of the entire Xilinx Zynq-7000 family highlight a performance speedup ranging from 1.37x, on Z-7010, to 2.78x, on Z-7020.",
+      "publication_date": "2022-09-08T14:08:56+00:00",
+      "doi": "10.1109/ICECS202256217.2022.9970992",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AR"
+      ],
+      "url": "http://arxiv.org/pdf/2209.03830v2.pdf"
+    },
+    {
+      "title": "Hardware Accelerator and Neural Network Co-Optimization for   Ultra-Low-Power Audio Processing Devices",
+      "authors": [
+        "Christoph Gerum",
+        "Adrian Frischknecht",
+        "Tobias Hald",
+        "Paul Palomero Bernardo",
+        "Konstantin Lübeck",
+        "Oliver Bringmann"
+      ],
+      "abstract": "The increasing spread of artificial neural networks does not stop at ultralow-power edge devices. However, these very often have high computational demand and require specialized hardware accelerators to ensure the design meets power and performance constraints. The manual optimization of neural networks along with the corresponding hardware accelerators can be very challenging. This paper presents HANNAH (Hardware Accelerator and Neural Network seArcH), a framework for automated and combined hardware/software co-design of deep neural networks and hardware accelerators for resource and power-constrained edge devices. The optimization approach uses an evolution-based search algorithm, a neural network template technique, and analytical KPI models for the configurable UltraTrail hardware accelerator template to find an optimized neural network and accelerator configuration. We demonstrate that HANNAH can find suitable neural networks with minimized power consumption and high accuracy for different audio classification tasks such as single-class wake word detection, multi-class keyword detection, and voice activity detection, which are superior to the related work.",
+      "publication_date": "2022-09-08T13:29:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SD"
+      ],
+      "url": "http://arxiv.org/pdf/2209.03807v2.pdf"
+    },
+    {
+      "title": "Near Threshold Computation of Partitioned Ring Learning With Error   (RLWE) Post Quantum Cryptography on Reconfigurable Architecture",
+      "authors": [
+        "Paresh Baidya",
+        "Swagata Mondal",
+        "Rourab Paul"
+      ],
+      "abstract": "Ring Learning With Error (RLWE) algorithm is used in Post Quantum Cryptography (PQC) and Homomorphic Encryption (HE) algorithm. The existing classical crypto algorithms may be broken in quantum computers. The adversaries can store all encrypted data. While the quantum computer will be available, these encrypted data can be exposed by the quantum computer. Therefore, the PQC algorithms are an essential solution in recent applications. On the other hand, the HE allows operations on encrypted data which is appropriate for getting services from third parties without revealing confidential plain-texts. The FPGA based PQC and HE hardware accelerators like RLWE is much cost-effective than processor based platform and Application Specific Integrated Circuit (ASIC). FPGA based hardware accelerators still consume more power compare to ASIC based design. Near Threshold Computation (NTC) may be a convenient solution for FPGA based RLWE implementation. In this paper, we have implemented RLWE hardware accelerator which has 14 subcomponents. This paper creates clusters based on the critical path of all 14 subcomponents. Each cluster is implemented in an FPGA partition which has the same biasing voltage $V_{ccint}$. The clusters that have higher critical paths use higher Vccint to avoid timing failure. The clusters have lower critical paths use lower biasing voltage Vccint. This voltage scaled, partitioned RLWE can save ~6% and ~11% power in Vivado and VTR platform respectively. The resource usage and throughput of the implemented RLWE hardware accelerator is comparatively better than existing literature.",
+      "publication_date": "2022-08-17T06:08:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2208.08093v2.pdf"
+    },
+    {
+      "title": "BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic   Encryption",
+      "authors": [
+        "Robin Geelen",
+        "Michiel Van Beirendonck",
+        "Hilder V. L. Pereira",
+        "Brian Huffman",
+        "Tynan McAuley",
+        "Ben Selfridge",
+        "Daniel Wagner",
+        "Georgios Dimou",
+        "Ingrid Verbauwhede",
+        "Frederik Vercauteren",
+        "David W. Archer"
+      ],
+      "abstract": "Fully Homomorphic Encryption (FHE) allows for secure computation on encrypted data. Unfortunately, huge memory size, computational cost and bandwidth requirements limit its practicality. We present BASALISC, an architecture family of hardware accelerators that aims to substantially accelerate FHE computations in the cloud. BASALISC is the first to implement the BGV scheme with fully-packed bootstrapping -- the noise removal capability necessary for arbitrary-depth computation. It supports a customized version of bootstrapping that can be instantiated with hardware multipliers optimized for area and power.   BASALISC is a three-abstraction-layer RISC architecture, designed for a 1 GHz ASIC implementation and underway toward 150mm2 die tape-out in a 12nm GF process. BASALISC's four-layer memory hierarchy includes a two-dimensional conflict-free inner memory layer that enables 32 Tb/s radix-256 NTT computations without pipeline stalls. Its conflict-resolution permutation hardware is generalized and re-used to compute BGV automorphisms without throughput penalty. BASALISC also has a custom multiply-accumulate unit to accelerate BGV key switching.   The BASALISC toolchain comprises a custom compiler and a joint performance and correctness simulator. To evaluate BASALISC, we study its physical realizability, emulate and formally verify its core functional units, and we study its performance on a set of benchmarks. Simulation results show a speedup of more than 5,000 times over HElib -- a popular software FHE library.",
+      "publication_date": "2022-05-27T14:37:38+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2205.14017v3.pdf"
+    },
+    {
+      "title": "Multi-Component Optimization and Efficient Deployment of Neural-Networks   on Resource-Constrained IoT Hardware",
+      "authors": [
+        "Bharath Sudharsan",
+        "Dineshkumar Sundaram",
+        "Pankesh Patel",
+        "John G. Breslin",
+        "Muhammad Intizar Ali",
+        "Schahram Dustdar",
+        "Albert Zomaya",
+        "Rajiv Ranjan"
+      ],
+      "abstract": "The majority of IoT devices like smartwatches, smart plugs, HVAC controllers, etc., are powered by hardware with a constrained specification (low memory, clock speed and processor) which is insufficient to accommodate and execute large, high-quality models. On such resource-constrained devices, manufacturers still manage to provide attractive functionalities (to boost sales) by following the traditional approach of programming IoT devices/products to collect and transmit data (image, audio, sensor readings, etc.) to their cloud-based ML analytics platforms. For decades, this online approach has been facing issues such as compromised data streams, non-real-time analytics due to latency, bandwidth constraints, costly subscriptions, recent privacy issues raised by users and the GDPR guidelines, etc. In this paper, to enable ultra-fast and accurate AI-based offline analytics on resource-constrained IoT devices, we present an end-to-end multi-component model optimization sequence and open-source its implementation. Researchers and developers can use our optimization sequence to optimize high memory, computation demanding models in multiple aspects in order to produce small size, low latency, low-power consuming models that can comfortably fit and execute on resource-constrained hardware. The experimental results show that our optimization components can produce models that are; (i) 12.06 x times compressed; (ii) 0.13% to 0.27% more accurate; (iii) Orders of magnitude faster unit inference at 0.06 ms. Our optimization sequence is generic and can be applied to any state-of-the-art models trained for anomaly detection, predictive maintenance, robotics, voice recognition, and machine vision.",
+      "publication_date": "2022-04-20T13:30:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2204.10183v1.pdf"
+    },
+    {
+      "title": "CoMeFa: Compute-in-Memory Blocks for FPGAs",
+      "authors": [
+        "Aman Arora",
+        "Tanmay Anand",
+        "Aatman Borda",
+        "Rishabh Sehgal",
+        "Bagus Hanindhito",
+        "Jaydeep Kulkarni",
+        "Lizy K. John"
+      ],
+      "abstract": "Block RAMs (BRAMs) are the storage houses of FPGAs, providing extensive on-chip memory bandwidth to the compute units implemented using Logic Blocks (LBs) and Digital Signal Processing (DSP) slices. We propose modifying BRAMs to convert them to CoMeFa (Compute-In-Memory Blocks for FPGAs) RAMs. These RAMs provide highly-parallel compute-in-memory by combining computation and storage capabilities in one block. CoMeFa RAMs utilize the true dual port nature of FPGA BRAMs and contain multiple programmable single-bit bit-serial processing elements. CoMeFa RAMs can be used to compute in any precision, which is extremely important for evolving applications like Deep Learning. Adding CoMeFa RAMs to FPGAs significantly increases their compute density. We explore and propose two architectures of these RAMs: CoMeFa-D (optimized for delay) and CoMeFa-A (optimized for area). Compared to existing proposals, CoMeFa RAMs do not require changing the underlying SRAM technology like simultaneously activating multiple rows on the same port, and are practical to implement. CoMeFa RAMs are versatile blocks that find applications in numerous diverse parallel applications like Deep Learning, signal processing, databases, etc. By augmenting an Intel Arria-10-like FPGA with CoMeFa-D (CoMeFa-A) RAMs at the cost of 3.8% (1.2%) area, and with algorithmic improvements and efficient mapping, we observe a geomean speedup of 2.5x (1.8x), across several representative benchmarks. Replacing all or some BRAMs with CoMeFa RAMs in FPGAs can make them better accelerators of modern compute-intensive workloads.",
+      "publication_date": "2022-03-23T16:31:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AR"
+      ],
+      "url": "http://arxiv.org/pdf/2203.12521v1.pdf"
+    },
+    {
+      "title": "LW-GCN: A Lightweight FPGA-based Graph Convolutional Network Accelerator",
+      "authors": [
+        "Zhuofu Tao",
+        "Chen Wu",
+        "Yuan Liang",
+        "Lei He"
+      ],
+      "abstract": "Graph convolutional networks (GCNs) have been introduced to effectively process non-euclidean graph data. However, GCNs incur large amounts of irregularity in computation and memory access, which prevents efficient use of traditional neural network accelerators. Moreover, existing dedicated GCN accelerators demand high memory volumes and are difficult to implement onto resource limited edge devices. In this work, we propose LW-GCN, a lightweight FPGA-based accelerator with a software-hardware co-designed process to tackle irregularity in computation and memory access in GCN inference. LW-GCN decomposes the main GCN operations into sparse-dense matrix multiplication (SDMM) and dense matrix multiplication (DMM). We propose a novel compression format to balance workload across PEs and prevent data hazards. Moreover, we apply data quantization and workload tiling, and map both SDMM and DMM of GCN inference onto a uniform architecture on resource limited hardware. Evaluation on GCN and GraphSAGE are performed on Xilinx Kintex-7 FPGA with three popular datasets. Compared to existing CPU, GPU, and state-of-the-art FPGA-based accelerator, LW-GCN reduces latency by up to 60x, 12x and 1.7x and increases power efficiency by up to 912x., 511x and 3.87x, respectively. Furthermore, compared with NVIDIA's latest edge GPU Jetson Xavier NX, LW-GCN achieves speedup and energy savings of 32x and 84x, respectively.",
+      "publication_date": "2021-11-04T22:29:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/pdf/2111.03184v1.pdf"
+    },
+    {
+      "title": "Secure Blockchain Platform for Industrial IoT with Trusted Computing   Hardware",
+      "authors": [
+        "Qing Yang",
+        "Hao Wang",
+        "Xiaoxiao Wu",
+        "Taotao Wang",
+        "Shengli Zhang",
+        "Naijin Liu"
+      ],
+      "abstract": "As a disruptive technology that originates from cryptocurrency, blockchain provides a trusted platform to facilitate industrial IoT (IIoT) applications. However, implementing a blockchain platform in IIoT scenarios confronts various security challenges due to the rigorous deployment condition. To this end, we present a novel design of secure blockchain based on trusted computing hardware for IIoT applications. Specifically, we employ the trusted execution environment (TEE) module and a customized security chip to safeguard the blockchain against different attacking vectors. Furthermore, we implement the proposed secure IIoT blockchain on the ARM-based embedded device and build a small-scale IIoT network to evaluate its performance. Our experimental results show that the secure blockchain platform achieves a high throughput (150TPS) with low transaction confirmation delay (below 66ms), demonstrating its feasibility in practical IIoT scenarios. Finally, we outline the open challenges and future research directions.",
+      "publication_date": "2021-10-28T14:37:01+00:00",
+      "doi": "10.1109/IOTM.001.2100043",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2110.15161v1.pdf"
+    },
+    {
+      "title": "An Efficient SDN Architecture for Smart Home Security Accelerated by   FPGA",
+      "authors": [
+        "Holden Gordon",
+        "Conrad Park",
+        "Bhagyashri Tushir",
+        "Yuhong Liu",
+        "Behnam Dezfouli"
+      ],
+      "abstract": "With the rise in Internet of Things (IoT) devices, home network management and security are becoming complex. There is an urgent requirement to make smart home network management efficient. This work proposes an SDN-based architecture to secure smart home networks through K-Nearest Neighbor (KNN) based device classifications and malicious traffic detection. The efficiency is further enhanced by offloading the computation-intensive KNN model to Field Programmable Gate Arrays (FPGA), which offers parallel processing power of GPU platforms at lower costs and higher efficiencies, and can be used to accelerate time-sensitive tasks. The proposed parallelization and implementation of KNN on FPGA are achieved by using the Vivado Design Suite from Xilinx and High-Level Synthesis (HLS). When optimized with 10-fold cross-validation, the proposed solution for KNN consistently exhibits the best performances on FPGA when compared with four alternative KNN instances (i.e., 78% faster than the parallel bubble sort-based implementation and 99\\% faster than the other three sorting algorithms). Moreover, with 36,225 training samples, the proposed KNN solution classifies a test query with 95% accuracy in approximately 4 milliseconds on FPGA compared to 57 seconds on a CPU platform.",
+      "publication_date": "2021-06-21T19:59:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2106.11390v2.pdf"
+    },
+    {
+      "title": "CURE: A Security Architecture with CUstomizable and Resilient Enclaves",
+      "authors": [
+        "Raad Bahmani",
+        "Ferdinand Brasser",
+        "Ghada Dessouky",
+        "Patrick Jauernig",
+        "Matthias Klimmek",
+        "Ahmad-Reza Sadeghi",
+        "Emmanuel Stapf"
+      ],
+      "abstract": "Security architectures providing Trusted Execution Environments (TEEs) have been an appealing research subject for a wide range of computer systems, from low-end embedded devices to powerful cloud servers. The goal of these architectures is to protect sensitive services in isolated execution contexts, called enclaves. Unfortunately, existing TEE solutions suffer from significant design shortcomings. First, they follow a one-size-fits-all approach offering only a single enclave type, however, different services need flexible enclaves that can adjust to their demands. Second, they cannot efficiently support emerging applications (e.g., Machine Learning as a Service), which require secure channels to peripherals (e.g., accelerators), or the computational power of multiple cores. Third, their protection against cache side-channel attacks is either an afterthought or impractical, i.e., no fine-grained mapping between cache resources and individual enclaves is provided.   In this work, we propose CURE, the first security architecture, which tackles these design challenges by providing different types of enclaves: (i) sub-space enclaves provide vertical isolation at all execution privilege levels, (ii) user-space enclaves provide isolated execution to unprivileged applications, and (iii) self-contained enclaves allow isolated execution environments that span multiple privilege levels. Moreover, CURE enables the exclusive assignment of system resources, e.g., peripherals, CPU cores, or cache resources to single enclaves. CURE requires minimal hardware changes while significantly improving the state of the art of hardware-assisted security architectures. We implemented CURE on a RISC-V-based SoC and thoroughly evaluated our prototype in terms of hardware and performance overhead. CURE imposes a geometric mean performance overhead of 15.33% on standard benchmarks.",
+      "publication_date": "2020-10-29T18:11:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2010.15866v1.pdf"
+    },
+    {
+      "title": "A Systematic Study of Lattice-based NIST PQC Algorithms: from Reference   Implementations to Hardware Accelerators",
+      "authors": [
+        "Malik Imran",
+        "Zain Ul Abideen",
+        "Samuel Pagliarini"
+      ],
+      "abstract": "Security of currently deployed public key cryptography algorithms is foreseen to be vulnerable against quantum computer attacks. Hence, a community effort exists to develop post-quantum cryptography (PQC) algorithms, i.e., algorithms that are resistant to quantum attacks. In this work, we have investigated how lattice-based candidate algorithms from the NIST PQC standardization competition fare when conceived as hardware accelerators. To achieve this, we have assessed the reference implementations of selected algorithms with the goal of identifying what are their basic building blocks. We assume the hardware accelerators will be implemented in application specific integrated circuit (ASIC) and the targeted technology in our experiments is a commercial 65nm node. In order to estimate the characteristics of each algorithm, we have assessed their memory requirements, use of multipliers, and how each algorithm employs hashing functions. Furthermore, for these building blocks, we have collected area and power figures for 12 candidate algorithms. For memories, we make use of a commercial memory compiler. For logic, we make use of a standard cell library. In order to compare the candidate algorithms fairly, we select a reference frequency of operation of 500MHz. Our results reveal that our area and power numbers are comparable to the state of the art, despite targeting a higher frequency of operation and a higher security level in our experiments. The comprehensive investigation of lattice-based NIST PQC algorithms performed in this paper can be used for guiding ASIC designers when selecting an appropriate algorithm while respecting requirements and design constraints.",
+      "publication_date": "2020-09-15T13:32:03+00:00",
+      "doi": "10.3390/electronics9111953",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2009.07091v3.pdf"
+    },
+    {
+      "title": "FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient   Federated Learning",
+      "authors": [
+        "Zhaoxiong Yang",
+        "Shuihai Hu",
+        "Kai Chen"
+      ],
+      "abstract": "With the increasing awareness of privacy protection and data fragmentation problem, federated learning has been emerging as a new paradigm of machine learning. Federated learning tends to utilize various privacy preserving mechanisms to protect the transferred intermediate data, among which homomorphic encryption strikes a balance between security and ease of utilization. However, the complicated operations and large operands impose significant overhead on federated learning. Maintaining accuracy and security more efficiently has been a key problem of federated learning. In this work, we investigate a hardware solution, and design an FPGA-based homomorphic encryption framework, aiming to accelerate the training phase in federated learning. The root complexity lies in searching for a compact architecture for the core operation of homomorphic encryption, to suit the requirement of federated learning about high encryption throughput and flexibility of configuration. Our framework implements the representative Paillier homomorphic cryptosystem with high level synthesis for flexibility and portability, with careful optimization on the modular multiplication operation in terms of processing clock cycle, resource usage and clock frequency. Our accelerator achieves a near-optimal execution clock cycle, with a better DSP-efficiency than existing designs, and reduces the encryption time by up to 71% during training process of various federated learning models.",
+      "publication_date": "2020-07-21T01:59:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/pdf/2007.10560v1.pdf"
+    },
+    {
+      "title": "FPGA-based Neural Network Accelerator for Millimeter-Wave   Radio-over-Fiber Systems",
+      "authors": [
+        "Jeonghun Lee",
+        "Jiayuan He",
+        "Ke Wang"
+      ],
+      "abstract": "With the rapidly-developing high-speed wireless communications, the 60 GHz millimeter-wave frequency range and radio-over-fiber systems have been investigated as a promising solution to deliver mm-wave signals. Neural networks have been studied to improve the mm-wave RoF system performances at the receiver side by suppressing linear and nonlinear impairments. However, previous neural network studies in mm-wave RoF systems focus on the off-line implementation with high-end GPUs , which is not practical for low power-consumption, low-cost and limited computation platform applications. To solve this issue, we investigate neural network hardware accelerator implementations using the field programmable gate array (FPGA), taking advantage of the low power consumption, parallel computation capability, and reconfigurablity features of FPGA. Convolutional neural network (CNN) and binary convolutional neural network (BCNN) hardware accelerators are demonstrated. In addition, to satisfy the low-latency requirement in mm-wave RoF systems and to enable the use of low-cost compact FPGA devices, a novel inner parallel optimization method is proposed. Compared with the embedded processor (ARM Cortex A9) execution latency, the CNN/BCNN FPGA-based hardware accelerator reduces their latency by over 92%. Compared with non-optimized FPGA implementations, the proposed optimization method reduces the processing latency by over 44% for CNN and BCNN. Compared with the GPU implementation, the latency of CNN implementation with the proposed optimization method is reduced by 85.49%, while the power consumption is reduced by 86.91%. Although the latency of BCNN implementation with the proposed optimization method is larger compared with the GPU implementation, the power consumption is reduced by 86.14%. The FPGA-based neural network hardware accelerators provide a promising solution for mm-wave RoF systems.",
+      "publication_date": "2020-02-19T14:21:19+00:00",
+      "doi": "10.1364/OE.391050",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SP"
+      ],
+      "url": "http://arxiv.org/pdf/2002.08205v1.pdf"
+    },
+    {
+      "title": "Algorithm-hardware Co-design for Deformable Convolution",
+      "authors": [
+        "Qijing Huang",
+        "Dequan Wang",
+        "Yizhao Gao",
+        "Yaohui Cai",
+        "Zhen Dong",
+        "Bichen Wu",
+        "Kurt Keutzer",
+        "John Wawrzynek"
+      ],
+      "abstract": "FPGAs provide a flexible and efficient platform to accelerate rapidly-changing algorithms for computer vision. The majority of existing work focuses on accelerating image classification, while other fundamental vision problems, including object detection and instance segmentation, have not been adequately addressed. Compared with image classification, detection problems are more sensitive to the spatial variance of objects, and therefore, require specialized convolutions to aggregate spatial information. To address this, recent work proposes dynamic deformable convolution to augment regular convolutions. Regular convolutions process a fixed grid of pixels across all the spatial locations in an image, while dynamic deformable convolutions may access arbitrary pixels in the image and the access pattern is input-dependent and varies per spatial location. These properties lead to inefficient memory accesses of inputs with existing hardware. In this work, we first investigate the overhead of the deformable convolution on embedded FPGA SoCs, and then show the accuracy-latency tradeoffs for a set of algorithm modifications including full versus depthwise, fixed-shape, and limited-range. These modifications benefit the energy efficiency for embedded devices in general as they reduce the compute complexity. We then build an efficient object detection network with modified deformable convolutions and quantize the network using state-of-the-art quantization methods. We implement a unified hardware engine on FPGA to support all the operations in the network. Preliminary experiments show that little accuracy is compromised and speedup can be achieved with our co-design optimization for the deformable convolution.",
+      "publication_date": "2020-02-19T01:08:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.IV"
+      ],
+      "url": "http://arxiv.org/pdf/2002.08357v1.pdf"
+    },
+    {
+      "title": "Optimizing CNN-based Hyperspectral Image Classification on FPGAs",
+      "authors": [
+        "Shuanglong Liu",
+        "Ringo S. W. Chu",
+        "Xiwei Wang",
+        "Wayne Luk"
+      ],
+      "abstract": "Hyperspectral image (HSI) classification has been widely adopted in applications involving remote sensing imagery analysis which require high classification accuracy and real-time processing speed. Methods based on Convolutional neural networks (CNNs) have been proven to achieve state-of-the-art accuracy in classifying HSIs. However, CNN models are often too computationally intensive to achieve real-time response due to the high dimensional nature of HSI, compared to traditional methods such as Support Vector Machines (SVMs). Besides, previous CNN models used in HSI are not specially designed for efficient implementation on embedded devices such as FPGAs. This paper proposes a novel CNN-based algorithm for HSI classification which takes into account hardware efficiency. A customized architecture which enables the proposed algorithm to be mapped effectively onto FPGA resources is then proposed to support real-time on-board classification with low power consumption. Implementation results show that our proposed accelerator on a Xilinx Zynq 706 FPGA board achieves more than 70x faster than an Intel 8-core Xeon CPU and 3x faster than an NVIDIA GeForce 1080 GPU. Compared to previous SVM-based FPGA accelerators, we achieve comparable processing speed but provide a much higher classification accuracy.",
+      "publication_date": "2019-06-27T22:05:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.IV"
+      ],
+      "url": "http://arxiv.org/pdf/1906.11834v1.pdf"
+    },
+    {
+      "title": "Towards Budget-Driven Hardware Optimization for Deep Convolutional   Neural Networks using Stochastic Computing",
+      "authors": [
+        "Zhe Li",
+        "Ji Li",
+        "Ao Ren",
+        "Caiwen Ding",
+        "Jeffrey Draper",
+        "Qinru Qiu",
+        "Bo Yuan",
+        "Yanzhi Wang"
+      ],
+      "abstract": "Recently, Deep Convolutional Neural Network (DCNN) has achieved tremendous success in many machine learning applications. Nevertheless, the deep structure has brought significant increases in computation complexity. Largescale deep learning systems mainly operate in high-performance server clusters, thus restricting the application extensions to personal or mobile devices. Previous works on GPU and/or FPGA acceleration for DCNNs show increasing speedup, but ignore other constraints, such as area, power, and energy. Stochastic Computing (SC), as a unique data representation and processing technique, has the potential to enable the design of fully parallel and scalable hardware implementations of large-scale deep learning systems. This paper proposed an automatic design allocation algorithm driven by budget requirement considering overall accuracy performance. This systematic method enables the automatic design of a DCNN where all design parameters are jointly optimized. Experimental results demonstrate that proposed algorithm can achieve a joint optimization of all design parameters given the comprehensive budget of a DCNN.",
+      "publication_date": "2018-05-10T19:21:39+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NE"
+      ],
+      "url": "http://arxiv.org/pdf/1805.04142v1.pdf"
+    },
+    {
+      "title": "Compiling Deep Learning Models for Custom Hardware Accelerators",
+      "authors": [
+        "Andre Xian Ming Chang",
+        "Aliasger Zaidy",
+        "Vinayak Gokhale",
+        "Eugenio Culurciello"
+      ],
+      "abstract": "Convolutional neural networks (CNNs) are the core of most state-of-the-art deep learning algorithms specialized for object detection and classification. CNNs are both computationally complex and embarrassingly parallel. Two properties that leave room for potential software and hardware optimizations for embedded systems. Given a programmable hardware accelerator with a CNN oriented custom instructions set, the compiler's task is to exploit the hardware's full potential, while abiding with the hardware constraints and maintaining generality to run different CNN models with varying workload properties. Snowflake is an efficient and scalable hardware accelerator implemented on programmable logic devices. It implements a control pipeline for a custom instruction set. The goal of this paper is to present Snowflake's compiler that generates machine level instructions from Torch7 model description files. The main software design points explored in this work are: model structure parsing, CNN workload breakdown, loop rearrangement for memory bandwidth optimizations and memory access balancing. The performance achieved by compiler generated instructions matches against hand optimized code for convolution layers. Generated instructions also efficiently execute AlexNet and ResNet18 inference on Snowflake. Snowflake with $256$ processing units was synthesized on Xilinx's Zynq XC7Z045 FPGA. At $250$ MHz, AlexNet achieved in $93.6$ frames/s and $1.2$ GB/s of off-chip memory bandwidth, and $21.4$ frames/s and $2.2$ GB/s for ResNet18. Total on-chip power is $5$ W.",
+      "publication_date": "2017-08-01T01:01:18+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "url": "http://arxiv.org/pdf/1708.00117v2.pdf"
+    }
+  ]
+}

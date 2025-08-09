@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading",
+  "paper_title": "RETINA  Distributed and Secure Trust Management for Smart Grid Applications and Energy Trading",
+  "concepts": [
+    {
+      "text": "trust",
+      "frequency": 125,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.206036+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 178,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.206892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy",
+      "frequency": 175,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.208213+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 126,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.235159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node",
+      "frequency": 143,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.443710+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 112,
+      "relevance_score": 0.9144862191840593,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.270096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "retina",
+      "frequency": 103,
+      "relevance_score": 0.8490364337139117,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.204698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trading",
+      "frequency": 100,
+      "relevance_score": 0.8272198385571958,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.208671+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy trading",
+      "frequency": 78,
+      "relevance_score": 0.7672314740746129,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.654279+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 89,
+      "relevance_score": 0.7472256563159042,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.207353+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid",
+      "frequency": 69,
+      "relevance_score": 0.7017816886044652,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.653871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain",
+      "frequency": 65,
+      "relevance_score": 0.5726928950621774,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.222055+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "en- dorsement process",
+      "frequency": 2,
+      "relevance_score": 0.564544396771144,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.855273+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid ecosystem",
+      "frequency": 10,
+      "relevance_score": 0.5227219838557196,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.849856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate",
+      "frequency": 58,
+      "relevance_score": 0.5217875063631736,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.272135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 35,
+      "relevance_score": 0.5045269434950186,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.292951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy trading system",
+      "frequency": 5,
+      "relevance_score": 0.48636099192785975,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.856511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 32,
+      "relevance_score": 0.48271034833830273,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.275020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid ecosystems",
+      "frequency": 3,
+      "relevance_score": 0.4718165951567158,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.852779+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid system",
+      "frequency": 3,
+      "relevance_score": 0.4718165951567158,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.862077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid systems",
+      "frequency": 2,
+      "relevance_score": 0.4645443967711439,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.845089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy trading processes",
+      "frequency": 2,
+      "relevance_score": 0.4645443967711439,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.853621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trust establishment process",
+      "frequency": 2,
+      "relevance_score": 0.4645443967711439,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.858181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s resilience",
+      "frequency": 2,
+      "relevance_score": 0.4645443967711439,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.895971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electricity",
+      "frequency": 50,
+      "relevance_score": 0.46360991927859796,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.215376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 49,
+      "relevance_score": 0.45633772089302593,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.212265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy trading mechanism",
+      "frequency": 21,
+      "relevance_score": 0.45271616609701115,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.844670+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grids",
+      "frequency": 33,
+      "relevance_score": 0.43998254672387466,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.654685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network configuration 1",
+      "frequency": 5,
+      "relevance_score": 0.4363609919278598,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.889793+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "empow- ered nodes",
+      "frequency": 4,
+      "relevance_score": 0.4290887935422878,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.859465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network configuration 2",
+      "frequency": 4,
+      "relevance_score": 0.4290887935422878,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.890207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "empowered",
+      "frequency": 45,
+      "relevance_score": 0.42724892735073816,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.432230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid ecosystem",
+      "frequency": 10,
+      "relevance_score": 0.4227219838557196,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.666729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trust rela- tionships",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.856104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "en- ergy trading",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.857772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 200 300",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.881927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "200 300 400",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.882358+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy trad- ing",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.883659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 2",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.886534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 2 1",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.886948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 energy trading",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.889385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1 5",
+      "frequency": 3,
+      "relevance_score": 0.4218165951567159,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.898405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain tech- nology",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.845506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart contract-based energy",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.847643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contract-based energy trading",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.848079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 energy trading",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.854028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "buy 0 5kw",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.869051+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5kw sell",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.869464+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5kw sell 0",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.869888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sell 0 9kw",
+      "frequency": 2,
+      "relevance_score": 0.41454439677114396,
+      "source_papers": [
+        "local/RETINA__Distributed_and_Secure_Trust_Management_for_Smart_Grid_Applications_and_Energy_Trading"
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:43.870294+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:05:43.902058+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:05:43.902249+00:00",
+    "repository_version": "1.0",
+    "domain": "renewable_energy_cybersecurity"
+  }
+}

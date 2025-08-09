@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election",
+  "paper_title": "The New South Wales iVote System  Security Failures and Verification Flaws in a Live Online Election",
+  "concepts": [
+    {
+      "text": "ivote",
+      "frequency": 104,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.719390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 69,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.719636+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 65,
+      "relevance_score": 0.8854035766070565,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.730949+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "veri",
+      "frequency": 63,
+      "relevance_score": 0.8612373127114549,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.720343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting",
+      "frequency": 63,
+      "relevance_score": 0.8612373127114549,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.722563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 58,
+      "relevance_score": 0.8008216529724504,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.719875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election",
+      "frequency": 58,
+      "relevance_score": 0.8008216529724504,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.721564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "veri cation",
+      "frequency": 47,
+      "relevance_score": 0.7679072015466408,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.862179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cation",
+      "frequency": 48,
+      "relevance_score": 0.6799903334944417,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.720574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voter",
+      "frequency": 48,
+      "relevance_score": 0.6799903334944417,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.738722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vote",
+      "frequency": 45,
+      "relevance_score": 0.6437409376510391,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.734199+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "votes",
+      "frequency": 44,
+      "relevance_score": 0.6316578057032383,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.725915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 43,
+      "relevance_score": 0.6195746737554374,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.785986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting system",
+      "frequency": 21,
+      "relevance_score": 0.6037457709038183,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.863077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ivote system security",
+      "frequency": 11,
+      "relevance_score": 0.5829144514258096,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.912484+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "wales ivote system",
+      "frequency": 10,
+      "relevance_score": 0.5708313194780087,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.912274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security failures",
+      "frequency": 10,
+      "relevance_score": 0.5708313194780087,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.912692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ivote system",
+      "frequency": 17,
+      "relevance_score": 0.5554132431126149,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.861533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 36,
+      "relevance_score": 0.5349927501208314,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.790072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet voting system",
+      "frequency": 7,
+      "relevance_score": 0.5345819236346061,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.912902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 34,
+      "relevance_score": 0.5108264862252296,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.745649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "core voting system",
+      "frequency": 5,
+      "relevance_score": 0.5104156597390044,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.918191+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new south wales",
+      "frequency": 17,
+      "relevance_score": 0.5054132431126148,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.911850+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security",
+      "frequency": 12,
+      "relevance_score": 0.49499758337361044,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.861750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online voting system",
+      "frequency": 3,
+      "relevance_score": 0.48624939584340254,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.914469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "veri cation protocol",
+      "frequency": 3,
+      "relevance_score": 0.48624939584340254,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.917125+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet voting systems",
+      "frequency": 2,
+      "relevance_score": 0.4741662638956017,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.915973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voters",
+      "frequency": 28,
+      "relevance_score": 0.43832769453842435,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.736195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2015 state election",
+      "frequency": 3,
+      "relevance_score": 0.4362493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.913111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "end-to-end veri able",
+      "frequency": 3,
+      "relevance_score": 0.4362493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.916415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet voting",
+      "frequency": 19,
+      "relevance_score": 0.4295795070082165,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.862857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "280 000 votes",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.914726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "66 000 votes",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.915747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509 certi",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.920942+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "509 certi cate",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.921168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "di e- hellman",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.921805+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "19 000 votes",
+      "frequency": 2,
+      "relevance_score": 0.42416626389560175,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.924210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "south wales ivote",
+      "frequency": 10,
+      "relevance_score": 0.42083131947800867,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.912059+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2015",
+      "frequency": 18,
+      "relevance_score": 0.4174963750604157,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.724057+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 13,
+      "relevance_score": 0.4070807153214113,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.733750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new south",
+      "frequency": 17,
+      "relevance_score": 0.40541324311261484,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.860853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "south wales",
+      "frequency": 17,
+      "relevance_score": 0.40541324311261484,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.861082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "code",
+      "frequency": 25,
+      "relevance_score": 0.40207829869502176,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.747186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting systems",
+      "frequency": 4,
+      "relevance_score": 0.3983325277912035,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.872791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "veri cation server",
+      "frequency": 8,
+      "relevance_score": 0.39666505558240694,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.917772+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voter s",
+      "frequency": 16,
+      "relevance_score": 0.3933301111648139,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.879528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls protocol",
+      "frequency": 3,
+      "relevance_score": 0.3862493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.873625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cation protocol",
+      "frequency": 3,
+      "relevance_score": 0.3862493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.875113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ivr system",
+      "frequency": 3,
+      "relevance_score": 0.3862493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.877015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system s",
+      "frequency": 3,
+      "relevance_score": 0.3862493958434026,
+      "source_papers": [
+        "local/The_New_South_Wales_iVote_System__Security_Failures_and_Verification_Flaws_in_a_Live_Online_Election"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:53.899487+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:09:53.926443+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:09:53.926633+00:00",
+    "repository_version": "1.0",
+    "domain": "election_voting_system_security"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Portfolio_Risk_Assessment_using_Copula_Models",
+  "paper_title": "Portfolio Risk Assessment using Copula Models",
+  "concepts": [
+    {
+      "text": "copula",
+      "frequency": 87,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.821289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 36,
+      "relevance_score": 0.8605834464043419,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.821482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk",
+      "frequency": 41,
+      "relevance_score": 0.7953867028493894,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.820806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "student s",
+      "frequency": 32,
+      "relevance_score": 0.7427408412483039,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.892372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "copulas",
+      "frequency": 37,
+      "relevance_score": 0.7275440976933514,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.822662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "copula models",
+      "frequency": 22,
+      "relevance_score": 0.7231343283582089,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.889288+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gaussian",
+      "frequency": 34,
+      "relevance_score": 0.6766621438263228,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.826643+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distribution",
+      "frequency": 34,
+      "relevance_score": 0.6766621438263228,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.832644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 02 0",
+      "frequency": 16,
+      "relevance_score": 0.6713704206241519,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.970456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "student",
+      "frequency": 33,
+      "relevance_score": 0.6597014925373134,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.826810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 02",
+      "frequency": 20,
+      "relevance_score": 0.6392130257801899,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.922818+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 04 0",
+      "frequency": 14,
+      "relevance_score": 0.6374491180461329,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.969100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "portfolio",
+      "frequency": 31,
+      "relevance_score": 0.6257801899592944,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.820459+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 06 0",
+      "frequency": 13,
+      "relevance_score": 0.6204884667571234,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.970119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "student s t",
+      "frequency": 18,
+      "relevance_score": 0.605291723202171,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.959516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parameters",
+      "frequency": 29,
+      "relevance_score": 0.5918588873812755,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.840056+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "04 0",
+      "frequency": 17,
+      "relevance_score": 0.5883310719131615,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.921326+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "02 0",
+      "frequency": 16,
+      "relevance_score": 0.571370420624152,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.922988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 05 0",
+      "frequency": 10,
+      "relevance_score": 0.569606512890095,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.968592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "06 0",
+      "frequency": 15,
+      "relevance_score": 0.5544097693351425,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.922100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 00 0",
+      "frequency": 9,
+      "relevance_score": 0.5526458616010854,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.968931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r-vine",
+      "frequency": 20,
+      "relevance_score": 0.5392130257801899,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.850265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016",
+      "frequency": 20,
+      "relevance_score": 0.5392130257801899,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.859181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s t",
+      "frequency": 20,
+      "relevance_score": 0.5392130257801899,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.899626+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 00",
+      "frequency": 14,
+      "relevance_score": 0.5374491180461329,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.917632+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 04",
+      "frequency": 14,
+      "relevance_score": 0.5374491180461329,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.921149+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 06",
+      "frequency": 13,
+      "relevance_score": 0.5204884667571235,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.922642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "00 40 8",
+      "frequency": 7,
+      "relevance_score": 0.5187245590230665,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.974718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 05",
+      "frequency": 12,
+      "relevance_score": 0.503527815468114,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.920794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "05 0",
+      "frequency": 12,
+      "relevance_score": 0.503527815468114,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.920971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 01",
+      "frequency": 12,
+      "relevance_score": 0.503527815468114,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.948165+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "00 0 02",
+      "frequency": 6,
+      "relevance_score": 0.501763907734057,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.972197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vine",
+      "frequency": 23,
+      "relevance_score": 0.4900949796472185,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.827356+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "00 0",
+      "frequency": 11,
+      "relevance_score": 0.4865671641791045,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.916762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "06 0 02",
+      "frequency": 5,
+      "relevance_score": 0.4848032564450475,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.970287+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "40 8 0",
+      "frequency": 5,
+      "relevance_score": 0.4848032564450475,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.974885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "99 9 5",
+      "frequency": 5,
+      "relevance_score": 0.4848032564450475,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.976389+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk management framework",
+      "frequency": 2,
+      "relevance_score": 0.483921302578019,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.959347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "series",
+      "frequency": 22,
+      "relevance_score": 0.4731343283582089,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.823941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 49 0",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.964993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 98 0",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.966893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "log returnsdensity 0",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.968423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "02 0 00",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.972030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "02 0 04",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.972363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "06 0 000",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.973048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 000 04",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.973216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 00 40",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.975218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "99 5 5",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.976892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 2bias 10",
+      "frequency": 4,
+      "relevance_score": 0.4678426051560379,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.979559+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vine copula",
+      "frequency": 15,
+      "relevance_score": 0.4544097693351425,
+      "source_papers": [
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "source_domain": "cyber_risk_quantification",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:46.892884+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:36:46.993615+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:36:46.993803+00:00",
+    "repository_version": "1.0",
+    "domain": "cyber_risk_quantification"
+  }
+}

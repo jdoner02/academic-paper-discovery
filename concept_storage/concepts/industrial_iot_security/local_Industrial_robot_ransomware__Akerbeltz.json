@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Industrial_robot_ransomware__Akerbeltz",
+  "paper_title": "Industrial robot ransomware  Akerbeltz",
+  "concepts": [
+    {
+      "text": "robot",
+      "frequency": 39,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.036202+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 32,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.042403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robots",
+      "frequency": 29,
+      "relevance_score": 0.9811911273169249,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.040541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "akerbeltz",
+      "frequency": 24,
+      "relevance_score": 0.8292616226071102,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.036417+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware",
+      "frequency": 23,
+      "relevance_score": 0.7988757216651473,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.036310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "universal robots",
+      "frequency": 14,
+      "relevance_score": 0.625402613187481,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.071729+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 16,
+      "relevance_score": 0.5861744150714069,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.042178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vulnerabilities",
+      "frequency": 16,
+      "relevance_score": 0.5861744150714069,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.055883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ur3",
+      "frequency": 12,
+      "relevance_score": 0.5646308113035551,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.057666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial",
+      "frequency": 15,
+      "relevance_score": 0.5557885141294439,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.036088+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "universal",
+      "frequency": 15,
+      "relevance_score": 0.5557885141294439,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.040652+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 15,
+      "relevance_score": 0.5557885141294439,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.041428+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 10,
+      "relevance_score": 0.5538590094196293,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.038604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "safety",
+      "frequency": 13,
+      "relevance_score": 0.495016712245518,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.038963+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ur3 cb series",
+      "frequency": 3,
+      "relevance_score": 0.4911577028258888,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robotics",
+      "frequency": 12,
+      "relevance_score": 0.4646308113035551,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.036834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 7,
+      "relevance_score": 0.46270130659374054,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.038501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "initial cyber-intrusion lateral",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079744+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-intrusion lateral movement",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tech rep 2017",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080463+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rep 2017 online",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017 online available",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018 online available",
+      "frequency": 2,
+      "relevance_score": 0.46077180188392586,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control box",
+      "frequency": 7,
+      "relevance_score": 0.4127013065937405,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.074565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system integration",
+      "frequency": 2,
+      "relevance_score": 0.4107718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.071317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robotic systems",
+      "frequency": 2,
+      "relevance_score": 0.4107718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.073268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ur3 cb",
+      "frequency": 3,
+      "relevance_score": 0.3911577028258888,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.075417+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e gil-uriarte",
+      "frequency": 3,
+      "relevance_score": 0.3911577028258888,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.078974+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial robot ransomware",
+      "frequency": 3,
+      "relevance_score": 0.3911577028258888,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial collaborative robots",
+      "frequency": 3,
+      "relevance_score": 0.3911577028258888,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079635+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial robot",
+      "frequency": 6,
+      "relevance_score": 0.3823154056517776,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.070906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available",
+      "frequency": 9,
+      "relevance_score": 0.37347310847766635,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.059422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "initial cyber-intrusion",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.072183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-intrusion lateral",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.072296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iso 10218-1",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.075206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rep 2017",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.077647+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017 online",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.077760+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018 online",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839259,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "later control phase",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.079950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "basque mythology akerbeltz",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cb series robot",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080258+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robot user interface",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080361+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v m vilches",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080769+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.080872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v mayoral vilches",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.081076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "robot security vulnerabilities",
+      "frequency": 2,
+      "relevance_score": 0.3607718018839258,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.081179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2017",
+      "frequency": 5,
+      "relevance_score": 0.35192950470981466,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.058985+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2018",
+      "frequency": 5,
+      "relevance_score": 0.35192950470981466,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.069354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lateral movement",
+      "frequency": 5,
+      "relevance_score": 0.35192950470981466,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.072404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "teach pendant",
+      "frequency": 5,
+      "relevance_score": 0.35192950470981466,
+      "source_papers": [
+        "local/Industrial_robot_ransomware__Akerbeltz"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:21.074684+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:17:21.081349+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:17:21.081529+00:00",
+    "repository_version": "1.0",
+    "domain": "industrial_iot_security"
+  }
+}

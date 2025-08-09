@@ -1,0 +1,891 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T15:58:55.479282+00:00",
+    "strategy_name": "Containerized and Portable Security Agents",
+    "total_papers": 50,
+    "download_directory": "outputs/autonomous_cyber_defense_systems/containerized_security_agents/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy   as Code",
+      "authors": [
+        "Samodha Pallewatta",
+        "Muhammad Ali Babar"
+      ],
+      "abstract": "IoT application providers increasingly use MicroService Architecture (MSA) to develop applications that convert IoT data into valuable information. The independently deployable and scalable nature of microservices enables dynamic utilization of edge and cloud resources provided by various service providers, thus improving performance. However, IoT data security should be ensured during multi-domain data processing and transmission among distributed and dynamically composed microservices. The ability to implement granular security controls at the microservices level has the potential to solve this. To this end, edge-cloud environments require intricate and scalable security frameworks that operate across multi-domain environments to enforce various security policies during the management of microservices (i.e., initial placement, scaling, migration, and dynamic composition), considering the sensitivity of the IoT data. To address the lack of such a framework, we propose an architectural framework that uses Policy-as-Code to ensure secure microservice management within multi-domain edge-cloud environments. The proposed framework contains a \"control plane\" to intelligently and dynamically utilise and configure cloud-native (i.e., container orchestrators and service mesh) technologies to enforce security policies. We implement a prototype of the proposed framework using open-source cloud-native technologies such as Docker, Kubernetes, Istio, and Open Policy Agent to validate the framework. Evaluations verify our proposed framework's ability to enforce security policies for distributed microservices management, thus harvesting the MSA characteristics to ensure IoT application security needs.",
+      "publication_date": "2024-06-27T01:03:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2406.18813v2"
+    },
+    {
+      "title": "Docker under Siege: Securing Containers in the Modern Era",
+      "authors": [
+        "Gogulakrishnan Thiyagarajan",
+        "Prabhudarshi Nayak"
+      ],
+      "abstract": "Containerization, driven by Docker, has transformed application development and deployment by enhancing efficiency and scalability. However, the rapid adoption of container technologies introduces significant security challenges that require careful management. This paper investigates key areas of container security, including runtime protection, network safeguards, configuration best practices, supply chain security, and comprehensive monitoring and logging solutions. We identify common vulnerabilities within these domains and provide actionable recommendations to address and mitigate these risks. By integrating security throughout the Software Development Lifecycle (SDLC), organizations can reinforce their security posture, creating a resilient and reliable containerized application infrastructure that withstands evolving threats.",
+      "publication_date": "2025-05-31T13:00:52+00:00",
+      "doi": "10.32628/CSEIT25112773",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.02043v1"
+    },
+    {
+      "title": "Mitigating Docker Security Issues",
+      "authors": [
+        "Robail Yasrab"
+      ],
+      "abstract": "Docker offers an ecosystem that offers a platform for application packaging, distributing, and managing within containers. However, the Docker platform has not yet matured. Presently, Docker is less secured than virtual machines (VM) and most of the other cloud technologies. The key to Dockers inadequate security protocols is container sharing of Linux kernel, which can lead to the risk of privileged escalations. This research will outline some significant security vulnerabilities at Docker and counter solutions to neutralize such attacks. There are a variety of security attacks like insider and outsider. This research will outline both types of attacks and their mitigations strategies. Taking some precautionary measures can save from massive disasters. This research will also present Docker secure deployment guidelines. These guidelines will suggest different configurations to deploy Docker containers in a more secure way.",
+      "publication_date": "2018-04-13T17:10:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1804.05039v3"
+    },
+    {
+      "title": "Syndeo: Portable Ray Clusters with Secure Containerization",
+      "authors": [
+        "William Li",
+        "Rodney S. Lafuente Mercado",
+        "Jaime D. Pena",
+        "Ross E. Allen"
+      ],
+      "abstract": "We present Syndeo: a software framework for container orchestration of Ray on Slurm. In general the idea behind Syndeo is to write code once and deploy anywhere. Specifically, Syndeo is designed to addresses the issues of portability, scalability, and security for parallel computing. The design is portable because the containerized Ray code can be re-deployed on Amazon Web Services, Microsoft Azure, Google Cloud, or Alibaba Cloud. The process is scalable because we optimize for multi-node, high-throughput computing. The process is secure because users are forced to operate with unprivileged profiles meaning administrators control the access permissions. We demonstrate Syndeo's portable, scalable, and secure design by deploying containerized parallel workflows on Slurm for which Ray does not officially support.",
+      "publication_date": "2024-09-25T16:30:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "arxiv_id": "2409.17070v1"
+    },
+    {
+      "title": "On Security Measures for Containerized Applications Imaged with Docker",
+      "authors": [
+        "Samuel P. Mullinix",
+        "Erikton Konomi",
+        "Renee Davis Townsend",
+        "Reza M. Parizi"
+      ],
+      "abstract": "Linux containers have risen in popularity in the last few years, making their way to commercial IT service offerings (such as PaaS), application deployments, and Continuous Delivery/Integration pipelines within various development teams. Along with the wide adoption of Docker, security vulnerabilities and concerns have also surfaced. In this survey, we examine the state of security for the most popular container system at the moment: Docker. We will also look into its origins stemming from the Linux technologies built into the OS itself; examine intrinsic vulnerabilities, such as the Docker Image implementation; and provide an analysis of current tools and modern methodologies used in the field to evaluate and enhance its security. For each section, we pinpoint metrics of interest, as they have been revealed by researchers and experts in the domain and summarize their findings to paint a holistic picture of the efforts behind those findings. Lastly, we look at tools utilized in the industry to streamline Docker security scanning and analytics which provide built-in aggregation of key metrics.",
+      "publication_date": "2020-08-11T16:10:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2008.04814v1"
+    },
+    {
+      "title": "Comparative Analysis of Lightweight Kubernetes Distributions for Edge   Computing: Security, Resilience and Maintainability",
+      "authors": [
+        "Diyaz Yakubov",
+        "David Hästbacka"
+      ],
+      "abstract": "The increasing demand for real-time data processing in Internet of Things (IoT) devices has elevated the importance of edge computing, necessitating efficient and secure deployment of applications on resource-constrained devices. Kubernetes and its lightweight distributions (k0s, k3s, KubeEdge, and OpenYurt) extend container orchestration to edge environments, but their security, reliability, and maintainability have not been comprehensively analyzed. This study compares Kubernetes and these lightweight distributions by evaluating security compliance using kube-bench, simulating network outages to assess resiliency, and documenting maintainability. Results indicate that while k3s and k0s offer superior ease of development due to their simplicity, they have lower security compliance compared to Kubernetes, KubeEdge, and OpenYurt. Kubernetes provides a balanced approach but may be resource-intensive for edge deployments. KubeEdge and OpenYurt enhance security features and reliability under network outages but increase complexity and resource consumption. The findings highlight trade-offs between performance, security, resiliency, and maintainability, offering insights for practitioners deploying Kubernetes in edge environments.",
+      "publication_date": "2025-03-04T20:05:40+00:00",
+      "doi": "10.1007/978-3-031-84617-5_8",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2503.04815v1"
+    },
+    {
+      "title": "XI Commandments of Kubernetes Security: A Systematization of Knowledge   Related to Kubernetes Security Practices",
+      "authors": [
+        "Md. Shazibul Islam Shamim",
+        "Farzana Ahamed Bhuiyan",
+        "Akond Rahman"
+      ],
+      "abstract": "Kubernetes is an open-source software for automating management of computerized services. Organizations, such as IBM, Capital One and Adidas use Kubernetes to deploy and manage their containers, and have reported benefits related to deployment frequency. Despite reported benefits, Kubernetes deployments are susceptible to security vulnerabilities, such as those that occurred at Tesla in 2018. A systematization of Kubernetes security practices can help practitioners mitigate vulnerabilities in their Kubernetes deployments. The goal of this paper is to help practitioners in securing their Kubernetes installations through a systematization of knowledge related to Kubernetes security practices. We systematize knowledge by applying qualitative analysis on 104 Internet artifacts. We identify 11 security practices that include (i) implementation of role-based access control (RBAC) authorization to provide least privilege, (ii) applying security patches to keep Kubernetes updated, and (iii) implementing pod and network specific security policies.",
+      "publication_date": "2020-06-27T03:57:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2006.15275v1"
+    },
+    {
+      "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System   Design for Drug Discovery Laboratory Automation",
+      "authors": [
+        "Yao Fehlis",
+        "Charles Crain",
+        "Aidan Jensen",
+        "Michael Watson",
+        "James Juhasz",
+        "Paul Mandel",
+        "Betty Liu",
+        "Shawn Mahon",
+        "Daren Wilson",
+        "Nick Lynch-Jonely",
+        "Ben Leedom",
+        "David Fuller"
+      ],
+      "abstract": "Building on the conceptual framework presented in our previous work on agentic AI for pharmaceutical research, this paper provides a comprehensive technical analysis of Tippy's multi-agent system implementation for drug discovery laboratory automation. We present a distributed microservices architecture featuring five specialized agents (Supervisor, Molecule, Lab, Analysis, and Report) that coordinate through OpenAI Agents SDK orchestration and access laboratory tools via the Model Context Protocol (MCP). The system architecture encompasses agent-specific tool integration, asynchronous communication patterns, and comprehensive configuration management through Git-based tracking. Our production deployment strategy utilizes Kubernetes container orchestration with Helm charts, Docker containerization, and CI/CD pipelines for automated testing and deployment. The implementation integrates vector databases for RAG functionality and employs an Envoy reverse proxy for secure external access. This work demonstrates how specialized AI agents can effectively coordinate complex laboratory workflows while maintaining security, scalability, reliability, and integration with existing laboratory infrastructure through standardized protocols.",
+      "publication_date": "2025-07-18T17:57:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.MA"
+      ],
+      "arxiv_id": "2507.17852v1"
+    },
+    {
+      "title": "KGSecConfig: A Knowledge Graph Based Approach for Secured Container   Orchestrator Configuration",
+      "authors": [
+        "Mubin Ul Haque",
+        "M. Mehdi Kholoosi",
+        "M. Ali Babar"
+      ],
+      "abstract": "Container Orchestrator (CO) is a vital technology for managing clusters of containers, which may form a virtualized infrastructure for developing and operating software systems. Like any other software system, securing CO is critical, but can be quite challenging task due to large number of configurable options. Manual configuration is not only knowledge intensive and time consuming, but also is error prone. For automating security configuration of CO, we propose a novel Knowledge Graph based Security Configuration, KGSecConfig, approach. Our solution leverages keyword and learning models to systematically capture, link, and correlate heterogeneous and multi-vendor configuration space in a unified structure for supporting automation of security configuration of CO. We implement KGSecConfig on Kubernetes, Docker, Azure, and VMWare to build secured configuration knowledge graph. Our evaluation results show 0.98 and 0.94 accuracy for keyword and learning-based secured configuration option and concept extraction, respectively. We also demonstrate the utilization of the knowledge graph for automated misconfiguration mitigation in a Kubernetes cluster. We assert that our knowledge graph based approach can help in addressing several challenges, e.g., misconfiguration of security, associated with manually configuring the security of CO.",
+      "publication_date": "2021-12-21T07:40:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2112.12595v1"
+    },
+    {
+      "title": "The Kubernetes Security Landscape: AI-Driven Insights from Developer   Discussions",
+      "authors": [
+        "J. Alexander Curtis",
+        "Nasir U. Eisty"
+      ],
+      "abstract": "Kubernetes, the go-to container orchestration solution, has swiftly become the industry standard for managing containers at scale in production environments. Its widespread adoption, particularly in large organizations, has elevated its profile and made it a prime target for security concerns. This study aims to understand how prevalent security concerns are among Kubernetes practitioners by analyzing all Kubernetes posts made on Stack Overflow over the past four years. We gathered security insights from Kubernetes practitioners and transformed the data through machine learning algorithms for cleaning and topic clustering. Subsequently, we used advanced AI tools to automatically generate topic descriptions, thereby reducing the analysis process. In our analysis, security-related posts ranked as the fourth most prevalent topic in these forums, comprising 12.3% of the overall discussions. Furthermore, the findings indicated that although the frequency of security discussions has remained constant, their popularity and influence have experienced significant growth. Kubernetes users consistently prioritize security topics, and the rising popularity of security posts reflects a growing interest and concern for maintaining secure Kubernetes clusters. The findings underscore key security issues that warrant further research and the development of additional tools to resolve them.",
+      "publication_date": "2024-09-06T23:00:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2409.04647v1"
+    },
+    {
+      "title": "Survey of adaptive containerization architectures for HPC",
+      "authors": [
+        "Tiziano Müller",
+        "Nina Mujkanovic",
+        "Juan J. Durillo",
+        "Nicolay Hammer"
+      ],
+      "abstract": "Containers offer an array of advantages that benefit research reproducibility and portability across groups and systems. As container tools mature, container security improves, and High-performance computing (HPC) and cloud system tools converge, supercomputing centers are increasingly integrating containers in their workflows. The technology selection process requires sufficient information on the diverse tools available, yet the majority of research into containers still focuses on cloud environments. We consider an adaptive containerization approach, with a focus on accelerating the deployment of applications and workflows on HPC systems using containers. To this end, we discuss the specific HPC requirements regarding container tools, and analyze the entire containerization stack, including container engines and registries, in-depth. Finally, we consider various orchestrator and HPC workload manager integration scenarios.",
+      "publication_date": "2023-08-23T14:05:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "arxiv_id": "2308.12147v1"
+    },
+    {
+      "title": "Analysis of Docker Security",
+      "authors": [
+        "Thanh Bui"
+      ],
+      "abstract": "Over the last few years, the use of virtualization technologies has increased dramatically. This makes the demand for efficient and secure virtualization solutions become more obvious. Container-based virtualization and hypervisor-based virtualization are two main types of virtualization technologies that have emerged to the market. Of these two classes, container-based virtualization is able to provide a more lightweight and efficient virtual environment, but not without security concerns. In this paper, we analyze the security level of Docker, a well-known representative of container-based approaches. The analysis considers two areas: (1) the internal security of Docker, and (2) how Docker interacts with the security features of the Linux kernel, such as SELinux and AppArmor, in order to harden the host system. Furthermore, the paper also discusses and identifies what could be done when using Docker to increase its level of security.",
+      "publication_date": "2015-01-13T11:44:02+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1501.02967v1"
+    },
+    {
+      "title": "On The Relation Between Outdated Docker Containers, Severity   Vulnerabilities and Bugs",
+      "authors": [
+        "Ahmed Zerouali",
+        "Tom Mens",
+        "Gregorio Robles",
+        "Jesus Gonzalez-Barahona"
+      ],
+      "abstract": "Packaging software into containers is becoming a common practice when deploying services in cloud and other environments. Docker images are one of the most popular container technologies for building and deploying containers. A container image usually includes a collection of software packages, that can have bugs and security vulnerabilities that affect the container health. Our goal is to support container deployers by analysing the relation between outdated containers and vulnerable and buggy packages installed in them. We use the concept of technical lag of a container as the difference between a given container and the most up-to-date container that is possible with the most recent releases of the same collection of packages. For 7,380 official and community Docker images that are based on the Debian Linux distribution, we identify which software packages are installed in them and measure their technical lag in terms of version updates, security vulnerabilities and bugs. We have found, among others, that no release is devoid of vulnerabilities, so deployers cannot avoid vulnerabilities even if they deploy the most recent packages. We offer some lessons learned for container developers in regard to the strategies they can follow to minimize the number of vulnerabilities. We argue that Docker container scan and security management tools should improve their platforms by adding data about other kinds of bugs and include the measurement of technical lag to offer deployers information of when to update.",
+      "publication_date": "2018-11-30T16:24:04+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "1811.12874v1"
+    },
+    {
+      "title": "Optimizing Intra-Container Communication with Memory Protection Keys: A   Novel Approach to Secure and Efficient Microservice Interaction",
+      "authors": [
+        "Fnu Yashu",
+        "Shubham Malhotra",
+        "Muhammad Saqib"
+      ],
+      "abstract": "In modern cloud-native applications, microservices are commonly deployed in containerized environments to ensure scalability and flexibility. However, inter-process communication (IPC) between co-located microservices often suffers from significant overhead, especially when traditional networking protocols are employed within containers. This paper introduces a novel approach, MPKLink, leveraging Intel Memory Protection Keys (MPK) to enhance intra-container communication efficiency while ensuring security. By utilizing shared memory with MPK-based access control, we eliminate unnecessary networking latencies, leading to reduced resource consumption and faster response times. We present a comprehensive evaluation of MPKLink, demonstrating its superior performance over conventional methods such as REST and gRPC within microservice architectures. Furthermore, we explore the integration of this approach with existing container orchestration platforms, showcasing its seamless adoption in real-world deployment scenarios. This work provides a transformative solution for developers looking to optimize communication in microservices while maintaining the integrity and security of containerized applications.",
+      "publication_date": "2025-05-04T13:34:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "arxiv_id": "2505.07836v1"
+    },
+    {
+      "title": "Enabling Security-Oriented Orchestration of Microservices",
+      "authors": [
+        "Marcela S. Melara",
+        "Mic Bowman"
+      ],
+      "abstract": "As cloud providers push multi-tenancy to new levels to meet growing scalability demands, ensuring that externally developed untrusted microservices will preserve tenant isolation has become a high priority. Developers, in turn, lack a means for expressing and automatically enforcing high-level application security requirements at deployment time. In this paper, we observe that orchestration systems are ideally situated between developers and the cloud provider to address these issues. We propose a security policy framework that enables security-oriented orchestration of microservices by capturing and auditing code properties that are incorporated into microservice code throughout the software supply chain. Orchestrators can leverage these properties to deploy microservices on a node that matches both the developer's and cloud provider's security policy and their resource requirements. We demonstrate our approach with a proof-of-concept based on the Private Data Objects [1] confidential smart contract framework, deploying code only after checking its provenance.",
+      "publication_date": "2021-06-17T22:39:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2106.09841v1"
+    },
+    {
+      "title": "i2kit: A Tool for Immutable Infrastructure Deployments based on   Lightweight Virtual Machines specialized to run Containers",
+      "authors": [
+        "Pablo Chico de Guzman",
+        "Felipe Gorostiaga",
+        "Cesar Sanchez"
+      ],
+      "abstract": "Container technologies, like Docker, are becoming increasingly popular. Containers provide exceptional developer experience because containers offer lightweight isolation and ease of software distribution. Containers are also widely used in production environments, where a different set of challenges arise such as security, networking, service discovery and load balancing. Container cluster management tools, such as Kubernetes, attempt to solve these problems by introducing a new control layer with the container as the unit of deployment. However, adding a new control layer is an extra configuration step and an additional potential source of runtime errors. The virtual machine technology offered by cloud providers is more mature and proven in terms of security, networking, service discovery and load balancing. However, virtual machines are heavier than containers for local development, are less flexible for resource allocation, and suffer longer boot times. This paper presents an alternative to containers that enjoy the best features of both approaches: (1) the use of mature, proven cloud vendor technology; (2) no need for a new control layer; and (3) as lightweight as containers. Our solution is i2kit, a deployment tool based on the immutable infrastructure pattern, where the virtual machine is the unit of deployment. The i2kit tool accepts a simplified format of Kubernetes Deployment Manifests in order to reuse Kubernetes' most successful principles, but it creates a lightweight virtual machine for each Pod using Linuxkit. Linuxkit alleviates the drawback in size that using virtual machines would otherwise entail, because the footprint of Linuxkit is approximately 60MB. Finally, the attack surface of the system is reduced since Linuxkit only installs the minimum set of OS dependencies to run containers, and different Pods are isolated by hypervisor technology.",
+      "publication_date": "2018-02-28T11:51:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "arxiv_id": "1802.10375v1"
+    },
+    {
+      "title": "Implementation of New Security Features in CMSWEB Kubernetes Cluster at   CERN",
+      "authors": [
+        "Aamir Ali",
+        "Muhammad Imran",
+        "Valentin Kuznetsov",
+        "Spyridon Trigazis",
+        "Aroosha Pervaiz",
+        "Andreas Pfeiffer",
+        "Marco Mascheroni"
+      ],
+      "abstract": "The CMSWEB cluster is pivotal to the activities of the Compact Muon Solenoid (CMS) experiment, as it hosts critical services required for the operational needs of the CMS experiment. The security of these services and the corresponding data is crucial to CMS. Any malicious attack can compromise the availability of our services. Therefore, it is important to construct a robust security infrastructure. In this work, we discuss new security features introduced to the CMSWEB Kubernetes (\"k8s\") cluster. The new features include the implementation of network policies, deployment of Open Policy Agent (OPA), enforcement of OPA policies, and the integration of Vault. The network policies act as an inside-the-cluster firewall to limit the network communication between the pods to the minimum necessary, and its dynamic nature allows us to work with microservices. The OPA validates the objects against some custom-defined policies during create, update, and delete operations to further enhance security. Without recompiling or changing the configuration of the Kubernetes API server, it can apply customized policies on Kubernetes objects and their audit functionality enabling us to detect pre-existing conflicts and issues. Although Kubernetes incorporates the concepts of secrets, they are only base64 encoded and are not dynamically configured. This is where Vault comes into play: Vault dynamically secures, stores, and tightly controls access to sensitive data. This way, the secret information is encrypted, secured, and centralized, making it more scalable and easier to manage. Thus, the implementation of these three security features corroborate the enhanced security and reliability of the CMSWEB Kubernetes infrastructure.",
+      "publication_date": "2024-05-24T08:22:22+00:00",
+      "doi": "10.1051/epjconf/202429507026",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.15342v1"
+    },
+    {
+      "title": "Security Orchestration, Automation, and Response Engine for Deployment   of Behavioural Honeypots",
+      "authors": [
+        "Upendra Bartwal",
+        "Subhasis Mukhopadhyay",
+        "Rohit Negi",
+        "Sandeep Shukla"
+      ],
+      "abstract": "Cyber Security is a critical topic for organizations with IT/OT networks as they are always susceptible to attack, whether insider or outsider. Since the cyber landscape is an ever-evolving scenario, one must keep upgrading its security systems to enhance the security of the infrastructure. Tools like Security Information and Event Management (SIEM), Endpoint Detection and Response (EDR), Threat Intelligence Platform (TIP), Information Technology Service Management (ITSM), along with other defensive techniques like Intrusion Detection System (IDS), Intrusion Protection System (IPS), and many others enhance the cyber security posture of the infrastructure. However, the proposed protection mechanisms have their limitations, they are insufficient to ensure security, and the attacker penetrates the network. Deception technology, along with Honeypots, provides a false sense of vulnerability in the target systems to the attackers. The attacker deceived reveals threat intel about their modus operandi. We have developed a Security Orchestration, Automation, and Response (SOAR) Engine that dynamically deploys custom honeypots inside the internal network infrastructure based on the attacker's behavior. The architecture is robust enough to support multiple VLANs connected to the system and used for orchestration. The presence of botnet traffic and DDOS attacks on the honeypots in the network is detected, along with a malware collection system. After being exposed to live traffic for four days, our engine dynamically orchestrated the honeypots 40 times, detected 7823 attacks, 965 DDOS attack packets, and three malicious samples. While our experiments with static honeypots show an average attacker engagement time of 102 seconds per instance, our SOAR Engine-based dynamic honeypots engage attackers on average 3148 seconds.",
+      "publication_date": "2022-01-14T07:57:12+00:00",
+      "doi": "10.1109/DSC54232.2022.9888808",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2201.05326v1"
+    },
+    {
+      "title": "Managing Security Issues in Software Containers: From Practitioners   Perspective",
+      "authors": [
+        "Maha Sroor",
+        "Rahul Mohanani",
+        "Ricardo Colomo-Palacios",
+        "Sandun Dasanayake",
+        "Tommi Mikkonen"
+      ],
+      "abstract": "Software development industries are increasingly adopting containers to enhance the scalability and flexibility of software applications. Security in containerized projects is a critical challenge that can lead to data breaches and performance degradation, thereby directly affecting the reliability and operations of the container services. Despite the ongoing effort to manage the security issues in containerized projects in software engineering (SE) research, more focused investigations are needed to explore the human perspective of security management and the technical approaches to security management in containerized projects. This research aims to explore security management in containerized projects by exploring how SE practitioners perceive the security issues in containerized software projects and their approach to managing such issues. A clear understanding of security management in containerized projects will enable industries to develop robust security strategies that enhance software reliability and trust. To achieve this, we conducted two separate semi-structured interview studies to examine how practitioners approach security management. The first study focused on practitioners perceptions of security challenges in containerized environments, where we interviewed 15 participants between December 2022 and October 2023. The second study explored how to enhance container security, with 20 participants interviewed between October 2024 and December 2024. Analyzing the data from both studies reveals how SE practitioners address the various security challenges in containerized projects. Our analysis also identified the technical and non-technical enablers that can be utilized to enhance security.",
+      "publication_date": "2025-04-10T12:49:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "2504.07707v1"
+    },
+    {
+      "title": "QoS and Resource aware Security Orchestration System",
+      "authors": [
+        "M. Bagaa",
+        "T. Taleb",
+        "J. B. Bernabe",
+        "A. Skarmeta"
+      ],
+      "abstract": "Network Function Virtualization (NFV) and Software Distributed Networking (SDN) technologies play a crucial role in enabling 5G system and beyond. A synergy between these both technologies has been identified for enabling a new concept dubbed service function chains (SFC) that aims to reduce both the capital expenditures (CAPEX) and operating expenses (OPEX). The SFC paradigm considers different constraints and key performance indicators (KPIs), that includes QoS and different resources, for enabling network slice services. However, the large-scale, complexity and security issues brought by these technologies create an extra overhead for ensuring secure network slicing. To cope with these challenges, this paper proposes a cost-efficient optimized SFC management system that enables the creation of SFCs for enabling efficient and secure network slices. The proposed system considers the network and computational resources and current network security levels to ensure trusted deployments. The simulation results demonstrated the efficiency of the proposed solution for achieving its designed objectives. The proposed solution efficiently manages the SFCs by optimizing deployment costs and reducing overall end-to-end delay",
+      "publication_date": "2022-01-05T07:11:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2201.03369v1"
+    },
+    {
+      "title": "Agent Name Service (ANS): A Universal Directory for Secure AI Agent   Discovery and Interoperability",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "Idan Habler",
+        "Akram Sheriff"
+      ],
+      "abstract": "The proliferation of AI agents requires robust mechanisms for secure discovery. This paper introduces the Agent Name Service (ANS), a novel architecture based on DNS addressing the lack of a public agent discovery framework. ANS provides a protocol-agnostic registry infrastructure that leverages Public Key Infrastructure (PKI) certificates for verifiable agent identity and trust. The architecture features several key innovations: a formalized agent registration and renewal mechanism for lifecycle management; DNS-inspired naming conventions with capability-aware resolution; a modular Protocol Adapter Layer supporting diverse communication standards (A2A, MCP, ACP etc.); and precisely defined algorithms for secure resolution. We implement structured communication using JSON Schema and conduct a comprehensive threat analysis of our proposal. The result is a foundational directory service addressing the core challenges of secured discovery and interaction in multi-agent systems, paving the way for future interoperable, trustworthy, and scalable agent ecosystems.",
+      "publication_date": "2025-05-15T17:49:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.10609v1"
+    },
+    {
+      "title": "A survey of agent interoperability protocols: Model Context Protocol   (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and   Agent Network Protocol (ANP)",
+      "authors": [
+        "Abul Ehtesham",
+        "Aditi Singh",
+        "Gaurav Kumar Gupta",
+        "Saket Kumar"
+      ],
+      "abstract": "Large language model powered autonomous agents demand robust, standardized protocols to integrate tools, share contextual data, and coordinate tasks across heterogeneous systems. Ad-hoc integrations are difficult to scale, secure, and generalize across domains. This survey examines four emerging agent communication protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP), each addressing interoperability in deployment contexts. MCP provides a JSON-RPC client-server interface for secure tool invocation and typed data exchange. ACP defines a general-purpose communication protocol over RESTful HTTP, supporting MIME-typed multipart messages and synchronous and asynchronous interactions. Its lightweight and runtime-independent design enables scalable agent invocation, while features like session management, message routing, and integration with role-based and decentralized identifiers (DIDs). A2A enables peer-to-peer task delegation using capability-based Agent Cards, supporting secure and scalable collaboration across enterprise agent workflows. ANP supports open network agent discovery and secure collaboration using W3C decentralized identifiers DIDs and JSON-LD graphs. The protocols are compared across multiple dimensions, including interaction modes, discovery mechanisms, communication patterns, and security models. Based on the comparative analysis, a phased adoption roadmap is proposed: beginning with MCP for tool access, followed by ACP for structured, multimodal messaging session-aware interaction and both online and offline agent discovery across scalable, HTTP-based deployments A2A for collaborative task execution, and extending to ANP for decentralized agent marketplaces. This work provides a comprehensive foundation for designing secure, interoperable, and scalable ecosystems of LLM-powered agents.",
+      "publication_date": "2025-05-04T22:18:27+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2505.02279v2"
+    },
+    {
+      "title": "Securing 3rd Party App Integration in Docker-based Cloud Software   Ecosystems",
+      "authors": [
+        "Christian Binkowski",
+        "Stefan Appel",
+        "Andreas Aßmuth"
+      ],
+      "abstract": "Open software ecosystems are beneficial for customers; they benefit from 3rd party services and applications, e.g. analysis of data using apps, developed and deployed by other companies or open-source communities. One significant advantage of this approach is that other customers may benefit from these newly developed applications as well. Especially software ecosystems utilizing container technologies are prone to certain risks. Docker, in particular, is more vulnerable to attacks than hypervisor based virtualisation as it directly operates on the host system. Docker is a popular representative of containerisation technology which offers a lightweight architecture in order to facilitate the set-up and creation of such software ecosystems. Popular Infrastructure as a Service cloud service providers, like Amazon Web Services or Microsoft Azure, jump on the containerisation bandwagon and provide interfaces for provisioning and managing containers. Companies can benefit from that change of technology and create software ecosystems more efficiently. In this paper, we present a new concept for significant security improvements for cloud-based software ecosystems using Docker for 3rd party app integration. Based on the security features of Docker we describe a secure integration of applications in the cloud environment securely. Our approach considers the whole software lifecycle and includes sandbox testing of potentially dangerous 3rd party apps before these became available to the customers.",
+      "publication_date": "2024-05-18T15:26:38+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2405.11316v1"
+    },
+    {
+      "title": "BPFContain: Fixing the Soft Underbelly of Container Security",
+      "authors": [
+        "William Findlay",
+        "David Barrera",
+        "Anil Somayaji"
+      ],
+      "abstract": "Linux containers currently provide limited isolation guarantees. While containers separate namespaces and partition resources, the patchwork of mechanisms used to ensure separation cannot guarantee consistent security semantics. Even worse, attempts to ensure complete coverage results in a mishmash of policies that are difficult to understand or audit. Here we present BPFContain, a new container confinement mechanism designed to integrate with existing container management systems. BPFContain combines a simple yet flexible policy language with an eBPF-based implementation that allows for deployment on virtually any Linux system running a recent kernel. In this paper, we present BPFContain's policy language, describe its current implementation as integrated into docker, and present benchmarks comparing it with current container confinement technologies.",
+      "publication_date": "2021-02-13T18:12:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2102.06972v1"
+    },
+    {
+      "title": "Q-AIM: A Unified Portable Workflow for Seamless Integration of Quantum   Resources",
+      "authors": [
+        "Zhaobin Zhu",
+        "Cedric Gaberle",
+        "Sarah M. Neuwirth",
+        "Thomas Lippert",
+        "Manpreet S. Jattana"
+      ],
+      "abstract": "Quantum computing (QC) holds the potential to solve classically intractable problems. Although there has been significant progress towards the availability of quantum hardware, a software infrastructure to integrate them is still missing. We present Q-AIM (Quantum Access Infrastructure Management) to fill this gap. Q-AIM is a software framework unifying the access and management for quantum hardware in a vendor-independent and open-source fashion.   Utilizing a dockerized micro-service architecture, we show Q-AIM's lightweight, portable, and customizable nature, capable of running on different hosting paradigms ranging from small personal computing devices to cloud servers and dedicated server infrastructure. Q-AIM exposes a single entry point into the host's infrastructure, providing secure and easy interaction with quantum computers on different levels of abstraction. With a minimal memory footprint, the container is optimized for deployment on even the smallest server instances, reducing costs and instantiation overhead while ensuring seamless scalability to accommodate increasing demands. Q-AIM intends to equip research groups and facilities purchasing and hosting their own quantum hardware with a tool simplifying the process from procurement to operation and removing non-research related technical redundancies.",
+      "publication_date": "2025-06-16T12:52:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2506.13436v1"
+    },
+    {
+      "title": "A Multi-Vocal Review of Security Orchestration",
+      "authors": [
+        "Chadni Islam",
+        "M. Ali Babar",
+        "Surya Nepal"
+      ],
+      "abstract": "Organizations use diverse types of security solutions to prevent cyberattacks. Multiple vendors provide security solutions developed using heterogeneous technologies and paradigms. Hence, it is a challenging rather impossible to easily make security solutions to work an integrated fashion. Security orchestration aims at smoothly integrating multivendor security tools that can effectively and efficiently interoperate to support security staff of a Security Operation Centre (SOC). Given the increasing role and importance of security orchestration, there has been an increasing amount of literature on different aspects of security orchestration solutions. However, there has been no effort to systematically review and analyze the reported solutions. We report a Multivocal Literature Review that has systematically selected and reviewed both academic and grey (blogs, web pages, white papers) literature on different aspects of security orchestration published from January 2007 until July 2017. The review has enabled us to provide a working definition of security orchestration and classify the main functionalities of security orchestration into three main areas: unification, orchestration, and automation. We have also identified the core components of a security orchestration platform and categorized the drivers of security orchestration based on technical and socio-technical aspects. We also provide a taxonomy of security orchestration based on the execution environment, automation strategy, deployment type, mode of task and resource type. This review has helped us to reveal several areas of further research and development in security orchestration.",
+      "publication_date": "2020-02-21T09:08:35+00:00",
+      "doi": "10.1145/3305268",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2002.09190v1"
+    },
+    {
+      "title": "Autonomic Microservice Management via Agentic AI and MAPE-K Integration",
+      "authors": [
+        "Matteo Esposito",
+        "Alexander Bakhtin",
+        "Noman Ahmad",
+        "Mikel Robredo",
+        "Ruoyu Su",
+        "Valentina Lenarduzzi",
+        "Davide Taibi"
+      ],
+      "abstract": "While microservices are revolutionizing cloud computing by offering unparalleled scalability and independent deployment, their decentralized nature poses significant security and management challenges that can threaten system stability. We propose a framework based on MAPE-K, which leverages agentic AI, for autonomous anomaly detection and remediation to address the daunting task of highly distributed system management. Our framework offers practical, industry-ready solutions for maintaining robust and secure microservices. Practitioners and researchers can customize the framework to enhance system stability, reduce downtime, and monitor broader system quality attributes such as system performance level, resilience, security, and anomaly management, among others.",
+      "publication_date": "2025-06-27T12:46:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "2506.22185v1"
+    },
+    {
+      "title": "gh0stEdit: Exploiting Layer-Based Access Vulnerability Within Docker   Container Images",
+      "authors": [
+        "Alan Mills",
+        "Jonathan White",
+        "Phil Legg"
+      ],
+      "abstract": "Containerisation is a popular deployment process for application-level virtualisation using a layer-based approach. Docker is a leading provider of containerisation, and through the Docker Hub, users can supply Docker images for sharing and re-purposing popular software application containers. Using a combination of in-built inspection commands, publicly displayed image layer content, and static image scanning, Docker images are designed to ensure end users can clearly assess the content of the image before running them. In this paper we present \\textbf{\\textit{gh0stEdit}}, a vulnerability that fundamentally undermines the integrity of Docker images and subverts the assumed trust and transparency they utilise. The use of gh0stEdit allows an attacker to maliciously edit Docker images, in a way that is not shown within the image history, hierarchy or commands. This attack can also be carried out against signed images (Docker Content Trust) without invalidating the image signature. We present two use case studies for this vulnerability, and showcase how gh0stEdit is able to poison an image in a way that is not picked up through static or dynamic scanning tools. Our attack case studies highlight the issues in the current approach to Docker image security and trust, and expose an attack method which could potentially be exploited in the wild without being detected. To the best of our knowledge we are the first to provide detailed discussion on the exploit of this vulnerability.",
+      "publication_date": "2025-06-09T20:38:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.08218v1"
+    },
+    {
+      "title": "Securing Microservices and Microservice Architectures: A Systematic   Mapping Study",
+      "authors": [
+        "Abdelhakim Hannousse",
+        "Salima Yahiouche"
+      ],
+      "abstract": "Microservice architectures (MSA) are becoming trending alternatives to existing software development paradigms notably for developing complex and distributed applications. Microservices emerged as an architectural design pattern aiming to address the scalability and ease the maintenance of online services. However, security breaches have increased threatening availability, integrity and confidentiality of microservice-based systems. A growing body of literature is found addressing security threats and security mechanisms to individual microservices and microservice architectures. The aim of this study is to provide a helpful guide to developers about already recognized threats on microservices and how they can be detected, mitigated or prevented; we also aim to identify potential research gaps on securing MSA. In this paper, we conduct a systematic mapping in order to categorize threats on MSA with their security proposals. Therefore, we extracted threats and details of proposed solutions reported in selected studies. Obtained results are used to design a lightweight ontology for security patterns of MSA. The ontology can be queried to identify source of threats, security mechanisms used to prevent each threat, applicability layer and validation techniques used for each mechanism. The systematic search yielded 1067 studies of which 46 are selected as primary studies. The results of the mapping revealed an unbalanced research focus in favor of external attacks; auditing and enforcing access control are the most investigated techniques compared with prevention and mitigation. Additionally, we found that most proposed solutions are soft-infrastructure applicable layer compared with other layers such as communication and deployment. We also found that performance analysis and case studies are the most used validation techniques of security proposals.",
+      "publication_date": "2020-03-16T14:53:56+00:00",
+      "doi": "10.1016/j.cosrev.2021.100415",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2003.07262v2"
+    },
+    {
+      "title": "Secure Cloud-Edge Deployments, with Trust",
+      "authors": [
+        "Stefano Forti",
+        "Gian-Luigi Ferrari",
+        "Antonio Brogi"
+      ],
+      "abstract": "Assessing the security level of IoT applications to be deployed to heterogeneous Cloud-Edge infrastructures operated by different providers is a non-trivial task. In this article, we present a methodology that permits to express security requirements for IoT applications, as well as infrastructure security capabilities, in a simple and declarative manner, and to automatically obtain an explainable assessment of the security level of the possible application deployments. The methodology also considers the impact of trust relations among different stakeholders using or managing Cloud-Edge infrastructures. A lifelike example is used to showcase the prototyped implementation of the methodology.",
+      "publication_date": "2019-01-16T15:31:41+00:00",
+      "doi": "10.1016/j.future.2019.08.020",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "1901.05347v2"
+    },
+    {
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "authors": [
+        "Georgios Syros",
+        "Anshuman Suri",
+        "Cristina Nita-Rotaru",
+        "Alina Oprea"
+      ],
+      "abstract": "Large Language Model (LLM)-based agents increasingly interact, collaborate, and delegate tasks to one another autonomously with minimal human interaction. Industry guidelines for agentic system governance emphasize the need for users to maintain comprehensive control over their agents, mitigating potential damage from malicious agents. Several proposed agentic system designs address agent identity, authorization, and delegation, but remain purely theoretical, without concrete implementation and evaluation. Most importantly, they do not provide user-controlled agent management. To address this gap, we propose SAGA, a Security Architecture for Governing Agentic systems, that offers user oversight over their agents' lifecycle. In our design, users register their agents with a central entity, the Provider, that maintains agents contact information, user-defined access control policies, and helps agents enforce these policies on inter-agent communication. We introduce a cryptographic mechanism for deriving access control tokens, that offers fine-grained control over an agent's interaction with other agents, balancing security and performance consideration. We evaluate SAGA on several agentic tasks, using agents in different geolocations, and multiple on-device and cloud LLMs, demonstrating minimal performance overhead with no impact on underlying task utility in a wide range of conditions. Our architecture enables secure and trustworthy deployment of autonomous agents, accelerating the responsible adoption of this technology in sensitive environments.",
+      "publication_date": "2025-04-27T23:10:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.21034v1"
+    },
+    {
+      "title": "Understanding the Quality of Container Security Vulnerability Detection   Tools",
+      "authors": [
+        "Omar Javed",
+        "Salman Toor"
+      ],
+      "abstract": "Virtualization enables information and communications technology industry to better manage computing resources. In this regard, improvements in virtualization approaches together with the need for consistent runtime environment, lower overhead and smaller package size has led to the growing adoption of containers. This is a technology, which packages an application, its dependencies and Operating System (OS) to run as an isolated unit. However, the pressing concern with the use of containers is its susceptibility to security attacks. Consequently, a number of container scanning tools are available for detecting container security vulnerabilities. Therefore, in this study, we investigate the quality of existing container scanning tools by proposing two metrics that reflects coverage and accuracy. We analyze 59 popular public container images for Java applications hosted on DockerHub using different container scanning tools (such as Clair, Anchore, and Microscanner). Our findings show that existing container scanning approach does not detect application package vulnerabilities. Furthermore, existing tools do not have high accuracy, since 34% vulnerabilities are being missed by the best performing tool. Finally, we also demonstrate quality of Docker images for Java applications hosted on DockerHub by assessing complete vulnerability landscape i.e., number of vulnerabilities detected in images.",
+      "publication_date": "2021-01-11T12:27:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2101.03844v1"
+    },
+    {
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "abstract": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and explain why the legacy security strategies cannot effectively address these risks. Afterwards, we propose BlockA2A, the first unified multi-agent trust framework that enables secure and verifiable and agent-to-agent interoperability. At a high level, BlockA2A adopts decentralized identifiers (DIDs) to enable fine-grained cross-domain agent authentication, blockchain-anchored ledgers to enable immutable auditability, and smart contracts to dynamically enforce context-aware access control policies. BlockA2A eliminates centralized trust bottlenecks, ensures message authenticity and execution integrity, and guarantees accountability across agent interactions. Furthermore, we propose a Defense Orchestration Engine (DOE) that actively neutralizes attacks through real-time mechanisms, including Byzantine agent flagging, reactive execution halting, and instant permission revocation. Empirical evaluations demonstrate BlockA2A's effectiveness in neutralizing prompt-based, communication-based, behavioral and systemic MAS attacks. We formalize its integration into existing MAS and showcase a practical implementation for Google's A2A protocol. Experiments confirm that BlockA2A and DOE operate with sub-second overhead, enabling scalable deployment in production LLM-based MAS environments.",
+      "publication_date": "2025-08-02T11:59:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2508.01332v2"
+    },
+    {
+      "title": "Lic-Sec: an enhanced AppArmor Docker security profile generator",
+      "authors": [
+        "Hui Zhu",
+        "Christian Gehrmann"
+      ],
+      "abstract": "Along with the rapid development of cloud computing technology, containerization technology has drawn much attention from both industry and academia. In this paper, we perform a comparative measurement analysis of Docker-sec, which is a Linux Security Module proposed in 2018, and a new AppArmor profile generator called Lic-Sec, which combines Docker-sec with a modified version of LiCShield, which is also a Linux Security Module proposed in 2015. Docker-sec and LiCShield can be used to enhance Docker container security based on mandatory access control and allows protection of the container without manually configurations. Lic-Sec brings together their strengths and provides stronger protection. We evaluate the effectiveness and performance of Docker-sec and Lic-Sec by testing them with real-world attacks. We generate an exploit database with 42 exploits effective on Docker containers selected from the latest 400 exploits on Exploit-db. We launch these exploits on containers spawned with Docker-sec and Lic-Sec separately. Our evaluations show that for demanding images, Lic-Sec gives protection for all privilege escalation attacks for which Docker-sec failed to give protection.",
+      "publication_date": "2020-09-24T09:42:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2009.11572v1"
+    },
+    {
+      "title": "ADA: Automated Moving Target Defense for AI Workloads via Ephemeral   Infrastructure-Native Rotation in Kubernetes",
+      "authors": [
+        "Akram Sheriff",
+        "Ken Huang",
+        "Zsolt Nemeth",
+        "Madjid Nakhjiri"
+      ],
+      "abstract": "This paper introduces the Adaptive Defense Agent (ADA), an innovative Automated Moving Target Defense (AMTD) system designed to fundamentally enhance the security posture of AI workloads. ADA operates by continuously and automatically rotating these workloads at the infrastructure level, leveraging the inherent ephemerality of Kubernetes pods. This constant managed churn systematically invalidates attacker assumptions and disrupts potential kill chains by regularly destroying and respawning AI service instances. This methodology, applying principles of chaos engineering as a continuous, proactive defense, offers a paradigm shift from traditional static defenses that rely on complex and expensive confidential or trusted computing solutions to secure the underlying compute platforms, while at the same time agnostically supporting the latest advancements in agentic and nonagentic AI ecosystems and solutions such as agent-to-agent (A2A) communication frameworks or model context protocols (MCP). This AI-native infrastructure design, relying on the widely proliferated cloud-native Kubernetes technologies, facilitates easier deployment, simplifies maintenance through an inherent zero trust posture achieved by rotation, and promotes faster adoption. We posit that ADA's novel approach to AMTD provides a more robust, agile, and operationally efficient zero-trust model for AI services, achieving security through proactive environmental manipulation rather than reactive patching.",
+      "publication_date": "2025-05-27T02:24:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.23805v1"
+    },
+    {
+      "title": "Control at Stake: Evaluating the Security Landscape of LLM-Driven Email   Agents",
+      "authors": [
+        "Jiangrong Wu",
+        "Yuhong Nan",
+        "Jianliang Wu",
+        "Zitong Yao",
+        "Zibin Zheng"
+      ],
+      "abstract": "The increasing capabilities of LLMs have led to the rapid proliferation of LLM agent apps, where developers enhance LLMs with access to external resources to support complex task execution. Among these, LLM email agent apps represent one of the widely used categories, as email remains a critical communication medium for users. LLM email agents are capable of managing and responding to email using LLM-driven reasoning and autonomously executing user instructions via external email APIs (e.g., send email). However, despite their growing deployment and utility, the security mechanism of LLM email agent apps remains underexplored. Currently, there is no comprehensive study into the potential security risk within these agent apps and their broader implications.   In this paper, we conduct the first in-depth and systematic security study of LLM email agents. We propose the Email Agent Hijacking (EAH) attack, which overrides the original prompts of the email agent via external email resources, allowing attackers to gain control of the email agent remotely and further perform specific attack scenarios without user awareness.   To facilitate the large-scale evaluation, we propose EAHawk, a pipeline to evaluate the EAH attack of LLM email agent apps. By EAHawk, we performed an empirical study spanning 14 representative LLM agent frameworks, 63 agent apps, 12 LLMs, and 20 email services, which led to the generation of 1,404 real-world email agent instances for evaluation. Experimental results indicate that all 1,404 instances were successfully hijacked; on average, only 2.03 attack attempts are required to control an email agent instance. Even worse, for some LLMs, the average number of attempts needed to achieve full agent control drops to as few as 1.23.",
+      "publication_date": "2025-07-03T15:09:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.02699v1"
+    },
+    {
+      "title": "SealOS+: A Sealos-based Approach for Adaptive Resource Optimization   Under Dynamic Workloads for Securities Trading System",
+      "authors": [
+        "Haojie Jia",
+        "Zhenhao Li",
+        "Gen Li",
+        "Minxian Xu",
+        "Kejiang Ye"
+      ],
+      "abstract": "As securities trading systems transition to a microservices architecture, optimizing system performance presents challenges such as inefficient resource scheduling and high service response delays. Existing container orchestration platforms lack tailored performance optimization mechanisms for trading scenarios, making it difficult to meet the stringent 50ms response time requirement imposed by exchanges. This paper introduces SealOS+, a Sealos-based performance optimization approach for securities trading, incorporating an adaptive resource scheduling algorithm leveraging deep reinforcement learning, a three-level caching mechanism for trading operations, and a Long Short-Term Memory (LSTM) based load prediction model. Real-world deployment at a securities exchange demonstrates that the optimized system achieves an average CPU utilization of 78\\%, reduces transaction response time to 105ms, and reaches a peak processing capacity of 15,000 transactions per second, effectively meeting the rigorous performance and reliability demands of securities trading.",
+      "publication_date": "2025-05-29T09:06:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DC"
+      ],
+      "arxiv_id": "2505.23258v1"
+    },
+    {
+      "title": "Enable Time-Sensitive Applications in Kubernetes with Container Network   Interface Plugin Agnostic Metadata Proxy",
+      "authors": [
+        "Ferenc Orosi",
+        "Ferenc Fejes"
+      ],
+      "abstract": "Application deployment in cloud environment is dominated by Kubernetes-orchestrated microservices. Provides a secure environment, networking, storage, isolation, scheduling, and many other abstractions that can be easily extended to meet our needs. Time-Sensitive Applications (TSAs) have special requirements for compute and network. Deploying TSAs in Kubernetes is challenging because the networking implemented by Container Network Interface (CNI) plugins is not aware of the traffic characteristic required by Time-Sensitive Network. Even if a network interface supports TSN features (e.g.: Scheduled Traffic) and a modified CNI plugin is aware of this interface, the pod network isolation built on top of Linux deletes the metadata required for TSN protocols to work with.   We propose TSN metadata proxy, a simple architecture that allows any TSA microservice to use the TSN capabilities of the physical NIC, without any modification. This architecture is tightly integrated with the Kubernetes networking model, works with popular CNI plugins, and supports services such as ClusterIP, NodePort, or LoadBalancer without additional configuration. Unlike former proposals, this architecture does not require either bypassing the Linux kernel network stack, direct access to the physical NIC, escalated privileges for the TSA microservice, or even modification of the TSA.",
+      "publication_date": "2025-03-17T07:16:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2503.12878v1"
+    },
+    {
+      "title": "Cyber Security in Containerization Platforms: A Comparative Study of   Security Challenges, Measures and Best Practices",
+      "authors": [
+        "Sohome Adhikari",
+        "Sabur Baidya"
+      ],
+      "abstract": "The paper reviews the comparative study of security measures, challenges, and best practices with a view to enhancing cyber safety in containerized platforms. This review is intended to give insight into the enhanced security posture of containerized environments, with a view to examining safety vulnerabilities in containerization platforms, exploring strategies for increasing containers isolation and assessing how encryption techniques play an important role in providing secure applications. The paper also provides practical guidance for organizations seeking to strengthen their cyber security defenses in the containerization area platforms.",
+      "publication_date": "2024-04-28T06:22:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2404.18082v1"
+    },
+    {
+      "title": "Digital Twin for Secure Semiconductor Lifecycle Management: Prospects   and Applications",
+      "authors": [
+        "Hasan Al Shaikh",
+        "Mohammad Bin Monjil",
+        "Shigang Chen",
+        "Navid Asadizanjani",
+        "Farimah Farahmandi",
+        "Mark Tehranipoor",
+        "Fahim Rahman"
+      ],
+      "abstract": "The expansive globalization of the semiconductor supply chain has introduced numerous untrusted entities into different stages of a device's lifecycle. To make matters worse, the increase complexity in the design as well as aggressive time to market requirements of the newer generation of integrated circuits can lead either designers to unintentionally introduce security vulnerabilities or verification engineers to fail in detecting them earlier in the design lifecycle. These overlooked or undetected vulnerabilities can be exploited by malicious entities in subsequent stages of the lifecycle through an ever widening variety of hardware attacks. The ability to ascertain the provenance of these vulnerabilities, therefore, becomes a pressing issue when the security assurance across the whole lifecycle is required to be ensured. We posit that if there is a malicious or unintentional breach of security policies of a device, it will be reflected in the form of anomalies in the traditional design, verification and testing activities throughout the lifecycle. With that, a digital simulacrum of a device's lifecycle, called a digital twin (DT), can be formed by the data gathered from different stages to secure the lifecycle of the device. In this paper, we put forward a realization of intertwined relationships of security vulnerabilities with data available from the silicon lifecycle and formulate different components of an AI driven DT framework. The proposed DT framework leverages these relationships and relational learning to achieve Forward and Backward Trust Analysis functionalities enabling security aware management of the entire lifecycle. Finally, we provide potential future research avenues and challenges for realization of the digital twin framework to enable secure semiconductor lifecycle management.",
+      "publication_date": "2022-05-22T23:52:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2205.10962v2"
+    },
+    {
+      "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management   in LLM-based Agentic Multi-Agent Systems",
+      "authors": [
+        "Shaina Raza",
+        "Ranjan Sapkota",
+        "Manoj Karkee",
+        "Christos Emmanouilidis"
+      ],
+      "abstract": "Agentic AI systems, built upon large language models (LLMs) and deployed in multi-agent configurations, are redefining intelligence, autonomy, collaboration, and decision-making across enterprise and societal domains. This review presents a structured analysis of \\textbf{Trust, Risk, and Security Management (TRiSM)} in the context of LLM-based Agentic Multi-Agent Systems (AMAS). We begin by examining the conceptual foundations of Agentic AI and highlight its architectural distinctions from traditional AI agents. We then adapt and extend the AI TRiSM framework for Agentic AI, structured around four key pillars: Explainability, ModelOps, Security, Privacy and Governance, each contextualized to the challenges of multi-agent LLM systems. A novel risk taxonomy is proposed to capture the unique threats and vulnerabilities of Agentic AI, ranging from coordination failures to prompt-based adversarial manipulation. To support practical assessment in Agentic AI works, we introduce two novel metrics: the Component Synergy Score (CSS), which quantifies the quality of inter-agent collaboration, and the Tool Utilization Efficacy (TUE), which evaluates the efficiency of tool use within agent workflows. We further discuss strategies for improving explainability in Agentic AI , as well as approaches to enhancing security and privacy through encryption, adversarial robustness, and regulatory compliance. The review concludes with a research roadmap for the responsible development and deployment of Agentic AI, outlining critical directions to align emerging systems with TRiSM principles for safe, transparent, and accountable operation.",
+      "publication_date": "2025-06-04T16:26:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2506.04133v3"
+    },
+    {
+      "title": "Comparing Security and Efficiency of WebAssembly and Linux Containers in   Kubernetes Cloud Computing",
+      "authors": [
+        "Jasper Alexander Wiegratz"
+      ],
+      "abstract": "This study investigates the potential of WebAssembly as a more secure and efficient alternative to Linux containers for executing untrusted code in cloud computing with Kubernetes. Specifically, it evaluates the security and performance implications of this shift. Security analyses demonstrate that both Linux containers and WebAssembly have attack surfaces when executing untrusted code, but WebAssembly presents a reduced attack surface due to an additional layer of isolation. The performance analysis further reveals that while WebAssembly introduces overhead, particularly in startup times, it could be negligible in long-running computations. However, WebAssembly enhances the core principle of containerization, offering better security through isolation and platform-agnostic portability compared to Linux containers. This research demonstrates that WebAssembly is not a silver bullet for all security concerns or performance requirements in a Kubernetes environment, but typical attacks are less likely to succeed and the performance loss is relatively small.",
+      "publication_date": "2024-11-02T23:35:19+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.03344v1"
+    },
+    {
+      "title": "From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI   Agents Workflows",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Norbert Tihanyi",
+        "Djallel Hamouda",
+        "Leandros Maglaras",
+        "Merouane Debbah"
+      ],
+      "abstract": "Autonomous AI agents powered by large language models (LLMs) with structured function-calling interfaces have dramatically expanded capabilities for real-time data retrieval, complex computation, and multi-step orchestration. Yet, the explosive proliferation of plugins, connectors, and inter-agent protocols has outpaced discovery mechanisms and security practices, resulting in brittle integrations vulnerable to diverse threats. In this survey, we introduce the first unified, end-to-end threat model for LLM-agent ecosystems, spanning host-to-tool and agent-to-agent communications, formalize adversary capabilities and attacker objectives, and catalog over thirty attack techniques. Specifically, we organized the threat model into four domains: Input Manipulation (e.g., prompt injections, long-context hijacks, multimodal adversarial inputs), Model Compromise (e.g., prompt- and parameter-level backdoors, composite and encrypted multi-backdoors, poisoning strategies), System and Privacy Attacks (e.g., speculative side-channels, membership inference, retrieval poisoning, social-engineering simulations), and Protocol Vulnerabilities (e.g., exploits in Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent Network Protocol (ANP), and Agent-to-Agent (A2A) protocol). For each category, we review representative scenarios, assess real-world feasibility, and evaluate existing defenses. Building on our threat taxonomy, we identify key open challenges and future research directions, such as securing MCP deployments through dynamic trust management and cryptographic provenance tracking; designing and hardening Agentic Web Interfaces; and achieving resilience in multi-agent and federated environments. Our work provides a comprehensive reference to guide the design of robust defense mechanisms and establish best practices for resilient LLM-agent workflows.",
+      "publication_date": "2025-06-29T14:32:32+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.23260v1"
+    },
+    {
+      "title": "Reconfigurable Security: Edge Computing-based Framework for IoT",
+      "authors": [
+        "Ruei-Hau Hsu",
+        "Jemin Lee",
+        "Tony Q. S. Quek",
+        "Jyh-Cheng Chen"
+      ],
+      "abstract": "In various scenarios, achieving security between IoT devices is challenging since the devices may have different dedicated communication standards, resource constraints as well as various applications. In this article, we first provide requirements and existing solutions for IoT security. We then introduce a new reconfigurable security framework based on edge computing, which utilizes a near-user edge device, i.e., security agent, to simplify key management and offload the computational costs of security algorithms at IoT devices. This framework is designed to overcome the challenges including high computation costs, low flexibility in key management, and low compatibility in deploying new security algorithms in IoT, especially when adopting advanced cryptographic primitives. We also provide the design principles of the reconfigurable security framework, the exemplary security protocols for anonymous authentication and secure data access control, and the performance analysis in terms of feasibility and usability. The reconfigurable security framework paves a new way to strength IoT security by edge computing.",
+      "publication_date": "2017-09-19T01:53:09+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1709.06223v1"
+    },
+    {
+      "title": "A Secure Dynamic Edge Resource Federation Architecture for Cross-Domain   IoT Systems",
+      "authors": [
+        "Ronghua Xu",
+        "Yu Chen",
+        "Xiaohua Li",
+        "Erik Blasch"
+      ],
+      "abstract": "The fast integration of 5G communication, Artificial Intelligence (AI), and Internet-of-Things (IoT) technologies is envisioned to enable Next Generation Networks (NGNs) for diverse smart services and user-defined applications for Smart Cities. However, it is still challenging to build a scalable and efficient infrastructure that satisfies the various performance, security, and management demands by heterogeneous IoT applications across multiple administrative domains. This paper presents a dynamic edge resource federation architecture, which integrates the concept of network slicing (NS) and blockchain to improve scalability, dynamicity, and security for multi-domain IoT applications. A NS-enabled dynamic edge resource federation framework adopts intelligent mechanisms to support efficient multi-domain service coordination that satisfies diverse Quality of Service (QoS) and security requirements. We propose a Hierarchical Integrated Federated Ledger (HIFL), which aims to guarantee decentralized security and privacy-preserving properties in multi-domain resource orchestration and service re-adjustment. As a secure-by-design solution, HIFL is promising to support efficient, trust and secured end-to-end IoT services. A preliminary proof-of-concept prototype has been implemented for comparing intra- and inter-domain performance expectations.",
+      "publication_date": "2022-08-02T14:00:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2208.01466v1"
+    },
+    {
+      "title": "Baseline functionality for security and control of commodity IoT devices   and domain-controlled device lifecycle management",
+      "authors": [
+        "Markus Miettinen",
+        "Paul C. van Oorschot",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "abstract": "The emerging Internet of Things (IoT) drastically increases the number of connected devices in homes, workplaces and smart city infrastructures. This drives a need for means to not only ensure confidentiality of device-related communications, but for device configuration and management---ensuring that only legitimate devices are granted privileges to a local domain, that only authorized agents have access to the device and data it holds, and that software updates are authentic. The need to support device on-boarding, ongoing device management and control, and secure decommissioning dictates a suite of key management services for both access control to devices, and access by devices to wireless infrastructure and networked resources. We identify this core functionality, and argue for the recognition of efficient and reliable key management support---both within IoT devices, and by a unifying external management platform---as a baseline requirement for an IoT world. We present a framework architecture to facilitate secure, flexible and convenient device management in commodity IoT scenarios, and offer an illustrative set of protocols as a base solution---not to promote specific solution details, but to highlight baseline functionality to help domain owners oversee deployments of large numbers of independent multi-vendor IoT devices.",
+      "publication_date": "2018-08-09T09:42:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1808.03071v1"
+    },
+    {
+      "title": "AI-Driven Container Security Approaches for 5G and Beyond: A Survey",
+      "authors": [
+        "Ilter Taha Aktolga",
+        "Elif Sena Kuru",
+        "Yigit Sever",
+        "Pelin Angin"
+      ],
+      "abstract": "The rising use of microservices based software deployment on the cloud leverages containerized software extensively. The security of applications running inside containers as well as the container environment itself are critical infrastructure in the cloud setting and 5G. To address the security concerns, research efforts have been focused on container security with subfields such as intrusion detection, malware detection and container placement strategies. These security efforts are roughly divided into two categories: rule based approaches and machine learning that can respond to novel threats. In this study, we have surveyed the container security literature focusing on approaches that leverage machine learning to address security challenges.",
+      "publication_date": "2023-02-27T15:05:53+00:00",
+      "doi": "10.52953/ZRCK3746",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2302.13865v2"
+    },
+    {
+      "title": "Trusted Container Extensions for Container-based Confidential Computing",
+      "authors": [
+        "Ferdinand Brasser",
+        "Patrick Jauernig",
+        "Frederik Pustelnik",
+        "Ahmad-Reza Sadeghi",
+        "Emmanuel Stapf"
+      ],
+      "abstract": "Cloud computing has emerged as a corner stone of today's computing landscape. More and more customers who outsource their infrastructure benefit from the manageability, scalability and cost saving that come with cloud computing. Those benefits get amplified by the trend towards microservices. Instead of renting and maintaining full VMs, customers increasingly leverage container technologies, which come with a much more lightweight resource footprint while also removing the need to emulate complete systems and their devices.   However, privacy concerns hamper many customers from moving to the cloud and leveraging its benefits. Furthermore, regulatory requirements prevent the adaption of cloud computing in many industries, such as health care or finance. Standard software isolation mechanisms have been proven to be insufficient if the host system is not fully trusted, e.g., when the cloud infrastructure gets compromised by malicious third-party actors. Consequently, confidential computing is gaining increasing relevance in the cloud computing field.   We present Trusted Container Extensions (TCX), a novel container security architecture, which combines the manageability and agility of standard containers with the strong protection guarantees of hardware-enforced Trusted Execution Environments (TEEs) to enable confidential computing for container workloads. TCX provides significant performance advantages compared to existing approaches while protecting container workloads and the data processed by them. Our implementation, based on AMD Secure Encrypted Virtualization (SEV), ensures integrity and confidentiality of data and services during deployment, and allows secure interaction between protected containers as well as to external entities. Our evaluation shows that our implementation induces a low performance overhead of 5.77% on the standard SPEC2017 benchmark suite.",
+      "publication_date": "2022-05-11T19:31:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2205.05747v1"
+    },
+    {
+      "title": "Building A Secure Agentic AI Application Leveraging A2A Protocol",
+      "authors": [
+        "Idan Habler",
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "Prashant Kulkarni"
+      ],
+      "abstract": "As Agentic AI systems evolve from basic workflows to complex multi agent collaboration, robust protocols such as Google's Agent2Agent (A2A) become essential enablers. To foster secure adoption and ensure the reliability of these complex interactions, understanding the secure implementation of A2A is essential. This paper addresses this goal by providing a comprehensive security analysis centered on the A2A protocol. We examine its fundamental elements and operational dynamics, situating it within the framework of agent communication development. Utilizing the MAESTRO framework, specifically designed for AI risks, we apply proactive threat modeling to assess potential security issues in A2A deployments, focusing on aspects such as Agent Card management, task execution integrity, and authentication methodologies.   Based on these insights, we recommend practical secure development methodologies and architectural best practices designed to build resilient and effective A2A systems. Our analysis also explores how the synergy between A2A and the Model Context Protocol (MCP) can further enhance secure interoperability. This paper equips developers and architects with the knowledge and practical guidance needed to confidently leverage the A2A protocol for building robust and secure next generation agentic applications.",
+      "publication_date": "2025-04-23T17:27:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.16902v2"
+    },
+    {
+      "title": "Security Design Patterns in Distributed Microservice Architecture",
+      "authors": [
+        "Chaitanya K. Rudrabhatla"
+      ],
+      "abstract": "Micro service architecture has revolutionized the landscape for the development of web and mobile applications alike. Due to the stateless nature and loose coupling involved in the design of micro services, native mobile applications can be developed by utilizing the same backend services which feed the inputs to the web application front ends. Extending the same concept, a plethora of automated devices, thanks to the advancements in the field of IOT, have come into existence which can feed on the same set of micro services. This concept of build once and utilize for many use cases has become a new norm in the enterprise design patterns. To handle the horizontal scalability needs of so many calling clients, significant advancements have been made on the containerization and their orchestration strategies on the public cloud platforms. However, scalable design techniques have led to the increased exposure of backend services to unwanted entities. This broadened the attack surface and also the risk. On top of it the mix of heterogeneous technologies in MSA, their distinct logging strategies, makes the central logging difficult, which in turn loosens the security. Additionally, the complexity around building the resilience for fault tolerance across the decentralized networks, adds to the security loop holes. The simple security designs which were once used with traditional web applications cannot be used for Microservice based applications. This paper articulates the innovative approaches of handling the security needs involved in protection of distributed services in Microservice architecture.",
+      "publication_date": "2020-08-07T23:06:59+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2008.03395v1"
+    }
+  ]
+}

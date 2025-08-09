@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr...",
+  "paper_title": "An optimization and simulation method for the home service assignment  routing  and scheduling pr...",
+  "concepts": [
+    {
+      "text": "problem",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.942604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service",
+      "frequency": 74,
+      "relevance_score": 0.8800969850305713,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.941604+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "solution",
+      "frequency": 63,
+      "relevance_score": 0.7641366223908919,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.950913+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 55,
+      "relevance_score": 0.6798018131983976,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.949752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "travel",
+      "frequency": 51,
+      "relevance_score": 0.6376344086021506,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.943072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 22,
+      "relevance_score": 0.631920725279359,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.224984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "travel time",
+      "frequency": 38,
+      "relevance_score": 0.6005903436643475,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.095096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- -",
+      "frequency": 28,
+      "relevance_score": 0.5951718321737297,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.181442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 46,
+      "relevance_score": 0.5849251528568417,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.945756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "home",
+      "frequency": 40,
+      "relevance_score": 0.521674045962471,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.941196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "route- rst cluster-second",
+      "frequency": 10,
+      "relevance_score": 0.5054185114906178,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.199661+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision support system",
+      "frequency": 4,
+      "relevance_score": 0.4921674045962471,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.228498+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "column generation-based heuristic",
+      "frequency": 8,
+      "relevance_score": 0.48433480919249416,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.202544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support system dss",
+      "frequency": 2,
+      "relevance_score": 0.4710837022981236,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.228730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rst cluster-second principle",
+      "frequency": 6,
+      "relevance_score": 0.46325110689437066,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.199912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "20 30 40",
+      "frequency": 6,
+      "relevance_score": 0.46325110689437066,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.223280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 k",
+      "frequency": 6,
+      "relevance_score": 0.46325110689437066,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.231087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "h-sara problem",
+      "frequency": 15,
+      "relevance_score": 0.45812776723592663,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.096501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i2n",
+      "frequency": 24,
+      "relevance_score": 0.4530044275774826,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.997746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-quality initial solution",
+      "frequency": 5,
+      "relevance_score": 0.45270925574530885,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.199427+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 2",
+      "frequency": 5,
+      "relevance_score": 0.45270925574530885,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.209405+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "customers",
+      "frequency": 33,
+      "relevance_score": 0.4478810879190386,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.946695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 4",
+      "frequency": 14,
+      "relevance_score": 0.4475859160868648,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.141570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "constraints 2 3",
+      "frequency": 4,
+      "relevance_score": 0.44216740459624704,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.209171+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 4 4",
+      "frequency": 4,
+      "relevance_score": 0.44216740459624704,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.211544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "integer program 4",
+      "frequency": 4,
+      "relevance_score": 0.44216740459624704,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.214134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 1 4",
+      "frequency": 4,
+      "relevance_score": 0.44216740459624704,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.214367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 4 3",
+      "frequency": 4,
+      "relevance_score": 0.44216740459624704,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.214601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "route",
+      "frequency": 32,
+      "relevance_score": 0.43733923676997677,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.948582+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "column",
+      "frequency": 32,
+      "relevance_score": 0.43733923676997677,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.952070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "customer",
+      "frequency": 32,
+      "relevance_score": 0.43733923676997677,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:57.975255+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rst cluster-second split",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.203253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 2 5",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.209638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x i2n iair",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.215544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "program 4 4",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.219297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 4 9",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.219533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 20 30",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.223031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-term planning applications",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.225453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision-makers pro les",
+      "frequency": 3,
+      "relevance_score": 0.43162555344718534,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.225686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "13th aimms-mopta optimization",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.194861+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "appointment scheduling h-sara",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.196272+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling h-sara problem",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.196506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cluster-second split mechanism",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.203490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "customer i2n canceling",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.203958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "j 2awe de",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.205884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2awe de ne",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.206118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1 2",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.206354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 10",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.206592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 s t",
+      "frequency": 2,
+      "relevance_score": 0.42108370229812353,
+      "source_papers": [
+        "local/An_optimization_and_simulation_method_for_the_home_service_assignment__routing__and_scheduling_pr..."
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:37:58.206828+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:37:58.232402+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:37:58.232576+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

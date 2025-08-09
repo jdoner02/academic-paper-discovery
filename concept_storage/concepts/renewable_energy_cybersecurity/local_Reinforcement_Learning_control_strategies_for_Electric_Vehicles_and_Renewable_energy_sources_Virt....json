@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt...",
+  "paper_title": "Reinforcement Learning control strategies for Electric Vehicles and Renewable energy sources Virt...",
+  "concepts": [
+    {
+      "text": "energy",
+      "frequency": 268,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:24.904400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "evs",
+      "frequency": 185,
+      "relevance_score": 0.8896871131600289,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.019774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 146,
+      "relevance_score": 0.7232125325479147,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:24.906617+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "action",
+      "frequency": 138,
+      "relevance_score": 0.6890639006274811,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.195214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vpp",
+      "frequency": 137,
+      "relevance_score": 0.6847953216374268,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.107020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "charging",
+      "frequency": 130,
+      "relevance_score": 0.6549152687070474,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.042120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reward",
+      "frequency": 127,
+      "relevance_score": 0.6421095317368848,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.118936+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 117,
+      "relevance_score": 0.5994237418363427,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:24.999182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available",
+      "frequency": 110,
+      "relevance_score": 0.5695436889059632,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.192422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 1 algorithms",
+      "frequency": 4,
+      "relevance_score": 0.5670743159602168,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.687230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "policy-gradient learning algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.639458+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "advantage actor-critic models",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.647142+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "actor-critic models a2c",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.647851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 data-sets pre-processing",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.661545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 rl framework",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.664981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 algorithms implementation",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.667025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 6 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.684476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 algorithms comparison",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.685181+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 algorithms comparison",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.687904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 a2c algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.731719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a2c algorithms reward",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.732391+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 7 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.744242+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 algorithms hyper-parameters",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.744940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms hyper-parameters best",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.745633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms comparison 66",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.749795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 4 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.762743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 5 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.763418+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 6 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.5585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.765441+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 69,
+      "relevance_score": 0.5445319503137406,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.147395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vpp rl framework",
+      "frequency": 7,
+      "relevance_score": 0.4798800529303795,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.723541+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "actor-critic models",
+      "frequency": 5,
+      "relevance_score": 0.47134289495027104,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.938713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reinforcement learning algorithms",
+      "frequency": 5,
+      "relevance_score": 0.47134289495027104,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.635302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 algorithms",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.963376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "6 algorithms",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.979007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 algorithms",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.982735+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy storage system",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.604030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov decision process",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.604728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rl framework structure",
+      "frequency": 4,
+      "relevance_score": 0.46707431596021687,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.724225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reinforcement learning framework",
+      "frequency": 3,
+      "relevance_score": 0.4628057369701626,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.633224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov decision processes",
+      "frequency": 3,
+      "relevance_score": 0.4628057369701626,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.797131+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "policy gradient algorithms",
+      "frequency": 3,
+      "relevance_score": 0.4628057369701626,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.819904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models a2c",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.939447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 pre-processing",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.950828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "data-sets pre-processing",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:25.958431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a2c algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.049076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.066122+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms hyper-parameters",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.066826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.093698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov reward process",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.605450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning algorithms theory",
+      "frequency": 2,
+      "relevance_score": 0.4585371579801084,
+      "source_papers": [
+        "local/Reinforcement_Learning_control_strategies_for_Electric_Vehicles_and_Renewable_energy_sources_Virt..."
+      ],
+      "source_domain": "renewable_energy_cybersecurity",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:05:26.635982+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:05:26.960816+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:05:26.961007+00:00",
+    "repository_version": "1.0",
+    "domain": "renewable_energy_cybersecurity"
+  }
+}

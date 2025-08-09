@@ -1,0 +1,1206 @@
+{
+  "domain": "cyber_risk_quantification",
+  "concepts": [
+    {
+      "text": "risk",
+      "total_frequency": 2573,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models",
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber",
+      "total_frequency": 2144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+        "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber risk",
+      "total_frequency": 936,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot",
+      "total_frequency": 688,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 674,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "security",
+      "total_frequency": 603,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "loss",
+      "total_frequency": 520,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 0",
+      "total_frequency": 421,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "copula",
+      "total_frequency": 337,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "assessment",
+      "total_frequency": 321,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 307,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenleft",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenright",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 274,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "tail",
+      "total_frequency": 258,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "- -",
+      "total_frequency": 255,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenleft ig",
+      "total_frequency": 249,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 243,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "parenright ig",
+      "total_frequency": 232,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "impact",
+      "total_frequency": 224,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "contagion",
+      "total_frequency": 218,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "smart",
+      "total_frequency": 212,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 0",
+      "total_frequency": 210,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "design",
+      "total_frequency": 210,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "risk assessment",
+      "total_frequency": 202,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 196,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "- - -",
+      "total_frequency": 191,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "classification",
+      "total_frequency": 189,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "severity",
+      "total_frequency": 186,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "probability",
+      "total_frequency": 181,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "safety",
+      "total_frequency": 179,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attack",
+      "total_frequency": 175,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 167,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+        "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models",
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 1",
+      "total_frequency": 162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "insurance",
+      "total_frequency": 160,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "events",
+      "total_frequency": 160,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "losses",
+      "total_frequency": 151,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "power",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "classifications",
+      "total_frequency": 141,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot cyber",
+      "total_frequency": 133,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "l t",
+      "total_frequency": 133,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "igg",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "µ1g",
+      "total_frequency": 124,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot cyber risk",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 2",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance",
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 1 0",
+      "total_frequency": 120,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "new",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "control",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "economic",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "µ1h",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "000",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sample",
+      "total_frequency": 113,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "bpcs",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "δ µ1g",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ons",
+      "total_frequency": 110,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "modelling",
+      "total_frequency": 109,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+        "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "sis",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t parenright",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 2",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "4 0",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "supply",
+      "total_frequency": 100,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0 1",
+      "total_frequency": 97,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "distribution",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "δ µ1h",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "integraldisplay",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "organization",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "copulas",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "chain",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "t parenright ig",
+      "total_frequency": 92,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "supply chain",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "node",
+      "total_frequency": 90,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 4",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "importance",
+      "total_frequency": 86,
+      "avg_relevance": 0.86,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "index",
+      "total_frequency": 85,
+      "avg_relevance": 0.85,
+      "source_papers": [
+        "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "type",
+      "total_frequency": 84,
+      "avg_relevance": 0.84,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ig λ",
+      "total_frequency": 84,
+      "avg_relevance": 0.84,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "framework",
+      "total_frequency": 82,
+      "avg_relevance": 0.82,
+      "source_papers": [
+        "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+        "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+        "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "eling",
+      "total_frequency": 80,
+      "avg_relevance": 0.8,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ig l",
+      "total_frequency": 78,
+      "avg_relevance": 0.78,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "series",
+      "total_frequency": 76,
+      "avg_relevance": 0.76,
+      "source_papers": [
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+        "local/Portfolio_Risk_Assessment_using_Copula_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "failure",
+      "total_frequency": 75,
+      "avg_relevance": 0.75,
+      "source_papers": [
+        "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "group",
+      "total_frequency": 75,
+      "avg_relevance": 0.75,
+      "source_papers": [
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 0 0",
+      "total_frequency": 74,
+      "avg_relevance": 0.74,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2 0",
+      "total_frequency": 74,
+      "avg_relevance": 0.74,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "contract",
+      "total_frequency": 74,
+      "avg_relevance": 0.74,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "economic impact",
+      "total_frequency": 73,
+      "avg_relevance": 0.73,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "quantum",
+      "total_frequency": 73,
+      "avg_relevance": 0.73,
+      "source_papers": [
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "λ 0",
+      "total_frequency": 73,
+      "avg_relevance": 0.73,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "λ t",
+      "total_frequency": 73,
+      "avg_relevance": 0.73,
+      "source_papers": [
+        "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "features",
+      "total_frequency": 72,
+      "avg_relevance": 0.72,
+      "source_papers": [
+        "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "propagation",
+      "total_frequency": 72,
+      "avg_relevance": 0.72,
+      "source_papers": [
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 71,
+      "avg_relevance": 0.71,
+      "source_papers": [
+        "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nodes",
+      "total_frequency": 71,
+      "avg_relevance": 0.71,
+      "source_papers": [
+        "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+        "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "assets",
+      "total_frequency": 70,
+      "avg_relevance": 0.7,
+      "source_papers": [
+        "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+        "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 2 0",
+      "total_frequency": 70,
+      "avg_relevance": 0.7,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+        "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "contracts",
+      "total_frequency": 69,
+      "avg_relevance": 0.69,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "qubit",
+      "total_frequency": 68,
+      "avg_relevance": 0.68,
+      "source_papers": [
+        "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "- 0",
+      "total_frequency": 68,
+      "avg_relevance": 0.68,
+      "source_papers": [
+        "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "organiza",
+      "total_frequency": 68,
+      "avg_relevance": 0.68,
+      "source_papers": [
+        "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hatwidec",
+      "total_frequency": 67,
+      "avg_relevance": 0.67,
+      "source_papers": [
+        "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things": {
+      "id": "local/Future_developments_in_cyber_risk_assessment_for_the_internet_of_things",
+      "title": "Future developments in cyber risk assessment for the internet of things",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas": {
+      "id": "local/Quantum_Implementation_of_Risk_Analysis-relevant_Copulas",
+      "title": "Quantum Implementation of Risk Analysis-relevant Copulas",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems": {
+      "id": "local/Cyber_Value_At_Risk_Model_for_IoT_Ecosystems",
+      "title": "Cyber Value At Risk Model for IoT Ecosystems",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity": {
+      "id": "local/Cyber_Loss_Model_Risk_Translates_to_Premium_Mispricing_and_Risk_Sensitivity",
+      "title": "Cyber Loss Model Risk Translates to Premium Mispricing and Risk Sensitivity",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk": {
+      "id": "local/Probabilistic_Framework_For_Loss_Distribution_Of_Smart_Contract_Risk",
+      "title": "Probabilistic Framework For Loss Distribution Of Smart Contract Risk",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment": {
+      "id": "local/Supply_Chain_Characteristics_as_Predictors_of_Cyber_Risk__A_Machine-Learning_Assessment",
+      "title": "Supply Chain Characteristics as Predictors of Cyber Risk  A Machine-Learning Assessment",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications": {
+      "id": "local/Cyber_Risk_Taxonomies__Statistical_Analysis_of_Cybersecurity_Risk_Classifications",
+      "title": "Cyber Risk Taxonomies  Statistical Analysis of Cybersecurity Risk Classifications",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...": {
+      "id": "local/Building_up_Cyber_Resilience_by_Better_Grasping_Cyber_Risk_Via_a_New_Algorithm_for_Modelling_Heav...",
+      "title": "Building up Cyber Resilience by Better Grasping Cyber Risk Via a New Algorithm for Modelling Heav...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...": {
+      "id": "local/On_Graph_Theory_vs._Time-Domain_Discrete_Event_Simulation_for_Topology-Informed_Assessment_of_Pow...",
+      "title": "On Graph Theory vs. Time-Domain Discrete Event Simulation for Topology-Informed Assessment of Pow...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...": {
+      "id": "local/A_Novel_Mutual_Insurance_Model_for_Hedging_Against_Cyber_Risks_in_Power_Systems_Deploying_Smart_T...",
+      "title": "A Novel Mutual Insurance Model for Hedging Against Cyber Risks in Power Systems Deploying Smart T...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...": {
+      "id": "local/Economic_impact_of_IoT_cyber_risk_--_Analysing_past_and_present_to_predict_the_future_development...",
+      "title": "Economic impact of IoT cyber risk -- Analysing past and present to predict the future development...",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory": {
+      "id": "local/Modeling_Multivariate_Cyber_Risks__Deep_Learning_Dating_Extreme_Value_Theory",
+      "title": "Modeling Multivariate Cyber Risks  Deep Learning Dating Extreme Value Theory",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems": {
+      "id": "local/Cyber_LOPA__An_Integrated_Approach_for_the_Design_of_Dependable_and_Secure_Cyber_Physical_Systems",
+      "title": "Cyber LOPA  An Integrated Approach for the Design of Dependable and Secure Cyber Physical Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_": {
+      "id": "local/Future_developments_in_standardisation_of_cyber_risk_in_the_Internet_of_Things__IoT_",
+      "title": "Future developments in standardisation of cyber risk in the Internet of Things  IoT ",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance": {
+      "id": "local/A_novel_k-generation_propagation_model_for_cyber_risk_and_its_application_to_cyber_insurance",
+      "title": "A novel k-generation propagation model for cyber risk and its application to cyber insurance",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk": {
+      "id": "local/LLM_Cyber_Evaluations_Don_t_Capture_Real-World_Risk",
+      "title": "LLM Cyber Evaluations Don t Capture Real-World Risk",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance": {
+      "id": "local/A_Bivariate_Compound_Dynamic_Contagion_Process_for_Cyber_Insurance",
+      "title": "A Bivariate Compound Dynamic Contagion Process for Cyber Insurance",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence": {
+      "id": "local/MAGIC__A_Method_for_Assessing_Cyber_Incidents_Occurrence",
+      "title": "MAGIC  A Method for Assessing Cyber Incidents Occurrence",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...": {
+      "id": "local/Dynamic_real-time_risk_analytics_of_uncontrollable_states_in_complex_internet_of_things_systems__...",
+      "title": "Dynamic real-time risk analytics of uncontrollable states in complex internet of things systems  ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability": {
+      "id": "local/Cyber_Risk_Frequency__Severity_and_Insurance_Viability",
+      "title": "Cyber Risk Frequency  Severity and Insurance Viability",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group": {
+      "id": "local/Mind_the_Gap__Securely_modeling_cyber_risk_based_on_security_deviations_from_a_peer_group",
+      "title": "Mind the Gap  Securely modeling cyber risk based on security deviations from a peer group",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks": {
+      "id": "local/Conditional_Value_at_Risk-Sensitive_Solar_Hosting_Capacity_Analysis_in_Distribution_Networks",
+      "title": "Conditional Value at Risk-Sensitive Solar Hosting Capacity Analysis in Distribution Networks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Portfolio_Risk_Assessment_using_Copula_Models": {
+      "id": "local/Portfolio_Risk_Assessment_using_Copula_Models",
+      "title": "Portfolio Risk Assessment using Copula Models",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 933,
+    "total_papers": 23,
+    "avg_concepts_per_paper": 40.56521739130435
+  }
+}

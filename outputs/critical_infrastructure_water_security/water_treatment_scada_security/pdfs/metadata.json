@@ -1,0 +1,901 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:27:01.614627+00:00",
+    "strategy_name": "Water Treatment SCADA and ICS Security",
+    "total_papers": 50,
+    "download_directory": "outputs/critical_infrastructure_water_security/water_treatment_scada_security/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Improving SIEM for Critical SCADA Water Infrastructures Using Machine   Learning",
+      "authors": [
+        "Hanan Hindy",
+        "David Brosset",
+        "Ethan Bayne",
+        "Amar Seeam",
+        "Xavier Bellekens"
+      ],
+      "abstract": "Network Control Systems (NAC) have been used in many industrial processes. They aim to reduce the human factor burden and efficiently handle the complex process and communication of those systems. Supervisory control and data acquisition (SCADA) systems are used in industrial, infrastructure and facility processes (e.g. manufacturing, fabrication, oil and water pipelines, building ventilation, etc.) Like other Internet of Things (IoT) implementations, SCADA systems are vulnerable to cyber-attacks, therefore, a robust anomaly detection is a major requirement. However, having an accurate anomaly detection system is not an easy task, due to the difficulty to differentiate between cyber-attacks and system internal failures (e.g. hardware failures). In this paper, we present a model that detects anomaly events in a water system controlled by SCADA. Six Machine Learning techniques have been used in building and evaluating the model. The model classifies different anomaly events including hardware failures (e.g. sensor failures), sabotage and cyber-attacks (e.g. DoS and Spoofing). Unlike other detection systems, our proposed work focuses on notifying the operator when an anomaly occurs with a probability of the event occurring. This additional information helps in accelerating the mitigation process. The model is trained and tested using a real-world dataset.",
+      "publication_date": "2019-03-06T12:59:01+00:00",
+      "doi": "10.1007/978-3-030-12786-2_1",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1904.05724v1"
+    },
+    {
+      "title": "Effectiveness of SCADA System Security Used Within Critical   Infrastructure",
+      "authors": [
+        "Joshua Taylor"
+      ],
+      "abstract": "Since the 1960s Supervisory Control and Data Acquisition (SCADA) systems have been used within industry. Referred to as critical infrastructure (CI), key installations such as power stations, water treatment and energy grids are controlled using SCADA. Existing literature reveals inherent security risks to CI and suggests this stems from the rise of interconnected networks, leading to the hypothesis that the rise of interconnectivity between corporate networks and SCADA system networks pose security risks to CI. The results from studies into previous global attacks involving SCADA and CI, with focus on two highly serious incidents in Iran and Ukraine, reveal that although interconnectivity is a major factor, isolated CIs are still highly vulnerable to attack due to risks within the SCADA controllers and protocols.",
+      "publication_date": "2020-12-18T00:31:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2012.11375v1"
+    },
+    {
+      "title": "sSCADA: Securing SCADA Infrastructure Communications",
+      "authors": [
+        "Yongge Wang"
+      ],
+      "abstract": "Distributed control systems (DCS) and supervisory control and data acquisition (SCADA) systems were developed to reduce labour costs, and to allow system-wide monitoring and remote control from a central location. Control systems are widely used in critical infrastructures such as electric grid, natural gas, water and wastewater industries. While control systems can be vulnerable to a variety of types of cyber attacks that could have devastating consequences, little research has been done to secure the control systems. American Gas Association (AGA), IEC TC57 WG15, IEEE, NIST and National SCADA Test Bed Program have been actively designing cryptographic standard to protect SCADA systems. American Gas Association (AGA) had originally been designing cryptographic standard to protect SCADA communication links and finished the report AGA 12 part 1. The AGA 12 part 2 has been transferred to IEEE P1711. This paper presents an attack on the protocols in the first draft of AGA standard (Wright et al., 2004). This attack shows that the security mechanisms in the first version of the AGA standard protocol could be easily defeated. We then propose a suite of security protocols optimised for SCADA/DCS systems which include: point-to-point secure channels, authenticated broadcast channels, authenticated emergency channels, and revised authenticated emergency channels. These protocols are designed to address the specific challenges that SCADA systems have.",
+      "publication_date": "2012-07-23T16:11:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.IT"
+      ],
+      "arxiv_id": "1207.5434v1"
+    },
+    {
+      "title": "Architecture and Security of SCADA Systems: A Review",
+      "authors": [
+        "Geeta Yadav",
+        "Kolin Paul"
+      ],
+      "abstract": "Pipeline bursting, production lines shut down, frenzy traffic, trains confrontation, nuclear reactor shut down, disrupted electric supply, interrupted oxygen supply in ICU - these catastrophic events could result because of an erroneous SCADA system/ Industrial Control System(ICS). SCADA systems have become an essential part of automated control and monitoring of many of the Critical Infrastructures (CI). Modern SCADA systems have evolved from standalone systems into sophisticated complex, open systems, connected to the Internet. This geographically distributed modern SCADA system is vulnerable to threats and cyber attacks. In this paper, we first review the SCADA system architectures that have been proposed/implemented followed by attacks on such systems to understand and highlight the evolving security needs for SCADA systems. A short investigation of the current state of intrusion detection techniques in SCADA systems is done , followed by a brief study of testbeds for SCADA systems. The cloud and Internet of things (IoT) based SCADA systems are studied by analysing the architecture of modern SCADA systems. This review paper ends by highlighting the critical research problems that need to be resolved to close the gaps in the security of SCADA systems.",
+      "publication_date": "2020-01-09T11:30:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2001.02925v1"
+    },
+    {
+      "title": "Cybersecurity for Industrial Control Systems: A Survey",
+      "authors": [
+        "Deval Bhamare",
+        "Maede Zolanvari",
+        "Aiman Erbad",
+        "Raj Jain",
+        "Khaled Khan",
+        "Nader Meskin"
+      ],
+      "abstract": "Industrial Control System (ICS) is a general term that includes supervisory control & data acquisition (SCADA) systems, distributed control systems (DCS), and other control system configurations such as programmable logic controllers (PLC). ICSs are often found in the industrial sectors and critical infrastructures, such as nuclear and thermal plants, water treatment facilities, power generation, heavy industries, and distribution systems. Though ICSs were kept isolated from the Internet for so long, significant achievable business benefits are driving a convergence between ICSs and the Internet as well as information technology (IT) environments, such as cloud computing. As a result, ICSs have been exposed to the attack vectors used in the majority of cyber-attacks. However, ICS devices are inherently much less secure against such advanced attack scenarios. A compromise to ICS can lead to enormous physical damage and danger to human lives. In this work, we have a close look at the shift of the ICS from stand-alone systems to cloud-based environments. Then we discuss the major works, from industry and academia towards the development of the secure ICSs, especially applicability of the machine learning techniques for the ICS cyber-security. The work may help to address the challenges of securing industrial processes, particularly while migrating them to the cloud environments.",
+      "publication_date": "2020-02-10T22:52:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2002.04124v1"
+    },
+    {
+      "title": "A Review of Cybersecurity Incidents in the Water Sector",
+      "authors": [
+        "Amin Hassanzadeh",
+        "Amin Rasekh",
+        "Stefano Galelli",
+        "Mohsen Aghashahi",
+        "Riccardo Taormina",
+        "Avi Ostfeld",
+        "Katherine Banks"
+      ],
+      "abstract": "This study presents a critical review of disclosed, documented, and malicious cybersecurity incidents in the water sector to inform safeguarding efforts against cybersecurity threats. The review is presented within a technical context of industrial control system architectures, attack-defense models, and security solutions. Fifteen incidents were selected and analyzed through a search strategy that included a variety of public information sources ranging from federal investigation reports to scientific papers. For each individual incident, the situation, response, remediation, and lessons learned were compiled and described. The findings of this review indicate an increase in the frequency, diversity, and complexity of cyberthreats to the water sector. Although the emergence of new threats, such as ransomware or cryptojacking, was found, a recurrence of similar vulnerabilities and threats, such as insider threats, was also evident, emphasizing the need for an adaptive, cooperative, and comprehensive approach to water cyberdefense.",
+      "publication_date": "2020-01-25T19:11:58+00:00",
+      "doi": "10.1061/(ASCE)EE.1943-7870.0001686",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2001.11144v2"
+    },
+    {
+      "title": "Hierarchical Online Intrusion Detection for SCADA Networks",
+      "authors": [
+        "Hongrui Wang",
+        "Tao Lu",
+        "Xiaodai Dong",
+        "Peixue Li",
+        "Michael Xie"
+      ],
+      "abstract": "We propose a novel hierarchical online intrusion detection system (HOIDS) for supervisory control and data acquisition (SCADA) networks based on machine learning algorithms. By utilizing the server-client topology while keeping clients distributed for global protection, high detection rate is achieved with minimum network impact. We implement accurate models of normal-abnormal binary detection and multi-attack identification based on logistic regression and quasi-Newton optimization algorithm using the Broyden-Fletcher-Goldfarb-Shanno approach. The detection system is capable of accelerating detection by information gain based feature selection or principle component analysis based dimension reduction. By evaluating our system using the KDD99 dataset and the industrial control system dataset, we demonstrate that HOIDS is highly scalable, efficient and cost effective for securing SCADA infrastructures.",
+      "publication_date": "2016-11-28T22:54:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1611.09418v1"
+    },
+    {
+      "title": "A Virtual Cybersecurity Department for Securing Digital Twins in Water   Distribution Systems",
+      "authors": [
+        "Mohammadhossein Homaei",
+        "Agustin Di Bartolo",
+        "Oscar Mogollon-Gutierrez",
+        "Fernando Broncano Morgado",
+        "Pablo Garcia Rodriguez"
+      ],
+      "abstract": "Digital twins (DTs) help improve real-time monitoring and decision-making in water distribution systems. However, their connectivity makes them easy targets for cyberattacks such as scanning, denial-of-service (DoS), and unauthorized access. Small and medium-sized enterprises (SMEs) that manage these systems often do not have enough budget or staff to build strong cybersecurity teams. To solve this problem, we present a Virtual Cybersecurity Department (VCD), an affordable and automated framework designed for SMEs. The VCD uses open-source tools like Zabbix for real-time monitoring, Suricata for network intrusion detection, Fail2Ban to block repeated login attempts, and simple firewall settings. To improve threat detection, we also add a machine-learning-based IDS trained on the OD-IDS2022 dataset using an improved ensemble model. This model detects cyber threats such as brute-force attacks, remote code execution (RCE), and network flooding, with 92\\% accuracy and fewer false alarms. Our solution gives SMEs a practical and efficient way to secure water systems using low-cost and easy-to-manage tools.",
+      "publication_date": "2025-04-28T21:14:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.20266v1"
+    },
+    {
+      "title": "Anomaly Detection for Water Treatment System based on Neural Network   with Automatic Architecture Optimization",
+      "authors": [
+        "Dmitry Shalyga",
+        "Pavel Filonov",
+        "Andrey Lavrentyev"
+      ],
+      "abstract": "We continue to develop our neural network (NN) based forecasting approach to anomaly detection (AD) using the Secure Water Treatment (SWaT) industrial control system (ICS) testbed dataset. We propose genetic algorithms (GA) to find the best NN architecture for a given dataset, using the NAB metric to assess the quality of different architectures. The drawbacks of the F1-metric are analyzed. Several techniques are proposed to improve the quality of AD: exponentially weighted smoothing, mean p-powered error measure, individual error weight for each variable, disjoint prediction windows. Based on the techniques used, an approach to anomaly interpretation is introduced.",
+      "publication_date": "2018-07-19T08:22:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "1807.07282v1"
+    },
+    {
+      "title": "Power Networks SCADA Communication Cybersecurity, A Qiskit   Implementation",
+      "authors": [
+        "Hillol Biswas"
+      ],
+      "abstract": "The cyber-physical system of electricity power networks utilizes supervisory control and data acquisition systems (SCADA), which are inherently vulnerable to cyber threats if usually connected with the internet technology (IT). Power system operations are conducted through communication systems that are mapped to standards, protocols, ports, and addresses. Real-time situational awareness is a standard term with implications and applications in both power systems and cybersecurity. In the plausible quantum world (Q-world), conventional approaches will likely face new challenges. The unique art of transmitting a quantum state from one place, Alice, to another, Bob, is known as quantum communication. Quantum communication for SCADA communication in a plausible quantum era thus obviously entails wired communication through optical fiber networks complying with the typical cybersecurity criteria of confidentiality, integrity, and availability for classical internet technology unless a quantum internet (qinternet) transpires practically. When combined with the reverse order of AIC for operational technology, the cybersecurity criteria for power networks' critical infrastructure drill down to more specific sub-areas. Unlike other communication modes, such as information technology (IT) in broadband internet connections, SCADA for power networks, one of the critical infrastructures, is intricately intertwined with operations technology (OT), which significantly increases complexity. Though it is desirable to have a barrier called a demilitarized zone (DMZ), some overlap is inevitable. This paper highlights the opportunities and challenges in securing SCADA communication in the plausible quantum computing and communication regime, along with a corresponding integrated Qiskit implementation for possible future framework development.",
+      "publication_date": "2025-03-26T09:40:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2503.20365v1"
+    },
+    {
+      "title": "An Implementation of SCADA Network Security Testbed",
+      "authors": [
+        "Liao Zhang"
+      ],
+      "abstract": "The security of industrial network has become an increasing concern in industry infrastructure operation. Motivated by on-going collaborations with Fortinet Corp., a security company, this project implements a testbed for supervisory control and data acquisition (SCADA) network security research by software emulation. Concepts about SCADA and Modbus protocol are reviewed in the report. Besides Modbus, vulnerabilities about several other industrial protocols are also studied for this project. In this report, a typical tank system following Modbus protocol is built as a testbed. Both attack and defense toolkits are introduced to emulate the attack and protection of the Modbus network. The emulation platform is also capable of entrapping hackers and gathering their activity data.",
+      "publication_date": "2017-01-19T07:43:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1701.05323v1"
+    },
+    {
+      "title": "Probability Risk Identification Based Intrusion Detection System for   SCADA Systems",
+      "authors": [
+        "Thomas Marsden",
+        "Nour Moustafa",
+        "Elena Sitnikova",
+        "Gideon Creech"
+      ],
+      "abstract": ". As Supervisory Control and Data Acquisition (SCADA) systems control several critical infrastructures, they have connected to the internet. Consequently, SCADA systems face different sophisticated types of cyber adversaries. This paper suggests a Probability Risk Identification based Intrusion Detection System (PRI-IDS) technique based on analysing network traffic of Modbus TCP/IP for identifying replay attacks. It is acknowledged that Modbus TCP is usually vulnerable due to its unauthenticated and unencrypted nature. Our technique is evaluated using a simulation environment by configuring a testbed, which is a cus- tom SCADA network that is cheap, accurate and scalable. The testbed is exploited when testing the IDS by sending individual packets from an attacker located on the same LAN as the Modbus master and slave. The experimental results demonstrated that the proposed technique can effectively and efficiently recognise replay attacks.",
+      "publication_date": "2017-11-08T04:43:46+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1711.02826v1"
+    },
+    {
+      "title": "The Dark Side of Digital Twins: Adversarial Attacks on AI-Driven Water   Forecasting",
+      "authors": [
+        "Mohammadhossein Homaei",
+        "Victor Gonzalez Morales",
+        "Oscar Mogollon-Gutierrez",
+        "Andres Caro"
+      ],
+      "abstract": "Digital twins (DTs) are improving water distribution systems by using real-time data, analytics, and prediction models to optimize operations. This paper presents a DT platform designed for a Spanish water supply network, utilizing Long Short-Term Memory (LSTM) networks to predict water consumption. However, machine learning models are vulnerable to adversarial attacks, such as the Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD). These attacks manipulate critical model parameters, injecting subtle distortions that degrade forecasting accuracy. To further exploit these vulnerabilities, we introduce a Learning Automata (LA) and Random LA-based approach that dynamically adjusts perturbations, making adversarial attacks more difficult to detect. Experimental results show that this approach significantly impacts prediction reliability, causing the Mean Absolute Percentage Error (MAPE) to rise from 26% to over 35%. Moreover, adaptive attack strategies amplify this effect, highlighting cybersecurity risks in AI-driven DTs. These findings emphasize the urgent need for robust defenses, including adversarial training, anomaly detection, and secure data pipelines.",
+      "publication_date": "2025-04-28T22:34:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2504.20295v1"
+    },
+    {
+      "title": "Distributed Intrusion Detection System using Semantic-based Rules for   SCADA in Smart Grid",
+      "authors": [
+        "Sathya Narayana Mohan",
+        "Gelli Ravikumar",
+        "Manimaran Govindarasu"
+      ],
+      "abstract": "Cyber-physical system (CPS) security for the smart grid enables secure communication for the SCADA and wide-area measurement system data. Power utilities world-wide use various SCADA protocols, namely DNP3, Modbus, and IEC 61850, for the data exchanges across substation field devices, remote terminal units (RTUs), and control center applications. Adversaries may exploit compromised SCADA protocols for the reconnaissance, data exfiltration, vulnerability assessment, and injection of stealthy cyberattacks to affect power system operation. In this paper, we propose an efficient algorithm to generate robust rule sets. We integrate the rule sets into an intrusion detection system (IDS), which continuously monitors the DNP3 data traffic at a substation network and detects intrusions and anomalies in real-time. To enable CPS-aware wide-area situational awareness, we integrated the methodology into an open-source distributed-IDS (D-IDS) framework. The D-IDS facilitates central monitoring of the detected anomalies from the geographically distributed substations and to the control center. The proposed algorithm provides an optimal solution to detect network intrusions and abnormal behavior. Different types of IDS rules based on packet payload, packet flow, and time threshold are generated. Further, IDS testing and evaluation is performed with a set of rules in different sequences. The detection time is measured for different IDS rules, and the results are plotted. All the experiments are conducted at Power Cyber Lab, Iowa State University, for multiple power grid models. After successful testing and evaluation, knowledge and implementation are transferred to field deployment.",
+      "publication_date": "2024-12-10T20:57:43+00:00",
+      "doi": "10.1109/TD39804.2020.9299960",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2412.07917v1"
+    },
+    {
+      "title": "WASD -- Water Saving Device",
+      "authors": [
+        "Samuele Rebecchi",
+        "Samuele Marcellino",
+        "Luca Magoni"
+      ],
+      "abstract": "In response to escalating global drinking water scarcity we propose an innovative, automatic system for reusing clean sink water to flush toilets. Existing solutions for water recycle in the houses involve purifiers and complex treatments, leading to high costs and constant maintenance. WASD, utilizing sensors and a solenoid valve, rapidly detects and separates clean water, directing it to toilet tank while sending non-reusable water to the drain. This cost-effective and user-friendly approach aims to establish sustainable water practices in domestic settings, contributing to solve the shortage of drinking water.",
+      "publication_date": "2024-09-15T17:20:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2409.09798v2"
+    },
+    {
+      "title": "Privacy Preservation Intrusion Detection Technique for SCADA Systems",
+      "authors": [
+        "Marwa Keshk",
+        "Nour Moustafa",
+        "Elena Sitnikova",
+        "Gideon Creech"
+      ],
+      "abstract": "Supervisory Control and Data Acquisition (SCADA) systems face the absence of a protection technique that can beat different types of intrusions and protect the data from disclosure while handling this data using other applications, specifically Intrusion Detection System (IDS). The SCADA system can manage the critical infrastructure of industrial control environments. Protecting sensitive information is a difficult task to achieve in reality with the connection of physical and digital systems. Hence, privacy preservation techniques have become effective in order to protect sensitive/private information and to detect malicious activities, but they are not accurate in terms of error detection, sensitivity percentage of data disclosure. In this paper, we propose a new Privacy Preservation Intrusion Detection (PPID) technique based on the correlation coefficient and Expectation Maximisation (EM) clustering mechanisms for selecting important portions of data and recognizing intrusive events. This technique is evaluated on the power system datasets for multiclass attacks to measure its reliability for detecting suspicious activities. The experimental results outperform three techniques in the above terms, showing the efficiency and effectiveness of the proposed technique to be utilized for current SCADA systems.",
+      "publication_date": "2017-11-08T04:51:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1711.02828v1"
+    },
+    {
+      "title": "Model-Based Control of Water Treatment with Pumped Water Storage",
+      "authors": [
+        "Ryan Mauery",
+        "Margaret Busse",
+        "Ilya Kovalenko"
+      ],
+      "abstract": "Water treatment facilities are critical infrastructure they must accommodate dynamic demand patterns without system disruption. These patterns can be scheduled, such as daily residential irrigation, or unexpected, such as demand spikes from withdrawals for fire management. The critical necessity of clean, safe, and reliable water requires water treatment control strategies that are insensitive to disturbances to guarantee that demand will be met. One essential problem in achieving this is the minimization of energy costs in the process of meeting water demand, especially as the need for decarbonization persists. This work develops a control-oriented hydraulic model of a water treatment facility with integrated pumped storage and introduces a model predictive control strategy for scheduling treatment plant system operations to minimize greenhouse gas emissions and safely meet water demand.",
+      "publication_date": "2024-08-14T17:52:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2408.07696v1"
+    },
+    {
+      "title": "IoT Security and Safety Testing Toolkits for Water Distribution Systems",
+      "authors": [
+        "Sean O'Toole",
+        "Cameron Sewell",
+        "Hoda Mehrpouyan"
+      ],
+      "abstract": "Due to the critical importance of Industrial Control Systems (ICS) to the operations of cities and countries, research into the security of critical infrastructure has become increasingly relevant and necessary. As a component of both the research and application sides of smart city development, accurate and precise modeling, simulation, and verification are key parts of a robust design and development tools that provide critical assistance in the prevention, detection, and recovery from abnormal behavior in the sensors, controllers, and actuators which make up a modern ICS system. However, while these tools have potential, there is currently a need for helper-tools to assist with their setup and configuration, if they are to be utilized widely. Existing state-of-the-art tools are often technically complex and difficult to customize for any given IoT/ICS processes. This is a serious barrier to entry for most technicians, engineers, researchers, and smart city planners, while slowing down the critical aspects of safety and security verification. To remedy this issue, we take a case study of existing simulation toolkits within the field of water management and expand on existing tools and algorithms with simplistic automated retrieval functionality using a much more in-depth and usable customization interface to accelerate simulation scenario design and implementation, allowing for customization of the cyber-physical network infrastructure and cyber attack scenarios. We additionally provide a novel in-tool-assessment of network's resilience according to graph theory path diversity. Further, we lay out a roadmap for future development and application of the proposed tool, including expansions on resiliency and potential vulnerability model checking, and discuss applications of our work to other fields relevant to the design and operation of smart cities.",
+      "publication_date": "2021-12-15T20:39:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2112.08473v1"
+    },
+    {
+      "title": "Investigation of Cyber Attacks on a Water Distribution System",
+      "authors": [
+        "Sridhar Adepu",
+        "Venkata Reddy Palleti",
+        "Gyanendra Mishra",
+        "Aditya Mathur"
+      ],
+      "abstract": "A Cyber Physical System (CPS) consists of cyber components for computation and communication, and physical components such as sensors and actuators for process control. These components are networked and interact in a feedback loop. CPS are found in critical infrastructure such as water distribution, power grid, and mass transportation. Often these systems are vulnerable to attacks as the cyber components such as Supervisory Control and Data Acquisition workstations, Human Machine Interface and Programmable Logic Controllers are potential targets for attackers. In this work, we report a study to investigate the impact of cyber attacks on a water distribution (WADI) system. Attacks were designed to meet attacker objectives and launched on WADI using a specially designed tool. This tool enables the launch of single and multi-point attacks where the latter are designed to specifically hide one or more attacks. The outcome of the experiments led to a better understanding of attack propagation and behavior of WADI in response to the attacks as well as to the design of an attack detection mechanism for water distribution system.",
+      "publication_date": "2019-06-05T19:55:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1906.02279v1"
+    },
+    {
+      "title": "Analysis, classification and detection methods of attacks via wireless   sensor networks in SCADA systems",
+      "authors": [
+        "Pavel Viktorovich Botvinkin",
+        "Valery Anatolevich Kamaev",
+        "Irina Sergeevna Nefedova",
+        "Aleksey Germanovich Finogeev",
+        "Egor Alekseevich Finogeev"
+      ],
+      "abstract": "Effectiveness of information security of automated process control systems, as well as of SCADA, depends on data transmissions protection technologies applied on transport environments components. This article investigates the problem of detecting attacks on WSN (wireless sensor networks) of SCADA systems. As the result of analytical studies the authors developed the detailed classification of external attacks on sensor networks and brought the detailed description of attacking impacts on components of SCADA systems in accordance with selected directions of attacks. Reviewed the methods of intrusion detection in wireless sensor networks of SCADA systems and functions of WIDS (wireless intrusion detection systems). Noticed the role of anthropogenic factors in internal security threats.",
+      "publication_date": "2014-12-07T18:57:56+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1412.2387v1"
+    },
+    {
+      "title": "SCADA System Testbed for Cybersecurity Research Using Machine Learning   Approach",
+      "authors": [
+        "Marcio Andrey Teixeira",
+        "Tara Salman",
+        "Maede Zolanvari",
+        "Raj Jain",
+        "Nader Meskin",
+        "Mohammed Samaka"
+      ],
+      "abstract": "This paper presents the development of a Supervisory Control and Data Acquisition (SCADA) system testbed used for cybersecurity research. The testbed consists of a water storage tank's control system, which is a stage in the process of water treatment and distribution. Sophisticated cyber-attacks were conducted against the testbed. During the attacks, the network traffic was captured, and features were extracted from the traffic to build a dataset for training and testing different machine learning algorithms. Five traditional machine learning algorithms were trained to detect the attacks: Random Forest, Decision Tree, Logistic Regression, Naive Bayes and KNN. Then, the trained machine learning models were built and deployed in the network, where new tests were made using online network traffic. The performance obtained during the training and testing of the machine learning models was compared to the performance obtained during the online deployment of these models in the network. The results show the efficiency of the machine learning models in detecting the attacks in real time. The testbed provides a good understanding of the effects and consequences of attacks on real SCADA environments",
+      "publication_date": "2019-02-10T23:31:04+00:00",
+      "doi": "10.3390/fi10080076",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "1904.00753v1"
+    },
+    {
+      "title": "Explainable Anomaly Detection for Industrial Control System   Cybersecurity",
+      "authors": [
+        "Do Thu Ha",
+        "Nguyen Xuan Hoang",
+        "Nguyen Viet Hoang",
+        "Nguyen Huu Du",
+        "Truong Thu Huong",
+        "Kim Phuc Tran"
+      ],
+      "abstract": "Industrial Control Systems (ICSs) are becoming more and more important in managing the operation of many important systems in smart manufacturing, such as power stations, water supply systems, and manufacturing sites. While massive digital data can be a driving force for system performance, data security has raised serious concerns. Anomaly detection, therefore, is essential for preventing network security intrusions and system attacks. Many AI-based anomaly detection methods have been proposed and achieved high detection performance, however, are still a \"black box\" that is hard to be interpreted. In this study, we suggest using Explainable Artificial Intelligence to enhance the perspective and reliable results of an LSTM-based Autoencoder-OCSVM learning model for anomaly detection in ICS. We demonstrate the performance of our proposed method based on a well-known SCADA dataset.",
+      "publication_date": "2022-05-04T08:04:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2205.01930v1"
+    },
+    {
+      "title": "Combining ensemble methods and social network metrics for improving   accuracy of OCSVM on intrusion detection in SCADA systems",
+      "authors": [
+        "Leandros A. Maglaras",
+        "Jianmin Jiang",
+        "Tiago J. Cruz"
+      ],
+      "abstract": "Modern Supervisory Control and Data Acquisition SCADA systems used by the electric utility industry to monitor and control electric power generation, transmission and distribution are recognized today as critical components of the electric power delivery infrastructure. SCADA systems are large, complex and incorporate increasing numbers of widely distributed components. The presence of a real time intrusion detection mechanism, which can cope with different types of attacks, is of great importance, in order to defend a system against cyber attacks This defense mechanism must be distributed, cheap and above all accurate, since false positive alarms, or mistakes regarding the origin of the intrusion mean severe costs for the system. Recently an integrated detection mechanism, namely IT-OCSVM was proposed, which is distributed in a SCADA network as a part of a distributed intrusion detection system (IDS), providing accurate data about the origin and the time of an intrusion. In this paper we also analyze the architecture of the integrated detection mechanism and we perform extensive simulations based on real cyber attacks in a small SCADA testbed in order to evaluate the performance of the proposed mechanism.",
+      "publication_date": "2015-07-10T09:43:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1507.02825v2"
+    },
+    {
+      "title": "Enhancing SCADA Security: Developing a Host-Based Intrusion Detection   System to Safeguard Against Cyberattacks",
+      "authors": [
+        "Omer Sen",
+        "Tarek Hassan",
+        "Andreas Ulbig",
+        "Martin Henze"
+      ],
+      "abstract": "With the increasing reliance of smart grids on correctly functioning SCADA systems and their vulnerability to cyberattacks, there is a pressing need for effective security measures. SCADA systems are prone to cyberattacks, posing risks to critical infrastructure. As there is a lack of host-based intrusion detection systems specifically designed for the stable nature of SCADA systems, the objective of this work is to propose a host-based intrusion detection system tailored for SCADA systems in smart grids. The proposed system utilizes USB device identification, flagging, and process memory scanning to monitor and detect anomalies in SCADA systems, providing enhanced security measures. Evaluation in three different scenarios demonstrates the tool's effectiveness in detecting and disabling malware. The proposed approach effectively identifies potential threats and enhances the security of SCADA systems in smart grids, providing a promising solution to protect against cyberattacks.",
+      "publication_date": "2024-02-22T14:47:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2402.14599v1"
+    },
+    {
+      "title": "Breaking the Flow and the Bank: Stealthy Cyberattacks on Water Network   Hydraulics",
+      "authors": [
+        "Abdallah Alalem Albustami",
+        "Ahmad F. Taha"
+      ],
+      "abstract": "As water distribution networks (WDNs) become increasingly connected with digital infrastructures, they face greater exposure to cyberattacks that threaten their operational integrity. Stealthy False Data Injection Attacks (SFDIAs) are particularly concerning, as they manipulate sensor data to compromise system operations while avoiding detection. While existing studies have focused on either detection methods or specific attack formulations, the relationship between attack sophistication, system knowledge requirements, and achievable impact remains unexplored. This paper presents a systematic analysis of sensor attacks against WDNs, investigating different combinations of physical constraints, state monitoring requirements, and intrusion detection evasion conditions. We propose several attack formulations that range from tailored strategies satisfying both physical and detection constraints to simpler measurement manipulations. The proposed attacks are simple and local -- requiring knowledge only of targeted sensors and their hydraulic connections -- making them scalable and practical. Through case studies on Net1 and Net3 benchmark networks, we demonstrate how these attacks can persistently increase operational costs and alter water flows while remaining undetected by monitoring systems for extended periods. The analysis provides utilities with insights for vulnerability assessment and motivates the development of protection strategies that combine physical and statistical security mechanisms.",
+      "publication_date": "2025-04-24T02:54:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2504.17211v1"
+    },
+    {
+      "title": "Game Theory for Secure Critical Interdependent Gas-Power-Water   Infrastructure",
+      "authors": [
+        "Aidin Ferdowsi",
+        "Anibal Sanjab",
+        "Walid Saad",
+        "Narayan B. Mandayam"
+      ],
+      "abstract": "A city's critical infrastructure such as gas, water, and power systems, are largely interdependent since they share energy, computing, and communication resources. This, in turn, makes it challenging to endow them with fool-proof security solutions. In this paper, a unified model for interdependent gas-power-water infrastructure is presented and the security of this model is studied using a novel game-theoretic framework. In particular, a zero-sum noncooperative game is formulated between a malicious attacker who seeks to simultaneously alter the states of the gas-power-water critical infrastructure to increase the power generation cost and a defender who allocates communication resources over its attack detection filters in local areas to monitor the infrastructure. At the mixed strategy Nash equilibrium of this game, numerical results show that the expected power generation cost deviation is 35\\% lower than the one resulting from an equal allocation of resources over the local filters. The results also show that, at equilibrium, the interdependence of the power system on the natural gas and water systems can motivate the attacker to target the states of the water and natural gas systems to change the operational states of the power grid. Conversely, the defender allocates a portion of its resources to the water and natural gas states of the interdependent system to protect the grid from state deviations.",
+      "publication_date": "2017-07-14T17:09:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SY"
+      ],
+      "arxiv_id": "1707.04589v1"
+    },
+    {
+      "title": "Physics-Informed Neural Networks for Securing Water Distribution Systems",
+      "authors": [
+        "Solon Falas",
+        "Charalambos Konstantinou",
+        "Maria K. Michael"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) is an emerging category of neural networks which can be trained to solve supervised learning tasks while taking into consideration given laws of physics described by general nonlinear partial differential equations. PINNs demonstrate promising characteristics such as performance and accuracy using minimal amount of data for training, utilized to accurately represent the physical properties of a system's dynamic environment. In this work, we employ the emerging paradigm of PINNs to demonstrate their potential in enhancing the security of intelligent cyberphysical systems. In particular, we present a proof-of-concept scenario using the use case of water distribution networks, which involves an attack on a controller in charge of regulating a liquid pump through liquid flow sensor measurements. PINNs are used to mitigate the effects of the attack while demonstrating the applicability and challenges of the approach.",
+      "publication_date": "2020-09-18T13:55:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2009.08842v1"
+    },
+    {
+      "title": "Scanning the Cycle: Timing-based Authentication on PLCs",
+      "authors": [
+        "Chuadhry Mujeeb Ahmed",
+        "Martin Ochoa",
+        "Jianying Zhou",
+        "Aditya Mathur"
+      ],
+      "abstract": "Programmable Logic Controllers (PLCs) are a core component of an Industrial Control System (ICS). However, if a PLC is compromised or the commands sent across a network from the PLCs are spoofed, consequences could be catastrophic. In this work, a novel technique to authenticate PLCs is proposed that aims at raising the bar against powerful attackers while being compatible with real-time systems. The proposed technique captures timing information for each controller in a non-invasive manner. It is argued that Scan Cycle is a unique feature of a PLC that can be approximated passively by observing network traffic. An attacker that spoofs commands issued by the PLCs would deviate from such fingerprints. To detect replay attacks a PLC Watermarking technique is proposed. PLC Watermarking models the relationship between the scan cycle and the control logic by modeling the input/output as a function of request/response messages of a PLC. The proposed technique is validated on an operational water treatment plant (SWaT) and smart grid (EPIC) testbed. Results from experiments indicate that PLCs can be distinguished based on their scan cycle timing characteristics.",
+      "publication_date": "2021-02-17T19:26:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2102.08985v1"
+    },
+    {
+      "title": "Sensor Placement for Contamination Detection in Water Distribution   Systems",
+      "authors": [
+        "Margarita Rebolledo",
+        "Sowmya Chandrasekaran",
+        "Thomas Bartz-Beielstein"
+      ],
+      "abstract": "Sensor placement for contaminant detection in water distribution systems (WDS) has become a topic of great interest aiming to secure a population's water supply. Several approaches can be found in the literature with differences ranging from the objective selected to optimize to the methods implemented to solve the optimization problem. In this work we aim to give an overview of the current work in sensor placement with focus on contaminant detection for WDS. We present some of the objectives for which the sensor placement problem is defined along with common optimization algorithms and Toolkits available to help with algorithm testing and comparison.",
+      "publication_date": "2020-11-11T16:19:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2011.06406v1"
+    },
+    {
+      "title": "Marginal energy intensity of water supply",
+      "authors": [
+        "Yang Liu",
+        "Meagan S. Mauter"
+      ],
+      "abstract": "Reducing global carbon emissions will require diverse industrial sectors to use energy more efficiently, electrify, and operate intermittently. The water sector is a transformation target, but we lack energy quantification tools to guide operational, infrastructure, and policy interventions in complex water sourcing, treatment, and distribution networks. The marginal energy intensity (MEI) of water supply quantifies the location-specific, instantaneous embedded energy in water delivered to consumers. We describe the first MEI algorithm and elucidate the sensitivity of MEI to generalizable water system features. When incorporated in multi-objective operational and planning models, MEI will dramatically increase the energy co-benefits of water efficiency, conservation, and retrofit programs; maximize energy flexibility services that water systems can deliver to the grid; and facilitate full cost recovery in distribution system operation.",
+      "publication_date": "2021-02-19T06:03:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2102.09753v2"
+    },
+    {
+      "title": "On Practicality of Using ARM TrustZone Trusted Execution Environment for   Securing Programmable Logic Controllers",
+      "authors": [
+        "Zhiang Li",
+        "Daisuke Mashima",
+        "Wen Shei Ong",
+        "Ertem Esiner",
+        "Zbigniew Kalbarczyk",
+        "Ee-Chien Chang"
+      ],
+      "abstract": "Programmable logic controllers (PLCs) are crucial devices for implementing automated control in various industrial control systems (ICS), such as smart power grids, water treatment systems, manufacturing, and transportation systems. Owing to their importance, PLCs are often the target of cyber attackers that are aiming at disrupting the operation of ICS, including the nation's critical infrastructure, by compromising the integrity of control logic execution. While a wide range of cybersecurity solutions for ICS have been proposed, they cannot counter strong adversaries with a foothold on the PLC devices, which could manipulate memory, I/O interface, or PLC logic itself. These days, many ICS devices in the market, including PLCs, run on ARM-based processors, and there is a promising security technology called ARM TrustZone, to offer a Trusted Execution Environment (TEE) on embedded devices. Envisioning that such a hardware-assisted security feature becomes available for ICS devices in the near future, this paper investigates the application of the ARM TrustZone TEE technology for enhancing the security of PLC. Our aim is to evaluate the feasibility and practicality of the TEE-based PLCs through the proof-of-concept design and implementation using open-source software such as OP-TEE and OpenPLC. Our evaluation assesses the performance and resource consumption in real-world ICS configurations, and based on the results, we discuss bottlenecks in the OP-TEE secure OS towards a large-scale ICS and desired changes for its application on ICS devices. Our implementation is made available to public for further study and research.",
+      "publication_date": "2024-03-08T16:55:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.05448v1"
+    },
+    {
+      "title": "Detecting Safety and Security Faults in PLC Systems with Data Provenance",
+      "authors": [
+        "Abdullah Al Farooq",
+        "Jessica Marquard",
+        "Kripa George",
+        "Thomas Moyer"
+      ],
+      "abstract": "Programmable Logic Controllers are an integral component for managing many different industrial processes (e.g., smart building management, power generation, water and wastewater management, and traffic control systems), and manufacturing and control industries (e.g., oil and natural gas, chemical, pharmaceutical, pulp and paper, food and beverage, automotive, and aerospace). Despite being used widely in many critical infrastructures, PLCs use protocols which make these control systems vulnerable to many common attacks, including man-in-the-middle attacks, denial of service attacks, and memory corruption attacks (e.g., array, stack, and heap overflows, integer overflows, and pointer corruption). In this paper, we propose PLC-PROV, a system for tracking the inputs and outputs of the control system to detect violations in the safety and security policies of the system. We consider a smart building as an example of a PLC-based system and show how PLC-PROV can be applied to ensure that the inputs and outputs are consistent with the intended safety and security policies.",
+      "publication_date": "2019-11-14T18:46:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1911.06304v1"
+    },
+    {
+      "title": "Stealthy Deception Attacks Against SCADA Systems",
+      "authors": [
+        "Amit Kleinmann",
+        "Ori Amichay",
+        "Avishai Wool",
+        "David Tenenbaum",
+        "Ofer Bar",
+        "Leonid Lev"
+      ],
+      "abstract": "SCADA protocols for Industrial Control Systems (ICS) are vulnerable to network attacks such as session hijacking. Hence, research focuses on network anomaly detection based on meta--data (message sizes, timing, command sequence), or on the state values of the physical process. In this work we present a class of semantic network-based attacks against SCADA systems that are undetectable by the above mentioned anomaly detection. After hijacking the communication channels between the Human Machine Interface (HMI) and Programmable Logic Controllers (PLCs), our attacks cause the HMI to present a fake view of the industrial process, deceiving the human operator into taking manual actions. Our most advanced attack also manipulates the messages generated by the operator's actions, reversing their semantic meaning while causing the HMI to present a view that is consistent with the attempted human actions. The attacks are totaly stealthy because the message sizes and timing, the command sequences, and the data values of the ICS's state all remain legitimate.   We implemented and tested several attack scenarios in the test lab of our local electric company, against a real HMI and real PLCs, separated by a commercial-grade firewall. We developed a real-time security assessment tool, that can simultaneously manipulate the communication to multiple PLCs and cause the HMI to display a coherent system--wide fake view. Our tool is configured with message-manipulating rules written in an ICS Attack Markup Language (IAML) we designed, which may be of independent interest. Our semantic attacks all successfully fooled the operator and brought the system to states of blackout and possible equipment damage.",
+      "publication_date": "2017-06-28T14:10:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1706.09303v1"
+    },
+    {
+      "title": "AquaSight: Automatic Water Impurity Detection Utilizing Convolutional   Neural Networks",
+      "authors": [
+        "Ankit Gupta",
+        "Elliott Ruebush"
+      ],
+      "abstract": "According to the United Nations World Water Assessment Programme, every day, 2 million tons of sewage and industrial and agricultural waste are discharged into the worlds water. In order to address this pervasive issue of increasing water pollution, while ensuring that the global population has an efficient, accurate, and low cost method to assess whether the water they drink is contaminated, we propose AquaSight, a novel mobile application that utilizes deep learning methods, specifically Convolutional Neural Networks, for automated water impurity detection. After comprehensive training with a dataset of 105 images representing varying magnitudes of contamination, the deep learning algorithm achieved a 96 percent accuracy and loss of 0.108. Furthermore, the machine learning model uses efficient analysis of the turbidity and transparency levels of water to estimate a particular sample of waters level of contamination. When deployed, the AquaSight system will provide an efficient way for individuals to secure an estimation of water quality, alerting local and national government to take action and potentially saving millions of lives worldwide.",
+      "publication_date": "2019-07-17T15:17:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "1907.07573v1"
+    },
+    {
+      "title": "Enhancing Network Security Management in Water Systems using FM-based   Attack Attribution",
+      "authors": [
+        "Aleksandar Avdalovic",
+        "Joseph Khoury",
+        "Ahmad Taha",
+        "Elias Bou-Harb"
+      ],
+      "abstract": "Water systems are vital components of modern infrastructure, yet they are increasingly susceptible to sophisticated cyber attacks with potentially dire consequences on public health and safety. While state-of-the-art machine learning techniques effectively detect anomalies, contemporary model-agnostic attack attribution methods using LIME, SHAP, and LEMNA are deemed impractical for large-scale, interdependent water systems. This is due to the intricate interconnectivity and dynamic interactions that define these complex environments. Such methods primarily emphasize individual feature importance while falling short of addressing the crucial sensor-actuator interactions in water systems, which limits their effectiveness in identifying root cause attacks. To this end, we propose a novel model-agnostic Factorization Machines (FM)-based approach that capitalizes on water system sensor-actuator interactions to provide granular explanations and attributions for cyber attacks. For instance, an anomaly in an actuator pump activity can be attributed to a top root cause attack candidates, a list of water pressure sensors, which is derived from the underlying linear and quadratic effects captured by our approach. We validate our method using two real-world water system specific datasets, SWaT and WADI, demonstrating its superior performance over traditional attribution methods. In multi-feature cyber attack scenarios involving intricate sensor-actuator interactions, our FM-based attack attribution method effectively ranks attack root causes, achieving approximately 20% average improvement over SHAP and LEMNA.",
+      "publication_date": "2025-03-03T06:52:00+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2503.01229v1"
+    },
+    {
+      "title": "Smart Water Security with AI and Blockchain-Enhanced Digital Twins",
+      "authors": [
+        "Mohammadhossein Homaei",
+        "Victor Gonzalez Morales",
+        "Oscar Mogollon Gutierrez",
+        "Ruben Molano Gomez",
+        "Andres Caro"
+      ],
+      "abstract": "Water distribution systems in rural areas face serious challenges such as a lack of real-time monitoring, vulnerability to cyberattacks, and unreliable data handling. This paper presents an integrated framework that combines LoRaWAN-based data acquisition, a machine learning-driven Intrusion Detection System (IDS), and a blockchain-enabled Digital Twin (BC-DT) platform for secure and transparent water management. The IDS filters anomalous or spoofed data using a Long Short-Term Memory (LSTM) Autoencoder and Isolation Forest before validated data is logged via smart contracts on a private Ethereum blockchain using Proof of Authority (PoA) consensus. The verified data feeds into a real-time DT model supporting leak detection, consumption forecasting, and predictive maintenance. Experimental results demonstrate that the system achieves over 80 transactions per second (TPS) with under 2 seconds of latency while remaining cost-effective and scalable for up to 1,000 smart meters. This work demonstrates a practical and secure architecture for decentralized water infrastructure in under-connected rural environments.",
+      "publication_date": "2025-04-28T21:41:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2504.20275v1"
+    },
+    {
+      "title": "Toward `verifying' a Water Treatment System",
+      "authors": [
+        "Jingyi Wang",
+        "Jun Sun",
+        "Yifan Jia",
+        "Shengchao Qin",
+        "Zhiwu Xu"
+      ],
+      "abstract": "Modeling and verifying real-world cyber-physical systems is challenging, which is especially so for complex systems where manually modeling is infeasible. In this work, we report our experience on combining model learning and abstraction refinement to analyze a challenging system, i.e., a real-world Secure Water Treatment system (SWaT). Given a set of safety requirements, the objective is to either show that the system is safe with a high probability (so that a system shutdown is rarely triggered due to safety violation) or not. As the system is too complicated to be manually modeled, we apply latest automatic model learning techniques to construct a set of Markov chains through abstraction and refinement, based on two long system execution logs (one for training and the other for testing). For each probabilistic safety property, we either report it does not hold with a certain level of probabilistic confidence, or report that it holds by showing the evidence in the form of an abstract Markov chain. The Markov chains can subsequently be implemented as runtime monitors in SWaT.",
+      "publication_date": "2017-12-12T07:54:12+00:00",
+      "doi": "10.1007/978-3-319-95582-7_5",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "1712.04155v2"
+    },
+    {
+      "title": "Automation Security",
+      "authors": [
+        "Dr. Timur Mirzoev"
+      ],
+      "abstract": "Web-based Automated Process Control systems are a new type of applications that use the Internet to control industrial processes with the access to the real-time data. Supervisory control and data acquisition (SCADA) networks contain computers and applications that perform key functions in providing essential services and commodities (e.g., electricity, natural gas, gasoline, water, waste treatment, transportation) to all Americans. As such, they are part of the nation s critical infrastructure and require protection from a variety of threats that exist in cyber space today.",
+      "publication_date": "2014-04-09T01:41:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.OH"
+      ],
+      "arxiv_id": "1404.2347v1"
+    },
+    {
+      "title": "Implementing SCADA Scenarios and Introducing Attacks to Obtain Training   Data for Intrusion Detection Methods",
+      "authors": [
+        "Simon Duque Antón",
+        "Michael Gundall",
+        "Daniel Fraunholz",
+        "Hans Dieter Schotten"
+      ],
+      "abstract": "There are hardly any data sets publicly available that can be used to evaluate intrusion detection algorithms. The biggest threat for industrial applications arises from state-sponsored and criminal groups. Often, formerly unknown exploits are employed by these attackers, so-called 0-day exploits. They cannot be discovered with signature-based intrusion detection. Thus, statistical or machine learning based anomaly detection lends itself readily. These methods especially, however, need a large amount of labelled training data. In this work, an exemplary industrial use case with real-world industrial hardware is presented. Siemens S7 Programmable Logic Controllers are used to control a real world-based control application using the OPC UA protocol: A pump, filling and emptying water tanks. This scenario is used to generate application specific network data. Furthermore, attacks are introduced into this data set. This is done in three ways: First, the normal process is monitored and captured. Common attacks are then synthetically introduced into this data set. Second, malicious behaviour is implemented on the Programmable Logic Controller program and executed live, the traffic is captured as well. Third, malicious behaviour is implemented on the Programmable Logic Controller while still keeping the same output behaviour as in normal operation. An attacker could exploit an application but forge valid sensor output so that no anomaly is detected. Sensors are employed, capturing temperature, sound and flow of water to create data that can be correlated to the network data and used to still detect the attack. All data is labelled, containing the ground truth, meaning all attacks are known and no unknown attacks occur. This makes them perfect for training of anomaly detection algorithms. The data is published to enable security researchers to evaluate intrusion detection solutions.",
+      "publication_date": "2019-05-28T09:20:31+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1905.12443v1"
+    },
+    {
+      "title": "Assessment of Quantitative Cyber-Physical Reliability of SCADA Systems   in Autonomous Vehicle to Grid (V2G) Capable Smart Grids",
+      "authors": [
+        "Md Abdul Gaffar"
+      ],
+      "abstract": "The integration of electric vehicles (EVs) into power grids via Vehicle-to-Grid (V2G) system technology is increasing day by day, but these phenomena present both advantages and disadvantages. V2G can increase grid reliability by providing distributed energy storage and ancillary services. However, on the other hand, it has a scope that encompasses the cyber-physical attack surface of the national power grid, introducing new vulnerabilities in monitoring and supervisory control and data acquisition (SCADA) systems. This paper investigates the maliciousness caused by Autonomous Vehicle to Grid (AV2G) communication infrastructures and assesses their impacts on SCADA system reliability. This paper presents a quantitative reliability assessment using Bayesian attack graph combined with probabilistic capacity outage modeling based on IEEE RTS-79 system data. This work presents how AV2G-based attacks degrade system performance by using Monte Carlo simulations method, highlighting the need for cybersecurity-hardening strategies in smart grid design.",
+      "publication_date": "2025-07-24T06:57:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2507.21154v1"
+    },
+    {
+      "title": "SCAPHY: Detecting Modern ICS Attacks by Correlating Behaviors in SCADA   and PHYsical",
+      "authors": [
+        "Moses Ike",
+        "Kandy Phan",
+        "Keaton Sadoski",
+        "Romuald Valme",
+        "Wenke Lee"
+      ],
+      "abstract": "Modern Industrial Control Systems (ICS) attacks evade existing tools by using knowledge of ICS processes to blend their activities with benign Supervisory Control and Data Acquisition (SCADA) operation, causing physical world damages. We present SCAPHY to detect ICS attacks in SCADA by leveraging the unique execution phases of SCADA to identify the limited set of legitimate behaviors to control the physical world in different phases, which differentiates from attackers activities. For example, it is typical for SCADA to setup ICS device objects during initialization, but anomalous during processcontrol. To extract unique behaviors of SCADA execution phases, SCAPHY first leverages open ICS conventions to generate a novel physical process dependency and impact graph (PDIG) to identify disruptive physical states. SCAPHY then uses PDIG to inform a physical process-aware dynamic analysis, whereby code paths of SCADA process-control execution is induced to reveal API call behaviors unique to legitimate process-control phases. Using this established behavior, SCAPHY selectively monitors attackers physical world-targeted activities that violates legitimate processcontrol behaviors. We evaluated SCAPHY at a U.S. national lab ICS testbed environment. Using diverse ICS deployment scenarios and attacks across 4 ICS industries, SCAPHY achieved 95% accuracy & 3.5% false positives (FP), compared to 47.5% accuracy and 25% FP of existing work. We analyze SCAPHYs resilience to futuristic attacks where attacker knows our approach.",
+      "publication_date": "2022-11-26T19:03:35+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2211.14642v1"
+    },
+    {
+      "title": "Real-time Power System Simulation with Hardware Devices through DNP3 in   Cyber-Physical Testbed",
+      "authors": [
+        "Hao Huang",
+        "C. Matthew Davis",
+        "Katherine R. Davis"
+      ],
+      "abstract": "Modern power grids are dependent on communication systems for data collection, visualization, and control. Distributed Network Protocol 3 (DNP3) is commonly used in supervisory control and data acquisition (SCADA) systems in power systems to allow control system software and hardware to communicate. To study the dependencies between communication network security, power system data collection, and industrial hardware, it is important to enable communication capabilities with real-time power system simulation. In this paper, we present the integration of new functionality of a power systems dynamic simulation package into our cyber-physical power system testbed that supports real-time power system data transfer using DNP3, demonstrated with an industrial real-time automation controller (RTAC). The usage and configuration of DNP3 with real-world equipment in to achieve power system monitoring and control of a large-scale synthetic electric grid via this DNP3 communication is presented. Then, an exemplar of DNP3 data collection and control is achieved in software and hardware using the 2000-bus Texas synthetic grid.",
+      "publication_date": "2021-01-15T04:47:06+00:00",
+      "doi": "10.1109/TPEC51183.2021.9384947",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "eess.SY"
+      ],
+      "arxiv_id": "2101.05965v2"
+    },
+    {
+      "title": "A New Derivative-Free Linear Approximation for Solving the Network Water   Flow Problem with Convergence Guarantees",
+      "authors": [
+        "Shen Wang",
+        "Ahmad F. Taha",
+        "Lina Sela",
+        "Marcio Giacomoni",
+        "Nikolaos Gatsis"
+      ],
+      "abstract": "Addressing challenges in urban water infrastructure systems including aging infrastructure, supply uncertainty, extreme events, and security threats, depend highly on water distribution networks modeling emphasizing the importance of realistic assumptions, modeling complexities, and scalable solutions. In this study, we propose a derivative-free, linear approximation for solving the network water flow problem (WFP). The proposed approach takes advantage of the special form of the nonlinear head loss equations and, after the transformation of variables and constraints, the WFP reduces to a linear optimization problem that can be efficiently solved by modern linear solvers. Ultimately, the proposed approach amounts to solving a series of linear optimization problems. We demonstrate the proposed approach through several case studies and show that the approach can model arbitrary network topologies and various types of valves and pumps, thus providing modeling flexibility. Under mild conditions, we show that the proposed linear approximation converges. We provide sensitivity analysis and discuss in detail the current limitations of our approach and suggest solutions to overcome these. All the codes, tested networks, and results are freely available on Github for research reproducibility.",
+      "publication_date": "2020-02-01T20:08:59+00:00",
+      "doi": "10.1029/2019WR025694",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "2002.00270v1"
+    },
+    {
+      "title": "Underwater Acoustic Networks for Security Risk Assessment in Public   Drinking Water Reservoirs",
+      "authors": [
+        "Jörg Stork",
+        "Philip Wenzel",
+        "Severin Landwein",
+        "Maria-Elena Algorri",
+        "Martin Zaefferer",
+        "Wolfgang Kusch",
+        "Martin Staubach",
+        "Thomas Bartz-Beielstein",
+        "Hartmut Köhn",
+        "Hermann Dejager",
+        "Christian Wolf"
+      ],
+      "abstract": "We have built a novel system for the surveillance of drinking water reservoirs using underwater sensor networks. We implement an innovative AI-based approach to detect, classify and localize underwater events. In this paper, we describe the technology and cognitive AI architecture of the system based on one of the sensor networks, the hydrophone network. We discuss the challenges of installing and using the hydrophone network in a water reservoir where traffic, visitors, and variable water conditions create a complex, varying environment. Our AI solution uses an autoencoder for unsupervised learning of latent encodings for classification and anomaly detection, and time delay estimates for sound localization. Finally, we present the results of experiments carried out in a laboratory pool and the water reservoir and discuss the system's potential.",
+      "publication_date": "2021-07-29T14:02:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.AI"
+      ],
+      "arxiv_id": "2107.13977v1"
+    },
+    {
+      "title": "Toward Safe Integration of Legacy SCADA Systems in the Smart Grid",
+      "authors": [
+        "Aldar C-F. Chan",
+        "Jianying Zhou"
+      ],
+      "abstract": "A SCADA system is a distributed network of cyber-physical devices used for instrumentation and control of critical infrastructures such as an electric power grid. With the emergence of the smart grid, SCADA systems are increasingly required to be connected to more open systems and security becomes crucial. However, many of these SCADA systems have been deployed for decades and were initially not designed with security in mind. In particular, the field devices in these systems are vulnerable to false command injection from an intruding or compromised device. But implementing cryptographic defence on these old-generation devices is challenging due to their computation constraints. As a key requirement, solutions to protect legacy SCADA systems have to be an add-on. This paper discusses two add-on defence strategies for legacy SCADA systems -- the data diode and the detect-and-respond approach -- and compares their security guarantees and applicable scenarios. A generic architectural framework is also proposed to implement the detect-and-respond strategy, with an instantiation to demonstrate its practicality.",
+      "publication_date": "2021-07-13T06:00:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2107.05863v2"
+    },
+    {
+      "title": "Temporal Phase Shifts in SCADA Networks",
+      "authors": [
+        "Chen Markman",
+        "Avishai Wool",
+        "Alvaro A. Cardenas"
+      ],
+      "abstract": "In Industrial Control Systems (ICS/SCADA), machine to machine data traffic is highly periodic. Previous work showed that in many cases, it is possible to create an automata-based model of the traffic between each individual Programmable Logic Controller (PLC) and the SCADA server, and to use the model to detect anomalies in the traffic. When testing the validity of previous models, we noticed that overall, the models have difficulty in dealing with communication patterns that change over time. In this paper we show that in many cases the traffic exhibits phases in time, where each phase has a unique pattern, and the transition between the different phases is rather sharp. We suggest a method to automatically detect traffic phase shifts, and a new anomaly detection model that incorporates multiple phases of the traffic. Furthermore we present a new sampling mechanism for training set assembly, which enables the model to learn all phases during the training stage with lower complexity. The model presented has similar accuracy and much less permissiveness compared to the previous general DFA model. Moreover, the model can provide the operator with information about the state of the controlled process at any given time, as seen in the traffic phases.",
+      "publication_date": "2018-08-15T13:27:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1808.05068v1"
+    },
+    {
+      "title": "Anomaly Detection for a Water Treatment System Using Unsupervised   Machine Learning",
+      "authors": [
+        "Jun Inoue",
+        "Yoriyuki Yamagata",
+        "Yuqi Chen",
+        "Christopher M. Poskitt",
+        "Jun Sun"
+      ],
+      "abstract": "In this paper, we propose and evaluate the application of unsupervised machine learning to anomaly detection for a Cyber-Physical System (CPS). We compare two methods: Deep Neural Networks (DNN) adapted to time series data generated by a CPS, and one-class Support Vector Machines (SVM). These methods are evaluated against data from the Secure Water Treatment (SWaT) testbed, a scaled-down but fully operational raw water purification plant. For both methods, we first train detectors using a log generated by SWaT operating under normal conditions. Then, we evaluate the performance of both methods using a log generated by SWaT operating under 36 different attack scenarios. We find that our DNN generates fewer false positives than our one-class SVM while our SVM detects slightly more anomalies. Overall, our DNN has a slightly better F measure than our SVM. We discuss the characteristics of the DNN and one-class SVM used in this experiment, and compare the advantages and disadvantages of the two methods.",
+      "publication_date": "2017-09-15T17:12:34+00:00",
+      "doi": "10.1109/ICDMW.2017.149",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "1709.05342v2"
+    },
+    {
+      "title": "Securing Big Data from Eavesdropping Attacks in SCADA/ICS Network Data   Streams through Impulsive Statistical Fingerprinting",
+      "authors": [
+        "Junaid Chaudhry",
+        "Uvais Qidwai",
+        "Mahdi H. Miraz"
+      ],
+      "abstract": "While data from Supervisory Control And Data Acquisition (SCADA) systems is sent upstream, it is both the length of pulses as well as their frequency present an excellent opportunity to incor-porate statistical fingerprinting. This is so, because datagrams in SCADA traffic follow a poison distribution. Although wrapping the SCADA traffic in a protective IPsec stream is an obvious choice, thin clients and unreliable communication channels make is less than ideal to use crypto-graphic solutions for security SCADA traffic. In this paper, we propose a smart alternative of data obfuscation in the form of Impulsive Statistical Fingerprinting (ISF). We provide important insights into our research in healthcare SCADA data security and the use of ISF. We substantiate the conversion of sensor data through the ISF into HL7 format and define policies of a seamless switch to a non HL7-based non-secure HIS to a secure HIS.",
+      "publication_date": "2019-09-02T04:03:51+00:00",
+      "doi": "10.1007/978-3-030-23943-5_6",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1909.11021v1"
+    },
+    {
+      "title": "Piping Botnet - Turning Green Technology into a Water Disaster",
+      "authors": [
+        "Ben Nassi",
+        "Moshe Sror",
+        "Ido Lavi",
+        "Yair Meidan",
+        "Asaf Shabtai",
+        "Yuval Elovici"
+      ],
+      "abstract": "The current generation of IoT devices is being used by clients and consumers to regulate resources (such as water and electricity) obtained from critical infrastructure (such as urban water services and smart grids), creating a new attack vector against critical infrastructure. In this research we show that smart irrigation systems, a new type of green technology and IoT device aimed at saving water and money, can be used by attackers as a means of attacking urban water services. We present a distributed attack model that can be used by an attacker to attack urban water services using a botnet of commercial smart irrigation systems. Then, we show how a bot running on a compromised device in a LAN can:(1) detect a connected commercial smart irrigation system (RainMachine, BlueSpray, and GreenIQ) within 15 minutes by analyzing LAN's behavior using a dedicated classification model, and (2) launch watering via a commercial smart irrigation system according to an attacker's wishes using spoofing and replay attacks. In addition, we model the damage that can be caused by performing such an attack and show that a standard water tower can be emptied in an hour using a botnet of 1,355 sprinklers and a flood water reservoir can be emptied overnight using a botnet of 23,866 sprinklers. Finally, we discuss countermeasure methods and hypothesize whether the next generation of plumbers will use Kali Linux instead of a monkey wrench.",
+      "publication_date": "2018-08-06T21:57:50+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1808.02131v1"
+    },
+    {
+      "title": "Towards a Layered Architectural View for Security Analysis in SCADA   Systems",
+      "authors": [
+        "Zhendong Ma",
+        "Paul Smith",
+        "Florian Skopik"
+      ],
+      "abstract": "Supervisory Control and Data Acquisition (SCADA) systems support and control the operation of many critical infrastructures that our society depend on, such as power grids. Since SCADA systems become a target for cyber attacks and the potential impact of a successful attack could lead to disastrous consequences in the physical world, ensuring the security of these systems is of vital importance. A fundamental prerequisite to securing a SCADA system is a clear understanding and a consistent view of its architecture. However, because of the complexity and scale of SCADA systems, this is challenging to acquire. In this paper, we propose a layered architectural view for SCADA systems, which aims at building a common ground among stakeholders and supporting the implementation of security analysis. In order to manage the complexity and scale, we define four interrelated architectural layers, and uses the concept of viewpoints to focus on a subset of the system. We indicate the applicability of our approach in the context of SCADA system security analysis.",
+      "publication_date": "2012-11-16T14:49:17+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1211.3908v1"
+    }
+  ]
+}

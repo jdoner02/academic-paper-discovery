@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks",
+  "paper_title": "AquaSight  Automatic Water Impurity Detection Utilizing Convolutional Neural Networks",
+  "concepts": [
+    {
+      "text": "water",
+      "frequency": 76,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.614959+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "images",
+      "frequency": 36,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.618690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "image",
+      "frequency": 30,
+      "relevance_score": 0.989152341434499,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.623685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clean",
+      "frequency": 28,
+      "relevance_score": 0.9298755186721992,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.630875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water quality",
+      "frequency": 21,
+      "relevance_score": 0.8224066390041493,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.645104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contaminated",
+      "frequency": 24,
+      "relevance_score": 0.8113218731475993,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.617483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning",
+      "frequency": 22,
+      "relevance_score": 0.7520450503852993,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.618187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quality",
+      "frequency": 21,
+      "relevance_score": 0.7224066390041494,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.620827+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural",
+      "frequency": 15,
+      "relevance_score": 0.5445761707172495,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.615367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accuracy",
+      "frequency": 15,
+      "relevance_score": 0.5445761707172495,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.619194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural networks",
+      "frequency": 11,
+      "relevance_score": 0.5260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.643773+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine learning",
+      "frequency": 11,
+      "relevance_score": 0.5260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.645000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 2 percent",
+      "frequency": 4,
+      "relevance_score": 0.5185536455245998,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.652083+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cnn",
+      "frequency": 14,
+      "relevance_score": 0.5149377593360996,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.625934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 8,
+      "relevance_score": 0.4871072910491998,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.620314+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "prediction",
+      "frequency": 13,
+      "relevance_score": 0.48529934795494967,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.633746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5",
+      "frequency": 6,
+      "relevance_score": 0.4778304682868998,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.647639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "convolutional neural networks",
+      "frequency": 6,
+      "relevance_score": 0.4778304682868998,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.651681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep learning",
+      "frequency": 9,
+      "relevance_score": 0.46674570243034974,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.644686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "missed image 2",
+      "frequency": 2,
+      "relevance_score": 0.4592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.651983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "convolutional neural",
+      "frequency": 8,
+      "relevance_score": 0.43710729104919976,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.643659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.615468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.618086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contamination",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.618892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "percent",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.619093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "machine",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.619577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "were",
+      "frequency": 11,
+      "relevance_score": 0.4260225251926497,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.631186+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 2",
+      "frequency": 4,
+      "relevance_score": 0.41855364552459984,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.650573+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 percent",
+      "frequency": 4,
+      "relevance_score": 0.41855364552459984,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.650673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile application",
+      "frequency": 7,
+      "relevance_score": 0.4074688796680498,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.644578+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer vision",
+      "frequency": 7,
+      "relevance_score": 0.4074688796680498,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.645334+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clean water",
+      "frequency": 7,
+      "relevance_score": 0.4074688796680498,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.646633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aquasight",
+      "frequency": 10,
+      "relevance_score": 0.39638411381149974,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.614849+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "order",
+      "frequency": 10,
+      "relevance_score": 0.39638411381149974,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.616474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "application",
+      "frequency": 10,
+      "relevance_score": 0.39638411381149974,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.617885+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "predictions",
+      "frequency": 10,
+      "relevance_score": 0.39638411381149974,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.633440+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 081",
+      "frequency": 3,
+      "relevance_score": 0.38891523414345,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.648848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 935",
+      "frequency": 3,
+      "relevance_score": 0.38891523414345,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.648948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer",
+      "frequency": 9,
+      "relevance_score": 0.36674570243034976,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.615569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "determine",
+      "frequency": 9,
+      "relevance_score": 0.36674570243034976,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.623283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "classiﬁcation",
+      "frequency": 9,
+      "relevance_score": 0.36674570243034976,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.624818+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 million",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.644154+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "105 images",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.644792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "96 percent",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.644896+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "image 2",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.648041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 710",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.649250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contami- nated",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.649350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 949",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.650163+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 982",
+      "frequency": 2,
+      "relevance_score": 0.3592768227623,
+      "source_papers": [
+        "local/AquaSight__Automatic_Water_Impurity_Detection_Utilizing_Convolutional_Neural_Networks"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:05.650262+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:05.652335+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:05.652525+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

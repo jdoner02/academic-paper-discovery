@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE",
+  "paper_title": "An Optimal Application-Aware Resource Block Scheduling in LTE",
+  "concepts": [
+    {
+      "text": "resource",
+      "frequency": 56,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.003289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "φi b",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.041289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 33,
+      "relevance_score": 0.94334270380782,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.003514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 31,
+      "relevance_score": 0.8922310247891643,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.006407+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utility",
+      "frequency": 30,
+      "relevance_score": 0.8666751852798364,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.005809+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1",
+      "frequency": 18,
+      "relevance_score": 0.7600051111679018,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.047502+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z k",
+      "frequency": 21,
+      "relevance_score": 0.7366726296958854,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.047171+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l φ",
+      "frequency": 21,
+      "relevance_score": 0.7366726296958854,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.049277+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "φ k",
+      "frequency": 20,
+      "relevance_score": 0.7111167901865576,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.050271+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l φ k",
+      "frequency": 16,
+      "relevance_score": 0.7088934321492462,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.063514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 23,
+      "relevance_score": 0.6877843087145413,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.006162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proportional",
+      "frequency": 23,
+      "relevance_score": 0.6877843087145413,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.006528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fairness",
+      "frequency": 23,
+      "relevance_score": 0.6877843087145413,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.006644+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "users",
+      "frequency": 22,
+      "relevance_score": 0.6622284692052134,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.004803+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proportional fairness",
+      "frequency": 18,
+      "relevance_score": 0.6600051111679018,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.034902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource block",
+      "frequency": 16,
+      "relevance_score": 0.6088934321492461,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.033689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z k 1",
+      "frequency": 8,
+      "relevance_score": 0.6044467160746231,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.061401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 k",
+      "frequency": 8,
+      "relevance_score": 0.6044467160746231,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.061511+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimization problem",
+      "frequency": 14,
+      "relevance_score": 0.5577817531305904,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.039505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 12,
+      "relevance_score": 0.5566700741119346,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.004691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block",
+      "frequency": 17,
+      "relevance_score": 0.5344492716585739,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.003402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimization",
+      "frequency": 17,
+      "relevance_score": 0.5344492716585739,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.010423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lte systems",
+      "frequency": 7,
+      "relevance_score": 0.5288908765652952,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.034164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimal",
+      "frequency": 16,
+      "relevance_score": 0.5088934321492461,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.003050+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 k",
+      "frequency": 8,
+      "relevance_score": 0.5044467160746231,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.047613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lte",
+      "frequency": 15,
+      "relevance_score": 0.48333759263991827,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.003626+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "functions",
+      "frequency": 15,
+      "relevance_score": 0.48333759263991827,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.005921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "allocation",
+      "frequency": 15,
+      "relevance_score": 0.48333759263991827,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.007694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "application-aware resource block",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.056338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 φi b",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.060505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 k 1",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.061622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 kφi",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.061733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 kφi b",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.061844+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "φ k 1",
+      "frequency": 3,
+      "relevance_score": 0.4766675185279836,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.063625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc",
+      "frequency": 14,
+      "relevance_score": 0.45778175313059033,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.004350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource allocation",
+      "frequency": 10,
+      "relevance_score": 0.45555839509327883,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.035579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zhi b",
+      "frequency": 10,
+      "relevance_score": 0.45555839509327883,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.041734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b j",
+      "frequency": 10,
+      "relevance_score": 0.45555839509327883,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.052401+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource block scheduling",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.056457+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z hi b",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.062066+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z ui φi",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.062178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ui φi b",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.062289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "φj b j",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.065293+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b j z",
+      "frequency": 6,
+      "relevance_score": 0.4533350370559673,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.065403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sigmoidal-like utility functions",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.056574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "adaptive real-time application",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.056811+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time application users",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.056928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "satisﬁes u 0",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.058232+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u 0 andu",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.058350+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1ui summationdisplay zǫzφi",
+      "frequency": 2,
+      "relevance_score": 0.4511116790186558,
+      "source_papers": [
+        "local/An_Optimal_Application-Aware_Resource_Block_Scheduling_in_LTE"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:04.059194+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:04.067896+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:04.068091+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

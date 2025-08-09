@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware",
+  "paper_title": "GuardFS  a File System for Integrated Detection and Mitigation of Linux-based Ransomware",
+  "concepts": [
+    {
+      "text": "system",
+      "frequency": 203,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.949044+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware",
+      "frequency": 163,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.951121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle",
+      "frequency": 123,
+      "relevance_score": 0.9853379399697689,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.975153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defense",
+      "frequency": 114,
+      "relevance_score": 0.9205571150939321,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.979601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system",
+      "frequency": 76,
+      "relevance_score": 0.8970380767292881,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.356182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 106,
+      "relevance_score": 0.862974159648744,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.949891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system-related system",
+      "frequency": 3,
+      "relevance_score": 0.5715936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.508022+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 file system",
+      "frequency": 3,
+      "relevance_score": 0.5715936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.514342+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system-related system call",
+      "frequency": 2,
+      "relevance_score": 0.5643957388612971,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.515596+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system calls",
+      "frequency": 27,
+      "relevance_score": 0.5443424746275103,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.371577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "overlay ﬁle system",
+      "frequency": 11,
+      "relevance_score": 0.5291765637371338,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.515177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 38,
+      "relevance_score": 0.5235190383646441,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.044783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "visit january 2024",
+      "frequency": 17,
+      "relevance_score": 0.5223637803210249,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.538304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system call",
+      "frequency": 23,
+      "relevance_score": 0.5155509969049161,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.383563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "17 integrated detection",
+      "frequency": 16,
+      "relevance_score": 0.5151659108903764,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.507194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file system",
+      "frequency": 22,
+      "relevance_score": 0.5083531274742676,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.350343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system plane",
+      "frequency": 6,
+      "relevance_score": 0.4931872165838912,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.516433+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "von der assen",
+      "frequency": 25,
+      "relevance_score": 0.47994673576621316,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.506706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "underlay ﬁle system",
+      "frequency": 4,
+      "relevance_score": 0.4787914777225941,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.518862+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system-related",
+      "frequency": 3,
+      "relevance_score": 0.47159360829194563,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.370753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system-related system",
+      "frequency": 3,
+      "relevance_score": 0.47159360829194563,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.371170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system operations",
+      "frequency": 3,
+      "relevance_score": 0.4715936082919455,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.512586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process identiﬁer pid",
+      "frequency": 3,
+      "relevance_score": 0.4715936082919455,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.513047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file system plane",
+      "frequency": 3,
+      "relevance_score": 0.4715936082919455,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.514764+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux-based systems",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.369479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems group csg",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.505381+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle system abstraction",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.507614+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process termination windows",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.509666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ransomware mitigation approaches",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.513512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "many system calls",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.519266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "open system call",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.520089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models were trained",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.524285+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication systems group",
+      "frequency": 2,
+      "relevance_score": 0.46439573886129704,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.547533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection system",
+      "frequency": 15,
+      "relevance_score": 0.4579680414597279,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.373620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mitigation",
+      "frequency": 48,
+      "relevance_score": 0.44549773267112935,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:53.950305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processes",
+      "frequency": 27,
+      "relevance_score": 0.4443424746275103,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.047224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 655 744",
+      "frequency": 5,
+      "relevance_score": 0.43598934715324267,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.529395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "behavior",
+      "frequency": 45,
+      "relevance_score": 0.4239041243791838,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.008450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 24,
+      "relevance_score": 0.42274886633556474,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.041111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "january 2024",
+      "frequency": 17,
+      "relevance_score": 0.42236378032102495,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.486771+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "last visit january",
+      "frequency": 17,
+      "relevance_score": 0.42236378032102495,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.537887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ran- somware samples",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.520560+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d45a u1d456 u1d45b",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.521964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d456 u1d45b u1d6ff",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.522415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 200 3000255075100",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.532332+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "200 3000255075100 time",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.532761+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3000255075100 time s",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.533209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 100 1500255075100",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.534964+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 1500255075100 time",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.535379+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1500255075100 time s",
+      "frequency": 3,
+      "relevance_score": 0.4215936082919456,
+      "source_papers": [
+        "local/GuardFS__a_File_System_for_Integrated_Detection_and_Mitigation_of_Linux-based_Ransomware"
+      ],
+      "source_domain": "healthcare_ransomware_protection",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:13:54.535820+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:13:54.548985+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:13:54.549248+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_ransomware_protection"
+  }
+}

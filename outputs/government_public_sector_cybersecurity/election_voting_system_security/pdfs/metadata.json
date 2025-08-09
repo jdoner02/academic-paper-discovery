@@ -1,0 +1,856 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:09:29.464633+00:00",
+    "strategy_name": "Election and Voting System Cybersecurity",
+    "total_papers": 49,
+    "download_directory": "outputs/government_public_sector_cybersecurity/election_voting_system_security/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE",
+      "authors": [
+        "Alexander Ek",
+        "Philip B. Stark",
+        "Peter J. Stuckey",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "An election audit is risk-limiting if the audit limits (to a pre-specified threshold) the chance that an erroneous electoral outcome will be certified. Extant methods for auditing instant-runoff voting (IRV) elections are either not risk-limiting or require cast vote records (CVRs), the voting system's electronic record of the votes on each ballot. CVRs are not always available, for instance, in jurisdictions that tabulate IRV contests manually.   We develop an RLA method (AWAIRE) that uses adaptively weighted averages of test supermartingales to efficiently audit IRV elections when CVRs are not available. The adaptive weighting 'learns' an efficient set of hypotheses to test to confirm the election outcome. When accurate CVRs are available, AWAIRE can use them to increase the efficiency to match the performance of existing methods that require CVRs.   We provide an open-source prototype implementation that can handle elections with up to six candidates. Simulations using data from real elections show that AWAIRE is likely to be efficient in practice. We discuss how to extend the computational approach to handle elections with more candidates.   Adaptively weighted averages of test supermartingales are a general tool, useful beyond election audits to test collections of hypotheses sequentially while rigorously controlling the familywise error rate.",
+      "publication_date": "2023-07-20T15:55:34+00:00",
+      "doi": "10.1007/978-3-031-43756-4_3",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2307.10972v2"
+    },
+    {
+      "title": "vSPACE: Voting in a Scalable, Privacy-Aware and Confidential Election",
+      "authors": [
+        "Se Elnour",
+        "William J Buchanan",
+        "Paul Keating",
+        "Mwrwan Abubakar",
+        "Sirag Elnour"
+      ],
+      "abstract": "The vSPACE experimental proof-of-concept (PoC) on the TrueElect[Anon][Creds] protocol presents a novel approach to secure, private, and scalable elections, extending the TrueElect and ElectAnon protocols with the integration of AnonCreds SSI (Self-Sovereign Identity). Such a protocol PoC is situated within a Zero-Trust Architecture (ZTA) and leverages confidential computing, continuous authentication, multi-party computation (MPC), and well-architected framework (WAF) principles to address the challenges of cybersecurity, privacy, and trust over IP (ToIP) protection. Employing a Kubernetes confidential cluster within an Enterprise-Scale Landing Zone (ESLZ), vSPACE integrates Distributed Ledger Technology (DLT) for immutable and certifiable audit trails. The Infrastructure as Code (IaC) model ensures rapid deployment, consistent management, and adherence to security standards, making vSPACE a future-proof solution for digital voting systems.",
+      "publication_date": "2024-03-08T12:56:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2403.05275v1"
+    },
+    {
+      "title": "Auditing Indian Elections",
+      "authors": [
+        "Vishal Mohanty",
+        "Nicholas Akinyokun",
+        "Andrew Conway",
+        "Chris Culnane",
+        "Philip B. Stark",
+        "Vanessa Teague"
+      ],
+      "abstract": "Indian Electronic Voting Machines (EVMs) will be fitted with printers that produce Voter-Verifiable Paper Audit Trails (VVPATs) in time for the 2019 general election. VVPATs provide evidence that each vote was recorded as the voter intended, without having to trust the perfection or security of the EVMs.   However, confidence in election results requires more: VVPATs must be preserved inviolate and then actually used to check the reported election result in a trustworthy way that the public can verify. A full manual tally from the VVPATs could be prohibitively expensive and time-consuming; moreover, it is difficult for the public to determine whether a full hand count was conducted accurately. We show how Risk-Limiting Audits (RLAs) could provide high confidence in Indian election results. Compared to full hand recounts, RLAs typically require manually inspecting far fewer VVPATs when the outcome is correct, and are much easier for the electorate to observe in adequate detail to determine whether the result is trustworthy.",
+      "publication_date": "2019-01-10T11:38:41+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1901.03108v2"
+    },
+    {
+      "title": "A Trustworthy Electronic Voting System for Australian Federal Elections",
+      "authors": [
+        "Mark Eldridge"
+      ],
+      "abstract": "The existing system for determining election results in Australia is, for the most part, secure, accurate and understandable by the average voter. This thesis explores the design of electronic voting systems designed to achieve these same goals, while also improving on the existing system in the areas of counting speed, accuracy, tamper resistance and accessibility.   Electronic voting systems have seen limited use within Australian elections, most prominently for State Elections in Victoria (2014), New South Wales (2015) and Western Australia (2017), along with trials of electronic voting systems in federal elections in 2007.   This thesis presents an analysis of the iVote electronic voting system used for the 2017 Western Australian State Election (iVote WA), outlining a number of security risks introduced by the use of cloud-based distributed denial of service mitigation. In addition, this thesis presents the results of a cross-sectional survey of Australian voters regarding levels of trust for three voting systems: the existing paper-based system used for Australian federal elections, the iVote WA system, and the vVote system used for the 2014 Victorian State Election.   The analysis of iVote, combined with the survey results, are used to inform a recommendation for future research and public policy regarding the use of electronic voting systems in Australian federal elections.",
+      "publication_date": "2018-05-06T12:41:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1805.02202v1"
+    },
+    {
+      "title": "Boardroom Voting: Verifiable Voting with Ballot Privacy Using Low-Tech   Cryptography in a Single Room",
+      "authors": [
+        "Enka Blanchard",
+        "Ted Selker",
+        "Alan T. Sherman"
+      ],
+      "abstract": "A boardroom election is an election that takes place in a single room -- the boardroom -- in which all voters can see and hear each other. We present an initial exploration of boardroom elections with ballot privacy and voter verifiability that use only \"low-tech cryptography\" without using computers to mark or collect ballots. Specifically, we define the problem, introduce several building blocks, and propose a new protocol that combines these blocks in novel ways. Our new building blocks include \"foldable ballots\" that can be rotated to hide the alignment of ballot choices with voting marks, and \"visual secrets\" that are easy to remember and use but hard to describe. Although closely seated participants in a boardroom election have limited privacy, the protocol ensures that no one can determine how others voted. Moreover, each voter can verify that their ballot was correctly cast, collected, and counted, without being able to prove how they voted, providing assurance against undue influence. Low-tech cryptography is useful in situations where constituents do not trust computer technology, and it avoids the complex auditing requirements of end-to-end cryptographic voting systems such as Pr\\^{e}t-\\`{a}-Voter. This paper's building blocks and protocol are meant to be a proof of concept that might be tested for usability and improved.",
+      "publication_date": "2020-07-29T15:40:51+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2007.14916v2"
+    },
+    {
+      "title": "When Audits and Recounts Distract from Election Integrity: The 2020 U.S.   Presidential Election in Georgia",
+      "authors": [
+        "Philip B. Stark"
+      ],
+      "abstract": "Georgia was central to efforts to overturn the 2020 Presidential election, including a call from then-president Trump to Georgia Secretary of State Raffensperger asking Raffensperger to `find' 11,780 votes. Raffensperger has maintained that a `100% full-count risk-limiting audit' and a machine recount agreed with the initial machine-count results, which proved that the reported election results were accurate and that `no votes were flipped.' There is no indication of widespread fraud, but there is reason to distrust the election outcome: the two machine counts and the manual `audit' tallies disagree substantially, even about the number of ballots cast. Some ballots in Fulton County were included in the original count at least twice; some were included in the machine recount at least thrice. Audit results for some tally batches were omitted from the reported audit totals. The two machine counts and the audit were not probative of who won because of poor processes and controls: a lack of secure physical chain of custody, ballot accounting, pollbook reconciliation, and accounting for other election materials such as memory cards. Moreover, most voters voted with demonstrably untrustworthy ballot-marking devices, so even a perfect handcount or audit would not necessarily reveal who really won. True risk-limiting audits (RLAs) and rigorous recounts can limit the risk that an incorrect electoral outcome will be certified rather than being corrected. But no procedure can limit that risk without a trustworthy record of the vote. And even a properly conducted RLA of some contests in an election does not show that any other contests in that election were decided correctly. The 2020 U.S. Presidential election in Georgia illustrates unrecoverable errors that can render recounts and audits `security theater' that distract from the more serious problems rather than justifying trust.",
+      "publication_date": "2024-07-31T17:09:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2408.00055v2"
+    },
+    {
+      "title": "Secure and Verifiable Electronic Voting in Practice: the use of vVote in   the Victorian State Election",
+      "authors": [
+        "Craig Burton",
+        "Chris Culnane",
+        "Steve Schneider"
+      ],
+      "abstract": "The November 2014 Australian State of Victoria election was the first statutory political election worldwide at State level which deployed an end-to-end verifiable electronic voting system in polling places. This was the first time blind voters have been able to cast a fully secret ballot in a verifiable way, and the first time a verifiable voting system has been used to collect remote votes in a political election. The code is open source, and the output from the election is verifiable. The system took 1121 votes from these particular groups, an increase on 2010 and with fewer polling places.",
+      "publication_date": "2015-04-27T14:08:24+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1504.07098v1"
+    },
+    {
+      "title": "Ballot-Polling Audits of Instant-Runoff Voting Elections with a   Dirichlet-Tree Model",
+      "authors": [
+        "Floyd Everest",
+        "Michelle Blom",
+        "Philip B. Stark",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Instant-runoff voting (IRV) is used in several countries around the world. It requires voters to rank candidates in order of preference, and uses a counting algorithm that is more complex than systems such as first-past-the-post or scoring rules. An even more complex system, the single transferable vote (STV), is used when multiple candidates need to be elected. The complexity of these systems has made it difficult to audit the election outcomes. There is currently no known risk-limiting audit (RLA) method for STV, other than a full manual count of the ballots.   A new approach to auditing these systems was recently proposed, based on a Dirichlet-tree model. We present a detailed analysis of this approach for ballot-polling Bayesian audits of IRV elections. We compared several choices for the prior distribution, including some approaches using a Bayesian bootstrap (equivalent to an improper prior). Our findings include that the bootstrap-based approaches can be adapted to perform similarly to a full Bayesian model in practice, and that an overly informative prior can give counter-intuitive results. Via carefully chosen examples, we show why creating an RLA with this model is challenging, but we also suggest ways to overcome this.   As well as providing a practical and computationally feasible implementation of a Bayesian IRV audit, our work is important in laying the foundation for an RLA for STV elections.",
+      "publication_date": "2022-09-08T15:35:50+00:00",
+      "doi": "10.1007/978-3-031-25460-4_30",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2209.03881v2"
+    },
+    {
+      "title": "Blockchain-Based Electronic Voting System for Elections in Turkey",
+      "authors": [
+        "Rumeysa Bulut",
+        "Alperen Kantarcı",
+        "Safa Keskin",
+        "Şerif Bahtiyar"
+      ],
+      "abstract": "Traditional elections satisfy neither citizens nor political authorities in recent years. They are not fully secure since it is easy to attack votes. It threatens also privacy and transparency of voters. Additionally, it takes too much time to count the votes. This paper proposes a solution using Blockchain to eliminate all the disadvantages of conventional elections. Security and data integrity of votes are absolutely provided theoretically. Voter privacy is another requirement that is ensured in the system. Lastly, the waiting time for results decreased significantly in the proposed Blockchain voting system.",
+      "publication_date": "2019-11-22T07:40:34+00:00",
+      "doi": "10.1109/UBMK.2019.8907102",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1911.09903v1"
+    },
+    {
+      "title": "A Unified Evaluation of Two-Candidate Ballot-Polling Election Auditing   Methods",
+      "authors": [
+        "Zhuoqun Huang",
+        "Ronald L. Rivest",
+        "Philip B. Stark",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Counting votes is complex and error-prone. Several statistical methods have been developed to assess election accuracy by manually inspecting randomly selected physical ballots. Two 'principled' methods are risk-limiting audits (RLAs) and Bayesian audits (BAs). RLAs use frequentist statistical inference while BAs are based on Bayesian inference. Until recently, the two have been thought of as fundamentally different.   We present results that unify and shed light upon 'ballot-polling' RLAs and BAs (which only require the ability to sample uniformly at random from all cast ballot cards) for two-candidate plurality contests, which are building blocks for auditing more complex social choice functions, including some preferential voting systems. We highlight the connections between the methods and explore their performance.   First, building on a previous demonstration of the mathematical equivalence of classical and Bayesian approaches, we show that BAs, suitably calibrated, are risk-limiting. Second, we compare the efficiency of the methods across a wide range of contest sizes and margins, focusing on the distribution of sample sizes required to attain a given risk limit. Third, we outline several ways to improve performance and show how the mathematical equivalence explains the improvements.",
+      "publication_date": "2020-08-19T16:30:03+00:00",
+      "doi": "10.1007/978-3-030-60347-2_8",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2008.08536v2"
+    },
+    {
+      "title": "Electt: running auditable and verifiable elections in untrusted   environments",
+      "authors": [
+        "Kirill A. Korinsky"
+      ],
+      "abstract": "We present a system for running auditable and verifiable elections in untrusted environments. Votes are anonymous since the order of candidates on a ballot sheet is random. Tellers see only the position of the candidate. Voters can check their vote. An election is auditable using blockchain log. Threshold-encryption, which is used to implement the quorum, prevents a deadlock from occurring if a minority of candidates or observers tries to sabotage the election. Candidates and observers can indicate that the election was free and fair by exposing their keys, which are used by the system to decrypt each vote. Ballot sheets are encrypted by onion-routing, which has a layer with the key of the election instance, so it's impossible for a quorum to decode the results before they have announced their decision by exposing their keys. A register of voters ensures that only verified voters can vote without compromising their identity. If there any doubts about the identity of a voter, their vote can be excluded from the election, if a quorum agrees. This system is designed to scale from one instance to a distributed system that runs over an unlimited number of instances, which can be achieved using cloud instances or smartphones belonging to voters or tellers.",
+      "publication_date": "2020-11-22T00:58:34+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2011.10902v2"
+    },
+    {
+      "title": "Journalistic Voting System's Effects on Election Security Threats and   Gerrymandering",
+      "authors": [
+        "Lucius Schoenbaum"
+      ],
+      "abstract": "The Journalistic Voting System is a proxy voting system in which journalists are delegated the task of voting on behalf of individual voters in a western-style democracy. We introduce the Journalistic Voting System and discuss its potential advantages and potential problems. In particular, we discuss its advantages to individuals in the system (voters, journalists, and politicians) and we discuss its effects relative to several widely discussed threats to election security, namely: cybersecurity, social media, big data, artificial intelligence (AI), and gerrymandering. The Journalistic Voting System is modeled on a predecessor system, called the Valence Voting System, which is reviewed.",
+      "publication_date": "2021-10-09T20:57:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "physics.soc-ph"
+      ],
+      "arxiv_id": "2110.04642v1"
+    },
+    {
+      "title": "Auditing Hamiltonian Elections",
+      "authors": [
+        "Michelle Blom",
+        "Philip B. Stark",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Presidential primaries are a critical part of the United States Presidential electoral process, since they are used to select the candidates in the Presidential election. While methods differ by state and party, many primaries involve proportional delegate allocation using the so-called Hamilton method. In this paper we show how to conduct risk-limiting audits for delegate allocation elections using variants of the Hamilton method where the viability of candidates is determined either by a plurality vote or using instant runoff voting. Experiments on real-world elections show that we can audit primary elections to high confidence (small risk limits) usually at low cost.",
+      "publication_date": "2021-02-17T00:20:26+00:00",
+      "doi": "10.1007/978-3-662-63958-0_21",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2102.08510v2"
+    },
+    {
+      "title": "Constraining Localized Vote Tampering in the 2020 US Presidential   Election",
+      "authors": [
+        "Christian Johnson"
+      ],
+      "abstract": "Voter fraud in the United States is rare and the vote-counting system is robust against tampering, but there remains widespread distrust in the security of election infrastructure among the public. We consider statistical means of detecting anomalous election results that would be indicative of large-scale fraud, focusing on scenarios in which votes are modified in in a localized setting. The technique we develop, based on standard regression analysis, makes use of the fact that vote share is correlated with demographics. We apply our method to the results of the 2020 US presidential election as a proof-of-concept, resulting in uncertainties at the few-percent level. We are able to readily detect an artificial signal of such fraud in some cases, ruling out some scenarios of localized fraud and placing constraints on other scenarios.",
+      "publication_date": "2021-08-24T13:28:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2110.03661v2"
+    },
+    {
+      "title": "Voting by mail: a Markov chain model for managing the security risks of   election systems",
+      "authors": [
+        "Carmen A. Haseltine",
+        "Laura A. Albert"
+      ],
+      "abstract": "The scrutiny surrounding vote-by-mail (VBM) in the United States has increased in recent years, raising concerns about the integrity and security of absentee voting. This paper addresses these issues by introducing a dynamic mathematical modeling framework for performing a risk assessment of VBM processes. We introduce a discrete-time Markov chain (DTMC) to model the VBM process and assess election performance and risk with a novel layered network approach that considers the interplay between VBM processes, malicious and non-malicious threats, and security mitigations. The time-inhomogeneous DTMC framework captures dynamic risks and evaluates performance over time. The DTMC model accounts for a spectrum of outcomes, from unintended voter errors to sophisticated, targeted attacks, representing a significant advancement in the risk assessment of VBM planning and protection. A case study based on real-world data from Milwaukee County, Wisconsin, is used to evaluate the DTMC model. The analysis includes the development of attack scenarios and the evaluation of security measures, to illustrate the impact of different attack timings. The analysis suggests that ballot drop boxes and automatic ballot notification systems are crucial for ensuring secure and reliable operations.",
+      "publication_date": "2024-10-15T17:35:11+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.13900v2"
+    },
+    {
+      "title": "Distributed quantum election scheme",
+      "authors": [
+        "Rui-Rui Zhou",
+        "Li Yang"
+      ],
+      "abstract": "In an electronic voting protocol, a distributed scheme can be used for forbidding the malicious acts of the voting administrator and the counter during the election, but it cannot prevent them from collaborating to trace the ballots and destroy their privacy after the election. We present a distributed anonymous quantum key distribution scheme and further construct a distributed quantum election scheme with a voting administrator made up of more than one part. This quantum election scheme can resist the malicious acts of the voting administrator and the counter after the election and can work in a system with lossy and noisy quantum channels.",
+      "publication_date": "2013-04-02T08:07:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "1304.0555v3"
+    },
+    {
+      "title": "Secure Remote Voting Using Paper Ballots",
+      "authors": [
+        "Lukasz Nitschke"
+      ],
+      "abstract": "Internet voting will probably be one of the most significant achievements of the future information society. It will have an enormous impact on the election process making it fast, reliable and inexpensive. Nonetheless, so far remote voting is considered to be very difficult, as one has to take into account susceptibility of the voter's PC to various cyber-attacks. As a result, most the research effort is put into developing protocols and machines for poll-site electronic voting. Although these solutions yield promising results, they cannot be directly adopted to Internet voting because of secure platform problem. However, the cryptographic components they utilize may be very useful. This paper presents a scheme based on combination of mixnets and homomorphic encryption borrowed from robust poll-site voting, along with techniques recommended for remote voting -- code sheets and test ballots. The protocol tries to minimize the trust put in voter's PC by making the voter responsible for manual encryption of his vote. To achieve this, the voter obtains a paper ballot that allows him to scramble the vote by performing simple operations (lookup in a table). Creation of paper ballots, as well as decryption of votes, is performed by a group of cooperating trusted servers. As a result, the scheme is characterized by strong asymmetry -- all computations are carried out on the server side. In consequence it does not require any additional hardware on the voter's side, and offers distributed trust, receipt-freeness and verifiability.",
+      "publication_date": "2008-04-15T10:26:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "0804.2349v1"
+    },
+    {
+      "title": "Exploiting re-voting in the Helios election system",
+      "authors": [
+        "Maxime Meyer",
+        "Ben Smyth"
+      ],
+      "abstract": "Election systems must ensure that representatives are chosen by voters. Moreover, each voter should have equal influence. Traditionally, this has been achieved by permitting voters to cast at most one ballot. More recently, this has been achieved by tallying the last ballot cast by each voter. We show this is not achieved by the Helios election system, because an adversary can cause a ballot other than a voter's last to be tallied. Moreover, we show how the adversary can choose the contents of such a ballot, thus the adversary can unduly influence the selection of representatives.",
+      "publication_date": "2016-12-13T11:07:22+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1612.04099v3"
+    },
+    {
+      "title": "Risk-Limiting Audits for Condorcet Elections",
+      "authors": [
+        "Michelle Blom",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Elections where electors rank the candidates (or a subset of the candidates) in order of preference allow the collection of more information about the electors' intent. The most widely used election of this type is Instant-Runoff Voting (IRV), where candidates are eliminated one by one, until a single candidate holds the majority of the remaining ballots. Condorcet elections treat the election as a set of simultaneous decisions about each pair of candidates. The Condorcet winner is the candidate who beats all others in these pairwise contests. There are various proposals to determine a winner if no Condorcet winner exists. In this paper we show how we can efficiently audit Condorcet elections for a number of variations. We also compare the audit efficiency (how many ballots we expect to sample) of IRV and Condorcet elections.",
+      "publication_date": "2023-03-18T22:08:17+00:00",
+      "doi": "10.1007/978-3-031-48806-1_6",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2303.10509v2"
+    },
+    {
+      "title": "On the security of ballot marking devices",
+      "authors": [
+        "Dan S. Wallach"
+      ],
+      "abstract": "A recent debate among election experts has considered whether electronic ballot marking devices (BMDs) have adequate security against the risks of malware. A malicious BMD might produce a printed ballot that disagrees with a voter's actual intent, with the hope that voters would be unlikely to detect this subterfuge. This essay considers how an election administrator can create reasonable auditing procedures to gain confidence that their fleet of BMDs is operating correctly, allowing voters to benefit from the usability and accessibility features of BMDs while the overall election still benefits from the same security and reliability properties we expect from hand-marked paper ballots.",
+      "publication_date": "2019-08-05T23:04:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1908.01897v2"
+    },
+    {
+      "title": "Breaching the Privacy of Israel's Paper Ballot Voting System",
+      "authors": [
+        "Tomer Ashur",
+        "Orr Dunkelman",
+        "Nimrod Talmon"
+      ],
+      "abstract": "An election is a process through which citizens in liberal democracies select their governing bodies, usually through voting. For elections to be truly honest, people must be able to vote freely without being subject to coercion; that is why voting is usually done in a private manner. In this paper we analyze the security offered by a paper-ballot voting system that is used in Israel, as well as in several other countries around the world. we provide an algorithm which, based on publicly available information, breaks the privacy of the voters participating in such elections. Simulations based on real data collected in Israel show that our algorithm performs well, and can correctly recover the vote of up to 96% of the voters.",
+      "publication_date": "2016-08-29T12:27:12+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1608.08020v1"
+    },
+    {
+      "title": "3+ Seat Risk-Limiting Audits for Single Transferable Vote Elections",
+      "authors": [
+        "Michelle Blom",
+        "Alexander Ek",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Constructing efficient risk-limiting audits (RLAs) for multiwinner single transferable vote (STV) elections is a challenging problem. An STV RLA is designed to statistically verify that the reported winners of an election did indeed win according to the voters' expressed preferences and not due to mistabulation or interference, while limiting the risk of accepting an incorrect outcome to a desired threshold (the risk limit). Existing methods have shown that it is possible to form RLAs for two-seat STV elections in the context where the first seat has been awarded to a candidate in the first round of tabulation. This is called the first winner criterion. We present an assertion-based approach to conducting full or partial RLAs for STV elections with three or more seats, in which the first winner criterion is satisfied. Although the chance of forming a full audit that verifies all winners drops substantially as the number of seats increases, we show that we can quite often form partial audits that verify most, and sometimes all, of the reported winners. We evaluate our method on a dataset of over 500 three- and four-seat STV elections from the 2017 and 2022 local council elections in Scotland.",
+      "publication_date": "2025-03-19T00:29:53+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2503.14803v1"
+    },
+    {
+      "title": "Efficient Lower Bounding of Single Transferable Vote Election Margins",
+      "authors": [
+        "Michelle Blom",
+        "Alexander Ek",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "The single transferable vote (STV) is a system of preferential proportional voting employed in multi-seat elections. Each ballot cast by a voter is a (potentially partial) ranking over a set of candidates. The margin of victory, or simply 'margin', is the smallest number of ballots that need to be manipulated to alter the set of winners. Knowledge of the margin of an election gives greater insight into both how much time and money should be spent on auditing the election, and whether uncovered mistakes throw the election result into doubt -- requiring a costly repeat election -- or can be safely ignored without compromising the integrity of the result. Lower bounds on the margin can also be used for this purpose, in cases where exact margins are difficult to compute. There is one existing approach to computing lower bounds on the margin of STV elections, while there are multiple approaches to finding upper bounds. In this paper, we present improvements to this existing lower bound computation method for STV margins. The improvements lead to increased computational efficiency and, in many cases, to the algorithm computing tighter (higher) lower bounds.",
+      "publication_date": "2025-01-24T13:39:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2501.14847v2"
+    },
+    {
+      "title": "MERGE: Matching Electronic Results with Genuine Evidence for verifiable   voting in person at remote locations",
+      "authors": [
+        "Ben Adida",
+        "John Caron",
+        "Arash Mirzaei",
+        "Vanessa Teague"
+      ],
+      "abstract": "Overseas military personnel often face significant challenges in participating in elections due to the slow pace of traditional mail systems, which can result in ballots missing crucial deadlines. While internet-based voting offers a faster alternative, it introduces serious risks to the integrity and privacy of the voting process. We introduce the MERGE protocol to address these issues by combining the speed of electronic ballot delivery with the reliability of paper returns. This protocol allows voters to submit an electronic record of their vote quickly while simultaneously mailing a paper ballot for verification. The electronic record can be used for preliminary results, but the paper ballot is used in a Risk Limiting Audit (RLA) if received in time, ensuring the integrity of the election. This approach extends the time window for ballot arrival without undermining the security and accuracy of the vote count.",
+      "publication_date": "2024-10-09T09:19:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.06705v4"
+    },
+    {
+      "title": "Towards Computing Victory Margins in STV Elections",
+      "authors": [
+        "Michelle Blom",
+        "Peter J. Stuckey",
+        "Vanessa J. Teague"
+      ],
+      "abstract": "The Single Transferable Vote (STV) is a system of preferential voting employed in multi-seat elections. Each vote cast by a voter is a (potentially partial) ranking over a set of candidates. No techniques currently exist for computing the margin of victory (MOV) in STV elections. The MOV is the smallest number of vote manipulations (changes, additions, and deletions) required to bring about a change in the set of elected candidates. Knowledge of the MOV of an election gives greater insight into both how much time and money should be spent on the auditing of the election, and whether uncovered mistakes (such as ballot box losses) throw the election result into doubt---requiring a costly repeat election---or can be safely ignored. In this paper, we present algorithms for computing lower and upper bounds on the MOV in STV elections. In small instances, these algorithms are able to compute exact margins.",
+      "publication_date": "2017-03-10T01:47:23+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1703.03511v2"
+    },
+    {
+      "title": "SOBA: Secrecy-preserving Observable Ballot-level Audit",
+      "authors": [
+        "Josh Benaloh",
+        "Douglas Jones",
+        "Eric Lazarus",
+        "Mark Lindeman",
+        "Philip B. Stark"
+      ],
+      "abstract": "SOBA is an approach to election verification that provides observers with justifiably high confidence that the reported results of an election are consistent with an audit trail (\"ballots\"), which can be paper or electronic. SOBA combines three ideas: (1) publishing cast vote records (CVRs) separately for each contest, so that anyone can verify that each reported contest outcome is correct, if the CVRs reflect voters' intentions with sufficient accuracy; (2) shrouding a mapping between ballots and the CVRs for those ballots to prevent the loss of privacy that could occur otherwise; (3) assessing the accuracy with which the CVRs reflect voters' intentions for a collection of contests while simultaneously assessing the integrity of the shrouded mapping between ballots and CVRs by comparing randomly selected ballots to the CVRs that purport to represent them. Step (1) is related to work by the Humboldt County Election Transparency Project, but publishing CVRs separately for individual contests rather than images of entire ballots preserves privacy. Step (2) requires a cryptographic commitment from elections officials. Observers participate in step (3), which relies on the \"super-simple simultaneous single-ballot risk-limiting audit.\" Step (3) is designed to reveal relatively few ballots if the shrouded mapping is proper and the CVRs accurately reflect voter intent. But if the reported outcomes of the contests differ from the outcomes that a full hand count would show, step (3) is guaranteed to have a large chance of requiring all the ballots to be counted by hand, thereby limiting the risk that an incorrect outcome will become official and final.",
+      "publication_date": "2011-05-29T17:00:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "1105.5803v2"
+    },
+    {
+      "title": "Privacy Violations in Election Results",
+      "authors": [
+        "Shiro Kuriwaki",
+        "Jeffrey B. Lewis",
+        "Michael Morse"
+      ],
+      "abstract": "After an election, should election officials release a copy of each anonymous ballot? Some policymakers have championed public disclosure to counter distrust, but others worry that it might undermine ballot secrecy. We introduce the term vote revelation to refer to the linkage of a vote on an anonymous ballot to the voter's name in the public voter file, and detail how such revelation could theoretically occur. Using the 2020 election in Maricopa County, Arizona, as a case study, we show that the release of individual ballot records would lead to no revelation of any vote choice for 99.83% of voters as compared to 99.95% under Maricopa's current practice of reporting aggregate results by precinct and method of voting. Further, revelation is overwhelmingly concentrated among the few voters who cast provisional ballots or federal-only ballots. We discuss the potential benefits of transparency, compare remedies to reduce or eliminate privacy violations, and highlight the privacy-transparency tradeoff inherent in all election reporting.",
+      "publication_date": "2023-08-08T07:27:41+00:00",
+      "doi": "10.1126/sciadv.adt1512",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2308.04100v5"
+    },
+    {
+      "title": "National Treasure: The Call for e-Democracy and US Election Security",
+      "authors": [
+        "Adam Dorian Wong"
+      ],
+      "abstract": "Faith in the US electoral system is at risk. This issue stems from trust or lack thereof. Poor leaders ranted and attempted to sew discord in the democratic process and even tried to influence election results. Historically, the US has relied on paper ballots to cast private votes. Votes are watered down by the Electoral College. Elections are contested due to voter IDs and proof of citizenship. Methods of voting are nonsensically complex. In the technology age, this can be solved with a Smartcard National ID backed by Public-Key Infrastructure (PKI). This could be a method to restore hope in democracy and move the country back towards elections under a Popular Vote. Numbers are empirical and immutable and can solve the issue of Election Security in a bipartisan way. NATO allies like Estonia have already broken ground in using technology for eDemocracy or (Internet-based) iVoting. Acknowledging cyber attacks will happen, this is an opportunity for DHS and DOD (CYBERCOM) to collaborate on domestic operations and protect critical election infrastructure. This idea will not fix malicious information operations or civil stupidity. However, this is the way forward to securing elections now and forever. The views expressed by this whitepaper are those of the author and do not reflect the official policy or position of Dakota State University, the N.H. Army National Guard, the U.S. Army, the Department of Defense, or the U.S. Government. Cleared for release by DOPSR on 13 SEP 2024.",
+      "publication_date": "2024-09-13T16:14:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2409.08952v1"
+    },
+    {
+      "title": "A New Era of Elections: Leveraging Blockchain for Fair and Transparent   Voting",
+      "authors": [
+        "Suniti Chouhan",
+        "Gajanand Sharma"
+      ],
+      "abstract": "This study presents a blockchain-based voting system aimed at enhancing election security, transparency, and integrity. Traditional voting methods face growing risks of tampering, making it crucial to explore innovative solutions. Our proposed system combines blockchain's immutable, decentralized ledger with advanced voter identity verification techniques, including digital identity validation through Aadhaar and Driving Licenses (secured via BLAKE2b-512 hashing), biometric fingerprint authentication, and a picture rotation pattern for added security. Votes are recorded transparently and securely on a blockchain, with a consensus mechanism ensuring data integrity and reducing the risk of unauthorized alterations. Security analysis indicates that this multi-layered approach significantly reduces impersonation risks, while blockchain ensures accurate, private, and tamper-resistant vote recording. The findings support that a blockchain-based voting system with robust identity checks offers a trustworthy alternative to traditional methods, with potential for even greater refinement in secure and transparent elections.",
+      "publication_date": "2025-02-22T07:45:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2502.16127v1"
+    },
+    {
+      "title": "The New South Wales iVote System: Security Failures and Verification   Flaws in a Live Online Election",
+      "authors": [
+        "J. Alex Halderman",
+        "Vanessa Teague"
+      ],
+      "abstract": "In the world's largest-ever deployment of online voting, the iVote Internet voting system was trusted for the return of 280,000 ballots in the 2015 state election in New South Wales, Australia. During the election, we performed an independent security analysis of parts of the live iVote system and uncovered severe vulnerabilities that could be leveraged to manipulate votes, violate ballot privacy, and subvert the verification mechanism. These vulnerabilities do not seem to have been detected by the election authorities before we disclosed them, despite a pre-election security review and despite the system having run in a live state election for five days. One vulnerability, the result of including analytics software from an insecure external server, exposed some votes to complete compromise of privacy and integrity. At least one parliamentary seat was decided by a margin much smaller than the number of votes taken while the system was vulnerable. We also found protocol flaws, including vote verification that was itself susceptible to manipulation. This incident underscores the difficulty of conducting secure elections online and carries lessons for voters, election officials, and the e-voting research community.",
+      "publication_date": "2015-04-22T03:42:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1504.05646v2"
+    },
+    {
+      "title": "Auditing Ranked Voting Elections with Dirichlet-Tree Models: First Steps",
+      "authors": [
+        "Floyd Everest",
+        "Michelle Blom",
+        "Philip B. Stark",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Ranked voting systems, such as instant-runoff voting (IRV) and single transferable vote (STV), are used in many places around the world. They are more complex than plurality and scoring rules, presenting a challenge for auditing their outcomes: there is no known risk-limiting audit (RLA) method for STV other than a full hand count.   We present a new approach to auditing ranked systems that uses a statistical model, a Dirichlet-tree, that can cope with high-dimensional parameters in a computationally efficient manner. We demonstrate this approach with a ballot-polling Bayesian audit for IRV elections. Although the technique is not known to be risk-limiting, we suggest some strategies that might allow it to be calibrated to limit risk.",
+      "publication_date": "2022-06-29T13:06:42+00:00",
+      "doi": "10.15157/diss/021",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "2206.14605v2"
+    },
+    {
+      "title": "A First Approach to Risk-Limiting Audits for Single Transferable Vote   Elections",
+      "authors": [
+        "Michelle Blom",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Risk-limiting audits (RLAs) are an increasingly important method for checking that the reported outcome of an election is, in fact, correct. Indeed, their use is increasingly being legislated. While effective methods for RLAs have been developed for many forms of election -- for example: first-past-the-post, instant-runoff voting, and D'Hondt elections -- auditing methods for single transferable vote (STV) elections have yet to be developed. STV elections are notoriously hard to reason about since there is a complex interaction of votes that change their value throughout the process. In this paper we present the first approach to risk-limiting audits for STV elections, restricted to the case of 2-seat STV elections.",
+      "publication_date": "2021-12-18T12:36:39+00:00",
+      "doi": "10.1007/978-3-031-32415-4_25",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2112.09921v1"
+    },
+    {
+      "title": "RAIRE: Risk-Limiting Audits for IRV Elections",
+      "authors": [
+        "Michelle Blom",
+        "Peter J. Stuckey",
+        "Vanessa Teague"
+      ],
+      "abstract": "Risk-limiting post election audits guarantee a high probability of correcting incorrect election results, independent of why the result was incorrect. Ballot-polling audits select ballots at random and interpret those ballots as evidence for and against the reported result, continuing this process until either they support the recorded result, or they fall back to a full manual recount. For elections with digitised scanning and counting of ballots, a comparison audit compares randomly selected digital ballots with their paper versions. Discrepancies are referred to as errors, and are used to build evidence against or in support of the recorded result. Risk-limiting audits for first-past-the-post elections are well understood, and used in some US elections. We define a number of approaches to ballot-polling and comparison risk-limiting audits for Instant Runoff Voting (IRV) elections. We show that for almost all real elections we found, we can perform a risk-limiting audit by looking at only a small fraction of the total ballots (assuming no errors were made in the tallying and distribution of votes).",
+      "publication_date": "2019-03-20T06:19:10+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.DS"
+      ],
+      "arxiv_id": "1903.08804v2"
+    },
+    {
+      "title": "An Internet Voting System Fatally Flawed in Creative New Ways",
+      "authors": [
+        "Andrew W. Appel",
+        "Philip B. Stark"
+      ],
+      "abstract": "The recently published \"MERGE\" protocol is designed to be used in the prototype CAC-vote system. The voting kiosk and protocol transmit votes over the internet and then transmit voter-verifiable paper ballots through the mail. In the MERGE protocol, the votes transmitted over the internet are used to tabulate the results and determine the winners, but audits and recounts use the paper ballots that arrive in time. The enunciated motivation for the protocol is to allow (electronic) votes from overseas military voters to be included in preliminary results before a (paper) ballot is received from the voter. MERGE contains interesting ideas that are not inherently unsound; but to make the system trustworthy--to apply the MERGE protocol--would require major changes to the laws, practices, and technical and logistical abilities of U.S. election jurisdictions. The gap between theory and practice is large and unbridgeable for the foreseeable future. Promoters of this research project at DARPA, the agency that sponsored the research, should acknowledge that MERGE is internet voting (election results rely on votes transmitted over the internet except in the event of a full hand count) and refrain from claiming that it could be a component of trustworthy elections without sweeping changes to election law and election administration throughout the U.S.",
+      "publication_date": "2024-11-18T18:10:05+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2411.11796v1"
+    },
+    {
+      "title": "Phrase-Verified Voting: Verifiable Low-Tech Remote Boardroom Voting",
+      "authors": [
+        "Enka Blanchard",
+        "Ryan Robucci",
+        "Ted Selker",
+        "Alan Sherman"
+      ],
+      "abstract": "We present Phrase-Verified Voting, a voter-verifiable remote voting system assembled from commercial off-the-shelf software for small private elections. The system is transparent and enables each voter to verify that the tally includes their ballot selection without requiring any understanding of cryptography. This paper describes the system and its use in fall 2020, to vote remotely in promotion committees in a university. Each voter fills out a form in the cloud with their vote V (YES, NO, ABSTAIN) and a passphrase P-two words entered by the voter. The system generates a verification prompt of the (P,V) pairs and a tally of the votes, organized to help visualize how the votes add up. After the polls close, each voter verifies that this table lists their (P,V) pair and that the tally is computed correctly. The system is especially appropriate for any small group making sensitive decisions. Because the system would not prevent a coercer from demanding that their victim use a specified passphrase, it is not designed for applications where such malfeasance would be likely or go undetected. Results from 43 voters show that the system was well-accepted, performed effectively for its intended purpose, and introduced users to the concept of voter-verified elections. Compared to the commonly-used alternatives of paper ballots or voting by email, voters found the system easier to use, and that it provided greater privacy and outcome integrity.",
+      "publication_date": "2021-03-12T09:59:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2103.07180v1"
+    },
+    {
+      "title": "Efficient, Fast, and Fair Voting Through Dynamic Resource Allocation in   a Secure Election Physical Intranet",
+      "authors": [
+        "Tiankuo Zhang",
+        "Benoit Montreuil",
+        "Ali V Barenji",
+        "Praveen Muthukrishnan"
+      ],
+      "abstract": "Resource allocations in an election system, often with hundreds of polling locations over a territory such as a county, with the aim that voters receive fair and efficient services, is a challenging problem, as election resources are limited and the number of expected voters can be highly volatile through the voting period. This paper develops two propositions to ensure efficiency, fairness, resilience, and security. The first is to leverage Physical Internet (PI) principles, notably setting up a \"secure election physical intranet\" (SEPI) based on open resource sharing and flow consolidation between election facilities in the territory. The second is to adopt a smart dynamic resource allocation methodology within the SEPI based on queueing networks and lexicographic optimization. A queueing model is developed to provide feasible combinations of resources and individual performances for each polling location by considering layout and utilization constraints. A two-stage lexicographic optimizer receives the queueing model's outputs and finds an optimal solution that is less expensive, fast, and fair. A scenario-based case study validates the proposed methodology based on data from the 2020 US Presidential Election in Fulton County, Georgia, USA.",
+      "publication_date": "2025-03-06T03:13:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "math.OC"
+      ],
+      "arxiv_id": "2503.04053v1"
+    },
+    {
+      "title": "Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections",
+      "authors": [
+        "Alexander Ek",
+        "Philip B. Stark",
+        "Peter J. Stuckey",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Various risk-limiting audit (RLA) methods have been developed for instant-runoff voting (IRV) elections. A recent method, AWAIRE, is the first efficient approach that can take advantage of but does not require cast vote records (CVRs). AWAIRE involves adaptively weighted averages of test statistics, essentially \"learning\" an effective set of hypotheses to test. However, the initial paper on AWAIRE only examined a few weighting schemes and parameter settings.   We explore schemes and settings more extensively, to identify and recommend efficient choices for practice. We focus on the case where CVRs are not available, assessing performance using simulations based on real election data.   The most effective schemes are often those that place most or all of the weight on the apparent \"best\" hypotheses based on already seen data. Conversely, the optimal tuning parameters tended to vary based on the election margin. Nonetheless, we quantify the performance trade-offs for different choices across varying election margins, aiding in selecting the most desirable trade-off if a default option is needed.   A limitation of the current AWAIRE implementation is its restriction to a small number of candidates -- up to six in previous implementations. One path to a more computationally efficient implementation would be to use lazy evaluation and avoid considering all possible hypotheses. Our findings suggest that such an approach could be done without substantially compromising statistical performance.",
+      "publication_date": "2024-02-18T10:13:01+00:00",
+      "doi": "10.1007/978-3-031-69231-4_2",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2403.15400v2"
+    },
+    {
+      "title": "Electryo, In-person Voting with Transparent Voter Verifiability and   Eligibility Verifiability",
+      "authors": [
+        "Peter B. Roenne",
+        "Peter Y. A Ryan",
+        "Marie-Laure Zollinger"
+      ],
+      "abstract": "Selene is an e-voting protocol that allows voters to directly check their individual vote, in cleartext, in the final tally via a tracker system, while providing good coercion mitigation. This is in contrast to conventional, end-to-end verifiable schemes in which the voter verifies the presence of an encryption of her vote on the bulletin board. The Selene mechanism can be applied to many e-voting schemes, but here we present an application to the polling station context, resulting in a voter-verifiable electronic tally with a paper audit trail. The system uses a smartcard-based public key system to provide the individual verification and universal eligibility verifiability. The paper record contains an encrypted link to the voter's identity, requiring stronger assumptions on ballot privacy than normal paper voting, but with the benefit of providing good auditability and dispute resolution as well as supporting (comparison) risk limiting audits.",
+      "publication_date": "2021-05-31T08:22:29+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2105.14783v1"
+    },
+    {
+      "title": "The Decisive Power of Indecision: Low-Variance Risk-Limiting Audits and   Election Contestation via Marginal Mark Recording",
+      "authors": [
+        "Benjamin Fuller",
+        "Rashmi Pai",
+        "Alexander Russell"
+      ],
+      "abstract": "Risk-limiting audits (RLAs) are techniques for verifying the outcomes of large elections. While they provide rigorous guarantees of correctness, widespread adoption has been impeded by both efficiency concerns and the fact they offer statistical, rather than absolute, conclusions. We attend to both of these difficulties, defining new families of audits that improve efficiency and offer qualitative advances in statistical power.   Our new audits are enabled by revisiting the standard notion of a cast-vote record so that it can declare multiple possible mark interpretations rather than a single decision; this can reflect the presence of marginal marks, which appear regularly on hand-marked ballots. We show that this simple expedient can offer significant efficiency improvements with only minor changes to existing auditing infrastructure. We consider two ways of representing these marks, both yield risk-limiting comparison audits in the formal sense of Fuller, Harrison, and Russell (IEEE Security & Privacy 2023).   We then define a new type of post-election audit we call a contested audit. These permit each candidate to provide a cast-vote record table advancing their own claim to victory. We prove that these audits offer remarkable sample efficiency, yielding control of risk with a constant number of samples (that is independent of margin). This is a first for an audit with provable soundness. These results are formulated in a game-based security model that specify quantitative soundness and completeness guarantees. These audits provide a means to handle contestation of election results affirmed by conventional RLAs.",
+      "publication_date": "2024-02-09T16:23:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2402.06515v4"
+    },
+    {
+      "title": "Verifiable Elections with Commitment Consistent Encryption -- A Primer",
+      "authors": [
+        "Olivier Pereira"
+      ],
+      "abstract": "This note provides an introduction to the PPATS Commitment Consistent Encryption (CCE) scheme proposed by Cuvelier, Pereira and Peters and its use in the design of end-to-end verifiable elections with a perfectly private audit trail. These elections can be verified using audit data that will never leak any information about the vote, even if all the private keys of the elections are compromised, or if the cryptographic assumptions are broken.",
+      "publication_date": "2014-12-23T13:35:21+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1412.7358v1"
+    },
+    {
+      "title": "Protecting Elections by Recounting Ballots",
+      "authors": [
+        "Edith Elkind",
+        "Jiarui Gan",
+        "Svetlana Obraztsova",
+        "Zinovi Rabinovich",
+        "Alexandros A. Voudouris"
+      ],
+      "abstract": "Complexity of voting manipulation is a prominent topic in computational social choice. In this work, we consider a two-stage voting manipulation scenario. First, a malicious party (an attacker) attempts to manipulate the election outcome in favor of a preferred candidate by changing the vote counts in some of the voting districts. Afterwards, another party (a defender), which cares about the voters' wishes, demands a recount in a subset of the manipulated districts, restoring their vote counts to their original values. We investigate the resulting Stackelberg game for the case where votes are aggregated using two variants of the Plurality rule, and obtain an almost complete picture of the complexity landscape, both from the attacker's and from the defender's perspective.",
+      "publication_date": "2019-06-17T14:59:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "1906.07071v1"
+    },
+    {
+      "title": "Combinatorial Voter Control in Elections",
+      "authors": [
+        "Laurent Bulteau",
+        "Jiehua Chen",
+        "Piotr Faliszewski",
+        "Rolf Niedermeier",
+        "Nimrod Talmon"
+      ],
+      "abstract": "Voter control problems model situations such as an external agent trying to affect the result of an election by adding voters, for example by convincing some voters to vote who would otherwise not attend the election. Traditionally, voters are added one at a time, with the goal of making a distinguished alternative win by adding a minimum number of voters. In this paper, we initiate the study of combinatorial variants of control by adding voters: In our setting, when we choose to add a voter~$v$, we also have to add a whole bundle $\\kappa(v)$ of voters associated with $v$. We study the computational complexity of this problem for two of the most basic voting rules, namely the Plurality rule and the Condorcet rule.",
+      "publication_date": "2014-06-26T11:55:44+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.MA"
+      ],
+      "arxiv_id": "1406.6859v1"
+    },
+    {
+      "title": "Electric Democracy: Proof of Work to secure Elections",
+      "authors": [
+        "Vitaly Zuevsky"
+      ],
+      "abstract": "Electronic voting consistently fails to supplant conventional paper ballot due to a plethora of security shortcomings. Not only are traditional voting methods mediocre in terms of convenience and interface, they also encompass principal-agent problem, where the state may have vested interest in the outcome of the ballot. Electronic voting protocol using cryptography to deliver in zero trust environments is long overdue. Here I propose using Proof of Work algorithm at user devices in combination with other well-known security primitives to build a zero-trust voting system. The state would only issue single-use voting authorizations to its citizens, while zero trust design would allow conducting elections by an open-source platform with enhanced observability. It is also hypothesized that the heighten availability of plebiscite by means of the proposed design may ultimately change the way our society participates in the policy making.",
+      "publication_date": "2022-06-30T11:52:45+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2207.07446v1"
+    },
+    {
+      "title": "RLAs for 2-Seat STV Elections: Revisited",
+      "authors": [
+        "Michelle Blom",
+        "Peter J. Stuckey",
+        "Vanessa Teague",
+        "Damjan Vukcevic"
+      ],
+      "abstract": "Single Transferable Vote (STV) elections are a principled approach to electing multiple candidates in a single election. Each ballot has a starting value of 1, and a candidate is elected if they gather a total vote value more than a defined quota. Votes over the quota have their value reduced by a transfer value so as to remove the quota, and are passed to the next candidate on the ballot. Risk-limiting audits (RLAs) are a statistically sound approach to election auditing which guarantees that failure to detect an error in the result is bounded by a limit. A first approach to RLAs for 2-seat STV elections has been defined. In this paper we show how we can improve this approach by reasoning about lower bounds on transfer values, and how we can extend the approach to partially audit an election, if the method does not support a full audit.",
+      "publication_date": "2024-02-06T05:00:41+00:00",
+      "doi": "10.1007/978-3-031-69231-4_1",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.GT"
+      ],
+      "arxiv_id": "2402.03707v1"
+    },
+    {
+      "title": "Quantum protocol for electronic voting without election authorities",
+      "authors": [
+        "Federico Centrone",
+        "Eleni Diamanti",
+        "Iordanis Kerenidis"
+      ],
+      "abstract": "Electronic voting is a very useful but challenging internet-based protocol that despite many theoretical approaches and various implementations with different degrees of success, remains a contentious topic due to issues in reliability and security. Here we present a quantum protocol that exploits an untrusted source of multipartite entanglement to carry out an election without relying on election authorities, simultaneous broadcasting or computational assumptions, and whose result is publicly verifiable. The level of security depends directly on the fidelity of the shared multipartite entangled quantum state, and the protocol can be readily implemented for a few voters with state-of-the-art photonic technology.",
+      "publication_date": "2021-07-30T15:43:48+00:00",
+      "doi": "10.1103/PhysRevApplied.18.014005",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "quant-ph"
+      ],
+      "arxiv_id": "2107.14719v2"
+    },
+    {
+      "title": "Busting the Paper Ballot: Voting Meets Adversarial Machine Learning",
+      "authors": [
+        "Kaleel Mahmood",
+        "Caleb Manicke",
+        "Ethan Rathbun",
+        "Aayushi Verma",
+        "Sohaib Ahmad",
+        "Nicholas Stamatakis",
+        "Laurent Michel",
+        "Benjamin Fuller"
+      ],
+      "abstract": "We show the security risk associated with using machine learning classifiers in United States election tabulators. The central classification task in election tabulation is deciding whether a mark does or does not appear on a bubble associated to an alternative in a contest on the ballot. Barretto et al. (E-Vote-ID 2021) reported that convolutional neural networks are a viable option in this field, as they outperform simple feature-based classifiers.   Our contributions to election security can be divided into four parts. To demonstrate and analyze the hypothetical vulnerability of machine learning models on election tabulators, we first introduce four new ballot datasets. Second, we train and test a variety of different models on our new datasets. These models include support vector machines, convolutional neural networks (a basic CNN, VGG and ResNet), and vision transformers (Twins and CaiT). Third, using our new datasets and trained models, we demonstrate that traditional white box attacks are ineffective in the voting domain due to gradient masking. Our analyses further reveal that gradient masking is a product of numerical instability. We use a modified difference of logits ratio loss to overcome this issue (Croce and Hein, ICML 2020). Fourth, in the physical world, we conduct attacks with the adversarial examples generated using our new methods. In traditional adversarial machine learning, a high (50% or greater) attack success rate is ideal. However, for certain elections, even a 5% attack success rate can flip the outcome of a race. We show such an impact is possible in the physical domain. We thoroughly discuss attack realism, and the challenges and practicality associated with printing and scanning ballot adversarial examples.",
+      "publication_date": "2025-06-17T14:38:08+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2506.14582v1"
+    },
+    {
+      "title": "Risk-Limiting Bayesian Polling Audits for Two Candidate Elections",
+      "authors": [
+        "Poorvi L. Vora"
+      ],
+      "abstract": "We propose a simple common framework for Risk-Limiting and Bayesian (polling) audits for two-candidate plurality elections. Using it, we derive an expression for the general Bayesian audit; in particular, we do not restrict the prior to a beta distribution. We observe that the decision rule for the Bayesian audit is a simple comparison test, which enables the use of pre-computation---without simulations---and greatly increases the computational efficiency of the audit. Our main contribution is a general form for an audit that is both Bayesian and risk-limiting: the {\\em Bayesian Risk-Limiting Audit}, which enables the use of a Bayesian approach to explore more efficient Risk-Limiting Audits.",
+      "publication_date": "2019-02-04T01:01:25+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1902.00999v2"
+    },
+    {
+      "title": "Non(c)esuch Ballot-Level Risk-Limiting Audits for Precinct-Count Voting   Systems",
+      "authors": [
+        "Philip B. Stark"
+      ],
+      "abstract": "Risk-limiting audits (RLAs) guarantee a high probability of correcting incorrect reported outcomes before the outcomes are certified. The most efficient use ballot-level comparison, comparing the voting system's interpretation of individual ballot cards sampled at random (cast-vote records, CVRs) from a trustworthy paper trail to a human interpretation of the same cards. Such comparisons require the voting system to create and export CVRs in a way that can be linked to the individual ballots the CVRs purport to represent. Such links can be created by keeping the ballots in the order in which they are scanned or by printing a unique serial number on each ballot. But for precinct-count systems (PCOS), these strategies may compromise vote anonymity: the order in which ballots are cast may identify the voters who cast them. Printing a unique pseudo-random number (\"cryptographic nonce\") on each ballot card after the voter last touches it could reduce such privacy risks. But what if the system does not in fact print a unique number on each ballot or does not accurately report the numbers it printed? This paper gives two ways to conduct an RLA so that even if the system does not print a genuine nonce on each ballot or misreports the nonces it used, the audit's risk limit is not compromised (however, the anonymity of votes might be compromised). One method allows untrusted technology to be used to imprint and to retrieve ballot cards. The method is adaptive: if the technology behaves properly, this protection does not increase the audit workload. But if the imprinting or retrieval system misbehaves, the sample size the RLA requires to confirm the reported results when the results are correct is generally larger than if the imprinting and retrieval were accurate.",
+      "publication_date": "2022-07-04T12:35:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2207.01362v2"
+    },
+    {
+      "title": "STAR-Vote: A Secure, Transparent, Auditable, and Reliable Voting System",
+      "authors": [
+        "Josh Benaloh",
+        "Mike Byrne",
+        "Philip Kortum",
+        "Neal McBurnett",
+        "Olivier Pereira",
+        "Philip B. Stark",
+        "Dan S. Wallach"
+      ],
+      "abstract": "In her 2011 EVT/WOTE keynote, Travis County, Texas County Clerk Dana DeBeauvoir described the qualities she wanted in her ideal election system to replace their existing DREs. In response, in April of 2012, the authors, working with DeBeauvoir and her staff, jointly architected STAR-Vote, a voting system with a DRE-style human interface and a \"belt and suspenders\" approach to verifiability. It provides both a paper trail and end-to-end cryptography using COTS hardware. It is designed to support both ballot-level risk-limiting audits, and auditing by individual voters and observers. The human interface and process flow is based on modern usability research. This paper describes the STAR-Vote architecture, which could well be the next-generation voting system for Travis County and perhaps elsewhere.",
+      "publication_date": "2012-11-08T17:06:33+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1211.1904v1"
+    }
+  ]
+}

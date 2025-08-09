@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+  "paper_title": "Automating Privilege Escalation with Deep Reinforcement Learning",
+  "concepts": [
+    {
+      "text": "learning",
+      "frequency": 103,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.656260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agent",
+      "frequency": 149,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.665894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.782113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malicious",
+      "frequency": 73,
+      "relevance_score": 0.8019905760169247,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.669126+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows",
+      "frequency": 67,
+      "relevance_score": 0.7442927204538898,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.672802+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reinforcement learning",
+      "frequency": 56,
+      "relevance_score": 0.7385133185883257,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.889825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reinforcement",
+      "frequency": 59,
+      "relevance_score": 0.6673622463698432,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.655932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "executable",
+      "frequency": 58,
+      "relevance_score": 0.6577459371093375,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.783871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "actions",
+      "frequency": 51,
+      "relevance_score": 0.5904317722857967,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.713806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 operating system",
+      "frequency": 2,
+      "relevance_score": 0.5692326185210117,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.039376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c windows system32",
+      "frequency": 2,
+      "relevance_score": 0.5692326185210117,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.067295+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 33,
+      "relevance_score": 0.567338205596692,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.678100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "get",
+      "frequency": 47,
+      "relevance_score": 0.5519665352437735,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.798693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a28 check directory",
+      "frequency": 14,
+      "relevance_score": 0.5346283296470814,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.037618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privilege escalation",
+      "frequency": 32,
+      "relevance_score": 0.5077218963361863,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.889239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dll",
+      "frequency": 42,
+      "relevance_score": 0.5038849889412443,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.780893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "current user a31",
+      "frequency": 10,
+      "relevance_score": 0.4961630926050582,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.045824+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user a31 get",
+      "frequency": 10,
+      "relevance_score": 0.4961630926050582,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.046117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "check",
+      "frequency": 41,
+      "relevance_score": 0.4942686796807386,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.805310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection systems",
+      "frequency": 3,
+      "relevance_score": 0.47884892778151744,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.022456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 3,
+      "relevance_score": 0.47884892778151744,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.044944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows system32",
+      "frequency": 2,
+      "relevance_score": 0.4692326185210116,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.016535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "autonomous vehicle systems",
+      "frequency": 2,
+      "relevance_score": 0.4692326185210116,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.027221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real operating system",
+      "frequency": 2,
+      "relevance_score": 0.4692326185210116,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.038793+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a27 check executable",
+      "frequency": 7,
+      "relevance_score": 0.4673141648235407,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.041722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a29 analyze service",
+      "frequency": 6,
+      "relevance_score": 0.4576978555630349,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.036422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 37,
+      "relevance_score": 0.4558034426387152,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.677804+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 37,
+      "relevance_score": 0.4558034426387152,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.725603+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a37 get",
+      "frequency": 16,
+      "relevance_score": 0.4538609481680931,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.975480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a25 check service",
+      "frequency": 5,
+      "relevance_score": 0.44808154630252905,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.035535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows 7 virtual",
+      "frequency": 5,
+      "relevance_score": 0.44808154630252905,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.038209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "7 virtual machine",
+      "frequency": 5,
+      "relevance_score": 0.44808154630252905,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.038501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services a28 check",
+      "frequency": 5,
+      "relevance_score": 0.44808154630252905,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.046412+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep reinforcement learning",
+      "frequency": 15,
+      "relevance_score": 0.44424463890758725,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.020638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kali linux",
+      "frequency": 25,
+      "relevance_score": 0.44040773151264545,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.947289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a34 check alwaysinstallelevated",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.042307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "executable a37 get",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.042892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "icacls a2 create",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.051119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kali linux a6",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.051414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "linux a6 download",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.051706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rein- forcement learning",
+      "frequency": 4,
+      "relevance_score": 0.4384652370420232,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.056127+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 35,
+      "relevance_score": 0.43657082411770365,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.676027+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "permissions",
+      "frequency": 35,
+      "relevance_score": 0.43657082411770365,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.690538+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 35,
+      "relevance_score": 0.43657082411770365,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.706124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "action",
+      "frequency": 35,
+      "relevance_score": 0.43657082411770365,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.713218+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "windows 7",
+      "frequency": 14,
+      "relevance_score": 0.4346283296470814,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.895537+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "a28 check",
+      "frequency": 14,
+      "relevance_score": 0.4346283296470814,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:02.960216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "malicious service executable",
+      "frequency": 14,
+      "relevance_score": 0.4346283296470814,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.034941+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "check directory permissions",
+      "frequency": 14,
+      "relevance_score": 0.4346283296470814,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.037917+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-agent reinforcement learning",
+      "frequency": 3,
+      "relevance_score": 0.4288489277815174,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:03.027810+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:03.071322+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:03.071497+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

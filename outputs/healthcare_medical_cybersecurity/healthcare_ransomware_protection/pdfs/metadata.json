@@ -1,0 +1,94 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:13:53.193684+00:00",
+    "strategy_name": "Healthcare Ransomware Defense and Recovery",
+    "total_papers": 5,
+    "download_directory": "outputs/healthcare_medical_cybersecurity/healthcare_ransomware_protection/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Peeler: Profiling Kernel-Level Events to Detect Ransomware",
+      "authors": [
+        "Muhammad Ejaz Ahmed",
+        "Hyoungshick Kim",
+        "Seyit Camtepe",
+        "Surya Nepal"
+      ],
+      "abstract": "Ransomware is a growing threat that typically operates by either encrypting a victim's files or locking a victim's computer until the victim pays a ransom. However, it is still challenging to detect such malware timely with existing traditional malware detection techniques. In this paper, we present a novel ransomware detection system, called \"Peeler\" (Profiling kErnEl -Level Events to detect Ransomware). Peeler deviates from signatures for individual ransomware samples and relies on common and generic characteristics of ransomware depicted at the kernel-level. Analyzing diverse ransomware families, we observed ransomware's inherent behavioral characteristics such as stealth operations performed before the attack, file I/O request patterns, process spawning, and correlations among kernel-level events. Based on those characteristics, we develop Peeler that continuously monitors a target system's kernel events and detects ransomware attacks on the system. Our experimental results show that Peeler achieves more than 99\\% detection rate with 0.58\\% false-positive rate against 43 distinct ransomware families, containing samples from both crypto and screen-locker types of ransomware. For crypto ransomware, Peeler detects them promptly after only one file is lost (within 115 milliseconds on average). Peeler utilizes around 4.9\\% of CPU time with only 9.8 MB memory under the normal workload condition. Our analysis demonstrates that Peeler can efficiently detect diverse malware families by monitoring their kernel-level events.",
+      "publication_date": "2021-01-29T07:05:01+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2101.12434v1"
+    },
+    {
+      "title": "Ransomware Detection Dynamics: Insights and Implications",
+      "authors": [
+        "Mike Nkongolo"
+      ],
+      "abstract": "The rise of ransomware attacks has necessitated the development of effective strategies for identifying and mitigating these threats. This research investigates the utilization of a feature selection algorithm for distinguishing ransomware-related and benign transactions in both Bitcoin (BTC) and United States Dollar (USD). Leveraging the UGRansome dataset, a comprehensive repository of ransomware related BTC and USD transactions, we propose a set of novel features designed to capture the distinct characteristics of ransomware activity within the cryptocurrency ecosystem. These features encompass transaction metadata, ransom analysis, and behavioral patterns, offering a multifaceted view of ransomware-related financial transactions. Through rigorous experimentation and evaluation, we demonstrate the effectiveness of our feature set in accurately extracting BTC and USD transactions, thereby aiding in the early detection and prevention of ransomware-related financial flows. We introduce a Ransomware Feature Selection Algorithm (RFSA) based on Gini Impurity and Mutual Information (MI) for selecting crucial ransomware features from the UGRansome dataset. Insights from the visualization highlight the potential of Gini Impurity and MI-based feature selection to enhance ransomware detection systems by effectively discriminating between ransomware classes. The analysis reveals that approximately 68% of ransomware incidents involve BTC transactions within the range of 1.46 to 2.56, with an average of 2.01 BTC transactions per attack. The findings emphasize the dynamic and adaptable nature of ransomware demands, suggesting that there is no fixed amount for specific cyberattacks, highlighting the evolving landscape of ransomware threats.",
+      "publication_date": "2024-02-07T05:36:06+00:00",
+      "doi": "10.12785/ijcds/150165",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2402.04594v1"
+    },
+    {
+      "title": "A Sysmon Incremental Learning System for Ransomware Analysis and   Detection",
+      "authors": [
+        "Jamil Ispahany",
+        "MD Rafiqul Islam",
+        "M. Arif Khan",
+        "MD Zahidul Islam"
+      ],
+      "abstract": "In the face of increasing cyber threats, particularly ransomware attacks, there is a pressing need for advanced detection and analysis systems that adapt to evolving malware behaviours. Throughout the literature, using machine learning (ML) to obviate ransomware attacks has increased in popularity. Unfortunately, most of these proposals leverage non-incremental learning approaches that require the underlying models to be updated from scratch to detect new ransomware, wasting time and resources. This approach is problematic because it leaves sensitive data vulnerable to attack during retraining, as newly emerging ransomware strains may go undetected until the model is updated. Furthermore, most of these approaches are not designed to detect ransomware in real-time data streams, limiting their effectiveness in complex network environments. To address this challenge, we present the Sysmon Incremental Learning System for Ransomware Analysis and Detection (SILRAD), which enables continuous updates to the underlying model and effectively closes the training gap. By leveraging the capabilities of Sysmon for detailed monitoring of system activities, our approach integrates online incremental learning techniques to enhance the adaptability and efficiency of ransomware detection. The most valuable features for detection were selected using the Pearson Correlation Coefficient (PCC), and concept drift detection was implemented through the ADWIN algorithm, ensuring that the model remains responsive to changes in ransomware behaviour. We compared our results to other popular techniques, such as Hoeffding Trees (HT) and Leveraging Bagging Classifier (LB), observing a detection accuracy of 98.89% and a Matthews Correlation Coefficient (MCC) rate of 94.11%, demonstrating the effectiveness of our technique.",
+      "publication_date": "2025-01-02T06:22:58+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.01089v1"
+    },
+    {
+      "title": "Automated Behavioral Analysis of Malware A Case Study of WannaCry   Ransomware",
+      "authors": [
+        "Qian Chen",
+        "Robert A. Bridges"
+      ],
+      "abstract": "Ransomware, a class of self-propagating malware that uses encryption to hold the victims' data ransom, has emerged in recent years as one of the most dangerous cyber threats, with widespread damage; e.g., zero-day ransomware WannaCry has caused world-wide catastrophe, from knocking U.K. National Health Service hospitals offline to shutting down a Honda Motor Company in Japan[1]. Our close collaboration with security operations of large enterprises reveals that defense against ransomware relies on tedious analysis from high-volume systems logs of the first few infections. Sandbox analysis of freshly captured malware is also commonplace in operation.   We introduce a method to identify and rank the most discriminating ransomware features from a set of ambient (non-attack) system logs and at least one log stream containing both ambient and ransomware behavior. These ranked features reveal a set of malware actions that are produced automatically from system logs, and can help automate tedious manual analysis. We test our approach using WannaCry and two polymorphic samples by producing logs with Cuckoo Sandbox during both ambient, and ambient plus ransomware executions. Our goal is to extract the features of the malware from the logs with only knowledge that malware was present. We compare outputs with a detailed analysis of WannaCry allowing validation of the algorithm's feature extraction and provide analysis of the method's robustness to variations of input data\\textemdash changing quality/quantity of ambient data and testing polymorphic ransomware. Most notably, our patterns are accurate and unwavering when generated from polymorphic WannaCry copies, on which 63 (of 63 tested) anti-virus (AV) products fail.",
+      "publication_date": "2017-09-25T23:38:20+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1709.08753v1"
+    },
+    {
+      "title": "Cryptographic ransomware encryption detection: Survey",
+      "authors": [
+        "Kenan Begovic",
+        "Abdulaziz Al-Ali",
+        "Qutaibah Malluhi"
+      ],
+      "abstract": "The ransomware threat has loomed over our digital life since 1989. Criminals use this type of cyber attack to lock or encrypt victims' data, often coercing them to pay exorbitant amounts in ransom. The damage ransomware causes ranges from monetary losses paid for ransom at best to endangering human lives. Cryptographic ransomware, where attackers encrypt the victim's data, stands as the predominant ransomware variant. The primary characteristics of these attacks have remained the same since the first ransomware attack. For this reason, we consider this a key factor differentiating ransomware from other cyber attacks, making it vital in tackling the threat of cryptographic ransomware. This paper proposes a cyber kill chain that describes the modern crypto-ransomware attack. The survey focuses on the Encryption phase as described in our proposed cyber kill chain and its detection techniques. We identify three main methods used in detecting encryption-related activities by ransomware, namely API and System calls, I/O monitoring, and file system activities monitoring. Machine learning (ML) is a tool used in all three identified methodologies, and some of the issues within the ML domain related to this survey are also covered as part of their respective methodologies. The survey of selected proposals is conducted through the prism of those three methodologies, showcasing the importance of detecting ransomware during pre-encryption and encryption activities and the windows of opportunity to do so. We also examine commercial crypto-ransomware protection and detection offerings and show the gap between academic research and commercial applications.",
+      "publication_date": "2023-06-21T04:11:52+00:00",
+      "doi": "10.1016/j.cose.2023.103349",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2306.12008v1"
+    }
+  ]
+}

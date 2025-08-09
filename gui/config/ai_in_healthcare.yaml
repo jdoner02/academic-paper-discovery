@@ -1,0 +1,147 @@
+# AI in Healthcare Research Configuration
+# Machine learning and AI applications in medicine and healthcare
+search_configuration:
+  default_strategy: "medical_imaging_ai"
+  citation_threshold: 0
+  publication_date_range:
+    start_year: 2015    # Deep learning surge in healthcare around mid-2010s
+    end_year: 2025
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: []
+
+strategies:
+  medical_imaging_ai:
+    name: "Medical Imaging AI"
+    description: "Deep learning for medical imaging (radiology, pathology) diagnostics"
+    primary_keywords:
+      - "medical imaging"
+      - "deep learning"
+    secondary_keywords:
+      - "radiology AI"
+      - "image segmentation"
+      - "cancer detection"
+      - "MRI analysis"
+      - "CT scan diagnosis"
+      - "medical image classification"
+    method_keywords:
+      - "convolutional neural network"
+      - "CNN"
+      - "computer-aided diagnosis"
+      - "radiomics"
+    exclusion_keywords:
+      - "no-image data"
+      - "theoretical only"
+    search_limit: 50
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+  clinical_nlp:
+    name: "Clinical Natural Language Processing"
+    description: "NLP applied to clinical text (electronic health records, medical literature)"
+    primary_keywords:
+      - "clinical NLP"
+      - "healthcare text mining"
+    secondary_keywords:
+      - "electronic health records"
+      - "EHR data"
+      - "clinical notes analysis"
+      - "medical text mining"
+      - "named entity recognition medical"
+      - "patient data NLP"
+    method_keywords:
+      - "language model"
+      - "transformer model"
+      - "BERT in healthcare"
+      - "de-identification"
+    exclusion_keywords:
+      - "non-clinical text"
+      - "language analysis not related to health"
+    search_limit: 45
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+  wearable_health_monitoring:
+    name: "Wearable & Sensor Health Monitoring"
+    description: "Using wearables and IoT sensor data with AI for health monitoring"
+    primary_keywords:
+      - "wearable health"
+      - "remote patient monitoring"
+    secondary_keywords:
+      - "digital health"
+      - "digital biomarkers"
+      - "mobile health"
+      - "sensor data analytics"
+      - "health monitoring"
+      - "physiological signal analysis"
+    technology_keywords:
+      - "wearable devices"
+      - "smartwatch data"
+      - "IoT healthcare"
+      - "continuous monitoring"
+    exclusion_keywords:
+      - "no AI analysis"
+      - "in-clinic monitoring only"
+    search_limit: 50
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+  ai_drug_discovery:
+    name: "AI in Drug Discovery"
+    description: "Applying AI for drug discovery, drug design, and pharmacological research"
+    primary_keywords:
+      - "drug discovery"
+      - "machine learning"
+    secondary_keywords:
+      - "drug design"
+      - "molecule generation"
+      - "virtual screening"
+      - "pharmacology AI"
+      - "drug repurposing"
+      - "generative chemistry"
+    method_keywords:
+      - "reinforcement learning"
+      - "graph neural network"
+      - "molecular docking"
+      - "QSAR modeling"
+    exclusion_keywords:
+      - "purely wet-lab studies"
+      - "no AI technique"
+    search_limit: 40
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+  precision_medicine_ai:
+    name: "AI in Precision Medicine"
+    description: "Machine learning for personalized medicine and predictive healthcare"
+    primary_keywords:
+      - "precision medicine"
+      - "machine learning"
+    secondary_keywords:
+      - "personalized treatment"
+      - "genomic analysis"
+      - "health risk prediction"
+      - "predictive modeling healthcare"
+      - "genomics AI"
+      - "electronic health records"
+    method_keywords:
+      - "predictive model"
+      - "genomic data"
+      - "risk stratification"
+      - "polygenic risk score"
+    exclusion_keywords:
+      - "population-level only"
+      - "no personalization"
+    search_limit: 35
+    date_range:
+      start: "2015-01-01"
+      end: null
+
+metadata:
+  domain: "AI in Healthcare"
+  description: "Artificial intelligence and machine learning in medicine, health, and biotech"
+  last_updated: "2025-08-06"

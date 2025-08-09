@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine",
+  "paper_title": "SRACARE  Secure Remote Attestation with Code Authentication and Resilience Engine",
+  "concepts": [
+    {
+      "text": "secure",
+      "frequency": 101,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.679184+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "boot",
+      "frequency": 68,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.690668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure boot",
+      "frequency": 53,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.786534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "code",
+      "frequency": 50,
+      "relevance_score": 0.8655795437145919,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.679776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sracare",
+      "frequency": 42,
+      "relevance_score": 0.7430868167202572,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.678973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software",
+      "frequency": 39,
+      "relevance_score": 0.6971520440973817,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.684946+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recovery",
+      "frequency": 39,
+      "relevance_score": 0.6971520440973817,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.686581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 28,
+      "relevance_score": 0.6787245444801715,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.689112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 37,
+      "relevance_score": 0.6665288623487979,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.682113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 35,
+      "relevance_score": 0.6359056806002144,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.684750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure communication protocol",
+      "frequency": 11,
+      "relevance_score": 0.6184274996172102,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.848036+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication protocol",
+      "frequency": 17,
+      "relevance_score": 0.6102970448629613,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.786311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communi- cation protocol",
+      "frequency": 3,
+      "relevance_score": 0.5959347726228755,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.849466+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 22,
+      "relevance_score": 0.5868549992344204,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.690243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 28,
+      "relevance_score": 0.5287245444801715,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.685924+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 28,
+      "relevance_score": 0.5287245444801715,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.686120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 28,
+      "relevance_score": 0.5287245444801715,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.712681+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attestation",
+      "frequency": 27,
+      "relevance_score": 0.5134129536058797,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.679580+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risc-v processor",
+      "frequency": 4,
+      "relevance_score": 0.5112463634971673,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.786743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "implementation",
+      "frequency": 26,
+      "relevance_score": 0.4981013627315878,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.711703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 16,
+      "relevance_score": 0.49498545398866944,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.689533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hmac k n1",
+      "frequency": 6,
+      "relevance_score": 0.491869545245751,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.857020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 25,
+      "relevance_score": 0.482789771857296,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.726767+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "frame",
+      "frequency": 25,
+      "relevance_score": 0.482789771857296,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.745513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure boot process",
+      "frequency": 2,
+      "relevance_score": 0.48062318174858365,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.848233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "conventional ra systems",
+      "frequency": 2,
+      "relevance_score": 0.48062318174858365,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.848627+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 15,
+      "relevance_score": 0.47967386311437754,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.695474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risc-v",
+      "frequency": 18,
+      "relevance_score": 0.4756086357372531,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.691284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded",
+      "frequency": 24,
+      "relevance_score": 0.4674781809830041,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.681706+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 secure boot",
+      "frequency": 4,
+      "relevance_score": 0.4612463634971673,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.855579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trusted",
+      "frequency": 23,
+      "relevance_score": 0.4521665901087123,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.695280+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory",
+      "frequency": 23,
+      "relevance_score": 0.4521665901087123,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.708958+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure communi- cation",
+      "frequency": 3,
+      "relevance_score": 0.4459347726228755,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.849270+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 secure communication",
+      "frequency": 3,
+      "relevance_score": 0.4459347726228755,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.852520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "into 1 kb",
+      "frequency": 3,
+      "relevance_score": 0.4459347726228755,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.853826+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 kb chunks",
+      "frequency": 3,
+      "relevance_score": 0.4459347726228755,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.854046+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure communication",
+      "frequency": 16,
+      "relevance_score": 0.44498545398866945,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.784713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sracare system",
+      "frequency": 6,
+      "relevance_score": 0.44186954524575106,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.792692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sracare framework",
+      "frequency": 6,
+      "relevance_score": 0.44186954524575106,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.798895+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 22,
+      "relevance_score": 0.4368549992344204,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.683364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uses",
+      "frequency": 22,
+      "relevance_score": 0.4368549992344204,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.712094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processor",
+      "frequency": 12,
+      "relevance_score": 0.43373909049150206,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.691529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lightweight secure communi-",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.849859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nonce n2 generation",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.850734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "image into 1",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.853618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "following steps 1",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.855272+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n2 hmac k",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.856075+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k n1 n2",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.857236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hmac k 1",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.857450+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 n2",
+      "frequency": 2,
+      "relevance_score": 0.4306231817485837,
+      "source_papers": [
+        "local/SRACARE__Secure_Remote_Attestation_with_Code_Authentication_and_Resilience_Engine"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:59.857692+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:14:59.871154+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:14:59.871337+00:00",
+    "repository_version": "1.0",
+    "domain": "telemedicine_remote_care_security"
+  }
+}

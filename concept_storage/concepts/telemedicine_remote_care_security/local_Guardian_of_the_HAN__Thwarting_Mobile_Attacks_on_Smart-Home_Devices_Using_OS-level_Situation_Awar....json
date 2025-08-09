@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar...",
+  "paper_title": "Guardian of the HAN  Thwarting Mobile Attacks on Smart-Home Devices Using OS-level Situation Awar...",
+  "concepts": [
+    {
+      "text": "devices",
+      "frequency": 167,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.624832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 138,
+      "relevance_score": 0.9183111954459202,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.636584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "app",
+      "frequency": 132,
+      "relevance_score": 0.8827324478178368,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.667861+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 118,
+      "relevance_score": 0.7997153700189753,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.653666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "router",
+      "frequency": 113,
+      "relevance_score": 0.770066413662239,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.640143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "android",
+      "frequency": 102,
+      "relevance_score": 0.7048387096774194,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.680543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phone",
+      "frequency": 95,
+      "relevance_score": 0.6633301707779886,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.665367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "apps",
+      "frequency": 94,
+      "relevance_score": 0.6574003795066413,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.635535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 91,
+      "relevance_score": 0.6396110056925995,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.669915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 82,
+      "relevance_score": 0.5862428842504744,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.636059+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "han",
+      "frequency": 77,
+      "relevance_score": 0.5565939278937382,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.622099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monitor",
+      "frequency": 76,
+      "relevance_score": 0.5506641366223909,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.667371+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n n -",
+      "frequency": 25,
+      "relevance_score": 0.5482447817836812,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.589786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 73,
+      "relevance_score": 0.5328747628083491,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.655866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices",
+      "frequency": 56,
+      "relevance_score": 0.532068311195446,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.237010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y n",
+      "frequency": 52,
+      "relevance_score": 0.5083491461100569,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.495395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "com",
+      "frequency": 67,
+      "relevance_score": 0.49729601518026567,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.632263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1k - 5k",
+      "frequency": 14,
+      "relevance_score": 0.4830170777988615,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.590795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- 5k y",
+      "frequency": 14,
+      "relevance_score": 0.4830170777988615,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.591282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n -",
+      "frequency": 30,
+      "relevance_score": 0.47789373814041747,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.492930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5k y n",
+      "frequency": 12,
+      "relevance_score": 0.471157495256167,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.591770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "procfs ﬁle system",
+      "frequency": 3,
+      "relevance_score": 0.46778937381404173,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.552868+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10k - 50k",
+      "frequency": 11,
+      "relevance_score": 0.4652277039848197,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.594206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- 50k y",
+      "frequency": 11,
+      "relevance_score": 0.4652277039848197,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.594696+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50k y n",
+      "frequency": 11,
+      "relevance_score": 0.4652277039848197,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.595190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 36,
+      "relevance_score": 0.463472485768501,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.799712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart-home systems",
+      "frequency": 2,
+      "relevance_score": 0.46185958254269455,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.235998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trafﬁc ﬁngerprinting techniques",
+      "frequency": 2,
+      "relevance_score": 0.46185958254269444,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.542318+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hanguard",
+      "frequency": 60,
+      "relevance_score": 0.45578747628083494,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.659432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y n n",
+      "frequency": 25,
+      "relevance_score": 0.4482447817836812,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.589176+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100k - 500k",
+      "frequency": 8,
+      "relevance_score": 0.44743833017077794,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.539814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mobile",
+      "frequency": 58,
+      "relevance_score": 0.44392789373814046,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.623205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lifestyle 10k -",
+      "frequency": 7,
+      "relevance_score": 0.44150853889943076,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.593719+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5k - 10k",
+      "frequency": 7,
+      "relevance_score": 0.44150853889943076,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.602838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- 10k y",
+      "frequency": 7,
+      "relevance_score": 0.44150853889943076,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.603352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- 500k y",
+      "frequency": 6,
+      "relevance_score": 0.43557874762808346,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.588091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 56,
+      "relevance_score": 0.432068311195446,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.702863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lifestyle 1k -",
+      "frequency": 5,
+      "relevance_score": 0.4296489563567363,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.590303+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tools 1k -",
+      "frequency": 5,
+      "relevance_score": 0.4296489563567363,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.599362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10k y n",
+      "frequency": 5,
+      "relevance_score": 0.4296489563567363,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.603841+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 55,
+      "relevance_score": 0.4261385199240987,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:56.638087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "500k y n",
+      "frequency": 4,
+      "relevance_score": 0.423719165085389,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.588640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lifestyle 50k -",
+      "frequency": 4,
+      "relevance_score": 0.423719165085389,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.595679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50k - 100k",
+      "frequency": 4,
+      "relevance_score": 0.423719165085389,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.596172+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- 100k y",
+      "frequency": 4,
+      "relevance_score": 0.423719165085389,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.596752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tools 10k -",
+      "frequency": 4,
+      "relevance_score": 0.423719165085389,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.597859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "role-based access control",
+      "frequency": 3,
+      "relevance_score": 0.4177893738140417,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.522888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100 - 500",
+      "frequency": 3,
+      "relevance_score": 0.4177893738140417,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.541339+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ndss 13 2013",
+      "frequency": 3,
+      "relevance_score": 0.4177893738140417,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.584348+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- - -",
+      "frequency": 3,
+      "relevance_score": 0.4177893738140417,
+      "source_papers": [
+        "local/Guardian_of_the_HAN__Thwarting_Mobile_Attacks_on_Smart-Home_Devices_Using_OS-level_Situation_Awar..."
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.586486+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:14:57.614399+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:14:57.614601+00:00",
+    "repository_version": "1.0",
+    "domain": "telemedicine_remote_care_security"
+  }
+}

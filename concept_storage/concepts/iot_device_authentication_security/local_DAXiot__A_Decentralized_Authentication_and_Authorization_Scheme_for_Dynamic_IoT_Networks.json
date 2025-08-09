@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks",
+  "paper_title": "DAXiot  A Decentralized Authentication and Authorization Scheme for Dynamic IoT Networks",
+  "concepts": [
+    {
+      "text": "key",
+      "frequency": 55,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.978805+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authorization",
+      "frequency": 40,
+      "relevance_score": 0.9171603677221655,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.953012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 30,
+      "relevance_score": 0.7128702757916241,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.972026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "daxiot",
+      "frequency": 29,
+      "relevance_score": 0.6924412665985699,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.952639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dids",
+      "frequency": 29,
+      "relevance_score": 0.6924412665985699,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.964040+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 27,
+      "relevance_score": 0.6515832482124617,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.953390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 25,
+      "relevance_score": 0.6107252298263534,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.952886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 24,
+      "relevance_score": 0.5902962206332992,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.971620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mqtt 5 0",
+      "frequency": 9,
+      "relevance_score": 0.5838610827374872,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038396+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static long-term",
+      "frequency": 13,
+      "relevance_score": 0.5655771195097038,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.024707+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 21,
+      "relevance_score": 0.5290091930541369,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.956429+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy",
+      "frequency": 21,
+      "relevance_score": 0.5290091930541369,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.956807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-agreement key",
+      "frequency": 11,
+      "relevance_score": 0.5247191011235955,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.028752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secret key-agreement key",
+      "frequency": 6,
+      "relevance_score": 0.5225740551583248,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.042058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k1pu p b",
+      "frequency": 6,
+      "relevance_score": 0.5225740551583248,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.045112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 13,
+      "relevance_score": 0.5155771195097039,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.955373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "changing system participants",
+      "frequency": 3,
+      "relevance_score": 0.5112870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-agreement",
+      "frequency": 15,
+      "relevance_score": 0.5064351378958121,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.991639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 0",
+      "frequency": 10,
+      "relevance_score": 0.5042900919305414,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.014775+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "removing system participants",
+      "frequency": 2,
+      "relevance_score": 0.4908580183861082,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038939+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processes authorization credential",
+      "frequency": 2,
+      "relevance_score": 0.4908580183861082,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.045483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decentralized",
+      "frequency": 19,
+      "relevance_score": 0.4881511746680286,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.952763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mqtt 5",
+      "frequency": 9,
+      "relevance_score": 0.4838610827374872,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.014633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k1pu p",
+      "frequency": 9,
+      "relevance_score": 0.4838610827374872,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.032375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "static long-term dids",
+      "frequency": 4,
+      "relevance_score": 0.4817160367722165,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.043992+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system participants",
+      "frequency": 6,
+      "relevance_score": 0.47257405515832485,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.013353+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "long-term",
+      "frequency": 13,
+      "relevance_score": 0.4655771195097038,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.991390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 0 scenario",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key z6 i8",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.039378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "web broker1 com",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.039509+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "web broker2 com",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.039640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s static long-term",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.041171+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key-agreement key skagge",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.042194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key-agreement key",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.042323+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "shared key k1pu",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.044865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key k1pu p",
+      "frequency": 3,
+      "relevance_score": 0.4612870275791624,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.044988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 17,
+      "relevance_score": 0.44729315628192035,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:40.978425+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p b",
+      "frequency": 12,
+      "relevance_score": 0.44514811031664964,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.030890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k1pu",
+      "frequency": 12,
+      "relevance_score": 0.4451481103166496,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.002635+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2022",
+      "frequency": 12,
+      "relevance_score": 0.4451481103166496,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.008335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service-centric networking snet",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.037574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industry 4 0",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "capabilities-based access control",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.038807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "z6 i8 type",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040038+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "i8 type authorizationcredential",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040170+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authorizationcredential jti ac_id_123456789",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sub t1 pub",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040555+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t1 pub t2",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pub t3 t4",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.040801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "two-way authenticated encryption",
+      "frequency": 2,
+      "relevance_score": 0.4408580183861083,
+      "source_papers": [
+        "local/DAXiot__A_Decentralized_Authentication_and_Authorization_Scheme_for_Dynamic_IoT_Networks"
+      ],
+      "source_domain": "iot_device_authentication_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:16:41.041048+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:16:41.046942+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:16:41.047154+00:00",
+    "repository_version": "1.0",
+    "domain": "iot_device_authentication_security"
+  }
+}

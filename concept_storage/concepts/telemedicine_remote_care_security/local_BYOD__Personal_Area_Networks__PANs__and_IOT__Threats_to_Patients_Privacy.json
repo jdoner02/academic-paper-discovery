@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy",
+  "paper_title": "BYOD  Personal Area Networks  PANs  and IOT  Threats to Patients Privacy",
+  "concepts": [
+    {
+      "text": "privacy",
+      "frequency": 29,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.760026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 38,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.760370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 26,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.764012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 27,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.765097+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patients",
+      "frequency": 20,
+      "relevance_score": 0.7958942240779402,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.759940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 18,
+      "relevance_score": 0.7263048016701461,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.760717+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 12,
+      "relevance_score": 0.6675365344467641,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.770865+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 16,
+      "relevance_score": 0.6567153792623521,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.767087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sp800",
+      "frequency": 13,
+      "relevance_score": 0.652331245650661,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.776372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "act",
+      "frequency": 14,
+      "relevance_score": 0.5871259568545582,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.767973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information security",
+      "frequency": 11,
+      "relevance_score": 0.5827418232428672,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.783607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "area",
+      "frequency": 13,
+      "relevance_score": 0.552331245650661,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.759495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 13,
+      "relevance_score": 0.552331245650661,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.761488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "preprint arxiv 1902",
+      "frequency": 4,
+      "relevance_score": 0.539178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.792747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information systems",
+      "frequency": 5,
+      "relevance_score": 0.523973556019485,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.786898+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information systems fips",
+      "frequency": 2,
+      "relevance_score": 0.519589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.792162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federal information systems",
+      "frequency": 2,
+      "relevance_score": 0.519589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.792245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 12,
+      "relevance_score": 0.5175365344467641,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.763914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart healthcare",
+      "frequency": 9,
+      "relevance_score": 0.5131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.782602+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 11,
+      "relevance_score": 0.4827418232428671,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.759585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "internet",
+      "frequency": 11,
+      "relevance_score": 0.4827418232428671,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.762263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 11,
+      "relevance_score": 0.4827418232428671,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.763241+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security controls",
+      "frequency": 8,
+      "relevance_score": 0.4783576896311761,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.782035+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare professionals",
+      "frequency": 8,
+      "relevance_score": 0.4783576896311761,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.783269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 local area",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.791240+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 wide area",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.791492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 personal area",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.791740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee 802 15",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.791996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medicine 39 743",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.794415+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "39 743 -750",
+      "frequency": 2,
+      "relevance_score": 0.469589422407794,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.794500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controls",
+      "frequency": 10,
+      "relevance_score": 0.4479471120389701,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.760461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical",
+      "frequency": 10,
+      "relevance_score": 0.4479471120389701,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.764921+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.784739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 1",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.786546+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv 1902",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.788041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "personal area networks",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.790485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.792664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "electronic health records",
+      "frequency": 4,
+      "relevance_score": 0.439178844815588,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.794251+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems fips",
+      "frequency": 2,
+      "relevance_score": 0.41958942240779407,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.786986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fisma",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.760284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technology",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.762008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "professionals",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.763702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "environment",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.764743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.766156+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.769352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "federal",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.769736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pan",
+      "frequency": 9,
+      "relevance_score": 0.4131524008350731,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.771731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "personal area",
+      "frequency": 6,
+      "relevance_score": 0.408768267223382,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.781680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "area networks",
+      "frequency": 6,
+      "relevance_score": 0.408768267223382,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.781763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patients privacy",
+      "frequency": 6,
+      "relevance_score": 0.408768267223382,
+      "source_papers": [
+        "local/BYOD__Personal_Area_Networks__PANs__and_IOT__Threats_to_Patients_Privacy"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:57.781946+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:14:57.794658+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:14:57.794842+00:00",
+    "repository_version": "1.0",
+    "domain": "telemedicine_remote_care_security"
+  }
+}

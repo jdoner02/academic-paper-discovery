@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System",
+  "paper_title": "A Lightweight Blockchain and Fog-enabled Secure Remote Patient Monitoring System",
+  "concepts": [
+    {
+      "text": "blockchain",
+      "frequency": 204,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.468033+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 106,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.469983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 123,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.476692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fog",
+      "frequency": 100,
+      "relevance_score": 0.8826563356030367,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.493113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 94,
+      "relevance_score": 0.8356969554668545,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.544135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 78,
+      "relevance_score": 0.7104719417703687,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.477994+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient",
+      "frequency": 76,
+      "relevance_score": 0.6948188150583079,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.469333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 71,
+      "relevance_score": 0.6556859982781561,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.474208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "devices",
+      "frequency": 69,
+      "relevance_score": 0.6400328715660953,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.483447+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "patient monitoring system",
+      "frequency": 19,
+      "relevance_score": 0.598704703764577,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.908425+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical",
+      "frequency": 60,
+      "relevance_score": 0.569593801361822,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.479316+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "block",
+      "frequency": 60,
+      "relevance_score": 0.569593801361822,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.566892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reducing sense-process-actuation delay",
+      "frequency": 2,
+      "relevance_score": 0.5656531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.932872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer systems 78",
+      "frequency": 2,
+      "relevance_score": 0.5656531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.936961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical systems 42",
+      "frequency": 2,
+      "relevance_score": 0.5656531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.938271+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monitoring system",
+      "frequency": 23,
+      "relevance_score": 0.5300109571886985,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.777093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gateway",
+      "frequency": 53,
+      "relevance_score": 0.5148078578696095,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.581149+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 52,
+      "relevance_score": 0.5069812945135791,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.539500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "remote patient monitoring",
+      "frequency": 25,
+      "relevance_score": 0.49566408390075917,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.908077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer",
+      "frequency": 50,
+      "relevance_score": 0.49132816780151833,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.553488+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generation computer systems",
+      "frequency": 4,
+      "relevance_score": 0.4813062534241215,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.936634+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health monitoring system",
+      "frequency": 3,
+      "relevance_score": 0.4734796900680911,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.916625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "json api system",
+      "frequency": 3,
+      "relevance_score": 0.4734796900680911,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.930512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reducing sense-process-actuation",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.884778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sense-process-actuation delay",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.885123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 78",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.896906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 42",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.903455+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare iot systems",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.918576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot healthcare system",
+      "frequency": 2,
+      "relevance_score": 0.4656531267120607,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.918904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing",
+      "frequency": 27,
+      "relevance_score": 0.46131721061281994,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.537833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monitoring",
+      "frequency": 46,
+      "relevance_score": 0.4600219143773969,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.469660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot devices",
+      "frequency": 33,
+      "relevance_score": 0.4582765907490021,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.780177+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 45,
+      "relevance_score": 0.45219535102136654,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.477669+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 45,
+      "relevance_score": 0.45219535102136654,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.515339+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rpm system",
+      "frequency": 11,
+      "relevance_score": 0.43609219691633405,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.794765+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain-enabled fog node",
+      "frequency": 4,
+      "relevance_score": 0.43130625342412143,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.923501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blockchain-enabled fog nodes",
+      "frequency": 4,
+      "relevance_score": 0.43130625342412143,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.923830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fog computing",
+      "frequency": 29,
+      "relevance_score": 0.42697033732488066,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.783008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 22,
+      "relevance_score": 0.42218439383266804,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.495055+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "remote",
+      "frequency": 41,
+      "relevance_score": 0.420889097597245,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.469006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource-constrained iot devices",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.909741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare sys- tem",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.910068+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "technologiespros cons -",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.914860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cons - iot",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.915209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "- iot bc",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.915555+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "energy con- sumption",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.917275+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x x-security is-",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.917599+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decentralized peer-to-peer remote",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.919243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "peer-to-peer remote health",
+      "frequency": 2,
+      "relevance_score": 0.4156531267120608,
+      "source_papers": [
+        "local/A_Lightweight_Blockchain_and_Fog-enabled_Secure_Remote_Patient_Monitoring_System"
+      ],
+      "source_domain": "telemedicine_remote_care_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:14:44.919569+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:14:44.939904+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:14:44.940125+00:00",
+    "repository_version": "1.0",
+    "domain": "telemedicine_remote_care_security"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Adversarial_Task_Assignment",
+  "paper_title": "Adversarial Task Assignment",
+  "concepts": [
+    {
+      "text": "task",
+      "frequency": 85,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.137886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "assignment",
+      "frequency": 70,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.138124+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tasks",
+      "frequency": 87,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.141519+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "worker",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.155747+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "workers",
+      "frequency": 67,
+      "relevance_score": 0.9677632431032249,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.141741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t ws",
+      "frequency": 48,
+      "relevance_score": 0.8216811293873851,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.297910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ws 1 t",
+      "frequency": 32,
+      "relevance_score": 0.8144540862582567,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.345872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 t ws",
+      "frequency": 32,
+      "relevance_score": 0.8144540862582567,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.346108+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t ws 2",
+      "frequency": 32,
+      "relevance_score": 0.8144540862582567,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.346579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ws 2 t",
+      "frequency": 32,
+      "relevance_score": 0.8144540862582567,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.346815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utility",
+      "frequency": 53,
+      "relevance_score": 0.7864395803652376,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.160536+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 t",
+      "frequency": 34,
+      "relevance_score": 0.7403574666493977,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.288155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ws 2",
+      "frequency": 33,
+      "relevance_score": 0.7274057764538272,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.298244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ws 1",
+      "frequency": 32,
+      "relevance_score": 0.7144540862582568,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.297680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 t",
+      "frequency": 32,
+      "relevance_score": 0.7144540862582568,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.298477+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "assigned",
+      "frequency": 46,
+      "relevance_score": 0.695777748996244,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.147232+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defender",
+      "frequency": 43,
+      "relevance_score": 0.6569226784095324,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.156494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t ws 1",
+      "frequency": 16,
+      "relevance_score": 0.6072270431291283,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.346343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 t ws",
+      "frequency": 16,
+      "relevance_score": 0.6072270431291283,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.347051+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utilityalgorithm 1 monte-carlo",
+      "frequency": 2,
+      "relevance_score": 0.5759033803911411,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.356659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u 0",
+      "frequency": 19,
+      "relevance_score": 0.5460821137158399,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.326934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u 0 1",
+      "frequency": 10,
+      "relevance_score": 0.5295169019557052,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.359105+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "problem",
+      "frequency": 33,
+      "relevance_score": 0.5274057764538272,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.141073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set",
+      "frequency": 33,
+      "relevance_score": 0.5274057764538272,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.146756+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u 0 100",
+      "frequency": 8,
+      "relevance_score": 0.5036135215645642,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.362229+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural information processing",
+      "frequency": 3,
+      "relevance_score": 0.4888550705867115,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.365584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information processing systems",
+      "frequency": 3,
+      "relevance_score": 0.4888550705867115,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.365812+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing systems nips",
+      "frequency": 3,
+      "relevance_score": 0.4888550705867115,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.366140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 4 5",
+      "frequency": 6,
+      "relevance_score": 0.47771014117342314,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.354649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "targets051015202530354045expected utilityalgorithm",
+      "frequency": 2,
+      "relevance_score": 0.4759033803911411,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.322521+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "utilityalgorithm 1",
+      "frequency": 2,
+      "relevance_score": 0.4759033803911411,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.322740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 29,
+      "relevance_score": 0.47559901567154517,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.146284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "defender s",
+      "frequency": 21,
+      "relevance_score": 0.471985494106981,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.262863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1",
+      "frequency": 13,
+      "relevance_score": 0.4683719725424168,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.313794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 4",
+      "frequency": 5,
+      "relevance_score": 0.4647584509778526,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.354423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "optimal",
+      "frequency": 28,
+      "relevance_score": 0.46264732547597465,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.148805+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-target worker cannot",
+      "frequency": 4,
+      "relevance_score": 0.4518067607822821,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.348183+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 5 6",
+      "frequency": 4,
+      "relevance_score": 0.4518067607822821,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.354979+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "monte-carlo top monte-carlo",
+      "frequency": 4,
+      "relevance_score": 0.4518067607822821,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.357214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "udef s α",
+      "frequency": 10,
+      "relevance_score": 0.42951690195570524,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.344201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w t 0",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.343239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 t moving",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.347516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v1 v2 vm",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.349993+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w1 w2 wn",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.350215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "task tm 1",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.350437+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "worker wn 1",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.350662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "αw 0 1",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.351338+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mixed-integer linear program",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.352689+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "swt 0 swt",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.353357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 swt 1",
+      "frequency": 2,
+      "relevance_score": 0.42590338039114106,
+      "source_papers": [
+        "local/Adversarial_Task_Assignment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:45.353578+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:45.366466+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:45.366626+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

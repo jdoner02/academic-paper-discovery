@@ -1,0 +1,453 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:12:22.251083+00:00",
+    "strategy_name": "Hospital Cybersecurity and Operational Resilience",
+    "total_papers": 24,
+    "download_directory": "outputs/healthcare_medical_cybersecurity/hospital_cybersecurity_resilience/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Blockchain in Healthcare: Implementing Hyperledger Fabric for Electronic   Health Records at Frere Provincial Hospital",
+      "authors": [
+        "Abayomi Agbeyangi",
+        "Olukayode Oki",
+        "Aphelele Mgidi"
+      ],
+      "abstract": "As healthcare systems worldwide continue to grapple with the challenges of interoperability, data security, and accessibility, integrating emerging technologies becomes imperative. This paper investigates the implementation of blockchain technology, specifically Hyperledger Fabric, for Electronic Health Records (EHR) management at Frere Hospital in the Eastern Cape province of South Africa. The paper examines the benefits and challenges of integrating blockchain into healthcare information systems. Hyperledger Fabric's modular architecture is harnessed to create a secure, transparent, and decentralized platform for storing, managing, and sharing EHRs among stakeholders. The study used a mixed-methods approach, integrating case studies and data collection methods through observation and informal questions, with the specific goal of understanding current record management methods and challenges. This method offers practical insights and validates the approach. The result demonstrates the role of blockchain in transforming healthcare, framed within a rigorous exploration and analysis. The findings of this study have broader implications for healthcare institutions seeking advanced solutions to address the persistent challenges in electronic health record management. Ultimately, the research underscores the transformative potential of blockchain technology in healthcare settings, fostering trust, security, and efficiency in the management of sensitive patient data.",
+      "publication_date": "2024-07-19T14:27:55+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2407.15876v1"
+    },
+    {
+      "title": "Securing The Future Of Healthcare: Building A Resilient Defense System   For Patient Data Protection",
+      "authors": [
+        "Oluomachi Ejiofor",
+        "Ahmed Akinsola"
+      ],
+      "abstract": "The increasing importance of data in the healthcare sector has led to a rise in cybercrime targeting patient information. Data breaches pose significant financial and reputational risks to many healthcare organizations including clinics and hospitals. This study aims to propose the ideal approach to developing a defense system that ensures that patient data is protected from the insidious acts of healthcare data threat actors. Using a gradientboosting classifier machine learning model, the study predicts the severity of healthcare data breaches. Secondary data was collected from the U.S. Department of Health and Human Services Portal with key indicators. Also, the study gathers key cyber-security data from Kaggle, which was utilized for the study. The findings revealed that hacking and IT incidents are the most common type of breaches in the healthcare industry, with network servers being targeted in most cases. The model evaluation showed that the gradient boosting algorithm performs well. Therefore, the study recommends that organizations implement comprehensive security protocols, particularly focusing on robust network security to protect servers",
+      "publication_date": "2024-07-23T04:25:35+00:00",
+      "doi": "10.5121/csit.2024.141303",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "2407.16170v1"
+    },
+    {
+      "title": "Healthcare IT: Is your Information at Risk?",
+      "authors": [
+        "Kimmarie Donahue",
+        "Shawon Rahman"
+      ],
+      "abstract": "Healthcare Information Technology (IT) has made great advances over the past few years and while these advances have enable healthcare professionals to provide higher quality healthcare to a larger number of individuals it also provides the criminal element more opportunities to access sensitive information, such as patient protected health information (PHI) and Personal identification Information (PII). Having an Information Assurance (IA) programallows for the protection of information and information systems and ensures the organization is in compliance with all requires regulations, laws and directive is essential. While most organizations have such a policy in place, often it is inadequate to ensure the proper protection to prevent security breaches. The increase of data breaches in the last few years demonstrates the importance of an effective IA program. To ensure an effective IA policy, the policy must manage the operational risk, including identifying risks, assessment and mitigation of identified risks and ongoing monitoring to ensure compliance",
+      "publication_date": "2015-11-30T22:06:28+00:00",
+      "doi": "10.5121/ijnsa.2012.4508",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1512.01731v1"
+    },
+    {
+      "title": "A Systematization of Cybersecurity Regulations, Standards and Guidelines   for the Healthcare Sector",
+      "authors": [
+        "Maria Patrizia Carello",
+        "Alberto Marchetti Spaccamela",
+        "Leonardo Querzoni",
+        "Marco Angelini"
+      ],
+      "abstract": "The growing adoption of IT solutions in the healthcare sector is leading to a steady increase in the number of cybersecurity incidents. As a result, organizations worldwide have introduced regulations, standards, and best practices to address cybersecurity and data protection issues in this sector. However, the application of this large corpus of documents presents operational difficulties, and operators continue to lag behind in resilience to cyber attacks. This paper contributes a systematization of the significant cybersecurity documents relevant to the healthcare sector. We collected the 49 most significant documents and used the NIST cybersecurity framework to categorize key information and support the implementation of cybersecurity measures.",
+      "publication_date": "2023-04-28T16:19:21+00:00",
+      "doi": "10.1109/ISI58743.2023.10297246",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2304.14955v1"
+    },
+    {
+      "title": "CryptoDNA: A Machine Learning Paradigm for DDoS Detection in Healthcare   IoT, Inspired by crypto jacking prevention Models",
+      "authors": [
+        "Zag ElSayed",
+        "Ahmed Abdelgawad",
+        "Nelly Elsayed"
+      ],
+      "abstract": "The rapid integration of the Internet of Things (IoT) and Internet of Medical (IoM) devices in the healthcare industry has markedly improved patient care and hospital operations but has concurrently brought substantial risks. Distributed Denial-of-Service (DDoS) attacks present significant dangers, jeopardizing operational stability and patient safety. This study introduces CryptoDNA, an innovative machine learning detection framework influenced by cryptojacking detection methods, designed to identify and alleviate DDoS attacks in healthcare IoT settings. The proposed approach relies on behavioral analytics, including atypical resource usage and network activity patterns. Key features derived from cryptojacking-inspired methodologies include entropy-based analysis of traffic, time-series monitoring of device performance, and dynamic anomaly detection. A lightweight architecture ensures inter-compatibility with resource-constrained IoT devices while maintaining high detection accuracy. The proposed architecture and model were tested in real-world and synthetic datasets to demonstrate the model's superior performance, achieving over 96% accuracy with minimal computational overhead. Comparative analysis reveals its resilience against emerging attack vectors and scalability across diverse device ecosystems. By bridging principles from cryptojacking and DDoS detection, CryptoDNA offers a robust, innovative solution to fortify the healthcare IoT landscape against evolving cyber threats and highlights the potential of interdisciplinary approaches in adaptive cybersecurity defense mechanisms for critical healthcare infrastructures.",
+      "publication_date": "2025-01-30T18:22:16+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.18549v1"
+    },
+    {
+      "title": "Data Breaches in Healthcare Security Systems",
+      "authors": [
+        "Jahnavi Reddy",
+        "Nelly Elsayed",
+        "Zag ElSayed",
+        "Murat Ozer"
+      ],
+      "abstract": "Providing security to Health Information is considered to be the topmost priority when compared to any other field. After the digitalization of the patient's records in the medical field, the healthcare/medical field has become a victim of several internal and external cyberattacks. Data breaches in the healthcare industry have been increasing rapidly. Despite having security standards such as HIPAA (Health Insurance Portability and Accountability Act), data breaches still happen on a daily basis. All various types of data breaches have the same harmful impact on healthcare data, especially on patients' privacy. The main objective of this paper is to analyze why healthcare data breaches occur and what is the impact of these breaches. The paper also presents the possible improvements that can be made in the current standards, such as HIPAA, to increase security in the healthcare field.",
+      "publication_date": "2021-10-31T20:13:49+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2111.00582v3"
+    },
+    {
+      "title": "White paper on cybersecurity in the healthcare sector. The HEIR solution",
+      "authors": [
+        "Konstantinos Lampropoulos",
+        "Apostolis Zarras",
+        "Eftychia Lakka",
+        "Polyanthi Barmpaki",
+        "Kostas Drakonakis",
+        "Manos Athanatos",
+        "Herve Debar",
+        "Andreas Alexopoulos",
+        "Aristeidis Sotiropoulos",
+        "George Tsakirakis",
+        "Nikos Dimakopoulos",
+        "Dimitris Tsolovos",
+        "Matthias Pocs",
+        "Michalis Smyrlis",
+        "Ioannis Basdekis",
+        "Georgios Spanoudakis",
+        "Ovidiu Mihaila",
+        "Bogdan Prelipcean",
+        "Eliot Salant",
+        "Sotiris Athanassopoulos",
+        "Petros Papachristou",
+        "Ioannis Ladakis",
+        "John Chang",
+        "Evangelos Floros",
+        "Konstantinos Smyrlis",
+        "Rouven Besters",
+        "Pietro Randine",
+        "Karianna Fjeld Lovaas",
+        "John Cooper",
+        "Iulia Ilie",
+        "Gabriel Danciu",
+        "Marwan Darwish Khabbaz"
+      ],
+      "abstract": "The healthcare sector is increasingly vulnerable to cyberattacks due to its growing digitalization. Patient data, including medical records and financial information, are at risk, potentially leading to identity theft and patient safety concerns. The European Union and other organizations identify key areas for healthcare system improvement, yet the industry still grapples with inadequate security practices. In response, the HEIR project offers a comprehensive cybersecurity approach, promoting security features from various regulatory frameworks and introducing tools such as the Secure Healthcare Framework and Risk Assessment for Medical Applications (RAMA). These measures aim to enhance digital health security and protect sensitive patient data while facilitating secure data access and privacy-aware techniques. In a rapidly evolving threat landscape, HEIR presents a promising framework for healthcare cybersecurity.",
+      "publication_date": "2023-10-16T07:27:57+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2310.10139v1"
+    },
+    {
+      "title": "Does hospital cooperation increase the quality of healthcare?",
+      "authors": [
+        "Paolo Berta",
+        "Veronica Vinciotti",
+        "Francesco Moscone"
+      ],
+      "abstract": "Motivated by reasons such as altruism, managers from different hospitals may engage in cooperative behaviours, which shape the networked healthcare economy. In this paper we study the determinants of hospital cooperation and its association with the quality delivered by hospitals, using Italian administrative data. We explore the impact on patient transfers between hospitals (cooperation/network) of a set of demand-supply factors, as well as distance-based centrality measures. We then use this framework to assess how such cooperation is related to the overall quality for the hospital of origin and of destination of the patient transfer. The over-dispersed Poisson mixed model that we propose, inspired by the literature on social relations models, is suitably defined to handle network data, which are rarely used in health economics. The results show that distance plays an important role in hospital cooperation, though there are other factors that matter such as geographical centrality. Another empirical finding is the existence of a positive relationship between hospital cooperation and the overall quality of the connected hospitals. The absence of a source of information on the quality of hospitals accessible to all providers, such as in the form of star ratings, may prevent some hospitals to engage and cooperate with other hospitals of potentially higher quality. This may result in a lower degree of cooperation among hospitals and a reduction in quality overall.",
+      "publication_date": "2019-11-11T10:42:06+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "stat.AP"
+      ],
+      "arxiv_id": "1911.04168v1"
+    },
+    {
+      "title": "MedShare: Medical Resource Sharing among Autonomous Healthcare Providers",
+      "authors": [
+        "Yilong Yang",
+        "Xiaoshan Li",
+        "Nafees Qamar",
+        "Wei Ke",
+        "Zhiming Liu"
+      ],
+      "abstract": "Legacy Electronic Health Records (EHRs) systems were not developed with the level of connectivity expected from them nowadays. Therefore, interoperability weakness inherent in the legacy systems can result in poor patient care and waste of financial resources. Large hospitals are less likely to share their data with external hospitals due to economic and political reasons. Motivated by these facts, we aim to provide a set of software implementation guidelines, i.e., MedShare to deal with interoperability issues among disconnected healthcare systems. The proposed integrated architecture includes: 1) a data extractor to fetch legacy medical data from a hemodialysis center, 2) converting it to a common data model, 3) indexing patient information using the HashMap technique, and 4) a set of services and tools that can be installed as a coherent environment on top of stand-alone EHRs systems. Our work enabled three cooperating but autonomous hospitals to mutually exchange medical data and helped them develop a common reference architecture. It lets stakeholders retain control over their patient data, winning the trust and confidence much needed towards a successful deployment of MedShare. Security concerns were effectively addressed that also included patient consent in the data exchange process. Thereby, the implemented toolset offered a collaborative environment to share EHRs by the healthcare providers.",
+      "publication_date": "2018-03-14T15:27:36+00:00",
+      "doi": "10.1109/ACCESS.2018.2865535",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "1803.05353v1"
+    },
+    {
+      "title": "Machine Learning for Healthcare-IoT Security: A Review and Risk   Mitigation",
+      "authors": [
+        "Mirza Akhi Khatun",
+        "Sanober Farheen Memon",
+        "Ciarán Eising",
+        "Lubna Luxmi Dhirani"
+      ],
+      "abstract": "The Healthcare Internet-of-Things (H-IoT), commonly known as Digital Healthcare, is a data-driven infrastructure that highly relies on smart sensing devices (i.e., blood pressure monitors, temperature sensors, etc.) for faster response time, treatments, and diagnosis. However, with the evolving cyber threat landscape, IoT devices have become more vulnerable to the broader risk surface (e.g., risks associated with generative AI, 5G-IoT, etc.), which, if exploited, may lead to data breaches, unauthorized access, and lack of command and control and potential harm. This paper reviews the fundamentals of healthcare IoT, its privacy, and data security challenges associated with machine learning and H-IoT devices. The paper further emphasizes the importance of monitoring healthcare IoT layers such as perception, network, cloud, and application. Detecting and responding to anomalies involves various cyber-attacks and protocols such as Wi-Fi 6, Narrowband Internet of Things (NB-IoT), Bluetooth, ZigBee, LoRa, and 5G New Radio (5G NR). A robust authentication mechanism based on machine learning and deep learning techniques is required to protect and mitigate H-IoT devices from increasing cybersecurity vulnerabilities. Hence, in this review paper, security and privacy challenges and risk mitigation strategies for building resilience in H-IoT are explored and reported.",
+      "publication_date": "2024-01-17T10:55:26+00:00",
+      "doi": "10.1109/ACCESS.2023.3346320",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2401.09124v1"
+    },
+    {
+      "title": "An Intelligent Quantum Cyber-Security Framework for Healthcare Data   Management",
+      "authors": [
+        "Kishu Gupta",
+        "Deepika Saxena",
+        "Pooja Rani",
+        "Jitendra Kumar",
+        "Aaisha Makkar",
+        "Ashutosh Kumar Singh",
+        "Chung-Nan Lee"
+      ],
+      "abstract": "Digital healthcare is essential to facilitate consumers to access and disseminate their medical data easily for enhanced medical care services. However, the significant concern with digitalization across healthcare systems necessitates for a prompt, productive, and secure storage facility along with a vigorous communication strategy, to stimulate sensitive digital healthcare data sharing and proactive estimation of malicious entities. In this context, this paper introduces a comprehensive quantum-based framework to overwhelm the potential security and privacy issues for secure healthcare data management. It equips quantum encryption for the secured storage and dispersal of healthcare data over the shared cloud platform by employing quantum encryption. Also, the framework furnishes a quantum feed-forward neural network unit to examine the intention behind the data request before granting access, for proactive estimation of potential data breach. In this way, the proposed framework delivers overall healthcare data management by coupling the advanced and more competent quantum approach with machine learning to safeguard the data storage, access, and prediction of malicious entities in an automated manner. Thus, the proposed IQ-HDM leads to more cooperative and effective healthcare delivery and empowers individuals with adequate custody of their health data. The experimental evaluation and comparison of the proposed IQ-HDM framework with state-of-the-art methods outline a considerable improvement up to 67.6%, in tackling cyber threats related to healthcare data security.",
+      "publication_date": "2024-10-04T08:04:48+00:00",
+      "doi": "10.1109/TASE.2024.3456209",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.03217v1"
+    },
+    {
+      "title": "Scaling Blockchains to Support Electronic Health Records for Hospital   Systems",
+      "authors": [
+        "Alyssa Donawa",
+        "Inema Orukari",
+        "Corey E. Baker"
+      ],
+      "abstract": "Electronic Health Records (EHRs) have improved many aspects of healthcare and allowed for easier patient management for medical providers. Blockchains have been proposed as a promising solution for supporting Electronic Health Records (EHRs), but have also been linked to scalability concerns about supporting real-world healthcare systems. This paper quantifies the scalability issues and bottlenecks related to current blockchains and puts into perspective the limitations blockchains have with supporting healthcare systems. Particularly we show that well known blockchains such as Bitcoin, Ethereum, and IOTA cannot support transactions of a large scale hospital system such as the University of Kentucky HealthCare system and leave over 7.5M unsealed transactions per day. We then discuss how bottlenecks of blockchains can be relieved with sidechains, enabling well-known blockchains to support even larger hospital systems of over 30M transactions per day. We then introduce the Patient-Healthchain architecture to provide future direction on how scaling blockchains for EHR systems with sidechains can be achieved.",
+      "publication_date": "2020-01-15T19:47:42+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2001.05525v3"
+    },
+    {
+      "title": "A Global Cybersecurity Standardization Framework for Healthcare   Informatics",
+      "authors": [
+        "Kishu Gupta",
+        "Vinaytosh Mishra",
+        "Aaisha Makkar"
+      ],
+      "abstract": "Healthcare has witnessed an increased digitalization in the post-COVID world. Technologies such as the medical internet of things and wearable devices are generating a plethora of data available on the cloud anytime from anywhere. This data can be analyzed using advanced artificial intelligence techniques for diagnosis, prognosis, or even treatment of disease. This advancement comes with a major risk to protecting and securing protected health information (PHI). The prevailing regulations for preserving PHI are neither comprehensive nor easy to implement. The study first identifies twenty activities crucial for privacy and security, then categorizes them into five homogeneous categories namely: $\\complement_1$ (Policy and Compliance Management), $\\complement_2$ (Employee Training and Awareness), $\\complement_3$ (Data Protection and Privacy Control), $\\complement_4$ (Monitoring and Response), and $\\complement_5$ (Technology and Infrastructure Security) and prioritizes these categories to provide a framework for the implementation of privacy and security in a wise manner. The framework utilized the Delphi Method to identify activities, criteria for categorization, and prioritization. Categorization is based on the Density-Based Spatial Clustering of Applications with Noise (DBSCAN), and prioritization is performed using a Technique for Order of Preference by Similarity to the Ideal Solution (TOPSIS). The outcomes conclude that $\\complement_3$ activities should be given first preference in implementation and followed by $\\complement_1$ and $\\complement_2$ activities. Finally, $\\complement_4$ and $\\complement_5$ should be implemented. The prioritized view of identified clustered healthcare activities related to security and privacy, are useful for healthcare policymakers and healthcare informatics professionals.",
+      "publication_date": "2024-10-06T12:44:35+00:00",
+      "doi": "10.1109/JBHI.2024.3467179",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2410.05333v1"
+    },
+    {
+      "title": "Security and Privacy for Healthcare Blockchains",
+      "authors": [
+        "Rui Zhang",
+        "Rui Xue",
+        "Ling Liu"
+      ],
+      "abstract": "Healthcare blockchains provide an innovative way to store healthcare information, execute healthcare transactions, and build trust for healthcare data sharing and data integration in a decentralized open healthcare network environment. Although the healthcare blockchain technology has attracted broad interests and attention in industry, government and academia, the security and privacy concerns remain the focus of debate when deploying blockchains for information sharing in the healthcare sector from business operation to research collaboration. This paper focuses on the security and privacy requirements for medical data sharing using blockchain, and provides a comprehensive analysis of the security and privacy risks and requirements, accompanied by technical solution techniques and strategies. First, we discuss the security and privacy requirements and attributes required for electronic medical data sharing by deploying the healthcare blockchain. Second, we categorize existing efforts into three reference blockchain usage scenarios for electronic medical data sharing, and discuss the technologies for implementing these security and privacy properties in the three categories of usage scenarios for healthcare blockchain, such as anonymous signatures, attribute-based encryption, zero-knowledge proofs, verification techniques for smart contract security. Finally, we discuss other potential blockchain application scenarios in healthcare sector. We conjecture that this survey will help healthcare professionals, decision makers, and healthcare service developers to gain technical and intuitive insights into the security and privacy of healthcare blockchains in terms of concepts, risks, requirements, development and deployment technologies and systems.",
+      "publication_date": "2021-06-11T02:47:36+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2106.06136v1"
+    },
+    {
+      "title": "Block MedCare: Advancing healthcare through blockchain integration",
+      "authors": [
+        "Oliver Simonoski",
+        "Dijana Capeska Bogatinoska"
+      ],
+      "abstract": "In an era driven by information exchange, transparency and security hold crucial importance, particularly within the healthcare industry, where data integrity and confidentiality are paramount. This paper investigates the integration of blockchain technology in healthcare, focusing on its potential to revolutionize Electronic Health Records (EHR) management and data sharing. By leveraging Ethereum-based blockchain implementations and smart contracts, we propose a novel system that empowers patients to securely store and manage their medical data. Our research addresses critical challenges in implementing blockchain in healthcare, including scalability, user privacy, and regulatory compliance. We propose a solution that combines digital signatures, Role-Based Access Control, and a multi-layered architecture to enhance security and ensure controlled access. The system's key functions, including user registration, data append, and data retrieval, are facilitated through smart contracts, providing a secure and efficient mechanism for managing health information. To validate our approach, we developed a decentralized application (dApp) that demonstrates the practical implementation of our blockchain-based healthcare solution. The dApp incorporates user-friendly interfaces for patients, doctors, and administrators, showcasing the system's potential to streamline healthcare processes while maintaining data security and integrity. Additionally, we conducted a survey to gain insights into the perceived benefits and challenges of blockchain adoption in healthcare. The results indicate strong interest among healthcare professionals and IT experts, while also highlighting concerns about integration costs and technological complexity. Our findings...",
+      "publication_date": "2024-10-07T17:54:13+00:00",
+      "doi": "10.5121/ijci.2024.130505",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SE"
+      ],
+      "arxiv_id": "2410.05251v1"
+    },
+    {
+      "title": "BAMHealthCloud: A Biometric Authentication and Data Management System   for Healthcare Data in Cloud",
+      "authors": [
+        "Kashish A. Shakil",
+        "Farhana J. Zareen",
+        "Mansaf Alam",
+        "Suraiya Jabin"
+      ],
+      "abstract": "Advancements in healthcare industry with new technology and population growth has given rise to security threat to our most personal data. The healthcare data management system consists of records in different formats such as text, numeric, pictures and videos leading to data which is big and unstructured. Also, hospitals have several branches at different locations throughout a country and overseas. In view of these requirements a cloud based healthcare management system can be an effective solution for efficient health care data management. One of the major concerns of a cloud based healthcare system is the security aspect. It includes theft to identity, tax fraudulence, insurance frauds, medical frauds and defamation of high profile patients. Hence, a secure data access and retrieval is needed in order to provide security of critical medical records in health care management system. Biometric authentication mechanism is suitable in this scenario since it overcomes the limitations of token theft and forgetting passwords in conventional token id-password mechanism used for providing security. It also has high accuracy rate for secure data access and retrieval. In this paper we propose BAMHealthCloud which is a cloud based system for management of healthcare data, it ensures security of data through biometric authentication. It has been developed after performing a detailed case study on healthcare sector in a developing country. Training of the signature samples for authentication purpose has been performed in parallel on hadoop MapReduce framework using Resilient Backpropagation neural network. From rigorous experiments it can be concluded that it achieves a speedup of 9x, Equal error rate (EER) of 0.12, sensitivity of 0.98 and specificity of 0.95 as compared to other approaches existing in literature.",
+      "publication_date": "2017-05-19T11:00:40+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "1705.07121v1"
+    },
+    {
+      "title": "hChain 4.0: A Secure and Scalable Permissioned Blockchain for EHR   Management in Smart Healthcare",
+      "authors": [
+        "Musharraf N. Alruwaill",
+        "Saraju P. Mohanty",
+        "Elias Kougianos"
+      ],
+      "abstract": "The growing utilization of Internet of Medical Things (IoMT) devices, including smartwatches and wearable medical devices, has facilitated real-time health monitoring and data analysis to enhance healthcare outcomes. These gadgets necessitate improved security measures to safeguard sensitive health data while tackling scalability issues in real-time settings. The proposed system, hChain 4.0, employs a permissioned blockchain to provide a secure and scalable data infrastructure designed to fulfill these needs. This stands in contrast to conventional systems, which are vulnerable to security flaws or rely on public blockchains, constrained by scalability and expense. The proposed approach introduces a high-privacy method in which health data are encrypted using the Advanced Encryption Standard (AES) for time-efficient encryption, combined with Partial Homomorphic Encryption (PHE) to enable secure computations on encrypted data, thereby enhancing privacy. Moreover, it utilizes private channels that enable isolated communication and ledger between stakeholders, ensuring robust privacy while supporting collaborative operations. The proposed framework enables anonymized health data sharing for medical research by pseudonymizing patient identity. Additionally, hChain 4.0 incorporates Attribute-Based Access Control (ABAC) to provide secure electronic health record (EHR) sharing among authorized parties, where ABAC ensures fine-grained permission management vital for multi-organizational healthcare settings. Experimental assessments indicate that the proposed approach achieves higher scalability, cost-effectiveness, and validated security.",
+      "publication_date": "2025-05-20T03:13:48+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2505.13861v1"
+    },
+    {
+      "title": "Dynamic Healthcare Embeddings for Improving Patient Care",
+      "authors": [
+        "Hankyu Jang",
+        "Sulyun Lee",
+        "D. M. Hasibul Hasan",
+        "Philip M. Polgreen",
+        "Sriram V. Pemmaraju",
+        "Bijaya Adhikari"
+      ],
+      "abstract": "As hospitals move towards automating and integrating their computing systems, more fine-grained hospital operations data are becoming available. These data include hospital architectural drawings, logs of interactions between patients and healthcare professionals, prescription data, procedures data, and data on patient admission, discharge, and transfers. This has opened up many fascinating avenues for healthcare-related prediction tasks for improving patient care. However, in order to leverage off-the-shelf machine learning software for these tasks, one needs to learn structured representations of entities involved from heterogeneous, dynamic data streams. Here, we propose DECENT, an auto-encoding heterogeneous co-evolving dynamic neural network, for learning heterogeneous dynamic embeddings of patients, doctors, rooms, and medications from diverse data streams. These embeddings capture similarities among doctors, rooms, patients, and medications based on static attributes and dynamic interactions. DECENT enables several applications in healthcare prediction, such as predicting mortality risk and case severity of patients, adverse events (e.g., transfer back into an intensive care unit), and future healthcare-associated infections. The results of using the learned patient embeddings in predictive modeling show that DECENT has a gain of up to 48.1% on the mortality risk prediction task, 12.6% on the case severity prediction task, 6.4% on the medical intensive care unit transfer task, and 3.8% on the Clostridioides difficile (C.diff) Infection (CDI) prediction task over the state-of-the-art baselines. In addition, case studies on the learned doctor, medication, and room embeddings show that our approach learns meaningful and interpretable embeddings.",
+      "publication_date": "2023-03-21T03:14:15+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.LG"
+      ],
+      "arxiv_id": "2303.11563v1"
+    },
+    {
+      "title": "Demystifying Quantum Blockchain for Healthcare",
+      "authors": [
+        "Keshav Kaushik",
+        "Adarsh Kumar"
+      ],
+      "abstract": "The application of blockchain technology can be beneficial in the field of healthcare as well as in the fight against the COVID-19 epidemic. In this work, the importance of blockchain is analyzed and it is observed that blockchain technology and the processes associated with it will be utilised in the healthcare systems of the future for data acquisition from sensors, automatic patient monitoring, and secure data storage. This technology substantially simplifies the process of carrying out operations because it can store a substantial quantity of data in a dispersed and secure manner, as well as enable access whenever and wherever it is required to do so. With the assistance of quantum blockchain, the benefits of quantum computing, such as the capability to acquire thermal imaging based on quantum computing and the speed with which patients may be located and monitored, can all be exploited to their full potential. Quantum blockchain is another tool that can be utilised to maintain the confidentiality, authenticity, and accessibility of data records. The processing of medical records could potentially benefit from greater speed and privacy if it combines quantum computing and blockchain technology. The authors of this paper investigate the possible benefits and applications of blockchain and quantum technologies in the field of medicine, pharmacy and healthcare systems. In this context, this work explored and compared quantum technologies and blockchain-based technologies in conjunction with other cutting-edge information and communications technologies such as ratification intelligence, machine learning, drones, and so on.",
+      "publication_date": "2022-10-07T15:47:14+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2210.03638v1"
+    },
+    {
+      "title": "Blockchain in Healthcare and Medicine: A Contemporary Research of   Applications, Challenges, and Future Perspectives",
+      "authors": [
+        "H. Sami Ullah",
+        "S. Aslam"
+      ],
+      "abstract": "Blockchain technology is one of the most contemporary and disruptive technologies in the world. It has gained considerable attention in numerous applications such as financial services, cybersecurity applications, Internet of Things (IoT), network data management. Now its range of applications is beyond the financial services as the healthcare industry has also adopted blockchain technology in its various subdomains such as Electronic Health Records (EHR), medical supply chain management system, genomic market, neuroscience technology, clinical research, and pharmaceutical medicine. Blockchain is considered a secure and viable solution for storing and accessing patients medical records and the patients can diagnosed and treated with safe and secure data sharing. Blockchain technology will revolutionize the healthcare systems with personalized, authentic, and secure access to the clinical data of patients and that data can be used for further health improvements and clinical researches. In this paper, we conduct a contemporary research on existing applications and developments in healthcare industry with the use of blockchain technology. We also discuss some robust applications and various existing companies that are using blockchain solutions for securing their data along with some current challenges and future perspectives.",
+      "publication_date": "2020-03-30T20:18:13+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2004.06795v3"
+    },
+    {
+      "title": "Application of Blockchain in Healthcare and Health Insurance Sector",
+      "authors": [
+        "Debendranath Das"
+      ],
+      "abstract": "Technology has evolved over the years, making our lives easier. It has impacted the healthcare sector, increasing the average life expectancy of human beings. Still, there are gaps that remain unaddressed. There is a lack of transparency in the healthcare system, which results in inherent trust problems between patients and hospitals. In the present day, a patient does not know whether he or she will get the proper treatment from the hospital for the fee charged. A patient can claim reimbursement of the medical bill from any insurance company. However, today there is minimal scope for the Insurance Company to verify the validity of such bills or medical records. A patient can provide fake details to get financial benefits from the insurance company. Again, there are trust issues between the patient (i.e., the insurance claimer) and the insurance company. Blockchain integrated with the smart contract is a well-known disruptive technology that builds trust by providing transparency to the system. In this paper, we propose a blockchain-enabled Secure and Smart HealthCare System. Fairness of all the entities: patient, hospital, or insurance company involved in the system is guaranteed with no one trusting each other. Privacy and security of patients' medical data are ensured as well. We also propose a method for privacy-preserving sharing of aggregated data with the research community for their own purpose. Shared data must not be personally identifiable, i.e, no one can link the acquired data to the identity of any patient or their medical history. We have implemented the prototype in the Ethereum platform and Ropsten test network, and have included the analysis as well.",
+      "publication_date": "2021-08-02T12:22:30+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2108.00807v3"
+    },
+    {
+      "title": "Improving Efficiency of Hospitals and Healthcare Centres",
+      "authors": [
+        "Prachi Kariya"
+      ],
+      "abstract": "The Project aims at improving the efficiency of hospitals and healthcare centres using Big Data Analytics to evaluate identified KPIs (Key Performance Indicators) of its various functions. The Dashboards designed using computer technology serves as an interactive and dynamic tool for various stakeholders, which helps in optimising performance of various functions and more so maximise the financial returns. The Project entails improving performance of patient servicing, operations and OPD departments, finance function, procurement function, HR function, etc. I developed KPIs and drilldown KPIs for various functions and assisted in designing and developing interactive Dashboards with dynamic charts.",
+      "publication_date": "2015-11-10T17:58:54+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CY"
+      ],
+      "arxiv_id": "1511.03204v1"
+    },
+    {
+      "title": "Investigating Coordination of Hospital Departments in Delivering   Healthcare for Acute Coronary Syndrome Patients using Data-Driven Network   Analysis",
+      "authors": [
+        "Tesfamariam M Abuhay",
+        "Yemisrach G Getinet",
+        "Oleg G Metsker",
+        "Alexey N Yakovlev",
+        "Sergey V Kovalchuk"
+      ],
+      "abstract": "Healthcare systems are challenged to deliver high-quality and efficient care. Studying patient flow in a hospital is particularly fundamental as it demonstrates effectiveness and efficiency of a hospital. Since hospital is a collection of physically nearby services under one administration, its performance and outcome are shaped by the interaction of its discrete components. Coordination of processes at different levels of organizational structure of a hospital can be studied using network analysis. Hence, this article presents a data-driven static and temporal network of departments. Both networks are directed and weighted and constructed using seven years' (2010-2016) empirical data of 24902 Acute Coronary Syndrome (ACS) patients. The ties reflect an episode-based transfer of ACS patients from department to department in a hospital. The weight represents the number of patients transferred among departments. As a result, the underlying structure of a network of departments that deliver healthcare for ACS patients is described, the main departments and their role in the diagnosis and treatment process of ACS patients are identified, the role of departments over seven years is analyzed and communities of departments are discovered. The results of this study may help hospital administration to effectively organize and manage the coordination of departments based on their significance, strategic positioning and role in the diagnosis and treatment process which, in turn, nurtures value-based and precision healthcare.",
+      "publication_date": "2020-04-15T20:04:26+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.SI"
+      ],
+      "arxiv_id": "2004.09290v1"
+    },
+    {
+      "title": "Cybersecurity and Frequent Cyber Attacks on IoT Devices in Healthcare:   Issues and Solutions",
+      "authors": [
+        "Zag ElSayed",
+        "Ahmed Abdelgawad",
+        "Nelly Elsayed"
+      ],
+      "abstract": "Integrating Internet of Things (IoT) devices in healthcare has revolutionized patient care, offering improved monitoring, diagnostics, and treatment. However, the proliferation of these devices has also introduced significant cybersecurity challenges. This paper reviews the current landscape of cybersecurity threats targeting IoT devices in healthcare, discusses the underlying issues contributing to these vulnerabilities, and explores potential solutions. Additionally, this study offers solutions and suggestions for researchers, agencies, and security specialists to overcome these IoT in healthcare cybersecurity vulnerabilities. A comprehensive literature survey highlights the nature and frequency of cyber attacks, their impact on healthcare systems, and emerging strategies to mitigate these risks.",
+      "publication_date": "2025-01-20T03:29:07+00:00",
+      "doi": "",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.CR"
+      ],
+      "arxiv_id": "2501.11250v1"
+    }
+  ]
+}

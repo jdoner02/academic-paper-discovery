@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing",
+  "paper_title": "LSTFCoDel  CoDel with LSTF-Style Priority Queuing",
+  "concepts": [
+    {
+      "text": "lstfcodel",
+      "frequency": 92,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.097956+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "codel",
+      "frequency": 105,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.098225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "queue",
+      "frequency": 119,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.104058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "slack",
+      "frequency": 80,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.114278+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "congestion",
+      "frequency": 75,
+      "relevance_score": 0.9973438621679828,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.100399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packets",
+      "frequency": 69,
+      "relevance_score": 0.9255563531945441,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.110603+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "packet",
+      "frequency": 67,
+      "relevance_score": 0.9016271835367312,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.106654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "delay",
+      "frequency": 64,
+      "relevance_score": 0.8657334290500119,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.109378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "slack time",
+      "frequency": 53,
+      "relevance_score": 0.8341229959320411,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.257360+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "priority",
+      "frequency": 43,
+      "relevance_score": 0.6144771476429768,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.098490+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "queuing",
+      "frequency": 38,
+      "relevance_score": 0.5546542234984446,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.098750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transmission control protocol",
+      "frequency": 4,
+      "relevance_score": 0.49785833931562573,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.318954+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "queue length",
+      "frequency": 24,
+      "relevance_score": 0.4871500358937545,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.254382+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control protocol tcp",
+      "frequency": 3,
+      "relevance_score": 0.48589375448671934,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.319210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-processor scheduling",
+      "frequency": 2,
+      "relevance_score": 0.47392916965781295,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.257606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user datagram protocol",
+      "frequency": 2,
+      "relevance_score": 0.47392916965781284,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.319465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "datagram protocol udp",
+      "frequency": 2,
+      "relevance_score": 0.47392916965781284,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.319711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multiple physical processors",
+      "frequency": 2,
+      "relevance_score": 0.47392916965781284,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.320731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transfer protocol ftp",
+      "frequency": 2,
+      "relevance_score": 0.47392916965781284,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.328167+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "average",
+      "frequency": 31,
+      "relevance_score": 0.47090212969609957,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.161115+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "least slack time",
+      "frequency": 14,
+      "relevance_score": 0.46750418760469015,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.317968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 125 0",
+      "frequency": 3,
+      "relevance_score": 0.4358937544867193,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.327428+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 375 0",
+      "frequency": 3,
+      "relevance_score": 0.4358937544867193,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.327674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 625 0",
+      "frequency": 3,
+      "relevance_score": 0.4358937544867193,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.327920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 0",
+      "frequency": 3,
+      "relevance_score": 0.4358937544867193,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.333395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red",
+      "frequency": 28,
+      "relevance_score": 0.4350083752093803,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.106164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lstf",
+      "frequency": 28,
+      "relevance_score": 0.4350083752093803,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.114813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "avg 1 wq",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.321995+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "set-point mentioned earlier",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.322487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network simulator 2",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.323720+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "simulator 2 ns-2",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.323967+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dev s 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.331645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 0 125",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.331891+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 250 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.332137+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 500 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.332387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 750 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.332633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 875 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.332879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "odel forgetfulness 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.333933+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "forgetfulness 0 5",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.334189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5 statistic",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.334436+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 statistic value",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.334683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p-value 2 2",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.334930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 2 10",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.335176+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 10 16",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.335422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 16 95",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.335668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "16 95 ci",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.335915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 ci lower",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.336161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lower bound 0",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.336654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "95 ci upper",
+      "frequency": 2,
+      "relevance_score": 0.4239291696578129,
+      "source_papers": [
+        "local/LSTFCoDel__CoDel_with_LSTF-Style_Priority_Queuing"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:48.336901+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:48.338787+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:48.338955+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

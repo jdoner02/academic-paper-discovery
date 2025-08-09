@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors",
+  "paper_title": "Post Quantum Cryptography  PQC  Signatures Without Trapdoors",
+  "concepts": [
+    {
+      "text": "signatures",
+      "frequency": 16,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460515+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 16,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 28,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 26,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash",
+      "frequency": 14,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463201+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 15,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.466667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "private",
+      "frequency": 12,
+      "relevance_score": 0.8802340702210664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trap",
+      "frequency": 11,
+      "relevance_score": 0.8152145643693107,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trap door",
+      "frequency": 9,
+      "relevance_score": 0.7851755526657997,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.466724+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "private key",
+      "frequency": 9,
+      "relevance_score": 0.7851755526657997,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.467673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "256",
+      "frequency": 8,
+      "relevance_score": 0.7201560468140442,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463562+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "door",
+      "frequency": 9,
+      "relevance_score": 0.6851755526657998,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.460807+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 9,
+      "relevance_score": 0.6851755526657998,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025",
+      "frequency": 7,
+      "relevance_score": 0.6551365409622887,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.462875+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8-bit",
+      "frequency": 7,
+      "relevance_score": 0.6551365409622887,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.464269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8-bit value",
+      "frequency": 5,
+      "relevance_score": 0.6250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.468093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs",
+      "frequency": 8,
+      "relevance_score": 0.6201560468140442,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.461534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "values",
+      "frequency": 8,
+      "relevance_score": 0.6201560468140442,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs sha- 256",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asecuritysite com 2025",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "com 2025 accessed",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025 accessed april",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accessed april 18",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470413+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "april 18 2025",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "18 2025 online",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470506+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025 online available",
+      "frequency": 3,
+      "relevance_score": 0.5950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470553+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "proof",
+      "frequency": 7,
+      "relevance_score": 0.5551365409622887,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.461341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 7,
+      "relevance_score": 0.5551365409622887,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bob",
+      "frequency": 7,
+      "relevance_score": 0.5551365409622887,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.464971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "256 private keys",
+      "frequency": 2,
+      "relevance_score": 0.5300390117035111,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469880+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash 256- ntimes",
+      "frequency": 2,
+      "relevance_score": 0.5300390117035111,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash-based",
+      "frequency": 5,
+      "relevance_score": 0.5250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.461486+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "one-time",
+      "frequency": 5,
+      "relevance_score": 0.5250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.463467+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "256-bit",
+      "frequency": 5,
+      "relevance_score": 0.5250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.464082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital signature",
+      "frequency": 5,
+      "relevance_score": 0.5250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.466771+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zero knowledge",
+      "frequency": 5,
+      "relevance_score": 0.5250975292587776,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.467344+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hash-based signatures",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.467148+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "one-time signature",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.467767+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sphincs sha-",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.468326+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sha- 256",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.468372+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "com 2025",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025 accessed",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469165+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "april 18",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "18 2025",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2025 online",
+      "frequency": 3,
+      "relevance_score": 0.49505851755526664,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469351+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post quantum cryptography",
+      "frequency": 3,
+      "relevance_score": 0.4950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469446+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing public key",
+      "frequency": 3,
+      "relevance_score": 0.4950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.469828+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zero knowledge proof",
+      "frequency": 3,
+      "relevance_score": 0.4950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470021+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c u v",
+      "frequency": 3,
+      "relevance_score": 0.4950585175552666,
+      "source_papers": [
+        "local/Post_Quantum_Cryptography__PQC__Signatures_Without_Trapdoors"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:31.470161+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:31.470629+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:31.470794+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms",
+  "paper_title": "Quantum resource estimates for computing binary elliptic curve discrete logarithms",
+  "concepts": [
+    {
+      "text": "circuit",
+      "frequency": 137,
+      "relevance_score": 0.8426279271465741,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.360031+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multiplication",
+      "frequency": 105,
+      "relevance_score": 0.6691673894189072,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.506307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modular",
+      "frequency": 102,
+      "relevance_score": 0.6529054640069384,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.505786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 99,
+      "relevance_score": 0.6366435385949697,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.347190+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "well-established classical techniques",
+      "frequency": 2,
+      "relevance_score": 0.5608412836079792,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.467540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "addition",
+      "frequency": 85,
+      "relevance_score": 0.5607545533391154,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.364192+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f x",
+      "frequency": 61,
+      "relevance_score": 0.5306591500433652,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.989883+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "p x",
+      "frequency": 59,
+      "relevance_score": 0.519817866435386,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.902404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m x",
+      "frequency": 58,
+      "relevance_score": 0.5143972246313964,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.011915+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "polynomial",
+      "frequency": 73,
+      "relevance_score": 0.4957068516912403,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.388237+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "crt-based modular multiplication",
+      "frequency": 16,
+      "relevance_score": 0.4867302688638334,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.515831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modular multiplication",
+      "frequency": 52,
+      "relevance_score": 0.4818733738074588,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.999693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 2n 2",
+      "frequency": 13,
+      "relevance_score": 0.4704683434518647,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.491483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "flt-based algorithms",
+      "frequency": 2,
+      "relevance_score": 0.46084128360797916,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.058091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource estimation methodologies",
+      "frequency": 2,
+      "relevance_score": 0.46084128360797916,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.512686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "concrete quantum cryptanalysis",
+      "frequency": 2,
+      "relevance_score": 0.46084128360797916,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.556711+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum information processing",
+      "frequency": 2,
+      "relevance_score": 0.46084128360797916,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.564013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x mod",
+      "frequency": 48,
+      "relevance_score": 0.46019080659150047,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.002260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m x 2n",
+      "frequency": 11,
+      "relevance_score": 0.4596270598438855,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.490963+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "qubits",
+      "frequency": 64,
+      "relevance_score": 0.4469210754553339,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.378823+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n 1",
+      "frequency": 27,
+      "relevance_score": 0.44635732870771894,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.000718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x mod p",
+      "frequency": 27,
+      "relevance_score": 0.44635732870771894,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.465960+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mod p x",
+      "frequency": 27,
+      "relevance_score": 0.44635732870771894,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.466494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ctrl 0 1",
+      "frequency": 7,
+      "relevance_score": 0.4379444926279271,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.451642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "toffoli",
+      "frequency": 62,
+      "relevance_score": 0.4360797918473547,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:30.418235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n 163 233",
+      "frequency": 6,
+      "relevance_score": 0.4325238508239375,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.513210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 3",
+      "frequency": 6,
+      "relevance_score": 0.4325238508239375,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.654512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x2 x3 λ",
+      "frequency": 5,
+      "relevance_score": 0.4271032090199479,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.423755+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f 1 x",
+      "frequency": 5,
+      "relevance_score": 0.4271032090199479,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.500848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 3 6",
+      "frequency": 5,
+      "relevance_score": 0.4271032090199479,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.655094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 6 9",
+      "frequency": 5,
+      "relevance_score": 0.4271032090199479,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.655631+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2β 1",
+      "frequency": 5,
+      "relevance_score": 0.4271032090199479,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.685475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mi x",
+      "frequency": 41,
+      "relevance_score": 0.42224631396357326,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.015039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "photonic fusion-based quantum",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.405920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x2 y2 x2",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.422192+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x3 λ x3",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.424276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "λ x3 y2",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.424804+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "y3 x3 y2",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.427916+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x3 y2 x2",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.428431+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.454839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "n-qubit input state",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.461216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 n 2",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.471802+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pairwise co-prime polynomials",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.473434+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2n 1 deg",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.497203+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 deg m",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.497726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 x mod",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.501373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "163 233 283",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.513736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "233 283 571",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.514257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1µs delay 10µs",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.542848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "delay 10µs delay",
+      "frequency": 4,
+      "relevance_score": 0.4216825672159583,
+      "source_papers": [
+        "local/Quantum_resource_estimates_for_computing_binary_elliptic_curve_discrete_logarithms"
+      ],
+      "source_domain": "quantum_cryptanalysis_threats",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:22:31.543402+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:22:31.689906+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:22:31.690110+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_cryptanalysis_threats"
+  }
+}

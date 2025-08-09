@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids",
+  "paper_title": "Towards a Comprehensive Framework for Cyber-Incident Response Decision Support in Smart Grids",
+  "concepts": [
+    {
+      "text": "attack",
+      "frequency": 61,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.632058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 27,
+      "relevance_score": 0.8292748337266681,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.621833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "countermeasures",
+      "frequency": 30,
+      "relevance_score": 0.7436387041407423,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.637472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "criteria",
+      "frequency": 28,
+      "relevance_score": 0.7007294571980262,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.638831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid",
+      "frequency": 26,
+      "relevance_score": 0.65782021025531,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.624472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 24,
+      "relevance_score": 0.6149109633125939,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.656663+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 17,
+      "relevance_score": 0.6147285990130873,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.633478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 22,
+      "relevance_score": 0.5720017163698776,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.628362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 21,
+      "relevance_score": 0.5505470928985197,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.622659+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "step",
+      "frequency": 21,
+      "relevance_score": 0.5505470928985197,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.638075+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 14,
+      "relevance_score": 0.5503647285990131,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.624802+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kill-chain",
+      "frequency": 15,
+      "relevance_score": 0.5218193520703711,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.643394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ck ics framework",
+      "frequency": 3,
+      "relevance_score": 0.5143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.714099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "att ck framework",
+      "frequency": 3,
+      "relevance_score": 0.5143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.714944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid systems",
+      "frequency": 3,
+      "relevance_score": 0.5143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.721462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision support systems",
+      "frequency": 2,
+      "relevance_score": 0.4929092469427161,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.712475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework enables grid",
+      "frequency": 2,
+      "relevance_score": 0.4929092469427161,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.713053+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-criteria decision making",
+      "frequency": 4,
+      "relevance_score": 0.4858184938854323,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.712616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack graph",
+      "frequency": 13,
+      "relevance_score": 0.47891010512765503,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.694024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cybersecurity",
+      "frequency": 17,
+      "relevance_score": 0.4647285990130873,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.625243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-criteria",
+      "frequency": 12,
+      "relevance_score": 0.4574554816562969,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.626129+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "steps",
+      "frequency": 16,
+      "relevance_score": 0.4432739755417292,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.643217+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-staged attack detection",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.715384+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lockheed martin kill-chain",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.715524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "steps 7 8",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.715665+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "action matching multi-criteria",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716089+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "step 1 countermeasure",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "step 2 multi-criteria",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716512+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 multi-criteria decision",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716652+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "step 3 visualization",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716793+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "interval-valued pythagorean fuzzy",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.716933+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pythagorean fuzzy multi-criteria",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.717074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fuzzy multi-criteria decision-making",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.717215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c2 send info",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.720617+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "make data-driven decisions",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.721609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "international con- ference",
+      "frequency": 2,
+      "relevance_score": 0.44290924694271616,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.722313+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision-making",
+      "frequency": 11,
+      "relevance_score": 0.43600085818493883,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.628657+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart grid",
+      "frequency": 11,
+      "relevance_score": 0.43600085818493883,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.686860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "comprehensive framework",
+      "frequency": 4,
+      "relevance_score": 0.43581849388543237,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.685113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-criteria decision",
+      "frequency": 6,
+      "relevance_score": 0.42872774082814846,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.686424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mitre att ck",
+      "frequency": 6,
+      "relevance_score": 0.42872774082814846,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.713805+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "incident",
+      "frequency": 15,
+      "relevance_score": 0.42181935207037113,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.635179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "countermeasure",
+      "frequency": 15,
+      "relevance_score": 0.42181935207037113,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.638529+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "siem",
+      "frequency": 15,
+      "relevance_score": 0.42181935207037113,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.651967+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "att ck",
+      "frequency": 10,
+      "relevance_score": 0.41454623471358076,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.691397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ics framework",
+      "frequency": 3,
+      "relevance_score": 0.4143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.691686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "siem system",
+      "frequency": 3,
+      "relevance_score": 0.4143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.692266+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ck framework",
+      "frequency": 3,
+      "relevance_score": 0.4143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.694774+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "grid systems",
+      "frequency": 3,
+      "relevance_score": 0.4143638704140743,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.707333+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk",
+      "frequency": 14,
+      "relevance_score": 0.40036472859901306,
+      "source_papers": [
+        "local/Towards_a_Comprehensive_Framework_for_Cyber-Incident_Response_Decision_Support_in_Smart_Grids"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:04:13.626732+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:04:13.722561+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:04:13.722737+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

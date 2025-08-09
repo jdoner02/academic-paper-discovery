@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design",
+  "paper_title": "Secure Email Transmission Protocols -- A New Architecture Design",
+  "concepts": [
+    {
+      "text": "email",
+      "frequency": 111,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.150869+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls",
+      "frequency": 51,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.157722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 47,
+      "relevance_score": 0.9441091954022989,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.151728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transmission",
+      "frequency": 45,
+      "relevance_score": 0.9081896551724138,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.151039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 43,
+      "relevance_score": 0.8722701149425287,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.158552+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eeks",
+      "frequency": 35,
+      "relevance_score": 0.7285919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.161745+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email transmission",
+      "frequency": 29,
+      "relevance_score": 0.7208333333333332,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.225211+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 34,
+      "relevance_score": 0.710632183908046,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.154528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 23,
+      "relevance_score": 0.6630747126436782,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.151206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 31,
+      "relevance_score": 0.6567528735632184,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.150694+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smtp",
+      "frequency": 30,
+      "relevance_score": 0.6387931034482759,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.156221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 21,
+      "relevance_score": 0.6271551724137931,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.165113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architecture",
+      "frequency": 29,
+      "relevance_score": 0.6208333333333332,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.151539+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "emails",
+      "frequency": 28,
+      "relevance_score": 0.6028735632183908,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.152812+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gpg",
+      "frequency": 28,
+      "relevance_score": 0.6028735632183908,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.158386+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "schnorr signature",
+      "frequency": 22,
+      "relevance_score": 0.5951149425287356,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.228261+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 19,
+      "relevance_score": 0.5912356321839081,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.167301+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 25,
+      "relevance_score": 0.5489942528735632,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.162263+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 25,
+      "relevance_score": 0.5489942528735632,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.178491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pgp",
+      "frequency": 23,
+      "relevance_score": 0.5130747126436782,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.158220+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s mime",
+      "frequency": 17,
+      "relevance_score": 0.5053160919540229,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.235601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email transmission protocols",
+      "frequency": 3,
+      "relevance_score": 0.5038793103448276,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.253414+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "schnorr",
+      "frequency": 22,
+      "relevance_score": 0.49511494252873567,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.162090+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email transmission protocol",
+      "frequency": 2,
+      "relevance_score": 0.48591954022988504,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.254583+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email transmission process",
+      "frequency": 2,
+      "relevance_score": 0.48591954022988504,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.258289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new design approaches",
+      "frequency": 2,
+      "relevance_score": 0.48591954022988504,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.259952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "quantum",
+      "frequency": 21,
+      "relevance_score": 0.4771551724137931,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.169471+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 21,
+      "relevance_score": 0.4771551724137931,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.173982+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email transmis- sion",
+      "frequency": 4,
+      "relevance_score": 0.4718390804597701,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.256612+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "channel",
+      "frequency": 20,
+      "relevance_score": 0.4591954022988506,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.159487+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "version 1 9",
+      "frequency": 3,
+      "relevance_score": 0.45387931034482754,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.258786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alice s email",
+      "frequency": 8,
+      "relevance_score": 0.4436781609195402,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.256944+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s email server",
+      "frequency": 8,
+      "relevance_score": 0.4436781609195402,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.257110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "side",
+      "frequency": 19,
+      "relevance_score": 0.44123563218390804,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.189472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security protocols",
+      "frequency": 5,
+      "relevance_score": 0.4397988505747127,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.226228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication process",
+      "frequency": 5,
+      "relevance_score": 0.4397988505747127,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.247830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email trans- mission",
+      "frequency": 2,
+      "relevance_score": 0.435919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.254078+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fundamental email transmis-",
+      "frequency": 2,
+      "relevance_score": 0.435919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.256777+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "libgcrypt version 1",
+      "frequency": 2,
+      "relevance_score": 0.435919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.258621+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 9 0",
+      "frequency": 2,
+      "relevance_score": 0.435919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.258952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "heap-based buffer overﬂow",
+      "frequency": 2,
+      "relevance_score": 0.435919540229885,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.259123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new",
+      "frequency": 18,
+      "relevance_score": 0.4232758620689655,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.151373+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ssl",
+      "frequency": 18,
+      "relevance_score": 0.4232758620689655,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.157888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alice s",
+      "frequency": 12,
+      "relevance_score": 0.41551724137931034,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.237112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "current",
+      "frequency": 17,
+      "relevance_score": 0.40531609195402296,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.157390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 17,
+      "relevance_score": 0.40531609195402296,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.171819+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mime",
+      "frequency": 17,
+      "relevance_score": 0.40531609195402296,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.185575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transmission protocols",
+      "frequency": 3,
+      "relevance_score": 0.4038793103448276,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.225388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transmission process",
+      "frequency": 3,
+      "relevance_score": 0.4038793103448276,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.229929+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "email protocols",
+      "frequency": 3,
+      "relevance_score": 0.4038793103448276,
+      "source_papers": [
+        "local/Secure_Email_Transmission_Protocols_--_A_New_Architecture_Design"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:20.231603+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:20.261533+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:20.261717+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

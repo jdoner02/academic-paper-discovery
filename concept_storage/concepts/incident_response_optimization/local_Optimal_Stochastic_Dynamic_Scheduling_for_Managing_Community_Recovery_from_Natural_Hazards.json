@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards",
+  "paper_title": "Optimal Stochastic Dynamic Scheduling for Managing Community Recovery from Natural Hazards",
+  "concepts": [
+    {
+      "text": "policy",
+      "frequency": 66,
+      "relevance_score": 0.8327634062395914,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.247389+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rollout",
+      "frequency": 58,
+      "relevance_score": 0.7439435994226712,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.193224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "epn",
+      "frequency": 51,
+      "relevance_score": 0.666226268457866,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.234375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recovery",
+      "frequency": 49,
+      "relevance_score": 0.644021316753636,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.181134+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "community",
+      "frequency": 48,
+      "relevance_score": 0.632918840901521,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.180879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision",
+      "frequency": 42,
+      "relevance_score": 0.5663039857888309,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.190227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "repair",
+      "frequency": 39,
+      "relevance_score": 0.5329965582324858,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.217532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "base",
+      "frequency": 39,
+      "relevance_score": 0.5329965582324858,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.265544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov decision processes",
+      "frequency": 7,
+      "relevance_score": 0.5277173309648051,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.429113+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "base policy",
+      "frequency": 29,
+      "relevance_score": 0.5219717997113356,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.371532+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state",
+      "frequency": 36,
+      "relevance_score": 0.49968913067614074,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.182655+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "markov decision process",
+      "frequency": 3,
+      "relevance_score": 0.48330742755634504,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.428353+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pavement management systems",
+      "frequency": 2,
+      "relevance_score": 0.47220495170423005,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.429628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "restoration",
+      "frequency": 33,
+      "relevance_score": 0.46638170311979577,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.185999+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "components",
+      "frequency": 33,
+      "relevance_score": 0.46638170311979577,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.279611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 5,
+      "relevance_score": 0.4555123792605751,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.435509+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water",
+      "frequency": 32,
+      "relevance_score": 0.45527922726768066,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.234640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 1 1",
+      "frequency": 4,
+      "relevance_score": 0.4444099034084601,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.439110+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "collins co 80523",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.426467+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk -averse decision",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.430899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large -scale problems",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.433973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mean -based stochastic",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.442908+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-based stochastic optimization",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.443167+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk -averse policymakers",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.446571+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "worst -case optimization",
+      "frequency": 3,
+      "relevance_score": 0.4333074275563451,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.446829+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agent",
+      "frequency": 30,
+      "relevance_score": 0.4330742755634507,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.205004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision processes",
+      "frequency": 7,
+      "relevance_score": 0.42771733096480513,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.348919+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision -making objective",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.427545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "community -level decision",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.428084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decision -making space",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.428606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-averse decision makers",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.431152+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "initial state x0",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.432667+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o x 2",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.434225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q- value function",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.434479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state -action pair",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.435257+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 1",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.435761+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 1 1",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.436014+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "line component 0",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.438352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "component 0 5",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.438605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 5 1",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.438857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risk -neutral decision",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.442403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "α 0 8",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.443726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 1 days",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.443986+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 31 0",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.444764+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "31 0 31",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.445023+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 1 2",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.445281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "31 346 day",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.445796+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "25 688 day",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.446054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "worse -case optimization",
+      "frequency": 2,
+      "relevance_score": 0.42220495170423,
+      "source_papers": [
+        "local/Optimal_Stochastic_Dynamic_Scheduling_for_Managing_Community_Recovery_from_Natural_Hazards"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:06.447087+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:06.454668+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:06.454866+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

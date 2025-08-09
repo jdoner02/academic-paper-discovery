@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+  "paper_title": "Enabling Cyber Security Education through Digital Twins and Generative AI",
+  "concepts": [
+    {
+      "text": "cyber",
+      "frequency": 37,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.672362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital",
+      "frequency": 39,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.672722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "llms",
+      "frequency": 31,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.675786+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 29,
+      "relevance_score": 0.9630952380952381,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.672483+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital twins",
+      "frequency": 25,
+      "relevance_score": 0.944047619047619,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.708408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "twins",
+      "frequency": 25,
+      "relevance_score": 0.8440476190476189,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.672848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cybersecurity",
+      "frequency": 25,
+      "relevance_score": 0.8440476190476189,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.674158+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dts",
+      "frequency": 23,
+      "relevance_score": 0.7845238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.674023+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 17,
+      "relevance_score": 0.7559523809523809,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.681734+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large language models",
+      "frequency": 6,
+      "relevance_score": 0.6285714285714286,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber kill chain",
+      "frequency": 11,
+      "relevance_score": 0.6273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language models llms",
+      "frequency": 5,
+      "relevance_score": 0.5988095238095238,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717341+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "penetration",
+      "frequency": 16,
+      "relevance_score": 0.5761904761904763,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.675165+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kill chain",
+      "frequency": 12,
+      "relevance_score": 0.5571428571428572,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.709740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "threat",
+      "frequency": 15,
+      "relevance_score": 0.5464285714285714,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.678819+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red team knife",
+      "frequency": 8,
+      "relevance_score": 0.5380952380952381,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language models",
+      "frequency": 6,
+      "relevance_score": 0.5285714285714286,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.708970+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time",
+      "frequency": 11,
+      "relevance_score": 0.5273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.678485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber kill",
+      "frequency": 11,
+      "relevance_score": 0.5273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.709620+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital twin",
+      "frequency": 11,
+      "relevance_score": 0.5273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.713001+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 9,
+      "relevance_score": 0.5178571428571429,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.684095+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 14,
+      "relevance_score": 0.5166666666666667,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.679815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 2,
+      "relevance_score": 0.5095238095238096,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.716166+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models llms into",
+      "frequency": 2,
+      "relevance_score": 0.5095238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 2,
+      "relevance_score": 0.5095238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.718385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models llms",
+      "frequency": 5,
+      "relevance_score": 0.4988095238095238,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.709083+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "education",
+      "frequency": 13,
+      "relevance_score": 0.48690476190476195,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.672601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "chain",
+      "frequency": 13,
+      "relevance_score": 0.48690476190476195,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.677346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1",
+      "frequency": 6,
+      "relevance_score": 0.47857142857142854,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.715376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red team",
+      "frequency": 9,
+      "relevance_score": 0.46785714285714286,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.709297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-time intrusion detection",
+      "frequency": 2,
+      "relevance_score": 0.45952380952380956,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.718579+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1 7",
+      "frequency": 2,
+      "relevance_score": 0.45952380952380956,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.718782+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partnerid 40 md5",
+      "frequency": 2,
+      "relevance_score": 0.45952380952380956,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.719187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2022 ieee international",
+      "frequency": 2,
+      "relevance_score": 0.45952380952380956,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.719284+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 7,
+      "relevance_score": 0.45833333333333337,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.675675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 7,
+      "relevance_score": 0.45833333333333337,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.676225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kill",
+      "frequency": 12,
+      "relevance_score": 0.4571428571428572,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.677243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "team knife",
+      "frequency": 8,
+      "relevance_score": 0.4380952380952381,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.709404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "support",
+      "frequency": 11,
+      "relevance_score": 0.4273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.679283+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "twin",
+      "frequency": 11,
+      "relevance_score": 0.4273809523809524,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.694030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber security education",
+      "frequency": 4,
+      "relevance_score": 0.41904761904761906,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717050+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "team knife rtk",
+      "frequency": 4,
+      "relevance_score": 0.41904761904761906,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.717535+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "title suppressed due",
+      "frequency": 4,
+      "relevance_score": 0.41904761904761906,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.718175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical systems",
+      "frequency": 2,
+      "relevance_score": 0.4095238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.712709+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compromised systems",
+      "frequency": 2,
+      "relevance_score": 0.4095238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.713796+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems",
+      "frequency": 2,
+      "relevance_score": 0.4095238095238095,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.714495+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber security",
+      "frequency": 7,
+      "relevance_score": 0.4083333333333333,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.708195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "red",
+      "frequency": 10,
+      "relevance_score": 0.39761904761904765,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.676702+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "team",
+      "frequency": 10,
+      "relevance_score": 0.39761904761904765,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.676806+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 10",
+      "frequency": 3,
+      "relevance_score": 0.38928571428571435,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "source_domain": "ai_driven_cyber_defense",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T15:57:11.713995+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T15:57:11.719469+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T15:57:11.719662+00:00",
+    "repository_version": "1.0",
+    "domain": "ai_driven_cyber_defense"
+  }
+}

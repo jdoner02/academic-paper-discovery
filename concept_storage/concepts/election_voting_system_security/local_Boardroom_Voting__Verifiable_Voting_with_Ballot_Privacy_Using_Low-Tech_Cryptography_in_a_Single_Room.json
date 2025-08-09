@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room",
+  "paper_title": "Boardroom Voting  Verifiable Voting with Ballot Privacy Using Low-Tech Cryptography in a Single Room",
+  "concepts": [
+    {
+      "text": "ballot",
+      "frequency": 142,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.088475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voter",
+      "frequency": 84,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.095563+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ballots",
+      "frequency": 74,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.096983+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting",
+      "frequency": 64,
+      "relevance_score": 0.9088978766430739,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.087926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election",
+      "frequency": 58,
+      "relevance_score": 0.8330637007077857,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.093187+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "boardroom",
+      "frequency": 53,
+      "relevance_score": 0.7698685540950455,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.087613+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voters",
+      "frequency": 53,
+      "relevance_score": 0.7698685540950455,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.094023+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy",
+      "frequency": 45,
+      "relevance_score": 0.6687563195146613,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.088730+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting protocol 1",
+      "frequency": 2,
+      "relevance_score": 0.5752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.292227+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1 bvp1",
+      "frequency": 2,
+      "relevance_score": 0.5752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.292484+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 23,
+      "relevance_score": 0.5406976744186047,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.099109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "boardroom voting",
+      "frequency": 26,
+      "relevance_score": 0.5286147623862487,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.237952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "visual",
+      "frequency": 33,
+      "relevance_score": 0.5170879676440849,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.101722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-tech boardroom voting",
+      "frequency": 7,
+      "relevance_score": 0.4884732052578362,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.290666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol bvp1",
+      "frequency": 3,
+      "relevance_score": 0.4879170879676441,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.248684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "boardroom voting protocol",
+      "frequency": 3,
+      "relevance_score": 0.4879170879676441,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.291700+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ballot privacy",
+      "frequency": 22,
+      "relevance_score": 0.4780586450960566,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.238207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e2e systems",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.249167+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol 1",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.261581+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting protocol including",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.293224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scantegrity voting system",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.294923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d computer systems",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.299625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer systems established",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.299863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems established maintained",
+      "frequency": 2,
+      "relevance_score": 0.4752780586450961,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.300103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ballot box",
+      "frequency": 20,
+      "relevance_score": 0.4527805864509606,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.253889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "elections",
+      "frequency": 27,
+      "relevance_score": 0.44125379170879675,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.095321+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-tech",
+      "frequency": 19,
+      "relevance_score": 0.4401415571284125,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.088982+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting protocol",
+      "frequency": 7,
+      "relevance_score": 0.4384732052578362,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.260614+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 14,
+      "relevance_score": 0.4269464105156724,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.141209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-tech cryptography without",
+      "frequency": 2,
+      "relevance_score": 0.42527805864509605,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.288224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-ary foldable ballot",
+      "frequency": 2,
+      "relevance_score": 0.42527805864509605,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.291965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-existing building blocks",
+      "frequency": 2,
+      "relevance_score": 0.42527805864509605,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.294205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scantegrity ii end-to-end",
+      "frequency": 2,
+      "relevance_score": 0.42527805864509605,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.301784+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ii end-to-end verifiability",
+      "frequency": 2,
+      "relevance_score": 0.42527805864509605,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.302034+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "visual secrets",
+      "frequency": 17,
+      "relevance_score": 0.4148634984833165,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.242990+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "invisible ink",
+      "frequency": 17,
+      "relevance_score": 0.4148634984833165,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.261095+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting system",
+      "frequency": 5,
+      "relevance_score": 0.41319514661274015,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.274012+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "room",
+      "frequency": 24,
+      "relevance_score": 0.4033367037411527,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.089752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "bvp1",
+      "frequency": 16,
+      "relevance_score": 0.4022244691607685,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.127830+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 12,
+      "relevance_score": 0.40166835187057637,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.110159+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-tech boardroom",
+      "frequency": 8,
+      "relevance_score": 0.40111223458038425,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.251200+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "enka blanchard ted",
+      "frequency": 8,
+      "relevance_score": 0.40111223458038425,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.289421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blanchard ted selker",
+      "frequency": 8,
+      "relevance_score": 0.40111223458038425,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.289672+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "alan t sherman",
+      "frequency": 8,
+      "relevance_score": 0.40111223458038425,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.289903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "election systems",
+      "frequency": 4,
+      "relevance_score": 0.40055611729019214,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.245189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "box",
+      "frequency": 23,
+      "relevance_score": 0.3906976744186047,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.132753+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "building blocks",
+      "frequency": 15,
+      "relevance_score": 0.3895854398382204,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.241275+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ryan p y",
+      "frequency": 7,
+      "relevance_score": 0.3884732052578362,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.296347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "voting systems",
+      "frequency": 3,
+      "relevance_score": 0.3879170879676441,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.244951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ink",
+      "frequency": 22,
+      "relevance_score": 0.3780586450960566,
+      "source_papers": [
+        "local/Boardroom_Voting__Verifiable_Voting_with_Ballot_Privacy_Using_Low-Tech_Cryptography_in_a_Single_Room"
+      ],
+      "source_domain": "election_voting_system_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:09:51.123699+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:09:51.303686+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:09:51.303874+00:00",
+    "repository_version": "1.0",
+    "domain": "election_voting_system_security"
+  }
+}

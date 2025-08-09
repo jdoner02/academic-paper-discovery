@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an...",
+  "paper_title": "FireFly  A High-Throughput Hardware Accelerator for Spiking Neural Networks with Efficient DSP an...",
+  "concepts": [
+    {
+      "text": "snn",
+      "frequency": 66,
+      "relevance_score": 0.6159878039246345,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.718602+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 61,
+      "relevance_score": 0.5768978187788288,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.705121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "synaptic",
+      "frequency": 61,
+      "relevance_score": 0.5768978187788288,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.724863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "firefly",
+      "frequency": 60,
+      "relevance_score": 0.5690798217496678,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.703832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "valid-ready handshaking protocol",
+      "frequency": 2,
+      "relevance_score": 0.5656359940583223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.441975+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "array",
+      "frequency": 58,
+      "relevance_score": 0.5534438276913455,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.748518+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systolic array",
+      "frequency": 42,
+      "relevance_score": 0.5283558752247675,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.216792+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spike",
+      "frequency": 54,
+      "relevance_score": 0.522171839574701,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.816904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dsp48e2",
+      "frequency": 38,
+      "relevance_score": 0.4970838871081229,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.733326+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "neural",
+      "frequency": 47,
+      "relevance_score": 0.4674458603705731,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.706608+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process spikes generated",
+      "frequency": 2,
+      "relevance_score": 0.46563599405832223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.380617+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deep snn models",
+      "frequency": 2,
+      "relevance_score": 0.46563599405832223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.392988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "digital signal processing",
+      "frequency": 2,
+      "relevance_score": 0.46563599405832223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.410102+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system clock frequency",
+      "frequency": 2,
+      "relevance_score": 0.46563599405832223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.462247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "integration vlsi systems",
+      "frequency": 2,
+      "relevance_score": 0.46563599405832223,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.471912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partial reuse fifo",
+      "frequency": 21,
+      "relevance_score": 0.4641779376123837,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.441209+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systolic",
+      "frequency": 46,
+      "relevance_score": 0.4596278633414119,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.917084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "psum-vmem unified buffer",
+      "frequency": 7,
+      "relevance_score": 0.45472597920412794,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.392246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "brain-inspired cognitive intelligence",
+      "frequency": 6,
+      "relevance_score": 0.44690798217496674,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.382976+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-level weight delivery",
+      "frequency": 6,
+      "relevance_score": 0.44690798217496674,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.440832+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 3 7",
+      "frequency": 5,
+      "relevance_score": 0.43908998514580566,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.444640+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sciences beijing 100190",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.383901+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "beijing 100190 china",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.384311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "single dsp48e2 slice",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.410888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.438549+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-1 2 5",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.442352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 element per",
+      "frequency": 4,
+      "relevance_score": 0.43127198811664447,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.446912+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spiking neural networks",
+      "frequency": 16,
+      "relevance_score": 0.42508795246657805,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.375360+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sciences beijing 100049",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.382178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "beijing 100049 china",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.382575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "100190 china e-mail",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.384712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s o 0",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.404751+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4synaptic crossbar computation",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.411648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w20 w21 w22",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.415103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w30 w31 w32",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.415917+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w31 w32 w33",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.416323+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 7 4",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.445026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8 3 0",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.445403+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 0 3",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.445781+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8 elements every",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.448086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "elements every 8",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.448530+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 2 5",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.452665+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 5 8",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.453045+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5 8 7",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.453428+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 00 0",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.459575+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "00 0 00",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.459955+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 55 275",
+      "frequency": 3,
+      "relevance_score": 0.4234539910874834,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:06.464565+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "design",
+      "frequency": 41,
+      "relevance_score": 0.4205378781956063,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.735559+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 41,
+      "relevance_score": 0.4205378781956063,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.740002+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "weight",
+      "frequency": 41,
+      "relevance_score": 0.4205378781956063,
+      "source_papers": [
+        "local/FireFly__A_High-Throughput_Hardware_Accelerator_for_Spiking_Neural_Networks_with_Efficient_DSP_an..."
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:05.803655+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:06.478187+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:06.478382+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

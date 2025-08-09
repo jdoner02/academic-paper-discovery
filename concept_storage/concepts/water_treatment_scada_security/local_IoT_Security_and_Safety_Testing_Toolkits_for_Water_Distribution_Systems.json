@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems",
+  "paper_title": "IoT Security and Safety Testing Toolkits for Water Distribution Systems",
+  "concepts": [
+    {
+      "text": "network",
+      "frequency": 45,
+      "relevance_score": 0.9319467554076538,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.813867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 27,
+      "relevance_score": 0.7491680532445923,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.800543+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water",
+      "frequency": 34,
+      "relevance_score": 0.7285819929746719,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.800193+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 20,
+      "relevance_score": 0.6197541135145129,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.807503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "co-simulating physical processes",
+      "frequency": 3,
+      "relevance_score": 0.6054631170271769,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.910952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water distribution systems",
+      "frequency": 7,
+      "relevance_score": 0.5794139397300795,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.909062+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "inp2cpa",
+      "frequency": 20,
+      "relevance_score": 0.5697541135145129,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.836800+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 25,
+      "relevance_score": 0.5621926418931411,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.814208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 4,
+      "relevance_score": 0.5239508227029026,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.909400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 22,
+      "relevance_score": 0.5067295248659641,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.802740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 22,
+      "relevance_score": 0.5067295248659641,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.819259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control system",
+      "frequency": 3,
+      "relevance_score": 0.505463117027177,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.909906+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system security",
+      "frequency": 3,
+      "relevance_score": 0.505463117027177,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.910075+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system cyber",
+      "frequency": 2,
+      "relevance_score": 0.4869754113514513,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.912961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security icss",
+      "frequency": 2,
+      "relevance_score": 0.4869754113514513,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.914654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "distribution systems",
+      "frequency": 7,
+      "relevance_score": 0.4794139397300795,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.886879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online available",
+      "frequency": 14,
+      "relevance_score": 0.458827879460159,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.901519+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems",
+      "frequency": 5,
+      "relevance_score": 0.4424385283786282,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.887740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system",
+      "frequency": 5,
+      "relevance_score": 0.4424385283786282,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.893289+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical",
+      "frequency": 13,
+      "relevance_score": 0.44034017378443335,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.813654+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "create custom cyber-physical",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.911120+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "custom cyber-physical attacks",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.911287+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pa pb 1",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.911622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 exp ksd",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.911789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "09 26 2021",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.912793+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "org 10 1016",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.913130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 1016 j",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.913307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 1111 nicc",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.913481+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1111 nicc 12030",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.913648+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2020 pp 13",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.914988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 13 20",
+      "frequency": 2,
+      "relevance_score": 0.43697541135145124,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.915155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 18,
+      "relevance_score": 0.4327787021630616,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.799662+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resiliency",
+      "frequency": 18,
+      "relevance_score": 0.4327787021630616,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.816072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁle",
+      "frequency": 18,
+      "relevance_score": 0.4327787021630616,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.837347+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water systems",
+      "frequency": 4,
+      "relevance_score": 0.42395082270290263,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.891103+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical processes",
+      "frequency": 4,
+      "relevance_score": 0.42395082270290263,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.896077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2021",
+      "frequency": 12,
+      "relevance_score": 0.4218524681087077,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.831017+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online available https",
+      "frequency": 6,
+      "relevance_score": 0.41092623405435386,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.912458+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security",
+      "frequency": 3,
+      "relevance_score": 0.40546311702717697,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.893456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 16,
+      "relevance_score": 0.39580329081161025,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.814879+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical attacks",
+      "frequency": 5,
+      "relevance_score": 0.39243852837862825,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.894863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "water system",
+      "frequency": 2,
+      "relevance_score": 0.3869754113514513,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.895369+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system while",
+      "frequency": 2,
+      "relevance_score": 0.3869754113514513,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.896246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system cyber",
+      "frequency": 2,
+      "relevance_score": 0.3869754113514513,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.902872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tool",
+      "frequency": 15,
+      "relevance_score": 0.3773155851358847,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.815738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physical",
+      "frequency": 15,
+      "relevance_score": 0.3773155851358847,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.823485+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "available",
+      "frequency": 15,
+      "relevance_score": 0.3773155851358847,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.850067+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online",
+      "frequency": 15,
+      "relevance_score": 0.3773155851358847,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.877058+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "org 10",
+      "frequency": 4,
+      "relevance_score": 0.3739508227029026,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.903409+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph node s",
+      "frequency": 4,
+      "relevance_score": 0.3739508227029026,
+      "source_papers": [
+        "local/IoT_Security_and_Safety_Testing_Toolkits_for_Water_Distribution_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.912124+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:09.915756+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:09.915936+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

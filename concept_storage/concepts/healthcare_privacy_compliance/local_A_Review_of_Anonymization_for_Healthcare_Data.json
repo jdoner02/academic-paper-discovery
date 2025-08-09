@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/A_Review_of_Anonymization_for_Healthcare_Data",
+  "paper_title": "A Review of Anonymization for Healthcare Data",
+  "concepts": [
+    {
+      "text": "privacy",
+      "frequency": 123,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.341814+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymization",
+      "frequency": 98,
+      "relevance_score": 0.9128058389317408,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.330008+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 62,
+      "relevance_score": 0.6142241021813054,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.350932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attributes",
+      "frequency": 59,
+      "relevance_score": 0.5893422907854359,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.406140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 58,
+      "relevance_score": 0.5810483536534793,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.335378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information",
+      "frequency": 57,
+      "relevance_score": 0.5727544165215228,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.343029+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 anonymization models",
+      "frequency": 2,
+      "relevance_score": 0.5665878742639131,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.840015+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy models k-anonymity",
+      "frequency": 2,
+      "relevance_score": 0.5665878742639131,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.844707+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models k-anonymity -diversity",
+      "frequency": 2,
+      "relevance_score": 0.5665878742639131,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.845117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 38,
+      "relevance_score": 0.5651696110143486,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.359041+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ii main 2021",
+      "frequency": 14,
+      "relevance_score": 0.5161151198473916,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.831928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "main 2021 4",
+      "frequency": 14,
+      "relevance_score": 0.5161151198473916,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.832323+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2021 4 15",
+      "frequency": 14,
+      "relevance_score": 0.5161151198473916,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.832713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "4 15 0",
+      "frequency": 14,
+      "relevance_score": 0.5161151198473916,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.833112+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "15 0 46",
+      "frequency": 14,
+      "relevance_score": 0.5161151198473916,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.833500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k-anonymity",
+      "frequency": 37,
+      "relevance_score": 0.506875673882392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.439925+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "individual",
+      "frequency": 46,
+      "relevance_score": 0.4815211080700008,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.411773+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "techniques",
+      "frequency": 27,
+      "relevance_score": 0.4739363025628266,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.345980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models k-anonymity",
+      "frequency": 2,
+      "relevance_score": 0.4665878742639131,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.710957+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "knowledge-based systems",
+      "frequency": 2,
+      "relevance_score": 0.4665878742639131,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.823213+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "existing anonymization techniques",
+      "frequency": 2,
+      "relevance_score": 0.466587874263913,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.835243+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "learning ml models",
+      "frequency": 2,
+      "relevance_score": 0.466587874263913,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.847548+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy models",
+      "frequency": 13,
+      "relevance_score": 0.45782118271543504,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.696841+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "normalk2k10 k20 k50k1000",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.852739+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k20 k50k1000 500",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.853106+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k50k1000 500 550",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.853466+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "500 550 600",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.853859+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "550 600 650",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.854247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "600 650 70f1",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.854607+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "650 70f1 score",
+      "frequency": 6,
+      "relevance_score": 0.4497636227917392,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.854981+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 42,
+      "relevance_score": 0.4483453595421747,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.349473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "knowledge",
+      "frequency": 42,
+      "relevance_score": 0.4483453595421747,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.371930+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "graph",
+      "frequency": 42,
+      "relevance_score": 0.4483453595421747,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.379158+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "readmission normalk2k10 k20",
+      "frequency": 5,
+      "relevance_score": 0.44146968565978273,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.855385+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ada wai-chee fu",
+      "frequency": 5,
+      "relevance_score": 0.44146968565978273,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.865650+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymization models",
+      "frequency": 10,
+      "relevance_score": 0.4329393713195654,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.683641+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "anonymized",
+      "frequency": 40,
+      "relevance_score": 0.43175748527826163,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.349839+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 2 1",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.840383+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "jg1 j r",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.840752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1-2d 2-3d 3-5d",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.855789+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2-3d 3-5d 5-8d",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.856161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3-5d 5-8d 8-14d",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.856547+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "5-8d 8-14d 14-21d",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.856922+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "8-14d 14-21d 21-30d30",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.857292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "14-21d 21-30d30 d",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.857673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "21-30d30 d micro",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.858076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "d micro los0",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.858510+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "micro los0 50",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.858892+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "los0 50 60",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.859262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 60 70",
+      "frequency": 3,
+      "relevance_score": 0.42488181139586956,
+      "source_papers": [
+        "local/A_Review_of_Anonymization_for_Healthcare_Data"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:20.859638+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:15:20.882337+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:15:20.882535+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_privacy_compliance"
+  }
+}

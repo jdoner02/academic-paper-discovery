@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment",
+  "paper_title": "An Efficient Max-Min Resource Allocator and Task Scheduling Algorithm in Cloud Computing Environment",
+  "concepts": [
+    {
+      "text": "-min",
+      "frequency": 28,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.773060+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 74,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.773440+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 44,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.773517+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max -min",
+      "frequency": 26,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.790888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud computing",
+      "frequency": 31,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.791128+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "execution time",
+      "frequency": 23,
+      "relevance_score": 0.9651363938789088,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.792412+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max",
+      "frequency": 26,
+      "relevance_score": 0.9649367930805056,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.772984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "execution",
+      "frequency": 26,
+      "relevance_score": 0.9649367930805056,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.776977+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer",
+      "frequency": 20,
+      "relevance_score": 0.765335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.772514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tasks",
+      "frequency": 19,
+      "relevance_score": 0.7320691949434464,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.776822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "improved",
+      "frequency": 19,
+      "relevance_score": 0.7320691949434464,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.778577+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications",
+      "frequency": 18,
+      "relevance_score": 0.6988023952095809,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.772597+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource",
+      "frequency": 17,
+      "relevance_score": 0.6655355954757153,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.773136+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "improved max -min",
+      "frequency": 7,
+      "relevance_score": 0.6328675981370592,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum execution time",
+      "frequency": 10,
+      "relevance_score": 0.632667997338656,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum execution time",
+      "frequency": 10,
+      "relevance_score": 0.632667997338656,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798923+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computer applications 0975",
+      "frequency": 6,
+      "relevance_score": 0.5996007984031936,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications 0975 8887",
+      "frequency": 6,
+      "relevance_score": 0.5996007984031936,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheduling",
+      "frequency": 15,
+      "relevance_score": 0.599001996007984,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.773365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resources",
+      "frequency": 15,
+      "relevance_score": 0.599001996007984,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.775526+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 14,
+      "relevance_score": 0.5657351962741184,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.775039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "allocation",
+      "frequency": 14,
+      "relevance_score": 0.5657351962741184,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.775940+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 9,
+      "relevance_score": 0.5494011976047904,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.781823+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resource allocation",
+      "frequency": 10,
+      "relevance_score": 0.532667997338656,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.791850+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum execution",
+      "frequency": 10,
+      "relevance_score": 0.532667997338656,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.792331+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum execution",
+      "frequency": 10,
+      "relevance_score": 0.532667997338656,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.792894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "makespan",
+      "frequency": 13,
+      "relevance_score": 0.5324683965402528,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.776416+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minimum",
+      "frequency": 13,
+      "relevance_score": 0.5324683965402528,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.777448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 13,
+      "relevance_score": 0.5324683965402528,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.780210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "applications 0975",
+      "frequency": 6,
+      "relevance_score": 0.4996007984031936,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.790649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0975 8887",
+      "frequency": 6,
+      "relevance_score": 0.4996007984031936,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.790728+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 42",
+      "frequency": 6,
+      "relevance_score": 0.4996007984031936,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.790808+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service",
+      "frequency": 12,
+      "relevance_score": 0.4992015968063872,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.776503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "current max -min",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.798623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud providers 1",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.799448+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "providers 1 2",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.799522+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "traditional max -min",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800049+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cybershake 50 100",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 100 1000",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "_1000 improved -",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800434+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "improved - max-min",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "improved -max -min",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800592+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-max -min max",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-min max -min",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800742+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "max -min dataaware",
+      "frequency": 2,
+      "relevance_score": 0.4665335994677312,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.800817+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "50 100",
+      "frequency": 5,
+      "relevance_score": 0.466333998669328,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.796574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "international",
+      "frequency": 11,
+      "relevance_score": 0.4659347970725216,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.772424+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "maximum",
+      "frequency": 11,
+      "relevance_score": 0.4659347970725216,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.776900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 6,
+      "relevance_score": 0.44960079840319356,
+      "source_papers": [
+        "local/An_Efficient_Max-Min_Resource_Allocator_and_Task_Scheduling_Algorithm_in_Cloud_Computing_Environment"
+      ],
+      "source_domain": "incident_response_optimization",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:38:03.781676+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:38:03.801060+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:38:03.801240+00:00",
+    "repository_version": "1.0",
+    "domain": "incident_response_optimization"
+  }
+}

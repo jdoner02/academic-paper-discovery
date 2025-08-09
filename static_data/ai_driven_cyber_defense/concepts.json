@@ -1,0 +1,1633 @@
+{
+  "domain": "ai_driven_cyber_defense",
+  "concepts": [
+    {
+      "text": "security",
+      "total_frequency": 1926,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "learning",
+      "total_frequency": 1782,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense",
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "detection",
+      "total_frequency": 1390,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber",
+      "total_frequency": 1162,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "models",
+      "total_frequency": 1035,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "systems",
+      "total_frequency": 1014,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "system",
+      "total_frequency": 889,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici...",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacks",
+      "total_frequency": 877,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "network",
+      "total_frequency": 848,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attack",
+      "total_frequency": 784,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cybersecurity",
+      "total_frequency": 665,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "xai",
+      "total_frequency": 636,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "threat",
+      "total_frequency": 581,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "agent",
+      "total_frequency": 529,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "available",
+      "total_frequency": 528,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "features",
+      "total_frequency": 475,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machine learning",
+      "total_frequency": 474,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "intelligence",
+      "total_frequency": 470,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "machine",
+      "total_frequency": 469,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "adversarial",
+      "total_frequency": 401,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "defense",
+      "total_frequency": 379,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "llms",
+      "total_frequency": 348,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "agents",
+      "total_frequency": 339,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "threats",
+      "total_frequency": 329,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "attacker",
+      "total_frequency": 325,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "neural",
+      "total_frequency": 306,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "reinforcement learning",
+      "total_frequency": 305,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "training",
+      "total_frequency": 297,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "feature",
+      "total_frequency": 296,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2023",
+      "total_frequency": 295,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "anomaly",
+      "total_frequency": 287,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "deep",
+      "total_frequency": 284,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "code",
+      "total_frequency": 274,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "arxiv",
+      "total_frequency": 266,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "algorithms",
+      "total_frequency": 256,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "exe",
+      "total_frequency": 256,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "intrusion detection",
+      "total_frequency": 248,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "language",
+      "total_frequency": 246,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "reinforcement",
+      "total_frequency": 241,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "autonomous",
+      "total_frequency": 240,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cyber security",
+      "total_frequency": 239,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "password",
+      "total_frequency": 233,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "llm",
+      "total_frequency": 221,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "information",
+      "total_frequency": 208,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "techniques",
+      "total_frequency": 206,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "samples",
+      "total_frequency": 202,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2023 available",
+      "total_frequency": 200,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "actions",
+      "total_frequency": 199,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate...",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "action",
+      "total_frequency": 196,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "soc",
+      "total_frequency": 193,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "accuracy",
+      "total_frequency": 192,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "artificial",
+      "total_frequency": 189,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "networks",
+      "total_frequency": 182,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "threat intelligence",
+      "total_frequency": 179,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_...",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "intrusion",
+      "total_frequency": 176,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "artificial intelligence",
+      "total_frequency": 174,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+        "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "red",
+      "total_frequency": 174,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "framework",
+      "total_frequency": 172,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "process",
+      "total_frequency": 157,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+        "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici...",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "environment",
+      "total_frequency": 156,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "passwords",
+      "total_frequency": 154,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "human",
+      "total_frequency": 150,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "reasoning",
+      "total_frequency": 144,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "hunting",
+      "total_frequency": 142,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "des",
+      "total_frequency": 140,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "threat hunting",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "user",
+      "total_frequency": 138,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "policy",
+      "total_frequency": 137,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "language models",
+      "total_frequency": 135,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "cti",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "phishing",
+      "total_frequency": 131,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "nids",
+      "total_frequency": 130,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "0 0",
+      "total_frequency": 128,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "dqn",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "dropout",
+      "total_frequency": 127,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "anomaly detection",
+      "total_frequency": 126,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+        "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "iot",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+        "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+        "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "arxiv preprint arxiv",
+      "total_frequency": 125,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...",
+        "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2024",
+      "total_frequency": 122,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "864",
+      "total_frequency": 119,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "into",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+        "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+        "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "state",
+      "total_frequency": 115,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "ieee",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "deep reinforcement learning",
+      "total_frequency": 114,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+        "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+        "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "examples",
+      "total_frequency": 112,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2022",
+      "total_frequency": 108,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "2021",
+      "total_frequency": 107,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+        "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "topic",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+        "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "les",
+      "total_frequency": 106,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "classi",
+      "total_frequency": 105,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "fake",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "behavior",
+      "total_frequency": 104,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "malicious",
+      "total_frequency": 103,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+        "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "malware",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+        "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "strategy",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+        "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "service",
+      "total_frequency": 102,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "1 0",
+      "total_frequency": 100,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "une",
+      "total_frequency": 93,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate..."
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "large language models",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+        "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+        "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+        "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats"
+      ],
+      "evidence_sentences": []
+    },
+    {
+      "text": "control",
+      "total_frequency": 91,
+      "avg_relevance": 0.9,
+      "source_papers": [
+        "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience"
+      ],
+      "evidence_sentences": []
+    }
+  ],
+  "papers": {
+    "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...": {
+      "id": "local/Deepfakes__Misinformation__and_Disinformation_in_the_Era_of_Frontier_AI__Generative_AI__and_Large...",
+      "title": "Deepfakes  Misinformation  and Disinformation in the Era of Frontier AI  Generative AI  and Large...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence": {
+      "id": "local/Autonomous_Threat_Hunting__A_Future_Paradigm_for_AI-Driven_Threat_Intelligence",
+      "title": "Autonomous Threat Hunting  A Future Paradigm for AI-Driven Threat Intelligence",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI": {
+      "id": "local/Enabling_Cyber_Security_Education_through_Digital_Twins_and_Generative_AI",
+      "title": "Enabling Cyber Security Education through Digital Twins and Generative AI",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...": {
+      "id": "local/IoTWarden__A_Deep_Reinforcement_Learning_Based_Real-time_Defense_System_to_Mitigate_Trigger-actio...",
+      "title": "IoTWarden  A Deep Reinforcement Learning Based Real-time Defense System to Mitigate Trigger-actio...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion": {
+      "id": "local/NAttack__Adversarial_Attacks_to_bypass_a_GAN_based_classifier_trained_to_detect_Network_intrusion",
+      "title": "NAttack  Adversarial Attacks to bypass a GAN based classifier trained to detect Network intrusion",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...": {
+      "id": "local/Transforming_Cyber_Defense__Harnessing_Agentic_and_Frontier_AI_for_Proactive__Ethical_Threat_Inte...",
+      "title": "Transforming Cyber Defense  Harnessing Agentic and Frontier AI for Proactive  Ethical Threat Inte...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...": {
+      "id": "local/CyberLearning__Effectiveness_Analysis_of_Machine_Learning_Security_Modeling_to_Detect_Cyber-Anoma...",
+      "title": "CyberLearning  Effectiveness Analysis of Machine Learning Security Modeling to Detect Cyber-Anoma...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models": {
+      "id": "local/Generating_Fake_Cyber_Threat_Intelligence_Using_Transformer-Based_Models",
+      "title": "Generating Fake Cyber Threat Intelligence Using Transformer-Based Models",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_...": {
+      "id": "local/Generating_Cyber_Threat_Intelligence_to_Discover_Potential_Security_Threats_Using_Classification_...",
+      "title": "Generating Cyber Threat Intelligence to Discover Potential Security Threats Using Classification ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security": {
+      "id": "local/Software_Repositories_and_Machine_Learning_Research_in_Cyber_Security",
+      "title": "Software Repositories and Machine Learning Research in Cyber Security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities": {
+      "id": "local/Generative_AI_in_Cybersecurity__A_Comprehensive_Review_of_LLM_Applications_and_Vulnerabilities",
+      "title": "Generative AI in Cybersecurity  A Comprehensive Review of LLM Applications and Vulnerabilities",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense": {
+      "id": "local/Use_of_Artificial_Intelligence_Techniques___Applications_in_Cyber_Defense",
+      "title": "Use of Artificial Intelligence Techniques   Applications in Cyber Defense",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis": {
+      "id": "local/Siren_--_Advancing_Cybersecurity_through_Deception_and_Adaptive_Analysis",
+      "title": "Siren -- Advancing Cybersecurity through Deception and Adaptive Analysis",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate...": {
+      "id": "local/Adversarial_vs_behavioural-based_defensive_AI_with_joint__continual_and_active_learning__automate...",
+      "title": "Adversarial vs behavioural-based defensive AI with joint  continual and active learning  automate...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense": {
+      "id": "local/Multi-Agent_Actor-Critics_in_Autonomous_Cyber_Defense",
+      "title": "Multi-Agent Actor-Critics in Autonomous Cyber Defense",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...": {
+      "id": "local/Adaptive_Attack_Detection_in_Text_Classification__Leveraging_Space_Exploration_Features_for_Text_...",
+      "title": "Adaptive Attack Detection in Text Classification  Leveraging Space Exploration Features for Text ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI": {
+      "id": "local/A_Synergistic_Approach_In_Network_Intrusion_Detection_By_Neurosymbolic_AI",
+      "title": "A Synergistic Approach In Network Intrusion Detection By Neurosymbolic AI",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...": {
+      "id": "local/Enhancing_Phishing_Detection_through_Feature_Importance_Analysis_and_Explainable_AI__A_Comparativ...",
+      "title": "Enhancing Phishing Detection through Feature Importance Analysis and Explainable AI  A Comparativ...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection": {
+      "id": "local/Deep_Q-Learning_based_Reinforcement_Learning_Approach_for_Network_Intrusion_Detection",
+      "title": "Deep Q-Learning based Reinforcement Learning Approach for Network Intrusion Detection",
+      "pdf_url": "",
+      "concept_count": 49
+    },
+    "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection": {
+      "id": "local/Adversarial_Deep_Ensemble__Evasion_Attacks_and_Defenses_for_Malware_Detection",
+      "title": "Adversarial Deep Ensemble  Evasion Attacks and Defenses for Malware Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience": {
+      "id": "local/Reinforcement_Learning_for_Feedback-Enabled_Cyber_Resilience",
+      "title": "Reinforcement Learning for Feedback-Enabled Cyber Resilience",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning": {
+      "id": "local/secml__A_Python_Library_for_Secure_and_Explainable_Machine_Learning",
+      "title": "secml  A Python Library for Secure and Explainable Machine Learning",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Markov_Decision_Process_For_Automatic_Cyber_Defense": {
+      "id": "local/Markov_Decision_Process_For_Automatic_Cyber_Defense",
+      "title": "Markov Decision Process For Automatic Cyber Defense",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection": {
+      "id": "local/Few-shot_Weakly-supervised_Cybersecurity_Anomaly_Detection",
+      "title": "Few-shot Weakly-supervised Cybersecurity Anomaly Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...": {
+      "id": "local/algoXSSF__Detection_and_analysis_of_cross-site_request_forgery__XSRF__and_cross-site_scripting__X...",
+      "title": "algoXSSF  Detection and analysis of cross-site request forgery  XSRF  and cross-site scripting  X...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats": {
+      "id": "local/Game_Theory_Meets_LLM_and_Agentic_AI__Reimagining_Cybersecurity_for_the_Age_of_Intelligent_Threats",
+      "title": "Game Theory Meets LLM and Agentic AI  Reimagining Cybersecurity for the Age of Intelligent Threats",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees": {
+      "id": "local/Designing_Robust_Cyber-Defense_Agents_with_Evolving_Behavior_Trees",
+      "title": "Designing Robust Cyber-Defense Agents with Evolving Behavior Trees",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...": {
+      "id": "local/AI_Potentiality_and_Awareness__A_Position_Paper_from_the_Perspective_of_Human-AI_Teaming_in_Cyber...",
+      "title": "AI Potentiality and Awareness  A Position Paper from the Perspective of Human-AI Teaming in Cyber...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents": {
+      "id": "local/Out-of-Distribution_Detection_for_Neurosymbolic_Autonomous_Cyber_Agents",
+      "title": "Out-of-Distribution Detection for Neurosymbolic Autonomous Cyber Agents",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity": {
+      "id": "local/A_Survey_on_Explainable_Artificial_Intelligence_for_Cybersecurity",
+      "title": "A Survey on Explainable Artificial Intelligence for Cybersecurity",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification": {
+      "id": "local/Towards_Adversarial_Realism_and_Robust_Learning_for_IoT_Intrusion_Detection_and_Classification",
+      "title": "Towards Adversarial Realism and Robust Learning for IoT Intrusion Detection and Classification",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems": {
+      "id": "local/Review__Deep_Learning_Methods_for_Cybersecurity_and_Intrusion_Detection_Systems",
+      "title": "Review  Deep Learning Methods for Cybersecurity and Intrusion Detection Systems",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection": {
+      "id": "local/A_Hybrid_Deep_Learning_Anomaly_Detection_Framework_for_Intrusion_Detection",
+      "title": "A Hybrid Deep Learning Anomaly Detection Framework for Intrusion Detection",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation": {
+      "id": "local/Password_Strength_Detection_via_Machine_Learning__Analysis__Modeling__and_Evaluation",
+      "title": "Password Strength Detection via Machine Learning  Analysis  Modeling  and Evaluation",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense": {
+      "id": "local/Hierarchical_Multi-agent_Reinforcement_Learning_for_Cyber_Network_Defense",
+      "title": "Hierarchical Multi-agent Reinforcement Learning for Cyber Network Defense",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici...": {
+      "id": "local/Machine_Learning_for_Offensive_Security__Sandbox_Classification_Using_Decision_Trees_and_Artifici...",
+      "title": "Machine Learning for Offensive Security  Sandbox Classification Using Decision Trees and Artifici...",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Deep_Reinforcement_Learning_for_Cyber_Security": {
+      "id": "local/Deep_Reinforcement_Learning_for_Cyber_Security",
+      "title": "Deep Reinforcement Learning for Cyber Security",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning": {
+      "id": "local/Human-AI_Collaboration_in_Cloud_Security__Cognitive_Hierarchy-Driven_Deep_Reinforcement_Learning",
+      "title": "Human-AI Collaboration in Cloud Security  Cognitive Hierarchy-Driven Deep Reinforcement Learning",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks": {
+      "id": "local/Defensive_Dropout_for_Hardening_Deep_Neural_Networks_under_Adversarial_Attacks",
+      "title": "Defensive Dropout for Hardening Deep Neural Networks under Adversarial Attacks",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_": {
+      "id": "local/Autonomous_Cyber_Defense_Introduces_Risk__Can_We_Manage_the_Risk_",
+      "title": "Autonomous Cyber Defense Introduces Risk  Can We Manage the Risk ",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research": {
+      "id": "local/Explainable_Artificial_Intelligence_Applications_in_Cyber_Security__State-of-the-Art_in_Research",
+      "title": "Explainable Artificial Intelligence Applications in Cyber Security  State-of-the-Art in Research",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning": {
+      "id": "local/Automating_Privilege_Escalation_with_Deep_Reinforcement_Learning",
+      "title": "Automating Privilege Escalation with Deep Reinforcement Learning",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence": {
+      "id": "local/Using_a_Collated_Cybersecurity_Dataset_for_Machine_Learning_and_Artificial_Intelligence",
+      "title": "Using a Collated Cybersecurity Dataset for Machine Learning and Artificial Intelligence",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest": {
+      "id": "local/siForest__Detecting_Network_Anomalies_with_Set-Structured_Isolation_Forest",
+      "title": "siForest  Detecting Network Anomalies with Set-Structured Isolation Forest",
+      "pdf_url": "",
+      "concept_count": 50
+    },
+    "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms": {
+      "id": "local/Cyber_Attack_Detection_thanks_to_Machine_Learning_Algorithms",
+      "title": "Cyber Attack Detection thanks to Machine Learning Algorithms",
+      "pdf_url": "",
+      "concept_count": 50
+    }
+  },
+  "statistics": {
+    "total_concepts": 1559,
+    "total_papers": 45,
+    "avg_concepts_per_paper": 34.644444444444446
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine",
+  "paper_title": "Toward a Lightweight  Scalable  and Parallel Secure Encryption Engine",
+  "concepts": [
+    {
+      "text": "aes",
+      "frequency": 76,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.315146+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "state",
+      "frequency": 56,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.340076+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "round",
+      "frequency": 39,
+      "relevance_score": 0.9236536430834212,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.343188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pim",
+      "frequency": 36,
+      "relevance_score": 0.8602956705385427,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.314047+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 33,
+      "relevance_score": 0.7969376979936641,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.307174+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fpga",
+      "frequency": 29,
+      "relevance_score": 0.7124604012671594,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.318173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "spime",
+      "frequency": 24,
+      "relevance_score": 0.6068637803590285,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.311557+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 15,
+      "relevance_score": 0.5667898627243929,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.320733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 22,
+      "relevance_score": 0.5646251319957761,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.318025+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing",
+      "frequency": 14,
+      "relevance_score": 0.5456705385427667,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.310332+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee",
+      "frequency": 21,
+      "relevance_score": 0.54350580781415,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.368030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "128-bit",
+      "frequency": 15,
+      "relevance_score": 0.5167898627243929,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.342160+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "input",
+      "frequency": 19,
+      "relevance_score": 0.5012671594508976,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.334686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing-in-memory pim",
+      "frequency": 2,
+      "relevance_score": 0.4922386483632524,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.377508+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aes encryption process",
+      "frequency": 2,
+      "relevance_score": 0.4922386483632524,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.406677+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system clock signal",
+      "frequency": 2,
+      "relevance_score": 0.4922386483632524,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.407109+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "automata processor overlay",
+      "frequency": 2,
+      "relevance_score": 0.4922386483632524,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.412085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems ches",
+      "frequency": 2,
+      "relevance_score": 0.4922386483632524,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.412393+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "throughput",
+      "frequency": 18,
+      "relevance_score": 0.4801478352692714,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.319210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aes core",
+      "frequency": 13,
+      "relevance_score": 0.47455121436114045,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.378072+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 022 µs",
+      "frequency": 3,
+      "relevance_score": 0.46335797254487854,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.411623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 10,
+      "relevance_score": 0.46119324181626187,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.326698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "units",
+      "frequency": 17,
+      "relevance_score": 0.4590285110876452,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.314833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "core",
+      "frequency": 17,
+      "relevance_score": 0.4590285110876452,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.315301+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "logic",
+      "frequency": 17,
+      "relevance_score": 0.4590285110876452,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.328844+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "done",
+      "frequency": 17,
+      "relevance_score": 0.4590285110876452,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.338733+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "side- channel attacks",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.406386+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "finite-state machine fsm",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.406965+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "active-high synchronous reset",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.407253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "11 round keys",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.407542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "128-bit round key",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.407685+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s0 s1 s2",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.409426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 s2 s3",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.409570+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m0 m1 m2",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.409713+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m1 m2 m3",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.409857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1304 2607 2016",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2607 2016 960",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410317+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2016 960 9024",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xczu7ev-ffvc1156-2-e 230 460",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410605+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "230 460 312",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410749+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "460 312 96",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.410893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "312 96 1728",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.411037+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-end devices like",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.411331+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fixed 11-cycle sequence",
+      "frequency": 2,
+      "relevance_score": 0.44223864836325233,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.411475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "latency",
+      "frequency": 16,
+      "relevance_score": 0.437909186906019,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.323310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processing-in-memory",
+      "frequency": 4,
+      "relevance_score": 0.4344772967265048,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.313890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "embedded systems",
+      "frequency": 4,
+      "relevance_score": 0.4344772967265048,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.401194+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "round keys",
+      "frequency": 11,
+      "relevance_score": 0.4323125659978881,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.387098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 15,
+      "relevance_score": 0.4167898627243929,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.307028+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signal",
+      "frequency": 15,
+      "relevance_score": 0.4167898627243929,
+      "source_papers": [
+        "local/Toward_a_Lightweight__Scalable__and_Parallel_Secure_Encryption_Engine"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:24:53.339030+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:24:53.413415+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:24:53.413640+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

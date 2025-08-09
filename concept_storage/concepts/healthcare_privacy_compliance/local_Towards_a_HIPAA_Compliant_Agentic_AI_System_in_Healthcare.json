@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare",
+  "paper_title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+  "concepts": [
+    {
+      "text": "hipaa",
+      "frequency": 36,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.276776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phi",
+      "frequency": 53,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.282202+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 35,
+      "relevance_score": 0.9992805755395683,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.283996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agentic",
+      "frequency": 34,
+      "relevance_score": 0.9735868448098662,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.277020+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agentic ai",
+      "frequency": 30,
+      "relevance_score": 0.9708119218910587,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.326697+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "164",
+      "frequency": 27,
+      "relevance_score": 0.8937307297019527,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.296206+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agentic ai systems",
+      "frequency": 14,
+      "relevance_score": 0.8097122302158274,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.349312+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 21,
+      "relevance_score": 0.789568345323741,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.278585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 20,
+      "relevance_score": 0.763874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.282784+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "policy",
+      "frequency": 24,
+      "relevance_score": 0.7166495375128468,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.283287+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ai systems",
+      "frequency": 14,
+      "relevance_score": 0.7097122302158274,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.327443+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "healthcare",
+      "frequency": 22,
+      "relevance_score": 0.6652620760534429,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.277259+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 18,
+      "relevance_score": 0.6624871531346352,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.335272+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "clinical",
+      "frequency": 21,
+      "relevance_score": 0.639568345323741,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.279399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "health",
+      "frequency": 21,
+      "relevance_score": 0.639568345323741,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.281213+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agent",
+      "frequency": 20,
+      "relevance_score": 0.613874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.310920+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agentic ai framework",
+      "frequency": 6,
+      "relevance_score": 0.6041623843782117,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems pow- ered",
+      "frequency": 2,
+      "relevance_score": 0.6013874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.351639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access control",
+      "frequency": 15,
+      "relevance_score": 0.5854059609455293,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.330132+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "45 cfr 164",
+      "frequency": 6,
+      "relevance_score": 0.5541623843782116,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.354195+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "agentic ai system",
+      "frequency": 4,
+      "relevance_score": 0.5527749229188078,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.349081+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "45 cfr",
+      "frequency": 9,
+      "relevance_score": 0.5312435765673176,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.333224+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attribute-based access control",
+      "frequency": 5,
+      "relevance_score": 0.5284686536485097,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350709+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large language models",
+      "frequency": 3,
+      "relevance_score": 0.5270811921891059,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.349427+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ai framework",
+      "frequency": 6,
+      "relevance_score": 0.5041623843782117,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.329322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rule 45 cfr",
+      "frequency": 4,
+      "relevance_score": 0.5027749229188078,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.351985+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "164 502 b",
+      "frequency": 4,
+      "relevance_score": 0.5027749229188078,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.353501+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems pow-",
+      "frequency": 2,
+      "relevance_score": 0.5013874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.332225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language models llms",
+      "frequency": 2,
+      "relevance_score": 0.5013874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.349551+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "medical",
+      "frequency": 15,
+      "relevance_score": 0.48540596094552935,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.279568+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 15,
+      "relevance_score": 0.48540596094552935,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.284117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sanitization",
+      "frequency": 15,
+      "relevance_score": 0.48540596094552935,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.284703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hipaa-compliant agentic ai",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350249+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "45 cfr 160",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.352099+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "164 514 b",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.352680+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-inference redaction agent",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.354310+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐴𝑠 𝐴𝑜 𝐴𝑎",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.355813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "𝐴𝑜 𝐴𝑎 𝐸",
+      "frequency": 3,
+      "relevance_score": 0.47708119218910583,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.355928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "compliance",
+      "frequency": 14,
+      "relevance_score": 0.4597122302158274,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.280834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "abac",
+      "frequency": 14,
+      "relevance_score": 0.4597122302158274,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.284234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cfr 164",
+      "frequency": 6,
+      "relevance_score": 0.45416238437821166,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.339454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hipaa compliant agentic",
+      "frequency": 6,
+      "relevance_score": 0.45416238437821166,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.348850+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access control abac",
+      "frequency": 6,
+      "relevance_score": 0.45416238437821166,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350824+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ai system",
+      "frequency": 4,
+      "relevance_score": 0.45277492291880783,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.326813+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language models",
+      "frequency": 4,
+      "relevance_score": 0.45277492291880783,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.327678+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "core mechanisms attribute-based",
+      "frequency": 2,
+      "relevance_score": 0.4513874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mechanisms attribute-based access",
+      "frequency": 2,
+      "relevance_score": 0.4513874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.350594+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "privacy rule 45",
+      "frequency": 2,
+      "relevance_score": 0.4513874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.351870+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cfr 160 103",
+      "frequency": 2,
+      "relevance_score": 0.4513874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.352214+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "necessary standard 164",
+      "frequency": 2,
+      "relevance_score": 0.4513874614594039,
+      "source_papers": [
+        "local/Towards_a_HIPAA_Compliant_Agentic_AI_System_in_Healthcare"
+      ],
+      "source_domain": "healthcare_privacy_compliance",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:15:21.353266+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:15:21.357676+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:15:21.357857+00:00",
+    "repository_version": "1.0",
+    "domain": "healthcare_privacy_compliance"
+  }
+}

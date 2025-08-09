@@ -1,0 +1,208 @@
+# IoT and Smart Communities Security Research Configuration
+# Cybersecurity for Internet of Things devices, smart cities, and connected community infrastructure
+search_configuration:
+  default_strategy: "smart_city_iot_security"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational IoT security research
+    end_year: 2025      # Latest developments in smart city and IoT security
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["IoT performance optimization", "smart city economics", "urban planning technology"]   # Focus on security, not general IoT or smart city benefits
+
+strategies:
+  smart_city_iot_security:
+    name: "Smart City Infrastructure and IoT Security"
+    description: "Cybersecurity for smart city deployments, municipal IoT systems, and connected urban infrastructure including traffic management, environmental monitoring, and public services"
+    primary_keywords:
+      - "smart city cybersecurity"
+      - "smart city IoT security"
+      - "urban IoT security"
+      - "connected city security"
+      - "municipal IoT cybersecurity"
+      - "smart infrastructure security"
+    secondary_keywords:
+      - "smart traffic systems"
+      - "intelligent transportation"
+      - "smart parking security"
+      - "environmental sensors"
+      - "smart lighting security"
+      - "public WiFi security"
+      - "smart waste management"
+      - "urban sensor networks"
+    technical_terms:
+      - "sensor network security"
+      - "edge computing security"
+      - "wireless network security"
+      - "mesh network protection"
+      - "gateway security"
+      - "device authentication"
+      - "data encryption"
+      - "secure communications"
+    application_domains:
+      - "traffic management"
+      - "environmental monitoring"
+      - "public safety systems"
+      - "energy management"
+      - "waste management"
+      - "water management"
+    exclude_terms:
+      - "smart city governance"
+      - "urban development"
+      - "city planning"
+
+  iot_device_authentication_security:
+    name: "IoT Device Authentication and Access Control"
+    description: "Authentication mechanisms, access control frameworks, and identity management for IoT devices in constrained environments and large-scale deployments"
+    primary_keywords:
+      - "IoT authentication"
+      - "IoT access control"
+      - "IoT identity management"
+      - "device authentication"
+      - "IoT security protocols"
+    secondary_keywords:
+      - "lightweight authentication"
+      - "mutual authentication"
+      - "device identity"
+      - "certificate management"
+      - "key distribution"
+      - "trust establishment"
+      - "authorization frameworks"
+      - "credential management"
+    technical_terms:
+      - "public key infrastructure"
+      - "elliptic curve cryptography"
+      - "hash-based authentication"
+      - "biometric authentication"
+      - "blockchain authentication"
+      - "zero-knowledge proofs"
+      - "secure bootstrapping"
+      - "device commissioning"
+    application_domains:
+      - "industrial IoT"
+      - "consumer IoT"
+      - "healthcare IoT"
+      - "agricultural IoT"
+      - "automotive IoT"
+      - "building automation"
+    exclude_terms:
+      - "general authentication"
+      - "web authentication"
+      - "mobile authentication"
+
+  iot_network_protocol_security:
+    name: "IoT Network Protocols and Communication Security"
+    description: "Security analysis and enhancement of IoT communication protocols, network architectures, and data transmission methods for connected devices"
+    primary_keywords:
+      - "IoT protocol security"
+      - "IoT communication security"
+      - "wireless IoT security"
+      - "IoT network security"
+      - "constrained device security"
+    secondary_keywords:
+      - "CoAP security"
+      - "MQTT security"
+      - "LoRaWAN security"
+      - "Zigbee security"
+      - "6LoWPAN security"
+      - "NB-IoT security"
+      - "cellular IoT security"
+      - "mesh protocol security"
+    technical_terms:
+      - "DTLS protocol"
+      - "lightweight encryption"
+      - "message authentication"
+      - "secure routing"
+      - "network layer security"
+      - "transport layer security"
+      - "application layer security"
+      - "end-to-end encryption"
+    application_domains:
+      - "sensor networks"
+      - "actuator networks"
+      - "monitoring systems"
+      - "control systems"
+      - "home automation"
+      - "industrial automation"
+    exclude_terms:
+      - "network performance"
+      - "protocol efficiency"
+      - "quality of service"
+
+  industrial_iot_security:
+    name: "Industrial IoT and Edge Computing Security"
+    description: "Cybersecurity for Industrial Internet of Things (IIoT), edge computing platforms, and operational technology convergence in manufacturing and industrial settings"
+    primary_keywords:
+      - "industrial IoT security"
+      - "IIoT cybersecurity"
+      - "edge computing security"
+      - "industrial edge security"
+      - "OT-IT convergence security"
+    secondary_keywords:
+      - "manufacturing cybersecurity"
+      - "factory automation security"
+      - "industrial control security"
+      - "process automation"
+      - "predictive maintenance"
+      - "digital twin security"
+      - "supply chain security"
+      - "industrial data protection"
+    technical_terms:
+      - "fog computing security"
+      - "edge device management"
+      - "industrial protocols"
+      - "real-time security"
+      - "safety instrumented systems"
+      - "functional safety"
+      - "secure remote access"
+      - "virtualization security"
+    application_domains:
+      - "manufacturing plants"
+      - "chemical processes"
+      - "oil and gas"
+      - "mining operations"
+      - "automotive manufacturing"
+      - "pharmaceutical production"
+    exclude_terms:
+      - "enterprise IoT"
+      - "consumer applications"
+      - "commercial buildings"
+
+  agricultural_smart_farming_security:
+    name: "Agricultural IoT and Smart Farming Security"
+    description: "Cybersecurity for precision agriculture, smart farming systems, agricultural sensors, and farm management technologies"
+    primary_keywords:
+      - "agricultural IoT security"
+      - "smart farming cybersecurity"
+      - "precision agriculture security"
+      - "farm IoT security"
+      - "agricultural sensor security"
+    secondary_keywords:
+      - "crop monitoring security"
+      - "livestock monitoring"
+      - "irrigation system security"
+      - "farm management systems"
+      - "agricultural drones"
+      - "GPS tracking security"
+      - "weather station security"
+      - "soil sensor security"
+    technical_terms:
+      - "remote sensing security"
+      - "satellite communication"
+      - "drone communication"
+      - "field area networks"
+      - "agricultural gateways"
+      - "farm data protection"
+      - "equipment authentication"
+      - "autonomous vehicle security"
+    application_domains:
+      - "crop production"
+      - "livestock management"
+      - "greenhouse automation"
+      - "irrigation management"
+      - "farm equipment"
+      - "supply chain tracking"
+    exclude_terms:
+      - "agricultural economics"
+      - "crop science"
+      - "farming techniques"

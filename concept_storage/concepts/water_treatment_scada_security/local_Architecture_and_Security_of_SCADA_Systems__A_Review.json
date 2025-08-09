@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Architecture_and_Security_of_SCADA_Systems__A_Review",
+  "paper_title": "Architecture and Security of SCADA Systems  A Review",
+  "concepts": [
+    {
+      "text": "scada",
+      "frequency": 312,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.710248+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 211,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.723601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 162,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.725606+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 151,
+      "relevance_score": 0.9931740210576127,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.709748+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems",
+      "frequency": 77,
+      "relevance_score": 0.8054596001419615,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.364473+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 110,
+      "relevance_score": 0.7506565716313734,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.737262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system",
+      "frequency": 60,
+      "relevance_score": 0.7049035845262038,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.362474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "detection",
+      "frequency": 88,
+      "relevance_score": 0.6205252573050988,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.743394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 86,
+      "relevance_score": 0.608695137820892,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.803569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "testbed",
+      "frequency": 83,
+      "relevance_score": 0.5909499585945819,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.750998+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "physi- cal models",
+      "frequency": 4,
+      "relevance_score": 0.5736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.683135+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "full-scale physical models",
+      "frequency": 3,
+      "relevance_score": 0.5677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.681111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 53,
+      "relevance_score": 0.56349816633148,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.946778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems 3",
+      "frequency": 2,
+      "relevance_score": 0.5618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.643215+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iec 60870-5 protocol",
+      "frequency": 2,
+      "relevance_score": 0.5618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.647269+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iec 61850 protocol",
+      "frequency": 2,
+      "relevance_score": 0.5618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.655231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "loss system dam-",
+      "frequency": 2,
+      "relevance_score": 0.5618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.660197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems security",
+      "frequency": 2,
+      "relevance_score": 0.5618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.703675+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 78,
+      "relevance_score": 0.5613746598840649,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.724601+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 52,
+      "relevance_score": 0.5575831065893766,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.793516+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attack",
+      "frequency": 77,
+      "relevance_score": 0.5554596001419615,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.867234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection system",
+      "frequency": 12,
+      "relevance_score": 0.5209807169052407,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.659208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architecture",
+      "frequency": 70,
+      "relevance_score": 0.5140541819472376,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:08.709225+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control system",
+      "frequency": 9,
+      "relevance_score": 0.5032355376789306,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.631478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cyber-physical systems",
+      "frequency": 8,
+      "relevance_score": 0.4973204779368272,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.374138+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "industrial control systems",
+      "frequency": 7,
+      "relevance_score": 0.4914054181947237,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.638140+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection systems",
+      "frequency": 6,
+      "relevance_score": 0.48549035845262034,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.636997+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication protocols",
+      "frequency": 22,
+      "relevance_score": 0.48013131432627476,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.384695+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "probabilistic model-based",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.402118+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnp3 protocol",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.433426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system ics",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.631971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "modern scada systems",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.632961+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control system security",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.640247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system architecture",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.643708+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada communication protocols",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.646776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system damage malware",
+      "frequency": 4,
+      "relevance_score": 0.4736602389684136,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.661271+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection",
+      "frequency": 46,
+      "relevance_score": 0.4720927481367562,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.371039+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada s ystems",
+      "frequency": 29,
+      "relevance_score": 0.4715367325209985,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.629989+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "complex open systems",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.634449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "intrusion detection techniques",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.636469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols e g",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.656219+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "constrained application protocol",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.656712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system system damage",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.664731+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system damage financial",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.666766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software protection system",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.680618+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems international",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.692569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada control systems",
+      "frequency": 3,
+      "relevance_score": 0.4677451792263102,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.718000+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems 3",
+      "frequency": 2,
+      "relevance_score": 0.4618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.407302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system 2",
+      "frequency": 2,
+      "relevance_score": 0.4618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.420505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "60870-5 protocol",
+      "frequency": 2,
+      "relevance_score": 0.4618301194842068,
+      "source_papers": [
+        "local/Architecture_and_Security_of_SCADA_Systems__A_Review"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:09.437552+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:09.719763+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:09.719947+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

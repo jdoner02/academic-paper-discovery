@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE",
+  "paper_title": "Authenticated and Secure Automotive Service Discovery with DNSSEC and DANE",
+  "concepts": [
+    {
+      "text": "service",
+      "frequency": 110,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.561726+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnssec",
+      "frequency": 63,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.562147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dns",
+      "frequency": 53,
+      "relevance_score": 0.894483585669315,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.586475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discovery",
+      "frequency": 48,
+      "relevance_score": 0.8195323040023984,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.561938+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ip sd",
+      "frequency": 41,
+      "relevance_score": 0.8146005096687154,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.678116+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "automotive",
+      "frequency": 32,
+      "relevance_score": 0.5796882026682657,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.561513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dane",
+      "frequency": 32,
+      "relevance_score": 0.5796882026682657,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.562363+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 31,
+      "relevance_score": 0.5646979463348824,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.567389+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authenticity",
+      "frequency": 31,
+      "relevance_score": 0.5646979463348824,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.584666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 28,
+      "relevance_score": 0.5197271773347324,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.568472+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certiﬁcate",
+      "frequency": 28,
+      "relevance_score": 0.5197271773347324,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.568691+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service discovery",
+      "frequency": 20,
+      "relevance_score": 0.499805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.670254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domain name system",
+      "frequency": 3,
+      "relevance_score": 0.4949707690001499,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.722561+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ip sd protocol",
+      "frequency": 3,
+      "relevance_score": 0.4949707690001499,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.731461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name system security",
+      "frequency": 2,
+      "relevance_score": 0.47998051266676656,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.722762+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "automotive open system",
+      "frequency": 2,
+      "relevance_score": 0.47998051266676656,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.733884+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "open system architecture",
+      "frequency": 2,
+      "relevance_score": 0.47998051266676656,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.734098+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architecture consortium",
+      "frequency": 2,
+      "relevance_score": 0.47998051266676656,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.734311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "records",
+      "frequency": 25,
+      "relevance_score": 0.47475640833458255,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.587093+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 14,
+      "relevance_score": 0.4598635886673662,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.590235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "10 0 0",
+      "frequency": 3,
+      "relevance_score": 0.44497076900014987,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.728208+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certiﬁcates",
+      "frequency": 23,
+      "relevance_score": 0.44477589566781595,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.588421+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dns names- pace",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.723364+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509 public",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.723966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "509 public key",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.724168+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 5",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.728408+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id 2 byte",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.729210+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "instance id 2",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.729610+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id 2 major",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.729810+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "minor version 2",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.730010+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 20 3",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.732666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pp 1 20",
+      "frequency": 2,
+      "relevance_score": 0.4299805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.733684+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "endpoint",
+      "frequency": 21,
+      "relevance_score": 0.41479538300104934,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.589024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name system",
+      "frequency": 4,
+      "relevance_score": 0.4099610253335332,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.676235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 20,
+      "relevance_score": 0.399805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.583045+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sd protocol",
+      "frequency": 3,
+      "relevance_score": 0.39497076900014993,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.707253+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "in-vehicle",
+      "frequency": 13,
+      "relevance_score": 0.3948733323339829,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.591639+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "challenge-response",
+      "frequency": 13,
+      "relevance_score": 0.3948733323339829,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.595320+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "consumer-triggered discovery",
+      "frequency": 6,
+      "relevance_score": 0.38994153800029985,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.691276+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "id service someip",
+      "frequency": 6,
+      "relevance_score": 0.3899415380002998,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.728609+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "record",
+      "frequency": 19,
+      "relevance_score": 0.38481487033428274,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.594454+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security",
+      "frequency": 2,
+      "relevance_score": 0.3799805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.676438+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "discovery protocol",
+      "frequency": 2,
+      "relevance_score": 0.3799805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.692482+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transport protocol",
+      "frequency": 2,
+      "relevance_score": 0.3799805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.702932+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "open system",
+      "frequency": 2,
+      "relevance_score": 0.3799805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.717342+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architecture",
+      "frequency": 2,
+      "relevance_score": 0.3799805126667666,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.717542+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service instance major",
+      "frequency": 5,
+      "relevance_score": 0.3749512816669165,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.725574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "query",
+      "frequency": 18,
+      "relevance_score": 0.3698246140008994,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.616082+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "latency",
+      "frequency": 18,
+      "relevance_score": 0.3698246140008994,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.653126+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "challenge-response scheme",
+      "frequency": 4,
+      "relevance_score": 0.35996102533353325,
+      "source_papers": [
+        "local/Authenticated_and_Secure_Automotive_Service_Discovery_with_DNSSEC_and_DANE"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.679375+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:56.735057+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:56.735279+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

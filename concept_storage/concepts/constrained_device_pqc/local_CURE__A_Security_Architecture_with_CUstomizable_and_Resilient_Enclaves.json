@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves",
+  "paper_title": "CURE  A Security Architecture with CUstomizable and Resilient Enclaves",
+  "concepts": [
+    {
+      "text": "enclaves",
+      "frequency": 147,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.779383+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "enclave",
+      "frequency": 309,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.801308+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "memory",
+      "frequency": 138,
+      "relevance_score": 0.9614232209737827,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.934533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cache",
+      "frequency": 132,
+      "relevance_score": 0.9239700374531835,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.812633+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 73,
+      "relevance_score": 0.7056803995006242,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.828660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cure",
+      "frequency": 97,
+      "relevance_score": 0.7054931335830212,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.777423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d452 u1d45b u1d450",
+      "frequency": 40,
+      "relevance_score": 0.6496878901373283,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.711297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "high-performance computer systems",
+      "frequency": 3,
+      "relevance_score": 0.5687265917602996,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.693507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system bus sp2",
+      "frequency": 2,
+      "relevance_score": 0.5624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.747831+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d452 u1d45b",
+      "frequency": 40,
+      "relevance_score": 0.5496878901373283,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.450871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d45b u1d450",
+      "frequency": 40,
+      "relevance_score": 0.5496878901373283,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.451346+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d452",
+      "frequency": 55,
+      "relevance_score": 0.5433208489388265,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.033525+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacks",
+      "frequency": 71,
+      "relevance_score": 0.5431960049937578,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.813616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system bus",
+      "frequency": 30,
+      "relevance_score": 0.5372659176029962,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.390638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 67,
+      "relevance_score": 0.518227215980025,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.777950+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d45b",
+      "frequency": 49,
+      "relevance_score": 0.5058676654182273,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.033995+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d45b u1d450 u1d459",
+      "frequency": 16,
+      "relevance_score": 0.49987515605493127,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.711766+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d436 u1d452 u1d45f",
+      "frequency": 15,
+      "relevance_score": 0.49363295880149816,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.716784+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d452 u1d45f u1d461",
+      "frequency": 15,
+      "relevance_score": 0.49363295880149816,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.717254+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user-space",
+      "frequency": 47,
+      "relevance_score": 0.4933832709113608,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.902545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "hardware",
+      "frequency": 63,
+      "relevance_score": 0.4932584269662922,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.830903+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d450",
+      "frequency": 46,
+      "relevance_score": 0.4871410736579276,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.034465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni2217 uni25cb uni2217",
+      "frequency": 13,
+      "relevance_score": 0.4811485642946317,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.780740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d446 u1d452 u1d45b",
+      "frequency": 12,
+      "relevance_score": 0.4749063670411985,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.731952+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni2217 uni25cf uni2217",
+      "frequency": 12,
+      "relevance_score": 0.4749063670411985,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.783615+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "side-channel attacks",
+      "frequency": 28,
+      "relevance_score": 0.47478152309612986,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.349625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "side-channel",
+      "frequency": 44,
+      "relevance_score": 0.47465667915106113,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.813104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 system",
+      "frequency": 3,
+      "relevance_score": 0.4687265917602996,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.394951+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system resources e",
+      "frequency": 3,
+      "relevance_score": 0.4687265917602996,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.689738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d45b u1d450 u1d459and",
+      "frequency": 11,
+      "relevance_score": 0.46866416978776526,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.730426+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access",
+      "frequency": 59,
+      "relevance_score": 0.4682896379525593,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.941141+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system-on-chip soc",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.361738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user-space processes",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.469074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user-space process",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.501714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risc-v system",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.553752+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "risc-v system-on-chip",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.554750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "data-oblivious algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.590139+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems e g",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.693978+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ecosystem around cure",
+      "frequency": 2,
+      "relevance_score": 0.4624843945068664,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.707503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d436 uni210e u1d44e",
+      "frequency": 9,
+      "relevance_score": 0.4561797752808989,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.721196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uni210e u1d44e u1d456",
+      "frequency": 9,
+      "relevance_score": 0.4561797752808989,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.721699+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d44e u1d456 u1d45b",
+      "frequency": 9,
+      "relevance_score": 0.4561797752808989,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.722220+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d437 u1d452 u1d45b",
+      "frequency": 9,
+      "relevance_score": 0.4561797752808989,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.729395+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kernel-space",
+      "frequency": 41,
+      "relevance_score": 0.4559300873907616,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:21.957878+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "controlled side-channel attacks",
+      "frequency": 8,
+      "relevance_score": 0.4499375780274657,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.697520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d446 u1d456 u1d454",
+      "frequency": 8,
+      "relevance_score": 0.4499375780274657,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.718688+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d456 u1d454 u1d452",
+      "frequency": 8,
+      "relevance_score": 0.4499375780274657,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.719179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "u1d454 u1d452 u1d45b",
+      "frequency": 8,
+      "relevance_score": 0.4499375780274657,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.719682+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user-space enclaves",
+      "frequency": 24,
+      "relevance_score": 0.44981273408239697,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.382801+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cache side-channel attacks",
+      "frequency": 7,
+      "relevance_score": 0.4436953807740325,
+      "source_papers": [
+        "local/CURE__A_Security_Architecture_with_CUstomizable_and_Resilient_Enclaves"
+      ],
+      "source_domain": "constrained_device_pqc",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:22.689226+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:22.799392+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:22.799572+00:00",
+    "repository_version": "1.0",
+    "domain": "constrained_device_pqc"
+  }
+}

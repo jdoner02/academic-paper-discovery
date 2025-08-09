@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Client-side_Vulnerabilities_in_Commercial_VPNs",
+  "paper_title": "Client-side Vulnerabilities in Commercial VPNs",
+  "concepts": [
+    {
+      "text": "vpn",
+      "frequency": 234,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.572432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client",
+      "frequency": 119,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.574274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 98,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.600971+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commercial",
+      "frequency": 79,
+      "relevance_score": 0.8896841263494603,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.565119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commercial vpn",
+      "frequency": 63,
+      "relevance_score": 0.8297481007596961,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.800024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ipsec",
+      "frequency": 62,
+      "relevance_score": 0.7197520991603359,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.614396+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vpn services",
+      "frequency": 50,
+      "relevance_score": 0.6998000799680129,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.797722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 58,
+      "relevance_score": 0.6797680927628948,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.572732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commercial vpn services",
+      "frequency": 37,
+      "relevance_score": 0.6698520591763295,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.893616+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 41,
+      "relevance_score": 0.6598360655737705,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.606500+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "connection",
+      "frequency": 53,
+      "relevance_score": 0.6297880847660936,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.606815+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "point-to-point tunneling protocol",
+      "frequency": 4,
+      "relevance_score": 0.5899840063974411,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.905006+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 33,
+      "relevance_score": 0.5798680527788885,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.583067+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "point-to-point protocol ppp",
+      "frequency": 2,
+      "relevance_score": 0.5699920031987206,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.905934+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 47,
+      "relevance_score": 0.569812075169932,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.573349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attacker",
+      "frequency": 47,
+      "relevance_score": 0.569812075169932,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.585836+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 47,
+      "relevance_score": 0.569812075169932,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.587444+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 47,
+      "relevance_score": 0.569812075169932,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.592399+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l2tp ipsec",
+      "frequency": 26,
+      "relevance_score": 0.5598960415833667,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.812738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 45,
+      "relevance_score": 0.5498200719712115,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.577400+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vpn protocols",
+      "frequency": 18,
+      "relevance_score": 0.5299280287884847,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.802230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l2tp",
+      "frequency": 30,
+      "relevance_score": 0.49988004798080765,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.614100+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "common vpn protocols",
+      "frequency": 3,
+      "relevance_score": 0.4799880047980808,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.893914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tunneling protocol pptp",
+      "frequency": 3,
+      "relevance_score": 0.4799880047980808,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.905302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "accessed jan 2019",
+      "frequency": 8,
+      "relevance_score": 0.479968012794882,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.918890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "non-privileged processes",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987206,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.831503+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "point-to-point protocol",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987206,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.843357+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "eap-mschapv2 protocol",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987206,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.860355+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "socket tunneling protocol",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987205,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.907842+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tunneling protocol sstp",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987205,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.908169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key exchange protocol",
+      "frequency": 2,
+      "relevance_score": 0.4699920031987205,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.912230+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "users",
+      "frequency": 37,
+      "relevance_score": 0.46985205917632944,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.570585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pptp",
+      "frequency": 37,
+      "relevance_score": 0.46985205917632944,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.603123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "traffic",
+      "frequency": 36,
+      "relevance_score": 0.45985605757696923,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.574569+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ikev2",
+      "frequency": 25,
+      "relevance_score": 0.4499000399840064,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.629679+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "openvpn",
+      "frequency": 35,
+      "relevance_score": 0.44986005597760903,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.603709+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "known pre-shared keys",
+      "frequency": 4,
+      "relevance_score": 0.43998400639744106,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.902513+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "commercial vpn providers",
+      "frequency": 14,
+      "relevance_score": 0.4399440223910436,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.895119+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "configuration",
+      "frequency": 34,
+      "relevance_score": 0.4398640543782487,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.585189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre- shared key",
+      "frequency": 3,
+      "relevance_score": 0.42998800479808075,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.918219+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "built-in vpn client",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.896009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "26 27 57",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.896322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "built-in built-in built-in",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.897822+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "built-in openvpn softether",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.898117+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "com- mercial vpn",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.898708+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 commercial vpn",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.899750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pptp l2tp ipsec",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.901281+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "l2tp ipsec ikev2",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.901589+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "publicly known pre-shared",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.902216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "microsoft point-to-point encryption",
+      "frequency": 2,
+      "relevance_score": 0.41999200319872054,
+      "source_papers": [
+        "local/Client-side_Vulnerabilities_in_Commercial_VPNs"
+      ],
+      "source_domain": "grid_communication_network_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:07:02.906888+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:07:02.922036+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:07:02.922286+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_communication_network_security"
+  }
+}

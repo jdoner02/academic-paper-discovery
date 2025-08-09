@@ -1,0 +1,30 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-07T16:16:56.471504+00:00",
+    "strategy_name": "IoT Network Protocols and Communication Security",
+    "total_papers": 1,
+    "download_directory": "outputs/iot_smart_communities_security/iot_network_protocol_security/pdfs"
+  },
+  "papers": [
+    {
+      "title": "Securing name resolution in the IoT: DNS over CoAP",
+      "authors": [
+        "Martine S. Lenders",
+        "Christian Amsüss",
+        "Cenk Gündogan",
+        "Marcin Nawrocki",
+        "Thomas C. Schmidt",
+        "Matthias Wählisch"
+      ],
+      "abstract": "In this paper, we present the design, implementation, and analysis of DNS over CoAP (DoC), a new proposal for secure and privacy-friendly name resolution of constrained IoT devices. We implement different design choices of DoC in RIOT, an open-source operating system for the IoT, evaluate performance measures in a testbed, compare with DNS over UDP and DNS over DTLS, and validate our protocol design based on empirical DNS IoT data. Our findings indicate that plain DoC is on par with common DNS solutions for the constrained IoT but significantly outperforms when additional standard features of CoAP are used such as caching. With OSCORE, we can save more than 10 kBytes of code memory compared to DTLS, when a CoAP application is already present, and retain the end-to-end trust chain with intermediate proxies, while leveraging features such as group communication or encrypted en-route caching. We also discuss a compression scheme for very restricted links that reduces data by up to 70%.",
+      "publication_date": "2022-07-15T14:10:53+00:00",
+      "doi": "10.1145/3609423",
+      "venue": "arXiv preprint",
+      "citation_count": 0,
+      "keywords": [
+        "cs.NI"
+      ],
+      "arxiv_id": "2207.07486v3"
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type",
+  "paper_title": "An Efficient TLS 1.3 Handshake Protocol with VC Certificate Type",
+  "concepts": [
+    {
+      "text": "handshake",
+      "frequency": 72,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.629422+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls",
+      "frequency": 61,
+      "relevance_score": 0.974426605504587,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.629216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "identity",
+      "frequency": 51,
+      "relevance_score": 0.8310779816513761,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.643375+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "node",
+      "frequency": 50,
+      "relevance_score": 0.816743119266055,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.650221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 48,
+      "relevance_score": 0.7880733944954129,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.641449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 47,
+      "relevance_score": 0.7737385321100918,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.664692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509",
+      "frequency": 32,
+      "relevance_score": 0.7587155963302753,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.741990+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 handshake protocol",
+      "frequency": 14,
+      "relevance_score": 0.7506880733944954,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.778900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot",
+      "frequency": 45,
+      "relevance_score": 0.7450688073394496,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.644534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 33,
+      "relevance_score": 0.7230504587155964,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.629628+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1 3",
+      "frequency": 21,
+      "relevance_score": 0.701032110091743,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.778465+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "certificate",
+      "frequency": 39,
+      "relevance_score": 0.6590596330275229,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.629833+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "509",
+      "frequency": 32,
+      "relevance_score": 0.6587155963302752,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.642070+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "handshake protocol",
+      "frequency": 21,
+      "relevance_score": 0.6510321100917432,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.734564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3 handshake",
+      "frequency": 16,
+      "relevance_score": 0.6293577981651376,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.778683+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 36,
+      "relevance_score": 0.6160550458715597,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.641244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 3",
+      "frequency": 22,
+      "relevance_score": 0.6153669724770642,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.734152+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "client",
+      "frequency": 35,
+      "relevance_score": 0.6017201834862386,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.665520+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls 1",
+      "frequency": 21,
+      "relevance_score": 0.6010321100917432,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.733948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large-scale iot systems",
+      "frequency": 2,
+      "relevance_score": 0.5786697247706423,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.782252+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509 certificates",
+      "frequency": 12,
+      "relevance_score": 0.5720183486238533,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.781845+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "authentication",
+      "frequency": 31,
+      "relevance_score": 0.5443807339449541,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.663260+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 23,
+      "relevance_score": 0.5297018348623854,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.741376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "3 handshake",
+      "frequency": 16,
+      "relevance_score": 0.5293577981651376,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.734356+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot systems",
+      "frequency": 12,
+      "relevance_score": 0.5220183486238532,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.743074+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tls handshake protocol",
+      "frequency": 5,
+      "relevance_score": 0.5216743119266055,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.779776+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509 certificate",
+      "frequency": 8,
+      "relevance_score": 0.5146788990825688,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.782456+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "method-name method-specific-id",
+      "frequency": 4,
+      "relevance_score": 0.5073394495412844,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.753625+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dlt",
+      "frequency": 28,
+      "relevance_score": 0.5013761467889909,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.679962+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "type",
+      "frequency": 27,
+      "relevance_score": 0.4870412844036698,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.630038+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 27,
+      "relevance_score": 0.4870412844036698,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.633362+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "online available",
+      "frequency": 20,
+      "relevance_score": 0.48669724770642203,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.774250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "method-name",
+      "frequency": 9,
+      "relevance_score": 0.47901376146789,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.682231+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "method-name abcdefghi",
+      "frequency": 2,
+      "relevance_score": 0.4786697247706422,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.757505+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scale iot systems",
+      "frequency": 2,
+      "relevance_score": 0.4786697247706422,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.782864+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security tls protocol",
+      "frequency": 2,
+      "relevance_score": 0.4786697247706422,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.783887+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "509 certificates",
+      "frequency": 12,
+      "relevance_score": 0.4720183486238533,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.742203+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "method-specific-id",
+      "frequency": 8,
+      "relevance_score": 0.4646788990825689,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.682433+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "iot system",
+      "frequency": 8,
+      "relevance_score": 0.4646788990825689,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.745553+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dlt node",
+      "frequency": 18,
+      "relevance_score": 0.45802752293577986,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.762475+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "original tls 1",
+      "frequency": 4,
+      "relevance_score": 0.45733944954128436,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.786574+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 14,
+      "relevance_score": 0.45068807339449546,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.652888+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nodes",
+      "frequency": 24,
+      "relevance_score": 0.44403669724770645,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.647462+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "message",
+      "frequency": 24,
+      "relevance_score": 0.44403669724770645,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.676085+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "509 certificate chain",
+      "frequency": 3,
+      "relevance_score": 0.44300458715596325,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.788234+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "efficient tls 1",
+      "frequency": 2,
+      "relevance_score": 0.42866972477064225,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.778245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "self-sovereign identity ssi",
+      "frequency": 2,
+      "relevance_score": 0.42866972477064225,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.782048+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer 2 uses",
+      "frequency": 2,
+      "relevance_score": 0.42866972477064225,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.784703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 uses dids",
+      "frequency": 2,
+      "relevance_score": 0.42866972477064225,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.784907+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x 509 public",
+      "frequency": 2,
+      "relevance_score": 0.42866972477064225,
+      "source_papers": [
+        "local/An_Efficient_TLS_1.3_Handshake_Protocol_with_VC_Certificate_Type"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:26:13.785733+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:26:13.791995+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:26:13.792161+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

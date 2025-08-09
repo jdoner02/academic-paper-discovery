@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems",
+  "paper_title": "Towards a Layered Architectural View for Security Analysis in SCADA Systems",
+  "concepts": [
+    {
+      "text": "security",
+      "frequency": 57,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.595094+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada",
+      "frequency": 98,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.595245+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "systems",
+      "frequency": 59,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.595394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 54,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.599722+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada systems",
+      "frequency": 41,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.659030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system",
+      "frequency": 31,
+      "relevance_score": 0.9829113924050633,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.660760+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architectural",
+      "frequency": 37,
+      "relevance_score": 0.8554103715802368,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.594790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layer",
+      "frequency": 35,
+      "relevance_score": 0.8145773785218456,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.619004+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "view",
+      "frequency": 34,
+      "relevance_score": 0.7941608819926501,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.594942+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "software",
+      "frequency": 31,
+      "relevance_score": 0.7329113924050633,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.610073+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "service",
+      "frequency": 31,
+      "relevance_score": 0.7329113924050633,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.618705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architectural view",
+      "frequency": 24,
+      "relevance_score": 0.6899959167006942,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.658867+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "architecture",
+      "frequency": 27,
+      "relevance_score": 0.6512454062882809,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.600296+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "services",
+      "frequency": 25,
+      "relevance_score": 0.6104124132298897,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.609291+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "network",
+      "frequency": 24,
+      "relevance_score": 0.5899959167006942,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.623825+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layers",
+      "frequency": 22,
+      "relevance_score": 0.549162923642303,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.603130+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 17,
+      "relevance_score": 0.547080440996325,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.667918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "processes",
+      "frequency": 14,
+      "relevance_score": 0.5358309514087383,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.605893+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "communication",
+      "frequency": 21,
+      "relevance_score": 0.5287464271131074,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.618555+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system architecture",
+      "frequency": 3,
+      "relevance_score": 0.5112494895875868,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.680071+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "since scada systems",
+      "frequency": 2,
+      "relevance_score": 0.4908329930583911,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.678714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system security",
+      "frequency": 2,
+      "relevance_score": 0.4908329930583911,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.678863+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada system architectural",
+      "frequency": 2,
+      "relevance_score": 0.4908329930583911,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.680221+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "example",
+      "frequency": 19,
+      "relevance_score": 0.4879134340547162,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.611342+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architecture",
+      "frequency": 6,
+      "relevance_score": 0.4724989791751736,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.661365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control",
+      "frequency": 18,
+      "relevance_score": 0.4674969375255207,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.596305+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asset",
+      "frequency": 18,
+      "relevance_score": 0.4674969375255207,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.615910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "layered architectural view",
+      "frequency": 7,
+      "relevance_score": 0.4429154757043691,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.678246+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scada sys- tems",
+      "frequency": 2,
+      "relevance_score": 0.4408329930583912,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.679013+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "refer- ence architecture",
+      "frequency": 2,
+      "relevance_score": 0.4408329930583912,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.679615+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 9,
+      "relevance_score": 0.4337484687627603,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.608540+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "networks",
+      "frequency": 16,
+      "relevance_score": 0.4266639444671294,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.609460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocols",
+      "frequency": 8,
+      "relevance_score": 0.41333197223356477,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.609770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system security",
+      "frequency": 3,
+      "relevance_score": 0.4112494895875868,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.661216+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security processes",
+      "frequency": 3,
+      "relevance_score": 0.4112494895875868,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.662856+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "target system",
+      "frequency": 3,
+      "relevance_score": 0.4112494895875868,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.663452+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "business processes",
+      "frequency": 3,
+      "relevance_score": 0.4112494895875868,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.674703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "use",
+      "frequency": 15,
+      "relevance_score": 0.4062474479379339,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.610710+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security process",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.663304+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architectures",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.667282+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system components",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.667440+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system architectural",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.668235+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process commands",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.671376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "control systems",
+      "frequency": 2,
+      "relevance_score": 0.39083299305839114,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.676207+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "critical",
+      "frequency": 14,
+      "relevance_score": 0.38583095140873824,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.596914+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "viewpoints",
+      "frequency": 14,
+      "relevance_score": 0.38583095140873824,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.603453+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "entities",
+      "frequency": 14,
+      "relevance_score": 0.38583095140873824,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.622627+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "asset layer",
+      "frequency": 9,
+      "relevance_score": 0.38374846876276036,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.666322+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "models",
+      "frequency": 6,
+      "relevance_score": 0.37249897917517355,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.608692+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "framework",
+      "frequency": 6,
+      "relevance_score": 0.37249897917517355,
+      "source_papers": [
+        "local/Towards_a_Layered_Architectural_View_for_Security_Analysis_in_SCADA_Systems"
+      ],
+      "source_domain": "water_treatment_scada_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:27:03.622474+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:27:03.683592+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:27:03.683762+00:00",
+    "repository_version": "1.0",
+    "domain": "water_treatment_scada_security"
+  }
+}

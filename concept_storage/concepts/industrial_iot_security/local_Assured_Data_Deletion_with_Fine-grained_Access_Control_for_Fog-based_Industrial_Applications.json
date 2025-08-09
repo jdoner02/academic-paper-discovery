@@ -1,0 +1,610 @@
+{
+  "paper_doi": "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications",
+  "paper_title": "Assured Data Deletion with Fine-grained Access Control for Fog-based Industrial Applications",
+  "concepts": [
+    {
+      "text": "access",
+      "frequency": 81,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.113947+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 82,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.127524+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "deletion",
+      "frequency": 73,
+      "relevance_score": 0.9711217183770883,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.113419+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fog",
+      "frequency": 68,
+      "relevance_score": 0.9114558472553699,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.118233+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart",
+      "frequency": 53,
+      "relevance_score": 0.7324582338902148,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.156188+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciphertext",
+      "frequency": 50,
+      "relevance_score": 0.6966587112171837,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.164228+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "smart object",
+      "frequency": 40,
+      "relevance_score": 0.6773269689737471,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.273121+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cloud",
+      "frequency": 41,
+      "relevance_score": 0.5892601431980907,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.117693+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attributes",
+      "frequency": 41,
+      "relevance_score": 0.5892601431980907,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.163404+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "access structure",
+      "frequency": 32,
+      "relevance_score": 0.5818615751789976,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.268091+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "object",
+      "frequency": 40,
+      "relevance_score": 0.577326968973747,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.189164+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "computing",
+      "frequency": 39,
+      "relevance_score": 0.5653937947494033,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.117968+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "encryption",
+      "frequency": 39,
+      "relevance_score": 0.5653937947494033,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.130075+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fog device",
+      "frequency": 29,
+      "relevance_score": 0.5460620525059666,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.272860+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 24,
+      "relevance_score": 0.5363961813842483,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.128286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 22,
+      "relevance_score": 0.5125298329355609,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.172084+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 33,
+      "relevance_score": 0.49379474940334134,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.125480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "users",
+      "frequency": 33,
+      "relevance_score": 0.49379474940334134,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.159111+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "structure",
+      "frequency": 33,
+      "relevance_score": 0.49379474940334134,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.163918+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 32,
+      "relevance_score": 0.48186157517899764,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.120751+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attribute-based encryption",
+      "frequency": 15,
+      "relevance_score": 0.4789976133651551,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.262539+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system ieee transactions",
+      "frequency": 2,
+      "relevance_score": 0.47386634844868736,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.357738+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "insulin pump system",
+      "frequency": 2,
+      "relevance_score": 0.47386634844868736,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.362026+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "device",
+      "frequency": 31,
+      "relevance_score": 0.46992840095465394,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.134890+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁne-grained access control",
+      "frequency": 5,
+      "relevance_score": 0.4596658711217184,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.338334+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g g",
+      "frequency": 13,
+      "relevance_score": 0.45513126491646777,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.341927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "decisional q-parallel bdhe",
+      "frequency": 4,
+      "relevance_score": 0.4477326968973747,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.342673+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g aq 1s",
+      "frequency": 4,
+      "relevance_score": 0.4477326968973747,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.343432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q-parallel bdhe assumption",
+      "frequency": 4,
+      "relevance_score": 0.4477326968973747,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.343928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "policy attribute-based encryption",
+      "frequency": 4,
+      "relevance_score": 0.4477326968973747,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.346439+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "assured",
+      "frequency": 29,
+      "relevance_score": 0.44606205250596664,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.113144+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "user",
+      "frequency": 29,
+      "relevance_score": 0.44606205250596664,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.164727+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fc c0 fci",
+      "frequency": 3,
+      "relevance_score": 0.435799522673031,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.351433+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fog-based industrial applications",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.336387+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "achieve ﬁne- grained",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.338576+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ﬁne- grained access",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.338847+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e h1 h2",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.341666+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q-parallel bdhe problem",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.342926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "f1 2 lg",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.344926+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "igi2iare valid shares",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.345169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 0 0",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.345423+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 0 0",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.345670+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attribute-based encryption scheme",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.345927+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "attribute-based encryption schemes",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.346178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciphertext- policy attribute-based",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.347178+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure ﬁne-grained access",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.348179+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "length messages m0",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.349189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "phase 1 guess",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.349442+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ciphertext-policy attribute-based encryption",
+      "frequency": 2,
+      "relevance_score": 0.4238663484486873,
+      "source_papers": [
+        "local/Assured_Data_Deletion_with_Fine-grained_Access_Control_for_Fog-based_Industrial_Applications"
+      ],
+      "source_domain": "industrial_iot_security",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:17:16.349940+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:17:16.368198+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 49,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 49
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:17:16.368367+00:00",
+    "repository_version": "1.0",
+    "domain": "industrial_iot_security"
+  }
+}

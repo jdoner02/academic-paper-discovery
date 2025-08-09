@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont...",
+  "paper_title": "Algorithm for Computing Approximate Nash Equilibrium in Continuous Games with Application to Cont...",
+  "concepts": [
+    {
+      "text": "games",
+      "frequency": 81,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.161982+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "game",
+      "frequency": 69,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.163794+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategy",
+      "frequency": 61,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.164664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "strategies",
+      "frequency": 63,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.168980+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player",
+      "frequency": 80,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.182834+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous",
+      "frequency": 46,
+      "relevance_score": 0.8170693686671863,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.161795+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 t",
+      "frequency": 31,
+      "relevance_score": 0.7832424006235386,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.281663+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o q",
+      "frequency": 36,
+      "relevance_score": 0.7611847233047544,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.275226+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "equilibrium",
+      "frequency": 37,
+      "relevance_score": 0.6767731878409976,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.161608+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player 1",
+      "frequency": 24,
+      "relevance_score": 0.6741231488698364,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.273494+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nash equilibrium",
+      "frequency": 30,
+      "relevance_score": 0.6676539360872955,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.251571+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s2 o q",
+      "frequency": 15,
+      "relevance_score": 0.6338269680436477,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.312274+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t 1",
+      "frequency": 21,
+      "relevance_score": 0.6273577552611068,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.281851+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "nash",
+      "frequency": 32,
+      "relevance_score": 0.5988308651597818,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.161420+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blotto",
+      "frequency": 32,
+      "relevance_score": 0.5988308651597818,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.162354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player 2",
+      "frequency": 19,
+      "relevance_score": 0.5961808261886204,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.273871+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q s2 o",
+      "frequency": 12,
+      "relevance_score": 0.5870615744349181,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.312087+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v 1 t",
+      "frequency": 12,
+      "relevance_score": 0.5870615744349181,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.318664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q s2",
+      "frequency": 16,
+      "relevance_score": 0.5494154325798909,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.276566+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "blotto game",
+      "frequency": 22,
+      "relevance_score": 0.54294621979735,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.255330+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "best response",
+      "frequency": 22,
+      "relevance_score": 0.54294621979735,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.280910+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s2 o",
+      "frequency": 15,
+      "relevance_score": 0.5338269680436477,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.276754+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms",
+      "frequency": 18,
+      "relevance_score": 0.5305923616523772,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.163196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 q s2",
+      "frequency": 8,
+      "relevance_score": 0.5247077162899454,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.311899+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mixed",
+      "frequency": 27,
+      "relevance_score": 0.5208885424785659,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.179469+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "v 1",
+      "frequency": 13,
+      "relevance_score": 0.5026500389711613,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.283928+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "multi-agent systems",
+      "frequency": 3,
+      "relevance_score": 0.4967653936087296,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.300732+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "continuous games",
+      "frequency": 19,
+      "relevance_score": 0.49618082618862047,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.251759+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "two-player zero-sum games",
+      "frequency": 6,
+      "relevance_score": 0.493530787217459,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.307083+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player 2 s",
+      "frequency": 6,
+      "relevance_score": 0.493530787217459,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.314904+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 t 1",
+      "frequency": 6,
+      "relevance_score": 0.493530787217459,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.318853+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t 1 t",
+      "frequency": 6,
+      "relevance_score": 0.493530787217459,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.320175+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "player 1 s",
+      "frequency": 6,
+      "relevance_score": 0.493530787217459,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.321750+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pure",
+      "frequency": 25,
+      "relevance_score": 0.4897116134060795,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.164460+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s1 q",
+      "frequency": 12,
+      "relevance_score": 0.48706157443491815,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.276378+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public release distribution",
+      "frequency": 12,
+      "relevance_score": 0.48706157443491815,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.309619+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "release distribution unlimited",
+      "frequency": 12,
+      "relevance_score": 0.48706157443491815,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.309821+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms 2",
+      "frequency": 2,
+      "relevance_score": 0.48117692907248644,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.271203+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 t 1",
+      "frequency": 5,
+      "relevance_score": 0.47794232268121584,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.317349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t v 1",
+      "frequency": 5,
+      "relevance_score": 0.47794232268121584,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.320368+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vo q",
+      "frequency": 17,
+      "relevance_score": 0.46500389711613405,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.277704+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vo q ifs1",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.313402+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "q ifs1 q",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.313590+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ifs1 q s2",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.313778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "o q 0",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.313966+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 t t",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.316030+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t t 1",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.316220+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mix s2 0",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.316973+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s2 0 t",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.317161+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mix s1 0",
+      "frequency": 4,
+      "relevance_score": 0.46235385814497276,
+      "source_papers": [
+        "local/Algorithm_for_Computing_Approximate_Nash_Equilibrium_in_Continuous_Games_with_Application_to_Cont..."
+      ],
+      "source_domain": "cybersecurity_game_theory",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:36:02.317912+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:36:02.331313+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:36:02.331593+00:00",
+    "repository_version": "1.0",
+    "domain": "cybersecurity_game_theory"
+  }
+}

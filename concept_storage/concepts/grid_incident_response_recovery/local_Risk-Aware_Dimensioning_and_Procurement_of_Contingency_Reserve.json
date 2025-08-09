@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve",
+  "paper_title": "Risk-Aware Dimensioning and Procurement of Contingency Reserve",
+  "concepts": [
+    {
+      "text": "contingency",
+      "frequency": 102,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.073104+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "reserve",
+      "frequency": 99,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.073459+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t c",
+      "frequency": 111,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.298929+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g t",
+      "frequency": 75,
+      "relevance_score": 0.9579585649317837,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.299783+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "power",
+      "frequency": 71,
+      "relevance_score": 0.8175341081354219,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.097268+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 55,
+      "relevance_score": 0.8058362809499747,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.076771+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generator",
+      "frequency": 68,
+      "relevance_score": 0.7872157655381505,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.082239+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scuc",
+      "frequency": 57,
+      "relevance_score": 0.6760485093481555,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.079638+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g t c",
+      "frequency": 37,
+      "relevance_score": 0.6739262253663466,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.443079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-contingency system states",
+      "frequency": 4,
+      "relevance_score": 0.5904244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.446123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fij t",
+      "frequency": 37,
+      "relevance_score": 0.5739262253663466,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.295297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post- contingency system",
+      "frequency": 2,
+      "relevance_score": 0.5702122283981809,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.449343+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fij t c",
+      "frequency": 23,
+      "relevance_score": 0.5324406265790804,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.444354+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ij t c",
+      "frequency": 21,
+      "relevance_score": 0.5122283981808995,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.442788+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 g t",
+      "frequency": 10,
+      "relevance_score": 0.5010611419909045,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.487877+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contingencies",
+      "frequency": 39,
+      "relevance_score": 0.4941384537645276,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.076147+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k g t",
+      "frequency": 19,
+      "relevance_score": 0.49201616978271856,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.487007+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "post-contingency system",
+      "frequency": 4,
+      "relevance_score": 0.4904244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.315150+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "independent system operator",
+      "frequency": 4,
+      "relevance_score": 0.4904244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.448724+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "california independent system",
+      "frequency": 3,
+      "relevance_score": 0.48031834259727135,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.448437+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system operator caiso",
+      "frequency": 3,
+      "relevance_score": 0.48031834259727135,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.449024+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "fij",
+      "frequency": 37,
+      "relevance_score": 0.47392622536634665,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.096668+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t c 0",
+      "frequency": 7,
+      "relevance_score": 0.47074279939363317,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.471497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "c2c fij t",
+      "frequency": 7,
+      "relevance_score": 0.47074279939363317,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.495805+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pre-contingency system",
+      "frequency": 2,
+      "relevance_score": 0.4702122283981809,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.323585+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "real-world systems",
+      "frequency": 2,
+      "relevance_score": 0.4702122283981809,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.361493+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "contingency system states",
+      "frequency": 2,
+      "relevance_score": 0.4702122283981809,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.449629+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "generators",
+      "frequency": 36,
+      "relevance_score": 0.4638201111672562,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.087746+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rk 1 g",
+      "frequency": 6,
+      "relevance_score": 0.4606366851945427,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.487583+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "0 510 15",
+      "frequency": 6,
+      "relevance_score": 0.4606366851945427,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.506848+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "510 15 20",
+      "frequency": 6,
+      "relevance_score": 0.4606366851945427,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.507162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "cost",
+      "frequency": 35,
+      "relevance_score": 0.4537139969681657,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.094544+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security-constrained unit commitment",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.435902+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 ug t",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.457546+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g t 1",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.464778+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k x g2gk",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.478077+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x g2gk g",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.478367+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g2gk g t",
+      "frequency": 5,
+      "relevance_score": 0.45053057099545224,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.478651+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ij t",
+      "frequency": 24,
+      "relevance_score": 0.4425467407781708,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.302637+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e g",
+      "frequency": 24,
+      "relevance_score": 0.4425467407781708,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.317841+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ieee trans power",
+      "frequency": 14,
+      "relevance_score": 0.4414855987872663,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.519321+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "trans power syst",
+      "frequency": 14,
+      "relevance_score": 0.4414855987872663,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.519623+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t r10 g",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.465721+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g t c2",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.479222+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x k2n ptdf",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.483005+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k2n ptdf ij",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.483292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t cug tr10",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.485005+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "k 1 g",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.488160+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t c r10g",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.490143+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "x c2c fij",
+      "frequency": 4,
+      "relevance_score": 0.4404244567963618,
+      "source_papers": [
+        "local/Risk-Aware_Dimensioning_and_Procurement_of_Contingency_Reserve"
+      ],
+      "source_domain": "grid_incident_response_recovery",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:03:58.497348+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:03:58.524198+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:03:58.524379+00:00",
+    "repository_version": "1.0",
+    "domain": "grid_incident_response_recovery"
+  }
+}

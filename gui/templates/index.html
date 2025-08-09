@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Concept Explorer - Discover Academic Knowledge Landscapes</title>
+    
+    <!-- Enhanced meta tags for academic context -->
+    <meta name="description" content="Interactive tool for exploring research concept hierarchies and literature landscapes in academic papers">
+    <meta name="author" content="Academic Research Tools">
+    <meta name="keywords" content="research, academic, literature review, concept mapping, knowledge discovery">
+    
+    <!-- Professional academic styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    
+    <!-- Enhanced D3.js and visualization libraries -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-hierarchy@3"></script>
+    
+    <!-- Bootstrap 5 with custom academic theme -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Professional icons and fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Professional Academic Header -->
+    <header class="academic-header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <!-- Enhanced branding with academic credibility -->
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <div class="brand-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="brand-text">
+                        <div class="brand-title">Research Concept Explorer</div>
+                        <div class="brand-subtitle">Academic Knowledge Discovery</div>
+                    </div>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/" aria-current="page">
+                                <i class="fas fa-compass me-2"></i>Explore
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/onboarding">
+                                <i class="fas fa-route me-2"></i>Quick Start
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/methodology">
+                                <i class="fas fa-microscope me-2"></i>Methodology
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/help">
+                                <i class="fas fa-question-circle me-2"></i>Help & Support
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Status and metadata display -->
+                    <div class="navbar-status">
+                        <div class="status-item">
+                            <i class="fas fa-database me-1"></i>
+                            <span class="status-number">{{ total_papers or 0 }}</span>
+                            <span class="status-label">Papers</span>
+                        </div>
+                        <div class="status-item">
+                            <i class="fas fa-sitemap me-1"></i>
+                            <span class="status-number">{{ total_concepts or 0 }}</span>
+                            <span class="status-label">Concepts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Application Container -->
+    <main class="main-container">
+        <!-- User Journey Progress Indicator -->
+        <div class="journey-progress">
+            <div class="container-fluid">
+                <div class="progress-steps">
+                    <div class="step completed" data-step="1">
+                        <div class="step-icon"><i class="fas fa-upload"></i></div>
+                        <div class="step-label">Load Papers</div>
+                    </div>
+                    <div class="step active" data-step="2">
+                        <div class="step-icon"><i class="fas fa-eye"></i></div>
+                        <div class="step-label">Explore Concepts</div>
+                    </div>
+                    <div class="step" data-step="3">
+                        <div class="step-icon"><i class="fas fa-search"></i></div>
+                        <div class="step-label">Examine Evidence</div>
+                    </div>
+                    <div class="step" data-step="4">
+                        <div class="step-icon"><i class="fas fa-download"></i></div>
+                        <div class="step-label">Export Results</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row main-layout">
+                <!-- Enhanced Control Panel with Progressive Disclosure -->
+                <aside class="col-xl-3 col-lg-4 control-panel">
+                    <!-- Research Domain Selection -->
+                    <div class="control-card primary-card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-globe-americas me-2"></i>
+                                Research Domain
+                            </h3>
+                            <p class="card-subtitle">Choose your area of investigation</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="domain-selector">
+                                <label for="domainSelect" class="form-label">Available Domains:</label>
+                                <select class="form-select enhanced-select" id="domainSelect" aria-describedby="domainHelp">
+                                    <option value="">Select a research domain...</option>
+                                    {% for domain in domains %}
+                                    <option value="{{ domain }}" 
+                                            data-papers="{{ domain_stats[domain].papers if domain_stats else 0 }}"
+                                            data-concepts="{{ domain_stats[domain].concepts if domain_stats else 0 }}">
+                                        {{ domain.replace('_', ' ').title() }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                                <div id="domainHelp" class="form-text">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    Each domain contains extracted concepts from multiple research papers
+                                </div>
+                            </div>
+                            
+                            <!-- Domain Statistics Preview -->
+                            <div class="domain-preview" id="domainPreview" style="display: none;">
+                                <div class="preview-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-number" id="previewPapers">0</span>
+                                        <span class="stat-label">Research Papers</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number" id="previewConcepts">0</span>
+                                        <span class="stat-label">Unique Concepts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visualization Method Selection -->
+                    <div class="control-card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-chart-network me-2"></i>
+                                Visualization Method
+                            </h3>
+                            <p class="card-subtitle">How would you like to explore?</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="visualization-options">
+                                <div class="viz-option" data-type="sunburst">
+                                    <input type="radio" name="vizType" id="sunburst" value="sunburst" checked class="viz-radio">
+                                    <label for="sunburst" class="viz-label">
+                                        <div class="viz-icon">
+                                            <i class="fas fa-sun"></i>
+                                        </div>
+                                        <div class="viz-content">
+                                            <div class="viz-title">Sunburst Chart</div>
+                                            <div class="viz-description">Hierarchical exploration with zoom capabilities</div>
+                                            <div class="viz-best-for">
+                                                <strong>Best for:</strong> Understanding concept hierarchies
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                
+                                <div class="viz-option" data-type="treemap">
+                                    <input type="radio" name="vizType" id="treemap" value="treemap" class="viz-radio">
+                                    <label for="treemap" class="viz-label">
+                                        <div class="viz-icon">
+                                            <i class="fas fa-th-large"></i>
+                                        </div>
+                                        <div class="viz-content">
+                                            <div class="viz-title">Treemap</div>
+                                            <div class="viz-description">Area-based concept importance</div>
+                                            <div class="viz-best-for">
+                                                <strong>Best for:</strong> Comparing concept significance
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                
+                                <div class="viz-option" data-type="network">
+                                    <input type="radio" name="vizType" id="network" value="network" class="viz-radio">
+                                    <label for="network" class="viz-label">
+                                        <div class="viz-icon">
+                                            <i class="fas fa-project-diagram"></i>
+                                        </div>
+                                        <div class="viz-content">
+                                            <div class="viz-title">Network Graph</div>
+                                            <div class="viz-description">Relationship-focused exploration</div>
+                                            <div class="viz-best-for">
+                                                <strong>Best for:</strong> Discovering connections
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Filters (Collapsible) -->
+                    <div class="control-card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-sliders-h me-2"></i>
+                                Filter Options
+                            </h3>
+                            <button class="btn btn-sm btn-outline-secondary collapse-toggle" 
+                                    data-bs-toggle="collapse" data-bs-target="#advancedFilters"
+                                    aria-expanded="false" aria-controls="advancedFilters">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="collapse" id="advancedFilters">
+                            <div class="card-body">
+                                <!-- Confidence Level Filter -->
+                                <div class="filter-group">
+                                    <label for="confidenceRange" class="form-label">
+                                        Minimum Confidence Level: <span id="confidenceValue">0.5</span>
+                                    </label>
+                                    <input type="range" class="form-range" id="confidenceRange" 
+                                           min="0" max="1" step="0.1" value="0.5">
+                                    <div class="form-text">
+                                        Higher values show only well-supported concepts
+                                    </div>
+                                </div>
+                                
+                                <!-- Hierarchy Depth Filter -->
+                                <div class="filter-group">
+                                    <label for="depthRange" class="form-label">
+                                        Maximum Hierarchy Depth: <span id="depthValue">3</span>
+                                    </label>
+                                    <input type="range" class="form-range" id="depthRange" 
+                                           min="1" max="5" step="1" value="3">
+                                    <div class="form-text">
+                                        Control visualization complexity
+                                    </div>
+                                </div>
+                                
+                                <!-- Concept Size Filter -->
+                                <div class="filter-group">
+                                    <label for="conceptSearch" class="form-label">Search Concepts:</label>
+                                    <input type="text" class="form-control" id="conceptSearch" 
+                                           placeholder="Type to filter concepts...">
+                                    <div class="form-text">
+                                        Real-time search and highlighting
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="control-card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-bolt me-2"></i>
+                                Quick Actions
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" id="loadSampleData">
+                                    <i class="fas fa-play me-2"></i>
+                                    Load Sample Data
+                                </button>
+                                <button class="btn btn-outline-primary" id="resetView">
+                                    <i class="fas fa-home me-2"></i>
+                                    Reset View
+                                </button>
+                                <button class="btn btn-outline-secondary" id="exportResults">
+                                    <i class="fas fa-download me-2"></i>
+                                    Export Results
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Main Visualization Area -->
+                <div class="col-xl-6 col-lg-8 visualization-area">
+                    <!-- Visualization Header with Context -->
+                    <div class="viz-header">
+                        <div class="viz-title-section">
+                            <h1 class="viz-title">Concept Landscape</h1>
+                            <p class="viz-subtitle" id="currentDomainTitle">
+                                Select a research domain to begin exploration
+                            </p>
+                        </div>
+                        
+                        <!-- Visualization Controls -->
+                        <div class="viz-controls">
+                            <div class="btn-group" role="group" aria-label="Visualization controls">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="zoomIn" title="Zoom In">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="zoomOut" title="Zoom Out">
+                                    <i class="fas fa-search-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="centerView" title="Center View">
+                                    <i class="fas fa-compress-arrows-alt"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="fullscreen" title="Fullscreen">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Visualization Container -->
+                    <div class="visualization-container">
+                        <div id="visualization" class="d3-visualization">
+                            <!-- Loading State -->
+                            <div class="loading-state" id="loadingState">
+                                <div class="loading-content">
+                                    <div class="loading-spinner">
+                                        <i class="fas fa-circle-notch fa-spin"></i>
+                                    </div>
+                                    <h3>Analyzing Research Concepts</h3>
+                                    <p>Processing hierarchical relationships and evidence...</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                                             role="progressbar" style="width: 0%" id="loadingProgress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Empty State -->
+                            <div class="empty-state" id="emptyState">
+                                <div class="empty-content">
+                                    <div class="empty-icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <h3>Ready to Explore</h3>
+                                    <p>Select a research domain from the panel to begin discovering concept relationships and evidence.</p>
+                                    <button class="btn btn-primary" onclick="document.getElementById('loadSampleData').click()">
+                                        <i class="fas fa-rocket me-2"></i>
+                                        Try Sample Data
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Error State -->
+                            <div class="error-state" id="errorState" style="display: none;">
+                                <div class="error-content">
+                                    <div class="error-icon">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </div>
+                                    <h3>Visualization Error</h3>
+                                    <p id="errorMessage">Something went wrong loading the visualization.</p>
+                                    <button class="btn btn-outline-primary" onclick="location.reload()">
+                                        <i class="fas fa-refresh me-2"></i>
+                                        Retry
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Actual D3.js visualization will be inserted here -->
+                            <svg id="mainVisualization" style="display: none;"></svg>
+                        </div>
+                        
+                        <!-- Visualization Legend -->
+                        <div class="viz-legend" id="vizLegend" style="display: none;">
+                            <h5>Legend</h5>
+                            <div class="legend-items">
+                                <!-- Dynamic legend items will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evidence & Details Panel -->
+                <div class="col-xl-3 col-lg-12 details-panel">
+                    <!-- Concept Details Card -->
+                    <div class="details-card" id="conceptDetails" style="display: none;">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-info-circle me-2"></i>
+                                Concept Details
+                            </h3>
+                            <button class="btn btn-sm btn-outline-secondary close-details" onclick="hideConceptDetails()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div class="concept-info">
+                                <h4 id="selectedConceptTitle">-</h4>
+                                <div class="concept-metadata">
+                                    <div class="metadata-item">
+                                        <span class="metadata-label">Confidence:</span>
+                                        <span class="metadata-value" id="conceptConfidence">-</span>
+                                    </div>
+                                    <div class="metadata-item">
+                                        <span class="metadata-label">Evidence Count:</span>
+                                        <span class="metadata-value" id="evidenceCount">-</span>
+                                    </div>
+                                    <div class="metadata-item">
+                                        <span class="metadata-label">Hierarchy Level:</span>
+                                        <span class="metadata-value" id="conceptLevel">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Evidence Sentences -->
+                            <div class="evidence-section">
+                                <h5>Supporting Evidence</h5>
+                                <div id="evidenceList" class="evidence-list">
+                                    <!-- Evidence items will be populated dynamically -->
+                                </div>
+                            </div>
+                            
+                            <!-- Related Concepts -->
+                            <div class="related-section">
+                                <h5>Related Concepts</h5>
+                                <div id="relatedConcepts" class="related-list">
+                                    <!-- Related concepts will be populated dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Help and Tips Card -->
+                    <div class="help-card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-question-circle me-2"></i>
+                                Exploration Tips
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="help-content">
+                                <div class="tip-item">
+                                    <div class="tip-icon"><i class="fas fa-mouse-pointer"></i></div>
+                                    <div class="tip-text">
+                                        <strong>Click</strong> any concept to view detailed evidence and relationships
+                                    </div>
+                                </div>
+                                <div class="tip-item">
+                                    <div class="tip-icon"><i class="fas fa-search-plus"></i></div>
+                                    <div class="tip-text">
+                                        <strong>Zoom</strong> using mouse wheel or control buttons for deeper exploration
+                                    </div>
+                                </div>
+                                <div class="tip-item">
+                                    <div class="tip-icon"><i class="fas fa-filter"></i></div>
+                                    <div class="tip-text">
+                                        <strong>Filter</strong> by confidence level to focus on well-supported concepts
+                                    </div>
+                                </div>
+                                <div class="tip-item">
+                                    <div class="tip-icon"><i class="fas fa-link"></i></div>
+                                    <div class="tip-text">
+                                        <strong>Follow</strong> evidence links to read original paper sources
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="academic-footer">
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>About This Tool</h5>
+                    <p>Research Concept Explorer uses advanced natural language processing to extract and visualize concept hierarchies from academic literature.</p>
+                </div>
+                <div class="footer-section">
+                    <h5>Methodology</h5>
+                    <ul>
+                        <li><a href="/methodology">Extraction Methods</a></li>
+                        <li><a href="/methodology#validation">Validation Process</a></li>
+                        <li><a href="/methodology#transparency">Transparency Report</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="/help">User Guide</a></li>
+                        <li><a href="/help#faq">FAQ</a></li>
+                        <li><a href="mailto:support@example.com">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-meta">
+                        <p>&copy; 2025 Research Concept Explorer. Built for academic research.</p>
+                        <p>Version 1.0 | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Use</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modular JavaScript Architecture for Academic Research Interface -->
+    <!-- Load modules in dependency order -->
+    <script src="{{ url_for('static', filename='js/modules/accessibility-manager.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/filter-manager.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/academic-ui-core.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/academic-research-ui.js') }}"></script>
+    
+    <!-- Legacy modules (to be refactored) -->
+    <script src="{{ url_for('static', filename='js/concept-visualization.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/evidence-explorer.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/research-dashboard.js') }}"></script>
+    
+    <!-- Application Initialization -->
+    <script>
+        // Enhanced academic research interface with full module composition
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🎓 Initializing Academic Research Interface...');
+            
+            // The AcademicResearchUI will auto-initialize and compose all modules
+            // No manual initialization needed - the controller handles everything
+            
+            console.log('✅ Academic Research Interface ready for scholarly exploration');
+        });
+    </script>
+</body>
+</html>

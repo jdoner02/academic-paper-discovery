@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC",
+  "paper_title": "Security of the DNS Protocol - Implementation and Weaknesses Analyses of DNSSEC",
+  "concepts": [
+    {
+      "text": "dns",
+      "frequency": 58,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.289297+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnssec",
+      "frequency": 43,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.289736+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name",
+      "frequency": 34,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.291611+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 35,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.292763+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zone",
+      "frequency": 42,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.299411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "record",
+      "frequency": 31,
+      "relevance_score": 0.9573008849557522,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.308937+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "server",
+      "frequency": 28,
+      "relevance_score": 0.8743362831858407,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.295931+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "protocol",
+      "frequency": 20,
+      "relevance_score": 0.8030973451327433,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.289411+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dns protocol",
+      "frequency": 9,
+      "relevance_score": 0.5988938053097346,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.317370+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "security",
+      "frequency": 17,
+      "relevance_score": 0.5701327433628319,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.289173+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file",
+      "frequency": 17,
+      "relevance_score": 0.5701327433628319,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.296478+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "records",
+      "frequency": 16,
+      "relevance_score": 0.5424778761061947,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.308205+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domain name system",
+      "frequency": 2,
+      "relevance_score": 0.5053097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325365+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnssec protocol",
+      "frequency": 5,
+      "relevance_score": 0.48827433628318584,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.318948+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signature",
+      "frequency": 14,
+      "relevance_score": 0.4871681415929203,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.309876+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnssec-keygen -a rsasha1",
+      "frequency": 2,
+      "relevance_score": 0.4553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325984+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-a rsasha1 -b",
+      "frequency": 2,
+      "relevance_score": 0.4553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326086+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rsasha1 -b 2000",
+      "frequency": 2,
+      "relevance_score": 0.4553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326189+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-b 2000 -n",
+      "frequency": 2,
+      "relevance_score": 0.4553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326291+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2000 -n zone",
+      "frequency": 2,
+      "relevance_score": 0.4553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326394+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name server",
+      "frequency": 9,
+      "relevance_score": 0.44889380530973455,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.319262+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zone file",
+      "frequency": 9,
+      "relevance_score": 0.44889380530973455,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.320765+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "child zone",
+      "frequency": 9,
+      "relevance_score": 0.44889380530973455,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.322545+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "system",
+      "frequency": 7,
+      "relevance_score": 0.44358407079646023,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.291714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "name system",
+      "frequency": 3,
+      "relevance_score": 0.4329646017699115,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.317894+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "secure",
+      "frequency": 12,
+      "relevance_score": 0.43185840707964607,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.291196+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domain name",
+      "frequency": 8,
+      "relevance_score": 0.42123893805309737,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.317790+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "resolution process",
+      "frequency": 2,
+      "relevance_score": 0.40530973451327434,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.322649+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "domain",
+      "frequency": 11,
+      "relevance_score": 0.40420353982300883,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.291507+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "new",
+      "frequency": 11,
+      "relevance_score": 0.40420353982300883,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.294712+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "th e",
+      "frequency": 7,
+      "relevance_score": 0.3935840707964602,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.317686+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "doesn t exist",
+      "frequency": 3,
+      "relevance_score": 0.3829646017699115,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325571+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 10,
+      "relevance_score": 0.3765486725663717,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.292970+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "query",
+      "frequency": 10,
+      "relevance_score": 0.3765486725663717,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.301479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys",
+      "frequency": 10,
+      "relevance_score": 0.3765486725663717,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.307595+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "parent zone",
+      "frequency": 6,
+      "relevance_score": 0.36592920353982306,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.322335+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key record",
+      "frequency": 6,
+      "relevance_score": 0.36592920353982306,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.322440+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dnssec-keygen -a",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323272+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-a rsasha1",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323376+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "rsasha1 -b",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323480+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-b 2000",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2000 -n",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323687+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "-n zone",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.323791+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dns domain name",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325468+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key cryptography",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325674+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "zone signing key",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325777+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key signing key",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.325881+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file kdomaine ma",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326497+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "kdomaine ma content",
+      "frequency": 2,
+      "relevance_score": 0.3553097345132743,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.326600+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "weaknesses",
+      "frequency": 9,
+      "relevance_score": 0.3488938053097345,
+      "source_papers": [
+        "local/Security_of_the_DNS_Protocol_-_Implementation_and_Weaknesses_Analyses_of_DNSSEC"
+      ],
+      "source_domain": "quantum_safe_protocols",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:25:56.289630+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:25:56.326721+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:25:56.326897+00:00",
+    "repository_version": "1.0",
+    "domain": "quantum_safe_protocols"
+  }
+}

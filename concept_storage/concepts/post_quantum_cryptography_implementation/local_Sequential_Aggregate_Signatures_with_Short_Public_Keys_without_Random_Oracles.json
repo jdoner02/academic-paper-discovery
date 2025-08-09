@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles",
+  "paper_title": "Sequential Aggregate Signatures with Short Public Keys without Random Oracles",
+  "concepts": [
+    {
+      "text": "signature",
+      "frequency": 237,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.871716+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "key",
+      "frequency": 138,
+      "relevance_score": 0.8259719080435582,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.890314+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public",
+      "frequency": 130,
+      "relevance_score": 0.7838865800410332,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.889705+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 2",
+      "frequency": 60,
+      "relevance_score": 0.6156399600189384,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.324397+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aggregate",
+      "frequency": 94,
+      "relevance_score": 0.5945026040296701,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.871155+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "am b",
+      "frequency": 73,
+      "relevance_score": 0.5840286180230417,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.040019+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "random",
+      "frequency": 91,
+      "relevance_score": 0.5787206060287232,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.941197+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "scheme",
+      "frequency": 90,
+      "relevance_score": 0.5734599400284076,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:57.881236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ppt algorithms b1",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.791406+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms b1 b2",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.792153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signsf thesemi-functional signingalgorithm",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.800180+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "thesemi-functional signingalgorithm ﬁrstcreates",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.800770+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "m sk thisalgorithmtakesasinputanaggregate-so-far",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.284874+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "apptalgorithm bfor thepks2scheme",
+      "frequency": 2,
+      "relevance_score": 0.5605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.481718+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "public key",
+      "frequency": 66,
+      "relevance_score": 0.5472039560208323,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.507584+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 e s",
+      "frequency": 26,
+      "relevance_score": 0.5367773160082067,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.455452+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e s 2",
+      "frequency": 21,
+      "relevance_score": 0.5104739860066284,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.460645+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 1",
+      "frequency": 39,
+      "relevance_score": 0.50516597401231,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.323096+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 2 3",
+      "frequency": 18,
+      "relevance_score": 0.4946919880056815,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.310741+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 1",
+      "frequency": 36,
+      "relevance_score": 0.4893839760113631,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.522123+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "aggregate signature",
+      "frequency": 55,
+      "relevance_score": 0.48933663001736016,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.501244+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "umh rwc1 1",
+      "frequency": 15,
+      "relevance_score": 0.47890999000473455,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.690935+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 2 1",
+      "frequency": 15,
+      "relevance_score": 0.47890999000473455,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.299514+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 2 2",
+      "frequency": 15,
+      "relevance_score": 0.47890999000473455,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.305439+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "g ˆg",
+      "frequency": 53,
+      "relevance_score": 0.47881529801672895,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.599264+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "dual system encryption",
+      "frequency": 5,
+      "relevance_score": 0.4763033300015782,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.567642+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 w1 2",
+      "frequency": 14,
+      "relevance_score": 0.47364932400441895,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.692247+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b wc 1",
+      "frequency": 14,
+      "relevance_score": 0.47364932400441895,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.985743+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pk pk1 pkl",
+      "frequency": 14,
+      "relevance_score": 0.47364932400441895,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.266988+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "e s 1",
+      "frequency": 14,
+      "relevance_score": 0.47364932400441895,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.456212+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 e",
+      "frequency": 33,
+      "relevance_score": 0.47360197801041615,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.793819+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "semi-functional",
+      "frequency": 52,
+      "relevance_score": 0.47355463201641324,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.129690+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "s 1 1",
+      "frequency": 13,
+      "relevance_score": 0.46838865800410334,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.285449+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exists apptalgorithm bfor",
+      "frequency": 3,
+      "relevance_score": 0.4657819980009469,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.394145+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "r c1 c2",
+      "frequency": 12,
+      "relevance_score": 0.4631279920037876,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.685698+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "outputs",
+      "frequency": 69,
+      "relevance_score": 0.4629859540217791,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.091250+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "algorithms b1",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.837292+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "thesemi-functional signingalgorithm",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.850491+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "pptalgorithm b2such",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.989307+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "sk thisalgorithmtakesasinputanaggregate-so-far",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.322349+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "t aregiven nopptalgorithm",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.600664+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exist ppt algorithms",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.790838+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "signingalgorithm ﬁrstcreates anorma",
+      "frequency": 2,
+      "relevance_score": 0.4605213320006313,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.801533+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 w1 3",
+      "frequency": 11,
+      "relevance_score": 0.457867326003472,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.694836+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "yw c 1",
+      "frequency": 11,
+      "relevance_score": 0.457867326003472,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.972380+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "keys pk pk1",
+      "frequency": 11,
+      "relevance_score": 0.457867326003472,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:21:00.266390+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 1",
+      "frequency": 30,
+      "relevance_score": 0.4578199800094692,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:58.526586+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exponents r c1",
+      "frequency": 10,
+      "relevance_score": 0.4526066600031564,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.685149+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "w1 1 gα",
+      "frequency": 10,
+      "relevance_score": 0.4526066600031564,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.689037+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "1 w2 2",
+      "frequency": 10,
+      "relevance_score": 0.4526066600031564,
+      "source_papers": [
+        "local/Sequential_Aggregate_Signatures_with_Short_Public_Keys_without_Random_Oracles"
+      ],
+      "source_domain": "post_quantum_cryptography_implementation",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:20:59.701628+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:21:00.519810+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:21:00.520024+00:00",
+    "repository_version": "1.0",
+    "domain": "post_quantum_cryptography_implementation"
+  }
+}

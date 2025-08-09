@@ -1,0 +1,622 @@
+{
+  "paper_doi": "local/Towards_the_interoperability_of_low-code_platforms",
+  "paper_title": "Towards the interoperability of low-code platforms",
+  "concepts": [
+    {
+      "text": "models",
+      "frequency": 71,
+      "relevance_score": 1.0,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.024122+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lcp",
+      "frequency": 47,
+      "relevance_score": 0.8887229400906193,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.020943+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lcps",
+      "frequency": 38,
+      "relevance_score": 0.7376908877328411,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.018359+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "import",
+      "frequency": 37,
+      "relevance_score": 0.7209095485819769,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.025528+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "export",
+      "frequency": 35,
+      "relevance_score": 0.6873468702802483,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.025703+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-code",
+      "frequency": 28,
+      "relevance_score": 0.6698774962241987,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.015286+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "interoperability",
+      "frequency": 31,
+      "relevance_score": 0.6202215136767915,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.015095+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b-uml",
+      "frequency": 22,
+      "relevance_score": 0.5691894613190133,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.061432+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "platforms",
+      "frequency": 25,
+      "relevance_score": 0.519533478771606,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.015476+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "model-based migration",
+      "frequency": 3,
+      "relevance_score": 0.5003440174525927,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.098660+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tools",
+      "frequency": 23,
+      "relevance_score": 0.4859708004698775,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.025352+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language",
+      "frequency": 23,
+      "relevance_score": 0.4859708004698775,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.027461+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "text-to-model transformation",
+      "frequency": 2,
+      "relevance_score": 0.4835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.103079+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b-uml metamodel",
+      "frequency": 2,
+      "relevance_score": 0.4835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.103311+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "b-uml models",
+      "frequency": 2,
+      "relevance_score": 0.4835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.108622+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "large language models",
+      "frequency": 2,
+      "relevance_score": 0.4835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.115169+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-code platforms",
+      "frequency": 10,
+      "relevance_score": 0.46781339150864243,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.094241+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vendor lock-in",
+      "frequency": 10,
+      "relevance_score": 0.46781339150864243,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.095294+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "2 csv json",
+      "frequency": 4,
+      "relevance_score": 0.467125356603457,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.115740+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "file",
+      "frequency": 21,
+      "relevance_score": 0.45240812216814896,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.046857+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "model-based",
+      "frequency": 6,
+      "relevance_score": 0.4506880349051855,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.031534+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "xlsx 2 xlsx",
+      "frequency": 3,
+      "relevance_score": 0.45034401745259267,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.115550+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "process",
+      "frequency": 11,
+      "relevance_score": 0.4345947306595066,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.034872+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "model-driven",
+      "frequency": 5,
+      "relevance_score": 0.43390669575432117,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.029564+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "csv json 2",
+      "frequency": 2,
+      "relevance_score": 0.43356267830172845,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.115929+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "json 2 csv",
+      "frequency": 2,
+      "relevance_score": 0.43356267830172845,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.116162+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-code platforms lcps",
+      "frequency": 2,
+      "relevance_score": 0.43356267830172845,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.116886+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "vendor lock-in problem",
+      "frequency": 2,
+      "relevance_score": 0.43356267830172845,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.117064+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "low-code development platforms",
+      "frequency": 2,
+      "relevance_score": 0.43356267830172845,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.117242+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "tool",
+      "frequency": 18,
+      "relevance_score": 0.4020641047155563,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.039900+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "transformation",
+      "frequency": 18,
+      "relevance_score": 0.4020641047155563,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.060361+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uml",
+      "frequency": 18,
+      "relevance_score": 0.4020641047155563,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.062133+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "text-to-model",
+      "frequency": 3,
+      "relevance_score": 0.40034401745259274,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.060182+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "migrating models",
+      "frequency": 3,
+      "relevance_score": 0.40034401745259274,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.096009+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "behavioral models",
+      "frequency": 3,
+      "relevance_score": 0.40034401745259274,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.106479+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "language models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.096714+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "migrate models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.096889+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mendix outsystems",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.097600+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "ui models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.103492+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "exporting models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.104236+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "gui models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.106302+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "plantuml models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.108265+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "uml models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.108445+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "export models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.111153+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "recovery techniques",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.111866+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "partial models",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.112054+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "information systems",
+      "frequency": 2,
+      "relevance_score": 0.3835626783017285,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.113388+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "migration",
+      "frequency": 16,
+      "relevance_score": 0.3685014264138279,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.024474+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "mendix",
+      "frequency": 16,
+      "relevance_score": 0.3685014264138279,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.033996+00:00",
+      "synonyms": []
+    },
+    {
+      "text": "lock-in",
+      "frequency": 10,
+      "relevance_score": 0.36781339150864234,
+      "source_papers": [
+        "local/Towards_the_interoperability_of_low-code_platforms"
+      ],
+      "source_domain": "pqc_migration_strategies",
+      "extraction_method": "tfidf",
+      "created_at": "2025-08-07T16:23:46.020015+00:00",
+      "synonyms": []
+    }
+  ],
+  "extraction_timestamp": "2025-08-07T16:23:46.117451+00:00",
+  "extraction_method": "mixed",
+  "total_concept_count": 50,
+  "processing_metadata": {
+    "strategies_used": [
+      "tfidf"
+    ],
+    "total_concepts_found": 50,
+    "concepts_after_consolidation": 50,
+    "concepts_after_filtering": 50
+  },
+  "_metadata": {
+    "saved_at": "2025-08-07T16:23:46.117622+00:00",
+    "repository_version": "1.0",
+    "domain": "pqc_migration_strategies"
+  }
+}
