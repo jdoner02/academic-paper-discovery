@@ -124,7 +124,8 @@ const InteractiveConceptGraph: React.FC = () => {
    * compatibility with GitHub Pages subdirectory deployment.
    */
   const loadConceptData = useCallback(async () => {
-    console.log('🔄 Starting data load...');
+    console.log('� loadConceptData function called!');
+    console.log('�🔄 Starting data load...');
     setIsLoading(true);
     setError(null);
 
@@ -365,6 +366,7 @@ const InteractiveConceptGraph: React.FC = () => {
 
   // Load data on component mount
   useEffect(() => {
+    console.log('🚀 useEffect called - about to load concept data');
     loadConceptData();
   }, [loadConceptData]);
 
