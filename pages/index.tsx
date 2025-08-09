@@ -35,7 +35,7 @@ const HomePage: React.FC = () => {
         <meta property="og:title" content="Interactive Research Concept Graph" />
         <meta property="og:description" content="Explore 600+ cybersecurity research concepts through interactive visualization. Click domains to filter, search concepts in real-time." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jdoner02.github.io/research-paper-discovery-web/" />
+        <meta property="og:url" content="https://jdoner02.github.io/academic-paper-discovery/" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

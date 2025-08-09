@@ -1,6 +1,6 @@
-# Contributing to HRV Research Aggregator
+# Contributing to Academic Paper Discovery Platform
 
-Thank you for your interest in contributing to HRV Research Aggregator! This project serves both production research needs and educational purposes, so contributions should maintain high code quality and clear educational value.
+Thank you for your interest in contributing to the Academic Paper Discovery Platform! This project serves both as a functional research tool and educational demonstration of Clean Architecture principles, so contributions should maintain high code quality and clear pedagogical value.
 
 ## 🚀 Quick Start for Contributors
 
@@ -9,8 +9,8 @@ Thank you for your interest in contributing to HRV Research Aggregator! This pro
 ```bash
 # 1. Fork the repository on GitHub
 # 2. Clone your fork
-git clone https://github.com/yourusername/hrv-research-aggregator.git
-cd hrv-research-aggregator
+git clone https://github.com/jdoner02/academic-paper-discovery.git
+cd academic-paper-discovery
 
 # 3. Set up development environment
 pip install -e ".[dev]"
@@ -50,10 +50,10 @@ git push origin feature/your-feature-name
 This project follows **Clean Architecture** principles. Please respect these boundaries:
 
 ### Domain Layer (`src/domain/`)
-- **Pure business logic only** - no external dependencies
-- **Rich domain models** with behavior, not anemic data containers
-- **Ubiquitous language** from HRV research domain
-- **High test coverage** (>95%) with fast unit tests
+- **Pure business logic** - no external dependencies
+- **Research domain concepts** modeled as entities and value objects
+- **Comprehensive test coverage** with fast unit tests
+- **Educational documentation** explaining design decisions
 
 ```python
 # ✅ Good: Rich domain object with behavior
@@ -97,10 +97,232 @@ class ExecuteKeywordSearchUseCase:
             raise ValueError("Need at least 2 terms")  # Domain logic!
 ```
 
+# Contributing to Academic Paper Discovery Platform
+
+Thank you for your interest in contributing to the Academic Paper Discovery Platform! This project serves as both a functional research tool and educational demonstration of Clean Architecture principles in software engineering.
+
+## 🎯 Project Mission
+
+This repository demonstrates professional software engineering practices through a real-world academic research application. We welcome contributions that enhance either the research capabilities or the educational value of the codebase.
+
+## 🚀 Quick Start for Contributors
+
+### Development Setup
+
+```bash
+# 1. Fork the repository on GitHub
+# 2. Clone your fork
+git clone https://github.com/yourusername/academic-paper-discovery.git
+cd academic-paper-discovery
+
+# 3. Set up Python environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# 4. Set up Node.js dependencies (for web interface)
+npm install
+
+# 5. Run tests to ensure everything works
+pytest --cov=src
+npm test
+```
+
+### Making Changes
+
+```bash
+# 1. Create a feature branch
+git checkout -b feature/your-feature-name
+
+# 2. Make your changes following our guidelines (see below)
+
+# 3. Run quality checks
+python -m pytest --cov=src
+python -m mypy src
+python -m black src tests
+npm test
+
+# 4. Commit with descriptive message
+git commit -m "feat: add semantic search capability to concept graph"
+
+# 5. Push and create Pull Request
+git push origin feature/your-feature-name
+```
+
+## 🏗️ Architecture Guidelines
+
+This project follows **Clean Architecture** principles for educational purposes. Please respect these layer boundaries:
+
+### Domain Layer (`src/domain/`)
+- **Pure business logic** - no external dependencies
+- **Research domain concepts** modeled as entities and value objects
+- **High test coverage** with fast unit tests
+- **Educational documentation** explaining design decisions
+
+```python
+# ✅ Good: Domain entity with clear business purpose
+class ResearchPaper:
+    def __init__(self, title: str, authors: List[str], doi: str):
+        self.title = title
+        self.authors = tuple(authors)  # Immutable
+        self.doi = doi
+        self._validate()
+    
+    def is_relevant_to_query(self, search_query: SearchQuery) -> bool:
+        """Domain logic for relevance determination."""
+        return search_query.matches_paper_content(self.title, self.abstract)
+```
+
+### Application Layer (`src/application/`)
+- **Use cases** that orchestrate domain objects
+- **Abstract interfaces** for external dependencies  
+- **Application services** that coordinate multiple use cases
+
+```python
+# ✅ Good: Use case orchestrates domain and infrastructure
+class SearchPapersUseCase:
+    def __init__(self, paper_repository: PaperRepository):
+        self._repository = paper_repository
+    
+    def execute(self, search_query: SearchQuery) -> SearchResults:
+        papers = self._repository.find_by_keywords(search_query)
+        return SearchResults.from_papers(papers)
+```
+
 ### Infrastructure Layer (`src/infrastructure/`)
-- **Implement ports** defined in application layer
-- **Handle external concerns** (APIs, files, databases)
-- **No business logic** - pure technical implementation
+- **External service implementations** (ArXiv API, PMC, etc.)
+- **Database/file system access**
+- **Web frameworks and UI components**
+
+## 📚 Educational Contribution Guidelines
+
+Since this project serves educational purposes, contributions should:
+
+### 1. Include Learning Context
+```python
+def breadth_first_search(self, start: str, target: str) -> List[str]:
+    """
+    Find shortest path using BFS algorithm.
+    
+    Educational Notes:
+    - Demonstrates BFS for unweighted graphs
+    - Time complexity: O(V + E)
+    - Space complexity: O(V) for queue and visited set
+    
+    Real-world Applications:
+    - Social network friend suggestions
+    - Research concept relationship discovery
+    - Academic paper citation analysis
+    """
+```
+
+### 2. Demonstrate Design Patterns
+When implementing features, explicitly document which patterns you're using:
+- Repository Pattern for data access
+- Strategy Pattern for different search algorithms
+- Observer Pattern for real-time updates
+- Factory Pattern for configuration loading
+
+### 3. Maintain Test Coverage
+- Unit tests for domain logic (>90% coverage goal)
+- Integration tests for use cases
+- End-to-end tests for user workflows
+- Performance tests for search algorithms
+
+## 🔬 Research Domain Contributions
+
+We welcome contributions that enhance the academic research capabilities:
+
+### New Research Databases
+- Support for additional academic databases (IEEE, ACM, etc.)
+- Enhanced metadata extraction
+- Citation network analysis
+
+### Concept Extraction Improvements
+- Better natural language processing
+- Domain-specific concept recognition
+- Semantic relationship mapping
+
+### Visualization Enhancements
+- Interactive graph exploration features
+- Research domain clustering
+- Timeline visualization of research trends
+
+## 🎨 Web Interface Contributions
+
+The interactive concept graph is built with:
+- Next.js 14 with TypeScript
+- D3.js v7 for visualization
+- Responsive design for academic users
+
+### UI/UX Guidelines
+- Clean, academic presentation
+- Accessibility compliance
+- Mobile-responsive design
+- Professional color scheme
+- Clear typography for readability
+
+## 📋 Pull Request Guidelines
+
+### PR Description Template
+```markdown
+## Description
+Brief description of changes and motivation.
+
+## Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Educational improvement
+- [ ] Documentation update
+- [ ] Performance improvement
+
+## Educational Value
+How does this change improve the learning experience?
+
+## Testing
+- [ ] Unit tests added/updated
+- [ ] Integration tests pass
+- [ ] Manual testing completed
+
+## Architecture Compliance
+- [ ] Follows Clean Architecture principles
+- [ ] Respects layer boundaries
+- [ ] Includes appropriate documentation
+```
+
+### Code Review Focus Areas
+1. **Architectural Integrity**: Does the change respect Clean Architecture?
+2. **Educational Value**: Will students learn from this code?
+3. **Test Coverage**: Are there appropriate tests?
+4. **Documentation**: Is the purpose and design clear?
+5. **Academic Appropriateness**: Suitable for academic environment?
+
+## 🚫 What We Don't Accept
+
+- Code without educational documentation
+- Violations of Clean Architecture principles
+- Changes that break existing tests
+- Non-academic or commercial focused features
+- Generated code without human review and documentation
+
+## 🤝 Community Guidelines
+
+- Be respectful and professional
+- Focus on educational value
+- Explain your reasoning in discussions
+- Help others learn through code reviews
+- Maintain academic standards
+
+## 📞 Getting Help
+
+- Create an issue for questions
+- Use discussions for architectural decisions
+- Tag `@maintainers` for urgent reviews
+- Check existing issues before creating new ones
+
+---
+
+Thank you for helping make this project a valuable educational resource for software engineering and academic research!
 
 ## 📝 Code Style Guidelines
 
@@ -319,15 +541,15 @@ Since this project serves educational purposes, consider:
 - [Domain-Driven Design](https://domainlanguage.com/ddd/) by Eric Evans
 - [Python DDD Examples](https://github.com/jordifierro/python-ddd-example)
 
-### HRV Research Domain
-- [Heart Rate Variability Standards](https://www.ahajournals.org/doi/full/10.1161/01.CIR.93.5.1043)
-- [HRV Analysis Methods](https://physionet.org/content/hrv-analysis/)
+### Academic Research Tools
+- [ArXiv API Documentation](https://arxiv.org/help/api)
+- [PMC API Documentation](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/)
 
 ## 🤝 Community
 
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/hrv-research-aggregator/discussions)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/hrv-research-aggregator/issues)
-- 📧 **Email**: research@yourdomain.com
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/jdoner02/academic-paper-discovery/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/jdoner02/academic-paper-discovery/issues)
+- 📧 **Contact**: Open an issue for questions
 
 ## 🎉 Recognition
 
@@ -336,4 +558,4 @@ All contributors will be:
 - Mentioned in release notes for their contributions
 - Given appropriate attribution in code comments
 
-Thank you for helping advance HRV research through better tooling! 🫀📚
+Thank you for helping advance research through better tooling! 🫀📚
