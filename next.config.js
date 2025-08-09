@@ -11,6 +11,8 @@ const nextConfig = {
     output: 'export', // Enable static export for GitHub Pages
     // Removed assetPrefix and basePath to fix GitHub Pages routing
     // GitHub Pages will handle the subdirectory automatically
+    // Force cache busting for JavaScript chunks
+    generateBuildId: () => Date.now().toString()
   }),
   
   // Set custom pages directory for Clean Architecture organization
