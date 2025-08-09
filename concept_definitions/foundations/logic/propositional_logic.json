@@ -1,0 +1,84 @@
+{
+  "id": "propositional_logic",
+  "name": "Propositional Logic",
+  "type": "definition",
+  "domain": "logic",
+  "subdomain": "propositional_logic",
+  "level": "high_school",
+  "formal_statement": "A formal system dealing with propositions that can be true or false, combined using logical connectives: $\\neg$ (negation), $\\land$ (conjunction), $\\lor$ (disjunction), $\\rightarrow$ (implication), $\\leftrightarrow$ (biconditional).",
+  "informal_description": "The foundation of logical reasoning using statements that are either true or false, combined with words like 'and', 'or', 'not', and 'if-then'.",
+  "prerequisites": [],
+  "depends_on": [],
+  "enables": ["predicate_logic", "set_theory_foundations", "mathematical_proof"],
+  "examples": [
+    {
+      "description": "Simple proposition",
+      "formal": "$P$: 'It is raining'",
+      "explanation": "A basic statement that can be either true or false",
+      "level": "elementary"
+    },
+    {
+      "description": "Conjunction",
+      "formal": "$P \\land Q$: 'It is raining AND it is cold'",
+      "explanation": "Both statements must be true for the whole statement to be true",
+      "level": "middle_school"
+    },
+    {
+      "description": "Implication",
+      "formal": "$P \\rightarrow Q$: 'If it is raining, then the ground is wet'",
+      "explanation": "When the first part is true, the second part must also be true",
+      "level": "high_school"
+    }
+  ],
+  "counterexamples": [
+    {
+      "description": "Invalid conjunction",
+      "formal": "$P \\land \\neg P$",
+      "explanation": "A statement cannot be both true and false at the same time (contradiction)"
+    }
+  ],
+  "historical_context": "Developed by ancient Greek philosophers, formalized by George Boole in the 19th century, and refined by modern logicians like Frege and Russell.",
+  "pedagogical_notes": "Start with everyday examples before introducing symbols. Common mistake: confusing 'or' in everyday language (often exclusive) with logical 'or' (inclusive).",
+  "proof_sketches": [
+    {
+      "type": "truth_table",
+      "description": "Verification of logical equivalences",
+      "steps": [
+        "List all possible truth value combinations",
+        "Evaluate each compound statement",
+        "Check if results are identical for equivalence"
+      ],
+      "level": "high_school"
+    }
+  ],
+  "applications": [
+    "Computer programming (Boolean logic)",
+    "Digital circuit design",
+    "Legal reasoning",
+    "Mathematical proofs",
+    "Database queries"
+  ],
+  "tags": ["logic", "foundations", "boolean", "truth_tables", "connectives"],
+  "difficulty": 3,
+  "timestamp": "2025-01-16T20:30:00Z",
+  "relationships": [
+    {
+      "type": "enables",
+      "target": "predicate_logic",
+      "strength": 0.9,
+      "description": "Propositional logic is extended to predicate logic by adding quantifiers"
+    },
+    {
+      "type": "enables",
+      "target": "set_theory_foundations",
+      "strength": 0.8,
+      "description": "Set theory requires logical reasoning about membership and relationships"
+    }
+  ],
+  "elastic_metadata": {
+    "index_name": "mathematical_concepts",
+    "doc_type": "foundation",
+    "boost": 1.5,
+    "search_fields": ["name", "informal_description", "tags", "applications"]
+  }
+}

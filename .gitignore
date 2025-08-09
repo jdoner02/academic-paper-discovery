@@ -1,3 +1,6 @@
+# Academic Research Paper Aggregator - .gitignore
+# Following GitHub repository best practices for educational projects
+
 # Python
 __pycache__/
 *.py[cod]
@@ -21,39 +24,45 @@ wheels/
 *.egg
 MANIFEST
 
-# Testing
+# PyTest
 .pytest_cache/
 .coverage
 htmlcov/
-.tox/
-.cache
-nosetests.xml
-coverage.xml
+coverage/
 *.cover
 .hypothesis/
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Environment
-.env
-.venv
-env/
+# Virtual Environments
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
+.venv/
+.env
 
-# IDE
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.node_repl_history
+
+# Next.js
+.next/
+out/
+.swc/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# OS Generated
 .DS_Store
 .DS_Store?
 ._*
@@ -62,23 +71,38 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Project specific
-data/
-logs/
-temp/
+# Academic Research Specific
+*.pdf
+*.docx
+*.xlsx
+research_data/
+large_datasets/
+paper_downloads/
+
+# Build and Cache
+dist/
+build/
+*.cache
+.cache/
+
+# Git LFS pointer files (keep the pointers, not the actual files)
+# Git LFS handles these automatically, but this helps with clarity
+
+# Additional build artifacts prevention
 *.log
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
 
-# Node.js & Next.js
-node_modules/
-.next/
-out/
-.env*.local
-.vercel
-.turbo
-*.tsbuildinfo
-next-env.d.ts
+# IDE specific files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
 
-# Package manager
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Development artifacts
+dump.rdb
+*.pid
+*.seed
+*.pid.lock

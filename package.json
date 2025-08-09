@@ -1,19 +1,19 @@
 {
-  "name": "research-paper-discovery-web",
+  "name": "research-paper-aggregator",
   "version": "0.1.0",
-  "description": "Interactive research paper discovery platform with visual concept mapping",
+  "description": "Comprehensive research paper aggregation and discovery platform with batch processing, visual concept mapping, and Clean Architecture implementation",
   "private": false,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:e2e": "playwright test",
-    "export": "npm run build",
-    "deploy": "npm run build && touch out/.nojekyll"
+    "dev": "cd frontend && next dev",
+    "build": "cd frontend && next build",
+    "export": "cd frontend && next build && next export",
+    "start": "cd frontend && next start",
+    "lint": "cd frontend && next lint",
+    "cli": "python cli/main.py",
+    "test": "pytest",
+    "clean": "python scripts/clean_repository.py",
+    "build-static": "cd frontend && npm install && next build && next export",
+    "launcher": "python research_paper_launcher.py"
   },
   "dependencies": {
     "@types/d3": "^7.4.0",
@@ -22,6 +22,7 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.4.16",
+    "chokidar": "^3.5.3",
     "d3": "^7.8.5",
     "lodash": "^4.17.21",
     "next": "^14.0.0",
@@ -50,13 +51,19 @@
     "academic-research",
     "clean-architecture",
     "test-driven-development",
+    "batch-processing",
+    "arxiv",
+    "python",
+    "typescript",
+    "nextjs",
     "d3js",
     "embeddings",
-    "visualization"
+    "visualization",
+    "pedagogical-excellence"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdoner02/research-paper-discovery-web.git"
+    "url": "git+https://github.com/jdoner02/research-paper-aggregator.git"
   },
   "author": "Jessica Doner <jdoner02@gmail.com>",
   "license": "MIT",

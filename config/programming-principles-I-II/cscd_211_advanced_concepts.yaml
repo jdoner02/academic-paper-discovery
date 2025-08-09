@@ -1,0 +1,128 @@
+# Research Paper Aggregator Configuration: CSCD 211 - Programming Principles II
+# Course Focus: Advanced Java Programming Concepts and Object-Oriented Design
+# Academic Rigor: University-level undergraduate course with industry-standard practices
+
+# Search configuration following established schema patterns
+search_configuration:
+  default_strategy: "oop_design_pedagogy_fundamentals"
+  citation_threshold: 15
+  publication_date_range: "2015-2025"
+
+# Research strategies conforming to established patterns
+strategies:
+  oop_design_pedagogy_fundamentals:
+    name: "Object-Oriented Programming Education and Design Fundamentals"
+    description: "Research on effective teaching methods for object-oriented design principles, class relationships, and advanced Java programming concepts"
+    primary_keywords:
+      - "object-oriented programming education"
+      - "OOP design pedagogy"
+      - "class design teaching"
+      - "inheritance instruction"
+      - "polymorphism education"
+    secondary_keywords:
+      - "encapsulation teaching"
+      - "abstraction concepts"
+      - "method overriding"
+      - "constructor design"
+      - "interface implementation"
+      - "composition vs inheritance"
+      - "design pattern introduction"
+      - "code reusability education"
+    technical_terms:
+      - "class hierarchies"
+      - "method overloading"
+      - "access modifiers"
+      - "static members"
+      - "abstract classes"
+      - "interface design"
+      - "object composition"
+      - "dependency relationships"
+    application_domains:
+      - "CS2 courses"
+      - "intermediate programming"
+      - "software design education"
+      - "object-oriented analysis"
+      - "programming methodology"
+      - "software engineering principles"
+    exclude_terms:
+      - "advanced design patterns"
+      - "enterprise architecture"
+      - "framework development"
+
+  programming_methodology_instruction:
+    name: "Programming Methodology and Software Development Practices"
+    description: "Educational approaches to teaching systematic programming methodologies, testing practices, and code quality principles"
+    primary_keywords:
+      - "programming methodology"
+      - "software development education"
+      - "testing methodology teaching"
+      - "code quality instruction"
+      - "debugging methodology"
+    secondary_keywords:
+      - "unit testing education"
+      - "test-driven development"
+      - "code documentation practices"
+      - "version control instruction"
+      - "code review pedagogy"
+      - "refactoring techniques"
+      - "error handling education"
+      - "defensive programming"
+    technical_terms:
+      - "JUnit testing framework"
+      - "automated testing"
+      - "code coverage metrics"
+      - "static analysis tools"
+      - "debugging strategies"
+      - "logging practices"
+      - "exception handling"
+      - "code maintainability"
+    application_domains:
+      - "software engineering education"
+      - "programming practices"
+      - "quality assurance"
+      - "professional development"
+      - "industry preparation"
+      - "collaborative programming"
+    exclude_terms:
+      - "advanced testing frameworks"
+      - "enterprise development"
+      - "DevOps practices"
+
+  algorithm_data_structure_pedagogy:
+    name: "Algorithm Implementation and Data Structure Education"
+    description: "Teaching methodologies for algorithm design, data structure implementation, and computational thinking in object-oriented contexts"
+    primary_keywords:
+      - "algorithm education"
+      - "data structure teaching"
+      - "computational thinking"
+      - "algorithm design pedagogy"
+      - "data structure implementation"
+    secondary_keywords:
+      - "array manipulation"
+      - "linked list education"
+      - "recursion teaching"
+      - "sorting algorithm instruction"
+      - "searching techniques"
+      - "algorithm complexity"
+      - "data structure selection"
+      - "performance analysis"
+    technical_terms:
+      - "time complexity analysis"
+      - "space complexity"
+      - "big O notation"
+      - "recursive algorithms"
+      - "iterative solutions"
+      - "data structure operations"
+      - "algorithm efficiency"
+      - "memory management"
+    application_domains:
+      - "algorithms courses"
+      - "data structures education"
+      - "computational problem solving"
+      - "performance optimization"
+      - "software efficiency"
+      - "computer science theory"
+    exclude_terms:
+      - "advanced algorithms"
+      - "theoretical computer science"
+      - "complexity theory"

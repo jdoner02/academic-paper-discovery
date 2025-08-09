@@ -1,0 +1,91 @@
+{
+  "id": "zfc_axiom_pairing",
+  "name": "Axiom of Pairing",
+  "type": "axiom",
+  "domain": "set_theory",
+  "subdomain": "zfc_axioms",
+  "level": "undergraduate",
+  "formal_statement": "$\\forall a \\forall b \\exists A \\forall x (x \\in A \\leftrightarrow x = a \\lor x = b)$",
+  "informal_description": "For any two objects a and b, there exists a set that contains exactly those two objects (and nothing else). This allows us to form pairs, and by extension, finite sets.",
+  "prerequisites": ["predicate_logic", "set_membership_concept", "zfc_axiom_extensionality"],
+  "depends_on": ["predicate_logic", "set_membership_concept", "zfc_axiom_extensionality"],
+  "enables": ["ordered_pairs", "finite_sets", "cartesian_products"],
+  "examples": [
+    {
+      "description": "Pair of numbers",
+      "formal": "$\\{2, 5\\}$",
+      "explanation": "A set containing exactly the numbers 2 and 5",
+      "level": "elementary"
+    },
+    {
+      "description": "Pair with identical elements",
+      "formal": "$\\{3, 3\\} = \\{3\\}$",
+      "explanation": "When both elements are the same, we get a singleton set",
+      "level": "middle_school"
+    },
+    {
+      "description": "Pair of sets",
+      "formal": "$\\{\\{1, 2\\}, \\{3, 4\\}\\}$",
+      "explanation": "Sets can themselves be elements of pairs",
+      "level": "high_school"
+    }
+  ],
+  "counterexamples": [
+    {
+      "description": "Not a proper pair",
+      "formal": "$\\{1, 2, 3\\}$ cannot be formed directly by pairing",
+      "explanation": "The pairing axiom only guarantees sets with at most 2 distinct elements"
+    }
+  ],
+  "historical_context": "Part of Zermelo's original 1908 axiomatization. Essential for building finite mathematics from infinite set theory. Enables construction of natural numbers using von Neumann ordinals.",
+  "pedagogical_notes": "Seems trivial but crucial for foundations. Key insight: we can build all finite sets by repeatedly applying pairing and union. When a=b, we get singleton {a}.",
+  "proof_sketches": [
+    {
+      "type": "construction",
+      "description": "Building larger finite sets from pairs",
+      "steps": [
+        "Start with elements a, b, c",
+        "Form pairs {a, b} and {c}",
+        "Use union axiom to get {a, b} ∪ {c} = {a, b, c}",
+        "Repeat process for any finite collection"
+      ],
+      "level": "undergraduate"
+    }
+  ],
+  "applications": [
+    "Constructing natural numbers (von Neumann ordinals)",
+    "Defining ordered pairs (Kuratowski definition)",
+    "Building finite data structures in programming",
+    "Graph theory (edges as pairs of vertices)",
+    "Coordinate systems (points as pairs)"
+  ],
+  "tags": ["zfc", "axiom", "pairing", "finite_sets", "construction"],
+  "difficulty": 5,
+  "timestamp": "2025-01-16T20:55:00Z",
+  "relationships": [
+    {
+      "type": "depends_on",
+      "target": "zfc_axiom_extensionality",
+      "strength": 0.8,
+      "description": "Uniqueness of the pair follows from extensionality"
+    },
+    {
+      "type": "enables",
+      "target": "ordered_pairs",
+      "strength": 0.9,
+      "description": "Ordered pairs constructed using unordered pairs"
+    },
+    {
+      "type": "enables",
+      "target": "finite_sets",
+      "strength": 0.8,
+      "description": "Finite sets built by repeatedly applying pairing and union"
+    }
+  ],
+  "elastic_metadata": {
+    "index_name": "mathematical_concepts",
+    "doc_type": "axiom",
+    "boost": 1.4,
+    "search_fields": ["name", "informal_description", "tags", "applications"]
+  }
+}

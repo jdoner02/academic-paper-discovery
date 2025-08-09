@@ -1,0 +1,207 @@
+# Autonomous Cyber Defense Systems Research Configuration
+# Automated incident response, self-healing systems, and AI-driven cybersecurity defense
+search_configuration:
+  default_strategy: "autonomous_incident_response"
+  citation_threshold: 5
+  publication_date_range:
+    start_year: 2015    # Include foundational automated defense research
+    end_year: 2025      # Latest developments in autonomous cybersecurity
+  max_concurrent_searches: 3
+  include_preprints: true
+  exclude_terms: ["autonomous vehicles", "robotics automation", "industrial automation"]   # Focus on cybersecurity automation, not general automation
+
+strategies:
+  autonomous_incident_response:
+    name: "Autonomous Incident Response and Containment"
+    description: "Automated systems for cyber incident detection, response, and containment including AI agents, automated playbooks, and self-executing response procedures"
+    primary_keywords:
+      - "autonomous incident response"
+      - "automated cyber response"
+      - "intelligent incident management"
+      - "self-healing security"
+      - "cyber defense automation"
+    secondary_keywords:
+      - "incident response automation"
+      - "automated threat response"
+      - "cyber defense agents"
+      - "intelligent response systems"
+      - "adaptive defense"
+      - "dynamic response"
+      - "real-time response"
+      - "automated containment"
+    technical_terms:
+      - "security orchestration"
+      - "automated playbooks"
+      - "response workflows"
+      - "decision algorithms"
+      - "action planning"
+      - "policy engines"
+      - "rule-based systems"
+      - "machine reasoning"
+    application_domains:
+      - "security operations centers"
+      - "enterprise networks"
+      - "cloud environments"
+      - "industrial control systems"
+      - "critical infrastructure"
+      - "government networks"
+    exclude_terms:
+      - "manual procedures"
+      - "human-in-the-loop"
+      - "traditional security"
+
+  ai_driven_cyber_defense:
+    name: "AI-Driven Cyber Defense and Adaptive Security"
+    description: "Artificial intelligence and machine learning systems for proactive cyber defense, adaptive threat response, and intelligent security decision-making"
+    primary_keywords:
+      - "AI cyber defense"
+      - "machine learning security"
+      - "intelligent cybersecurity"
+      - "adaptive cyber defense"
+      - "AI-powered security"
+    secondary_keywords:
+      - "deep learning security"
+      - "neural network defense"
+      - "reinforcement learning"
+      - "anomaly detection"
+      - "behavioral analysis"
+      - "pattern recognition"
+      - "predictive defense"
+      - "cognitive security"
+    technical_terms:
+      - "supervised learning"
+      - "unsupervised learning"
+      - "ensemble methods"
+      - "feature engineering"
+      - "model training"
+      - "classification algorithms"
+      - "clustering algorithms"
+      - "decision trees"
+    application_domains:
+      - "threat detection"
+      - "malware analysis"
+      - "network monitoring"
+      - "user behavior analytics"
+      - "fraud detection"
+      - "intrusion prevention"
+    exclude_terms:
+      - "general AI applications"
+      - "AI ethics"
+      - "AI governance"
+
+  software_defined_security:
+    name: "Software-Defined Security and Programmable Defense"
+    description: "Software-defined networking for security, programmable security policies, and dynamic security architecture adaptation"
+    primary_keywords:
+      - "software-defined security"
+      - "SDN security"
+      - "programmable security"
+      - "dynamic defense"
+      - "network function virtualization"
+    secondary_keywords:
+      - "virtual security appliances"
+      - "security service chaining"
+      - "micro-segmentation"
+      - "network slicing"
+      - "policy orchestration"
+      - "centralized control"
+      - "distributed enforcement"
+      - "elastic security"
+    technical_terms:
+      - "OpenFlow security"
+      - "SDN controllers"
+      - "flow-based security"
+      - "network virtualization"
+      - "container security"
+      - "kubernetes security"
+      - "service mesh security"
+      - "zero trust architecture"
+    application_domains:
+      - "data center security"
+      - "cloud security"
+      - "edge computing"
+      - "hybrid networks"
+      - "multi-tenant environments"
+      - "virtualized infrastructure"
+    exclude_terms:
+      - "traditional networking"
+      - "hardware appliances"
+      - "static configurations"
+
+  self_healing_security_systems:
+    name: "Self-Healing and Resilient Security Systems"
+    description: "Self-repairing security infrastructure, automatic recovery mechanisms, and resilient system architectures that maintain security under attack"
+    primary_keywords:
+      - "self-healing security"
+      - "resilient cybersecurity"
+      - "automatic recovery"
+      - "fault-tolerant security"
+      - "adaptive resilience"
+    secondary_keywords:
+      - "system recovery"
+      - "backup automation"
+      - "failover mechanisms"
+      - "redundancy management"
+      - "error correction"
+      - "service restoration"
+      - "graceful degradation"
+      - "damage assessment"
+    technical_terms:
+      - "checkpoint systems"
+      - "rollback mechanisms"
+      - "state restoration"
+      - "repair algorithms"
+      - "healing protocols"
+      - "recovery procedures"
+      - "continuity mechanisms"
+      - "resilience metrics"
+    application_domains:
+      - "critical systems"
+      - "high-availability services"
+      - "mission-critical applications"
+      - "real-time systems"
+      - "safety systems"
+      - "continuous operations"
+    exclude_terms:
+      - "system maintenance"
+      - "preventive measures"
+      - "human intervention"
+
+  containerized_security_agents:
+    name: "Containerized and Portable Security Agents"
+    description: "Containerized security tools, portable defense agents, and deployable security solutions for rapid incident response and emergency deployment"
+    primary_keywords:
+      - "containerized security"
+      - "portable security agents"
+      - "deployable security tools"
+      - "security containers"
+      - "mobile security units"
+    secondary_keywords:
+      - "docker security"
+      - "kubernetes security agents"
+      - "microservices security"
+      - "container orchestration"
+      - "portable deployments"
+      - "edge security"
+      - "lightweight agents"
+      - "modular security"
+    technical_terms:
+      - "container images"
+      - "security orchestration"
+      - "agent deployment"
+      - "configuration management"
+      - "service discovery"
+      - "resource management"
+      - "scaling mechanisms"
+      - "lifecycle management"
+    application_domains:
+      - "incident response"
+      - "emergency deployment"
+      - "remote locations"
+      - "temporary installations"
+      - "mobile operations"
+      - "disaster recovery"
+    exclude_terms:
+      - "general containerization"
+      - "application deployment"
+      - "development containers"

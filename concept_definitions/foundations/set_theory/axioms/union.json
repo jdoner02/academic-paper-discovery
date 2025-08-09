@@ -1,0 +1,91 @@
+{
+  "id": "zfc_axiom_union",
+  "name": "Axiom of Union",
+  "type": "axiom",
+  "domain": "set_theory",
+  "subdomain": "zfc_axioms",
+  "level": "undergraduate",
+  "formal_statement": "$\\forall A \\exists B \\forall x (x \\in B \\leftrightarrow \\exists Y (Y \\in A \\land x \\in Y))$",
+  "informal_description": "For any set A (a collection of sets), there exists a set B that contains exactly those elements that belong to at least one set in A. This is the union of all sets in A.",
+  "prerequisites": ["predicate_logic", "set_membership_concept", "zfc_axiom_extensionality"],
+  "depends_on": ["predicate_logic", "set_membership_concept", "zfc_axiom_extensionality"],
+  "enables": ["set_operations", "infinite_unions", "topology_foundations"],
+  "examples": [
+    {
+      "description": "Union of two sets",
+      "formal": "$\\{1, 2\\} \\cup \\{2, 3\\} = \\{1, 2, 3\\}$",
+      "explanation": "The union contains elements that are in either set",
+      "level": "middle_school"
+    },
+    {
+      "description": "Union of a family of sets",
+      "formal": "$\\bigcup \\{\\{1\\}, \\{1, 2\\}, \\{1, 2, 3\\}\\} = \\{1, 2, 3\\}$",
+      "explanation": "Take all elements that appear in any of the sets in the collection",
+      "level": "high_school"
+    },
+    {
+      "description": "Union of empty collection",
+      "formal": "$\\bigcup \\emptyset = \\emptyset$",
+      "explanation": "Union of no sets is the empty set",
+      "level": "undergraduate"
+    }
+  ],
+  "counterexamples": [
+    {
+      "description": "Not the same as Cartesian product",
+      "formal": "$\\{1, 2\\} \\cup \\{3, 4\\} \\neq \\{1, 2\\} \\times \\{3, 4\\}$",
+      "explanation": "Union combines elements, Cartesian product creates ordered pairs"
+    }
+  ],
+  "historical_context": "Formulated by Zermelo in 1908. Essential for building analysis and topology. Allows construction of infinite sets from finite pieces, enabling mathematical analysis.",
+  "pedagogical_notes": "Start with finite unions of concrete sets. Common confusion with intersection. Emphasize that union is the 'OR' of set membership. Use Venn diagrams for visualization.",
+  "proof_sketches": [
+    {
+      "type": "construction",
+      "description": "Building unions step by step",
+      "steps": [
+        "Start with collection A = {A₁, A₂, ..., Aₙ}",
+        "Define B = {x : ∃i, x ∈ Aᵢ}",
+        "Show B satisfies the union property",
+        "By extensionality, B is unique"
+      ],
+      "level": "undergraduate"
+    }
+  ],
+  "applications": [
+    "Topology (open sets)",
+    "Measure theory (σ-algebras)",
+    "Computer science (set operations)",
+    "Database theory (union queries)",
+    "Probability theory (event unions)"
+  ],
+  "tags": ["zfc", "axiom", "union", "set_operations", "infinite_sets"],
+  "difficulty": 6,
+  "timestamp": "2025-01-16T21:00:00Z",
+  "relationships": [
+    {
+      "type": "depends_on",
+      "target": "zfc_axiom_extensionality",
+      "strength": 0.8,
+      "description": "Uniqueness of union follows from extensionality"
+    },
+    {
+      "type": "depends_on",
+      "target": "set_membership_concept",
+      "strength": 1.0,
+      "description": "Union defined in terms of membership"
+    },
+    {
+      "type": "enables",
+      "target": "topology_foundations",
+      "strength": 0.9,
+      "description": "Topology requires arbitrary unions of open sets"
+    }
+  ],
+  "elastic_metadata": {
+    "index_name": "mathematical_concepts",
+    "doc_type": "axiom",
+    "boost": 1.5,
+    "search_fields": ["name", "informal_description", "tags", "applications"]
+  }
+}

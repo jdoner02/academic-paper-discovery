@@ -1,0 +1,129 @@
+# CSCD 210 Programming Principles I - Foundational Concepts Research Configuration
+# Based on EWU Computer Science Department Standards for Java Programming Fundamentals
+# Target: Academic research supporting introductory programming education and pedagogical best practices
+search_configuration:
+  default_strategy: "java_programming_education_fundamentals"
+  citation_threshold: 3
+  publication_date_range:
+    start_year: 2010    # Include established programming education research
+    end_year: 2025      # Latest developments in CS education
+  max_concurrent_searches: 3
+  include_preprints: false
+  exclude_terms: ["advanced algorithms", "graduate-level concepts", "research methods", "dissertation"]   # Focus on introductory-level education
+
+  java_programming_education_fundamentals:
+    name: "Java Programming Education and Pedagogical Fundamentals"
+    description: "Research on effective teaching methods for introductory Java programming, including IDE usage, syntax acquisition, and foundational concepts"
+    primary_keywords:
+      - "Java programming education"
+      - "introductory programming"
+      - "computer science pedagogy"
+      - "programming fundamentals"
+      - "Java syntax teaching"
+    secondary_keywords:
+      - "IDE usage education"
+      - "variable declaration teaching"
+      - "data types pedagogy"
+      - "command line literacy"
+      - "programming environment setup"
+      - "syntax error instruction"
+      - "debugging skills development"
+      - "code organization teaching"
+    technical_terms:
+      - "integrated development environment"
+      - "compiler error messages"
+      - "variable scope concepts"
+      - "type system education"
+      - "object-oriented fundamentals"
+      - "package organization"
+      - "naming conventions"
+      - "primitive vs reference types"
+    application_domains:
+      - "CS1 courses"
+      - "introductory programming"
+      - "undergraduate education"
+      - "novice programmers"
+      - "academic instruction"
+      - "programming pedagogy"
+    exclude_terms:
+      - "advanced Java features"
+      - "enterprise development"
+      - "framework instruction"
+
+  programming_cognitive_load_management:
+    name: "Cognitive Load Theory in Programming Education"
+    description: "Application of cognitive load theory to programming instruction, managing complexity for novice learners, and scaffolding techniques"
+    primary_keywords:
+      - "cognitive load programming"
+      - "programming cognitive theory"
+      - "novice programmer cognition"
+      - "programming complexity management"
+      - "cognitive scaffolding"
+    secondary_keywords:
+      - "working memory programming"
+      - "chunking programming concepts"
+      - "mental models programming"
+      - "cognitive overload prevention"
+      - "progressive disclosure"
+      - "concept complexity hierarchy"
+      - "prerequisite knowledge"
+      - "learning progression"
+    technical_terms:
+      - "intrinsic cognitive load"
+      - "extraneous cognitive load"
+      - "germane cognitive load"
+      - "schema construction"
+      - "automation development"
+      - "worked examples"
+      - "completion problems"
+      - "fading guidance"
+    application_domains:
+      - "introductory programming"
+      - "CS education research"
+      - "instructional design"
+      - "curriculum development"
+      - "assessment design"
+      - "learning analytics"
+    exclude_terms:
+      - "general cognitive psychology"
+      - "non-programming domains"
+      - "advanced cognition"
+
+  programming_assessment_methods:
+    name: "Programming Assessment and Evaluation Methods"
+    description: "Effective assessment strategies for introductory programming courses, including formative assessment, automated testing, and skill level evaluation"
+    primary_keywords:
+      - "programming assessment"
+      - "CS education evaluation"
+      - "programming skill measurement"
+      - "formative assessment programming"
+      - "automated program evaluation"
+    secondary_keywords:
+      - "code quality assessment"
+      - "programming rubrics"
+      - "peer code review"
+      - "self-assessment programming"
+      - "diagnostic assessment"
+      - "competency-based evaluation"
+      - "skill level progression"
+      - "mastery learning"
+    technical_terms:
+      - "automated testing frameworks"
+      - "static analysis tools"
+      - "code metrics"
+      - "test case generation"
+      - "plagiarism detection"
+      - "style checking"
+      - "compilation success rates"
+      - "error pattern analysis"
+    application_domains:
+      - "CS1 assessment"
+      - "programming courses"
+      - "online learning"
+      - "adaptive systems"
+      - "learning management systems"
+      - "educational technology"
+    exclude_terms:
+      - "general educational assessment"
+      - "standardized testing"
+      - "non-programming evaluation"

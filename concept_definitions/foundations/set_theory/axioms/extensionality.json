@@ -1,0 +1,92 @@
+{
+  "id": "zfc_axiom_extensionality",
+  "name": "Axiom of Extensionality",
+  "type": "axiom",
+  "domain": "set_theory",
+  "subdomain": "zfc_axioms",
+  "level": "undergraduate",
+  "formal_statement": "$\\forall A \\forall B (\\forall x (x \\in A \\leftrightarrow x \\in B) \\rightarrow A = B)$",
+  "informal_description": "Two sets are equal if and only if they have exactly the same elements. A set is completely determined by its members, not by how it's described or constructed.",
+  "prerequisites": ["predicate_logic", "set_membership_concept"],
+  "depends_on": ["predicate_logic", "set_membership_concept"],
+  "enables": ["set_equality", "set_operations", "all_other_zfc_axioms"],
+  "examples": [
+    {
+      "description": "Equal sets with different descriptions",
+      "formal": "$\\{x \\in \\mathbb{N} : x < 3\\} = \\{0, 1, 2\\}$",
+      "explanation": "Both describe the same set containing 0, 1, and 2",
+      "level": "high_school"
+    },
+    {
+      "description": "Order doesn't matter",
+      "formal": "$\\{1, 2, 3\\} = \\{3, 1, 2\\} = \\{2, 3, 1\\}$",
+      "explanation": "These are all the same set because they contain exactly the same elements",
+      "level": "middle_school"
+    },
+    {
+      "description": "Repetition doesn't matter",
+      "formal": "$\\{1, 2, 2, 3\\} = \\{1, 2, 3\\}$",
+      "explanation": "A set either contains an element or it doesn't - no duplicates",
+      "level": "middle_school"
+    }
+  ],
+  "counterexamples": [
+    {
+      "description": "Different sets",
+      "formal": "$\\{1, 2\\} \\neq \\{1, 2, 3\\}$",
+      "explanation": "These are not equal because one contains 3 and the other doesn't"
+    }
+  ],
+  "historical_context": "Formulated by Ernst Zermelo in 1908 as part of his axiomatization of set theory to avoid Russell's Paradox. This axiom captures the intuitive notion that sets are determined solely by their membership.",
+  "pedagogical_notes": "This seems obvious but is crucial for rigorous mathematics. Students often confuse this with how sets are constructed vs. what they contain. Emphasize that mathematical objects are defined by their properties, not their names.",
+  "proof_sketches": [
+    {
+      "type": "direct_proof",
+      "description": "Proving set equality using extensionality",
+      "steps": [
+        "To show A = B, prove $\\forall x (x \\in A \\leftrightarrow x \\in B)$",
+        "This requires showing both directions:",
+        "1) If $x \\in A$, then $x \\in B$",
+        "2) If $x \\in B$, then $x \\in A$",
+        "By extensionality, this implies A = B"
+      ],
+      "level": "undergraduate"
+    }
+  ],
+  "applications": [
+    "Defining set operations (union, intersection)",
+    "Proving set identities in algebra",
+    "Database theory (relational equivalence)",
+    "Computer science (data structure equality)",
+    "Category theory foundations"
+  ],
+  "tags": ["zfc", "axiom", "extensionality", "set_equality", "foundations"],
+  "difficulty": 5,
+  "timestamp": "2025-01-16T20:40:00Z",
+  "relationships": [
+    {
+      "type": "depends_on",
+      "target": "predicate_logic",
+      "strength": 0.9,
+      "description": "Stated using universal quantifiers and logical equivalence"
+    },
+    {
+      "type": "depends_on",
+      "target": "set_membership_concept",
+      "strength": 1.0,
+      "description": "Requires understanding of the membership relation ∈"
+    },
+    {
+      "type": "enables",
+      "target": "set_operations",
+      "strength": 0.8,
+      "description": "Needed to prove properties of union, intersection, etc."
+    }
+  ],
+  "elastic_metadata": {
+    "index_name": "mathematical_concepts",
+    "doc_type": "axiom",
+    "boost": 1.6,
+    "search_fields": ["name", "informal_description", "tags", "formal_statement"]
+  }
+}

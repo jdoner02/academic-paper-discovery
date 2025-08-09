@@ -1,0 +1,85 @@
+{
+  "id": "predicate_logic",
+  "name": "Predicate Logic First-Order Logic",
+  "type": "definition",
+  "domain": "logic",
+  "subdomain": "predicate_logic",
+  "level": "undergraduate",
+  "formal_statement": "An extension of propositional logic that includes quantifiers $\\forall$ (for all) and $\\exists$ (there exists), predicates $P(x)$, and variables $x$ that can range over objects in a domain.",
+  "informal_description": "A more powerful form of logic that can express statements about properties of objects and relationships between them, using phrases like 'for all' and 'there exists'.",
+  "prerequisites": ["propositional_logic"],
+  "depends_on": ["propositional_logic"],
+  "enables": ["set_theory_axioms", "mathematical_proof_techniques", "formal_verification"],
+  "examples": [
+    {
+      "description": "Universal quantification",
+      "formal": "$\\forall x \\in \\mathbb{N}, x + 0 = x$",
+      "explanation": "For every natural number x, adding zero gives x back",
+      "level": "high_school"
+    },
+    {
+      "description": "Existential quantification",
+      "formal": "$\\exists x \\in \\mathbb{R}, x^2 = 2$",
+      "explanation": "There exists a real number whose square is 2",
+      "level": "high_school"
+    },
+    {
+      "description": "Mixed quantifiers",
+      "formal": "$\\forall \\epsilon > 0, \\exists \\delta > 0, |x - a| < \\delta \\rightarrow |f(x) - f(a)| < \\epsilon$",
+      "explanation": "The formal definition of continuity in calculus",
+      "level": "undergraduate"
+    }
+  ],
+  "counterexamples": [
+    {
+      "description": "Quantifier order matters",
+      "formal": "$\\forall x \\exists y, x < y$ vs $\\exists y \\forall x, x < y$",
+      "explanation": "First says 'for every number, there's a bigger one'. Second says 'there's a number bigger than all numbers' (false for real numbers)"
+    }
+  ],
+  "historical_context": "Developed by Gottlob Frege in the late 19th century as part of his attempt to reduce mathematics to logic. Refined by Russell, Whitehead, and others in early 20th century.",
+  "pedagogical_notes": "Students often struggle with quantifier order and scope. Use concrete examples before abstract notation. Common error: confusing $\\forall x \\exists y$ with $\\exists y \\forall x$.",
+  "proof_sketches": [
+    {
+      "type": "semantic_reasoning",
+      "description": "Understanding quantifier semantics",
+      "steps": [
+        "Identify the domain of quantification",
+        "Translate quantifiers to English",
+        "Check truth value for all/some elements",
+        "Consider edge cases and empty domains"
+      ],
+      "level": "undergraduate"
+    }
+  ],
+  "applications": [
+    "Mathematical theorem stating",
+    "Database query languages (SQL)",
+    "Formal verification of software",
+    "Artificial intelligence reasoning",
+    "Logic programming (Prolog)"
+  ],
+  "tags": ["logic", "quantifiers", "predicates", "first_order", "formal_systems"],
+  "difficulty": 6,
+  "timestamp": "2025-01-16T20:35:00Z",
+  "relationships": [
+    {
+      "type": "depends_on",
+      "target": "propositional_logic",
+      "strength": 0.9,
+      "description": "Predicate logic extends propositional logic with quantifiers and predicates"
+    },
+    {
+      "type": "enables",
+      "target": "zfc_axiom_extensionality",
+      "strength": 0.8,
+      "description": "Set theory axioms are stated using predicate logic"
+    }
+  ],
+  "elastic_metadata": {
+    "index_name": "mathematical_concepts",
+    "doc_type": "foundation",
+    "boost": 1.4,
+    "search_fields": ["name", "informal_description", "tags", "applications"]
+  }
+}

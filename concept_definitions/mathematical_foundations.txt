@@ -1,0 +1,134 @@
+# Mathematical Foundations - Set Theory Concepts
+# Example concept definition file demonstrating the atomic concept system
+
+[ZFC_Axiom_Extensionality]
+type: axiom
+dependencies: 
+description: Two sets are equal if and only if they have the same elements
+mathematical_definition: ∀A ∀B (A = B ↔ ∀x (x ∈ A ↔ x ∈ B))
+complexity: fundamental
+subject_area: set_theory
+cognitive_load: 2
+examples: "If A = {1,2,3} and B = {3,2,1}, then A = B by extensionality", "Sets {a,b} and {b,a} are equal"
+learning_objectives: "Understand set equality", "Apply extensionality principle"
+pedagogical_notes: This is the foundation of set theory - how we determine when two sets are the same
+
+[Empty_Set]
+type: concept
+dependencies: ZFC_Axiom_Extensionality
+description: A set containing no elements, denoted ∅ or {}
+mathematical_definition: ∅ = {x : x ≠ x} = {x : False}
+complexity: basic
+subject_area: set_theory
+cognitive_load: 1
+examples: "The set of natural numbers less than 0", "The set of unicorns in reality"
+learning_objectives: "Recognize the empty set", "Use empty set in proofs"
+common_misconceptions: "Empty set is the same as zero", "Empty set contains nothing vs. contains the element 'nothing'"
+
+[Finite_Set]
+type: concept
+dependencies: Empty_Set
+description: A set with finitely many elements that can be counted
+mathematical_definition: A set S is finite if ∃n ∈ ℕ such that |S| = n
+complexity: intermediate
+subject_area: set_theory
+cognitive_load: 3
+examples: "{1, 2, 3} has cardinality 3", "The set of planets in our solar system"
+learning_objectives: "Count elements in finite sets", "Understand cardinality concept"
+assessment_criteria: "Can determine if a set is finite", "Can calculate cardinality of small sets"
+
+[Infinite_Set]
+type: concept
+dependencies: Finite_Set
+description: A set that is not finite - contains infinitely many elements
+mathematical_definition: A set S is infinite if ¬(∃n ∈ ℕ such that |S| = n)
+complexity: intermediate
+subject_area: set_theory
+cognitive_load: 4
+examples: "The set of natural numbers ℕ = {1, 2, 3, ...}", "The set of real numbers ℝ"
+learning_objectives: "Distinguish finite from infinite sets", "Work with infinite cardinalities"
+common_misconceptions: "All infinite sets have the same size", "Infinite means very large but finite"
+
+[Countable_Set]
+type: concept
+dependencies: Infinite_Set
+description: A set that can be put in one-to-one correspondence with natural numbers
+mathematical_definition: A set S is countable if ∃f: S → ℕ that is bijective, or S is finite
+complexity: advanced
+subject_area: set_theory
+cognitive_load: 6
+examples: "The integers ℤ are countable via f(n) = n/2 if even, -(n+1)/2 if odd", "The rational numbers ℚ are countable (Cantor's diagonal)"
+learning_objectives: "Prove sets are countable", "Understand bijections with ℕ"
+assessment_criteria: "Can construct bijections to ℕ", "Understands difference between countable and uncountable"
+
+[Power_Set]
+type: concept
+dependencies: Finite_Set
+description: The set of all subsets of a given set
+mathematical_definition: For set S, P(S) = {A : A ⊆ S}
+complexity: intermediate
+subject_area: set_theory
+cognitive_load: 5
+examples: "P({1,2}) = {∅, {1}, {2}, {1,2}}", "P(∅) = {∅}"
+learning_objectives: "Construct power sets", "Understand subset relationships"
+pedagogical_notes: Key concept connecting set theory to logic and computer science
+
+[Cartesian_Product]
+type: concept
+dependencies: Finite_Set
+description: The set of all ordered pairs from two sets
+mathematical_definition: A × B = {(a,b) : a ∈ A ∧ b ∈ B}
+complexity: intermediate
+subject_area: set_theory
+cognitive_load: 4
+examples: "{1,2} × {a,b} = {(1,a), (1,b), (2,a), (2,b)}", "ℝ × ℝ = ℝ² (the plane)"
+learning_objectives: "Form Cartesian products", "Understand ordered pairs"
+assessment_criteria: "Can compute Cartesian products", "Understands order significance"
+
+# Basic Logic Concepts Building on Set Theory
+
+[Logical_Conjunction]
+type: concept
+dependencies: ZFC_Axiom_Extensionality
+description: Logical AND operation, true when both operands are true
+mathematical_definition: P ∧ Q is true iff P is true and Q is true
+complexity: basic
+subject_area: logic
+cognitive_load: 2
+examples: "2 > 1 AND 3 > 2 is true", "2 > 3 AND 3 > 2 is false"
+learning_objectives: "Apply conjunction correctly", "Build compound statements"
+
+[Logical_Disjunction]
+type: concept
+dependencies: Logical_Conjunction
+description: Logical OR operation, true when at least one operand is true
+mathematical_definition: P ∨ Q is true iff P is true or Q is true (or both)
+complexity: basic
+subject_area: logic
+cognitive_load: 2
+examples: "2 > 1 OR 2 > 3 is true", "1 > 2 OR 3 > 4 is false"
+learning_objectives: "Apply disjunction correctly", "Distinguish inclusive vs exclusive OR"
+
+[Universal_Quantification]
+type: concept
+dependencies: Logical_Conjunction, Finite_Set
+description: Statement that a property holds for all elements in a domain
+mathematical_definition: ∀x ∈ D, P(x) means P(x) is true for every x in domain D
+complexity: advanced
+subject_area: logic
+cognitive_load: 7
+examples: "∀n ∈ ℕ, n ≥ 1 (all natural numbers are at least 1)", "∀x ∈ ℝ, x² ≥ 0"
+learning_objectives: "Write universal statements", "Prove universal properties"
+assessment_criteria: "Can negate universal statements", "Understands quantifier scope"
+
+[Existential_Quantification]
+type: concept
+dependencies: Logical_Disjunction, Finite_Set
+description: Statement that a property holds for at least one element in a domain
+mathematical_definition: ∃x ∈ D, P(x) means P(x) is true for some x in domain D
+complexity: advanced
+subject_area: logic
+cognitive_load: 7
+examples: "∃n ∈ ℕ, n > 100 (there exists a natural number greater than 100)", "∃x ∈ ℝ, x² = 2"
+learning_objectives: "Write existential statements", "Provide existence proofs"
+assessment_criteria: "Can negate existential statements", "Constructs examples vs. counterexamples"
