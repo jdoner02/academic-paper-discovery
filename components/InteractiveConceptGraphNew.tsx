@@ -123,7 +123,7 @@ const InteractiveConceptGraph: React.FC = () => {
    * for data loading in production applications. We use relative paths to ensure 
    * compatibility with GitHub Pages subdirectory deployment.
    */
-  const loadConceptData = useCallback(async () => {
+  const loadConceptData = async () => {
     console.log('� loadConceptData function called!');
     console.log('�🔄 Starting data load...');
     setIsLoading(true);
@@ -182,7 +182,7 @@ const InteractiveConceptGraph: React.FC = () => {
       console.log('🏁 Data loading finished, setting loading to false');
       setIsLoading(false);
     }
-  }, []);
+  };
 
   /**
    * Filter nodes based on current search and filter criteria
@@ -368,7 +368,7 @@ const InteractiveConceptGraph: React.FC = () => {
   useEffect(() => {
     console.log('🚀 useEffect called - about to load concept data');
     loadConceptData();
-  }, [loadConceptData]);
+  }, []); // Remove dependency on loadConceptData
 
   // Update visualization when filtered data changes
   useEffect(() => {
