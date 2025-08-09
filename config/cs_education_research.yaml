@@ -1,0 +1,254 @@
+# Computer Science Education Research Configuration
+# Focus: Programming Education, OOP Pedagogy, Assessment Methods, and Learning Analytics
+# Academic Rigor: Evidence-based teaching methods for computer science education
+
+search_configuration:
+  default_strategy: "oop_programming_education_research"
+  citation_threshold: 10
+  publication_date_range:
+    start_year: 2010    # Include foundational CS education research
+    end_year: 2025      # Latest developments in programming education
+  max_concurrent_searches: 4
+  include_preprints: false  # Focus on peer-reviewed education research
+  exclude_terms: ["general education theory", "non-programming courses", "elementary education"]
+
+strategies:
+  oop_programming_education_research:
+    name: "Object-Oriented Programming Education and Pedagogy"
+    description: "Evidence-based research on teaching object-oriented programming concepts, misconceptions, assessment methods, and learning progression"
+    primary_keywords:
+      - "object oriented programming education"
+      - "OOP teaching methods"
+      - "programming pedagogy"
+      - "CS education research"
+      - "object oriented design education"
+    secondary_keywords:
+      - "programming misconceptions"
+      - "OOP learning difficulties"
+      - "class design teaching"
+      - "inheritance education"
+      - "polymorphism instruction"
+      - "encapsulation pedagogy"
+      - "abstraction teaching"
+      - "programming assessment"
+    technical_terms:
+      - "mental models programming"
+      - "conceptual understanding OOP"
+      - "programming language pedagogy"
+      - "code comprehension"
+      - "program design education"
+      - "software engineering education"
+      - "programming methodology"
+      - "collaborative programming"
+    application_domains:
+      - "CS1 CS2 courses"
+      - "undergraduate programming"
+      - "intermediate programming"
+      - "computer science curriculum"
+      - "programming language instruction"
+      - "software development education"
+    exclude_terms:
+      - "advanced software engineering"
+      - "graduate level courses"
+      - "professional development training"
+
+  programming_assessment_evaluation:
+    name: "Programming Assessment and Learning Analytics"
+    description: "Research on assessment methods, automated grading, learning analytics, and evaluation techniques for programming education"
+    primary_keywords:
+      - "programming assessment"
+      - "automated code evaluation"
+      - "CS education assessment"
+      - "programming learning analytics"
+      - "code quality assessment"
+    secondary_keywords:
+      - "automated grading systems"
+      - "programming rubrics"
+      - "competency-based assessment"
+      - "formative assessment programming"
+      - "peer assessment programming"
+      - "programming portfolio assessment"
+      - "mastery learning programming"
+      - "adaptive assessment"
+    technical_terms:
+      - "static code analysis education"
+      - "program correctness evaluation"
+      - "learning outcome measurement"
+      - "skill progression tracking"
+      - "debugging skill assessment"
+      - "code review pedagogy"
+      - "programming competency models"
+      - "learning pathway analysis"
+    application_domains:
+      - "computer science assessment"
+      - "programming skill evaluation"
+      - "educational technology"
+      - "learning management systems"
+      - "curriculum evaluation"
+      - "educational data mining"
+    exclude_terms:
+      - "standardized testing"
+      - "high-stakes assessment"
+      - "commercial grading systems"
+
+  cs_education_misconceptions_research:
+    name: "Programming Misconceptions and Cognitive Science"
+    description: "Research on common misconceptions in programming, cognitive load theory, mental models, and learning progression in computer science"
+    primary_keywords:
+      - "programming misconceptions"
+      - "CS education cognitive science"
+      - "mental models programming"
+      - "learning progression CS"
+      - "programming concepts understanding"
+    secondary_keywords:
+      - "novice programmer difficulties"
+      - "expert novice differences programming"
+      - "cognitive load programming"
+      - "programming language confusion"
+      - "variable concept understanding"
+      - "loop concept misconceptions"
+      - "function parameter understanding"
+      - "object concept formation"
+    technical_terms:
+      - "threshold concepts programming"
+      - "conceptual change programming"
+      - "epistemological beliefs programming"
+      - "metacognitive awareness programming"
+      - "debugging misconceptions"
+      - "syntax semantic confusion"
+      - "program execution models"
+      - "notional machine concepts"
+    application_domains:
+      - "cognitive science education"
+      - "programming psychology"
+      - "educational psychology CS"
+      - "learning sciences programming"
+      - "instructional design programming"
+      - "curriculum development CS"
+    exclude_terms:
+      - "general cognitive psychology"
+      - "non-programming domains"
+      - "advanced cognitive theories"
+
+  programming_pedagogy_methodologies:
+    name: "Programming Teaching Methodologies and Instructional Design"
+    description: "Research on effective teaching methods, pedagogical approaches, collaborative learning, and instructional strategies for programming education"
+    primary_keywords:
+      - "programming teaching methods"
+      - "CS pedagogy research"
+      - "instructional design programming"
+      - "collaborative programming education"
+      - "active learning programming"
+    secondary_keywords:
+      - "pair programming education"
+      - "peer instruction programming"
+      - "flipped classroom programming"
+      - "problem-based learning CS"
+      - "project-based learning programming"
+      - "scaffolding programming education"
+      - "inquiry-based programming"
+      - "constructivist programming education"
+    technical_terms:
+      - "live coding pedagogy"
+      - "code tracing exercises"
+      - "worked examples programming"
+      - "cognitive apprenticeship programming"
+      - "legitimate peripheral participation"
+      - "zone of proximal development"
+      - "distributed cognition programming"
+      - "situated learning programming"
+    application_domains:
+      - "programming instruction"
+      - "CS course design"
+      - "educational technology programming"
+      - "online programming education"
+      - "blended learning CS"
+      - "inclusive programming education"
+    exclude_terms:
+      - "general teaching methods"
+      - "non-STEM education"
+      - "elementary education methods"
+
+  cs_curriculum_design_research:
+    name: "Computer Science Curriculum Design and Standards"
+    description: "Research on CS curriculum frameworks, learning objectives, course sequencing, and educational standards for programming education"
+    primary_keywords:
+      - "CS curriculum design"
+      - "programming curriculum research"
+      - "computer science standards"
+      - "CS course sequence"
+      - "learning objectives programming"
+    secondary_keywords:
+      - "ACM curriculum guidelines"
+      - "IEEE CS curriculum"
+      - "Bloom taxonomy programming"
+      - "competency frameworks CS"
+      - "learning outcome mapping"
+      - "prerequisite relationships CS"
+      - "curriculum alignment CS"
+      - "program design CS education"
+    technical_terms:
+      - "constructive alignment CS"
+      - "backward design programming"
+      - "curriculum coherence CS"
+      - "vertical integration programming"
+      - "horizontal integration CS"
+      - "skill progression models"
+      - "knowledge representation CS"
+      - "concept mapping programming"
+    application_domains:
+      - "undergraduate CS programs"
+      - "CS degree requirements"
+      - "professional skill development"
+      - "industry alignment CS"
+      - "transfer student pathways"
+      - "articulation agreements CS"
+    exclude_terms:
+      - "K-12 computer science"
+      - "graduate CS curriculum"
+      - "vocational training"
+
+# Publication venues known for high-quality CS education research
+preferred_venues:
+  conferences:
+    - "SIGCSE Technical Symposium"
+    - "Innovation and Technology in Computer Science Education (ITiCSE)"
+    - "International Computing Education Research Conference (ICER)"
+    - "Australasian Computing Education Conference (ACE)"
+    - "Frontiers in Education (FIE)"
+    - "IEEE Global Engineering Education Conference (EDUCON)"
+  journals:
+    - "Computer Science Education"
+    - "ACM Transactions on Computing Education"
+    - "Computers & Education"
+    - "Journal of Educational Computing Research"
+    - "Educational Technology Research and Development"
+    - "International Journal of Engineering Education"
+
+# Quality filters for academic rigor
+quality_filters:
+  minimum_citations: 5
+  peer_reviewed_only: true
+  exclude_workshop_papers: false  # Include workshops as they often have innovative ideas
+  minimum_page_count: 6
+  include_systematic_reviews: true
+  include_meta_analyses: true
+  exclude_position_papers: false  # Include position papers for emerging ideas
+
+# Research focus areas aligned with our CSCD 211 content
+focus_areas:
+  primary:
+    - "object-oriented programming education"
+    - "programming assessment methods"
+    - "CS education misconceptions"
+    - "programming pedagogy"
+  secondary:
+    - "Java programming education"
+    - "intermediate programming courses"
+    - "CS2 course design"
+    - "programming language education"
+  emerging:
+    - "AI-assisted programming education"
+    - "learning analytics programming"
+    - "adaptive learning systems CS"
+    - "personalized programming instruction"

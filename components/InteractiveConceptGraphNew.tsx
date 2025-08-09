@@ -124,7 +124,7 @@ const InteractiveConceptGraph: React.FC = () => {
         });
         
         // Extract unique domains for filtering
-        const domains = [...new Set(data.nodes.map((n: ConceptNode) => n.source_domain))];
+        const domains = [...new Set(data.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
         setAvailableDomains(domains);
         return;
       }
@@ -146,7 +146,7 @@ const InteractiveConceptGraph: React.FC = () => {
         links: apiData.links || [] 
       });
       
-      const domains = [...new Set(apiData.nodes.map((n: ConceptNode) => n.source_domain))];
+      const domains = [...new Set(apiData.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
       setAvailableDomains(domains);
       
     } catch (err) {
@@ -230,7 +230,7 @@ const InteractiveConceptGraph: React.FC = () => {
         .strength((d: ConceptLink) => (d.strength || 0.5) * 0.7))
       .force('charge', d3.forceManyBody().strength(-300))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius((d: ConceptNode) => (d.size || 10) + 5));
+      .force('collision', d3.forceCollide().radius((d: any) => ((d as ConceptNode).size || 10) + 5));
 
     simulationRef.current = simulation;
 

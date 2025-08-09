@@ -150,30 +150,6 @@ const InteractiveConceptGraph: React.FC = () => {
       setIsLoading(false);
     }
   }, []);
-          text: 'Healthcare Security',
-          frequency: 76,
-          relevance_score: 0.84,
-          source_domain: 'healthcare_privacy_compliance',
-          source_papers: ['HIPAA Compliance in Digital Health'],
-          extraction_method: 'embedding'
-        }
-      ];
-
-      const mockLinks: ConceptLink[] = [
-        { source: 'neural-networks', target: 'machine-learning', strength: 0.8, relationship_type: 'implements' },
-        { source: 'intrusion-detection', target: 'machine-learning', strength: 0.7, relationship_type: 'uses' },
-        { source: 'neural-networks', target: 'intrusion-detection', strength: 0.9, relationship_type: 'enables' },
-        { source: 'quantum-cryptography', target: 'encryption', strength: 0.95, relationship_type: 'enhances' },
-        { source: 'iot-security', target: 'intrusion-detection', strength: 0.6, relationship_type: 'requires' },
-        { source: 'water-infrastructure', target: 'iot-security', strength: 0.7, relationship_type: 'depends_on' },
-        { source: 'healthcare-security', target: 'encryption', strength: 0.8, relationship_type: 'requires' }
-      ];
-
-      setGraphData({ nodes: mockNodes, links: mockLinks });
-    } finally {
-      setIsLoading(false);
-    }
-  }, []);
 
   /**
    * Filter nodes based on current search and filter criteria
