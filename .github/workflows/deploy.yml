@@ -18,7 +18,7 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     
     environment:
@@ -29,13 +29,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js application
+        run: npm run build
+        env:
+          NODE_ENV: production
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          static_site_generator: next
 
-      - name: Upload static files
+      - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './out'
 
       - name: Deploy to GitHub Pages
         id: deployment
