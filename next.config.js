@@ -9,8 +9,8 @@ const nextConfig = {
   // Only enable static export for production builds, not development
   ...(process.env.NODE_ENV === 'production' && {
     output: 'export', // Enable static export for GitHub Pages
-    assetPrefix: '/academic-paper-discovery',
-    basePath: '/academic-paper-discovery',
+    // Removed assetPrefix and basePath to fix GitHub Pages routing
+    // GitHub Pages will handle the subdirectory automatically
   }),
   
   // Set custom pages directory for Clean Architecture organization
