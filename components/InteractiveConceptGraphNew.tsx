@@ -112,22 +112,38 @@ const InteractiveConceptGraph: React.FC = () => {
    * compatibility with GitHub Pages subdirectory deployment.
    */
   const loadConceptData = useCallback(async () => {
+    console.log('🔄 Starting data load...');
     setIsLoading(true);
     setError(null);
 
     try {
       // Use relative path for GitHub Pages compatibility
       // This resolves to /academic-paper-discovery/data/concept-graph-data.json in production
+      console.log('📡 Fetching data from ./data/concept-graph-data.json');
       const response = await fetch('./data/concept-graph-data.json');
+      console.log('📡 Response status:', response.status, response.statusText);
+      
       if (response.ok) {
+        console.log('✅ Response OK, parsing JSON...');
         const data = await response.json();
+        console.log('📊 Raw data structure:', {
+          hasNodes: !!data.nodes,
+          nodeCount: data.nodes?.length,
+          hasLinks: !!data.links,
+          linkCount: data.links?.length,
+          sampleNode: data.nodes?.[0]
+        });
         
         // Validate data structure for educational transparency
         if (!data.nodes || !Array.isArray(data.nodes)) {
           throw new Error('Invalid data structure: nodes array missing');
         }
         
-        console.log(`Loaded ${data.nodes.length} concepts from ${data.links?.length || 0} relationships`);
+        if (data.nodes.length === 0) {
+          throw new Error('No concept nodes found in data');
+        }
+        
+        console.log(`✅ Loaded ${data.nodes.length} concepts from ${data.links?.length || 0} relationships`);
         
         setGraphData({ 
           nodes: data.nodes, 
@@ -137,17 +153,20 @@ const InteractiveConceptGraph: React.FC = () => {
         // Extract unique domains for filtering - demonstrates functional programming
         const domains = [...new Set(data.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
         setAvailableDomains(domains);
+        console.log('🎯 Available domains:', domains);
         return;
       }
       
       // No fallback - static site deployment doesn't support API endpoints
-      throw new Error('Concept graph data not found at ./data/concept-graph-data.json');
+      throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
       
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to load concept data');
-      console.error('Error loading concept data:', err);
+      console.error('❌ Error loading concept data:', err);
+      const errorMessage = err instanceof Error ? err.message : 'Failed to load concept data';
+      setError(errorMessage);
       setGraphData({ nodes: [], links: [] });
     } finally {
+      console.log('🏁 Data loading finished, setting loading to false');
       setIsLoading(false);
     }
   }, []);
