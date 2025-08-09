@@ -223,7 +223,19 @@ const InteractiveConceptGraph: React.FC = () => {
    * Initialize and update the D3 force simulation
    */
   const updateVisualization = useCallback(() => {
-    if (!svgRef.current || filteredNodes.length === 0) return;
+    console.log('🎨 updateVisualization called:', { 
+      hasGraphData: graphData.nodes.length > 0,
+      filteredNodesLength: filteredNodes.length,
+      filteredLinksLength: filteredLinks.length,
+      hasSvgRef: !!svgRef.current 
+    });
+    
+    if (!svgRef.current || filteredNodes.length === 0) {
+      console.log('⏭️ Skipping visualization - missing requirements');
+      return;
+    }
+    
+    console.log('🎯 Creating D3 visualization...');
 
     const svg = d3.select(svgRef.current);
     const width = 1200;
