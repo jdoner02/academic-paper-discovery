@@ -1,33 +1,44 @@
+/**
+ * Next.js configuration used by both development and production builds.
+ *
+ * The configuration is intentionally verbose to teach how each option affects
+ * deployment.  Variables declared above the exported object keep related
+ * values grouped and make the conditional logic easier to read.
+ */
+
+// GitHub Pages serves the site from a subdirectory named after the repository.
+// In production we prefix all asset URLs with this directory so that
+// `https://<user>.github.io/academic-paper-discovery/` can locate the static
+// files.  During local development we keep paths root‑relative for simplicity.
+const repoName = 'academic-paper-discovery';
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const nextConfig = {
+  // Enforces additional React runtime checks which highlight common mistakes.
   reactStrictMode: true,
+  // Uses the faster SWC compiler for minification rather than terser.
   swcMinify: true,
+  // Ensures every route ends with a trailing slash, matching GitHub Pages
+  // behaviour and avoiding duplicate content issues.
   trailingSlash: true,
   images: {
-    unoptimized: true, // Required for static export to GitHub Pages
+    // GitHub Pages is a static host and cannot run Next.js' dynamic image
+    // optimisation pipeline, so images are served as‑is.
+    unoptimized: true,
   },
-  // Only enable static export for production builds, not development
-  ...(process.env.NODE_ENV === 'production' && {
-    output: 'export', // Enable static export for GitHub Pages
-    // When hosting from a subdirectory (such as GitHub Pages) Next.js needs to
-    // know the mount point so it can generate correct links to scripts and
-    // assets. The assetPrefix mirrors the basePath with a trailing slash.
-    basePath,
-    assetPrefix: `${basePath}/`,
-    // Force cache busting for JavaScript chunks
-    generateBuildId: () => Date.now().toString()
   }),
   
   // Set custom pages directory for Clean Architecture organization
   pageExtensions: ['tsx', 'ts'],
   
-  // Educational Note: Configuration optimized for GitHub Pages deployment
-  // - Static export eliminates need for Node.js server
-  // - Asset prefix handles GitHub Pages subdirectory routing
-  // - Image optimization disabled for static hosting compatibility
-  // - Trailing slash ensures consistent routing behavior
+  // Educational Note: Configuration optimised for GitHub Pages deployment
+  // - Static export eliminates need for a Node.js server.
+  // - `assetPrefix` and `basePath` route requests to the correct subdirectory.
+  // - Image optimisation is disabled to suit static hosting.
+  // - Trailing slashes keep navigation consistent across environments.
   
   // Webpack configuration for Clean Architecture path aliases
   webpack: (config) => {
