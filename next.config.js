@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -9,8 +11,11 @@ const nextConfig = {
   // Only enable static export for production builds, not development
   ...(process.env.NODE_ENV === 'production' && {
     output: 'export', // Enable static export for GitHub Pages
-    // Removed assetPrefix and basePath to fix GitHub Pages routing
-    // GitHub Pages will handle the subdirectory automatically
+    // When hosting from a subdirectory (such as GitHub Pages) Next.js needs to
+    // know the mount point so it can generate correct links to scripts and
+    // assets. The assetPrefix mirrors the basePath with a trailing slash.
+    basePath,
+    assetPrefix: `${basePath}/`,
     // Force cache busting for JavaScript chunks
     generateBuildId: () => Date.now().toString()
   }),
@@ -41,6 +46,9 @@ const nextConfig = {
   // Environment variables for configuration
   env: {
     CUSTOM_KEY: 'my-value',
+    // Expose the base path to client-side code so fetches can build URLs that
+    // work both locally and in production.
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
