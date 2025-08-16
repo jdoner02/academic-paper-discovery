@@ -39,6 +39,20 @@ The `fetchGraphData` service loads this file using an absolute path (`/data/...`
 so the application functions correctly whether served from the domain root or a
 sub‑path such as GitHub Pages.
 
+### Deployment
+When hosting the exported site on GitHub Pages the files live under a URL that
+includes the repository name (for example
+`https://<user>.github.io/academic-paper-discovery/`).
+
+The `next.config.js` file contains a small snippet that sets both `assetPrefix`
+and `basePath` to this repository name during production builds.  These options
+instruct Next.js to prefix every JavaScript, CSS and image request with the
+sub‑directory so the browser can locate them.  If you fork this project, update
+the `repoName` constant near the top of that configuration file to match your
+new repository.  Skipping this step typically results in 404 errors for files
+like `index-*.js`, `_buildManifest.js` and `_ssgManifest.js` when viewing the
+deployed site.
+
 ## Testing
 ```bash
 # JavaScript/TypeScript tests
