@@ -23,39 +23,8 @@
 
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import * as d3 from 'd3';
-
-// Type definitions for concept graph data
-interface ConceptNode {
-  id: string;
-  text: string;
-  display_text?: string;
-  frequency: number;
-  relevance_score: number;
-  source_domain: string;
-  source_papers: string[];
-  extraction_method: string;
-  size?: number;
-  color?: string;
-  x?: number;
-  y?: number;
-  fx?: number | null;
-  fy?: number | null;
-}
-
-interface ConceptLink {
-  source: string | ConceptNode;
-  target: string | ConceptNode;
-  strength: number;
-  relationship_type: string;
-  weight?: number;
-}
-
-interface GraphData {
-  nodes: ConceptNode[];
-  links: ConceptLink[];
-  domains?: string[];
-  metadata?: any;
-}
+import { ConceptNode, ConceptLink, GraphData } from '../types/conceptGraph';
+import { fetchGraphData } from '../services/graphDataService';
 
 // Domain color mapping for consistent visualization
 const DOMAIN_COLORS: { [key: string]: string } = {
@@ -117,62 +86,32 @@ const InteractiveConceptGraph: React.FC = () => {
   const simulationRef = useRef<d3.Simulation<ConceptNode, ConceptLink> | null>(null);
 
   /**
-   * Load concept data from prepared JSON files
-   * 
-   * Educational Note: This demonstrates proper error handling and fallback strategies
-   * for data loading in production applications. We use relative paths to ensure 
-   * compatibility with GitHub Pages subdirectory deployment.
+   * Load concept data from the static JSON file.
+   *
+   * The heavy lifting is delegated to the {@link fetchGraphData} service which
+   * hides the details of talking to the network and validating the response.
+   * This keeps the React component focused on rendering, illustrating the
+   * Separation of Concerns principle.
    */
   const loadConceptData = async () => {
-    console.log('� loadConceptData function called!');
-    console.log('�🔄 Starting data load...');
+    console.log('🔄 Starting data load...');
     setIsLoading(true);
     setError(null);
 
     try {
-      // Use relative path for GitHub Pages compatibility
-      // This resolves to /academic-paper-discovery/data/concept-graph-data.json in production
-      console.log('📡 Fetching data from ./data/concept-graph-data.json');
-      const response = await fetch('./data/concept-graph-data.json');
-      console.log('📡 Response status:', response.status, response.statusText);
-      
-      if (response.ok) {
-        console.log('✅ Response OK, parsing JSON...');
-        const data = await response.json();
-        console.log('📊 Raw data structure:', {
-          hasNodes: !!data.nodes,
-          nodeCount: data.nodes?.length,
-          hasLinks: !!data.links,
-          linkCount: data.links?.length,
-          sampleNode: data.nodes?.[0]
-        });
-        
-        // Validate data structure for educational transparency
-        if (!data.nodes || !Array.isArray(data.nodes)) {
-          throw new Error('Invalid data structure: nodes array missing');
-        }
-        
-        if (data.nodes.length === 0) {
-          throw new Error('No concept nodes found in data');
-        }
-        
-        console.log(`✅ Loaded ${data.nodes.length} concepts from ${data.links?.length || 0} relationships`);
-        
-        setGraphData({ 
-          nodes: data.nodes, 
-          links: data.links || [] 
-        });
-        
-        // Extract unique domains for filtering - demonstrates functional programming
-        const domains = [...new Set(data.nodes.map((n: ConceptNode) => n.source_domain))].filter(Boolean) as string[];
-        setAvailableDomains(domains);
-        console.log('🎯 Available domains:', domains);
-        return;
-      }
-      
-      // No fallback - static site deployment doesn't support API endpoints
-      throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
-      
+      // Fetch and validate the dataset. The default URL inside the service
+      // uses an absolute path (/data/...), which works regardless of the
+      // current route—crucial for Next.js static deployments such as GitHub Pages.
+      const data = await fetchGraphData();
+      console.log(`✅ Loaded ${data.nodes.length} nodes`);
+
+      setGraphData(data);
+
+      // Derive list of domains for the filter UI. The Array.from + Set pattern
+      // demonstrates basic functional programming in TypeScript.
+      const domains = Array.from(new Set(data.nodes.map((n) => n.source_domain))).filter(Boolean) as string[];
+      setAvailableDomains(domains);
+      console.log('🎯 Available domains:', domains);
     } catch (err) {
       console.error('❌ Error loading concept data:', err);
       const errorMessage = err instanceof Error ? err.message : 'Failed to load concept data';
