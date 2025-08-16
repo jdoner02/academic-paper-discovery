@@ -14,6 +14,8 @@ const repoName = 'academic-paper-discovery';
 const isProd = process.env.NODE_ENV === 'production';
 
 /** @type {import('next').NextConfig} */
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const nextConfig = {
   // Enforces additional React runtime checks which highlight common mistakes.
   reactStrictMode: true,
@@ -27,22 +29,6 @@ const nextConfig = {
     // optimisation pipeline, so images are served as‑is.
     unoptimized: true,
   },
-  // Only enable static export and path rewriting for production builds.  This
-  // block is omitted in development where a Node server provides assets
-  // directly.
-  ...(isProd && {
-    // Produce plain HTML/JS/CSS that can be hosted without a Node server.
-    output: 'export',
-    // Prefix all built assets with the repository name so that requests such as
-    // `/_next/static/...` resolve correctly when the site is served from
-    // `/academic-paper-discovery` instead of the domain root.  Without this the
-    // browser would request files from the wrong location and show 404 errors
-    // like the ones in the problem statement.
-    assetPrefix: `/${repoName}/`,
-    basePath: `/${repoName}`,
-    // Simple cache‑busting strategy: change build ID each deployment so browsers
-    // fetch the latest JavaScript bundles.
-    generateBuildId: () => Date.now().toString(),
   }),
   
   // Set custom pages directory for Clean Architecture organization
@@ -71,6 +57,9 @@ const nextConfig = {
   // Environment variables for configuration
   env: {
     CUSTOM_KEY: 'my-value',
+    // Expose the base path to client-side code so fetches can build URLs that
+    // work both locally and in production.
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
