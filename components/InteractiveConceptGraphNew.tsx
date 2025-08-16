@@ -322,7 +322,14 @@ const InteractiveConceptGraph: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-50">
+      <div
+        className="fixed inset-0 flex items-center justify-center bg-gray-50 z-50"
+      >
+        {/*
+          z-50 ensures the spinner sits above all other content while data is
+          loading. Because the element is fixed and covers the viewport, the
+          user cannot interact with partially rendered UI underneath.
+        */}
         <div className="text-center">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600">Loading concept graph...</p>
@@ -333,12 +340,18 @@ const InteractiveConceptGraph: React.FC = () => {
 
   if (error) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-50">
+      <div
+        className="fixed inset-0 flex items-center justify-center bg-gray-50 z-50"
+      >
+        {/*
+          Error overlays are layered like the loading state so they remain
+          readable even if the graph underneath attempted to render.
+        */}
         <div className="text-center max-w-md">
           <div className="text-red-600 text-6xl mb-4">⚠️</div>
           <h2 className="text-xl font-bold text-gray-800 mb-2">Failed to Load Data</h2>
           <p className="text-gray-600 mb-4">{error}</p>
-          <button 
+          <button
             onClick={loadConceptData}
             className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
           >
@@ -350,9 +363,13 @@ const InteractiveConceptGraph: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 relative">
       {/* Header with controls */}
-      <div className="bg-white shadow-sm border-b">
+      <div className="bg-white shadow-sm border-b relative z-20">
+        {/*
+          z-20 places the header above the graph canvas so the controls remain
+          clickable after the visualization mounts.
+        */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0">
             <div>
@@ -407,18 +424,21 @@ const InteractiveConceptGraph: React.FC = () => {
       </div>
 
       {/* Main visualization area */}
-      <div className="flex">
+      <div className="flex relative z-10">
         <div className="flex-1">
           <svg
             ref={svgRef}
-            className="w-full"
+            className="w-full relative z-0"
             style={{ height: 'calc(100vh - 120px)' }}
           />
         </div>
-        
+
         {/* Sidebar for selected node details */}
         {selectedNode && (
-          <div className="w-80 bg-white border-l border-gray-200 p-6 overflow-y-auto" style={{ height: 'calc(100vh - 120px)' }}>
+          <div
+            className="w-80 bg-white border-l border-gray-200 p-6 overflow-y-auto relative z-20"
+            style={{ height: 'calc(100vh - 120px)' }}
+          >
             <div className="mb-4">
               <button
                 onClick={() => setSelectedNode(null)}
@@ -469,7 +489,12 @@ const InteractiveConceptGraph: React.FC = () => {
       </div>
       
       {/* Domain legend */}
-      <div className="fixed bottom-4 left-4 bg-white rounded-lg shadow-lg p-4 max-w-xs">
+      <div className="fixed bottom-4 left-4 bg-white rounded-lg shadow-lg p-4 max-w-xs z-30">
+        {/*
+          The legend floats above the visualization (z-30) but below the loading
+          or error overlays. This ordering keeps it visible without blocking
+          full-screen alerts.
+        */}
         <h4 className="font-semibold text-gray-900 mb-2">Research Domains</h4>
         <div className="grid grid-cols-1 gap-1 text-xs">
           {Object.entries(DOMAIN_COLORS).slice(0, -1).map(([domain, color]) => (
