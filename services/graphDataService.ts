@@ -13,10 +13,12 @@ import { GraphData } from '../types/conceptGraph';
  * @returns A Promise resolving to the strongly typed GraphData object.
  */
 export async function fetchGraphData(
-  url = '/data/concept-graph-data.json'
+  url = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/data/concept-graph-data.json`
 ): Promise<GraphData> {
-  // Perform the HTTP request using the browser's Fetch API.  In a Next.js client
-  // component this API is globally available.
+  // The default URL pulls in an optional NEXT_PUBLIC_BASE_PATH environment
+  // variable. Static sites often live inside a subdirectory, so this approach
+  // lets the same code fetch the dataset whether the app is served from the
+  // domain root or from a nested folder.
   const response = await fetch(url);
 
   // Guard clause: immediately report network failures to the caller.
